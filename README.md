@@ -32,7 +32,7 @@ Use `npm run preview` to inspect the production build. Deploy `dist/` to a stati
 
 - Confirmed contact channels: WhatsApp `5534998910880` and Instagram `@uberpeixesornamentais`.
 - No address, business hours, inventory, prices or customer testimonials have been invented.
-- Google links currently open a **search for Uberpeixes Ornamentais**, not a verified business profile. Visitors must select the correct profile to view its location and real reviews. Replace the `maps` constant in `src/pages/index.astro` with the owner's verified Google Maps profile URL when supplied. Never substitute fabricated ratings or reviews.
+- Location and review links open the official Google Maps profile supplied by the owner: `https://maps.app.goo.gl/zRgtCTnjvL8xZGiH7`. Visitors can consult real reviews in the profile’s Reviews tab. No ratings or testimonials are copied or fabricated.
 - The wordmark, favicon and CSS fish illustration are provisional original graphics, not an official logo or photographs. Replace the header/footer wordmarks with an authorized logo when available, keeping accessible text.
 - Photo areas are visibly labeled placeholders. Replace them with authorized local images, descriptive alternative text, explicit dimensions and optimized Astro image output. The hero illustration is also labeled as a future photo space.
 - No Zleep Baby project files or assets were used. Fonts use local system fallbacks; no external font service is required.

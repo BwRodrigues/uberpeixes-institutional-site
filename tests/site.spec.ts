@@ -29,7 +29,7 @@ test("renders the institutional content without overflow or runtime errors", asy
   expect(errors).toEqual([]);
 });
 
-test("provides the supplied contact channels and honest Google search links", async ({
+test("provides the supplied contact channels and official Google Maps profile", async ({
   page,
 }) => {
   await page.goto("/");
@@ -44,7 +44,7 @@ test("provides the supplied contact channels and honest Google search links", as
   ]) {
     await expect(page.getByRole("link", { name: label })).toHaveAttribute(
       "href",
-      "https://www.google.com/maps/search/?api=1&query=Uberpeixes+Ornamentais",
+      "https://maps.app.goo.gl/zRgtCTnjvL8xZGiH7",
     );
   }
   for (const link of await page.locator('a[target="_blank"]').all()) {
