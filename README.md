@@ -37,7 +37,7 @@ The stylesheet centralizes the logo-inspired palette in `:root`: indigo `#45409b
 - Confirmed contact channels: WhatsApp `5534998910880` and Instagram `@uberpeixesornamentais`.
 - No address, business hours, inventory, prices or customer testimonials have been invented.
 - Location and review links open the official Google Maps profile supplied by the owner: `https://maps.app.goo.gl/zRgtCTnjvL8xZGiH7`. Visitors can consult real reviews in the profile’s Reviews tab. No ratings or testimonials are copied or fabricated.
-- The original logo supplied by the owner is in `src/assets/logo-uberpeixes.png` and appears in the header and footer. Its white margins are framed with CSS without modifying the artwork. The favicon remains a provisional fish icon.
+- The original logo supplied by the owner is in `src/assets/logo-uberpeixes.png` and appears in the header and footer. Its white margins are framed with CSS without modifying the artwork. The favicon embeds this exact original PNG inside an SVG, framing only the white margins in a square viewport. It preserves the complete logo and its proportions without adding shapes, borders, or decorative elements.
 - The owner-supplied entrance photograph is in `src/assets/entrada-uberpeixes.jpg` and is displayed in the hero. Astro generates responsive WebP variants with explicit dimensions and alternative text. The originals are preserved; visual framing uses CSS. The remaining gallery areas are visibly labeled placeholders awaiting additional photographs.
 - No Zleep Baby project files or assets were used. Fonts use local system fallbacks; no external font service is required.
 - Footer credit: “Desenvolvido por Brendow Rodrigues”.
