@@ -26,6 +26,25 @@ test("renders the institutional content without overflow or runtime errors", asy
       () => document.documentElement.scrollWidth <= window.innerWidth,
     ),
   ).toBe(true);
+  const entrance = page.getByRole("img", {
+    name: /Entrada da Uberpeixes Ornamentais/,
+  });
+  await expect(entrance).toBeVisible();
+  await expect(entrance).toHaveAttribute("srcset", /375w/);
+  const logos = page.getByRole("img", {
+    name: "Uberpeixes — peixes ornamentais",
+    exact: true,
+  });
+  await expect(logos).toHaveCount(2);
+  for (const image of [entrance, ...(await logos.all())]) {
+    await expect(image).toBeVisible();
+    expect(
+      await image.evaluate(
+        (element: HTMLImageElement) =>
+          element.complete && element.naturalWidth > 0,
+      ),
+    ).toBe(true);
+  }
   expect(errors).toEqual([]);
 });
 
