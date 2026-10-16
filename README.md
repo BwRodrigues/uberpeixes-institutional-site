@@ -28,6 +28,10 @@ PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH=/usr/bin/chromium npm test
 
 Use `npm run preview` to inspect the production build. Deploy `dist/` to a static hosting provider. No domain or hosting provider has been assumed.
 
+## Brand colors
+
+The stylesheet centralizes the logo-inspired palette in `:root`: indigo `#45409b`, cyan `#00b2e5`, and orange `#ff7900`. Darker variants are used for readable text and interactive states; pale surfaces balance the saturated accents. Change the tokens in `src/styles/global.css` to adjust the theme.
+
 ## Content and assets
 
 - Confirmed contact channels: WhatsApp `5534998910880` and Instagram `@uberpeixesornamentais`.

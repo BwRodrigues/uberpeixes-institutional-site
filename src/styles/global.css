@@ -1,11 +1,19 @@
 :root {
   font-family: "DM Sans", Arial, sans-serif;
-  color: #173d36;
-  background: #faf9f5;
+  color: var(--ink);
+  background: #ffffff;
   font-synthesis: none;
-  --green: #143f36;
-  --muted: #61736b;
-  --lime: #daee95;
+  /* Palette inspired by the supplied Uberpeixes logo. */
+  --brand-indigo: #45409b;
+  --brand-indigo-dark: #292465;
+  --brand-cyan: #00b2e5;
+  --brand-orange: #ff7900;
+  --brand-orange-ink: #b54100;
+  --ink: #242047;
+  --muted: #595573;
+  --line: #dfdff1;
+  --surface-cyan: #eaf9ff;
+  --surface-orange: #fff0df;
 }
 * {
   box-sizing: border-box;
@@ -16,13 +24,14 @@ html {
 }
 body {
   margin: 0;
+  border-top: 5px solid var(--brand-orange);
 }
 a {
   color: inherit;
   text-decoration: none;
 }
 a:focus-visible {
-  outline: 3px solid #ad722c;
+  outline: 3px solid var(--brand-indigo);
   outline-offset: 6px;
 }
 button,
@@ -39,7 +48,7 @@ a {
   justify-content: space-between;
   gap: 30px;
   padding-block: 29px;
-  border-bottom: 1px solid #dce2d9;
+  border-bottom: 1px solid var(--line);
 }
 .brand {
   display: flex;
@@ -49,6 +58,7 @@ a {
   font-weight: 800;
   letter-spacing: -1.4px;
   line-height: 1;
+  color: var(--brand-indigo);
 }
 .brand small {
   display: block;
@@ -58,6 +68,7 @@ a {
   font-weight: 500;
 }
 .brand-mark {
+  color: var(--brand-orange);
   font-size: 42px;
   transform: rotate(-35deg);
   display: inline-block;
@@ -69,14 +80,15 @@ a {
 }
 .header nav a:hover,
 .text-link:hover {
-  color: #65844a;
+  color: var(--brand-orange-ink);
 }
 .button {
+  box-shadow: 0 5px 0 #29246516;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 34px;
-  background: var(--green);
+  background: var(--brand-indigo);
   color: white;
   padding: 19px 25px;
   border-radius: 5px;
@@ -87,7 +99,7 @@ a {
     transform 0.2s;
 }
 .button:hover {
-  background: #285b4e;
+  background: var(--brand-indigo-dark);
   transform: translateY(-2px);
 }
 .button-small {
@@ -102,6 +114,7 @@ a {
   padding-top: 64px;
 }
 .eyebrow {
+  color: var(--brand-indigo);
   font-size: 10px;
   letter-spacing: 2.3px;
   font-weight: 700;
@@ -114,12 +127,12 @@ a {
   width: 6px;
   height: 6px;
   border-radius: 100%;
-  background: #88a953;
+  background: var(--brand-orange);
 }
 h1,
 h2 {
   font-family: Manrope, sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: -3px;
   line-height: 1.12;
   margin: 0;
@@ -130,7 +143,7 @@ h1 {
 em {
   font-family: Georgia, serif;
   font-weight: 400;
-  color: #69805b;
+  color: var(--brand-orange-ink);
 }
 h1 em {
   display: inline-block;
@@ -157,13 +170,13 @@ h1 em {
   overflow: hidden;
   border-radius: 130px 6px 6px 6px;
   background:
-    radial-gradient(ellipse at 65% 30%, #749b77 0, transparent 48%),
-    linear-gradient(135deg, #234d45, #0a2926 85%);
+    radial-gradient(ellipse at 70% 20%, #00b2e5 0, transparent 58%),
+    linear-gradient(145deg, #45409b, #122c83 85%);
   isolation: isolate;
 }
 .water-ring {
   position: absolute;
-  border: 1px solid #c1d9ab22;
+  border: 1px solid #97e8ff33;
   border-radius: 50%;
   width: 390px;
   height: 390px;
@@ -181,13 +194,13 @@ h1 em {
   width: 180px;
   height: 85px;
   border-radius: 70% 45% 45% 70%;
-  background: linear-gradient(10deg, #b9793a, #efd59a 55%, #e9c07a);
+  background: linear-gradient(10deg, #df5200, #ff9a22 55%, #ff7900);
   transform: rotate(-18deg);
   top: 36%;
   left: 28%;
   box-shadow:
-    inset 0 -15px 30px #784e3260,
-    0 20px 50px #061e2340;
+    inset 0 -15px 30px #b5410060,
+    0 20px 50px #12115760;
 }
 .fish:before {
   content: "";
@@ -198,9 +211,9 @@ h1 em {
   height: 110px;
   background: repeating-linear-gradient(
     75deg,
-    #dba460 0,
-    #efd498 3px,
-    #dba460 5px
+    #ff7900 0,
+    #ffc15c 3px,
+    #ff7900 5px
   );
   clip-path: polygon(0 0, 100% 48%, 0 100%, 20% 50%);
   border-radius: 20%;
@@ -212,9 +225,9 @@ h1 em {
   top: 27px;
   width: 7px;
   height: 7px;
-  background: #263b2b;
+  background: #242047;
   border-radius: 50%;
-  border: 2px solid #94734a;
+  border: 2px solid #c84d00;
 }
 .fish i {
   position: absolute;
@@ -222,7 +235,7 @@ h1 em {
   bottom: -24px;
   width: 65px;
   height: 48px;
-  background: #dcb574b0;
+  background: #ffac28d9;
   clip-path: polygon(0 0, 100% 0, 30% 100%);
 }
 .fish-two {
@@ -235,7 +248,7 @@ h1 em {
   position: absolute;
   width: 40px;
   height: 230px;
-  background: linear-gradient(90deg, #315b39, #73915b);
+  background: linear-gradient(90deg, #1267bd, #00b2e5);
   border-radius: 100% 0 100% 0;
   bottom: -70px;
   left: 40px;
@@ -253,7 +266,7 @@ h1 em {
   position: absolute;
   bottom: 28px;
   left: 28px;
-  color: #f0f4d8;
+  color: #ffffff;
   font-size: 8px;
   letter-spacing: 2px;
 }
@@ -263,7 +276,7 @@ h1 em {
   right: 20px;
   border: 1px solid #ffffff40;
   border-radius: 20px;
-  color: #e3ebde;
+  color: #ffffff;
   padding: 8px 11px;
   font-size: 8px;
   letter-spacing: 1px;
@@ -272,7 +285,7 @@ h1 em {
   grid-column: 1/-1;
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #dce2d9;
+  border-bottom: 1px solid var(--line);
   padding: 4px 0 25px;
   font-size: 10px;
   color: var(--muted);
@@ -304,12 +317,12 @@ h2 {
 .about-copy .large-copy {
   font-size: 23px;
   line-height: 1.5;
-  color: var(--green);
+  color: var(--brand-indigo);
   margin-top: 0;
 }
 .underlined {
   display: inline-block;
-  border-bottom: 1px solid #a1b18a;
+  border-bottom: 1px solid var(--brand-cyan);
   padding-bottom: 8px;
   font-size: 12px;
   margin-top: 15px;
@@ -318,7 +331,7 @@ h2 {
   margin-left: 35px;
 }
 .gallery-section {
-  background: #edf0e8;
+  background: var(--surface-cyan);
 }
 .section-heading {
   display: flex;
@@ -334,29 +347,29 @@ h2 {
 }
 .photo-placeholder {
   min-height: 300px;
-  border: 1px solid #c8d3c1;
-  background: #dfe6d8;
+  border: 1px solid #b9dfee;
+  background: var(--surface-cyan);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 26px;
-  color: #435b46;
+  color: var(--ink);
   border-radius: 5px;
 }
 .photo-tall {
-  background: #d2ddcd;
+  background: #d8efff;
   min-height: 350px;
 }
 .photo-light {
-  background: #e7e8dc;
+  background: var(--surface-orange);
 }
-.photo-green {
-  background: #c5d2bd;
+.photo-indigo {
+  background: #e8e5ff;
 }
 .placeholder-icon {
   font-size: 25px;
   font-weight: 400;
-  color: #73896c;
+  color: var(--brand-indigo);
 }
 .photo-placeholder > span:last-child {
   font-size: 17px;
@@ -369,7 +382,7 @@ h2 {
 }
 .gallery-note {
   font-size: 11px;
-  color: #5d7058;
+  color: var(--muted);
   margin-top: 24px;
 }
 .gallery-note a {
@@ -390,7 +403,7 @@ h2 {
   justify-content: space-between;
   align-items: center;
   padding: 25px 0;
-  border-bottom: 1px solid #d7dfd2;
+  border-bottom: 1px solid var(--line);
   gap: 16px;
 }
 .contact-cards a:first-child {
@@ -416,11 +429,16 @@ h2 {
   font-size: 22px;
 }
 .contact-cards a:hover b {
-  color: #6b8256;
+  color: var(--brand-orange-ink);
 }
 .closing {
-  background: var(--green);
-  color: #f4f7e9;
+  background: linear-gradient(
+    110deg,
+    var(--brand-indigo-dark),
+    var(--brand-indigo)
+  );
+  color: #ffffff;
+  border-top: 5px solid var(--brand-orange);
   padding: 45px 0;
 }
 .closing .wrap {
@@ -434,10 +452,14 @@ h2 {
   letter-spacing: -0.5px;
 }
 .closing a {
+  text-decoration: underline;
+  text-decoration-color: var(--brand-cyan);
+  text-underline-offset: 10px;
+  text-decoration-thickness: 3px;
   font-family: Georgia, serif;
   font-style: italic;
   font-size: 44px;
-  color: var(--lime);
+  color: #ffffff;
 }
 .closing a span {
   font-family: sans-serif;
@@ -459,6 +481,7 @@ footer p {
   font-size: 20px;
 }
 .footer-brand .brand-mark {
+  color: var(--brand-orange);
   font-size: 32px;
 }
 .footer-brand small {
@@ -535,6 +558,7 @@ footer p {
     font-size: 22px;
   }
   .header .button {
+    box-shadow: 0 5px 0 #29246516;
     padding: 12px;
     font-size: 10px;
     gap: 10px;
@@ -555,6 +579,7 @@ footer p {
     letter-spacing: -2.5px;
   }
   .eyebrow {
+    color: var(--brand-indigo);
     margin-bottom: 23px;
     font-size: 9px;
   }
