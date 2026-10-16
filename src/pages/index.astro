@@ -1,6 +1,9 @@
 ---
 import "../styles/global.css";
 import Arrow from "../components/Arrow.astro";
+import Brand from "../components/Brand.astro";
+import { Image } from "astro:assets";
+import entrance from "../assets/entrada-uberpeixes.jpg";
 const whatsapp = "https://wa.me/5534998910880";
 const instagram = "https://www.instagram.com/uberpeixesornamentais/";
 const maps = "https://maps.app.goo.gl/zRgtCTnjvL8xZGiH7";
@@ -29,12 +32,7 @@ const maps = "https://maps.app.goo.gl/zRgtCTnjvL8xZGiH7";
         href="#inicio"
         aria-label="Uberpeixes Ornamentais — início"
       >
-        <span class="brand-mark" aria-hidden="true">
-          ◒
-        </span>
-        <span>
-          uberpeixes<small>ORNAMENTAIS</small>
-        </span>
+        <Brand />
       </a>
       <nav aria-label="Navegação principal">
         <a href="#sobre">A loja</a>
@@ -85,24 +83,24 @@ const maps = "https://maps.app.goo.gl/zRgtCTnjvL8xZGiH7";
             Conheça a loja <span aria-hidden="true">↓</span>
           </a>
         </div>
-        <div
-          class="aquarium"
-          role="img"
-          aria-label="Ilustração abstrata de um peixe ornamental em água azul, reservada para futura foto da loja"
-        >
-          <div class="water-ring ring-one"></div>
-          <div class="water-ring ring-two"></div>
-          <div class="fish fish-one">
-            <i></i>
-          </div>
-          <div class="fish fish-two">
-            <i></i>
-          </div>
-          <div class="plant plant-one"></div>
-          <div class="plant plant-two"></div>
-          <span class="visual-caption">UM OLHAR PARA O MUNDO AQUÁTICO</span>
-          <span class="photo-label">ESPAÇO PARA FOTO DA LOJA</span>
-        </div>
+        <figure class="storefront">
+          <Image
+            src={entrance}
+            alt="Entrada da Uberpeixes Ornamentais, com bandeira azul e a logomarca do peixe laranja ao lado da porta"
+            class="storefront-photo"
+            widths={[375, 640, 960, 1345]}
+            sizes="(max-width: 640px) calc(100vw - 40px), (max-width: 950px) 45vw, 580px"
+            width={1345}
+            format="webp"
+            quality={85}
+            loading="eager"
+            fetchpriority="high"
+          />
+          <figcaption class="storefront-caption">
+            <span>NOSSA LOJA</span>
+            <strong>Uberpeixes Ornamentais</strong>
+          </figcaption>
+        </figure>
         <div class="hero-bottom">
           <span>Natureza que inspira a olhar de perto.</span>
           <span aria-hidden="true">01 / DESCUBRA</span>
@@ -272,12 +270,7 @@ const maps = "https://maps.app.goo.gl/zRgtCTnjvL8xZGiH7";
     </main>
     <footer class="wrap">
       <div class="brand footer-brand">
-        <span class="brand-mark" aria-hidden="true">
-          ◒
-        </span>
-        <span>
-          uberpeixes<small>ORNAMENTAIS</small>
-        </span>
+        <Brand />
       </div>
       <p>Uberpeixes Ornamentais</p>
       <p>Desenvolvido por Brendow Rodrigues</p>

@@ -47,31 +47,29 @@ a {
   align-items: center;
   justify-content: space-between;
   gap: 30px;
-  padding-block: 29px;
+  padding-block: 16px;
   border-bottom: 1px solid var(--line);
 }
 .brand {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 25px;
-  font-weight: 800;
-  letter-spacing: -1.4px;
-  line-height: 1;
-  color: var(--brand-indigo);
+  display: inline-flex;
+  flex-shrink: 0;
 }
-.brand small {
+/* Frame the original PNG's white margins without modifying the brand artwork. */
+.logo-window {
   display: block;
-  font-size: 9px;
-  letter-spacing: 3.6px;
-  margin-top: 7px;
-  font-weight: 500;
+  position: relative;
+  overflow: hidden;
+  width: 176px;
+  aspect-ratio: 540 / 430;
+  background: #ffffff;
 }
-.brand-mark {
-  color: var(--brand-orange);
-  font-size: 42px;
-  transform: rotate(-35deg);
-  display: inline-block;
+.brand-logo {
+  position: absolute;
+  width: 147.037%;
+  height: auto;
+  max-width: none;
+  left: -31.481%;
+  top: -81.395%;
 }
 .header nav {
   display: flex;
@@ -111,7 +109,8 @@ a {
   display: grid;
   grid-template-columns: 1.05fr 1fr;
   gap: 35px;
-  padding-top: 64px;
+  padding-top: 50px;
+  align-items: center;
 }
 .eyebrow {
   color: var(--brand-indigo);
@@ -164,122 +163,39 @@ h1 em {
 .text-link span {
   margin-left: 12px;
 }
-.aquarium {
-  min-height: 515px;
+.storefront {
   position: relative;
+  margin: 0;
+  min-width: 0;
+  height: 620px;
   overflow: hidden;
-  border-radius: 130px 6px 6px 6px;
-  background:
-    radial-gradient(ellipse at 70% 20%, #00b2e5 0, transparent 58%),
-    linear-gradient(145deg, #45409b, #122c83 85%);
-  isolation: isolate;
+  border-radius: 100px 12px 12px 12px;
+  background: var(--brand-indigo-dark);
+  border-bottom: 5px solid var(--brand-orange);
 }
-.water-ring {
+.storefront-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 62%;
+  display: block;
+}
+.storefront-caption {
   position: absolute;
-  border: 1px solid #97e8ff33;
-  border-radius: 50%;
-  width: 390px;
-  height: 390px;
-  left: 45px;
-  top: 65px;
-}
-.ring-two {
-  width: 480px;
-  height: 480px;
-  left: 0;
-  top: 20px;
-}
-.fish {
-  position: absolute;
-  width: 180px;
-  height: 85px;
-  border-radius: 70% 45% 45% 70%;
-  background: linear-gradient(10deg, #df5200, #ff9a22 55%, #ff7900);
-  transform: rotate(-18deg);
-  top: 36%;
-  left: 28%;
-  box-shadow:
-    inset 0 -15px 30px #b5410060,
-    0 20px 50px #12115760;
-}
-.fish:before {
-  content: "";
-  position: absolute;
-  left: -76px;
-  top: -14px;
-  width: 95px;
-  height: 110px;
-  background: repeating-linear-gradient(
-    75deg,
-    #ff7900 0,
-    #ffc15c 3px,
-    #ff7900 5px
-  );
-  clip-path: polygon(0 0, 100% 48%, 0 100%, 20% 50%);
-  border-radius: 20%;
-}
-.fish:after {
-  content: "";
-  position: absolute;
-  right: 22px;
-  top: 27px;
-  width: 7px;
-  height: 7px;
-  background: #242047;
-  border-radius: 50%;
-  border: 2px solid #c84d00;
-}
-.fish i {
-  position: absolute;
-  left: 45px;
-  bottom: -24px;
-  width: 65px;
-  height: 48px;
-  background: #ffac28d9;
-  clip-path: polygon(0 0, 100% 0, 30% 100%);
-}
-.fish-two {
-  transform: scale(0.45) rotate(155deg);
-  top: 64%;
-  left: 55%;
-  opacity: 0.65;
-}
-.plant {
-  position: absolute;
-  width: 40px;
-  height: 230px;
-  background: linear-gradient(90deg, #1267bd, #00b2e5);
-  border-radius: 100% 0 100% 0;
-  bottom: -70px;
-  left: 40px;
-  transform: rotate(-25deg);
-  opacity: 0.7;
-  z-index: -1;
-}
-.plant-two {
-  left: 95px;
-  bottom: -90px;
-  transform: rotate(5deg);
-  height: 280px;
-}
-.visual-caption {
-  position: absolute;
-  bottom: 28px;
-  left: 28px;
+  inset: auto 0 0;
+  padding: 65px 28px 28px;
   color: #ffffff;
-  font-size: 8px;
+  background: linear-gradient(transparent, #16133be8);
+}
+.storefront-caption span {
+  display: block;
+  font-size: 10px;
   letter-spacing: 2px;
+  margin-bottom: 10px;
 }
-.photo-label {
-  position: absolute;
-  top: 25px;
-  right: 20px;
-  border: 1px solid #ffffff40;
-  border-radius: 20px;
-  color: #ffffff;
-  padding: 8px 11px;
-  font-size: 8px;
-  letter-spacing: 1px;
+.storefront-caption strong {
+  font-size: clamp(18px, 2vw, 24px);
+  font-weight: 600;
 }
 .hero-bottom {
   grid-column: 1/-1;
@@ -477,15 +393,8 @@ footer p {
   font-size: 10px;
   color: var(--muted);
 }
-.footer-brand {
-  font-size: 20px;
-}
-.footer-brand .brand-mark {
-  color: var(--brand-orange);
-  font-size: 32px;
-}
-.footer-brand small {
-  font-size: 7px;
+.footer-brand .logo-window {
+  width: 128px;
 }
 .skip-link {
   position: absolute;
@@ -513,8 +422,8 @@ footer p {
   .hero {
     gap: 24px;
   }
-  .aquarium {
-    min-height: 460px;
+  .storefront {
+    height: 560px;
   }
   .hero-copy .text-link {
     display: block;
@@ -526,14 +435,6 @@ footer p {
   }
   .section {
     padding-block: 70px;
-  }
-  .fish {
-    left: 32%;
-    transform: scale(0.8) rotate(-18deg);
-  }
-  .fish-two {
-    left: 50%;
-    transform: scale(0.4) rotate(155deg);
   }
   .gallery {
     gap: 12px;
@@ -554,8 +455,8 @@ footer p {
     padding-block: 20px;
     gap: 22px;
   }
-  .brand {
-    font-size: 22px;
+  .header .logo-window {
+    width: 132px;
   }
   .header .button {
     box-shadow: 0 5px 0 #29246516;
@@ -591,19 +492,13 @@ footer p {
     display: inline-block;
     margin-left: 18px;
   }
-  .aquarium {
-    min-height: 360px;
-    border-top-left-radius: 100px;
+  .storefront {
+    height: auto;
+    aspect-ratio: 3 / 4;
+    border-top-left-radius: 70px;
   }
-  .fish {
-    top: 35%;
-    left: 35%;
-    transform: scale(0.85) rotate(-18deg);
-  }
-  .fish-two {
-    left: 52%;
-    top: 61%;
-    transform: scale(0.4) rotate(155deg);
+  .storefront-caption {
+    padding: 65px 20px 22px;
   }
   .hero-bottom {
     font-size: 9px;
