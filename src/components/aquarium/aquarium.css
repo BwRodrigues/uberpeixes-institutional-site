@@ -93,10 +93,6 @@ body > footer {
 .text-link {
   background-color: #ffffffeb;
 }
-/* A translucent surface allows the watermark behind the gallery while cards stay opaque. */
-body .gallery-section {
-  background: #eaf9fff5;
-}
 @media (min-width: 700px) {
   .aquarium-fish--desktop {
     display: block;
