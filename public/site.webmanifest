@@ -1,0 +1,23 @@
+{
+  "name": "Uberpeixes Ornamentais",
+  "short_name": "Uberpeixes",
+  "lang": "pt-BR",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#45409b",
+  "icons": [
+    {
+      "src": "/icons/official-v2/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/official-v2/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

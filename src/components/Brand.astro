@@ -1,15 +1,21 @@
 ---
 import { Image } from "astro:assets";
-import logo from "../assets/logo-uberpeixes.png";
+import logo from "../assets/logo-oficial.png";
+interface Props {
+  decorative?: boolean;
+  loading?: "eager" | "lazy";
+  size?: number;
+}
+const { decorative = false, loading = "eager", size = 336 } = Astro.props;
 ---
 
-<span class="logo-window">
-  <Image
-    src={logo}
-    alt="Uberpeixes — peixes ornamentais"
-    class="brand-logo"
-    width={794}
-    format="webp"
-    loading="eager"
-  />
-</span>
+<Image
+  src={logo}
+  alt={decorative ? "" : "Uberpeixes — peixes ornamentais"}
+  width={size}
+  class="brand-logo"
+  format="webp"
+  quality={90}
+  loading={loading}
+  decoding="async"
+/>

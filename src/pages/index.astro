@@ -7,6 +7,36 @@ import entrance from "../assets/entrada-uberpeixes.jpg";
 const whatsapp = "https://wa.me/5534998910880";
 const instagram = "https://www.instagram.com/uberpeixesornamentais/";
 const maps = "https://maps.app.goo.gl/zRgtCTnjvL8xZGiH7";
+const gallery = [
+  {
+    file: "equipe-loja.webp",
+    width: 1600,
+    height: 1200,
+    title: "Uma paixão que aproxima",
+    alt: "Grupo de pessoas reunido entre as prateleiras de produtos da Uberpeixes",
+  },
+  {
+    file: "atendimento-loja.webp",
+    width: 1200,
+    height: 1600,
+    title: "Atendimento de perto",
+    alt: "Duas pessoas na loja, em frente às prateleiras de produtos para aquarismo",
+  },
+  {
+    file: "visita-equipe.webp",
+    width: 1600,
+    height: 1200,
+    title: "Encontros no nosso espaço",
+    alt: "Grupo de pessoas em uma visita à loja, entre aquários de vidro e equipamentos",
+  },
+  {
+    file: "estrutura-loja.webp",
+    width: 900,
+    height: 1600,
+    title: "Nossa estrutura de tanques",
+    alt: "Interior da loja com tanques, aquários e equipamentos de manutenção",
+  },
+];
 ---
 
 <!doctype html>
@@ -20,7 +50,24 @@ const maps = "https://maps.app.goo.gl/zRgtCTnjvL8xZGiH7";
     />
     <meta name="theme-color" content="#45409b" />
     <title>Uberpeixes Ornamentais | Um universo para descobrir</title>
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="/icons/official-v2/favicon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/icons/official-v2/icon-32.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/icons/official-v2/icon-180.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
   </head>
   <body>
     <a class="skip-link" href="#conteudo">
@@ -58,15 +105,12 @@ const maps = "https://maps.app.goo.gl/zRgtCTnjvL8xZGiH7";
             <span></span> UBERPEIXES ORNAMENTAIS
           </p>
           <h1 id="titulo">
-            Um pequeno
-            <br />
-            universo.
-            <br />
-            <em>Infinitas descobertas.</em>
+            Seu mundo mais <em>colorido</em> começa aqui!
           </h1>
           <p class="intro">
-            Existe um mundo de cores, movimento e vida para conhecer. Entre no
-            universo dos peixes ornamentais com a Uberpeixes.
+            Peixes ornamentais, aquários, plantas e acessórios para transformar
+            seus espaços em um pedacinho da natureza. Descubra o aquarismo com a
+            Uberpeixes!
           </p>
           <a
             class="button"
@@ -74,7 +118,7 @@ const maps = "https://maps.app.goo.gl/zRgtCTnjvL8xZGiH7";
             target="_blank"
             rel="noopener noreferrer"
           >
-            Fale com a gente{" "}
+            Fale com nossa equipe{" "}
             <span aria-hidden="true">
               <Arrow />
             </span>
@@ -83,24 +127,18 @@ const maps = "https://maps.app.goo.gl/zRgtCTnjvL8xZGiH7";
             Conheça a loja <span aria-hidden="true">↓</span>
           </a>
         </div>
-        <figure class="storefront">
-          <Image
-            src={entrance}
-            alt="Entrada da Uberpeixes Ornamentais, com bandeira azul e a logomarca do peixe laranja ao lado da porta"
-            class="storefront-photo"
-            widths={[375, 640, 960, 1345]}
-            sizes="(max-width: 640px) calc(100vw - 40px), (max-width: 950px) 45vw, 580px"
-            width={1345}
-            format="webp"
-            quality={85}
-            loading="eager"
-            fetchpriority="high"
-          />
-          <figcaption class="storefront-caption">
-            <span>NOSSA LOJA</span>
-            <strong>Uberpeixes Ornamentais</strong>
-          </figcaption>
-        </figure>
+        <div class="hero-visual">
+          <span class="bubble bubble-one" aria-hidden="true"></span>
+          <span class="bubble bubble-two" aria-hidden="true"></span>
+          <span class="bubble bubble-three" aria-hidden="true"></span>
+          <div class="hero-brand">
+            <Brand decorative size={720} />
+          </div>
+          <p>
+            Um pedacinho da natureza.{" "}
+            <strong>Um mundo de possibilidades.</strong>
+          </p>
+        </div>
         <div class="hero-bottom">
           <span>Natureza que inspira a olhar de perto.</span>
           <span aria-hidden="true">01 / DESCUBRA</span>
@@ -114,19 +152,15 @@ const maps = "https://maps.app.goo.gl/zRgtCTnjvL8xZGiH7";
         <div>
           <p class="eyebrow">01 — A LOJA</p>
           <h2 id="sobre-titulo">
-            Prazer,
-            <br />
-            somos a <em>Uberpeixes.</em>
+            Mais que uma loja, uma <em>paixão pelo aquarismo!</em>
           </h2>
         </div>
         <div class="about-copy">
           <p class="large-copy">
-            Um convite para conhecer de perto o universo dos peixes ornamentais.
-          </p>
-          <p>
-            Este é o nosso espaço para apresentar a Uberpeixes Ornamentais e
-            aproximar você da loja. Para saber sobre disponibilidade, valores e
-            atendimento, converse diretamente com a gente.
+            Na Uberpeixes Ornamentais, ajudamos iniciantes e apaixonados por
+            aquários a encontrar peixes, produtos e orientações para cuidar de
+            seu mundo aquático. Nosso espaço reúne variedade, atendimento
+            próximo e muita paixão pelo aquarismo.
           </p>
           <a
             class="underlined"
@@ -151,9 +185,7 @@ const maps = "https://maps.app.goo.gl/zRgtCTnjvL8xZGiH7";
             <div>
               <p class="eyebrow">02 — NOSSO UNIVERSO</p>
               <h2 id="galeria-titulo">
-                Cada detalhe,
-                <br />
-                <em>uma nova descoberta.</em>
+                Um mergulho no <em>nosso universo!</em>
               </h2>
             </div>
             <a
@@ -166,35 +198,22 @@ const maps = "https://maps.app.goo.gl/zRgtCTnjvL8xZGiH7";
             </a>
           </div>
           <div class="gallery">
-            <div class="photo-placeholder photo-tall">
-              <span class="placeholder-icon" aria-hidden="true">
-                ＋
-              </span>
-              <span>
-                Peixes ornamentais
-                <small>Espaço reservado para fotografia</small>
-              </span>
-            </div>
-            <div class="photo-placeholder photo-light">
-              <span class="placeholder-icon" aria-hidden="true">
-                ＋
-              </span>
-              <span>
-                Um pouco da loja<small>Espaço reservado para fotografia</small>
-              </span>
-            </div>
-            <div class="photo-placeholder photo-indigo">
-              <span class="placeholder-icon" aria-hidden="true">
-                ＋
-              </span>
-              <span>
-                Detalhes que encantam
-                <small>Espaço reservado para fotografia</small>
-              </span>
-            </div>
+            {gallery.map((photo) => (
+              <figure class="gallery-card">
+                <img
+                  src={`/images/${photo.file}`}
+                  alt={photo.alt}
+                  width={photo.width}
+                  height={photo.height}
+                  loading="lazy"
+                  decoding="async"
+                />
+                <figcaption>{photo.title}</figcaption>
+              </figure>
+            ))}
           </div>
           <p class="gallery-note">
-            Enquanto as fotos chegam por aqui, conheça nossas publicações em{" "}
+            Acompanhe mais do nosso dia a dia em{" "}
             <a href={instagram} target="_blank" rel="noopener noreferrer">
               @uberpeixesornamentais <Arrow />
             </a>
@@ -209,9 +228,7 @@ const maps = "https://maps.app.goo.gl/zRgtCTnjvL8xZGiH7";
         <div>
           <p class="eyebrow">03 — ENCONTRE A GENTE</p>
           <h2 id="visite-titulo">
-            A próxima descoberta
-            <br />
-            começa com um <em>olá.</em>
+            Venha conhecer esse <em>mundo de perto!</em>
           </h2>
           <p>
             Fale com a loja para combinar sua visita e confirmar endereço e
@@ -219,13 +236,23 @@ const maps = "https://maps.app.goo.gl/zRgtCTnjvL8xZGiH7";
           </p>
           <a
             class="button"
-            href={whatsapp}
+            href={maps}
             target="_blank"
             rel="noopener noreferrer"
           >
-            Conversar no WhatsApp <Arrow />
+            Como chegar <Arrow />
           </a>
         </div>
+        <figure class="visit-photo">
+          <Image
+            src={entrance}
+            alt="Entrada da Uberpeixes Ornamentais, com bandeira azul e logomarca do peixe laranja"
+            width={640}
+            format="webp"
+            loading="lazy"
+          />
+          <figcaption>A entrada da nossa loja. Esperamos você!</figcaption>
+        </figure>
         <div class="contact-cards">
           <a href={instagram} target="_blank" rel="noopener noreferrer">
             <span>
@@ -258,9 +285,9 @@ const maps = "https://maps.app.goo.gl/zRgtCTnjvL8xZGiH7";
       </section>
       <section class="closing">
         <div class="wrap">
-          <p>Vamos descobrir esse universo juntos?</p>
+          <p>Seu próximo aquário começa com uma conversa!</p>
           <a href={whatsapp} target="_blank" rel="noopener noreferrer">
-            Diga olá.{" "}
+            Vamos conversar{" "}
             <span aria-hidden="true">
               <Arrow />
             </span>
@@ -270,7 +297,7 @@ const maps = "https://maps.app.goo.gl/zRgtCTnjvL8xZGiH7";
     </main>
     <footer class="wrap">
       <div class="brand footer-brand">
-        <Brand />
+        <Brand loading="lazy" />
       </div>
       <p>Uberpeixes Ornamentais</p>
       <p>Desenvolvido por Brendow Rodrigues</p>
