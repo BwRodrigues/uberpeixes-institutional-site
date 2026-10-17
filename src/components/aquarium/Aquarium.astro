@@ -1,0 +1,85 @@
+---
+import { fish } from "./fish";
+import "./aquarium.css";
+---
+
+<div
+  class="aquarium-layer"
+  data-aquarium
+  data-motion="paused"
+  aria-hidden="true"
+  inert
+>
+  <picture>
+    <source
+      media="(max-width: 699px)"
+      srcset="/aquarium/planted-freshwater-scene-mobile.webp"
+      type="image/webp"
+    />
+    <img
+      class="aquarium-scene"
+      src="/aquarium/planted-freshwater-scene.webp"
+      alt=""
+      width="1280"
+      height="853"
+      decoding="async"
+      loading="lazy"
+      fetchpriority="low"
+    />
+  </picture>
+  <div class="aquarium-fish-layer">
+    {fish.map((animal) => (
+      <div
+        class:list={[
+          "aquarium-fish",
+          {
+            "aquarium-fish--bottom": animal.bottom,
+            "aquarium-fish--desktop": !animal.mobile,
+          },
+        ]}
+        data-species={animal.species}
+        style={`--size:${animal.size}px;--depth:${animal.depth}%;--duration:${animal.duration}s;--delay:${animal.delay}s;--drift:${animal.drift}px;--anchor:${animal.anchor ?? 0}%`}
+      >
+        <div class="aquarium-fish-drift">
+          <img
+            class="aquarium-fish-image"
+            src={`/aquarium/fish/${animal.species}.webp`}
+            alt=""
+            width={animal.width}
+            height={animal.height}
+            decoding="async"
+            loading="lazy"
+            fetchpriority="low"
+          />
+        </div>
+      </div>
+    ))}
+  </div>
+</div>
+
+<script>
+  const aquarium = document.querySelector<HTMLElement>("[data-aquarium]");
+  const toggle = document.querySelector<HTMLButtonElement>(
+    "[data-aquarium-toggle]",
+  );
+  if (aquarium && toggle) {
+    const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+    let userPaused = false;
+    const update = () => {
+      const paused = userPaused || reducedMotion.matches || document.hidden;
+      aquarium.dataset.motion = paused ? "paused" : "running";
+      toggle.hidden = reducedMotion.matches;
+      toggle.setAttribute("aria-pressed", String(userPaused));
+      toggle.textContent = userPaused
+        ? "Retomar movimento do aquário"
+        : "Pausar movimento do aquário";
+    };
+    toggle.addEventListener("click", () => {
+      userPaused = !userPaused;
+      update();
+    });
+    reducedMotion.addEventListener("change", update);
+    document.addEventListener("visibilitychange", update);
+    update();
+  }
+</script>

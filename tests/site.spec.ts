@@ -38,7 +38,9 @@ test("renders the institutional content without overflow or runtime errors", asy
     exact: true,
   });
   await expect(logos).toHaveCount(2);
-  for (const image of await page.locator("img").all()) {
+  for (const image of await page
+    .locator("header img, main img, footer img")
+    .all()) {
     await image.scrollIntoViewIfNeeded();
     await expect
       .poll(() =>

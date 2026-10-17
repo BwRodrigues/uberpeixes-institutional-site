@@ -1,0 +1,201 @@
+/* The decor stays behind the page; its opacity never affects page content. */
+body {
+  isolation: isolate;
+}
+body > header,
+body > main,
+body > footer {
+  position: relative;
+  z-index: 1;
+}
+.aquarium-layer {
+  position: fixed;
+  inset: 0;
+  height: 100lvh;
+  overflow: hidden;
+  pointer-events: none;
+  user-select: none;
+  z-index: 0;
+  opacity: 0.14;
+  contain: layout paint style;
+  background: linear-gradient(180deg, #f7faf8, #e2f0e9);
+}
+.aquarium-scene {
+  position: absolute;
+  inset: auto 0 0;
+  width: 100%;
+  height: 72%;
+  object-fit: cover;
+  object-position: 50% 100%;
+  opacity: 0.78;
+  /* Keep the water transition unobtrusive instead of a hard image edge. */
+  mask-image: linear-gradient(transparent, #000 28%);
+}
+.aquarium-fish-layer {
+  position: absolute;
+  inset: 0;
+}
+.aquarium-fish {
+  position: absolute;
+  left: 0;
+  top: var(--depth);
+  width: var(--size);
+  animation: aquarium-swim var(--duration) linear var(--delay) infinite;
+}
+.aquarium-fish-drift {
+  animation: aquarium-drift 11s ease-in-out var(--delay) infinite alternate;
+}
+.aquarium-fish-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  animation: aquarium-face var(--duration) linear var(--delay) infinite;
+}
+.aquarium-fish--bottom {
+  left: var(--anchor);
+  animation-name: aquarium-bottom;
+  animation-timing-function: ease-in-out;
+}
+.aquarium-fish--bottom .aquarium-fish-drift,
+.aquarium-fish--bottom .aquarium-fish-image {
+  animation: none;
+}
+.aquarium-fish--desktop {
+  display: none;
+}
+.aquarium-layer .aquarium-fish,
+.aquarium-layer .aquarium-fish-drift,
+.aquarium-layer .aquarium-fish-image {
+  animation-play-state: paused;
+}
+.aquarium-layer[data-motion="running"] .aquarium-fish,
+.aquarium-layer[data-motion="running"] .aquarium-fish-drift,
+.aquarium-layer[data-motion="running"] .aquarium-fish-image {
+  animation-play-state: running;
+}
+.aquarium-toggle {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 10px 12px;
+  min-height: 44px;
+  color: var(--brand-indigo-dark);
+  background: #ffffff;
+  font: inherit;
+  font-size: 12px;
+  cursor: pointer;
+}
+.aquarium-toggle:focus-visible {
+  outline: 3px solid var(--brand-indigo);
+  outline-offset: 4px;
+}
+/* Protect small hover labels even over the darkest decorative pixels. */
+.header nav a,
+.text-link {
+  background-color: #ffffffeb;
+}
+/* A translucent surface allows the watermark behind the gallery while cards stay opaque. */
+body .gallery-section {
+  background: #eaf9fff5;
+}
+@media (min-width: 700px) {
+  .aquarium-fish--desktop {
+    display: block;
+  }
+  footer {
+    flex-wrap: wrap;
+  }
+  .aquarium-toggle {
+    margin-left: auto;
+  }
+}
+@keyframes aquarium-swim {
+  0% {
+    transform: translate3d(-180px, 0, 0);
+    opacity: 0;
+  }
+  3% {
+    opacity: 1;
+  }
+  45% {
+    transform: translate3d(calc(100vw + 180px), var(--drift), 0);
+    opacity: 1;
+  }
+  48%,
+  50% {
+    transform: translate3d(calc(100vw + 180px), var(--drift), 0);
+    opacity: 0;
+  }
+  53% {
+    opacity: 1;
+  }
+  95% {
+    transform: translate3d(-180px, 0, 0);
+    opacity: 1;
+  }
+  98%,
+  100% {
+    transform: translate3d(-180px, 0, 0);
+    opacity: 0;
+  }
+}
+@keyframes aquarium-face {
+  0%,
+  49.999% {
+    transform: scaleX(1);
+  }
+  50%,
+  100% {
+    transform: scaleX(-1);
+  }
+}
+@keyframes aquarium-drift {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(0, var(--drift), 0);
+  }
+}
+@keyframes aquarium-bottom {
+  0%,
+  22%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  38%,
+  63% {
+    transform: translate3d(26px, -2px, 0);
+  }
+  77%,
+  88% {
+    transform: translate3d(12px, 0, 0);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .aquarium-layer .aquarium-fish,
+  .aquarium-layer .aquarium-fish-drift,
+  .aquarium-layer .aquarium-fish-image {
+    animation: none !important;
+  }
+  .aquarium-fish {
+    transform: translate3d(24vw, 0, 0);
+  }
+  .aquarium-fish:nth-child(2) {
+    transform: translate3d(35vw, 0, 0);
+  }
+  .aquarium-fish:nth-child(3n) {
+    transform: translate3d(62vw, 0, 0);
+  }
+  .aquarium-fish--bottom {
+    transform: none;
+  }
+  .aquarium-toggle {
+    display: none;
+  }
+}
+@media print {
+  .aquarium-layer,
+  .aquarium-toggle {
+    display: none;
+  }
+}
