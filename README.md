@@ -34,10 +34,15 @@ The stylesheet centralizes the logo-inspired palette in `:root`: indigo `#45409b
 
 ## Content and assets
 
-- Confirmed contact channels: WhatsApp `5534998910880` and Instagram `@uberpeixesornamentais`.
-- No address, business hours, inventory, prices or customer testimonials have been invented.
-- Location and review links open the official Google Maps profile supplied by the owner: `https://maps.app.goo.gl/zRgtCTnjvL8xZGiH7`. Visitors can consult real reviews in the profile’s Reviews tab. No ratings or testimonials are copied or fabricated.
-- The original logo supplied by the owner is in `src/assets/logo-uberpeixes.png` and appears in the header and footer. Its white margins are framed with CSS without modifying the artwork. The favicon embeds this exact original PNG inside an SVG, framing only the white margins in a square viewport. It preserves the complete logo and its proportions without adding shapes, borders, or decorative elements.
-- The owner-supplied entrance photograph is in `src/assets/entrada-uberpeixes.jpg` and is displayed in the hero. Astro generates responsive WebP variants with explicit dimensions and alternative text. The originals are preserved; visual framing uses CSS. The remaining gallery areas are visibly labeled placeholders awaiting additional photographs.
-- No Zleep Baby project files or assets were used. Fonts use local system fallbacks; no external font service is required.
-- Footer credit: “Desenvolvido por Brendow Rodrigues”.
+- Confirmed contact channels remain WhatsApp `5534998910880`, Instagram `@uberpeixesornamentais` and the owner's Google Maps profile `https://maps.app.goo.gl/zRgtCTnjvL8xZGiH7`.
+- Institutional copy was supplied by the owner. No address, hours, prices, ratings, certifications, guarantees or business age are invented. Google reviews remain on the Google profile.
+- `src/assets/logo-oficial.png` is the supplied official logo, displayed with `object-fit: contain` without cropping or distortion. Astro generates small WebP renditions for the header, footer and decorative hero composition.
+- `public/images/` contains the four supplied, lightly treated WebP photographs used in the gallery. Images with people must have the depicted people's authorization before public deployment. Authorization is a review prerequisite; it has not been independently confirmed.
+- Gallery captions describe store visits, products and the tank infrastructure, without presenting maintenance tanks as finished decorative aquariums. The promotional sand image and the story-overlaid facade image are not used.
+- The original entrance photograph remains in the visit section, lazy-loaded below the fold.
+- `public/icons/official-v2/` contains the exact supplied official fish PNGs at 32, 180, 192 and 512 pixels, plus `favicon.png`. The versioned directory replaces the old SVG favicon. `public/site.webmanifest` references the 192 and 512 pixel icons, without declaring them maskable.
+- No Zleep Baby project assets or new dependencies are used. Footer credit remains “Desenvolvido por Brendow Rodrigues”.
+
+## Review
+
+Run the validation commands above. Review at 320px, 375px, tablet and desktop widths; verify the complete logo, unclipped people in gallery cards, the visit photo, keyboard navigation and real contact destinations. Confirm authorization for all identifiable people before merging or deploying. No deployment is performed by this change.
