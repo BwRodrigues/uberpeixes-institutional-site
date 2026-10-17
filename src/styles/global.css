@@ -276,7 +276,7 @@ em {
   margin-left: 16px;
 }
 .gallery-section {
-  background: var(--surface-cyan);
+  background: transparent;
 }
 .section-heading {
   display: grid;
