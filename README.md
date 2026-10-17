@@ -46,3 +46,22 @@ The stylesheet centralizes the logo-inspired palette in `:root`: indigo `#45409b
 ## Review
 
 Run the validation commands above. Review at 320px, 375px, tablet and desktop widths; verify the complete logo, unclipped people in gallery cards, the visit photo, keyboard navigation and real contact destinations. Confirm authorization for all identifiable people before merging or deploying. No deployment is performed by this change.
+
+## Project status — v1.0 completed
+
+This institutional website was developed as a practical learning project, with AI-assisted implementation and human review. The first production version is complete; future photo updates are optional enhancements.
+
+### What I practiced
+
+- Responsive layouts with Astro, TypeScript and native CSS.
+- Git workflows: branches, commits, pull requests and code integration.
+- Continuous deployment using GitHub and Cloudflare Pages.
+- Diagnosing and correcting build and environment compatibility issues.
+- Optimizing images, branding assets and browser icons.
+- Testing navigation, accessibility basics, contact links and mobile layouts.
+
+**Key takeaway:** experience with the complete web development cycle, from implementation and troubleshooting to automated checks and publication.
+
+**Live site:** https://uberpeixes-institutional-site.pages.dev/
+
+**Status:** Completed (v1.0). Any future visual improvements will be handled separately.
