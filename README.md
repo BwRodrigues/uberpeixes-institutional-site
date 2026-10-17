@@ -1,6 +1,6 @@
 # Uberpeixes Ornamentais
 
-Responsive institutional website built with Astro, TypeScript and native CSS. Static output, no backend, credentials or client-side JavaScript required.
+Responsive institutional website built with Astro, TypeScript and native CSS. Static output with no backend or credentials. Institutional content works without JavaScript; a small optional script controls the decorative aquarium’s play state.
 
 ## Development
 
@@ -65,3 +65,7 @@ This institutional website was developed as a practical learning project, with A
 **Live site:** https://uberpeixes-institutional-site.pages.dev/
 
 **Status:** Completed (v1.0). Any future visual improvements will be handled separately.
+
+## Virtual aquarium (under review)
+
+See [the aquarium review notes](docs/aquarium.md) for generated asset provenance, species configuration, motion controls, validation and publication limits. The background remains static without JavaScript or when reduced motion is requested.

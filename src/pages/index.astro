@@ -2,6 +2,7 @@
 import "../styles/global.css";
 import Arrow from "../components/Arrow.astro";
 import Brand from "../components/Brand.astro";
+import Aquarium from "../components/aquarium/Aquarium.astro";
 import { Image } from "astro:assets";
 import entrance from "../assets/entrada-uberpeixes.jpg";
 const whatsapp = "https://wa.me/5534998910880";
@@ -70,6 +71,7 @@ const gallery = [
     <link rel="manifest" href="/site.webmanifest" />
   </head>
   <body>
+    <Aquarium />
     <a class="skip-link" href="#conteudo">
       Pular para o conteúdo
     </a>
@@ -301,6 +303,15 @@ const gallery = [
       </div>
       <p>Uberpeixes Ornamentais</p>
       <p>Desenvolvido por Brendow Rodrigues</p>
+      <button
+        type="button"
+        class="aquarium-toggle"
+        data-aquarium-toggle
+        aria-pressed="false"
+        hidden
+      >
+        Pausar movimento do aquário
+      </button>
     </footer>
   </body>
 </html>
