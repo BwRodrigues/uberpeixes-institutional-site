@@ -1,43 +1,45 @@
 ---
-import type { Species } from "../../data/species-schema";
+import type { Species, LicensedPhoto } from "../../data/species-schema";
 interface Props {
   animal: Species;
   eager?: boolean;
+  zoom?: boolean;
+  photo?: LicensedPhoto;
 }
-const { animal, eager = false } = Astro.props;
+const { animal, eager = false, zoom = false } = Astro.props;
+const photo = Astro.props.photo ?? animal.photo;
 ---
 
-{animal.photo ? (
+{photo ? (
   <figure class="species-photo">
-    <img
-      src={animal.photo.src}
-      alt={animal.photo.alt}
-      width={animal.photo.width}
-      height={animal.photo.height}
-      loading={eager ? "eager" : "lazy"}
-      decoding="async"
-    />
+    <a
+      href={zoom ? photo.src : `/especies/${animal.slug}/`}
+      target={zoom ? "_blank" : undefined}
+      rel={zoom ? "noopener noreferrer" : undefined}
+      aria-label={
+        zoom ? `Abrir fotografia: ${photo.alt}` : `Ver ficha de ${animal.name}`
+      }
+    >
+      <img
+        src={photo.src}
+        alt={photo.alt}
+        width={photo.width}
+        height={photo.height}
+        loading={eager ? "eager" : "lazy"}
+        decoding="async"
+      />
+    </a>
     <figcaption>
-      Foto: {animal.photo.author} ·{" "}
-      <a
-        href={animal.photo.sourceUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      Foto: {photo.author} ·{" "}
+      <a href={photo.sourceUrl} target="_blank" rel="noopener noreferrer">
         Origem
       </a>{" "}
       ·{" "}
-      <a
-        href={animal.photo.licenseUrl}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        {animal.photo.license}
+      <a href={photo.licenseUrl} target="_blank" rel="noopener noreferrer">
+        {photo.license}
       </a>
-      <span class="photo-changes">{animal.photo.changes}</span>
-      {animal.photo.note && (
-        <strong class="photo-note">{animal.photo.note}</strong>
-      )}
+      <span class="photo-changes">{photo.changes}</span>
+      {photo.note && <strong class="photo-note">{photo.note}</strong>}
     </figcaption>
   </figure>
 ) : (

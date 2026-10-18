@@ -57,6 +57,11 @@ test("homepage menu opens exactly five pilot records without overflow", async ({
       () => document.documentElement.scrollWidth <= innerWidth,
     ),
   ).toBe(true);
+  await page.locator("[data-species-card] .species-photo > a").first().click();
+  await expect(page).toHaveURL(/\/especies\/neon-chines\/$/);
+  await expect(page.getByRole("heading", { level: 1 })).toHaveText(
+    "Neon-chinês",
+  );
 });
 
 test("search is accent-insensitive and combines with category filters and reset", async ({
@@ -149,6 +154,38 @@ test("each generated profile has the correct identity, inquiry, metadata, refere
         `Olá! Estava conhecendo a espécie ${entry.name} (${entry.scientific}) no site da Uberpeixes e gostaria de consultar o valor e a disponibilidade.`,
       );
     }
+    await expect(page.locator("main .species-photo img")).toHaveCount(3);
+    await expect(page.locator(".species-gallery .species-photo")).toHaveCount(
+      2,
+    );
+    const photoPaths: string[] = [];
+    for (const photo of await page.locator("main .species-photo").all()) {
+      const img = photo.locator("img");
+      await img.scrollIntoViewIfNeeded();
+      await expect
+        .poll(() =>
+          img.evaluate(
+            (element: HTMLImageElement) =>
+              element.complete && element.naturalWidth > 0,
+          ),
+        )
+        .toBe(true);
+      const path = (await img.getAttribute("src"))!;
+      photoPaths.push(path);
+      await expect(photo.locator("a").first()).toHaveAttribute("href", path);
+      await expect(photo.locator("figcaption")).toContainText("Foto:");
+      expect(
+        await photo.locator("figcaption a[href^='https://']").count(),
+      ).toBe(2);
+      if (
+        await photo.evaluate((element) =>
+          Boolean(element.closest(".species-gallery")),
+        )
+      )
+        await expect(img).toHaveAttribute("loading", "lazy");
+    }
+    expect(new Set(photoPaths).size).toBe(3);
+    await page.locator(".species-hero").scrollIntoViewIfNeeded();
     await expect(page.locator(".species-inquiry a")).toBeInViewport();
     if (entry.slug === "barbus-cereja-veu") {
       await expect(page.locator("#agua")).toContainText("16–24 °C");

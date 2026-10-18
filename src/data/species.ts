@@ -53,14 +53,30 @@ export function validateSpeciesCatalog(records: Species[]): void {
     }
     if (animal.status === "reviewed" && !isPublishable(animal))
       throw new Error(`Reviewed species has unresolved data: ${animal.slug}`);
+    const photos = animal.photo
+      ? [animal.photo, ...animal.additionalPhotos]
+      : animal.additionalPhotos;
     if (
-      animal.photo &&
-      (!animal.photo.author ||
-        !animal.photo.license ||
-        !animal.photo.licenseUrl ||
-        !animal.photo.sourceUrl)
+      new Set(photos.map((photo) => photo.src)).size !== photos.length ||
+      new Set(photos.map((photo) => photo.sourceUrl)).size !== photos.length
     )
-      throw new Error(`Missing photo attribution: ${animal.slug}`);
+      throw new Error(`Duplicate species photograph: ${animal.slug}`);
+    for (const photo of photos) {
+      if (
+        !photo.author ||
+        !photo.license ||
+        !photo.licenseUrl ||
+        !photo.sourceUrl ||
+        !photo.alt ||
+        !photo.changes ||
+        photo.width <= 0 ||
+        photo.height <= 0
+      )
+        throw new Error(`Missing photo metadata: ${animal.slug}`);
+      for (const url of [photo.sourceUrl, photo.licenseUrl])
+        if (new URL(url).protocol !== "https:")
+          throw new Error(`Invalid photograph credit URL: ${animal.slug}`);
+    }
   }
   for (const animal of records)
     for (const related of animal.relatedSlugs)

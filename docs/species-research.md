@@ -25,9 +25,9 @@ O Conchônio Cereja Véu utiliza a identificação biológica Pethia conchonius.
 
 ## Fotografias
 
-Cinco fotografias reais do Wikimedia Commons foram obtidas, conferidas visualmente e convertidas para WebP, sem recorte ou alteração de conteúdo. Créditos, licenças e URLs ficam visíveis junto às fotos e completos em `species-image-credits.json`. As fotografias retêm suas próprias licenças CC BY/CC BY-SA; a licença do código não as substitui. As versões WebP de imagens ShareAlike permanecem disponíveis sob a mesma licença indicada.
+Quinze fotografias reais do Wikimedia Commons compõem as cinco fichas (três por espécie). Todas foram conferidas visualmente e convertidas para WebP sem recorte ou alteração de conteúdo. Autores, licenças, origem e dimensões de cada imagem estão em `species-image-credits.json` e seus créditos ficam visíveis na ficha. As fotografias mantêm suas próprias licenças CC BY/CC BY-SA ou sua condição de domínio público, independentemente da licença do código. Versões WebP de imagens ShareAlike seguem a mesma licença indicada.
 
-O quarto piloto utiliza a fotografia “Rosy Barbs”, Kkonstan, CC BY 3.0, representativa de Pethia conchonius com nadadeiras alongadas. É uma imagem diferente da foto da Kauar enviada pelo usuário; a substituição pela imagem exata depende de obter o arquivo. A pendência está registrada na documentação e no PR; a legenda limita a imagem à representação da espécie. As fotos não representam estoque nem exemplares da loja.
+A seleção diferencia espécies parecidas e evita três versões da mesma captura. Foram excluídos um recorte duplicado de Dermogenys e uma imagem de identificação incerta. Não foram usadas imagens geradas, preços ou fotos que comprovassem estoque. A galeria de Pethia conchonius inclui registros da espécie-base e de nadadeiras alongadas; as legendas explicam que a forma comercial do lote pode variar. Não foi atribuída licença aberta a fotos da Kauar: a seleção final é composta por arquivos de fontes abertas com metadados próprios.
 
 ## Limites de publicação
 

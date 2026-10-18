@@ -120,6 +120,12 @@ const allReviewed = species.every(isPublishable);
             <i>{scientificLabel(animal)}</i>
           </p>
           <p>{animal.description}</p>
+          <a
+            class="species-photo-count"
+            href={`/especies/${animal.slug}/#fotos`}
+          >
+            {1 + animal.additionalPhotos.length} fotos da espécie
+          </a>
           <div class="species-card-actions">
             <a class="button" href={`/especies/${animal.slug}/`}>
               Ver ficha completa

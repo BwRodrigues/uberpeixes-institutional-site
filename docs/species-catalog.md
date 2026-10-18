@@ -31,9 +31,10 @@ A loja confirmou Agulhinha Prata como `Dermogenys pusilla`. Os cinco registros c
 3. Consultar fontes taxonômicas e de manutenção específicas. Cada campo precisa citar IDs existentes em `references`. Informar autor, título, ano quando publicado, URL e data real da consulta. Distinguir manutenção em aquário de registros na natureza.
 4. Preencher as onze seções. Para informação não localizada, explicar a lacuna; não inventar longevidade, KH, números de indivíduos ou compatibilidade. `pending` permite deixar uma seção inteira pendente em um rascunho.
 5. Colocar uma foto real e autorizada em `public/images/species/`. Informar dimensões reais, alt, autor, licença, URL da licença, página de origem e alterações efetuadas em `photo`. Acrescentar `note` para limitações da imagem. Não gerar uma imagem supostamente científica.
-6. Revisar `relatedSlugs`, copiar o registro dos créditos para `docs/species-image-credits.json` e conferir as condições da licença.
-7. Manter `status: "draft"` até a revisão da loja e da ficha. Depois da aprovação, mudar para `reviewed`; o build rejeita registros revisados sem nome científico, foto, referências ou seções completas.
-8. Executar check, build, formatação e testes. Conferir o animal real, as imagens, referências e o texto da consulta antes de abrir PR. Não editar templates para cada nova espécie.
+6. Acrescentar duas fotografias distintas em `additionalPhotos`, com o mesmo contrato de metadados de `photo`. A capa permanece em `photo`; as duas extras são mostradas automaticamente na galeria da ficha, com carregamento lazy. Não repetir a mesma captura em outro recorte.
+7. Revisar `relatedSlugs`, copiar o registro dos créditos para `docs/species-image-credits.json` e conferir as condições da licença.
+8. Manter `status: "draft"` até a revisão da loja e da ficha. Depois da aprovação, mudar para `reviewed`; o build rejeita registros revisados sem nome científico, foto, referências ou seções completas.
+9. Executar check, build, formatação e testes. Conferir o animal real, as imagens, referências e o texto da consulta antes de abrir PR. Não editar templates para cada nova espécie.
 
 ## SEO e revisão
 
@@ -76,8 +77,16 @@ Isso não aprova os dados: `status: "draft"`, ressalvas científicas permanentes
 
 A loja confirmou o nome **Barbo Conchônio Cereja Véu — Pethia conchonius**. Todos os campos biológicos desse registro foram pesquisados novamente para essa espécie. O slug `/especies/barbus-cereja-veu/` foi mantido para não quebrar links já compartilhados; SEO, título, nome científico e mensagem de WhatsApp usam a identificação corrigida.
 
-A foto antiga de Rohanella foi substituída por uma foto real licenciada de Pethia conchonius (Kkonstan, CC BY 3.0). A página da Kauar foi consultada e confirmou o nome. A fotografia exata enviada na conversa/Kauar continua pendente: o arquivo está no CDN `images.tcdn.com.br`, ainda bloqueado pelo proxy deste ambiente. O domínio foi salvo no rascunho de configuração. Não se atribuiu à imagem da Kauar a licença de outra fotografia. Para substituí-la exatamente, é necessário disponibilizar seu arquivo original ou aplicar o acesso ao CDN nas configurações do ambiente.
+A galeria utiliza somente fotografias reais com licenças abertas, obtidas no Wikimedia Commons. Cada ficha reúne uma capa em `photo` e duas imagens em `additionalPhotos`, com créditos individuais em `docs/species-image-credits.json`. A seleção de Pethia inclui registros da espécie com diferentes extensões de nadadeiras; a legenda não afirma que toda foto representa a mesma linhagem comercial da loja. Nenhuma imagem é gerada por IA ou apresenta estoque confirmado.
 
 ## Conferência do deploy atualizado
 
 O Cloudflare confirmou o deploy do commit `f4d6cb0`, e o endereço navegável da branch respondeu HTTP 200 sem autenticação. Deploy imutável dessa revisão: https://84e7811d.uberpeixes-institutional-site.pages.dev/especies/ . Os 12 testes do catálogo passaram no preview público, em desktop de 1440 px e celulares de 375/320 px; o link da branch acima acompanha os commits seguintes. Essa verificação é independente das capturas PNG.
+
+[Galeria no desktop](review/species-gallery-desktop.png) e [galeria no celular](review/species-gallery-mobile.png).
+
+## Galerias de três fotografias
+
+As cinco fichas têm três fotografias distintas cada: 15 imagens no total, mantidas localmente em WebP. A listagem carrega apenas a capa e informa “3 fotos da espécie”; clicar na capa abre a ficha, sem levar o visitante a um arquivo JPG. Na ficha, a capa e as duas fotos extras podem ser abertas em tamanho completo pelo teclado ou toque, sem dependência de JavaScript ou carrossel externo.
+
+Todas as fotos incluem dimensões reais, alt descritivo, fotógrafo, origem, licença gratuita e declaração da conversão. Fotos CC BY/CC BY-SA mantêm atribuição e a licença de cada arquivo; imagens em domínio público também conservam seus créditos de origem. `validateSpeciesCatalog` verifica os metadados das imagens adicionais e rejeita caminhos/páginas de origem duplicados na mesma ficha. A conferência visual também excluiu recortes da mesma captura e uma imagem cuja própria descrição indicava dúvida de identificação.

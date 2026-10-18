@@ -428,5 +428,29 @@
     }
   ],
   "relatedSlugs": ["barbus-cereja-veu"],
-  "status": "draft"
+  "status": "draft",
+  "additionalPhotos": [
+    {
+      "src": "/images/species/cereja-2.webp",
+      "width": 696,
+      "height": 696,
+      "alt": "Fêmea de Rohanella titteya com faixa lateral escura acima de um macho vermelho",
+      "author": "Akino yuugure",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cherry-barb_female_and_male.jpg",
+      "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo."
+    },
+    {
+      "src": "/images/species/cereja-3.webp",
+      "width": 960,
+      "height": 570,
+      "alt": "Rohanella titteya de perfil, com escamas rosadas e faixa escura pontilhada na lateral",
+      "author": "Uditha Thejan",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Puntius_titteya-cherry_barb.jpg",
+      "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ]
 }

@@ -421,5 +421,31 @@
     }
   ],
   "relatedSlugs": ["barbus-cereja"],
-  "status": "draft"
+  "status": "draft",
+  "additionalPhotos": [
+    {
+      "src": "/images/species/conchonio-2.webp",
+      "width": 960,
+      "height": 720,
+      "alt": "Pethia conchonius de perfil em aquário, com corpo dourado e nadadeiras alongadas",
+      "author": "Twowells",
+      "license": "Domínio público",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rosy_barb.jpg",
+      "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo.",
+      "note": "Registro representativo de Pethia conchonius. Variedade ornamental e extensão das nadadeiras podem diferir do lote da loja."
+    },
+    {
+      "src": "/images/species/conchonio-3.webp",
+      "width": 960,
+      "height": 540,
+      "alt": "Pethia conchonius avermelhado de nadadeiras comuns, nadando próximo ao substrato e às plantas",
+      "author": "Kutac",
+      "license": "Domínio público",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Prachtbarbe1.JPG",
+      "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo.",
+      "note": "Registro representativo de Pethia conchonius. Variedade ornamental e extensão das nadadeiras podem diferir do lote da loja."
+    }
+  ]
 }

@@ -164,6 +164,7 @@ export interface Species {
   identificationNote: string;
   description: string;
   photo: LicensedPhoto | null;
+  additionalPhotos: LicensedPhoto[];
   sections: ProfileSection[];
   references: Reference[];
   relatedSlugs: string[];

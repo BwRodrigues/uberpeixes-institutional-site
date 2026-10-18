@@ -420,5 +420,29 @@
     }
   ],
   "relatedSlugs": [],
-  "status": "draft"
+  "status": "draft",
+  "additionalPhotos": [
+    {
+      "src": "/images/species/agulhinha-2.webp",
+      "width": 960,
+      "height": 565,
+      "alt": "Dois Dermogenys pusilla prateados em aquário, com mandíbulas alongadas e nadadeiras avermelhadas",
+      "author": "Ahsan_al_hidayat",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dermogenys_pusilla.jpg",
+      "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo."
+    },
+    {
+      "src": "/images/species/agulhinha-3.webp",
+      "width": 960,
+      "height": 978,
+      "alt": "Dermogenys pusilla em aquário, com fêmea acima e macho de nadadeiras avermelhadas abaixo",
+      "author": "Ahsan_al_hidayat",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dermogenys_pusilla_male_and_female_(top).jpg",
+      "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ]
 }

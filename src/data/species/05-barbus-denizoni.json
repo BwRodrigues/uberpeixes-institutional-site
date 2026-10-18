@@ -428,5 +428,29 @@
     }
   ],
   "relatedSlugs": [],
-  "status": "draft"
+  "status": "draft",
+  "additionalPhotos": [
+    {
+      "src": "/images/species/denizoni-2.webp",
+      "width": 960,
+      "height": 647,
+      "alt": "Cardume de Dawkinsia denisonii com faixas pretas e vermelhas em aquário",
+      "author": "Anandarajkumar",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sahyadria_denisonii_school.jpg",
+      "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo."
+    },
+    {
+      "src": "/images/species/denizoni-3.webp",
+      "width": 960,
+      "height": 720,
+      "alt": "Dawkinsia denisonii de perfil com faixa preta, vermelho na cabeça e marcas amarelas na cauda",
+      "author": "NasserHalaweh",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cyprinidae_Sahyadria_denisonii_1.2.jpg",
+      "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ]
 }

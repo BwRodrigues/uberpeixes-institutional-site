@@ -420,5 +420,29 @@
     }
   ],
   "relatedSlugs": [],
-  "status": "draft"
+  "status": "draft",
+  "additionalPhotos": [
+    {
+      "src": "/images/species/neon-2.webp",
+      "width": 822,
+      "height": 683,
+      "alt": "Três Tanichthys albonubes entre folhas verdes, com faixas laterais claras e caudas avermelhadas",
+      "author": "Ark",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tanichthys_albonubes_by_Ark.jpg",
+      "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo."
+    },
+    {
+      "src": "/images/species/neon-3.webp",
+      "width": 960,
+      "height": 703,
+      "alt": "Grupo de Tanichthys albonubes em aquário, com uma fêmea em primeiro plano",
+      "author": "Corydoras-adolfoi",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:White_Cloud_Mountain_Minnow_(Tanichthys_albonubes)_female_in_front.jpg",
+      "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ]
 }

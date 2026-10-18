@@ -1,6 +1,7 @@
 [
   {
     "slug": "neon-chines",
+    "position": 1,
     "src": "/images/species/neon-chines.webp",
     "width": 960,
     "height": 640,
@@ -12,7 +13,34 @@
     "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo."
   },
   {
+    "slug": "neon-chines",
+    "position": 2,
+    "src": "/images/species/neon-2.webp",
+    "width": 822,
+    "height": 683,
+    "alt": "Três Tanichthys albonubes entre folhas verdes, com faixas laterais claras e caudas avermelhadas",
+    "author": "Ark",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tanichthys_albonubes_by_Ark.jpg",
+    "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  {
+    "slug": "neon-chines",
+    "position": 3,
+    "src": "/images/species/neon-3.webp",
+    "width": 960,
+    "height": 703,
+    "alt": "Grupo de Tanichthys albonubes em aquário, com uma fêmea em primeiro plano",
+    "author": "Corydoras-adolfoi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:White_Cloud_Mountain_Minnow_(Tanichthys_albonubes)_female_in_front.jpg",
+    "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  {
     "slug": "peixe-agulhinha",
+    "position": 1,
     "src": "/images/species/agulhinha-prata.webp",
     "width": 960,
     "height": 640,
@@ -24,7 +52,34 @@
     "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo."
   },
   {
+    "slug": "peixe-agulhinha",
+    "position": 2,
+    "src": "/images/species/agulhinha-2.webp",
+    "width": 960,
+    "height": 565,
+    "alt": "Dois Dermogenys pusilla prateados em aquário, com mandíbulas alongadas e nadadeiras avermelhadas",
+    "author": "Ahsan_al_hidayat",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dermogenys_pusilla.jpg",
+    "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  {
+    "slug": "peixe-agulhinha",
+    "position": 3,
+    "src": "/images/species/agulhinha-3.webp",
+    "width": 960,
+    "height": 978,
+    "alt": "Dermogenys pusilla em aquário, com fêmea acima e macho de nadadeiras avermelhadas abaixo",
+    "author": "Ahsan_al_hidayat",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dermogenys_pusilla_male_and_female_(top).jpg",
+    "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  {
     "slug": "barbus-cereja",
+    "position": 1,
     "src": "/images/species/barbus-cereja.webp",
     "width": 960,
     "height": 574,
@@ -36,7 +91,34 @@
     "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo."
   },
   {
+    "slug": "barbus-cereja",
+    "position": 2,
+    "src": "/images/species/cereja-2.webp",
+    "width": 696,
+    "height": 696,
+    "alt": "Fêmea de Rohanella titteya com faixa lateral escura acima de um macho vermelho",
+    "author": "Akino yuugure",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cherry-barb_female_and_male.jpg",
+    "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  {
+    "slug": "barbus-cereja",
+    "position": 3,
+    "src": "/images/species/cereja-3.webp",
+    "width": 960,
+    "height": 570,
+    "alt": "Rohanella titteya de perfil, com escamas rosadas e faixa escura pontilhada na lateral",
+    "author": "Uditha Thejan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Puntius_titteya-cherry_barb.jpg",
+    "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  {
     "slug": "barbus-cereja-veu",
+    "position": 1,
     "src": "/images/species/barbo-conchonio-cereja-veu.webp",
     "width": 960,
     "height": 639,
@@ -49,7 +131,36 @@
     "note": "Fotografia representativa de Pethia conchonius; não comprova a linhagem exata, a procedência ou a disponibilidade do lote."
   },
   {
+    "slug": "barbus-cereja-veu",
+    "position": 2,
+    "src": "/images/species/conchonio-2.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Pethia conchonius de perfil em aquário, com corpo dourado e nadadeiras alongadas",
+    "author": "Twowells",
+    "license": "Domínio público",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rosy_barb.jpg",
+    "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo.",
+    "note": "Registro representativo de Pethia conchonius. Variedade ornamental e extensão das nadadeiras podem diferir do lote da loja."
+  },
+  {
+    "slug": "barbus-cereja-veu",
+    "position": 3,
+    "src": "/images/species/conchonio-3.webp",
+    "width": 960,
+    "height": 540,
+    "alt": "Pethia conchonius avermelhado de nadadeiras comuns, nadando próximo ao substrato e às plantas",
+    "author": "Kutac",
+    "license": "Domínio público",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Prachtbarbe1.JPG",
+    "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo.",
+    "note": "Registro representativo de Pethia conchonius. Variedade ornamental e extensão das nadadeiras podem diferir do lote da loja."
+  },
+  {
     "slug": "barbus-denizoni",
+    "position": 1,
     "src": "/images/species/barbus-denizoni.webp",
     "width": 960,
     "height": 501,
@@ -58,6 +169,32 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Puntius_denisonii_1.jpg",
+    "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  {
+    "slug": "barbus-denizoni",
+    "position": 2,
+    "src": "/images/species/denizoni-2.webp",
+    "width": 960,
+    "height": 647,
+    "alt": "Cardume de Dawkinsia denisonii com faixas pretas e vermelhas em aquário",
+    "author": "Anandarajkumar",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sahyadria_denisonii_school.jpg",
+    "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  {
+    "slug": "barbus-denizoni",
+    "position": 3,
+    "src": "/images/species/denizoni-3.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Dawkinsia denisonii de perfil com faixa preta, vermelho na cabeça e marcas amarelas na cauda",
+    "author": "NasserHalaweh",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cyprinidae_Sahyadria_denisonii_1.2.jpg",
     "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo."
   }
 ]

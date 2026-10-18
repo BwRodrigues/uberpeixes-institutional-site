@@ -50,7 +50,11 @@ if (
     "@type": "Article",
     headline: `${animal.name} — ${scientificLabel(animal)}`,
     description: animal.description,
-    image: animal.photo ? canonicalUrl(animal.photo.src) : undefined,
+    image: animal.photo
+      ? [animal.photo, ...animal.additionalPhotos].map((photo) =>
+          canonicalUrl(photo.src),
+        )
+      : undefined,
     mainEntityOfPage: canonicalUrl(path),
   });
 ---
@@ -93,7 +97,7 @@ if (
         Voltar ao catálogo
       </a>
     </div>
-    <SpeciesPhoto animal={animal} eager />
+    <SpeciesPhoto animal={animal} eager zoom />
   </section>
   <p class="identification-note">{animal.identificationNote}</p>
   {isCatalogPreview && !reviewed && (
@@ -106,6 +110,24 @@ if (
         disponibilidade.
       </p>
     </aside>
+  )}
+  {animal.additionalPhotos.length > 0 && (
+    <section
+      class="species-gallery"
+      id="fotos"
+      aria-labelledby="species-gallery-title"
+    >
+      <h2 id="species-gallery-title">Mais fotos da espécie</h2>
+      <p>
+        Veja outros registros de <i>{animal.scientificName}</i>. Toque em uma
+        foto para abrir a imagem completa.
+      </p>
+      <div class="species-gallery-grid">
+        {animal.additionalPhotos.map((photo) => (
+          <SpeciesPhoto animal={animal} photo={photo} zoom />
+        ))}
+      </div>
+    </section>
   )}
   <div class="profile-layout">
     <nav class="profile-index" aria-label="Seções da ficha">

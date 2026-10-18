@@ -411,3 +411,40 @@
   color: var(--muted);
   max-width: 85ch;
 }
+
+.species-photo > a {
+  display: block;
+}
+.species-photo > a:focus-visible {
+  outline-offset: -4px;
+}
+.species-photo-count {
+  width: fit-content;
+  color: var(--brand-indigo);
+  padding-block: 10px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.species-gallery {
+  margin-block: 32px;
+  scroll-margin-top: 24px;
+}
+.species-gallery > p {
+  color: var(--muted);
+  font-size: 14px;
+}
+.species-gallery-grid {
+  display: grid;
+  gap: 24px;
+}
+.species-gallery-grid > figure {
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+@media (min-width: 700px) {
+  .species-gallery-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
