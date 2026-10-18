@@ -8,9 +8,9 @@ Relatório gerado por `python3 scripts/catalog/audit_catalog.py --write`. Não c
 - Registros comerciais recebidos: **212** (incluem plantas e variedades, não equivalem a espécies biológicas).
 - Abas inspecionadas: **3**; duas abas de instruções não contêm registros de catálogo e não foram executadas.
 - Espécies já existentes preservadas: **5**.
-- Novas fichas geradas: **34**; total de fichas navegáveis: **39**.
+- Novas fichas geradas: **40**; total de fichas navegáveis: **45**.
 - Registros comerciais incorporados como variedades/aliases de fichas novas, sem URL adicional: **44**.
-- Registros ignorados ou pendentes: **129**.
+- Registros ignorados ou pendentes: **123**.
 - Grupos científicos candidatos: **53**; **52** têm nome aceito verificado no Catalog of Fishes. Essa contagem não resolve a identidade dos demais nomes comerciais; o total biológico final da planilha continua indeterminado.
 
 ## Abas
@@ -27,6 +27,7 @@ Relatório gerado por `python3 scripts/catalog/audit_catalog.py --write`. Não c
 - `lote-02`: betta-splendens, misgurnus-anguillicaudatus, aulonocara-stuartgranti, melanochromis-auratus, labidochromis-caeruleus, maylandia-lombardoi, chindongo-socolofi, nimbochromis-venustus, maylandia-estherae, pterophyllum-scalare. Validação: build, integridade e testes do lote aprovados.
 - `lote-03`: thorichthys-meeki, andinoacara-rivulatus, acarichthys-heckelii, astronotus-ocellatus, mikrogeophagus-ramirezi, trichogaster-chuna, macropodus-opercularis, trichopodus-trichopterus, trichopodus-leerii, gyrinocheilus-aymonieri. Validação: build, integridade e testes do lote aprovados.
 - `lote-04`: hoplisoma-schwartzi, pangasianodon-hypophthalmus, phractocephalus-hemioliopterus, xiphophorus-hellerii, poecilia-reticulata, poecilia-sphenops, megalamphodus-eques, bario-sanctaefilomenae, hyphessobrycon-pulchripinnis, pristella-maxillaris. Validação: build, integridade e testes do lote aprovados.
+- `lote-05`: hyphessobrycon-amandae, hemigrammus-erythrozonus, gymnocorymbus-ternetzi, paracheirodon-axelrodi, hyphessobrycon-herbertaxelrodi, thayeria-boehlkei. Validação: build, integridade e testes do lote aprovados.
 
 ## Fichas novas concluídas
 
@@ -66,6 +67,12 @@ Relatório gerado por `python3 scripts/catalog/audit_catalog.py --write`. Não c
 | Tetra-olho-de-fogo | *Bario sanctaefilomenae* | Tetras e Peixes de Cardume | `/especies/bario-sanctaefilomenae/` |
 | Tetra-limão | *Hyphessobrycon pulchripinnis* | Tetras e Peixes de Cardume | `/especies/hyphessobrycon-pulchripinnis/` |
 | Tetra-pristela | *Pristella maxillaris* | Tetras e Peixes de Cardume | `/especies/pristella-maxillaris/` |
+| Tetra-foguinho | *Hyphessobrycon amandae* | Tetras e Peixes de Cardume | `/especies/hyphessobrycon-amandae/` |
+| Tetra-glowlight | *Hemigrammus erythrozonus* | Tetras e Peixes de Cardume | `/especies/hemigrammus-erythrozonus/` |
+| Tetra-negro | *Gymnocorymbus ternetzi* | Tetras e Peixes de Cardume | `/especies/gymnocorymbus-ternetzi/` |
+| Neon-cardinal | *Paracheirodon axelrodi* | Tetras e Peixes de Cardume | `/especies/paracheirodon-axelrodi/` |
+| Neon-negro | *Hyphessobrycon herbertaxelrodi* | Tetras e Peixes de Cardume | `/especies/hyphessobrycon-herbertaxelrodi/` |
+| Tetra-pinguim | *Thayeria boehlkei* | Tetras e Peixes de Cardume | `/especies/thayeria-boehlkei/` |
 
 ## Duplicidades comerciais consolidadas
 
@@ -242,13 +249,7 @@ O agrupamento é uma decisão explícita por espécie, não uma deduplicação p
 | 199 | Tetras e Peixes de Cardume | CRUZEIRO DO SUL | Não confirmada | Cruzeiro-do-sul: verificar identificação e revisão taxonômica de Hyphessobrycon/Psalidodon anisitsi. |
 | 200 | Tetras e Peixes de Cardume | LÁPIS | Não confirmada | Peixe-lápis: nome abrange diversas espécies de Nannostomus; confirmar espécie. |
 | 202 | Tetras e Peixes de Cardume | MOCINHA | Não confirmada | Mocinha: nome regional não resolve espécie; confirmar Characidium ou outro gênero. |
-| 206 | Tetras e Peixes de Cardume | TETRA FOGUINHO | Hyphessobrycon amandae | Revisão editorial pendente. |
 | 207 | Tetras e Peixes de Cardume | TETRA FORTUNA | Não confirmada | Tetra fortuna: identificação científica não comprovada por nome comercial. |
-| 208 | Tetras e Peixes de Cardume | TETRA GROWLIGHT | Hemigrammus erythrozonus | Revisão editorial pendente. |
-| 210 | Tetras e Peixes de Cardume | TETRA NEGRO | Gymnocorymbus ternetzi | Revisão editorial pendente. |
-| 211 | Tetras e Peixes de Cardume | TETRA NEON CARDINAL | Paracheirodon axelrodi | Revisão editorial pendente. |
-| 212 | Tetras e Peixes de Cardume | TETRA NEON NEGRO | Hyphessobrycon herbertaxelrodi | Revisão editorial pendente. |
-| 214 | Tetras e Peixes de Cardume | TETRA PINGUIM | Thayeria boehlkei | Revisão editorial pendente. |
 | 216 | Tetras e Peixes de Cardume | TETRA RODÓSTOMO | Não confirmada | Rodóstomo: distinguir Petitella rhodostoma, P. bleheri e P. georgiae; não atribuir foto ou cuidados à espécie errada. |
 | 217 | Tetras e Peixes de Cardume | TETRA VIDRO | Prionobrama filigera | Não foram selecionadas três fotografias reais distintas com licença comercial adequada. |
 

@@ -1,0 +1,349 @@
+{
+  "slug": "hemigrammus-erythrozonus",
+  "name": "Tetra-glowlight",
+  "commercialName": "TETRA GROWLIGHT",
+  "category": "Tetras e Peixes de Cardume",
+  "source": {
+    "workbook": "VAREJO PEIXES NICHOS.xlsx",
+    "sheet": "Tabela Peixes Atual",
+    "row": 208,
+    "niche": "Tetras e Peixes de Cardume"
+  },
+  "sortOrder": 208,
+  "scientificName": "Hemigrammus erythrozonus",
+  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "description": "Uma faixa luminosa acompanha o corpo do tetra-glowlight. O efeito se destaca em cardume, entre plantas e áreas de sombra.",
+  "photo": {
+    "src": "/images/species/hemigrammus-erythrozonus-1.webp",
+    "width": 600,
+    "height": 365,
+    "alt": "Fotografia representativa de Hemigrammus erythrozonus; imagem de referência da espécie, sem indicação de estoque.",
+    "author": "GOGO",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hemigrammus_erythrozonus.jpg",
+    "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  "additionalPhotos": [
+    {
+      "src": "/images/species/hemigrammus-erythrozonus-2.webp",
+      "width": 800,
+      "height": 534,
+      "alt": "Fotografia representativa de Hemigrammus erythrozonus; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Strolgen",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#Public_domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Glowlight_pics.JPG",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    },
+    {
+      "src": "/images/species/hemigrammus-erythrozonus-3.webp",
+      "width": 960,
+      "height": 720,
+      "alt": "Fotografia representativa de Hemigrammus erythrozonus; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Gonzalo Valenzuela",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tetra_Glowlight.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ],
+  "sections": [
+    {
+      "id": "apresentacao",
+      "fields": [
+        {
+          "label": "Outros nomes populares",
+          "value": "TETRA GROWLIGHT",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Identificação científica",
+          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Introdução",
+          "value": "Uma faixa luminosa acompanha o corpo do tetra-glowlight. O efeito se destaca em cardume, entre plantas e áreas de sombra.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "classificacao",
+      "fields": [
+        {
+          "label": "Reino",
+          "value": "Animalia",
+          "referenceIds": [
+            "gbif"
+          ]
+        },
+        {
+          "label": "Filo",
+          "value": "Chordata",
+          "referenceIds": [
+            "gbif"
+          ]
+        },
+        {
+          "label": "Classe",
+          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "referenceIds": [
+            "class"
+          ]
+        },
+        {
+          "label": "Ordem",
+          "value": "Characiformes",
+          "referenceIds": [
+            "class"
+          ]
+        },
+        {
+          "label": "Família",
+          "value": "Acestrorhamphidae",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Gênero",
+          "value": "Hemigrammus",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Espécie",
+          "value": "Hemigrammus erythrozonus",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Autoridade taxonômica",
+          "value": "Durbin 1909",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Sinônimos científicos",
+          "value": "Literatura de manutenção consultada sob Hemigrammus erythrozonus; o nome aceito adotado é Hemigrammus erythrozonus. Consultar o histórico nomenclatural completo na referência taxonômica.",
+          "referenceIds": [
+            "cof",
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Continente e países",
+          "value": "América do Sul: bacia do rio Essequibo, na Guiana.",
+          "referenceIds": [
+            "care",
+            "cof"
+          ]
+        },
+        {
+          "label": "Ambiente natural",
+          "value": "Tributários florestados de água frequentemente escurecida por matéria orgânica, com tendência ácida.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Tamanho adulto",
+          "value": "40 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Fêmeas maduras tendem a ser maiores e mais arredondadas no ventre.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "24–28 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "5.5–7.5; não interpretar os extremos como metas a alternar.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "GH",
+          "value": "2–15 °dGH.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "KH",
+          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Substrato e decoração",
+          "value": "Plantas, raízes, sombra parcial e espaço para o cardume. A água de manutenção não precisa reproduzir extremos medidos na natureza.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "A fonte usa 60 × 38 × 30 cm, aproximadamente 68 L, para um pequeno grupo. Grupos maiores e comunitários pedem mais espaço.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Manutenção específica",
+          "value": "Plantas, raízes, sombra parcial e espaço para o cardume. A água de manutenção não precisa reproduzir extremos medidos na natureza.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Alimentos adequados",
+          "value": "Rações finas, pequenos alimentos vivos ou congelados e variedade alimentar.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Comportamento social",
+          "value": "Pacífico; manter pelo menos seis, preferencialmente dez ou mais. Não associar com peixes que possam engoli-lo.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Tipo de reprodução",
+          "value": "Dispersa ovos; para criar alevinos, preparar aquário separado, proteger ovos dos adultos e oferecer alimento inicial apropriado.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Problemas de manutenção",
+          "value": "Plantas, raízes, sombra parcial e espaço para o cardume. A água de manutenção não precisa reproduzir extremos medidos na natureza.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "fields": [
+        {
+          "label": "Curiosidades verificadas da espécie",
+          "value": "O registro “GROWLIGHT” da planilha foi tratado como grafia comercial de glowlight, com identificação e referências próprias, sem copiar cuidados de outro tetra.",
+          "referenceIds": [
+            "care",
+            "cof"
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "cof",
+      "title": "Eschmeyer’s Catalog of Fishes — Hemigrammus erythrozonus",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=4011",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "class",
+      "title": "Eschmeyer’s Catalog of Fishes — classificação por família",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "care",
+      "title": "Hemigrammus erythrozonus — manutenção e história natural",
+      "url": "https://www.seriouslyfish.com/species/hemigrammus-erythrozonus/",
+      "author": "Seriously Fish",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "gbif",
+      "title": "Hemigrammus erythrozonus — registro comparativo no GBIF",
+      "url": "https://api.gbif.org/v1/species/match?name=Hemigrammus%20erythrozonus",
+      "author": "GBIF",
+      "accessedAt": "2026-10-18"
+    }
+  ],
+  "regions": [
+    {
+      "id": "america-do-sul",
+      "label": "América do Sul",
+      "scale": "continent",
+      "referenceIds": [
+        "care",
+        "cof"
+      ]
+    }
+  ],
+  "status": "draft"
+}

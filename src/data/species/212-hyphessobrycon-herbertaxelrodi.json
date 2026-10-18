@@ -1,0 +1,349 @@
+{
+  "slug": "hyphessobrycon-herbertaxelrodi",
+  "name": "Neon-negro",
+  "commercialName": "TETRA NEON NEGRO",
+  "category": "Tetras e Peixes de Cardume",
+  "source": {
+    "workbook": "VAREJO PEIXES NICHOS.xlsx",
+    "sheet": "Tabela Peixes Atual",
+    "row": 212,
+    "niche": "Tetras e Peixes de Cardume"
+  },
+  "sortOrder": 212,
+  "scientificName": "Hyphessobrycon herbertaxelrodi",
+  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "description": "O neon-negro exibe faixas claras e escuras que ganham destaque em grupo. É uma espécie distinta do neon-cardinal, com ficha própria.",
+  "photo": {
+    "src": "/images/species/hyphessobrycon-herbertaxelrodi-1.webp",
+    "width": 960,
+    "height": 604,
+    "alt": "Fotografia representativa de Hyphessobrycon herbertaxelrodi; imagem de referência da espécie, sem indicação de estoque.",
+    "author": "Juan R. Lascorz",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:02.Hyphessobrycon_herbertaxelrodi.JPG",
+    "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  "additionalPhotos": [
+    {
+      "src": "/images/species/hyphessobrycon-herbertaxelrodi-2.webp",
+      "width": 960,
+      "height": 585,
+      "alt": "Fotografia representativa de Hyphessobrycon herbertaxelrodi; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Juan R. Lascorz",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:05.Hyphessobrycon_herbertaxelrodi.JPG",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    },
+    {
+      "src": "/images/species/hyphessobrycon-herbertaxelrodi-3.webp",
+      "width": 960,
+      "height": 606,
+      "alt": "Fotografia representativa de Hyphessobrycon herbertaxelrodi; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Juan R. Lascorz",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:12.Hyphessobrycon_herbertaxelrodi.JPG",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ],
+  "sections": [
+    {
+      "id": "apresentacao",
+      "fields": [
+        {
+          "label": "Outros nomes populares",
+          "value": "TETRA NEON NEGRO",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Identificação científica",
+          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Introdução",
+          "value": "O neon-negro exibe faixas claras e escuras que ganham destaque em grupo. É uma espécie distinta do neon-cardinal, com ficha própria.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "classificacao",
+      "fields": [
+        {
+          "label": "Reino",
+          "value": "Animalia",
+          "referenceIds": [
+            "gbif"
+          ]
+        },
+        {
+          "label": "Filo",
+          "value": "Chordata",
+          "referenceIds": [
+            "gbif"
+          ]
+        },
+        {
+          "label": "Classe",
+          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "referenceIds": [
+            "class"
+          ]
+        },
+        {
+          "label": "Ordem",
+          "value": "Characiformes",
+          "referenceIds": [
+            "class"
+          ]
+        },
+        {
+          "label": "Família",
+          "value": "Acestrorhamphidae",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Gênero",
+          "value": "Hyphessobrycon",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Espécie",
+          "value": "Hyphessobrycon herbertaxelrodi",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Autoridade taxonômica",
+          "value": "Géry 1961",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Sinônimos científicos",
+          "value": "Literatura de manutenção consultada sob Hyphessobrycon herbertaxelrodi; o nome aceito adotado é Hyphessobrycon herbertaxelrodi. Consultar o histórico nomenclatural completo na referência taxonômica.",
+          "referenceIds": [
+            "cof",
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Continente e países",
+          "value": "América do Sul: alto rio Paraguai em Mato Grosso e Mato Grosso do Sul, Brasil. Registros de regiões próximas exigem cautela taxonômica.",
+          "referenceIds": [
+            "care",
+            "cof"
+          ]
+        },
+        {
+          "label": "Ambiente natural",
+          "value": "Tributários menores, cabeceiras, braços mortos e planícies sazonalmente inundadas, geralmente com vegetação marginal.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Tamanho adulto",
+          "value": "35 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Fêmeas maduras são mais arredondadas; machos tendem a ser mais esguios.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "20–28 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "5.0–7.5; não interpretar os extremos como metas a alternar.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "GH",
+          "value": "1–12 °dGH.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "KH",
+          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Substrato e decoração",
+          "value": "Plantas, raízes e áreas sombreadas; manter espaço para o cardume e boa qualidade da água.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "Base mínima de 80 × 30 cm, cerca de 72 L na fonte, para um pequeno cardume. Ampliar o aquário conforme quantidade de peixes, territórios e companheiros.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Manutenção específica",
+          "value": "Plantas, raízes e áreas sombreadas; manter espaço para o cardume e boa qualidade da água.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Alimentos adequados",
+          "value": "Pequenos alimentos variados: rações finas e complementos vivos ou congelados adequados à boca.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Comportamento social",
+          "value": "Muito pacífico; manter grupo misto de pelo menos 8–10, com companheiros não predadores de porte semelhante.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Tipo de reprodução",
+          "value": "Dispersa ovos sem cuidados parentais; a criação dirigida exige proteção dos ovos e alimento inicial adequado.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Problemas de manutenção",
+          "value": "Plantas, raízes e áreas sombreadas; manter espaço para o cardume e boa qualidade da água.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "fields": [
+        {
+          "label": "Curiosidades verificadas da espécie",
+          "value": "A semelhança do nome “neon” não significa identidade taxonômica nem permite copiar automaticamente a ficha do cardinal.",
+          "referenceIds": [
+            "care",
+            "cof"
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "cof",
+      "title": "Eschmeyer’s Catalog of Fishes — Hyphessobrycon herbertaxelrodi",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=24804",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "class",
+      "title": "Eschmeyer’s Catalog of Fishes — classificação por família",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "care",
+      "title": "Hyphessobrycon herbertaxelrodi — manutenção e história natural",
+      "url": "https://www.seriouslyfish.com/species/hyphessobrycon-herbertaxelrodi/",
+      "author": "Seriously Fish",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "gbif",
+      "title": "Hyphessobrycon herbertaxelrodi — registro comparativo no GBIF",
+      "url": "https://api.gbif.org/v1/species/match?name=Hyphessobrycon%20herbertaxelrodi",
+      "author": "GBIF",
+      "accessedAt": "2026-10-18"
+    }
+  ],
+  "regions": [
+    {
+      "id": "america-do-sul",
+      "label": "América do Sul",
+      "scale": "continent",
+      "referenceIds": [
+        "care",
+        "cof"
+      ]
+    }
+  ],
+  "status": "draft"
+}

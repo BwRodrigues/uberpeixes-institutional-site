@@ -56,5 +56,17 @@
       "pristella-maxillaris"
     ],
     "validation": "build, integridade e testes do lote aprovados"
+  },
+  {
+    "id": "lote-05",
+    "species": [
+      "hyphessobrycon-amandae",
+      "hemigrammus-erythrozonus",
+      "gymnocorymbus-ternetzi",
+      "paracheirodon-axelrodi",
+      "hyphessobrycon-herbertaxelrodi",
+      "thayeria-boehlkei"
+    ],
+    "validation": "build, integridade e testes do lote aprovados"
   }
 ]
