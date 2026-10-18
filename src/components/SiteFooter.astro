@@ -1,0 +1,34 @@
+---
+import Brand from "./Brand.astro";
+interface Props {
+  catalog?: boolean;
+}
+const { catalog = false } = Astro.props;
+---
+
+<footer class:list={["wrap", { "catalog-footer": catalog }]}>
+  <a
+    class:list={["brand", { "footer-brand": !catalog }]}
+    href="/"
+    aria-label="Uberpeixes Ornamentais — início"
+  >
+    <Brand loading="lazy" />
+  </a>
+  {!catalog && <p>Uberpeixes Ornamentais</p>}
+  <p class="developer-credit">
+    <span>Desenvolvido por Brendow Rodrigues</span>
+    <span>
+      Contato:{" "}
+      <a href="mailto:brendow.tech@gmail.com">brendow.tech@gmail.com</a>
+    </span>
+  </p>
+  <button
+    type="button"
+    class="aquarium-toggle"
+    data-aquarium-toggle
+    aria-pressed="false"
+    hidden
+  >
+    Pausar movimento do aquário
+  </button>
+</footer>

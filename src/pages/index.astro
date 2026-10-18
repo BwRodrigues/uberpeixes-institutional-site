@@ -2,10 +2,11 @@
 import "../styles/global.css";
 import Arrow from "../components/Arrow.astro";
 import Brand from "../components/Brand.astro";
+import SiteFooter from "../components/SiteFooter.astro";
 import Aquarium from "../components/aquarium/Aquarium.astro";
 import { Image } from "astro:assets";
 import entrance from "../assets/entrada-uberpeixes.jpg";
-const whatsapp = "https://wa.me/5534998910880";
+import { WHATSAPP_URL as whatsapp } from "../config/site";
 const instagram = "https://www.instagram.com/uberpeixesornamentais/";
 const maps = "https://maps.app.goo.gl/zRgtCTnjvL8xZGiH7";
 const gallery = [
@@ -87,6 +88,7 @@ const gallery = [
         <a href="#sobre">A loja</a>
         <a href="#galeria">Nosso universo</a>
         <a href="#visite">Visite</a>
+        <a href="/especies/">Espécies</a>
       </nav>
       <a
         class="button button-small"
@@ -297,21 +299,6 @@ const gallery = [
         </div>
       </section>
     </main>
-    <footer class="wrap">
-      <div class="brand footer-brand">
-        <Brand loading="lazy" />
-      </div>
-      <p>Uberpeixes Ornamentais</p>
-      <p>Desenvolvido por Brendow Rodrigues</p>
-      <button
-        type="button"
-        class="aquarium-toggle"
-        data-aquarium-toggle
-        aria-pressed="false"
-        hidden
-      >
-        Pausar movimento do aquário
-      </button>
-    </footer>
+    <SiteFooter />
   </body>
 </html>

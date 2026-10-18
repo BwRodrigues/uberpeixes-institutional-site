@@ -69,3 +69,9 @@ This institutional website was developed as a practical learning project, with A
 ## Virtual aquarium (under review)
 
 See [the aquarium review notes](docs/aquarium.md) for generated asset provenance, species configuration, motion controls, validation and publication limits. The background remains static without JavaScript or when reduced motion is requested.
+
+## Catálogo de espécies — protótipo
+
+O catálogo em `/especies/` usa cinco registros e um template de ficha reutilizável. Consulte [como cadastrar e revisar espécies](docs/species-catalog.md), [notas de pesquisa e limitações](docs/species-research.md) e [créditos das fotografias](docs/species-image-credits.json). As fichas ficam sem indexação até a revisão da loja.
+
+O motor de sugestões e a camada de dados estão descritos em [Arquitetura do catálogo](docs/catalog-architecture.md). A exportação versionada em `/dados/catalogo-especies.json` prepara o consumo futuro por outras integrações, mantendo referências e estado editorial. Banco de dados e chatbot ainda não estão conectados.

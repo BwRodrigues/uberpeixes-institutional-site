@@ -1,0 +1,458 @@
+{
+  "slug": "barbus-cereja-veu",
+  "name": "Barbo Conchônio Cereja Véu",
+  "commercialName": "BARBUS CEREJA VEU",
+  "category": "Barbos e Danios",
+  "description": "Escamas luminosas, tons avermelhados e nadadeiras alongadas dão destaque ao Barbo Conchônio Cereja Véu. É uma variedade ornamental de Pethia conchonius, um peixe ativo de cardume que aprecia espaço para nadar e água mais fresca.",
+  "identificationNote": "Pethia conchonius (Hamilton, 1822), variedade ornamental de nadadeiras longas conhecida como Barbo Conchônio Cereja Véu. É uma espécie diferente do barbo-cereja Rohanella titteya.",
+  "scientificName": "Pethia conchonius",
+  "source": {
+    "workbook": "VAREJO PEIXES NICHOS.xlsx",
+    "sheet": "Tabela Peixes Atual",
+    "row": 9,
+    "niche": "Barbos e Danios"
+  },
+  "photo": {
+    "src": "/images/species/barbo-conchonio-cereja-veu.webp",
+    "width": 960,
+    "height": 639,
+    "alt": "Dois Pethia conchonius avermelhados com escamas brilhantes e nadadeiras alongadas em aquário plantado",
+    "author": "Kkonstan",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rosy_Barbs.jpg",
+    "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo.",
+    "note": "Fotografia representativa de Pethia conchonius; não comprova a linhagem exata, a procedência ou a disponibilidade do lote."
+  },
+  "sections": [
+    {
+      "id": "apresentacao",
+      "fields": [
+        {
+          "label": "Outros nomes populares",
+          "value": "Barbo conchônio; barbo-róseo; Rosy barb. Cereja Véu é a denominação ornamental confirmada pela loja.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Identificação científica",
+          "value": "Pethia conchonius; a forma de nadadeiras longas não constitui espécie separada.",
+          "referenceIds": ["cof", "care"]
+        },
+        {
+          "label": "Introdução",
+          "value": "É um barbo sociável e ativo. Um grupo bem planejado, plantas nas margens e uma faixa livre para natação permitem apreciar sua cor e seu comportamento.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "classificacao",
+      "fields": [
+        {
+          "label": "Reino",
+          "value": "Animalia",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Filo",
+          "value": "Chordata",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Classe",
+          "value": "Actinopteri, conforme a classificação do Catalog of Fishes.",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Ordem",
+          "value": "Cypriniformes",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Família",
+          "value": "Cyprinidae; subfamília Smiliogastrinae.",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Gênero",
+          "value": "Pethia",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Espécie",
+          "value": "Pethia conchonius",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Autoridade taxonômica",
+          "value": "(Hamilton, 1822).",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Sinônimos científicos",
+          "value": "Cyprinus conchonius é a combinação original; Puntius conchonius é uma combinação anterior amplamente usada.",
+          "referenceIds": ["cof"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Continente e países",
+          "value": "Ásia meridional: Afeganistão, Paquistão, Índia, Nepal e Bangladesh, segundo o catálogo taxonômico.",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Distribuição geográfica",
+          "value": "Sopés do Himalaia e região da bacia Ganges–Brahmaputra. Populações introduzidas não devem ser confundidas com a distribuição nativa.",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Bacia hidrográfica",
+          "value": "Ganges–Brahmaputra; a localidade-tipo fica perto do Brahmaputra, em Goalpara, Assam, Índia.",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Ambiente natural",
+          "value": "Ocupa desde riachos e tributários com correnteza até lagos, lagoas e áreas de água mais lenta.",
+          "referenceIds": ["care", "fb"]
+        },
+        {
+          "label": "Nativa, exótica ou linhagem ornamental",
+          "value": "Espécie asiática, exótica em relação ao Brasil; véu é uma forma ornamental selecionada. A procedência do lote da loja não foi informada.",
+          "referenceIds": ["cof", "care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Características físicas",
+          "value": "Corpo comprimido lateralmente, escamas bem aparentes e mancha escura perto do pedúnculo caudal. Há linhagens selecionadas de nadadeiras alongadas.",
+          "referenceIds": ["care", "fb"]
+        },
+        {
+          "label": "Coloração",
+          "value": "Machos maduros tendem a ser mais avermelhados e brilhantes; a intensidade varia com linhagem, condição e período reprodutivo.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Seriously Fish indica até 10 cm de comprimento padrão; FishBase registra máximo de 14 cm de comprimento total. São métodos diferentes, não medidas intercambiáveis; extensões da forma véu não foram quantificadas separadamente.",
+          "referenceIds": ["care", "fb"]
+        },
+        {
+          "label": "Expectativa de vida",
+          "value": "Não foi localizada estimativa de longevidade suficientemente documentada nas fontes consultadas.",
+          "referenceIds": ["care", "fb"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Machos adultos costumam ser menores, mais esguios e mais coloridos; fêmeas tendem a ser mais encorpadas.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "16–24 °C, conforme a ficha específica de manutenção. Não pressupor aquário permanentemente quente apenas por ser um peixe ornamental.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "6,0–8,0; priorizar estabilidade e adaptação às condições do lote, sem perseguir extremos da faixa.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "5–20 °dGH na referência de manutenção; FishBase registra 5–19 °dH.",
+          "referenceIds": ["care", "fb"]
+        },
+        {
+          "label": "KH",
+          "value": "Não foi localizada faixa específica de KH; GH e KH são medidas distintas.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Registros na natureza",
+          "value": "A espécie ocupa ambientes variados. O resumo de FishBase informa 18–22 °C; isso não substitui a faixa de manutenção em aquário indicada separadamente.",
+          "referenceIds": ["fb", "care"]
+        },
+        {
+          "label": "Tipo de ambiente",
+          "value": "Água doce, com espaço para o cardume e circulação adequada.",
+          "referenceIds": ["cof", "care"]
+        },
+        {
+          "label": "Substrato e decoração",
+          "value": "Substrato escuro realça a coloração; raízes e galhos ajudam a criar áreas de sombra.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Vegetação e esconderijos",
+          "value": "Aquário plantado com vegetação flutuante e nas margens, preservando a área livre de natação.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Circulação e oxigenação",
+          "value": "Aprecia algum movimento de água; a referência não exige filtragem especialmente forte. Manter água limpa e oxigenada.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "A referência oferece base mínima de 100 × 30 cm e cerca de 90 L brutos para o contexto inicial. Para 8–10 ou mais animais, avaliar o porte adulto, a área livre e a comunidade; volume bruto não é capacidade útil nem garantia de lotação.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dimensões do aquário",
+          "value": "Pelo menos 100 × 30 cm de base ou área equivalente, priorizando comprimento para natação; aumentar o espaço conforme o grupo e o porte.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Indicada para iniciantes pela referência, desde que o aquário esteja preparado e as exigências da espécie sejam atendidas.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Área de natação",
+          "value": "Peixe ativo da coluna d’água; disponibilizar percurso horizontal livre.",
+          "referenceIds": ["care", "fb"]
+        },
+        {
+          "label": "Territorialidade",
+          "value": "Geralmente pacífico; machos podem exibir cores e competir pela atenção das fêmeas. Não confinar o grupo em espaço insuficiente.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Quantidade de indivíduos",
+          "value": "Cardume de pelo menos 8–10 exemplares é a recomendação da fonte específica.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Manutenção específica",
+          "value": "Aquário estabelecido, filtragem em funcionamento e acompanhamento da qualidade da água. Planejar o conjunto de peixes antes da compra.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Orientações para iniciantes",
+          "value": "Evite escolher companheiros apenas pela aparência: compare temperatura, tamanho adulto, espaço e comportamento de cada espécie.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Classificação alimentar",
+          "value": "Onívoro: a espécie consome pequenos invertebrados, material vegetal e detritos orgânicos.",
+          "referenceIds": ["care", "fb"]
+        },
+        {
+          "label": "Alimentos adequados",
+          "value": "Ração de qualidade em flocos ou grânulos, com componente vegetal/algal, e variedade de alimentos pequenos como Daphnia e Artemia de procedência apropriada.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Frequência justificada",
+          "value": "As fontes consultadas não estabelecem uma frequência numérica universal; ajustar pequenas porções ao consumo e ao grupo.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Variedade alimentar",
+          "value": "Combinar alimento seco adequado com itens vivos ou congelados apropriados; uma dieta variada favorece a condição corporal.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Cuidados com excesso de alimento",
+          "value": "Observar o consumo e evitar sobras persistentes; maior quantidade não substitui variedade nem manutenção da água.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Geralmente pacífico em comunidade planejada, com exigências compatíveis entre os moradores.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Comportamento social",
+          "value": "Espécie de cardume: um grupo adequado reduz a timidez e permite exibições sociais mais naturais.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Compatibilidade",
+          "value": "Comparar o intervalo de temperatura, o tamanho e a atividade dos companheiros. A referência menciona outros pequenos ciprinídeos e peixes pacíficos com condições compatíveis.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Conflitos",
+          "value": "Evitar combinações sem espaço ou com animais que intimidem o grupo. “Pacífico” não garante compatibilidade com qualquer espécie.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Peixes menores, invertebrados e plantas",
+          "value": "Consome pequenos invertebrados; não presumir segurança para crias ou animais que caibam na boca. Plantas são recomendadas na montagem.",
+          "referenceIds": ["care", "fb"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Tipo de reprodução",
+          "value": "Ovípara, com dispersão de ovos e sem cuidado parental.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dimorfismo sexual",
+          "value": "Machos mais esguios e coloridos; fêmeas maduras mais encorpadas.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Comportamento reprodutivo",
+          "value": "Indivíduos bem condicionados podem desovar em grupo ou em pares, usando plantas finas ou suporte que proteja os ovos.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Ovos e filhotes",
+          "value": "Adultos podem comer os ovos. A fonte relata eclosão em 24–48 horas, seguida de alimento inicial muito fino e, conforme crescimento, microvermes ou náuplios de Artemia.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade em cativeiro",
+          "value": "Reprodução documentada em aquário; aumentar sobrevivência dos filhotes requer separação e alimentação apropriada. As fontes não estabelecem a herança específica da linhagem comercial Cereja Véu da loja.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Sensibilidade a alterações",
+          "value": "Manter estabilidade e respeitar a faixa de manutenção; não foi localizada predisposição clínica comprovada exclusiva da variedade da loja.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Problemas de manutenção",
+          "value": "Grupo pequeno, pouco espaço de natação, comunidade incompatível e água deteriorada exigem revisão do manejo, sem diagnóstico automático de doença.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Prevenção",
+          "value": "Planejar o cardume e a comunidade, manter filtragem e observar alimentação e integridade das nadadeiras. Não há prescrição de medicamentos nesta ficha.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sinais de estresse",
+          "value": "Timidez persistente e isolamento merecem observar grupo, ambiente e companheiros. Esses sinais isolados não identificam uma doença específica.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "fields": [
+        {
+          "label": "Véu é uma seleção ornamental",
+          "value": "A referência de manutenção documenta variedades de nadadeiras longas, véu, super-red, neon e dourada de Pethia conchonius.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Um nome antigo ainda comum",
+          "value": "Puntius conchonius aparece em obras e fotografias antigas; o nome aceito no catálogo consultado é Pethia conchonius.",
+          "referenceIds": ["cof"]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "cof",
+      "title": "Eschmeyer’s Catalog of Fishes — Pethia conchonius",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=2612",
+      "author": "California Academy of Sciences",
+      "year": "2026",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "class",
+      "title": "Eschmeyer’s Catalog of Fishes — Genera/Species by Family/Subfamily",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+      "author": "California Academy of Sciences",
+      "year": "2026",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "care",
+      "title": "Pethia conchonius — ficha de manutenção e variedades ornamentais",
+      "url": "https://www.seriouslyfish.com/species/pethia-conchonius/",
+      "author": "Seriously Fish",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "fb",
+      "title": "Pethia conchonius — resumo biológico",
+      "url": "https://www.fishbase.se/summary/Pethia-conchonius.html",
+      "author": "FishBase",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "gbif",
+      "title": "Pethia conchonius — correspondência no GBIF (usada para reino e filo)",
+      "url": "https://api.gbif.org/v1/species/match?name=Pethia%20conchonius",
+      "author": "GBIF",
+      "accessedAt": "2026-10-18"
+    }
+  ],
+  "status": "draft",
+  "additionalPhotos": [
+    {
+      "src": "/images/species/conchonio-2.webp",
+      "width": 960,
+      "height": 720,
+      "alt": "Pethia conchonius de perfil em aquário, com corpo dourado e nadadeiras alongadas",
+      "author": "Twowells",
+      "license": "Domínio público",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rosy_barb.jpg",
+      "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo.",
+      "note": "Registro representativo de Pethia conchonius. Variedade ornamental e extensão das nadadeiras podem diferir do lote da loja."
+    },
+    {
+      "src": "/images/species/conchonio-3.webp",
+      "width": 960,
+      "height": 540,
+      "alt": "Pethia conchonius avermelhado de nadadeiras comuns, nadando próximo ao substrato e às plantas",
+      "author": "Kutac",
+      "license": "Domínio público",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Prachtbarbe1.JPG",
+      "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo.",
+      "note": "Registro representativo de Pethia conchonius. Variedade ornamental e extensão das nadadeiras podem diferir do lote da loja."
+    }
+  ],
+  "regions": [
+    {
+      "id": "asia",
+      "label": "Ásia",
+      "scale": "continent",
+      "referenceIds": ["cof"]
+    }
+  ]
+}

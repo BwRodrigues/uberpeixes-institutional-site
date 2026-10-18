@@ -1,0 +1,96 @@
+---
+import "../styles/global.css";
+import "../styles/species.css";
+import Brand from "../components/Brand.astro";
+import SiteFooter from "../components/SiteFooter.astro";
+import Aquarium from "../components/aquarium/Aquarium.astro";
+import { WHATSAPP_URL, canonicalUrl } from "../config/site";
+interface Props {
+  title: string;
+  description: string;
+  path: string;
+  draft?: boolean;
+  image?: string;
+  structuredData?: unknown[];
+}
+const {
+  title,
+  description,
+  path,
+  draft = true,
+  image = "/icons/official-v2/icon-512.png",
+  structuredData = [],
+} = Astro.props;
+const canonical = canonicalUrl(path);
+---
+
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {draft && <meta name="robots" content="noindex, follow" />}
+    <meta name="theme-color" content="#45409b" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="Uberpeixes Ornamentais" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    {image && <meta property="og:image" content={canonicalUrl(image)} />}
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/icons/official-v2/icon-32.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/icons/official-v2/icon-180.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    {structuredData.map((data) => (
+      <script
+        type="application/ld+json"
+        set:html={JSON.stringify(data).replaceAll(
+          "<",
+          String.fromCharCode(92) + "u003c",
+        )}
+      />
+    ))}
+  </head>
+  <body class="species-page">
+    <Aquarium />
+    <a class="skip-link" href="#conteudo">
+      Pular para o conteúdo
+    </a>
+    <header class="header wrap catalog-header">
+      <a class="brand" href="/" aria-label="Uberpeixes Ornamentais — início">
+        <Brand />
+      </a>
+      <nav aria-label="Navegação principal">
+        <a href="/">Início</a>
+        <a href="/especies/" aria-current="page">
+          Espécies
+        </a>
+        <a href="/#visite">Visite a loja</a>
+      </nav>
+      <a
+        class="button button-small"
+        href={WHATSAPP_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Fale com a loja
+      </a>
+    </header>
+    <main id="conteudo" class="wrap catalog-main">
+      <slot />
+    </main>
+    <SiteFooter catalog />
+  </body>
+</html>

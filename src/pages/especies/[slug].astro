@@ -1,0 +1,13 @@
+---
+import SpeciesProfile from "../../components/species/SpeciesProfile.astro";
+import { species } from "../../data/species";
+export function getStaticPaths() {
+  return species.map((animal) => ({
+    params: { slug: animal.slug },
+    props: { animal },
+  }));
+}
+const { animal } = Astro.props;
+---
+
+<SpeciesProfile animal={animal} />

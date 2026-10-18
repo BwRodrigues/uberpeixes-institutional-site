@@ -1,0 +1,455 @@
+{
+  "slug": "peixe-agulhinha",
+  "name": "Agulhinha Prata",
+  "commercialName": "PEIXE AGULHINHA",
+  "category": "Asiáticos",
+  "description": "A agulhinha-prata vive colada à superfície e chama atenção pela mandíbula alongada. Cobertura firme, alimentação no lugar certo e adaptação tranquila fazem mais diferença do que enfeites no fundo.",
+  "identificationNote": "Dermogenys pusilla Kuhl & van Hasselt, 1823: identificação confirmada pela loja e nome válido no Catalog of Fishes. Outras espécies do gênero usam o mesmo nome comum; origem e porte divergentes nas fontes estão sinalizados.",
+  "scientificName": "Dermogenys pusilla",
+  "source": {
+    "workbook": "VAREJO PEIXES NICHOS.xlsx",
+    "sheet": "Tabela Peixes Atual",
+    "row": 7,
+    "niche": "Asiáticos"
+  },
+  "photo": {
+    "src": "/images/species/agulhinha-prata.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Dermogenys pusilla prateada junto à superfície, com a mandíbula inferior alongada e seu reflexo",
+    "author": "Kacper Aleksander",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dermogenys_pusill.jpg",
+    "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  "sections": [
+    {
+      "id": "apresentacao",
+      "fields": [
+        {
+          "label": "Outros nomes populares",
+          "value": "Agulhinha-prata; agulhinha; Wrestling Halfbeak.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Identificação científica",
+          "value": "Dermogenys pusilla, conforme confirmação da loja e registro taxonômico.",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Introdução",
+          "value": "É uma moradora da lâmina d’água. A tampa bem ajustada e o acesso ao alimento na superfície são parte do cuidado, não detalhes de decoração.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "classificacao",
+      "fields": [
+        {
+          "label": "Reino",
+          "value": "Animalia",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Filo",
+          "value": "Chordata",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Classe",
+          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Ordem",
+          "value": "Beloniformes",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Família",
+          "value": "Zenarchopteridae",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Gênero",
+          "value": "Dermogenys",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Espécie",
+          "value": "Dermogenys pusilla",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Autoridade taxonômica",
+          "value": "Kuhl & van Hasselt, 1823.",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Sinônimos científicos",
+          "value": "Dermogenys pusillus é a grafia original; o catálogo explica que pusilla é a grafia correta. Não se trata de uma segunda espécie.",
+          "referenceIds": ["cof"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Continente e países",
+          "value": "Ásia; Indonésia. O Catalog of Fishes também registra Bangladesh com dúvida, não adotado aqui como ocorrência confirmada.",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Distribuição geográfica",
+          "value": "FishBase destaca Java. A distribuição muito ampla citada em fichas antigas pode incluir outros Dermogenys; não foi atribuída integralmente à espécie.",
+          "referenceIds": ["fb", "cof", "care"]
+        },
+        {
+          "label": "Bacia hidrográfica",
+          "value": "Não foi confirmada bacia única para os exemplares vendidos pela loja.",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Ambiente natural",
+          "value": "Águas paradas ou lentas com vegetação que alcança a superfície; há registros de água doce e salobra.",
+          "referenceIds": ["cof", "fb"]
+        },
+        {
+          "label": "Nativa, exótica ou linhagem ornamental",
+          "value": "Espécie asiática, exótica em relação ao Brasil. O nome científico informado não comprova a origem geográfica do lote.",
+          "referenceIds": ["cof"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Características físicas",
+          "value": "Corpo alongado e mandíbula inferior prolongada, típica dos halfbeaks.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Coloração",
+          "value": "Aspecto prateado; machos podem apresentar uma marca avermelhada na dorsal.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "A fonte de aquarismo informa até 5,5 cm de comprimento padrão; FishBase registra máximo de 16,1 cm de comprimento total. Como as medidas e os registros divergem, confirme o porte do lote antes de definir a lotação.",
+          "referenceIds": ["care", "fb"]
+        },
+        {
+          "label": "Expectativa de vida",
+          "value": "Não foi localizada estimativa de longevidade suficientemente documentada nas fontes consultadas.",
+          "referenceIds": ["care", "fb"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "O macho é menor e tem a nadadeira anal modificada em andropódio; a fêmea costuma ser maior.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "24–28 °C segundo Seriously Fish.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "6,5–8,0 na fonte de manutenção; FishBase indica 7,0–8,0. Priorize água estável e confirme as condições de adaptação do lote.",
+          "referenceIds": ["care", "fb"]
+        },
+        {
+          "label": "GH",
+          "value": "10–20 °dGH na referência de manutenção; FishBase registra 9–19 °dH.",
+          "referenceIds": ["care", "fb"]
+        },
+        {
+          "label": "KH",
+          "value": "Faixa específica não localizada; GH e KH não foram tratados como a mesma medida.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Registros na natureza",
+          "value": "O registro em água salobra não é indicação para adicionar sal indiscriminadamente. A referência permite manutenção em água doce dura e relativamente alcalina.",
+          "referenceIds": ["care", "cof"]
+        },
+        {
+          "label": "Tipo de ambiente",
+          "value": "Água doce ou salobra conforme população e procedência; confirmar as condições do lote antes de mudanças.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Substrato e decoração",
+          "value": "A decoração do fundo é secundária; a área de superfície disponível é mais importante.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Vegetação e esconderijos",
+          "value": "Plantas nas margens e vegetação flutuante ajudam a reduzir sustos, mantendo acesso à superfície.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Circulação e oxigenação",
+          "value": "Filtragem e renovação de água sem turbulência exagerada na zona de alimentação; evitar variações bruscas.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "A fonte propõe cerca de 68 L brutos, em 60 × 38 × 30 cm, para pequeno grupo. Porte e composição sexual precisam ser avaliados antes da compra.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dimensões do aquário",
+          "value": "Área de base/superfície de 60 × 38 cm como referência inicial; profundidade não compensa superfície estreita.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Moderada, especialmente na chegada de exemplares que ainda não aceitam ração.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Área de natação",
+          "value": "Superfície; passa quase todo o tempo logo abaixo da lâmina d’água.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Territorialidade",
+          "value": "Machos disputam entre si, sobretudo com pouco espaço para fuga.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Quantidade de indivíduos",
+          "value": "Pode ser mantida em grupo; a fonte não fornece mínimo numérico universal. Recomenda evitar concentração de poucos machos que não consigam dispersar disputas.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Manutenção específica",
+          "value": "Tampa bem ajustada, aclimatação calma e pequenas trocas de água frequentes; mandíbula delicada pode ser lesionada ao bater no vidro.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Orientações para iniciantes",
+          "value": "Confirme que o peixe come e acompanhe a alimentação na superfície. Não presuma que ração depositada no fundo estará acessível.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Classificação alimentar",
+          "value": "Predadora de pequenos organismos, com alimentação na superfície.",
+          "referenceIds": ["care", "fb"]
+        },
+        {
+          "label": "Alimentos adequados",
+          "value": "Pequenos insetos apropriados, como Drosophila de criação, e outros alimentos vivos/congelados compatíveis. Observar se Artemia ou similares são aceitos na superfície.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Frequência justificada",
+          "value": "Não foi encontrada frequência numérica universal; a prioridade é confirmar aceitação real e ajustar pequenas porções.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Variedade alimentar",
+          "value": "Alimento seco pode ser recusado inicialmente. A transição não deve eliminar de imediato os alimentos que o animal aceita.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Cuidados com excesso de alimento",
+          "value": "Acompanhe o que permanece flutuando e remova sobras; alimentar mais não resolve disputa ou alimento fora da região de captura.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Pode conviver com peixes pacíficos de tamanho e exigências compatíveis, mas é facilmente intimidada.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Comportamento social",
+          "value": "Grupos tendem a reduzir a timidez; machos podem travar disputas com as mandíbulas.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Compatibilidade",
+          "value": "Escolher companheiros calmos que não ocupem agressivamente toda a área de alimentação na superfície.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Conflitos",
+          "value": "Evitar espécies muito maiores, agressivas ou que a impeçam de se alimentar; reavaliar disputas persistentes entre machos.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Peixes menores, invertebrados e plantas",
+          "value": "Consome pequenos invertebrados e pode predar alevinos; não há garantia de convivência com crias. Plantas de margem e flutuantes são úteis.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Tipo de reprodução",
+          "value": "Vivípara: fecundação interna e nascimento de filhotes, sem postura externa de ovos.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dimorfismo sexual",
+          "value": "Andropódio na nadadeira anal do macho; machos menores, fêmeas maiores.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Comportamento reprodutivo",
+          "value": "A referência descreve reprodução em grupo bem alimentado e com vegetação superficial.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Ovos e filhotes",
+          "value": "Não há ovos para retirar do aquário. Filhotes podem ser predados por adultos; a fonte orienta separação e alimento apropriado desde o nascimento.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade em cativeiro",
+          "value": "Possível, mas menos previsível que em muitos outros vivíparos. A referência cita gestação de 3–6 semanas, dependente da temperatura; não é prazo garantido.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Sensibilidade a alterações",
+          "value": "Sensível à deterioração da água e a mudanças bruscas de temperatura ou química.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Problemas de manutenção",
+          "value": "Sustos, colisões da mandíbula contra o vidro, saltos e dificuldade inicial para aceitar alimento.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Prevenção",
+          "value": "Tampa, bordas plantadas, entrada tranquila no aquário e acompanhamento da alimentação; evitar mudanças abruptas.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sinais de estresse",
+          "value": "Colisões recorrentes, fuga constante e recusa alimentar exigem revisão do ambiente e da competição. Não indicam por si só uma doença ou tratamento específico.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "fields": [
+        {
+          "label": "Um bico pela metade",
+          "value": "O nome halfbeak refere-se à mandíbula inferior alongada; a superior não cresce do mesmo modo.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "“Wrestling” não é convite para briga",
+          "value": "O nome inglês alude ao comportamento de disputa dos machos. Em aquário, o objetivo deve ser permitir fuga e evitar confinamento que intensifique conflitos.",
+          "referenceIds": ["care"]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "cof",
+      "title": "Eschmeyer’s Catalog of Fishes — Dermogenys pusilla",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=13933",
+      "accessedAt": "2026-10-18",
+      "author": "California Academy of Sciences",
+      "year": "2026"
+    },
+    {
+      "id": "class",
+      "title": "Eschmeyer’s Catalog of Fishes — Genera/Species by Family/Subfamily",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+      "accessedAt": "2026-10-18",
+      "author": "California Academy of Sciences",
+      "year": "2026"
+    },
+    {
+      "id": "care",
+      "title": "Dermogenys pusilla — ficha de manutenção",
+      "url": "https://www.seriouslyfish.com/species/dermogenys-pusilla/",
+      "accessedAt": "2026-10-18",
+      "author": "Seriously Fish"
+    },
+    {
+      "id": "fb",
+      "title": "Dermogenys pusilla — resumo biológico",
+      "url": "https://www.fishbase.se/summary/dermogenys-pusilla.html",
+      "accessedAt": "2026-10-18",
+      "author": "FishBase"
+    },
+    {
+      "id": "gbif",
+      "title": "Dermogenys pusilla — correspondência no GBIF (usada para reino e filo)",
+      "url": "https://api.gbif.org/v1/species/match?name=Dermogenys%20pusilla",
+      "author": "GBIF",
+      "accessedAt": "2026-10-18"
+    }
+  ],
+  "status": "draft",
+  "additionalPhotos": [
+    {
+      "src": "/images/species/agulhinha-2.webp",
+      "width": 960,
+      "height": 565,
+      "alt": "Dois Dermogenys pusilla prateados em aquário, com mandíbulas alongadas e nadadeiras avermelhadas",
+      "author": "Ahsan_al_hidayat",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dermogenys_pusilla.jpg",
+      "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo."
+    },
+    {
+      "src": "/images/species/agulhinha-3.webp",
+      "width": 960,
+      "height": 978,
+      "alt": "Dermogenys pusilla em aquário, com fêmea acima e macho de nadadeiras avermelhadas abaixo",
+      "author": "Ahsan_al_hidayat",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dermogenys_pusilla_male_and_female_(top).jpg",
+      "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ],
+  "regions": [
+    {
+      "id": "asia",
+      "label": "Ásia",
+      "scale": "continent",
+      "referenceIds": ["cof"]
+    }
+  ]
+}

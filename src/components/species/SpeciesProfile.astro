@@ -1,0 +1,266 @@
+---
+import SpeciesLayout from "../../layouts/SpeciesLayout.astro";
+import SpeciesPhoto from "./SpeciesPhoto.astro";
+import { profileSections, type Species } from "../../data/species-schema";
+import { scientificLabel, isPublishable } from "../../data/species";
+import { canonicalUrl, speciesInquiry } from "../../config/site";
+import SpeciesRecommendations from "./SpeciesRecommendations.astro";
+interface Props {
+  animal: Species;
+}
+const { animal } = Astro.props;
+const path = `/especies/${animal.slug}/`;
+const inquiry = speciesInquiry(animal.name, animal.scientificName);
+const reviewed = isPublishable(animal);
+const structuredData: unknown[] = [
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Início",
+        item: canonicalUrl("/"),
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Espécies",
+        item: canonicalUrl("/especies/"),
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: animal.name,
+        item: canonicalUrl(path),
+      },
+    ],
+  },
+];
+if (
+  animal.references.length &&
+  animal.sections.some((section) => section.fields.length)
+)
+  structuredData.push({
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: `${animal.name} — ${scientificLabel(animal)}`,
+    description: animal.description,
+    image: animal.photo
+      ? [animal.photo, ...animal.additionalPhotos].map((photo) =>
+          canonicalUrl(photo.src),
+        )
+      : undefined,
+    mainEntityOfPage: canonicalUrl(path),
+  });
+---
+
+<SpeciesLayout
+  title={`${animal.name} (${scientificLabel(animal)}) | Uberpeixes`}
+  description={animal.description}
+  path={path}
+  draft={!reviewed}
+  image={animal.photo?.src}
+  structuredData={structuredData}
+>
+  <nav class="breadcrumbs" aria-label="Caminho de navegação">
+    <a href="/">Início</a>
+    <span aria-hidden="true">/</span>
+    <a href="/especies/">Espécies</a>
+    <span aria-hidden="true">/</span>
+    <span aria-current="page">{animal.name}</span>
+  </nav>
+  <section class="species-hero">
+    <div>
+      <p class="eyebrow">{animal.category}</p>
+      <h1>{animal.name}</h1>
+      <p class="scientific-name">
+        <i>{scientificLabel(animal)}</i>
+      </p>
+      <p class="commercial-name">
+        Nome comercial original: <strong>{animal.commercialName}</strong>
+      </p>
+      <p>{animal.description}</p>
+      <a
+        class="button"
+        href={inquiry}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Consultar no WhatsApp
+      </a>
+      <a class="back-link" href="/especies/">
+        Voltar ao catálogo
+      </a>
+    </div>
+    <SpeciesPhoto animal={animal} eager zoom />
+  </section>
+  <p class="identification-note">{animal.identificationNote}</p>
+  <p class="profile-guidance">
+    As faixas de manutenção são orientativas. Confira as fontes, as ressalvas de
+    cada ficha e as condições dos animais com a equipe.
+  </p>
+  {animal.additionalPhotos.length > 0 && (
+    <section
+      class="species-gallery"
+      id="fotos"
+      aria-labelledby="species-gallery-title"
+    >
+      <h2 id="species-gallery-title">Mais fotos da espécie</h2>
+      <p>
+        Veja outros registros de <i>{animal.scientificName}</i>. Toque em uma
+        foto para abrir a imagem completa.
+      </p>
+      <div class="species-gallery-grid">
+        {animal.additionalPhotos.map((photo) => (
+          <SpeciesPhoto animal={animal} photo={photo} zoom />
+        ))}
+      </div>
+    </section>
+  )}
+  <div class="profile-layout">
+    <nav class="profile-index" aria-label="Seções da ficha">
+      <strong>Nesta ficha</strong>
+      <ul>
+        {profileSections.map((section) => (
+          <li>
+            <a href={`#${section.id}`}>{section.title}</a>
+          </li>
+        ))}
+        <li>
+          <a href="#referencias">Referências bibliográficas</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="profile-sections">
+      {profileSections.map((definition) => {
+        const data = animal.sections.find(
+          (section) => section.id === definition.id,
+        );
+        return (
+          <details
+            class="profile-section"
+            id={definition.id}
+            open={
+              Boolean(data?.fields.length) &&
+              ["apresentacao", "classificacao", "agua"].includes(definition.id)
+            }
+          >
+            <summary>
+              <h2>
+                {definition.title}
+                {!data?.fields.length && <span>A confirmar</span>}
+              </h2>
+            </summary>
+            {data?.fields.length ? (
+              <div class="profile-fields">
+                {data.fields.map((field) => (
+                  <section class="profile-field">
+                    <h3>{field.label}</h3>
+                    <p class="profile-field-value">
+                      {field.value}
+                      <span class="field-references">
+                        {field.referenceIds.map((id) => (
+                          <a href={`#fonte-${id}`}>[{id}]</a>
+                        ))}
+                      </span>
+                    </p>
+                  </section>
+                ))}
+              </div>
+            ) : (
+              <>
+                <p>
+                  {data?.pending ?? "Dados não disponíveis para este animal."}
+                </p>
+                <p class="coverage-label">Campos previstos nesta seção:</p>
+                <ul class="pending-fields">
+                  {definition.fields.map((label) => (
+                    <li>{label}</li>
+                  ))}
+                </ul>
+              </>
+            )}
+          </details>
+        );
+      })}
+      <section id="referencias" class="profile-references">
+        <h2>Referências bibliográficas</h2>
+        {animal.references.length ? (
+          <ol>
+            {animal.references.map((reference) => (
+              <li id={`fonte-${reference.id}`}>
+                {reference.author && <span>{reference.author}. </span>}
+                <a
+                  href={reference.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {reference.title}
+                </a>
+                {reference.year && <span> ({reference.year})</span>}
+                <small>Consultado em {reference.accessedAt}.</small>
+              </li>
+            ))}
+          </ol>
+        ) : (
+          <p>
+            As fontes científicas ainda não foram verificadas. A planilha foi
+            usada apenas para selecionar e preservar os registros comerciais;
+            ela não fundamenta recomendações biológicas.
+          </p>
+        )}
+        {animal.source && (
+          <p class="source-note">
+            Seleção: {animal.source.workbook}, aba “{animal.source.sheet}”,
+            linha {animal.source.row}. Preços e demais valores comerciais não
+            foram importados.
+          </p>
+        )}
+      </section>
+    </div>
+  </div>
+  <SpeciesRecommendations animal={animal} />
+  <aside class="species-inquiry">
+    <span>Dúvidas sobre {animal.name}?</span>
+    <a class="button" href={inquiry} target="_blank" rel="noopener noreferrer">
+      Consultar no WhatsApp
+    </a>
+  </aside>
+</SpeciesLayout>
+
+<script>
+  // Enhance section links only; all scientific content is already in the HTML.
+  const revealSection = (hash: string, focus = false) => {
+    let id: string;
+    try {
+      id = decodeURIComponent(hash.slice(1));
+    } catch {
+      return;
+    }
+    const target = document.getElementById(id);
+    const details =
+      target instanceof HTMLDetailsElement
+        ? target
+        : target?.closest("details");
+    if (details instanceof HTMLDetailsElement) {
+      details.open = true;
+      if (focus)
+        details.querySelector("summary")?.focus({ preventScroll: true });
+    }
+  };
+  document
+    .querySelectorAll<HTMLAnchorElement>(".profile-index a")
+    .forEach((link) => {
+      link.addEventListener("click", (event) => {
+        if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey)
+          return;
+        revealSection(link.hash);
+        // Native fragment navigation can move focus after the click handler.
+        requestAnimationFrame(() => revealSection(link.hash, true));
+      });
+    });
+  window.addEventListener("hashchange", () => revealSection(location.hash));
+  revealSection(location.hash);
+</script>

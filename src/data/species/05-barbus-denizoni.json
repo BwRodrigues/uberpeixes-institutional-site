@@ -1,0 +1,463 @@
+{
+  "slug": "barbus-denizoni",
+  "name": "Barbus Denizoni",
+  "commercialName": "BARBUS DENIZONI",
+  "category": "Barbos e Danios",
+  "description": "Alongado e de faixa vermelha marcante, o Denizoni precisa de espaço para nadar e companhia da própria espécie. Aqui, comprimento de aquário e boa oxigenação importam tanto quanto a beleza.",
+  "identificationNote": "O nome válido adotado pelo Catalog of Fishes é Dawkinsia denisonii (Day, 1865). Sahyadria denisonii e Puntius denisonii são combinações anteriores; a grafia comercial BARBUS DENIZONI foi preservada.",
+  "scientificName": "Dawkinsia denisonii",
+  "source": {
+    "workbook": "VAREJO PEIXES NICHOS.xlsx",
+    "sheet": "Tabela Peixes Atual",
+    "row": 10,
+    "niche": "Barbos e Danios"
+  },
+  "photo": {
+    "src": "/images/species/barbus-denizoni.webp",
+    "width": 960,
+    "height": 501,
+    "alt": "Dawkinsia denisonii em aquário, com faixa lateral preta e vermelha e marcações na cauda",
+    "author": "Stan Shebs",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Puntius_denisonii_1.jpg",
+    "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  "sections": [
+    {
+      "id": "apresentacao",
+      "fields": [
+        {
+          "label": "Outros nomes populares",
+          "value": "Barbo-denison; Denison barb; Red-line Torpedo Barb. “Denizoni” foi mantido como nome comercial.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Identificação científica",
+          "value": "Dawkinsia denisonii, conforme o status atual do Catalog of Fishes.",
+          "referenceIds": ["cof", "revision"]
+        },
+        {
+          "label": "Introdução",
+          "value": "É um peixe gregário de natação ativa. Não deve ser escolhido para um aquário pequeno só porque o exemplar à venda ainda é jovem.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "classificacao",
+      "fields": [
+        {
+          "label": "Reino",
+          "value": "Animalia",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Filo",
+          "value": "Chordata",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Classe",
+          "value": "Actinopteri, no esquema de classificação adotado.",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Ordem",
+          "value": "Cypriniformes",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Família",
+          "value": "Cyprinidae; Smiliogastrinae.",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Gênero",
+          "value": "Dawkinsia",
+          "referenceIds": ["cof", "revision"]
+        },
+        {
+          "label": "Espécie",
+          "value": "Dawkinsia denisonii",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Autoridade taxonômica",
+          "value": "(Day, 1865).",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Sinônimos científicos",
+          "value": "Sahyadria denisonii e Puntius denisonii são nomes anteriores muito usados no comércio; a descrição original foi em Labeo.",
+          "referenceIds": ["cof"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Continente e países",
+          "value": "Ásia; Índia, onde é nativa e endêmica.",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Distribuição geográfica",
+          "value": "Sul da Índia; a fonte de manutenção destaca Kerala e Karnataka. Introdução em Hong Kong não foi confundida com origem natural.",
+          "referenceIds": ["cof", "care"]
+        },
+        {
+          "label": "Bacia hidrográfica",
+          "value": "A literatura cita sistemas como Valapattanam, Chaliyar, Chandragiri e outros rios do sudoeste indiano; registros antigos em algumas bacias podem ser de D. chalakkudiensis.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Ambiente natural",
+          "value": "Riachos e trechos superiores de rios, poços entre rochas, vegetação nas margens e elevada oxigenação.",
+          "referenceIds": ["care", "fb"]
+        },
+        {
+          "label": "Nativa, exótica ou linhagem ornamental",
+          "value": "Espécie exótica em relação ao Brasil. A procedência do lote comercial, inclusive se de criação, deve ser consultada sem presumir coleta silvestre.",
+          "referenceIds": ["cof", "care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Características físicas",
+          "value": "Corpo fusiforme e alongado, adaptado a deslocamentos ativos.",
+          "referenceIds": ["fb", "care"]
+        },
+        {
+          "label": "Coloração",
+          "value": "Faixa lateral escura, faixa vermelha na porção anterior e marcações amarelas e pretas na cauda.",
+          "referenceIds": ["fb", "care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 15 cm de comprimento total no FishBase; Seriously Fish cita 110 mm de comprimento padrão. A diferença de medida foi mantida explícita.",
+          "referenceIds": ["fb", "care"]
+        },
+        {
+          "label": "Expectativa de vida",
+          "value": "Não foi localizada uma estimativa de longevidade suficientemente documentada nas fontes consultadas.",
+          "referenceIds": ["fb", "care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Fêmeas adultas tendem a ser maiores e mais robustas, com coloração um pouco menos intensa, segundo a ficha especializada.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "15–25 °C segundo Seriously Fish; não presumir que toda espécie ornamental exige água permanentemente mais quente.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "6,5–7,8 na referência de manutenção. O resumo do FishBase indica 6,8–7,8; estabilidade e condição do lote devem orientar a adaptação.",
+          "referenceIds": ["care", "fb"]
+        },
+        {
+          "label": "GH",
+          "value": "5–25 °dGH na fonte especializada.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "KH",
+          "value": "Não foi encontrada faixa específica verificada; não foi criada uma meta a partir do pH.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Registros na natureza",
+          "value": "Habita cursos de água oxigenada. A descrição do habitat não é uma recomendação para manter o aquário em corrente extrema ou nos limites térmicos.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tipo de ambiente",
+          "value": "Água doce, madura e com carga orgânica controlada.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Substrato e decoração",
+          "value": "Rochas e madeira podem compor o cenário, sem bloquear um corredor amplo de natação.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Vegetação e esconderijos",
+          "value": "A fonte não o descreve como destruidor habitual de plantas; vegetação marginal deve deixar área livre.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Circulação e oxigenação",
+          "value": "Boa oxigenação e movimentação moderada são importantes; a fonte destaca intolerância à acumulação de poluentes orgânicos.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "Referência inicial: base de 120 × 45 cm. Com 45 cm de altura, cerca de 243 L brutos; planejar pelo grupo adulto, não pelo tamanho dos juvenis à venda.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dimensões do aquário",
+          "value": "Pelo menos 120 × 45 cm de base ou equivalente, podendo precisar de mais espaço conforme o grupo e a comunidade.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Moderada: exige aquário já estabelecido, espaço e atenção à qualidade da água.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Área de natação",
+          "value": "Coluna de água com corredor horizontal livre; comportamento bentopelágico no resumo biológico.",
+          "referenceIds": ["care", "fb"]
+        },
+        {
+          "label": "Territorialidade",
+          "value": "Geralmente pacífico; os indivíduos interagem no grupo, e identificar corretamente a espécie ajuda a evitar confusão com congêneres mais beligerantes.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Quantidade de indivíduos",
+          "value": "Pelo menos 6–10 exemplares, conforme Seriously Fish; a manutenção de grupo exige capacidade real de espaço e filtragem.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Manutenção específica",
+          "value": "Trocas semanais de 30–50% são apresentadas pela fonte como rotina de referência, ajustadas à qualidade e compatibilidade da água de reposição.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Orientações para iniciantes",
+          "value": "Planeje o aquário adulto antes da compra e meça a qualidade da água; um sistema recém-montado não substitui ambiente maduro.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Classificação alimentar",
+          "value": "Dieta variada com componentes vegetais e pequenos animais, conforme a referência de manutenção.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Alimentos adequados",
+          "value": "Alimento seco de qualidade e complementos pequenos como Artemia, Daphnia e outros invertebrados apropriados; a fonte destaca boa aceitação de alimentos que afundam.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Frequência justificada",
+          "value": "Não foi encontrada frequência numérica única; ajuste porções ao grupo e ao consumo, sem deixar acúmulo orgânico.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Variedade alimentar",
+          "value": "Incluir componentes vegetais e animais. Intensificar vermelho não deve ser o único objetivo da alimentação.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Cuidados com excesso de alimento",
+          "value": "Sobras aumentam a carga orgânica, uma preocupação relevante para a espécie; observe o grupo durante a oferta e preserve a qualidade da água.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Geralmente pacífico, porém ativo.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Comportamento social",
+          "value": "Gregário; planejar grupo, não um exemplar isolado.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Compatibilidade",
+          "value": "Companheiros que tolerem água bem oxigenada, movimentação e tamanho do grupo, sem competição ou predação incompatíveis.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Conflitos",
+          "value": "Dawkinsia chalakkudiensis pode ser confundida no comércio e é descrita como mais beligerante; confirme a identificação do lote.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Peixes menores, invertebrados e plantas",
+          "value": "Não foi localizada garantia de segurança para crias ou invertebrados minúsculos. A fonte informa que normalmente não danifica plantas; ainda assim, preserve corredor de natação.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Tipo de reprodução",
+          "value": "Ovíparo; há relatos de desova em grupos.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dimorfismo sexual",
+          "value": "Fêmeas adultas costumam ser maiores e mais cheias; não foi adotado um método infalível de sexagem de juvenis.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Comportamento reprodutivo",
+          "value": "Há criação comercial e poucos relatos em aquários domésticos; a fonte considera importante o contexto de grupo.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Ovos e filhotes",
+          "value": "A referência relata deposição em musgo em experiências de reprodução. Não há protocolo padronizado de manejo de ovos/alevinos validado para recomendar nesta ficha.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade em cativeiro",
+          "value": "Elevada para reprodução doméstica previsível. Parâmetros de experiências de desova não foram apresentados como faixas normais de manutenção.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Sensibilidade a alterações",
+          "value": "Particular atenção ao acúmulo de matéria orgânica e à falta de oxigenação.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Problemas de manutenção",
+          "value": "Pouco espaço de natação e água deteriorada contrariam as necessidades descritas nas fontes.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Prevenção",
+          "value": "Aquário maduro, boa circulação, controle de resíduos e trocas compatíveis com a água do sistema.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sinais de estresse",
+          "value": "Alterações de natação, apetite ou isolamento pedem revisão de água, oxigenação e convivência. Não foi proposto tratamento veterinário ou medicação por sintomas inespecíficos.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "fields": [
+        {
+          "label": "Mudança de gênero",
+          "value": "A espécie foi colocada em Sahyadria em 2013 e o catálogo atual adota Dawkinsia, com base em literatura posterior.",
+          "referenceIds": ["cof", "revision"]
+        },
+        {
+          "label": "Comprimento que conta",
+          "value": "Os 11 cm de comprimento padrão e os 15 cm totais encontrados nas fontes são medidas diferentes: a ficha evita tratá-las como se fossem o mesmo tamanho.",
+          "referenceIds": ["care", "fb"]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "cof",
+      "title": "Eschmeyer’s Catalog of Fishes — Dawkinsia denisonii",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=46829",
+      "accessedAt": "2026-10-18",
+      "author": "California Academy of Sciences",
+      "year": "2026"
+    },
+    {
+      "id": "class",
+      "title": "Eschmeyer’s Catalog of Fishes — Genera/Species by Family/Subfamily",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+      "accessedAt": "2026-10-18",
+      "author": "California Academy of Sciences",
+      "year": "2026"
+    },
+    {
+      "id": "care",
+      "title": "Dawkinsia denisonii — ficha de manutenção",
+      "url": "https://www.seriouslyfish.com/species/dawkinsia-denisonii/",
+      "accessedAt": "2026-10-18",
+      "author": "Seriously Fish"
+    },
+    {
+      "id": "fb",
+      "title": "Dawkinsia denisonii — resumo biológico",
+      "url": "https://www.fishbase.se/summary/sahyadria-denisonii.html",
+      "accessedAt": "2026-10-18",
+      "author": "FishBase"
+    },
+    {
+      "id": "revision",
+      "title": "Molecular phylogeny and divergence of major clades in the Puntius complex (Teleostei: Cypriniformes)",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/getref.asp?id=37805",
+      "accessedAt": "2026-10-18",
+      "author": "Q. Ren, L. Yang, C.-H. Chang e R. L. Mayden",
+      "year": "2020"
+    },
+    {
+      "id": "gbif",
+      "title": "Sahyadria denisonii — correspondência no GBIF (usada para reino e filo)",
+      "url": "https://api.gbif.org/v1/species/match?name=Sahyadria%20denisonii",
+      "author": "GBIF",
+      "accessedAt": "2026-10-18"
+    }
+  ],
+  "status": "draft",
+  "additionalPhotos": [
+    {
+      "src": "/images/species/denizoni-2.webp",
+      "width": 960,
+      "height": 647,
+      "alt": "Cardume de Dawkinsia denisonii com faixas pretas e vermelhas em aquário",
+      "author": "Anandarajkumar",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sahyadria_denisonii_school.jpg",
+      "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo."
+    },
+    {
+      "src": "/images/species/denizoni-3.webp",
+      "width": 960,
+      "height": 720,
+      "alt": "Dawkinsia denisonii de perfil com faixa preta, vermelho na cabeça e marcas amarelas na cauda",
+      "author": "NasserHalaweh",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cyprinidae_Sahyadria_denisonii_1.2.jpg",
+      "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ],
+  "regions": [
+    {
+      "id": "asia",
+      "label": "Ásia",
+      "scale": "continent",
+      "referenceIds": ["cof"]
+    }
+  ]
+}
