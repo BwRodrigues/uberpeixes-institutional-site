@@ -420,7 +420,6 @@
       "accessedAt": "2026-10-18"
     }
   ],
-  "relatedSlugs": ["barbus-cereja"],
   "status": "draft",
   "additionalPhotos": [
     {
@@ -446,6 +445,14 @@
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Prachtbarbe1.JPG",
       "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo.",
       "note": "Registro representativo de Pethia conchonius. Variedade ornamental e extensão das nadadeiras podem diferir do lote da loja."
+    }
+  ],
+  "regions": [
+    {
+      "id": "asia",
+      "label": "Ásia",
+      "scale": "continent",
+      "referenceIds": ["cof"]
     }
   ]
 }

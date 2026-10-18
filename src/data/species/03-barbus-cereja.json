@@ -427,7 +427,6 @@
       "accessedAt": "2026-10-18"
     }
   ],
-  "relatedSlugs": ["barbus-cereja-veu"],
   "status": "draft",
   "additionalPhotos": [
     {
@@ -451,6 +450,14 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Puntius_titteya-cherry_barb.jpg",
       "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ],
+  "regions": [
+    {
+      "id": "asia",
+      "label": "Ásia",
+      "scale": "continent",
+      "referenceIds": ["cof"]
     }
   ]
 }

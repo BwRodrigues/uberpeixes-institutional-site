@@ -2,9 +2,9 @@
 import SpeciesLayout from "../../layouts/SpeciesLayout.astro";
 import SpeciesPhoto from "./SpeciesPhoto.astro";
 import { profileSections, type Species } from "../../data/species-schema";
-import { species, scientificLabel, isPublishable } from "../../data/species";
+import { scientificLabel, isPublishable } from "../../data/species";
 import { canonicalUrl, speciesInquiry } from "../../config/site";
-import { isCatalogPreview } from "../../config/catalog";
+import SpeciesRecommendations from "./SpeciesRecommendations.astro";
 interface Props {
   animal: Species;
 }
@@ -12,9 +12,6 @@ const { animal } = Astro.props;
 const path = `/especies/${animal.slug}/`;
 const inquiry = speciesInquiry(animal.name, animal.scientificName);
 const reviewed = isPublishable(animal);
-const related = species.filter((other) =>
-  animal.relatedSlugs.includes(other.slug),
-);
 const structuredData: unknown[] = [
   {
     "@context": "https://schema.org",
@@ -100,17 +97,10 @@ if (
     <SpeciesPhoto animal={animal} eager zoom />
   </section>
   <p class="identification-note">{animal.identificationNote}</p>
-  {isCatalogPreview && !reviewed && (
-    <aside class="catalog-notice">
-      <strong>Ficha do protótipo — revisão da loja pendente</strong>
-      <p>
-        As faixas de manutenção são orientativas e estão ligadas às respectivas
-        fontes. Dados não documentados e divergências são indicados em cada
-        seção. As fotos representam a espécie e não comprovam estoque ou
-        disponibilidade.
-      </p>
-    </aside>
-  )}
+  <p class="profile-guidance">
+    As faixas de manutenção são orientativas. Confira as fontes, as ressalvas de
+    cada ficha e as condições dos animais com a equipe.
+  </p>
   {animal.additionalPhotos.length > 0 && (
     <section
       class="species-gallery"
@@ -221,26 +211,17 @@ if (
             ela não fundamenta recomendações biológicas.
           </p>
         )}
-        <p class="source-note">
-          Seleção: {animal.source.workbook}, aba “{animal.source.sheet}”, linha{" "}
-          {animal.source.row}. Preços e demais valores comerciais não foram
-          importados.
-        </p>
+        {animal.source && (
+          <p class="source-note">
+            Seleção: {animal.source.workbook}, aba “{animal.source.sheet}”,
+            linha {animal.source.row}. Preços e demais valores comerciais não
+            foram importados.
+          </p>
+        )}
       </section>
-      {related.length > 0 && (
-        <section class="profile-related">
-          <h2>Veja também</h2>
-          <ul>
-            {related.map((other) => (
-              <li>
-                <a href={`/especies/${other.slug}/`}>{other.name}</a>
-              </li>
-            ))}
-          </ul>
-        </section>
-      )}
     </div>
   </div>
+  <SpeciesRecommendations animal={animal} />
   <aside class="species-inquiry">
     <span>Dúvidas sobre {animal.name}?</span>
     <a class="button" href={inquiry} target="_blank" rel="noopener noreferrer">

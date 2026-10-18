@@ -42,19 +42,6 @@
   font-size: 17px;
   color: var(--muted);
 }
-.catalog-notice {
-  border: 1px solid #f5bf86;
-  border-left: 4px solid var(--brand-orange);
-  border-radius: 10px;
-  background: #fff9f2;
-  padding: 18px 20px;
-  margin: 18px 0 28px;
-  line-height: 1.7;
-}
-.catalog-notice p {
-  font-size: 14px;
-  margin: 8px 0 0;
-}
 .catalog-filters {
   display: grid;
   align-items: end;
@@ -319,8 +306,7 @@
   font-size: 12px;
   color: var(--brand-indigo);
 }
-.profile-references,
-.profile-related {
+.profile-references {
   margin-top: 26px;
   padding: 22px;
   border: 1px solid var(--line);
@@ -332,8 +318,7 @@
   font-size: 14px;
   line-height: 1.8;
 }
-.profile-references ol,
-.profile-related ul {
+.profile-references ol {
   padding-left: 20px;
 }
 .profile-references small {
@@ -345,10 +330,6 @@
 }
 .source-note {
   color: var(--muted);
-}
-.profile-related ul {
-  font-size: 15px;
-  line-height: 1.9;
 }
 .species-inquiry {
   position: sticky;
@@ -450,5 +431,69 @@
 @media (min-width: 700px) {
   .species-gallery-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.profile-guidance {
+  font-size: 14px;
+  color: var(--muted);
+}
+.species-recommendations {
+  margin-block: 40px 24px;
+}
+.species-recommendations > p {
+  color: var(--muted);
+  font-size: 14px;
+  max-width: 85ch;
+}
+.recommendations-grid {
+  display: grid;
+  gap: 24px;
+}
+.recommendation-card {
+  min-width: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: white;
+}
+.recommendation-body {
+  padding: 20px;
+}
+.recommendation-body h3 {
+  font-size: 22px;
+  line-height: 1.4;
+  margin: 12px 0;
+}
+.recommendation-label {
+  color: var(--brand-indigo-dark);
+  background: var(--surface-cyan);
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.recommendation-context,
+.recommendation-body > p {
+  font-size: 14px;
+}
+.recommendation-sources {
+  font-size: 12px;
+  line-height: 1.7;
+}
+.recommendation-sources summary {
+  min-height: 44px;
+  cursor: pointer;
+  padding-block: 10px;
+}
+.recommendation-sources ul {
+  padding-left: 18px;
+}
+.recommendation-sources a {
+  overflow-wrap: anywhere;
+}
+@media (min-width: 700px) {
+  .recommendations-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }

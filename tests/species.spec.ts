@@ -1,14 +1,5 @@
 import { expect, test } from "@playwright/test";
-import { readdirSync, readFileSync } from "node:fs";
-const speciesDirectory = new URL("../src/data/species/", import.meta.url);
-const profileData: {
-  slug: string;
-  sections: { fields: { value: string }[] }[];
-}[] = readdirSync(speciesDirectory)
-  .filter((name) => name.endsWith(".json"))
-  .map((name) =>
-    JSON.parse(readFileSync(new URL(name, speciesDirectory), "utf8")),
-  );
+import { catalogRecords as profileData } from "./helpers/catalog";
 
 const pilot = [
   {
@@ -57,7 +48,7 @@ test("homepage menu opens exactly five pilot records without overflow", async ({
   await expect(page.locator("[data-species-card]")).toHaveCount(5);
   await expect(
     page.getByText("Protótipo em validação", { exact: true }),
-  ).toHaveCount(process.env.CATALOG_PREVIEW === "true" ? 1 : 0);
+  ).toHaveCount(0);
   for (const entry of pilot)
     await expect(page.locator("[data-species-card]")).toContainText([
       entry.name,
@@ -164,12 +155,18 @@ test("each generated profile has the correct identity, inquiry, metadata, refere
         `Olá! Estava conhecendo a espécie ${entry.name} (${entry.scientific}) no site da Uberpeixes e gostaria de consultar o valor e a disponibilidade.`,
       );
     }
-    await expect(page.locator("main .species-photo img")).toHaveCount(3);
+    await expect(
+      page.locator(
+        ".species-hero .species-photo img, .species-gallery .species-photo img",
+      ),
+    ).toHaveCount(3);
     await expect(page.locator(".species-gallery .species-photo")).toHaveCount(
       2,
     );
     const photoPaths: string[] = [];
-    for (const photo of await page.locator("main .species-photo").all()) {
+    for (const photo of await page
+      .locator(".species-hero .species-photo, .species-gallery .species-photo")
+      .all()) {
       const img = photo.locator("img");
       await img.scrollIntoViewIfNeeded();
       await expect
@@ -210,12 +207,54 @@ test("each generated profile has the correct identity, inquiry, metadata, refere
         "/images/species/barbo-conchonio-cereja-veu.webp",
       );
     }
+    const suggestions = page.locator("[data-recommendation]");
+    await expect(suggestions).toHaveCount(3);
+    await expect(
+      page.getByRole("heading", {
+        name: "Conheça outras espécies",
+        exact: true,
+      }),
+    ).toHaveCount(1);
+    const destinations = new Set<string>();
+    for (const card of await suggestions.all()) {
+      await expect(card.locator(".recommendation-label")).toHaveText(
+        "Mesma região",
+      );
+      await expect(card.locator(".recommendation-context")).toHaveText(
+        "Ásia · continente",
+      );
+      const link = card.locator("h3 a");
+      const destination = (await link.getAttribute("href"))!;
+      expect(destination).not.toBe(`/especies/${entry.slug}/`);
+      expect(
+        pilot.some((item) => destination === `/especies/${item.slug}/`),
+      ).toBe(true);
+      destinations.add(destination);
+      const img = card.locator("img");
+      await img.scrollIntoViewIfNeeded();
+      await expect
+        .poll(() =>
+          img.evaluate(
+            (element: HTMLImageElement) =>
+              element.complete && element.naturalWidth > 0,
+          ),
+        )
+        .toBe(true);
+      expect(
+        await card.locator(".recommendation-sources a").count(),
+      ).toBeGreaterThan(0);
+    }
+    expect(destinations.size).toBe(3);
     titles.add(await page.title());
     expect(
       await page.evaluate(
         () => document.documentElement.scrollWidth <= innerWidth,
       ),
     ).toBe(true);
+    const nextProfile = suggestions.first().locator("h3 a");
+    const nextName = await nextProfile.textContent();
+    await nextProfile.click();
+    await expect(page.getByRole("heading", { level: 1 })).toHaveText(nextName!);
     await page
       .getByRole("link", { name: "Voltar ao catálogo", exact: true })
       .click();

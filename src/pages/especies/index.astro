@@ -8,13 +8,12 @@ import {
   isPublishable,
 } from "../../data/species";
 import { speciesInquiry, canonicalUrl } from "../../config/site";
-import { isCatalogPreview } from "../../config/catalog";
 const allReviewed = species.every(isPublishable);
 ---
 
 <SpeciesLayout
   title="Espécies | Catálogo Uberpeixes Ornamentais"
-  description="Explore os cinco primeiros registros do catálogo de espécies da Uberpeixes. Pesquise por nome, filtre por categoria e consulte nossa equipe pelo WhatsApp."
+  description="Explore o catálogo de espécies da Uberpeixes. Pesquise por nome, filtre por categoria e consulte nossa equipe pelo WhatsApp."
   path="/especies/"
   draft={!allReviewed}
   structuredData={[
@@ -53,17 +52,6 @@ const allReviewed = species.every(isPublishable);
       valor e disponibilidade.
     </p>
   </section>
-  {isCatalogPreview && !allReviewed && (
-    <aside class="catalog-notice" aria-label="Status do catálogo">
-      <strong>Protótipo em validação</strong>
-      <p>
-        Cinco registros selecionados para revisão da loja, com fontes
-        científicas e fotografias licenciadas. As fichas indicam dúvidas e dados
-        não documentados. Consulte a equipe para confirmar identificação, valor
-        e disponibilidade.
-      </p>
-    </aside>
-  )}
   <form class="catalog-filters" data-catalog-filters role="search" hidden>
     <div>
       <label for="species-search">Pesquisar por nome</label>
@@ -90,8 +78,8 @@ const allReviewed = species.every(isPublishable);
   </form>
   <noscript>
     <p>
-      As cinco fichas estão disponíveis abaixo. Ative o JavaScript para
-      pesquisar e filtrar.
+      As fichas estão disponíveis abaixo. Ative o JavaScript para pesquisar e
+      filtrar.
     </p>
   </noscript>
   <p

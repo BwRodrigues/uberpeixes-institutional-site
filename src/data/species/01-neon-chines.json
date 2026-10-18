@@ -419,7 +419,6 @@
       "accessedAt": "2026-10-18"
     }
   ],
-  "relatedSlugs": [],
   "status": "draft",
   "additionalPhotos": [
     {
@@ -443,6 +442,14 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:White_Cloud_Mountain_Minnow_(Tanichthys_albonubes)_female_in_front.jpg",
       "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ],
+  "regions": [
+    {
+      "id": "asia",
+      "label": "Ásia",
+      "scale": "continent",
+      "referenceIds": ["cof"]
     }
   ]
 }

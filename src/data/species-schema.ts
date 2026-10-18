@@ -159,7 +159,8 @@ export interface Species {
   name: string;
   commercialName: string;
   category: string;
-  source: { workbook: string; sheet: string; row: number; niche: string };
+  source?: { workbook: string; sheet: string; row: number; niche: string };
+  sortOrder?: number;
   scientificName: string | null;
   identificationNote: string;
   description: string;
@@ -167,6 +168,22 @@ export interface Species {
   additionalPhotos: LicensedPhoto[];
   sections: ProfileSection[];
   references: Reference[];
-  relatedSlugs: string[];
+  regions: GeographicRegion[];
   status: "draft" | "reviewed";
+}
+
+export interface GeographicRegion {
+  id: string;
+  label: string;
+  scale: "continent" | "subregion" | "country" | "basin";
+  referenceIds: string[];
+}
+export interface CompatibilityAssessment {
+  species: [string, string];
+  status: "draft" | "reviewed";
+  waterParameters: string;
+  behavior: string;
+  adultSizeAndSpace: string;
+  conditions: string;
+  references: Reference[];
 }

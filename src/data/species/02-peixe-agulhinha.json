@@ -419,7 +419,6 @@
       "accessedAt": "2026-10-18"
     }
   ],
-  "relatedSlugs": [],
   "status": "draft",
   "additionalPhotos": [
     {
@@ -443,6 +442,14 @@
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dermogenys_pusilla_male_and_female_(top).jpg",
       "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ],
+  "regions": [
+    {
+      "id": "asia",
+      "label": "Ásia",
+      "scale": "continent",
+      "referenceIds": ["cof"]
     }
   ]
 }

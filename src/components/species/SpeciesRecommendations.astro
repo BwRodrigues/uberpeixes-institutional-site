@@ -1,0 +1,75 @@
+---
+import type { Species } from "../../data/species-schema";
+import { catalog } from "../../data/species";
+import SpeciesPhoto from "./SpeciesPhoto.astro";
+interface Props {
+  animal: Species;
+}
+const { animal } = Astro.props;
+const recommendations = catalog.recommendations(animal.slug);
+const scales = {
+  continent: "continente",
+  subregion: "sub-região",
+  country: "país",
+  basin: "bacia hidrográfica",
+};
+---
+
+{recommendations.length > 0 && (
+  <section
+    class="species-recommendations"
+    aria-labelledby="recommendations-title"
+  >
+    <h2 id="recommendations-title">Conheça outras espécies</h2>
+    <p>
+      A indicação geográfica informa a origem. A convivência exige avaliação
+      própria dos parâmetros da água, comportamento, porte adulto e espaço
+      disponível.
+    </p>
+    <div class="recommendations-grid">
+      {recommendations.map((item) => (
+        <article
+          class="recommendation-card"
+          data-recommendation
+          data-kind={item.kind}
+        >
+          <SpeciesPhoto animal={item.animal} />
+          <div class="recommendation-body">
+            <span class="recommendation-label">{item.label}</span>
+            <h3>
+              <a href={`/especies/${item.animal.slug}/`}>{item.animal.name}</a>
+            </h3>
+            <p class="scientific-name">
+              <i>{item.animal.scientificName}</i>
+            </p>
+            {item.region && (
+              <p class="recommendation-context">
+                {item.region.label} · {scales[item.region.scale]}
+              </p>
+            )}
+            {item.conditions && <p>{item.conditions}</p>}
+            <details class="recommendation-sources">
+              <summary>Fontes da indicação</summary>
+              <ul>
+                {item.evidence.map((reference) => (
+                  <li>
+                    <a
+                      href={reference.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {reference.title}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </details>
+            <a class="catalog-whatsapp" href={`/especies/${item.animal.slug}/`}>
+              Ver ficha completa
+            </a>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+)}
