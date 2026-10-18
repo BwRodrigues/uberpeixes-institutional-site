@@ -1,0 +1,1723 @@
+{
+  "schemaVersion": 1,
+  "workbook": "VAREJO PEIXES NICHOS.xlsx",
+  "sha256": "f5740672fd7780f15369adc8b6635d7089ecc96f39ba74b34297c3bfbdcddb66",
+  "sheets": [
+    {
+      "name": "Tabela Peixes Atual",
+      "kind": "catalog",
+      "records": 212,
+      "note": "Names and categories only"
+    },
+    {
+      "name": "PROMPT PEIXES",
+      "kind": "non-catalog",
+      "records": 0,
+      "note": "Inspected; instruction text is not executed and is not catalog data"
+    },
+    {
+      "name": "PROMPT PRODUTOS",
+      "kind": "non-catalog",
+      "records": 0,
+      "note": "Inspected; instruction text is not executed and is not catalog data"
+    }
+  ],
+  "records": [
+    {
+      "id": "Tabela Peixes Atual:6",
+      "sheet": "Tabela Peixes Atual",
+      "row": 6,
+      "commercialName": "NEON CHINES (TANICTIS)",
+      "category": "Asiáticos",
+      "normalizedName": "NEON CHINES (TANICTIS)"
+    },
+    {
+      "id": "Tabela Peixes Atual:7",
+      "sheet": "Tabela Peixes Atual",
+      "row": 7,
+      "commercialName": "PEIXE AGULHINHA",
+      "category": "Asiáticos",
+      "normalizedName": "PEIXE AGULHINHA"
+    },
+    {
+      "id": "Tabela Peixes Atual:8",
+      "sheet": "Tabela Peixes Atual",
+      "row": 8,
+      "commercialName": "BARBUS CEREJA",
+      "category": "Barbos e Danios",
+      "normalizedName": "BARBUS CEREJA"
+    },
+    {
+      "id": "Tabela Peixes Atual:9",
+      "sheet": "Tabela Peixes Atual",
+      "row": 9,
+      "commercialName": "BARBUS CEREJA VEU",
+      "category": "Barbos e Danios",
+      "normalizedName": "BARBUS CEREJA VEU"
+    },
+    {
+      "id": "Tabela Peixes Atual:10",
+      "sheet": "Tabela Peixes Atual",
+      "row": 10,
+      "commercialName": "BARBUS DENIZONI",
+      "category": "Barbos e Danios",
+      "normalizedName": "BARBUS DENIZONI"
+    },
+    {
+      "id": "Tabela Peixes Atual:11",
+      "sheet": "Tabela Peixes Atual",
+      "row": 11,
+      "commercialName": "BARBUS GEMA",
+      "category": "Barbos e Danios",
+      "normalizedName": "BARBUS GEMA"
+    },
+    {
+      "id": "Tabela Peixes Atual:12",
+      "sheet": "Tabela Peixes Atual",
+      "row": 12,
+      "commercialName": "BARBUS OURO",
+      "category": "Barbos e Danios",
+      "normalizedName": "BARBUS OURO"
+    },
+    {
+      "id": "Tabela Peixes Atual:13",
+      "sheet": "Tabela Peixes Atual",
+      "row": 13,
+      "commercialName": "BARBUS SUMATRA",
+      "category": "Barbos e Danios",
+      "normalizedName": "BARBUS SUMATRA"
+    },
+    {
+      "id": "Tabela Peixes Atual:14",
+      "sheet": "Tabela Peixes Atual",
+      "row": 14,
+      "commercialName": "BARBUS SUMATRA ALBINO",
+      "category": "Barbos e Danios",
+      "normalizedName": "BARBUS SUMATRA ALBINO"
+    },
+    {
+      "id": "Tabela Peixes Atual:15",
+      "sheet": "Tabela Peixes Atual",
+      "row": 15,
+      "commercialName": "BARBUS SUMATRA VERMELHO",
+      "category": "Barbos e Danios",
+      "normalizedName": "BARBUS SUMATRA VERMELHO"
+    },
+    {
+      "id": "Tabela Peixes Atual:16",
+      "sheet": "Tabela Peixes Atual",
+      "row": 16,
+      "commercialName": "DÂNIO",
+      "category": "Barbos e Danios",
+      "normalizedName": "DANIO"
+    },
+    {
+      "id": "Tabela Peixes Atual:17",
+      "sheet": "Tabela Peixes Atual",
+      "row": 17,
+      "commercialName": "PAULISTINHA COMUM",
+      "category": "Barbos e Danios",
+      "normalizedName": "PAULISTINHA COMUM"
+    },
+    {
+      "id": "Tabela Peixes Atual:18",
+      "sheet": "Tabela Peixes Atual",
+      "row": 18,
+      "commercialName": "BETTA FÊMEA COMUM",
+      "category": "Bettas",
+      "normalizedName": "BETTA FEMEA COMUM"
+    },
+    {
+      "id": "Tabela Peixes Atual:19",
+      "sheet": "Tabela Peixes Atual",
+      "row": 19,
+      "commercialName": "BETTA FÊMEA DUMBO",
+      "category": "Bettas",
+      "normalizedName": "BETTA FEMEA DUMBO"
+    },
+    {
+      "id": "Tabela Peixes Atual:20",
+      "sheet": "Tabela Peixes Atual",
+      "row": 20,
+      "commercialName": "BETTA FÊMEA KOI CANDY",
+      "category": "Bettas",
+      "normalizedName": "BETTA FEMEA KOI CANDY"
+    },
+    {
+      "id": "Tabela Peixes Atual:21",
+      "sheet": "Tabela Peixes Atual",
+      "row": 21,
+      "commercialName": "BETTA MACHO COMUM",
+      "category": "Bettas",
+      "normalizedName": "BETTA MACHO COMUM"
+    },
+    {
+      "id": "Tabela Peixes Atual:22",
+      "sheet": "Tabela Peixes Atual",
+      "row": 22,
+      "commercialName": "BETTA MACHO CROWNTAIL",
+      "category": "Bettas",
+      "normalizedName": "BETTA MACHO CROWNTAIL"
+    },
+    {
+      "id": "Tabela Peixes Atual:23",
+      "sheet": "Tabela Peixes Atual",
+      "row": 23,
+      "commercialName": "BETTA MACHO DRAGON",
+      "category": "Bettas",
+      "normalizedName": "BETTA MACHO DRAGON"
+    },
+    {
+      "id": "Tabela Peixes Atual:24",
+      "sheet": "Tabela Peixes Atual",
+      "row": 24,
+      "commercialName": "BETTA MACHO DUMBO",
+      "category": "Bettas",
+      "normalizedName": "BETTA MACHO DUMBO"
+    },
+    {
+      "id": "Tabela Peixes Atual:25",
+      "sheet": "Tabela Peixes Atual",
+      "row": 25,
+      "commercialName": "BETTA MACHO KOI",
+      "category": "Bettas",
+      "normalizedName": "BETTA MACHO KOI"
+    },
+    {
+      "id": "Tabela Peixes Atual:26",
+      "sheet": "Tabela Peixes Atual",
+      "row": 26,
+      "commercialName": "BETTA MACHO MUSTARD GAS",
+      "category": "Bettas",
+      "normalizedName": "BETTA MACHO MUSTARD GAS"
+    },
+    {
+      "id": "Tabela Peixes Atual:27",
+      "sheet": "Tabela Peixes Atual",
+      "row": 27,
+      "commercialName": "BETTA MACHO PALHAÇO",
+      "category": "Bettas",
+      "normalizedName": "BETTA MACHO PALHACO"
+    },
+    {
+      "id": "Tabela Peixes Atual:28",
+      "sheet": "Tabela Peixes Atual",
+      "row": 28,
+      "commercialName": "BOTIA LOHACHATA (YOYO)",
+      "category": "Botias e Loaches",
+      "normalizedName": "BOTIA LOHACHATA (YOYO)"
+    },
+    {
+      "id": "Tabela Peixes Atual:29",
+      "sheet": "Tabela Peixes Atual",
+      "row": 29,
+      "commercialName": "BOTIA MODESTA (AZUL) M",
+      "category": "Botias e Loaches",
+      "normalizedName": "BOTIA MODESTA (AZUL) M"
+    },
+    {
+      "id": "Tabela Peixes Atual:30",
+      "sheet": "Tabela Peixes Atual",
+      "row": 30,
+      "commercialName": "COBRINHA KULLY",
+      "category": "Botias e Loaches",
+      "normalizedName": "COBRINHA KULLY"
+    },
+    {
+      "id": "Tabela Peixes Atual:31",
+      "sheet": "Tabela Peixes Atual",
+      "row": 31,
+      "commercialName": "DOJO M",
+      "category": "Botias e Loaches",
+      "normalizedName": "DOJO M"
+    },
+    {
+      "id": "Tabela Peixes Atual:32",
+      "sheet": "Tabela Peixes Atual",
+      "row": 32,
+      "commercialName": "CARPA COLORIDA ESPECIAL G",
+      "category": "Carpas",
+      "normalizedName": "CARPA COLORIDA ESPECIAL G"
+    },
+    {
+      "id": "Tabela Peixes Atual:33",
+      "sheet": "Tabela Peixes Atual",
+      "row": 33,
+      "commercialName": "CARPA COLORIDA ESPECIAL M",
+      "category": "Carpas",
+      "normalizedName": "CARPA COLORIDA ESPECIAL M"
+    },
+    {
+      "id": "Tabela Peixes Atual:34",
+      "sheet": "Tabela Peixes Atual",
+      "row": 34,
+      "commercialName": "CARPA COLORIDA ESPECIAL P",
+      "category": "Carpas",
+      "normalizedName": "CARPA COLORIDA ESPECIAL P"
+    },
+    {
+      "id": "Tabela Peixes Atual:35",
+      "sheet": "Tabela Peixes Atual",
+      "row": 35,
+      "commercialName": "CARPA KOI 16 a 18CM",
+      "category": "Carpas",
+      "normalizedName": "CARPA KOI 16 A 18CM"
+    },
+    {
+      "id": "Tabela Peixes Atual:36",
+      "sheet": "Tabela Peixes Atual",
+      "row": 36,
+      "commercialName": "CARPA VEU G",
+      "category": "Carpas",
+      "normalizedName": "CARPA VEU G"
+    },
+    {
+      "id": "Tabela Peixes Atual:37",
+      "sheet": "Tabela Peixes Atual",
+      "row": 37,
+      "commercialName": "CARPA VEU M",
+      "category": "Carpas",
+      "normalizedName": "CARPA VEU M"
+    },
+    {
+      "id": "Tabela Peixes Atual:38",
+      "sheet": "Tabela Peixes Atual",
+      "row": 38,
+      "commercialName": "CARPA VEU MG",
+      "category": "Carpas",
+      "normalizedName": "CARPA VEU MG"
+    },
+    {
+      "id": "Tabela Peixes Atual:39",
+      "sheet": "Tabela Peixes Atual",
+      "row": 39,
+      "commercialName": "CARPA VEU P",
+      "category": "Carpas",
+      "normalizedName": "CARPA VEU P"
+    },
+    {
+      "id": "Tabela Peixes Atual:40",
+      "sheet": "Tabela Peixes Atual",
+      "row": 40,
+      "commercialName": "CASCUDO ABACAXI G",
+      "category": "Cascudos  e limpadores",
+      "normalizedName": "CASCUDO ABACAXI G"
+    },
+    {
+      "id": "Tabela Peixes Atual:41",
+      "sheet": "Tabela Peixes Atual",
+      "row": 41,
+      "commercialName": "CASCUDO ABACAXI M",
+      "category": "Cascudos  e limpadores",
+      "normalizedName": "CASCUDO ABACAXI M"
+    },
+    {
+      "id": "Tabela Peixes Atual:42",
+      "sheet": "Tabela Peixes Atual",
+      "row": 42,
+      "commercialName": "CASCUDO ABACAXI P",
+      "category": "Cascudos  e limpadores",
+      "normalizedName": "CASCUDO ABACAXI P"
+    },
+    {
+      "id": "Tabela Peixes Atual:43",
+      "sheet": "Tabela Peixes Atual",
+      "row": 43,
+      "commercialName": "CASCUDO ALBINO M",
+      "category": "Cascudos  e limpadores",
+      "normalizedName": "CASCUDO ALBINO M"
+    },
+    {
+      "id": "Tabela Peixes Atual:44",
+      "sheet": "Tabela Peixes Atual",
+      "row": 44,
+      "commercialName": "CASCUDO ANCISTRUS",
+      "category": "Cascudos  e limpadores",
+      "normalizedName": "CASCUDO ANCISTRUS"
+    },
+    {
+      "id": "Tabela Peixes Atual:45",
+      "sheet": "Tabela Peixes Atual",
+      "row": 45,
+      "commercialName": "AULONOCARA  APACHE",
+      "category": "Ciclídeos Africanos",
+      "normalizedName": "AULONOCARA APACHE"
+    },
+    {
+      "id": "Tabela Peixes Atual:46",
+      "sheet": "Tabela Peixes Atual",
+      "row": 46,
+      "commercialName": "AULONOCARA BLUE",
+      "category": "Ciclídeos Africanos",
+      "normalizedName": "AULONOCARA BLUE"
+    },
+    {
+      "id": "Tabela Peixes Atual:47",
+      "sheet": "Tabela Peixes Atual",
+      "row": 47,
+      "commercialName": "AULONOCARA DRAGON BLOOD",
+      "category": "Ciclídeos Africanos",
+      "normalizedName": "AULONOCARA DRAGON BLOOD"
+    },
+    {
+      "id": "Tabela Peixes Atual:48",
+      "sheet": "Tabela Peixes Atual",
+      "row": 48,
+      "commercialName": "AULONOCARA EUREKA",
+      "category": "Ciclídeos Africanos",
+      "normalizedName": "AULONOCARA EUREKA"
+    },
+    {
+      "id": "Tabela Peixes Atual:49",
+      "sheet": "Tabela Peixes Atual",
+      "row": 49,
+      "commercialName": "AULONOCARA MALERI YELLOW",
+      "category": "Ciclídeos Africanos",
+      "normalizedName": "AULONOCARA MALERI YELLOW"
+    },
+    {
+      "id": "Tabela Peixes Atual:50",
+      "sheet": "Tabela Peixes Atual",
+      "row": 50,
+      "commercialName": "AULONOCARA MAULANA BICOLOR",
+      "category": "Ciclídeos Africanos",
+      "normalizedName": "AULONOCARA MAULANA BICOLOR"
+    },
+    {
+      "id": "Tabela Peixes Atual:51",
+      "sheet": "Tabela Peixes Atual",
+      "row": 51,
+      "commercialName": "AULONOCARA ORANGE BLUE",
+      "category": "Ciclídeos Africanos",
+      "normalizedName": "AULONOCARA ORANGE BLUE"
+    },
+    {
+      "id": "Tabela Peixes Atual:52",
+      "sheet": "Tabela Peixes Atual",
+      "row": 52,
+      "commercialName": "AULONOCARA RED FLASH",
+      "category": "Ciclídeos Africanos",
+      "normalizedName": "AULONOCARA RED FLASH"
+    },
+    {
+      "id": "Tabela Peixes Atual:53",
+      "sheet": "Tabela Peixes Atual",
+      "row": 53,
+      "commercialName": "AULONOCARA STUARTGRANTI NGARA",
+      "category": "Ciclídeos Africanos",
+      "normalizedName": "AULONOCARA STUARTGRANTI NGARA"
+    },
+    {
+      "id": "Tabela Peixes Atual:54",
+      "sheet": "Tabela Peixes Atual",
+      "row": 54,
+      "commercialName": "AULONOCARIA ORANGE BLUE ALBINA",
+      "category": "Ciclídeos Africanos",
+      "normalizedName": "AULONOCARIA ORANGE BLUE ALBINA"
+    },
+    {
+      "id": "Tabela Peixes Atual:55",
+      "sheet": "Tabela Peixes Atual",
+      "row": 55,
+      "commercialName": "AURATUS ALBINO",
+      "category": "Ciclídeos Africanos",
+      "normalizedName": "AURATUS ALBINO"
+    },
+    {
+      "id": "Tabela Peixes Atual:56",
+      "sheet": "Tabela Peixes Atual",
+      "row": 56,
+      "commercialName": "AURATUS AMARELO",
+      "category": "Ciclídeos Africanos",
+      "normalizedName": "AURATUS AMARELO"
+    },
+    {
+      "id": "Tabela Peixes Atual:57",
+      "sheet": "Tabela Peixes Atual",
+      "row": 57,
+      "commercialName": "AURATUS AZUL",
+      "category": "Ciclídeos Africanos",
+      "normalizedName": "AURATUS AZUL"
+    },
+    {
+      "id": "Tabela Peixes Atual:58",
+      "sheet": "Tabela Peixes Atual",
+      "row": 58,
+      "commercialName": "LABIDOCHROMIS SUPER YELLOW M",
+      "category": "Ciclídeos Africanos",
+      "normalizedName": "LABIDOCHROMIS SUPER YELLOW M"
+    },
+    {
+      "id": "Tabela Peixes Atual:59",
+      "sheet": "Tabela Peixes Atual",
+      "row": 59,
+      "commercialName": "LOMBARDOI",
+      "category": "Ciclídeos Africanos",
+      "normalizedName": "LOMBARDOI"
+    },
+    {
+      "id": "Tabela Peixes Atual:60",
+      "sheet": "Tabela Peixes Atual",
+      "row": 60,
+      "commercialName": "SOCOLOFI",
+      "category": "Ciclídeos Africanos",
+      "normalizedName": "SOCOLOFI"
+    },
+    {
+      "id": "Tabela Peixes Atual:61",
+      "sheet": "Tabela Peixes Atual",
+      "row": 61,
+      "commercialName": "VENUSTUS M +  VENUSTUS G",
+      "category": "Ciclídeos Africanos",
+      "normalizedName": "VENUSTUS M + VENUSTUS G"
+    },
+    {
+      "id": "Tabela Peixes Atual:62",
+      "sheet": "Tabela Peixes Atual",
+      "row": 62,
+      "commercialName": "ZEBRA BORRADO M",
+      "category": "Ciclídeos Africanos",
+      "normalizedName": "ZEBRA BORRADO M"
+    },
+    {
+      "id": "Tabela Peixes Atual:63",
+      "sheet": "Tabela Peixes Atual",
+      "row": 63,
+      "commercialName": "ZEBRA LARANJA M",
+      "category": "Ciclídeos Africanos",
+      "normalizedName": "ZEBRA LARANJA M"
+    },
+    {
+      "id": "Tabela Peixes Atual:64",
+      "sheet": "Tabela Peixes Atual",
+      "row": 64,
+      "commercialName": "ZEBRA OBLIQUIDENS M",
+      "category": "Ciclídeos Africanos",
+      "normalizedName": "ZEBRA OBLIQUIDENS M"
+    },
+    {
+      "id": "Tabela Peixes Atual:65",
+      "sheet": "Tabela Peixes Atual",
+      "row": 65,
+      "commercialName": "ACARÁ BANDEIRA M",
+      "category": "Ciclídeos Americanos",
+      "normalizedName": "ACARA BANDEIRA M"
+    },
+    {
+      "id": "Tabela Peixes Atual:66",
+      "sheet": "Tabela Peixes Atual",
+      "row": 66,
+      "commercialName": "ACARÁ BOCA DE FOGO G",
+      "category": "Ciclídeos Americanos",
+      "normalizedName": "ACARA BOCA DE FOGO G"
+    },
+    {
+      "id": "Tabela Peixes Atual:67",
+      "sheet": "Tabela Peixes Atual",
+      "row": 67,
+      "commercialName": "ACARÁ JOIA",
+      "category": "Ciclídeos Americanos",
+      "normalizedName": "ACARA JOIA"
+    },
+    {
+      "id": "Tabela Peixes Atual:68",
+      "sheet": "Tabela Peixes Atual",
+      "row": 68,
+      "commercialName": "ACARÁ KOI M",
+      "category": "Ciclídeos Americanos",
+      "normalizedName": "ACARA KOI M"
+    },
+    {
+      "id": "Tabela Peixes Atual:69",
+      "sheet": "Tabela Peixes Atual",
+      "row": 69,
+      "commercialName": "ACARÁ MARMORADO M",
+      "category": "Ciclídeos Americanos",
+      "normalizedName": "ACARA MARMORADO M"
+    },
+    {
+      "id": "Tabela Peixes Atual:70",
+      "sheet": "Tabela Peixes Atual",
+      "row": 70,
+      "commercialName": "ACARÁ PALHAÇO M",
+      "category": "Ciclídeos Americanos",
+      "normalizedName": "ACARA PALHACO M"
+    },
+    {
+      "id": "Tabela Peixes Atual:71",
+      "sheet": "Tabela Peixes Atual",
+      "row": 71,
+      "commercialName": "FLOWER HORN RED DRAGON",
+      "category": "Ciclídeos Americanos",
+      "normalizedName": "FLOWER HORN RED DRAGON"
+    },
+    {
+      "id": "Tabela Peixes Atual:72",
+      "sheet": "Tabela Peixes Atual",
+      "row": 72,
+      "commercialName": "FLOWER HORN RED DRAGON BALAO",
+      "category": "Ciclídeos Americanos",
+      "normalizedName": "FLOWER HORN RED DRAGON BALAO"
+    },
+    {
+      "id": "Tabela Peixes Atual:73",
+      "sheet": "Tabela Peixes Atual",
+      "row": 73,
+      "commercialName": "GREEN TERROR M",
+      "category": "Ciclídeos Americanos",
+      "normalizedName": "GREEN TERROR M"
+    },
+    {
+      "id": "Tabela Peixes Atual:74",
+      "sheet": "Tabela Peixes Atual",
+      "row": 74,
+      "commercialName": "GREEN TERROR P",
+      "category": "Ciclídeos Americanos",
+      "normalizedName": "GREEN TERROR P"
+    },
+    {
+      "id": "Tabela Peixes Atual:75",
+      "sheet": "Tabela Peixes Atual",
+      "row": 75,
+      "commercialName": "HECKELI ALBINO",
+      "category": "Ciclídeos Americanos",
+      "normalizedName": "HECKELI ALBINO"
+    },
+    {
+      "id": "Tabela Peixes Atual:76",
+      "sheet": "Tabela Peixes Atual",
+      "row": 76,
+      "commercialName": "OSCAR BRONZE G",
+      "category": "Ciclídeos Americanos",
+      "normalizedName": "OSCAR BRONZE G"
+    },
+    {
+      "id": "Tabela Peixes Atual:77",
+      "sheet": "Tabela Peixes Atual",
+      "row": 77,
+      "commercialName": "OSCAR BRONZE M",
+      "category": "Ciclídeos Americanos",
+      "normalizedName": "OSCAR BRONZE M"
+    },
+    {
+      "id": "Tabela Peixes Atual:78",
+      "sheet": "Tabela Peixes Atual",
+      "row": 78,
+      "commercialName": "OSCAR RED RUBI ALBINO M",
+      "category": "Ciclídeos Americanos",
+      "normalizedName": "OSCAR RED RUBI ALBINO M"
+    },
+    {
+      "id": "Tabela Peixes Atual:79",
+      "sheet": "Tabela Peixes Atual",
+      "row": 79,
+      "commercialName": "OSCAR RED TIGER ALBINO G",
+      "category": "Ciclídeos Americanos",
+      "normalizedName": "OSCAR RED TIGER ALBINO G"
+    },
+    {
+      "id": "Tabela Peixes Atual:80",
+      "sheet": "Tabela Peixes Atual",
+      "row": 80,
+      "commercialName": "OSCAR RED TIGER ALBINO",
+      "category": "Ciclídeos Americanos",
+      "normalizedName": "OSCAR RED TIGER ALBINO"
+    },
+    {
+      "id": "Tabela Peixes Atual:81",
+      "sheet": "Tabela Peixes Atual",
+      "row": 81,
+      "commercialName": "OSCAR RED TIGER M",
+      "category": "Ciclídeos Americanos",
+      "normalizedName": "OSCAR RED TIGER M"
+    },
+    {
+      "id": "Tabela Peixes Atual:82",
+      "sheet": "Tabela Peixes Atual",
+      "row": 82,
+      "commercialName": "OSCAR TIGRE M",
+      "category": "Ciclídeos Americanos",
+      "normalizedName": "OSCAR TIGRE M"
+    },
+    {
+      "id": "Tabela Peixes Atual:83",
+      "sheet": "Tabela Peixes Atual",
+      "row": 83,
+      "commercialName": "OSCAR TIGRE MG",
+      "category": "Ciclídeos Americanos",
+      "normalizedName": "OSCAR TIGRE MG"
+    },
+    {
+      "id": "Tabela Peixes Atual:84",
+      "sheet": "Tabela Peixes Atual",
+      "row": 84,
+      "commercialName": "OSCAR TIGRE MOSAICO",
+      "category": "Ciclídeos Americanos",
+      "normalizedName": "OSCAR TIGRE MOSAICO"
+    },
+    {
+      "id": "Tabela Peixes Atual:85",
+      "sheet": "Tabela Peixes Atual",
+      "row": 85,
+      "commercialName": "PAPAGAIO BLUE SAPHIRE M",
+      "category": "Ciclídeos Americanos",
+      "normalizedName": "PAPAGAIO BLUE SAPHIRE M"
+    },
+    {
+      "id": "Tabela Peixes Atual:86",
+      "sheet": "Tabela Peixes Atual",
+      "row": 86,
+      "commercialName": "PAPAGAIO TEXAS M",
+      "category": "Ciclídeos Americanos",
+      "normalizedName": "PAPAGAIO TEXAS M"
+    },
+    {
+      "id": "Tabela Peixes Atual:87",
+      "sheet": "Tabela Peixes Atual",
+      "row": 87,
+      "commercialName": "PAPAGAIO VERDE",
+      "category": "Ciclídeos Americanos",
+      "normalizedName": "PAPAGAIO VERDE"
+    },
+    {
+      "id": "Tabela Peixes Atual:88",
+      "sheet": "Tabela Peixes Atual",
+      "row": 88,
+      "commercialName": "PAPAGAIO WHITE SAPHIRE M",
+      "category": "Ciclídeos Americanos",
+      "normalizedName": "PAPAGAIO WHITE SAPHIRE M"
+    },
+    {
+      "id": "Tabela Peixes Atual:89",
+      "sheet": "Tabela Peixes Atual",
+      "row": 89,
+      "commercialName": "PAPILOCROMIS",
+      "category": "Ciclídeos Americanos",
+      "normalizedName": "PAPILOCROMIS"
+    },
+    {
+      "id": "Tabela Peixes Atual:90",
+      "sheet": "Tabela Peixes Atual",
+      "row": 90,
+      "commercialName": "RAMIREZI AZUL",
+      "category": "Ciclídeos Americanos",
+      "normalizedName": "RAMIREZI AZUL"
+    },
+    {
+      "id": "Tabela Peixes Atual:91",
+      "sheet": "Tabela Peixes Atual",
+      "row": 91,
+      "commercialName": "RAMIREZI BALÃO ELECTRIC BLUE M",
+      "category": "Ciclídeos Americanos",
+      "normalizedName": "RAMIREZI BALAO ELECTRIC BLUE M"
+    },
+    {
+      "id": "Tabela Peixes Atual:92",
+      "sheet": "Tabela Peixes Atual",
+      "row": 92,
+      "commercialName": "RAMIREZI BALÃO OURO VEL M",
+      "category": "Ciclídeos Americanos",
+      "normalizedName": "RAMIREZI BALAO OURO VEL M"
+    },
+    {
+      "id": "Tabela Peixes Atual:93",
+      "sheet": "Tabela Peixes Atual",
+      "row": 93,
+      "commercialName": "RAMIREZI ELECTRIC BLUE M",
+      "category": "Ciclídeos Americanos",
+      "normalizedName": "RAMIREZI ELECTRIC BLUE M"
+    },
+    {
+      "id": "Tabela Peixes Atual:94",
+      "sheet": "Tabela Peixes Atual",
+      "row": 94,
+      "commercialName": "RAMIREZI OURO",
+      "category": "Ciclídeos Americanos",
+      "normalizedName": "RAMIREZI OURO"
+    },
+    {
+      "id": "Tabela Peixes Atual:95",
+      "sheet": "Tabela Peixes Atual",
+      "row": 95,
+      "commercialName": "RAMIREZI OURO VEU MATRIZ",
+      "category": "Ciclídeos Americanos",
+      "normalizedName": "RAMIREZI OURO VEU MATRIZ"
+    },
+    {
+      "id": "Tabela Peixes Atual:96",
+      "sheet": "Tabela Peixes Atual",
+      "row": 96,
+      "commercialName": "CARAMUJO AMARELO",
+      "category": "Invertebrados",
+      "normalizedName": "CARAMUJO AMARELO"
+    },
+    {
+      "id": "Tabela Peixes Atual:97",
+      "sheet": "Tabela Peixes Atual",
+      "row": 97,
+      "commercialName": "CARAMUJO RED RAMSHORN M",
+      "category": "Invertebrados",
+      "normalizedName": "CARAMUJO RED RAMSHORN M"
+    },
+    {
+      "id": "Tabela Peixes Atual:98",
+      "sheet": "Tabela Peixes Atual",
+      "row": 98,
+      "commercialName": "CURBÍCULA AMARELA",
+      "category": "Invertebrados",
+      "normalizedName": "CURBICULA AMARELA"
+    },
+    {
+      "id": "Tabela Peixes Atual:99",
+      "sheet": "Tabela Peixes Atual",
+      "row": 99,
+      "commercialName": "CURBÍCULA PRETA",
+      "category": "Invertebrados",
+      "normalizedName": "CURBICULA PRETA"
+    },
+    {
+      "id": "Tabela Peixes Atual:100",
+      "sheet": "Tabela Peixes Atual",
+      "row": 100,
+      "commercialName": "NEOCARIDINA SP AMARELO SAKURA",
+      "category": "Invertebrados",
+      "normalizedName": "NEOCARIDINA SP AMARELO SAKURA"
+    },
+    {
+      "id": "Tabela Peixes Atual:101",
+      "sheet": "Tabela Peixes Atual",
+      "row": 101,
+      "commercialName": "NEOCARIDINA SP BLACK SAKURA",
+      "category": "Invertebrados",
+      "normalizedName": "NEOCARIDINA SP BLACK SAKURA"
+    },
+    {
+      "id": "Tabela Peixes Atual:102",
+      "sheet": "Tabela Peixes Atual",
+      "row": 102,
+      "commercialName": "NEOCARIDINA SP BLUE FANTASY",
+      "category": "Invertebrados",
+      "normalizedName": "NEOCARIDINA SP BLUE FANTASY"
+    },
+    {
+      "id": "Tabela Peixes Atual:103",
+      "sheet": "Tabela Peixes Atual",
+      "row": 103,
+      "commercialName": "NEOCARIDINA SP ORANGE SAKURA",
+      "category": "Invertebrados",
+      "normalizedName": "NEOCARIDINA SP ORANGE SAKURA"
+    },
+    {
+      "id": "Tabela Peixes Atual:104",
+      "sheet": "Tabela Peixes Atual",
+      "row": 104,
+      "commercialName": "NEOCARIDINA SP RED RILLI",
+      "category": "Invertebrados",
+      "normalizedName": "NEOCARIDINA SP RED RILLI"
+    },
+    {
+      "id": "Tabela Peixes Atual:105",
+      "sheet": "Tabela Peixes Atual",
+      "row": 105,
+      "commercialName": "NEOCARIDINA SP RED SAKURA",
+      "category": "Invertebrados",
+      "normalizedName": "NEOCARIDINA SP RED SAKURA"
+    },
+    {
+      "id": "Tabela Peixes Atual:106",
+      "sheet": "Tabela Peixes Atual",
+      "row": 106,
+      "commercialName": "NERITINA VIRGINEA",
+      "category": "Invertebrados",
+      "normalizedName": "NERITINA VIRGINEA"
+    },
+    {
+      "id": "Tabela Peixes Atual:107",
+      "sheet": "Tabela Peixes Atual",
+      "row": 107,
+      "commercialName": "KINGUIO BLUE SCALE M",
+      "category": "Kinguios",
+      "normalizedName": "KINGUIO BLUE SCALE M"
+    },
+    {
+      "id": "Tabela Peixes Atual:108",
+      "sheet": "Tabela Peixes Atual",
+      "row": 108,
+      "commercialName": "KINGUIO BRANCO M",
+      "category": "Kinguios",
+      "normalizedName": "KINGUIO BRANCO M"
+    },
+    {
+      "id": "Tabela Peixes Atual:109",
+      "sheet": "Tabela Peixes Atual",
+      "row": 109,
+      "commercialName": "KINGUIO BRANCO/VERM M",
+      "category": "Kinguios",
+      "normalizedName": "KINGUIO BRANCO/VERM M"
+    },
+    {
+      "id": "Tabela Peixes Atual:110",
+      "sheet": "Tabela Peixes Atual",
+      "row": 110,
+      "commercialName": "KINGUIO CALICO M",
+      "category": "Kinguios",
+      "normalizedName": "KINGUIO CALICO M"
+    },
+    {
+      "id": "Tabela Peixes Atual:111",
+      "sheet": "Tabela Peixes Atual",
+      "row": 111,
+      "commercialName": "KINGUIO CHOCOLATE M",
+      "category": "Kinguios",
+      "normalizedName": "KINGUIO CHOCOLATE M"
+    },
+    {
+      "id": "Tabela Peixes Atual:112",
+      "sheet": "Tabela Peixes Atual",
+      "row": 112,
+      "commercialName": "KINGUIO COMETA BRANCO M",
+      "category": "Kinguios",
+      "normalizedName": "KINGUIO COMETA BRANCO M"
+    },
+    {
+      "id": "Tabela Peixes Atual:113",
+      "sheet": "Tabela Peixes Atual",
+      "row": 113,
+      "commercialName": "KINGUIO COMETA BRANCO/VERM M",
+      "category": "Kinguios",
+      "normalizedName": "KINGUIO COMETA BRANCO/VERM M"
+    },
+    {
+      "id": "Tabela Peixes Atual:114",
+      "sheet": "Tabela Peixes Atual",
+      "row": 114,
+      "commercialName": "KINGUIO COMETA BRANCO/VERM P",
+      "category": "Kinguios",
+      "normalizedName": "KINGUIO COMETA BRANCO/VERM P"
+    },
+    {
+      "id": "Tabela Peixes Atual:115",
+      "sheet": "Tabela Peixes Atual",
+      "row": 115,
+      "commercialName": "KINGUIO COMETA CHOCOLATE M",
+      "category": "Kinguios",
+      "normalizedName": "KINGUIO COMETA CHOCOLATE M"
+    },
+    {
+      "id": "Tabela Peixes Atual:116",
+      "sheet": "Tabela Peixes Atual",
+      "row": 116,
+      "commercialName": "KINGUIO COMETA CÁLICO M",
+      "category": "Kinguios",
+      "normalizedName": "KINGUIO COMETA CALICO M"
+    },
+    {
+      "id": "Tabela Peixes Atual:117",
+      "sheet": "Tabela Peixes Atual",
+      "row": 117,
+      "commercialName": "KINGUIO COMETA VERMELHO M",
+      "category": "Kinguios",
+      "normalizedName": "KINGUIO COMETA VERMELHO M"
+    },
+    {
+      "id": "Tabela Peixes Atual:118",
+      "sheet": "Tabela Peixes Atual",
+      "row": 118,
+      "commercialName": "KINGUIO PEROLA M",
+      "category": "Kinguios",
+      "normalizedName": "KINGUIO PEROLA M"
+    },
+    {
+      "id": "Tabela Peixes Atual:119",
+      "sheet": "Tabela Peixes Atual",
+      "row": 119,
+      "commercialName": "KINGUIO RED CAP M",
+      "category": "Kinguios",
+      "normalizedName": "KINGUIO RED CAP M"
+    },
+    {
+      "id": "Tabela Peixes Atual:120",
+      "sheet": "Tabela Peixes Atual",
+      "row": 120,
+      "commercialName": "KINGUIO VERMELHO M",
+      "category": "Kinguios",
+      "normalizedName": "KINGUIO VERMELHO M"
+    },
+    {
+      "id": "Tabela Peixes Atual:121",
+      "sheet": "Tabela Peixes Atual",
+      "row": 121,
+      "commercialName": "TELESCOPIO VERMELHO M",
+      "category": "Kinguios",
+      "normalizedName": "TELESCOPIO VERMELHO M"
+    },
+    {
+      "id": "Tabela Peixes Atual:122",
+      "sheet": "Tabela Peixes Atual",
+      "row": 122,
+      "commercialName": "TELESCÓPIO BRANCO M",
+      "category": "Kinguios",
+      "normalizedName": "TELESCOPIO BRANCO M"
+    },
+    {
+      "id": "Tabela Peixes Atual:123",
+      "sheet": "Tabela Peixes Atual",
+      "row": 123,
+      "commercialName": "TELESCÓPIO BRANCO/VERM M",
+      "category": "Kinguios",
+      "normalizedName": "TELESCOPIO BRANCO/VERM M"
+    },
+    {
+      "id": "Tabela Peixes Atual:124",
+      "sheet": "Tabela Peixes Atual",
+      "row": 124,
+      "commercialName": "TELESCÓPIO CÁLICO M",
+      "category": "Kinguios",
+      "normalizedName": "TELESCOPIO CALICO M"
+    },
+    {
+      "id": "Tabela Peixes Atual:125",
+      "sheet": "Tabela Peixes Atual",
+      "row": 125,
+      "commercialName": "TELESCÓPIO PRETO M",
+      "category": "Kinguios",
+      "normalizedName": "TELESCOPIO PRETO M"
+    },
+    {
+      "id": "Tabela Peixes Atual:126",
+      "sheet": "Tabela Peixes Atual",
+      "row": 126,
+      "commercialName": "COLISA AZUL",
+      "category": "Labirintídeos",
+      "normalizedName": "COLISA AZUL"
+    },
+    {
+      "id": "Tabela Peixes Atual:127",
+      "sheet": "Tabela Peixes Atual",
+      "row": 127,
+      "commercialName": "COLISA CHUNA",
+      "category": "Labirintídeos",
+      "normalizedName": "COLISA CHUNA"
+    },
+    {
+      "id": "Tabela Peixes Atual:128",
+      "sheet": "Tabela Peixes Atual",
+      "row": 128,
+      "commercialName": "COLISA LÁLIA",
+      "category": "Labirintídeos",
+      "normalizedName": "COLISA LALIA"
+    },
+    {
+      "id": "Tabela Peixes Atual:129",
+      "sheet": "Tabela Peixes Atual",
+      "row": 129,
+      "commercialName": "COLISA SANGUE",
+      "category": "Labirintídeos",
+      "normalizedName": "COLISA SANGUE"
+    },
+    {
+      "id": "Tabela Peixes Atual:130",
+      "sheet": "Tabela Peixes Atual",
+      "row": 130,
+      "commercialName": "COLISA SUNSET",
+      "category": "Labirintídeos",
+      "normalizedName": "COLISA SUNSET"
+    },
+    {
+      "id": "Tabela Peixes Atual:131",
+      "sheet": "Tabela Peixes Atual",
+      "row": 131,
+      "commercialName": "PEIXE PARAISO ALBINO",
+      "category": "Labirintídeos",
+      "normalizedName": "PEIXE PARAISO ALBINO"
+    },
+    {
+      "id": "Tabela Peixes Atual:132",
+      "sheet": "Tabela Peixes Atual",
+      "row": 132,
+      "commercialName": "PEIXE PARAISO COBRE",
+      "category": "Labirintídeos",
+      "normalizedName": "PEIXE PARAISO COBRE"
+    },
+    {
+      "id": "Tabela Peixes Atual:133",
+      "sheet": "Tabela Peixes Atual",
+      "row": 133,
+      "commercialName": "PEIXE PARAISO COMUM",
+      "category": "Labirintídeos",
+      "normalizedName": "PEIXE PARAISO COMUM"
+    },
+    {
+      "id": "Tabela Peixes Atual:134",
+      "sheet": "Tabela Peixes Atual",
+      "row": 134,
+      "commercialName": "TRICOGASTER AZUL",
+      "category": "Labirintídeos",
+      "normalizedName": "TRICOGASTER AZUL"
+    },
+    {
+      "id": "Tabela Peixes Atual:135",
+      "sheet": "Tabela Peixes Atual",
+      "row": 135,
+      "commercialName": "TRICOGASTER LERY",
+      "category": "Labirintídeos",
+      "normalizedName": "TRICOGASTER LERY"
+    },
+    {
+      "id": "Tabela Peixes Atual:136",
+      "sheet": "Tabela Peixes Atual",
+      "row": 136,
+      "commercialName": "TRICOGASTER OURO",
+      "category": "Labirintídeos",
+      "normalizedName": "TRICOGASTER OURO"
+    },
+    {
+      "id": "Tabela Peixes Atual:137",
+      "sheet": "Tabela Peixes Atual",
+      "row": 137,
+      "commercialName": "ALGA EATER ALBINO",
+      "category": "Limpadores",
+      "normalizedName": "ALGA EATER ALBINO"
+    },
+    {
+      "id": "Tabela Peixes Atual:138",
+      "sheet": "Tabela Peixes Atual",
+      "row": 138,
+      "commercialName": "ALGA EATER COMUM",
+      "category": "Limpadores",
+      "normalizedName": "ALGA EATER COMUM"
+    },
+    {
+      "id": "Tabela Peixes Atual:139",
+      "sheet": "Tabela Peixes Atual",
+      "row": 139,
+      "commercialName": "CORIDORA ALBINA",
+      "category": "Limpadores",
+      "normalizedName": "CORIDORA ALBINA"
+    },
+    {
+      "id": "Tabela Peixes Atual:140",
+      "sheet": "Tabela Peixes Atual",
+      "row": 140,
+      "commercialName": "CORRIDORA  SHAWRTZ",
+      "category": "Limpadores",
+      "normalizedName": "CORRIDORA SHAWRTZ"
+    },
+    {
+      "id": "Tabela Peixes Atual:141",
+      "sheet": "Tabela Peixes Atual",
+      "row": 141,
+      "commercialName": "CORRIDORA NATARELLI",
+      "category": "Limpadores",
+      "normalizedName": "CORRIDORA NATARELLI"
+    },
+    {
+      "id": "Tabela Peixes Atual:142",
+      "sheet": "Tabela Peixes Atual",
+      "row": 142,
+      "commercialName": "LIMPA VIDRO",
+      "category": "Limpadores",
+      "normalizedName": "LIMPA VIDRO"
+    },
+    {
+      "id": "Tabela Peixes Atual:143",
+      "sheet": "Tabela Peixes Atual",
+      "row": 143,
+      "commercialName": "SYNODONTIS EUPTERUS",
+      "category": "Peixes Africanos de Fundo",
+      "normalizedName": "SYNODONTIS EUPTERUS"
+    },
+    {
+      "id": "Tabela Peixes Atual:144",
+      "sheet": "Tabela Peixes Atual",
+      "row": 144,
+      "commercialName": "SYNODONTIS PETRICOLA",
+      "category": "Peixes Africanos de Fundo",
+      "normalizedName": "SYNODONTIS PETRICOLA"
+    },
+    {
+      "id": "Tabela Peixes Atual:145",
+      "sheet": "Tabela Peixes Atual",
+      "row": 145,
+      "commercialName": "MELANOTAENIA NEON",
+      "category": "Peixes Arco-íris",
+      "normalizedName": "MELANOTAENIA NEON"
+    },
+    {
+      "id": "Tabela Peixes Atual:146",
+      "sheet": "Tabela Peixes Atual",
+      "row": 146,
+      "commercialName": "PANGASIUS ALBINO",
+      "category": "Peixes de Grande Porte",
+      "normalizedName": "PANGASIUS ALBINO"
+    },
+    {
+      "id": "Tabela Peixes Atual:147",
+      "sheet": "Tabela Peixes Atual",
+      "row": 147,
+      "commercialName": "PANGASIUS PRETO",
+      "category": "Peixes de Grande Porte",
+      "normalizedName": "PANGASIUS PRETO"
+    },
+    {
+      "id": "Tabela Peixes Atual:148",
+      "sheet": "Tabela Peixes Atual",
+      "row": 148,
+      "commercialName": "PINTADO",
+      "category": "Peixes de Grande Porte",
+      "normalizedName": "PINTADO"
+    },
+    {
+      "id": "Tabela Peixes Atual:149",
+      "sheet": "Tabela Peixes Atual",
+      "row": 149,
+      "commercialName": "PIRARARA",
+      "category": "Peixes de Grande Porte",
+      "normalizedName": "PIRARARA"
+    },
+    {
+      "id": "Tabela Peixes Atual:150",
+      "sheet": "Tabela Peixes Atual",
+      "row": 150,
+      "commercialName": "TILAPIA",
+      "category": "Peixes de Grande Porte",
+      "normalizedName": "TILAPIA"
+    },
+    {
+      "id": "Tabela Peixes Atual:151",
+      "sheet": "Tabela Peixes Atual",
+      "row": 151,
+      "commercialName": "TILAPIA SAINT PITER",
+      "category": "Peixes de Grande Porte",
+      "normalizedName": "TILAPIA SAINT PITER"
+    },
+    {
+      "id": "Tabela Peixes Atual:152",
+      "sheet": "Tabela Peixes Atual",
+      "row": 152,
+      "commercialName": "AMAZONENSE  (PLANTA VIVA)",
+      "category": "Plantas Low Tech",
+      "normalizedName": "AMAZONENSE (PLANTA VIVA)"
+    },
+    {
+      "id": "Tabela Peixes Atual:153",
+      "sheet": "Tabela Peixes Atual",
+      "row": 153,
+      "commercialName": "CABOMBA MAÇO  (PLANTA VIVA)",
+      "category": "Plantas Low Tech",
+      "normalizedName": "CABOMBA MACO (PLANTA VIVA)"
+    },
+    {
+      "id": "Tabela Peixes Atual:154",
+      "sheet": "Tabela Peixes Atual",
+      "row": 154,
+      "commercialName": "CAMBOJA",
+      "category": "Plantas Low Tech",
+      "normalizedName": "CAMBOJA"
+    },
+    {
+      "id": "Tabela Peixes Atual:155",
+      "sheet": "Tabela Peixes Atual",
+      "row": 155,
+      "commercialName": "ELODEA  (PLANTA VIVA)",
+      "category": "Plantas Low Tech",
+      "normalizedName": "ELODEA (PLANTA VIVA)"
+    },
+    {
+      "id": "Tabela Peixes Atual:156",
+      "sheet": "Tabela Peixes Atual",
+      "row": 156,
+      "commercialName": "PLANTA ANÚBIA LANCEOLATA (NO TRONCO)",
+      "category": "Plantas Low Tech",
+      "normalizedName": "PLANTA ANUBIA LANCEOLATA (NO TRONCO)"
+    },
+    {
+      "id": "Tabela Peixes Atual:157",
+      "sheet": "Tabela Peixes Atual",
+      "row": 157,
+      "commercialName": "PLANTA CERATOPTERIS THALITROIDES CORNUTA",
+      "category": "Plantas Low Tech",
+      "normalizedName": "PLANTA CERATOPTERIS THALITROIDES CORNUTA"
+    },
+    {
+      "id": "Tabela Peixes Atual:158",
+      "sheet": "Tabela Peixes Atual",
+      "row": 158,
+      "commercialName": "PLANTA CRYPTOCORYNE BROWN",
+      "category": "Plantas Low Tech",
+      "normalizedName": "PLANTA CRYPTOCORYNE BROWN"
+    },
+    {
+      "id": "Tabela Peixes Atual:159",
+      "sheet": "Tabela Peixes Atual",
+      "row": 159,
+      "commercialName": "PLANTA ECHINODORUS GRANDE FLORUS",
+      "category": "Plantas Low Tech",
+      "normalizedName": "PLANTA ECHINODORUS GRANDE FLORUS"
+    },
+    {
+      "id": "Tabela Peixes Atual:160",
+      "sheet": "Tabela Peixes Atual",
+      "row": 160,
+      "commercialName": "PLANTA HYGRÓPHILA POLYSPERMA",
+      "category": "Plantas Low Tech",
+      "normalizedName": "PLANTA HYGROPHILA POLYSPERMA"
+    },
+    {
+      "id": "Tabela Peixes Atual:161",
+      "sheet": "Tabela Peixes Atual",
+      "row": 161,
+      "commercialName": "PLANTA LANCEOLATA ANUBIA BARTERI",
+      "category": "Plantas Low Tech",
+      "normalizedName": "PLANTA LANCEOLATA ANUBIA BARTERI"
+    },
+    {
+      "id": "Tabela Peixes Atual:162",
+      "sheet": "Tabela Peixes Atual",
+      "row": 162,
+      "commercialName": "PLANTA MICROSSORIUM",
+      "category": "Plantas Low Tech",
+      "normalizedName": "PLANTA MICROSSORIUM"
+    },
+    {
+      "id": "Tabela Peixes Atual:163",
+      "sheet": "Tabela Peixes Atual",
+      "row": 163,
+      "commercialName": "PLANTA MICROSSORIUM NO TRONCO",
+      "category": "Plantas Low Tech",
+      "normalizedName": "PLANTA MICROSSORIUM NO TRONCO"
+    },
+    {
+      "id": "Tabela Peixes Atual:164",
+      "sheet": "Tabela Peixes Atual",
+      "row": 164,
+      "commercialName": "PLANTA MUDA DE ANUBIA GLABA S/ TRONCO",
+      "category": "Plantas Low Tech",
+      "normalizedName": "PLANTA MUDA DE ANUBIA GLABA S/ TRONCO"
+    },
+    {
+      "id": "Tabela Peixes Atual:165",
+      "sheet": "Tabela Peixes Atual",
+      "row": 165,
+      "commercialName": "PLANTA MUDA DE ANUBIA NO TRONCO GLABA",
+      "category": "Plantas Low Tech",
+      "normalizedName": "PLANTA MUDA DE ANUBIA NO TRONCO GLABA"
+    },
+    {
+      "id": "Tabela Peixes Atual:166",
+      "sheet": "Tabela Peixes Atual",
+      "row": 166,
+      "commercialName": "PLANTA MUDA DE ANUBIA NO TRONCO NANA",
+      "category": "Plantas Low Tech",
+      "normalizedName": "PLANTA MUDA DE ANUBIA NO TRONCO NANA"
+    },
+    {
+      "id": "Tabela Peixes Atual:167",
+      "sheet": "Tabela Peixes Atual",
+      "row": 167,
+      "commercialName": "PLANTA MUSGO DE JAVA",
+      "category": "Plantas Low Tech",
+      "normalizedName": "PLANTA MUSGO DE JAVA"
+    },
+    {
+      "id": "Tabela Peixes Atual:168",
+      "sheet": "Tabela Peixes Atual",
+      "row": 168,
+      "commercialName": "PLANTA MUSGO DE JAVA NO TRONCO",
+      "category": "Plantas Low Tech",
+      "normalizedName": "PLANTA MUSGO DE JAVA NO TRONCO"
+    },
+    {
+      "id": "Tabela Peixes Atual:169",
+      "sheet": "Tabela Peixes Atual",
+      "row": 169,
+      "commercialName": "PLANTA PLANTA BRASILIENSE",
+      "category": "Plantas Low Tech",
+      "normalizedName": "PLANTA PLANTA BRASILIENSE"
+    },
+    {
+      "id": "Tabela Peixes Atual:170",
+      "sheet": "Tabela Peixes Atual",
+      "row": 170,
+      "commercialName": "PLANTA VALLISNERIA SPIRALIS (MUDA)",
+      "category": "Plantas Low Tech",
+      "normalizedName": "PLANTA VALLISNERIA SPIRALIS (MUDA)"
+    },
+    {
+      "id": "Tabela Peixes Atual:171",
+      "sheet": "Tabela Peixes Atual",
+      "row": 171,
+      "commercialName": "PLANTA VIOLACEA",
+      "category": "Plantas Low Tech",
+      "normalizedName": "PLANTA VIOLACEA"
+    },
+    {
+      "id": "Tabela Peixes Atual:172",
+      "sheet": "Tabela Peixes Atual",
+      "row": 172,
+      "commercialName": "ROTALA (PLANTA VIVA)",
+      "category": "Plantas Low Tech",
+      "normalizedName": "ROTALA (PLANTA VIVA)"
+    },
+    {
+      "id": "Tabela Peixes Atual:173",
+      "sheet": "Tabela Peixes Atual",
+      "row": 173,
+      "commercialName": "VALLISNERIA GIGANTE",
+      "category": "Plantas Low Tech",
+      "normalizedName": "VALLISNERIA GIGANTE"
+    },
+    {
+      "id": "Tabela Peixes Atual:174",
+      "sheet": "Tabela Peixes Atual",
+      "row": 174,
+      "commercialName": "ESPADA ANANAS (AMARELO E BRANCO)",
+      "category": "Poecilídeos",
+      "normalizedName": "ESPADA ANANAS (AMARELO E BRANCO)"
+    },
+    {
+      "id": "Tabela Peixes Atual:175",
+      "sheet": "Tabela Peixes Atual",
+      "row": 175,
+      "commercialName": "ESPADA KOHAKU (VERMELHO E BRANCO)",
+      "category": "Poecilídeos",
+      "normalizedName": "ESPADA KOHAKU (VERMELHO E BRANCO)"
+    },
+    {
+      "id": "Tabela Peixes Atual:176",
+      "sheet": "Tabela Peixes Atual",
+      "row": 176,
+      "commercialName": "ESPADA KOI (VERMELHO, PRETO E BRANCO)",
+      "category": "Poecilídeos",
+      "normalizedName": "ESPADA KOI (VERMELHO, PRETO E BRANCO)"
+    },
+    {
+      "id": "Tabela Peixes Atual:177",
+      "sheet": "Tabela Peixes Atual",
+      "row": 177,
+      "commercialName": "ESPADA MARLERY (AMARELO)",
+      "category": "Poecilídeos",
+      "normalizedName": "ESPADA MARLERY (AMARELO)"
+    },
+    {
+      "id": "Tabela Peixes Atual:178",
+      "sheet": "Tabela Peixes Atual",
+      "row": 178,
+      "commercialName": "ESPADA SANGUE/DOMINÓ (VERMELHO E PRETO)",
+      "category": "Poecilídeos",
+      "normalizedName": "ESPADA SANGUE/DOMINO (VERMELHO E PRETO)"
+    },
+    {
+      "id": "Tabela Peixes Atual:179",
+      "sheet": "Tabela Peixes Atual",
+      "row": 179,
+      "commercialName": "ESPADA VERDE",
+      "category": "Poecilídeos",
+      "normalizedName": "ESPADA VERDE"
+    },
+    {
+      "id": "Tabela Peixes Atual:180",
+      "sheet": "Tabela Peixes Atual",
+      "row": 180,
+      "commercialName": "LEBISTE A CASAL",
+      "category": "Poecilídeos",
+      "normalizedName": "LEBISTE A CASAL"
+    },
+    {
+      "id": "Tabela Peixes Atual:181",
+      "sheet": "Tabela Peixes Atual",
+      "row": 181,
+      "commercialName": "LEBISTE FÊMEA",
+      "category": "Poecilídeos",
+      "normalizedName": "LEBISTE FEMEA"
+    },
+    {
+      "id": "Tabela Peixes Atual:182",
+      "sheet": "Tabela Peixes Atual",
+      "row": 182,
+      "commercialName": "LEBISTE MACHO",
+      "category": "Poecilídeos",
+      "normalizedName": "LEBISTE MACHO"
+    },
+    {
+      "id": "Tabela Peixes Atual:183",
+      "sheet": "Tabela Peixes Atual",
+      "row": 183,
+      "commercialName": "MOLINESIA ALBINA",
+      "category": "Poecilídeos",
+      "normalizedName": "MOLINESIA ALBINA"
+    },
+    {
+      "id": "Tabela Peixes Atual:184",
+      "sheet": "Tabela Peixes Atual",
+      "row": 184,
+      "commercialName": "MOLINÉSIA BALÃO PRATA",
+      "category": "Poecilídeos",
+      "normalizedName": "MOLINESIA BALAO PRATA"
+    },
+    {
+      "id": "Tabela Peixes Atual:185",
+      "sheet": "Tabela Peixes Atual",
+      "row": 185,
+      "commercialName": "MOLINÉSIA BALÃO PRETA",
+      "category": "Poecilídeos",
+      "normalizedName": "MOLINESIA BALAO PRETA"
+    },
+    {
+      "id": "Tabela Peixes Atual:186",
+      "sheet": "Tabela Peixes Atual",
+      "row": 186,
+      "commercialName": "MOLINÉSIA DÁLMATA",
+      "category": "Poecilídeos",
+      "normalizedName": "MOLINESIA DALMATA"
+    },
+    {
+      "id": "Tabela Peixes Atual:187",
+      "sheet": "Tabela Peixes Atual",
+      "row": 187,
+      "commercialName": "MOLINÉSIA GOLD/BLACK",
+      "category": "Poecilídeos",
+      "normalizedName": "MOLINESIA GOLD/BLACK"
+    },
+    {
+      "id": "Tabela Peixes Atual:188",
+      "sheet": "Tabela Peixes Atual",
+      "row": 188,
+      "commercialName": "MOLINÉSIA PRATA",
+      "category": "Poecilídeos",
+      "normalizedName": "MOLINESIA PRATA"
+    },
+    {
+      "id": "Tabela Peixes Atual:189",
+      "sheet": "Tabela Peixes Atual",
+      "row": 189,
+      "commercialName": "MOLINÉSIA PRETA",
+      "category": "Poecilídeos",
+      "normalizedName": "MOLINESIA PRETA"
+    },
+    {
+      "id": "Tabela Peixes Atual:190",
+      "sheet": "Tabela Peixes Atual",
+      "row": 190,
+      "commercialName": "MOLINÉSIA SPHENOPS",
+      "category": "Poecilídeos",
+      "normalizedName": "MOLINESIA SPHENOPS"
+    },
+    {
+      "id": "Tabela Peixes Atual:191",
+      "sheet": "Tabela Peixes Atual",
+      "row": 191,
+      "commercialName": "MOLINÉSIA TANGERINA",
+      "category": "Poecilídeos",
+      "normalizedName": "MOLINESIA TANGERINA"
+    },
+    {
+      "id": "Tabela Peixes Atual:192",
+      "sheet": "Tabela Peixes Atual",
+      "row": 192,
+      "commercialName": "MOLINÉSIA TIGRE",
+      "category": "Poecilídeos",
+      "normalizedName": "MOLINESIA TIGRE"
+    },
+    {
+      "id": "Tabela Peixes Atual:193",
+      "sheet": "Tabela Peixes Atual",
+      "row": 193,
+      "commercialName": "PLATY ABELINHA",
+      "category": "Poecilídeos",
+      "normalizedName": "PLATY ABELINHA"
+    },
+    {
+      "id": "Tabela Peixes Atual:194",
+      "sheet": "Tabela Peixes Atual",
+      "row": 194,
+      "commercialName": "PLATY AZUL",
+      "category": "Poecilídeos",
+      "normalizedName": "PLATY AZUL"
+    },
+    {
+      "id": "Tabela Peixes Atual:195",
+      "sheet": "Tabela Peixes Atual",
+      "row": 195,
+      "commercialName": "PLATY DOMINÓ",
+      "category": "Poecilídeos",
+      "normalizedName": "PLATY DOMINO"
+    },
+    {
+      "id": "Tabela Peixes Atual:196",
+      "sheet": "Tabela Peixes Atual",
+      "row": 196,
+      "commercialName": "PLATY HAWAII",
+      "category": "Poecilídeos",
+      "normalizedName": "PLATY HAWAII"
+    },
+    {
+      "id": "Tabela Peixes Atual:197",
+      "sheet": "Tabela Peixes Atual",
+      "row": 197,
+      "commercialName": "PLATY TRICOLOR",
+      "category": "Poecilídeos",
+      "normalizedName": "PLATY TRICOLOR"
+    },
+    {
+      "id": "Tabela Peixes Atual:198",
+      "sheet": "Tabela Peixes Atual",
+      "row": 198,
+      "commercialName": "PLATY VARIADO",
+      "category": "Poecilídeos",
+      "normalizedName": "PLATY VARIADO"
+    },
+    {
+      "id": "Tabela Peixes Atual:199",
+      "sheet": "Tabela Peixes Atual",
+      "row": 199,
+      "commercialName": "CRUZEIRO DO SUL",
+      "category": "Tetras e Peixes de Cardume",
+      "normalizedName": "CRUZEIRO DO SUL"
+    },
+    {
+      "id": "Tabela Peixes Atual:200",
+      "sheet": "Tabela Peixes Atual",
+      "row": 200,
+      "commercialName": "LÁPIS",
+      "category": "Tetras e Peixes de Cardume",
+      "normalizedName": "LAPIS"
+    },
+    {
+      "id": "Tabela Peixes Atual:201",
+      "sheet": "Tabela Peixes Atual",
+      "row": 201,
+      "commercialName": "MATO GROSSO VÉU",
+      "category": "Tetras e Peixes de Cardume",
+      "normalizedName": "MATO GROSSO VEU"
+    },
+    {
+      "id": "Tabela Peixes Atual:202",
+      "sheet": "Tabela Peixes Atual",
+      "row": 202,
+      "commercialName": "MOCINHA",
+      "category": "Tetras e Peixes de Cardume",
+      "normalizedName": "MOCINHA"
+    },
+    {
+      "id": "Tabela Peixes Atual:203",
+      "sheet": "Tabela Peixes Atual",
+      "row": 203,
+      "commercialName": "OLHO DE FOGO BALÃO",
+      "category": "Tetras e Peixes de Cardume",
+      "normalizedName": "OLHO DE FOGO BALAO"
+    },
+    {
+      "id": "Tabela Peixes Atual:204",
+      "sheet": "Tabela Peixes Atual",
+      "row": 204,
+      "commercialName": "TETRA  LIMÃO",
+      "category": "Tetras e Peixes de Cardume",
+      "normalizedName": "TETRA LIMAO"
+    },
+    {
+      "id": "Tabela Peixes Atual:205",
+      "sheet": "Tabela Peixes Atual",
+      "row": 205,
+      "commercialName": "TETRA ENFERMEIRINHA",
+      "category": "Tetras e Peixes de Cardume",
+      "normalizedName": "TETRA ENFERMEIRINHA"
+    },
+    {
+      "id": "Tabela Peixes Atual:206",
+      "sheet": "Tabela Peixes Atual",
+      "row": 206,
+      "commercialName": "TETRA FOGUINHO",
+      "category": "Tetras e Peixes de Cardume",
+      "normalizedName": "TETRA FOGUINHO"
+    },
+    {
+      "id": "Tabela Peixes Atual:207",
+      "sheet": "Tabela Peixes Atual",
+      "row": 207,
+      "commercialName": "TETRA FORTUNA",
+      "category": "Tetras e Peixes de Cardume",
+      "normalizedName": "TETRA FORTUNA"
+    },
+    {
+      "id": "Tabela Peixes Atual:208",
+      "sheet": "Tabela Peixes Atual",
+      "row": 208,
+      "commercialName": "TETRA GROWLIGHT",
+      "category": "Tetras e Peixes de Cardume",
+      "normalizedName": "TETRA GROWLIGHT"
+    },
+    {
+      "id": "Tabela Peixes Atual:209",
+      "sheet": "Tabela Peixes Atual",
+      "row": 209,
+      "commercialName": "TETRA MATO GROSSO",
+      "category": "Tetras e Peixes de Cardume",
+      "normalizedName": "TETRA MATO GROSSO"
+    },
+    {
+      "id": "Tabela Peixes Atual:210",
+      "sheet": "Tabela Peixes Atual",
+      "row": 210,
+      "commercialName": "TETRA NEGRO",
+      "category": "Tetras e Peixes de Cardume",
+      "normalizedName": "TETRA NEGRO"
+    },
+    {
+      "id": "Tabela Peixes Atual:211",
+      "sheet": "Tabela Peixes Atual",
+      "row": 211,
+      "commercialName": "TETRA NEON CARDINAL",
+      "category": "Tetras e Peixes de Cardume",
+      "normalizedName": "TETRA NEON CARDINAL"
+    },
+    {
+      "id": "Tabela Peixes Atual:212",
+      "sheet": "Tabela Peixes Atual",
+      "row": 212,
+      "commercialName": "TETRA NEON NEGRO",
+      "category": "Tetras e Peixes de Cardume",
+      "normalizedName": "TETRA NEON NEGRO"
+    },
+    {
+      "id": "Tabela Peixes Atual:213",
+      "sheet": "Tabela Peixes Atual",
+      "row": 213,
+      "commercialName": "TETRA OLHO DE FOGO BALÃO",
+      "category": "Tetras e Peixes de Cardume",
+      "normalizedName": "TETRA OLHO DE FOGO BALAO"
+    },
+    {
+      "id": "Tabela Peixes Atual:214",
+      "sheet": "Tabela Peixes Atual",
+      "row": 214,
+      "commercialName": "TETRA PINGUIM",
+      "category": "Tetras e Peixes de Cardume",
+      "normalizedName": "TETRA PINGUIM"
+    },
+    {
+      "id": "Tabela Peixes Atual:215",
+      "sheet": "Tabela Peixes Atual",
+      "row": 215,
+      "commercialName": "TETRA PRISTEL GOLD",
+      "category": "Tetras e Peixes de Cardume",
+      "normalizedName": "TETRA PRISTEL GOLD"
+    },
+    {
+      "id": "Tabela Peixes Atual:216",
+      "sheet": "Tabela Peixes Atual",
+      "row": 216,
+      "commercialName": "TETRA RODÓSTOMO",
+      "category": "Tetras e Peixes de Cardume",
+      "normalizedName": "TETRA RODOSTOMO"
+    },
+    {
+      "id": "Tabela Peixes Atual:217",
+      "sheet": "Tabela Peixes Atual",
+      "row": 217,
+      "commercialName": "TETRA VIDRO",
+      "category": "Tetras e Peixes de Cardume",
+      "normalizedName": "TETRA VIDRO"
+    }
+  ]
+}
