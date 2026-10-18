@@ -1,0 +1,186 @@
+---
+import SpeciesLayout from "../../layouts/SpeciesLayout.astro";
+import SpeciesPhoto from "../../components/species/SpeciesPhoto.astro";
+import {
+  species,
+  categories,
+  scientificLabel,
+  isPublishable,
+} from "../../data/species";
+import { speciesInquiry, canonicalUrl } from "../../config/site";
+const allReviewed = species.every(isPublishable);
+---
+
+<SpeciesLayout
+  title="Espécies | Catálogo Uberpeixes Ornamentais"
+  description="Explore os cinco primeiros registros do catálogo de espécies da Uberpeixes. Pesquise por nome, filtre por categoria e consulte nossa equipe pelo WhatsApp."
+  path="/especies/"
+  draft={!allReviewed}
+  structuredData={[
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Início",
+          item: canonicalUrl("/"),
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Espécies",
+          item: canonicalUrl("/especies/"),
+        },
+      ],
+    },
+  ]}
+>
+  <nav class="breadcrumbs" aria-label="Caminho de navegação">
+    <a href="/">Início</a>
+    <span aria-hidden="true">/</span>
+    <span aria-current="page">Espécies</span>
+  </nav>
+  <section class="catalog-intro">
+    <p class="eyebrow">CONHEÇA NOSSO UNIVERSO</p>
+    <h1>
+      Uma espécie, <em>muitas descobertas.</em>
+    </h1>
+    <p>
+      Explore os registros da loja e converse com nossa equipe para consultar
+      valor e disponibilidade.
+    </p>
+  </section>
+  {!allReviewed && (
+    <aside class="catalog-notice" aria-label="Status do catálogo">
+      <strong>Protótipo em validação</strong>
+      <p>
+        Cinco registros selecionados para revisão da loja, com fontes
+        científicas e fotografias licenciadas. As fichas indicam dúvidas e dados
+        não documentados. Consulte a equipe para confirmar identificação, valor
+        e disponibilidade.
+      </p>
+    </aside>
+  )}
+  <form class="catalog-filters" data-catalog-filters role="search" hidden>
+    <div>
+      <label for="species-search">Pesquisar por nome</label>
+      <input
+        type="search"
+        id="species-search"
+        name="q"
+        placeholder="Nome popular, comercial ou científico"
+        autocomplete="off"
+      />
+    </div>
+    <div>
+      <label for="species-category">Categoria da planilha</label>
+      <select id="species-category" name="categoria">
+        <option value="">Todas as categorias</option>
+        {categories.map((category) => (
+          <option value={category}>{category}</option>
+        ))}
+      </select>
+    </div>
+    <button type="reset" class="catalog-clear">
+      Limpar filtros
+    </button>
+  </form>
+  <noscript>
+    <p>
+      As cinco fichas estão disponíveis abaixo. Ative o JavaScript para
+      pesquisar e filtrar.
+    </p>
+  </noscript>
+  <p
+    class="catalog-result"
+    role="status"
+    aria-live="polite"
+    data-catalog-result
+  >
+    {species.length} animais no protótipo
+  </p>
+  <div class="species-grid">
+    {species.map((animal) => (
+      <article
+        class="species-card"
+        data-species-card
+        data-search={`${animal.name} ${animal.commercialName} ${scientificLabel(animal)}`}
+        data-category={animal.category}
+      >
+        <SpeciesPhoto animal={animal} />
+        <div class="species-card-body">
+          <span class="species-category">{animal.category}</span>
+          <h2>
+            <a href={`/especies/${animal.slug}/`}>{animal.name}</a>
+          </h2>
+          <p class="scientific-name">
+            <i>{scientificLabel(animal)}</i>
+          </p>
+          <p>{animal.description}</p>
+          <div class="species-card-actions">
+            <a class="button" href={`/especies/${animal.slug}/`}>
+              Ver ficha completa
+            </a>
+            <a
+              class="catalog-whatsapp"
+              href={speciesInquiry(animal.name, animal.scientificName)}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Consultar no WhatsApp
+            </a>
+          </div>
+        </div>
+      </article>
+    ))}
+  </div>
+  <p class="catalog-empty" data-catalog-empty hidden>
+    Nenhum animal encontrado. Tente outro nome ou limpe os filtros.
+  </p>
+</SpeciesLayout>
+<script>
+  const form = document.querySelector<HTMLFormElement>(
+    "[data-catalog-filters]",
+  );
+  const search = document.querySelector<HTMLInputElement>("#species-search");
+  const category =
+    document.querySelector<HTMLSelectElement>("#species-category");
+  const cards = [
+    ...document.querySelectorAll<HTMLElement>("[data-species-card]"),
+  ];
+  const result = document.querySelector<HTMLElement>("[data-catalog-result]");
+  const empty = document.querySelector<HTMLElement>("[data-catalog-empty]");
+  const normalize = (value: string) =>
+    value
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLocaleLowerCase("pt-BR")
+      .trim();
+  if (form && search && category && result && empty) {
+    const update = () => {
+      const query = normalize(search.value);
+      let count = 0;
+      for (const card of cards) {
+        const matches =
+          normalize(card.dataset.search ?? "").includes(query) &&
+          (!category.value || card.dataset.category === category.value);
+        card.hidden = !matches;
+        if (matches) count++;
+      }
+      result.textContent = `${count} ${count === 1 ? "animal encontrado" : "animais encontrados"}`;
+      empty.hidden = count > 0;
+    };
+    form.hidden = false;
+    form.addEventListener("submit", (event) => event.preventDefault());
+    search.addEventListener("input", update);
+    category.addEventListener("change", update);
+    form.addEventListener("reset", () => {
+      search.value = "";
+      category.value = "";
+      update();
+    });
+    update();
+  }
+</script>

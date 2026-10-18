@@ -1,0 +1,63 @@
+[
+  {
+    "slug": "neon-chines",
+    "src": "/images/species/neon-chines.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Fêmea de Tanichthys albonubes, com faixa lateral clara e cauda avermelhada, em aquário",
+    "author": "Ethmostigmus",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:White_Cloud_Mountain_minnow_(Tanichthys_albonubes)_captive_adult_female.jpg",
+    "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  {
+    "slug": "peixe-agulhinha",
+    "src": "/images/species/agulhinha-prata.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Dermogenys pusilla prateada junto à superfície, com a mandíbula inferior alongada e seu reflexo",
+    "author": "Kacper Aleksander",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dermogenys_pusill.jpg",
+    "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  {
+    "slug": "barbus-cereja",
+    "src": "/images/species/barbus-cereja.webp",
+    "width": 960,
+    "height": 574,
+    "alt": "Macho de Rohanella titteya com coloração vermelha, diante da vegetação de um aquário",
+    "author": "Brian Gratwicke",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cherry_barb,_Puntius_titteya.jpg",
+    "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  {
+    "slug": "barbus-cereja-veu",
+    "src": "/images/species/barbus-cereja.webp",
+    "width": 960,
+    "height": 574,
+    "alt": "Rohanella titteya de nadadeiras comuns; fotografia da espécie-base, não da variedade véu",
+    "author": "Brian Gratwicke",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cherry_barb,_Puntius_titteya.jpg",
+    "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo.",
+    "note": "Foto representativa da espécie-base, com nadadeiras comuns. Não ilustra a variedade véu; fotografia específica da variedade permanece pendente."
+  },
+  {
+    "slug": "barbus-denizoni",
+    "src": "/images/species/barbus-denizoni.webp",
+    "width": 960,
+    "height": 501,
+    "alt": "Dawkinsia denisonii em aquário, com faixa lateral preta e vermelha e marcações na cauda",
+    "author": "Stan Shebs",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Puntius_denisonii_1.jpg",
+    "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo."
+  }
+]

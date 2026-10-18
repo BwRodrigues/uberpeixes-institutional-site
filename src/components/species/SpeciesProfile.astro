@@ -1,0 +1,225 @@
+---
+import SpeciesLayout from "../../layouts/SpeciesLayout.astro";
+import SpeciesPhoto from "./SpeciesPhoto.astro";
+import { profileSections, type Species } from "../../data/species-schema";
+import { species, scientificLabel, isPublishable } from "../../data/species";
+import { canonicalUrl, speciesInquiry } from "../../config/site";
+interface Props {
+  animal: Species;
+}
+const { animal } = Astro.props;
+const path = `/especies/${animal.slug}/`;
+const inquiry = speciesInquiry(animal.name, animal.scientificName);
+const reviewed = isPublishable(animal);
+const related = species.filter((other) =>
+  animal.relatedSlugs.includes(other.slug),
+);
+const structuredData: unknown[] = [
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Início",
+        item: canonicalUrl("/"),
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Espécies",
+        item: canonicalUrl("/especies/"),
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: animal.name,
+        item: canonicalUrl(path),
+      },
+    ],
+  },
+];
+if (
+  animal.references.length &&
+  animal.sections.some((section) => section.fields.length)
+)
+  structuredData.push({
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: `${animal.name} — ${scientificLabel(animal)}`,
+    description: animal.description,
+    image: animal.photo ? canonicalUrl(animal.photo.src) : undefined,
+    mainEntityOfPage: canonicalUrl(path),
+  });
+---
+
+<SpeciesLayout
+  title={`${animal.name} (${scientificLabel(animal)}) | Uberpeixes`}
+  description={animal.description}
+  path={path}
+  draft={!reviewed}
+  image={animal.photo?.src}
+  structuredData={structuredData}
+>
+  <nav class="breadcrumbs" aria-label="Caminho de navegação">
+    <a href="/">Início</a>
+    <span aria-hidden="true">/</span>
+    <a href="/especies/">Espécies</a>
+    <span aria-hidden="true">/</span>
+    <span aria-current="page">{animal.name}</span>
+  </nav>
+  <section class="species-hero">
+    <div>
+      <p class="eyebrow">{animal.category}</p>
+      <h1>{animal.name}</h1>
+      <p class="scientific-name">
+        <i>{scientificLabel(animal)}</i>
+      </p>
+      <p class="commercial-name">
+        Nome comercial original: <strong>{animal.commercialName}</strong>
+      </p>
+      <p>{animal.description}</p>
+      <a
+        class="button"
+        href={inquiry}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Consultar no WhatsApp
+      </a>
+      <a class="back-link" href="/especies/">
+        Voltar ao catálogo
+      </a>
+    </div>
+    <SpeciesPhoto animal={animal} eager />
+  </section>
+  {!reviewed && (
+    <aside class="catalog-notice">
+      <strong>Ficha do protótipo — revisão da loja pendente</strong>
+      <p>{animal.identificationNote}</p>
+      <p>
+        As faixas de manutenção são orientativas e estão ligadas às respectivas
+        fontes. Dados não documentados e divergências são indicados em cada
+        seção. As fotos representam a espécie e não comprovam estoque ou
+        disponibilidade.
+      </p>
+    </aside>
+  )}
+  <div class="profile-layout">
+    <nav class="profile-index" aria-label="Seções da ficha">
+      <strong>Nesta ficha</strong>
+      <ul>
+        {profileSections.map((section) => (
+          <li>
+            <a href={`#${section.id}`}>{section.title}</a>
+          </li>
+        ))}
+        <li>
+          <a href="#referencias">Referências bibliográficas</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="profile-sections">
+      {profileSections.map((definition) => {
+        const data = animal.sections.find(
+          (section) => section.id === definition.id,
+        );
+        return (
+          <details
+            class="profile-section"
+            id={definition.id}
+            open={
+              Boolean(data?.fields.length) &&
+              ["apresentacao", "agua", "criacao"].includes(definition.id)
+            }
+          >
+            <summary>
+              <h2>{definition.title}</h2>
+              {!data?.fields.length && <span>A confirmar</span>}
+            </summary>
+            {data?.fields.length ? (
+              <dl>
+                {data.fields.map((field) => (
+                  <div>
+                    <dt>{field.label}</dt>
+                    <dd>
+                      {field.value}
+                      <span class="field-references">
+                        {field.referenceIds.map((id) => (
+                          <a href={`#fonte-${id}`}>[{id}]</a>
+                        ))}
+                      </span>
+                    </dd>
+                  </div>
+                ))}
+              </dl>
+            ) : (
+              <>
+                <p>
+                  {data?.pending ?? "Dados não disponíveis para este animal."}
+                </p>
+                <p class="coverage-label">Campos previstos nesta seção:</p>
+                <ul class="pending-fields">
+                  {definition.fields.map((label) => (
+                    <li>{label}</li>
+                  ))}
+                </ul>
+              </>
+            )}
+          </details>
+        );
+      })}
+      <section id="referencias" class="profile-references">
+        <h2>Referências bibliográficas</h2>
+        {animal.references.length ? (
+          <ol>
+            {animal.references.map((reference) => (
+              <li id={`fonte-${reference.id}`}>
+                {reference.author && <span>{reference.author}. </span>}
+                <a
+                  href={reference.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {reference.title}
+                </a>
+                {reference.year && <span> ({reference.year})</span>}
+                <small>Consultado em {reference.accessedAt}.</small>
+              </li>
+            ))}
+          </ol>
+        ) : (
+          <p>
+            As fontes científicas ainda não foram verificadas. A planilha foi
+            usada apenas para selecionar e preservar os registros comerciais;
+            ela não fundamenta recomendações biológicas.
+          </p>
+        )}
+        <p class="source-note">
+          Seleção: {animal.source.workbook}, aba “{animal.source.sheet}”, linha{" "}
+          {animal.source.row}. Preços e demais valores comerciais não foram
+          importados.
+        </p>
+      </section>
+      {related.length > 0 && (
+        <section class="profile-related">
+          <h2>Veja também</h2>
+          <ul>
+            {related.map((other) => (
+              <li>
+                <a href={`/especies/${other.slug}/`}>{other.name}</a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+    </div>
+  </div>
+  <aside class="species-inquiry">
+    <span>Dúvidas sobre {animal.name}?</span>
+    <a class="button" href={inquiry} target="_blank" rel="noopener noreferrer">
+      Consultar no WhatsApp
+    </a>
+  </aside>
+</SpeciesLayout>

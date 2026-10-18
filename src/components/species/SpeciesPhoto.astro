@@ -1,0 +1,52 @@
+---
+import type { Species } from "../../data/species-schema";
+interface Props {
+  animal: Species;
+  eager?: boolean;
+}
+const { animal, eager = false } = Astro.props;
+---
+
+{animal.photo ? (
+  <figure class="species-photo">
+    <img
+      src={animal.photo.src}
+      alt={animal.photo.alt}
+      width={animal.photo.width}
+      height={animal.photo.height}
+      loading={eager ? "eager" : "lazy"}
+      decoding="async"
+    />
+    <figcaption>
+      Foto: {animal.photo.author} ·{" "}
+      <a
+        href={animal.photo.sourceUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Origem
+      </a>{" "}
+      ·{" "}
+      <a
+        href={animal.photo.licenseUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {animal.photo.license}
+      </a>
+      <span class="photo-changes">{animal.photo.changes}</span>
+      {animal.photo.note && (
+        <strong class="photo-note">{animal.photo.note}</strong>
+      )}
+    </figcaption>
+  </figure>
+) : (
+  <div
+    class="species-photo-pending"
+    role="img"
+    aria-label={`Fotografia autorizada de ${animal.name} pendente`}
+  >
+    <span>Fotografia autorizada pendente</span>
+    <small>{animal.name}</small>
+  </div>
+)}
