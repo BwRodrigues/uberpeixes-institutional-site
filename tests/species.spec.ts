@@ -42,6 +42,8 @@ test("homepage menu opens exactly five pilot records without overflow", async ({
     .getByRole("link", { name: "Espécies", exact: true })
     .click();
   await expect(page).toHaveURL(/\/especies\/$/);
+  // A clicked navigation may commit before its styles have finished loading.
+  await page.waitForLoadState("load");
   await expect(page.locator("[data-species-card]")).toHaveCount(5);
   await expect(
     page.getByText("Protótipo em validação", { exact: true }),

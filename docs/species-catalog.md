@@ -76,4 +76,8 @@ Isso não aprova os dados: `status: "draft"`, ressalvas científicas permanentes
 
 A loja confirmou o nome **Barbo Conchônio Cereja Véu — Pethia conchonius**. Todos os campos biológicos desse registro foram pesquisados novamente para essa espécie. O slug `/especies/barbus-cereja-veu/` foi mantido para não quebrar links já compartilhados; SEO, título, nome científico e mensagem de WhatsApp usam a identificação corrigida.
 
-A foto antiga de Rohanella foi substituída por uma foto real licenciada de Pethia conchonius (Kkonstan, CC BY 3.0). A fotografia exata enviada na conversa/Kauar continua pendente: a imagem incorporada não foi disponibilizada como arquivo no workspace e o proxy bloqueia o domínio da loja de referência. Não se atribuiu à imagem da Kauar a licença de outra fotografia. Para substituí-la exatamente, é necessário disponibilizar seu arquivo original ou liberar o domínio para a consulta.
+A foto antiga de Rohanella foi substituída por uma foto real licenciada de Pethia conchonius (Kkonstan, CC BY 3.0). A página da Kauar foi consultada e confirmou o nome. A fotografia exata enviada na conversa/Kauar continua pendente: o arquivo está no CDN `images.tcdn.com.br`, ainda bloqueado pelo proxy deste ambiente. O domínio foi salvo no rascunho de configuração. Não se atribuiu à imagem da Kauar a licença de outra fotografia. Para substituí-la exatamente, é necessário disponibilizar seu arquivo original ou aplicar o acesso ao CDN nas configurações do ambiente.
+
+## Conferência do deploy atualizado
+
+O Cloudflare confirmou o deploy do commit `f4d6cb0`, e o endereço navegável da branch respondeu HTTP 200 sem autenticação. Deploy imutável dessa revisão: https://84e7811d.uberpeixes-institutional-site.pages.dev/especies/ . Os 12 testes do catálogo passaram no preview público, em desktop de 1440 px e celulares de 375/320 px; o link da branch acima acompanha os commits seguintes. Essa verificação é independente das capturas PNG.
