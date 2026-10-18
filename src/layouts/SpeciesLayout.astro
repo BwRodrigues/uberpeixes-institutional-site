@@ -2,6 +2,7 @@
 import "../styles/global.css";
 import "../styles/species.css";
 import Brand from "../components/Brand.astro";
+import SiteFooter from "../components/SiteFooter.astro";
 import Aquarium from "../components/aquarium/Aquarium.astro";
 import { WHATSAPP_URL, canonicalUrl } from "../config/site";
 interface Props {
@@ -90,20 +91,6 @@ const canonical = canonicalUrl(path);
     <main id="conteudo" class="wrap catalog-main">
       <slot />
     </main>
-    <footer class="wrap catalog-footer">
-      <a class="brand" href="/" aria-label="Uberpeixes Ornamentais — início">
-        <Brand loading="lazy" />
-      </a>
-      <p>Desenvolvido por Brendow Rodrigues</p>
-      <button
-        type="button"
-        class="aquarium-toggle"
-        data-aquarium-toggle
-        aria-pressed="false"
-        hidden
-      >
-        Pausar movimento do aquário
-      </button>
-    </footer>
+    <SiteFooter catalog />
   </body>
 </html>
