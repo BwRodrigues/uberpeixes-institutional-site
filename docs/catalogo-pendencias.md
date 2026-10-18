@@ -8,9 +8,9 @@ Relatório gerado por `python3 scripts/catalog/audit_catalog.py --write`. Não c
 - Registros comerciais recebidos: **212** (incluem plantas e variedades, não equivalem a espécies biológicas).
 - Abas inspecionadas: **3**; duas abas de instruções não contêm registros de catálogo e não foram executadas.
 - Espécies já existentes preservadas: **5**.
-- Novas fichas geradas: **24**; total de fichas navegáveis: **29**.
-- Registros comerciais incorporados como variedades/aliases de fichas novas, sem URL adicional: **33**.
-- Registros ignorados ou pendentes: **150**.
+- Novas fichas geradas: **34**; total de fichas navegáveis: **39**.
+- Registros comerciais incorporados como variedades/aliases de fichas novas, sem URL adicional: **44**.
+- Registros ignorados ou pendentes: **129**.
 - Grupos científicos candidatos: **53**; **52** têm nome aceito verificado no Catalog of Fishes. Essa contagem não resolve a identidade dos demais nomes comerciais; o total biológico final da planilha continua indeterminado.
 
 ## Abas
@@ -26,6 +26,7 @@ Relatório gerado por `python3 scripts/catalog/audit_catalog.py --write`. Não c
 - `lote-01`: pethia-gelius, barbodes-semifasciolatus, puntigrus-tetrazona, danio-rerio. Validação: build, integridade e testes do lote aprovados.
 - `lote-02`: betta-splendens, misgurnus-anguillicaudatus, aulonocara-stuartgranti, melanochromis-auratus, labidochromis-caeruleus, maylandia-lombardoi, chindongo-socolofi, nimbochromis-venustus, maylandia-estherae, pterophyllum-scalare. Validação: build, integridade e testes do lote aprovados.
 - `lote-03`: thorichthys-meeki, andinoacara-rivulatus, acarichthys-heckelii, astronotus-ocellatus, mikrogeophagus-ramirezi, trichogaster-chuna, macropodus-opercularis, trichopodus-trichopterus, trichopodus-leerii, gyrinocheilus-aymonieri. Validação: build, integridade e testes do lote aprovados.
+- `lote-04`: hoplisoma-schwartzi, pangasianodon-hypophthalmus, phractocephalus-hemioliopterus, xiphophorus-hellerii, poecilia-reticulata, poecilia-sphenops, megalamphodus-eques, bario-sanctaefilomenae, hyphessobrycon-pulchripinnis, pristella-maxillaris. Validação: build, integridade e testes do lote aprovados.
 
 ## Fichas novas concluídas
 
@@ -55,6 +56,16 @@ Relatório gerado por `python3 scripts/catalog/audit_catalog.py --write`. Não c
 | Tricogáster-azul | *Trichopodus trichopterus* | Labirintídeos | `/especies/trichopodus-trichopterus/` |
 | Tricogáster-leeri | *Trichopodus leerii* | Labirintídeos | `/especies/trichopodus-leerii/` |
 | Comedor-de-algas-chinês | *Gyrinocheilus aymonieri* | Limpadores | `/especies/gyrinocheilus-aymonieri/` |
+| Coridora-schwartzi | *Hoplisoma schwartzi* | Limpadores | `/especies/hoplisoma-schwartzi/` |
+| Pangasius | *Pangasianodon hypophthalmus* | Peixes de Grande Porte | `/especies/pangasianodon-hypophthalmus/` |
+| Pirarara | *Phractocephalus hemioliopterus* | Peixes de Grande Porte | `/especies/phractocephalus-hemioliopterus/` |
+| Espada | *Xiphophorus hellerii* | Poecilídeos | `/especies/xiphophorus-hellerii/` |
+| Lebiste | *Poecilia reticulata* | Poecilídeos | `/especies/poecilia-reticulata/` |
+| Molinésia-sphenops | *Poecilia sphenops* | Poecilídeos | `/especies/poecilia-sphenops/` |
+| Tetra-mato-grosso | *Megalamphodus eques* | Tetras e Peixes de Cardume | `/especies/megalamphodus-eques/` |
+| Tetra-olho-de-fogo | *Bario sanctaefilomenae* | Tetras e Peixes de Cardume | `/especies/bario-sanctaefilomenae/` |
+| Tetra-limão | *Hyphessobrycon pulchripinnis* | Tetras e Peixes de Cardume | `/especies/hyphessobrycon-pulchripinnis/` |
+| Tetra-pristela | *Pristella maxillaris* | Tetras e Peixes de Cardume | `/especies/pristella-maxillaris/` |
 
 ## Duplicidades comerciais consolidadas
 
@@ -95,6 +106,17 @@ O agrupamento é uma decisão explícita por espécie, não uma deduplicação p
 | 133 | PEIXE PARAISO COMUM | *Macropodus opercularis* |
 | 136 | TRICOGASTER OURO | *Trichopodus trichopterus* |
 | 138 | ALGA EATER COMUM | *Gyrinocheilus aymonieri* |
+| 147 | PANGASIUS PRETO | *Pangasianodon hypophthalmus* |
+| 175 | ESPADA KOHAKU (VERMELHO E BRANCO) | *Xiphophorus hellerii* |
+| 176 | ESPADA KOI (VERMELHO, PRETO E BRANCO) | *Xiphophorus hellerii* |
+| 177 | ESPADA MARLERY (AMARELO) | *Xiphophorus hellerii* |
+| 178 | ESPADA SANGUE/DOMINÓ (VERMELHO E PRETO) | *Xiphophorus hellerii* |
+| 179 | ESPADA VERDE | *Xiphophorus hellerii* |
+| 181 | LEBISTE FÊMEA | *Poecilia reticulata* |
+| 182 | LEBISTE MACHO | *Poecilia reticulata* |
+| 209 | TETRA MATO GROSSO | *Megalamphodus eques* |
+| 213 | TETRA OLHO DE FOGO BALÃO | *Bario sanctaefilomenae* |
+| 215 | TETRA PRISTEL GOLD | *Pristella maxillaris* |
 
 ## Pendências nominais: todos os registros para a próxima etapa
 
@@ -172,16 +194,12 @@ O agrupamento é uma decisão explícita por espécie, não uma deduplicação p
 | 129 | Labirintídeos | COLISA SANGUE | Trichogaster lalius | Catalog of Fishes trata Trichogaster lalius como sinônimo de T. fasciata; revisar o estudo e identidade comercial antes de atribuir cuidados a outro nome. Não foram selecionadas três fotografias reais distintas com licença comercial adequada. |
 | 130 | Labirintídeos | COLISA SUNSET | Não confirmada | Colisa sunset pode indicar linhagens de Trichogaster chuna ou T. lalius; fornecedor deve confirmar. |
 | 139 | Limpadores | CORIDORA ALBINA | Não confirmada | Cascudo/coridora albina/limpa-vidro: nome não permite determinar espécie; solicitar identificação e foto do fornecedor. |
-| 140 | Limpadores | CORRIDORA  SHAWRTZ | Hoplisoma schwartzi | Revisão editorial pendente. |
 | 141 | Limpadores | CORRIDORA NATARELLI | Hoplisoma nattereri | Conteúdo de manutenção ainda não aprovado para geração; revisar divergências e recomendações específicas. Não foram selecionadas três fotografias reais distintas com licença comercial adequada. |
 | 142 | Limpadores | LIMPA VIDRO | Não confirmada | Cascudo/coridora albina/limpa-vidro: nome não permite determinar espécie; solicitar identificação e foto do fornecedor. |
 | 143 | Peixes Africanos de Fundo | SYNODONTIS EUPTERUS | Synodontis eupterus | Conteúdo de manutenção ainda não aprovado para geração; revisar divergências e recomendações específicas. Não foram selecionadas três fotografias reais distintas com licença comercial adequada. Mínimo histórico de 108 L não contextualiza adequadamente porte de até 30 cm; buscar recomendação melhor fundamentada. |
 | 144 | Peixes Africanos de Fundo | SYNODONTIS PETRICOLA | Synodontis petricola | Conteúdo de manutenção ainda não aprovado para geração; revisar divergências e recomendações específicas. Não foram selecionadas três fotografias reais distintas com licença comercial adequada. Fonte mistura a antiga forma anã com S. petricola; revisar distinção de S. lucipinnis e reprodução. |
 | 145 | Peixes Arco-íris | MELANOTAENIA NEON | Melanotaenia praecox | Há apenas duas relações geográficas internas confirmadas na Indonésia. Uma terceira sugestão exige nova evidência de origem ou avaliação específica de convivência; não completar a grade por inferência. |
-| 146 | Peixes de Grande Porte | PANGASIUS ALBINO | Pangasianodon hypophthalmus | Revisão editorial pendente. |
-| 147 | Peixes de Grande Porte | PANGASIUS PRETO | Pangasianodon hypophthalmus | Revisão editorial pendente. |
 | 148 | Peixes de Grande Porte | PINTADO | Não confirmada | Nome comercial inclui diferentes espécies ou híbridos de grande porte; confirmar identificação e procedência. |
-| 149 | Peixes de Grande Porte | PIRARARA | Phractocephalus hemioliopterus | Revisão editorial pendente. |
 | 150 | Peixes de Grande Porte | TILAPIA | Não confirmada | Nome comercial inclui diferentes espécies ou híbridos de grande porte; confirmar identificação e procedência. |
 | 151 | Peixes de Grande Porte | TILAPIA SAINT PITER | Não confirmada | Nome comercial inclui diferentes espécies ou híbridos de grande porte; confirmar identificação e procedência. |
 | 152 | Plantas Low Tech | AMAZONENSE  (PLANTA VIVA) | Não confirmada | Planta aquática: requer identificação botânica e template de cultivo; não preencher ficha animal com parâmetros incompatíveis. |
@@ -206,15 +224,6 @@ O agrupamento é uma decisão explícita por espécie, não uma deduplicação p
 | 171 | Plantas Low Tech | PLANTA VIOLACEA | Não confirmada | Planta aquática: requer identificação botânica e template de cultivo; não preencher ficha animal com parâmetros incompatíveis. |
 | 172 | Plantas Low Tech | ROTALA (PLANTA VIVA) | Não confirmada | Planta aquática: requer identificação botânica e template de cultivo; não preencher ficha animal com parâmetros incompatíveis. |
 | 173 | Plantas Low Tech | VALLISNERIA GIGANTE | Não confirmada | Planta aquática: requer identificação botânica e template de cultivo; não preencher ficha animal com parâmetros incompatíveis. |
-| 174 | Poecilídeos | ESPADA ANANAS (AMARELO E BRANCO) | Xiphophorus hellerii | Revisão editorial pendente. |
-| 175 | Poecilídeos | ESPADA KOHAKU (VERMELHO E BRANCO) | Xiphophorus hellerii | Revisão editorial pendente. |
-| 176 | Poecilídeos | ESPADA KOI (VERMELHO, PRETO E BRANCO) | Xiphophorus hellerii | Revisão editorial pendente. |
-| 177 | Poecilídeos | ESPADA MARLERY (AMARELO) | Xiphophorus hellerii | Revisão editorial pendente. |
-| 178 | Poecilídeos | ESPADA SANGUE/DOMINÓ (VERMELHO E PRETO) | Xiphophorus hellerii | Revisão editorial pendente. |
-| 179 | Poecilídeos | ESPADA VERDE | Xiphophorus hellerii | Revisão editorial pendente. |
-| 180 | Poecilídeos | LEBISTE A CASAL | Poecilia reticulata | Revisão editorial pendente. |
-| 181 | Poecilídeos | LEBISTE FÊMEA | Poecilia reticulata | Revisão editorial pendente. |
-| 182 | Poecilídeos | LEBISTE MACHO | Poecilia reticulata | Revisão editorial pendente. |
 | 183 | Poecilídeos | MOLINESIA ALBINA | Não confirmada | Molinésia ornamental pode envolver Poecilia sphenops, P. latipinna, P. velifera e híbridos; nome de cor não resolve espécie. |
 | 184 | Poecilídeos | MOLINÉSIA BALÃO PRATA | Não confirmada | Molinésia ornamental pode envolver Poecilia sphenops, P. latipinna, P. velifera e híbridos; nome de cor não resolve espécie. |
 | 185 | Poecilídeos | MOLINÉSIA BALÃO PRETA | Não confirmada | Molinésia ornamental pode envolver Poecilia sphenops, P. latipinna, P. velifera e híbridos; nome de cor não resolve espécie. |
@@ -222,7 +231,6 @@ O agrupamento é uma decisão explícita por espécie, não uma deduplicação p
 | 187 | Poecilídeos | MOLINÉSIA GOLD/BLACK | Não confirmada | Molinésia ornamental pode envolver Poecilia sphenops, P. latipinna, P. velifera e híbridos; nome de cor não resolve espécie. |
 | 188 | Poecilídeos | MOLINÉSIA PRATA | Não confirmada | Molinésia ornamental pode envolver Poecilia sphenops, P. latipinna, P. velifera e híbridos; nome de cor não resolve espécie. |
 | 189 | Poecilídeos | MOLINÉSIA PRETA | Não confirmada | Molinésia ornamental pode envolver Poecilia sphenops, P. latipinna, P. velifera e híbridos; nome de cor não resolve espécie. |
-| 190 | Poecilídeos | MOLINÉSIA SPHENOPS | Poecilia sphenops | Revisão editorial pendente. |
 | 191 | Poecilídeos | MOLINÉSIA TANGERINA | Não confirmada | Molinésia ornamental pode envolver Poecilia sphenops, P. latipinna, P. velifera e híbridos; nome de cor não resolve espécie. |
 | 192 | Poecilídeos | MOLINÉSIA TIGRE | Não confirmada | Molinésia ornamental pode envolver Poecilia sphenops, P. latipinna, P. velifera e híbridos; nome de cor não resolve espécie. |
 | 193 | Poecilídeos | PLATY ABELINHA | Não confirmada | Platy: confirmar Xiphophorus maculatus, X. variatus ou linhagem híbrida, sem inferir pela cor. |
@@ -233,21 +241,14 @@ O agrupamento é uma decisão explícita por espécie, não uma deduplicação p
 | 198 | Poecilídeos | PLATY VARIADO | Não confirmada | Platy: confirmar Xiphophorus maculatus, X. variatus ou linhagem híbrida, sem inferir pela cor. |
 | 199 | Tetras e Peixes de Cardume | CRUZEIRO DO SUL | Não confirmada | Cruzeiro-do-sul: verificar identificação e revisão taxonômica de Hyphessobrycon/Psalidodon anisitsi. |
 | 200 | Tetras e Peixes de Cardume | LÁPIS | Não confirmada | Peixe-lápis: nome abrange diversas espécies de Nannostomus; confirmar espécie. |
-| 201 | Tetras e Peixes de Cardume | MATO GROSSO VÉU | Megalamphodus eques | Revisão editorial pendente. |
 | 202 | Tetras e Peixes de Cardume | MOCINHA | Não confirmada | Mocinha: nome regional não resolve espécie; confirmar Characidium ou outro gênero. |
-| 203 | Tetras e Peixes de Cardume | OLHO DE FOGO BALÃO | Bario sanctaefilomenae | Revisão editorial pendente. |
-| 204 | Tetras e Peixes de Cardume | TETRA  LIMÃO | Hyphessobrycon pulchripinnis | Revisão editorial pendente. |
-| 205 | Tetras e Peixes de Cardume | TETRA ENFERMEIRINHA | Pristella maxillaris | Revisão editorial pendente. |
 | 206 | Tetras e Peixes de Cardume | TETRA FOGUINHO | Hyphessobrycon amandae | Revisão editorial pendente. |
 | 207 | Tetras e Peixes de Cardume | TETRA FORTUNA | Não confirmada | Tetra fortuna: identificação científica não comprovada por nome comercial. |
 | 208 | Tetras e Peixes de Cardume | TETRA GROWLIGHT | Hemigrammus erythrozonus | Revisão editorial pendente. |
-| 209 | Tetras e Peixes de Cardume | TETRA MATO GROSSO | Megalamphodus eques | Revisão editorial pendente. |
 | 210 | Tetras e Peixes de Cardume | TETRA NEGRO | Gymnocorymbus ternetzi | Revisão editorial pendente. |
 | 211 | Tetras e Peixes de Cardume | TETRA NEON CARDINAL | Paracheirodon axelrodi | Revisão editorial pendente. |
 | 212 | Tetras e Peixes de Cardume | TETRA NEON NEGRO | Hyphessobrycon herbertaxelrodi | Revisão editorial pendente. |
-| 213 | Tetras e Peixes de Cardume | TETRA OLHO DE FOGO BALÃO | Bario sanctaefilomenae | Revisão editorial pendente. |
 | 214 | Tetras e Peixes de Cardume | TETRA PINGUIM | Thayeria boehlkei | Revisão editorial pendente. |
-| 215 | Tetras e Peixes de Cardume | TETRA PRISTEL GOLD | Pristella maxillaris | Revisão editorial pendente. |
 | 216 | Tetras e Peixes de Cardume | TETRA RODÓSTOMO | Não confirmada | Rodóstomo: distinguir Petitella rhodostoma, P. bleheri e P. georgiae; não atribuir foto ou cuidados à espécie errada. |
 | 217 | Tetras e Peixes de Cardume | TETRA VIDRO | Prionobrama filigera | Não foram selecionadas três fotografias reais distintas com licença comercial adequada. |
 

@@ -40,5 +40,21 @@
       "gyrinocheilus-aymonieri"
     ],
     "validation": "build, integridade e testes do lote aprovados"
+  },
+  {
+    "id": "lote-04",
+    "species": [
+      "hoplisoma-schwartzi",
+      "pangasianodon-hypophthalmus",
+      "phractocephalus-hemioliopterus",
+      "xiphophorus-hellerii",
+      "poecilia-reticulata",
+      "poecilia-sphenops",
+      "megalamphodus-eques",
+      "bario-sanctaefilomenae",
+      "hyphessobrycon-pulchripinnis",
+      "pristella-maxillaris"
+    ],
+    "validation": "build, integridade e testes do lote aprovados"
   }
 ]

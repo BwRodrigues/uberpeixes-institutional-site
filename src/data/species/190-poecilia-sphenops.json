@@ -1,0 +1,349 @@
+{
+  "slug": "poecilia-sphenops",
+  "name": "Molinésia-sphenops",
+  "commercialName": "MOLINÉSIA SPHENOPS",
+  "category": "Poecilídeos",
+  "source": {
+    "workbook": "VAREJO PEIXES NICHOS.xlsx",
+    "sheet": "Tabela Peixes Atual",
+    "row": 190,
+    "niche": "Poecilídeos"
+  },
+  "sortOrder": 190,
+  "scientificName": "Poecilia sphenops",
+  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "description": "A molinésia-sphenops precisa de água rica em minerais. Sua ficha reúne as necessidades da espécie sem atribuir automaticamente todas as molinésias coloridas ao mesmo táxon.",
+  "photo": {
+    "src": "/images/species/poecilia-sphenops-1.webp",
+    "width": 960,
+    "height": 446,
+    "alt": "Fotografia representativa de Poecilia sphenops; imagem de referência da espécie, sem indicação de estoque.",
+    "author": "Zakqary Roy",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Poecilia_sphenops_390223153.jpg",
+    "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  "additionalPhotos": [
+    {
+      "src": "/images/species/poecilia-sphenops-2.webp",
+      "width": 960,
+      "height": 498,
+      "alt": "Fotografia representativa de Poecilia sphenops; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "(c) James-LaFontaine, some rights reserved (CC BY)",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Poecilia_sphenops,_Florida,_US_imported_from_iNaturalist_photo_487744119.jpeg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    },
+    {
+      "src": "/images/species/poecilia-sphenops-3.webp",
+      "width": 960,
+      "height": 720,
+      "alt": "Fotografia representativa de Poecilia sphenops; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "James-LaFontaine",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Poecilia_sphenops_487984346.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ],
+  "sections": [
+    {
+      "id": "apresentacao",
+      "fields": [
+        {
+          "label": "Outros nomes populares",
+          "value": "MOLINÉSIA SPHENOPS",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Identificação científica",
+          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Introdução",
+          "value": "A molinésia-sphenops precisa de água rica em minerais. Sua ficha reúne as necessidades da espécie sem atribuir automaticamente todas as molinésias coloridas ao mesmo táxon.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "classificacao",
+      "fields": [
+        {
+          "label": "Reino",
+          "value": "Animalia",
+          "referenceIds": [
+            "gbif"
+          ]
+        },
+        {
+          "label": "Filo",
+          "value": "Chordata",
+          "referenceIds": [
+            "gbif"
+          ]
+        },
+        {
+          "label": "Classe",
+          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "referenceIds": [
+            "class"
+          ]
+        },
+        {
+          "label": "Ordem",
+          "value": "Cyprinodontiformes",
+          "referenceIds": [
+            "class"
+          ]
+        },
+        {
+          "label": "Família",
+          "value": "Poeciliidae",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Gênero",
+          "value": "Poecilia",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Espécie",
+          "value": "Poecilia sphenops",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Autoridade taxonômica",
+          "value": "Valenciennes 1846",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Sinônimos científicos",
+          "value": "Literatura de manutenção consultada sob Poecilia sphenops; o nome aceito adotado é Poecilia sphenops. Consultar o histórico nomenclatural completo na referência taxonômica.",
+          "referenceIds": [
+            "cof",
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Continente e países",
+          "value": "América do Norte e América Central: vertente atlântica do sul do México, El Salvador, Honduras e Nicarágua, conforme a delimitação atual do Catalog of Fishes. A fonte de manutenção apresenta uma distribuição histórica mais ampla; não confundir registros introduzidos com origem nativa.",
+          "referenceIds": [
+            "care",
+            "cof"
+          ]
+        },
+        {
+          "label": "Ambiente natural",
+          "value": "A ficha de manutenção consultada não detalha um micro-habitat único que represente toda a distribuição; não presumir exigência de água salobra.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Tamanho adulto",
+          "value": "80 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Machos são menores e possuem gonopódio; fêmeas são mais robustas.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "21–28 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "7.0–8.5; não interpretar os extremos como metas a alternar.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "GH",
+          "value": "15–30 °dGH.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "KH",
+          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Substrato e decoração",
+          "value": "Aquário plantado com água moderadamente dura a dura e pH básico. Sal não substitui cálcio e magnésio nem corrige a água mole.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "Base de 90 × 30 × 30 cm, aproximadamente 81 L na fonte. Considerar grupo adulto, reprodução e manutenção; ampliar espaço para população crescente.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Manutenção específica",
+          "value": "Aquário plantado com água moderadamente dura a dura e pH básico. Sal não substitui cálcio e magnésio nem corrige a água mole.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Alimentos adequados",
+          "value": "Onívora, com importante componente vegetal. Usar ração apropriada, algas ou vegetais adequados e variedade alimentar.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Comportamento social",
+          "value": "Pacífica, mas os companheiros devem tolerar a mesma água dura e alcalina. Machos perseguem fêmeas; fornecer refúgios e observar o grupo.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Tipo de reprodução",
+          "value": "Vivípara. A fonte recomenda várias fêmeas por macho e vegetação densa; adultos podem consumir filhotes.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Problemas de manutenção",
+          "value": "Aquário plantado com água moderadamente dura a dura e pH básico. Sal não substitui cálcio e magnésio nem corrige a água mole.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "fields": [
+        {
+          "label": "Curiosidades verificadas da espécie",
+          "value": "Algumas molinésias ornamentais são híbridas com Poecilia latipinna. Apenas o registro explicitamente chamado SPHENOPS foi associado a esta ficha.",
+          "referenceIds": [
+            "care",
+            "cof"
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "cof",
+      "title": "Eschmeyer’s Catalog of Fishes — Poecilia sphenops",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=32496",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "class",
+      "title": "Eschmeyer’s Catalog of Fishes — classificação por família",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "care",
+      "title": "Poecilia sphenops — manutenção e história natural",
+      "url": "https://www.seriouslyfish.com/species/poecilia-sphenops/",
+      "author": "Seriously Fish",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "gbif",
+      "title": "Poecilia sphenops — registro comparativo no GBIF",
+      "url": "https://api.gbif.org/v1/species/match?name=Poecilia%20sphenops",
+      "author": "GBIF",
+      "accessedAt": "2026-10-18"
+    }
+  ],
+  "regions": [
+    {
+      "id": "america-do-norte",
+      "label": "América do Norte",
+      "scale": "continent",
+      "referenceIds": [
+        "care",
+        "cof"
+      ]
+    }
+  ],
+  "status": "draft"
+}

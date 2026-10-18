@@ -1,0 +1,349 @@
+{
+  "slug": "xiphophorus-hellerii",
+  "name": "Espada",
+  "commercialName": "ESPADA ANANAS (AMARELO E BRANCO)",
+  "category": "Poecilídeos",
+  "source": {
+    "workbook": "VAREJO PEIXES NICHOS.xlsx",
+    "sheet": "Tabela Peixes Atual",
+    "row": 174,
+    "niche": "Poecilídeos"
+  },
+  "sortOrder": 174,
+  "scientificName": "Xiphophorus hellerii",
+  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "description": "O espada é um nadador ativo, e o prolongamento da cauda dos machos inspira seu nome. Cores ornamentais diferentes são reunidas em uma única ficha.",
+  "photo": {
+    "src": "/images/species/xiphophorus-hellerii-1.webp",
+    "width": 960,
+    "height": 493,
+    "alt": "Fotografia representativa de Xiphophorus hellerii; imagem de referência da espécie, sem indicação de estoque.",
+    "author": "Corydoras-adolfoi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:DSC_0690_-_Edited.jpg",
+    "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  "additionalPhotos": [
+    {
+      "src": "/images/species/xiphophorus-hellerii-2.webp",
+      "width": 960,
+      "height": 537,
+      "alt": "Fotografia representativa de Xiphophorus hellerii; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Adam G. Stern",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pair_of_Red_Wag_Swordtails.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    },
+    {
+      "src": "/images/species/xiphophorus-hellerii-3.webp",
+      "width": 960,
+      "height": 411,
+      "alt": "Fotografia representativa de Xiphophorus hellerii; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "User:Pharaoh Hound",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swordtail_cultivar.JPG",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ],
+  "sections": [
+    {
+      "id": "apresentacao",
+      "fields": [
+        {
+          "label": "Outros nomes populares",
+          "value": "ESPADA ANANAS (AMARELO E BRANCO); ESPADA KOHAKU (VERMELHO E BRANCO); ESPADA KOI (VERMELHO, PRETO E BRANCO); ESPADA MARLERY (AMARELO); ESPADA SANGUE/DOMINÓ (VERMELHO E PRETO); ESPADA VERDE",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Identificação científica",
+          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Introdução",
+          "value": "O espada é um nadador ativo, e o prolongamento da cauda dos machos inspira seu nome. Cores ornamentais diferentes são reunidas em uma única ficha.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "classificacao",
+      "fields": [
+        {
+          "label": "Reino",
+          "value": "Animalia",
+          "referenceIds": [
+            "gbif"
+          ]
+        },
+        {
+          "label": "Filo",
+          "value": "Chordata",
+          "referenceIds": [
+            "gbif"
+          ]
+        },
+        {
+          "label": "Classe",
+          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "referenceIds": [
+            "class"
+          ]
+        },
+        {
+          "label": "Ordem",
+          "value": "Cyprinodontiformes",
+          "referenceIds": [
+            "class"
+          ]
+        },
+        {
+          "label": "Família",
+          "value": "Poeciliidae",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Gênero",
+          "value": "Xiphophorus",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Espécie",
+          "value": "Xiphophorus hellerii",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Autoridade taxonômica",
+          "value": "Heckel 1848",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Sinônimos científicos",
+          "value": "Literatura de manutenção consultada sob Xiphophorus hellerii; o nome aceito adotado é Xiphophorus hellerii. Consultar o histórico nomenclatural completo na referência taxonômica.",
+          "referenceIds": [
+            "cof",
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Continente e países",
+          "value": "América do Norte, Mesoamérica: sudeste do México, Guatemala, Belize e Honduras.",
+          "referenceIds": [
+            "care",
+            "cof"
+          ]
+        },
+        {
+          "label": "Ambiente natural",
+          "value": "Riachos, nascentes, canais, lagoas e rios; adultos podem ocupar setores de maior corrente, enquanto juvenis usam margens calmas.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Tamanho adulto",
+          "value": "140 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Machos têm gonopódio e geralmente prolongamento inferior da cauda; fêmeas tendem a ser maiores. Formas ornamentais podem ter outras nadadeiras alongadas.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "16–28 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "7.0–8.0; não interpretar os extremos como metas a alternar.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "GH",
+          "value": "10–25 °dGH.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "KH",
+          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Substrato e decoração",
+          "value": "Aquário comprido com plantas e áreas de natação; alguma movimentação de água e refúgios ajudam a distribuir o uso do espaço.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "Base mínima indicada de 120 × 30 cm, cerca de 108 L. Planejar um grupo adulto, sexo e territórios e ampliar o aquário conforme população e companheiros.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Manutenção específica",
+          "value": "Aquário comprido com plantas e áreas de natação; alguma movimentação de água e refúgios ajudam a distribuir o uso do espaço.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Alimentos adequados",
+          "value": "Onívoro: ração completa variada e pequenos complementos vivos ou congelados, com participação vegetal.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Comportamento social",
+          "value": "Machos podem estabelecer hierarquias e gastar tempo disputando posição em espaços pequenos. Considerar sexo e território ao definir o grupo.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Tipo de reprodução",
+          "value": "Fecundação interna e nascimento de filhotes vivos. Planejar espaço para a reprodução e vegetação de refúgio; não presumir sobrevivência de toda a prole.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Problemas de manutenção",
+          "value": "Aquário comprido com plantas e áreas de natação; alguma movimentação de água e refúgios ajudam a distribuir o uso do espaço.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "fields": [
+        {
+          "label": "Curiosidades verificadas da espécie",
+          "value": "A grafia correta é hellerii, com dois “i”. A fonte descreve seleção ornamental e hibridação em algumas formas; não alegar pureza de linhagem da loja.",
+          "referenceIds": [
+            "care",
+            "cof"
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "cof",
+      "title": "Eschmeyer’s Catalog of Fishes — Xiphophorus hellerii",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=13936",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "class",
+      "title": "Eschmeyer’s Catalog of Fishes — classificação por família",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "care",
+      "title": "Xiphophorus hellerii — manutenção e história natural",
+      "url": "https://www.seriouslyfish.com/species/xiphophorus-hellerii/",
+      "author": "Seriously Fish",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "gbif",
+      "title": "Xiphophorus hellerii — registro comparativo no GBIF",
+      "url": "https://api.gbif.org/v1/species/match?name=Xiphophorus%20hellerii",
+      "author": "GBIF",
+      "accessedAt": "2026-10-18"
+    }
+  ],
+  "regions": [
+    {
+      "id": "america-do-norte",
+      "label": "América do Norte",
+      "scale": "continent",
+      "referenceIds": [
+        "care",
+        "cof"
+      ]
+    }
+  ],
+  "status": "draft"
+}

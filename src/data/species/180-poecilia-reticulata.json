@@ -1,0 +1,358 @@
+{
+  "slug": "poecilia-reticulata",
+  "name": "Lebiste",
+  "commercialName": "LEBISTE A CASAL",
+  "category": "Poecilídeos",
+  "source": {
+    "workbook": "VAREJO PEIXES NICHOS.xlsx",
+    "sheet": "Tabela Peixes Atual",
+    "row": 180,
+    "niche": "Poecilídeos"
+  },
+  "sortOrder": 180,
+  "scientificName": "Poecilia reticulata",
+  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "description": "O lebiste, também chamado de guppy, reúne muitas cores em um peixe pequeno e sociável. Água com minerais adequados e planejamento da reprodução são cuidados importantes.",
+  "photo": {
+    "src": "/images/species/poecilia-reticulata-1.webp",
+    "width": 960,
+    "height": 677,
+    "alt": "Fotografia representativa de Poecilia reticulata; imagem de referência da espécie, sem indicação de estoque.",
+    "author": "Wibowo Djatmiko (Wie146)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Poecilia_reticulata_090510_0171_kdBdk.jpg",
+    "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  "additionalPhotos": [
+    {
+      "src": "/images/species/poecilia-reticulata-2.webp",
+      "width": 960,
+      "height": 634,
+      "alt": "Fotografia representativa de Poecilia reticulata; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Wibowo Djatmiko (Wie146)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Poecilia_reticulata_090510_0192_kdBdk.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    },
+    {
+      "src": "/images/species/poecilia-reticulata-3.webp",
+      "width": 960,
+      "height": 639,
+      "alt": "Fotografia representativa de Poecilia reticulata; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Biodiego88 (via iNaturalist)",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:INaturalist_Observation_188740640_Poecilia_reticulata.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ],
+  "sections": [
+    {
+      "id": "apresentacao",
+      "fields": [
+        {
+          "label": "Outros nomes populares",
+          "value": "LEBISTE A CASAL; LEBISTE FÊMEA; LEBISTE MACHO",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Identificação científica",
+          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Introdução",
+          "value": "O lebiste, também chamado de guppy, reúne muitas cores em um peixe pequeno e sociável. Água com minerais adequados e planejamento da reprodução são cuidados importantes.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "classificacao",
+      "fields": [
+        {
+          "label": "Reino",
+          "value": "Animalia",
+          "referenceIds": [
+            "gbif"
+          ]
+        },
+        {
+          "label": "Filo",
+          "value": "Chordata",
+          "referenceIds": [
+            "gbif"
+          ]
+        },
+        {
+          "label": "Classe",
+          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "referenceIds": [
+            "class"
+          ]
+        },
+        {
+          "label": "Ordem",
+          "value": "Cyprinodontiformes",
+          "referenceIds": [
+            "class"
+          ]
+        },
+        {
+          "label": "Família",
+          "value": "Poeciliidae",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Gênero",
+          "value": "Poecilia",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Espécie",
+          "value": "Poecilia reticulata",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Autoridade taxonômica",
+          "value": "Peters 1859",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Sinônimos científicos",
+          "value": "Literatura de manutenção consultada sob Poecilia reticulata; o nome aceito adotado é Poecilia reticulata. Consultar o histórico nomenclatural completo na referência taxonômica.",
+          "referenceIds": [
+            "cof",
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Continente e países",
+          "value": "América do Sul e sul do Caribe, incluindo Venezuela, Guianas e ilhas como Trinidad e Tobago; amplamente introduzido em outros países.",
+          "referenceIds": [
+            "care",
+            "cof"
+          ]
+        },
+        {
+          "label": "Ambiente natural",
+          "value": "Águas variadas, muitas vezes com algas e vegetação marginal ou aquática; a tolerância de populações salobras não exige sal em toda criação.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Tamanho adulto",
+          "value": "60 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Machos apresentam gonopódio e em geral mais cores e nadadeiras desenvolvidas; fêmeas tendem a ser maiores e robustas.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "17–28 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "7.0–8.5; não interpretar os extremos como metas a alternar.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "GH",
+          "value": "8–30 °dGH.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "KH",
+          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Substrato e decoração",
+          "value": "Plantas e cobertura flutuante, sem corrente intensa. A fonte recomenda água moderadamente dura ou mais dura para manutenção de longo prazo.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "A referência geométrica da fonte é 45 × 30 × 30 cm, cerca de 41 L. Reprodução, quantidade e companheiros exigem ampliação; não tratar o recipiente mínimo como lotação ilimitada.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Manutenção específica",
+          "value": "Plantas e cobertura flutuante, sem corrente intensa. A fonte recomenda água moderadamente dura ou mais dura para manutenção de longo prazo.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Alimentos adequados",
+          "value": "Na natureza consome muitos insetos; os ornamentais aceitam rações apropriadas e outros alimentos pequenos variados.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Comportamento social",
+          "value": "Pacífico; evitar beliscadores de nadadeiras, como barbo-sumatra e tetra-mato-grosso. Machos podem perseguir fêmeas constantemente.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Tipo de reprodução",
+          "value": "Vivíparo e de reprodução frequente. A fonte recomenda várias fêmeas por macho e vegetação para refúgio dos filhotes; planejar a população futura.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Problemas de manutenção",
+          "value": "Plantas e cobertura flutuante, sem corrente intensa. A fonte recomenda água moderadamente dura ou mais dura para manutenção de longo prazo.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "fields": [
+        {
+          "label": "Curiosidades verificadas da espécie",
+          "value": "“Casal”, “macho” e “fêmea” da planilha não são espécies distintas e não geram fichas separadas.",
+          "referenceIds": [
+            "care",
+            "cof"
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "cof",
+      "title": "Eschmeyer’s Catalog of Fishes — Poecilia reticulata",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=58598",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "class",
+      "title": "Eschmeyer’s Catalog of Fishes — classificação por família",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "care",
+      "title": "Poecilia reticulata — manutenção e história natural",
+      "url": "https://www.seriouslyfish.com/species/poecilia-reticulata/",
+      "author": "Seriously Fish",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "gbif",
+      "title": "Poecilia reticulata — registro comparativo no GBIF",
+      "url": "https://api.gbif.org/v1/species/match?name=Poecilia%20reticulata",
+      "author": "GBIF",
+      "accessedAt": "2026-10-18"
+    }
+  ],
+  "regions": [
+    {
+      "id": "america-do-sul",
+      "label": "América do Sul",
+      "scale": "continent",
+      "referenceIds": [
+        "care",
+        "cof"
+      ]
+    },
+    {
+      "id": "america-do-norte",
+      "label": "América do Norte",
+      "scale": "continent",
+      "referenceIds": [
+        "care",
+        "cof"
+      ]
+    }
+  ],
+  "status": "draft"
+}

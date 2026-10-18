@@ -1,0 +1,349 @@
+{
+  "slug": "megalamphodus-eques",
+  "name": "Tetra-mato-grosso",
+  "commercialName": "MATO GROSSO VÉU",
+  "category": "Tetras e Peixes de Cardume",
+  "source": {
+    "workbook": "VAREJO PEIXES NICHOS.xlsx",
+    "sheet": "Tabela Peixes Atual",
+    "row": 201,
+    "niche": "Tetras e Peixes de Cardume"
+  },
+  "sortOrder": 201,
+  "scientificName": "Megalamphodus eques",
+  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas. A fonte de manutenção e as fotos podem usar o nome anterior Hyphessobrycon eques; não são espécies adicionais.",
+  "description": "O tetra-mato-grosso reúne vermelho marcante e bastante atividade. O cardume precisa ser planejado porque a espécie pode beliscar as nadadeiras de outros peixes.",
+  "photo": {
+    "src": "/images/species/hyphessobrycon-eques-1.webp",
+    "width": 452,
+    "height": 348,
+    "alt": "Fotografia representativa de Megalamphodus eques; imagem de referência da espécie, sem indicação de estoque.",
+    "author": "Dubrovsky Alexander (Aledubr)",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#Public_domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hyphessobrycon_eques.jpg",
+    "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  "additionalPhotos": [
+    {
+      "src": "/images/species/hyphessobrycon-eques-2.webp",
+      "width": 500,
+      "height": 300,
+      "alt": "Fotografia representativa de Megalamphodus eques; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "No machine-readable author provided. MiguelCampos assumed (based on copyright claims).",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#Public_domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tetraserpae.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    },
+    {
+      "src": "/images/species/hyphessobrycon-eques-3.webp",
+      "width": 960,
+      "height": 686,
+      "alt": "Fotografia representativa de Megalamphodus eques; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Ramon and Suzanne Vargas",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hyphessobrycon_eques_63415997.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ],
+  "sections": [
+    {
+      "id": "apresentacao",
+      "fields": [
+        {
+          "label": "Outros nomes populares",
+          "value": "MATO GROSSO VÉU; TETRA MATO GROSSO",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Identificação científica",
+          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas. A fonte de manutenção e as fotos podem usar o nome anterior Hyphessobrycon eques; não são espécies adicionais.",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Introdução",
+          "value": "O tetra-mato-grosso reúne vermelho marcante e bastante atividade. O cardume precisa ser planejado porque a espécie pode beliscar as nadadeiras de outros peixes.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "classificacao",
+      "fields": [
+        {
+          "label": "Reino",
+          "value": "Animalia",
+          "referenceIds": [
+            "gbif"
+          ]
+        },
+        {
+          "label": "Filo",
+          "value": "Chordata",
+          "referenceIds": [
+            "gbif"
+          ]
+        },
+        {
+          "label": "Classe",
+          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "referenceIds": [
+            "class"
+          ]
+        },
+        {
+          "label": "Ordem",
+          "value": "Characiformes",
+          "referenceIds": [
+            "class"
+          ]
+        },
+        {
+          "label": "Família",
+          "value": "Acestrorhamphidae",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Gênero",
+          "value": "Megalamphodus",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Espécie",
+          "value": "Megalamphodus eques",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Autoridade taxonômica",
+          "value": "(Steindachner 1882)",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Sinônimos científicos",
+          "value": "Literatura de manutenção consultada sob Hyphessobrycon eques; o nome aceito adotado é Megalamphodus eques. Consultar o histórico nomenclatural completo na referência taxonômica.",
+          "referenceIds": [
+            "cof",
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Continente e países",
+          "value": "América do Sul: ampla distribuição indicada nas drenagens Amazônica e do Paraguai, incluindo Brasil, Peru, Bolívia, Paraguai e Argentina.",
+          "referenceIds": [
+            "care",
+            "cof"
+          ]
+        },
+        {
+          "label": "Ambiente natural",
+          "value": "Tributários lentos, remansos, lagoas e pequenos lagos com vegetação marginal ou raízes submersas.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Tamanho adulto",
+          "value": "40 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Fêmeas maduras são mais arredondadas e ligeiramente maiores.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "20–28 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "5.0–7.5; não interpretar os extremos como metas a alternar.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "GH",
+          "value": "1–15 °dGH.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "KH",
+          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Substrato e decoração",
+          "value": "Plantas, substrato escuro e áreas sombreadas com raízes, sem limitar a natação. Espaço insuficiente e poucos indivíduos agravam conflitos.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "Base mínima de 80 × 30 cm, cerca de 72 L na fonte, para 12–15 indivíduos sem outras espécies de meia-água. Adicionar companheiros exige aquário maior.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Manutenção específica",
+          "value": "Plantas, substrato escuro e áreas sombreadas com raízes, sem limitar a natação. Espaço insuficiente e poucos indivíduos agravam conflitos.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Alimentos adequados",
+          "value": "Provavelmente onívoro; ração de qualidade e pequenos alimentos vivos ou congelados variados.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Comportamento social",
+          "value": "Forma hierarquias e pode beliscar nadadeiras. A fonte recomenda ao menos 12 indivíduos e evita companheiros lentos ou de nadadeiras longas.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Tipo de reprodução",
+          "value": "Dispersa ovos sem cuidados parentais. Separar ovos e adultos em reprodução dirigida.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Problemas de manutenção",
+          "value": "Plantas, substrato escuro e áreas sombreadas com raízes, sem limitar a natação. Espaço insuficiente e poucos indivíduos agravam conflitos.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "fields": [
+        {
+          "label": "Curiosidades verificadas da espécie",
+          "value": "A forma véu é uma variedade ornamental da mesma espécie, não uma segunda ficha taxonômica.",
+          "referenceIds": [
+            "care",
+            "cof"
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "cof",
+      "title": "Eschmeyer’s Catalog of Fishes — Megalamphodus eques",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=29783",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "class",
+      "title": "Eschmeyer’s Catalog of Fishes — classificação por família",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "care",
+      "title": "Hyphessobrycon eques — manutenção e história natural",
+      "url": "https://www.seriouslyfish.com/species/hyphessobrycon-eques/",
+      "author": "Seriously Fish",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "gbif",
+      "title": "Hyphessobrycon eques — registro comparativo no GBIF",
+      "url": "https://api.gbif.org/v1/species/match?name=Hyphessobrycon%20eques",
+      "author": "GBIF",
+      "accessedAt": "2026-10-18"
+    }
+  ],
+  "regions": [
+    {
+      "id": "america-do-sul",
+      "label": "América do Sul",
+      "scale": "continent",
+      "referenceIds": [
+        "care",
+        "cof"
+      ]
+    }
+  ],
+  "status": "draft"
+}

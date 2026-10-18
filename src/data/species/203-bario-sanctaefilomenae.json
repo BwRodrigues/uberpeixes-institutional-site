@@ -1,0 +1,349 @@
+{
+  "slug": "bario-sanctaefilomenae",
+  "name": "Tetra-olho-de-fogo",
+  "commercialName": "OLHO DE FOGO BALÃO",
+  "category": "Tetras e Peixes de Cardume",
+  "source": {
+    "workbook": "VAREJO PEIXES NICHOS.xlsx",
+    "sheet": "Tabela Peixes Atual",
+    "row": 203,
+    "niche": "Tetras e Peixes de Cardume"
+  },
+  "sortOrder": 203,
+  "scientificName": "Bario sanctaefilomenae",
+  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas. A fonte de manutenção e as fotos podem usar o nome anterior Moenkhausia sanctaefilomenae; não são espécies adicionais.",
+  "description": "O tetra-olho-de-fogo traz um ponto vermelho vivo no olho e muita movimentação. A convivência melhora em cardume e com espaço para nadar.",
+  "photo": {
+    "src": "/images/species/moenkhausia-sanctaefilomenae-1.webp",
+    "width": 460,
+    "height": 340,
+    "alt": "Fotografia representativa de Bario sanctaefilomenae; imagem de referência da espécie, sem indicação de estoque.",
+    "author": "No machine-readable author provided. Chle assumed (based on copyright claims).",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moenkhausia_sanctaefilomenae.jpg",
+    "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  "additionalPhotos": [
+    {
+      "src": "/images/species/moenkhausia-sanctaefilomenae-2.webp",
+      "width": 721,
+      "height": 541,
+      "alt": "Fotografia representativa de Bario sanctaefilomenae; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Jhartshorn",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red_eye_tetra.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    },
+    {
+      "src": "/images/species/moenkhausia-sanctaefilomenae-3.webp",
+      "width": 960,
+      "height": 541,
+      "alt": "Fotografia representativa de Bario sanctaefilomenae; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Cedricguppy - Loury Cédric",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moenkhausia_sanctaefilomenae_-_T%C3%A9tra_yeux_rouge_-_Aqua_Porte_Dor%C3%A9e_03.JPG",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ],
+  "sections": [
+    {
+      "id": "apresentacao",
+      "fields": [
+        {
+          "label": "Outros nomes populares",
+          "value": "OLHO DE FOGO BALÃO; TETRA OLHO DE FOGO BALÃO",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Identificação científica",
+          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas. A fonte de manutenção e as fotos podem usar o nome anterior Moenkhausia sanctaefilomenae; não são espécies adicionais.",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Introdução",
+          "value": "O tetra-olho-de-fogo traz um ponto vermelho vivo no olho e muita movimentação. A convivência melhora em cardume e com espaço para nadar.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "classificacao",
+      "fields": [
+        {
+          "label": "Reino",
+          "value": "Animalia",
+          "referenceIds": [
+            "gbif"
+          ]
+        },
+        {
+          "label": "Filo",
+          "value": "Chordata",
+          "referenceIds": [
+            "gbif"
+          ]
+        },
+        {
+          "label": "Classe",
+          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "referenceIds": [
+            "class"
+          ]
+        },
+        {
+          "label": "Ordem",
+          "value": "Characiformes",
+          "referenceIds": [
+            "class"
+          ]
+        },
+        {
+          "label": "Família",
+          "value": "Acestrorhamphidae",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Gênero",
+          "value": "Bario",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Espécie",
+          "value": "Bario sanctaefilomenae",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Autoridade taxonômica",
+          "value": "(Steindachner 1907)",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Sinônimos científicos",
+          "value": "Literatura de manutenção consultada sob Moenkhausia sanctaefilomenae; o nome aceito adotado é Bario sanctaefilomenae. Consultar o histórico nomenclatural completo na referência taxonômica.",
+          "referenceIds": [
+            "cof",
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Continente e países",
+          "value": "América do Sul: Brasil, Paraguai e Argentina, em sistemas ligados ao Pantanal.",
+          "referenceIds": [
+            "care",
+            "cof"
+          ]
+        },
+        {
+          "label": "Ambiente natural",
+          "value": "Rios de água relativamente clara e áreas com vegetação aquática e flutuante.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Tamanho adulto",
+          "value": "70 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Fêmeas ficam mais arredondadas quando maduras ou com ovos.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "22–26 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "6.0–8.0; não interpretar os extremos como metas a alternar.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "GH",
+          "value": "3–20 °dGH.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "KH",
+          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Substrato e decoração",
+          "value": "Plantas densas, iluminação moderada, raízes e área livre de natação. Evitar montagem excessivamente exposta.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "Aquário de pelo menos 90 × 38 × 30 cm, cerca de 103 L segundo a fonte, para um cardume pequeno. Considerar mais espaço para comunitários.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Manutenção específica",
+          "value": "Plantas densas, iluminação moderada, raízes e área livre de natação. Evitar montagem excessivamente exposta.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Alimentos adequados",
+          "value": "Aceita rações variadas, pequenos alimentos vivos ou congelados e componente vegetal.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Comportamento social",
+          "value": "Ativo e robusto; ao menos 6–8 indivíduos. Pode intimidar peixes lentos e beliscar nadadeiras; origem comum não comprova convivência.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Tipo de reprodução",
+          "value": "Dispersa ovos; para criar alevinos, usar montagem separada que proteja ovos da predação pelos adultos.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Problemas de manutenção",
+          "value": "Plantas densas, iluminação moderada, raízes e área livre de natação. Evitar montagem excessivamente exposta.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "fields": [
+        {
+          "label": "Curiosidades verificadas da espécie",
+          "value": "Os registros “OLHO DE FOGO BALÃO” e “TETRA OLHO DE FOGO BALÃO” foram identificados como duplicação comercial do mesmo nome. A foto representa a espécie, não garante a forma balão.",
+          "referenceIds": [
+            "care",
+            "cof"
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "cof",
+      "title": "Eschmeyer’s Catalog of Fishes — Bario sanctaefilomenae",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=29217",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "class",
+      "title": "Eschmeyer’s Catalog of Fishes — classificação por família",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "care",
+      "title": "Moenkhausia sanctaefilomenae — manutenção e história natural",
+      "url": "https://www.seriouslyfish.com/species/moenkhausia-sanctaefilomenae/",
+      "author": "Seriously Fish",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "gbif",
+      "title": "Moenkhausia sanctaefilomenae — registro comparativo no GBIF",
+      "url": "https://api.gbif.org/v1/species/match?name=Moenkhausia%20sanctaefilomenae",
+      "author": "GBIF",
+      "accessedAt": "2026-10-18"
+    }
+  ],
+  "regions": [
+    {
+      "id": "america-do-sul",
+      "label": "América do Sul",
+      "scale": "continent",
+      "referenceIds": [
+        "care",
+        "cof"
+      ]
+    }
+  ],
+  "status": "draft"
+}
