@@ -154,29 +154,31 @@ if (
             id={definition.id}
             open={
               Boolean(data?.fields.length) &&
-              ["apresentacao", "agua", "criacao"].includes(definition.id)
+              ["apresentacao", "classificacao", "agua"].includes(definition.id)
             }
           >
             <summary>
-              <h2>{definition.title}</h2>
-              {!data?.fields.length && <span>A confirmar</span>}
+              <h2>
+                {definition.title}
+                {!data?.fields.length && <span>A confirmar</span>}
+              </h2>
             </summary>
             {data?.fields.length ? (
-              <dl>
+              <div class="profile-fields">
                 {data.fields.map((field) => (
-                  <div>
-                    <dt>{field.label}</dt>
-                    <dd>
+                  <section class="profile-field">
+                    <h3>{field.label}</h3>
+                    <p class="profile-field-value">
                       {field.value}
                       <span class="field-references">
                         {field.referenceIds.map((id) => (
                           <a href={`#fonte-${id}`}>[{id}]</a>
                         ))}
                       </span>
-                    </dd>
-                  </div>
+                    </p>
+                  </section>
                 ))}
-              </dl>
+              </div>
             ) : (
               <>
                 <p>
@@ -246,3 +248,38 @@ if (
     </a>
   </aside>
 </SpeciesLayout>
+
+<script>
+  // Enhance section links only; all scientific content is already in the HTML.
+  const revealSection = (hash: string, focus = false) => {
+    let id: string;
+    try {
+      id = decodeURIComponent(hash.slice(1));
+    } catch {
+      return;
+    }
+    const target = document.getElementById(id);
+    const details =
+      target instanceof HTMLDetailsElement
+        ? target
+        : target?.closest("details");
+    if (details instanceof HTMLDetailsElement) {
+      details.open = true;
+      if (focus)
+        details.querySelector("summary")?.focus({ preventScroll: true });
+    }
+  };
+  document
+    .querySelectorAll<HTMLAnchorElement>(".profile-index a")
+    .forEach((link) => {
+      link.addEventListener("click", (event) => {
+        if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey)
+          return;
+        revealSection(link.hash);
+        // Native fragment navigation can move focus after the click handler.
+        requestAnimationFrame(() => revealSection(link.hash, true));
+      });
+    });
+  window.addEventListener("hashchange", () => revealSection(location.hash));
+  revealSection(location.hash);
+</script>

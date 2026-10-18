@@ -1,4 +1,14 @@
 import { expect, test } from "@playwright/test";
+import { readdirSync, readFileSync } from "node:fs";
+const speciesDirectory = new URL("../src/data/species/", import.meta.url);
+const profileData: {
+  slug: string;
+  sections: { fields: { value: string }[] }[];
+}[] = readdirSync(speciesDirectory)
+  .filter((name) => name.endsWith(".json"))
+  .map((name) =>
+    JSON.parse(readFileSync(new URL(name, speciesDirectory), "utf8")),
+  );
 
 const pilot = [
   {
@@ -242,4 +252,93 @@ test("catalog remains navigable without JavaScript", async ({
   } finally {
     await context.close();
   }
+});
+
+test("all scientific fields are server rendered and native accordions work without JavaScript", async ({
+  browser,
+  baseURL,
+  viewport,
+}) => {
+  const context = await browser.newContext({
+    javaScriptEnabled: false,
+    viewport,
+  });
+  try {
+    const page = await context.newPage();
+    for (const entry of pilot) {
+      const response = await page.goto(`${baseURL}/especies/${entry.slug}/`);
+      const initialHTML = (await response?.text())!;
+      const source = profileData.find((animal) => animal.slug === entry.slug)!;
+      const initial = await page.evaluate((html) => {
+        const doc = new DOMParser().parseFromString(html, "text/html");
+        return {
+          open: [...doc.querySelectorAll("details[open]")].map(
+            (element) => element.id,
+          ),
+          fields: [...doc.querySelectorAll(".profile-field-value")].map(
+            (element) => element.textContent!.trim(),
+          ),
+          h1: doc.querySelectorAll("h1").length,
+          sectionHeadings: doc.querySelectorAll(
+            ".profile-section > summary > h2",
+          ).length,
+          subheadings: doc.querySelectorAll(".profile-field > h3").length,
+        };
+      }, initialHTML);
+      expect(initial.open).toEqual(["apresentacao", "classificacao", "agua"]);
+      expect(initial.h1).toBe(1);
+      expect(initial.sectionHeadings).toBe(11);
+      const fields = source.sections.flatMap((section) => section.fields);
+      expect(initial.subheadings).toBe(fields.length);
+      expect(initial.fields.length).toBe(fields.length);
+      for (const field of fields)
+        expect(
+          initial.fields.some((value) => value.startsWith(field.value)),
+        ).toBe(true);
+      await expect(page.locator("#referencias")).toBeVisible();
+      expect(
+        await page
+          .locator("#referencias")
+          .evaluate(
+            (element) => element.closest("details:not([open])") === null,
+          ),
+      ).toBe(true);
+      const closed = page.locator("#criacao");
+      await expect(closed).not.toHaveAttribute("open");
+      const summary = closed.locator("summary");
+      await summary.focus();
+      await expect(summary).toBeFocused();
+      await page.keyboard.press("Enter");
+      await expect(closed).toHaveAttribute("open", "");
+      await expect(closed.locator("h3").first()).toBeVisible();
+      await page.keyboard.press("Space");
+      await expect(closed).not.toHaveAttribute("open");
+      await page.locator(".species-hero").scrollIntoViewIfNeeded();
+      await expect(page.locator(".species-inquiry a")).toBeInViewport();
+      expect(
+        await page.evaluate(
+          () => document.documentElement.scrollWidth <= innerWidth,
+        ),
+      ).toBe(true);
+    }
+  } finally {
+    await context.close();
+  }
+});
+
+test("section navigation reveals and focuses closed scientific sections", async ({
+  page,
+}) => {
+  await page.goto("/especies/peixe-agulhinha/");
+  const section = page.locator("#reproducao");
+  await expect(section).not.toHaveAttribute("open");
+  await page
+    .getByRole("navigation", { name: "Seções da ficha" })
+    .getByRole("link", { name: "Reprodução", exact: true })
+    .click();
+  await expect(section).toHaveAttribute("open", "");
+  await expect(section.locator("summary")).toBeFocused();
+  await expect(section.locator("h3").first()).toBeVisible();
+  await page.goto("/especies/barbus-cereja/#alimentacao");
+  await expect(page.locator("#alimentacao")).toHaveAttribute("open", "");
 });

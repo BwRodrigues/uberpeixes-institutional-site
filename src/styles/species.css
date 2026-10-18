@@ -257,6 +257,8 @@
   scroll-margin-top: 22px;
 }
 .profile-section summary {
+  min-height: 44px;
+  padding-block: 6px;
   cursor: pointer;
   color: var(--brand-indigo-dark);
 }
@@ -290,19 +292,21 @@
   color: var(--muted);
   line-height: 1.8;
 }
-.profile-section dl {
+.profile-fields {
   margin: 18px 0 0;
 }
-.profile-section dl > div {
+.profile-field {
   padding: 14px 0;
   border-top: 1px solid var(--line);
 }
-.profile-section dt {
+.profile-field h3 {
+  margin: 0;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.6;
 }
-.profile-section dd {
+.profile-section .profile-field-value {
+  color: var(--ink);
   margin: 6px 0 0;
   font-size: 15px;
   line-height: 1.8;

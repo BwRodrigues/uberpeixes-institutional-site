@@ -90,3 +90,13 @@ O Cloudflare confirmou o deploy do commit `f4d6cb0`, e o endereço navegável da
 As cinco fichas têm três fotografias distintas cada: 15 imagens no total, mantidas localmente em WebP. A listagem carrega apenas a capa e informa “3 fotos da espécie”; clicar na capa abre a ficha, sem levar o visitante a um arquivo JPG. Na ficha, a capa e as duas fotos extras podem ser abertas em tamanho completo pelo teclado ou toque, sem dependência de JavaScript ou carrossel externo.
 
 Todas as fotos incluem dimensões reais, alt descritivo, fotógrafo, origem, licença gratuita e declaração da conversão. Fotos CC BY/CC BY-SA mantêm atribuição e a licença de cada arquivo; imagens em domínio público também conservam seus créditos de origem. `validateSpeciesCatalog` verifica os metadados das imagens adicionais e rejeita caminhos/páginas de origem duplicados na mesma ficha. A conferência visual também excluiu recortes da mesma captura e uma imagem cuja própria descrição indicava dúvida de identificação.
+
+## Seções expansíveis, semântica e conteúdo inicial
+
+`SpeciesProfile.astro` renderiza todo o conteúdo científico diretamente no HTML estático, incluindo os campos das seções fechadas e todas as referências. Os textos não dependem de clique, fetch ou JavaScript para existir no documento. Cada ficha possui um H1, seções principais com H2 e campos/subseções com H3.
+
+Os elementos nativos `details`/`summary` deixam Apresentação, Classificação científica e Habitat e parâmetros da água abertos por padrão. As outras oito seções científicas começam fechadas e podem ser abertas/fechadas pelo teclado ou toque. Referências bibliográficas permanecem em uma seção normal, sempre aberta, fora das seções expansíveis. Não há atributos ARIA manuais duplicando o estado expandido controlado pelo navegador.
+
+O menu lateral é preservado. Um aprimoramento pequeno em JavaScript abre a seção de destino e encaminha o foco ao seu `summary`; hashes diretos também abrem o destino. Sem JavaScript, os links e as seções expansíveis nativas continuam disponíveis. O botão persistente do WhatsApp e os metadados/canonicals/JSON-LD foram preservados. A política de revisão/noindex do protótipo é independente deste ajuste.
+
+Os testes adicionais com JavaScript desativado verificam as cinco respostas HTML iniciais contra todos os campos científicos dos JSONs, inclusive conteúdo recolhido, títulos H1/H2/H3, referências abertas, expansão com Enter, recolhimento com espaço e acesso ao WhatsApp em 1440, 375 e 320 px. Também verificam abertura e foco ao navegar pelo menu e por URL com fragmento.
