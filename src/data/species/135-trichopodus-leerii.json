@@ -55,23 +55,17 @@
         {
           "label": "Outros nomes populares",
           "value": "TRICOGASTER LERY",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "Identificação científica",
           "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
-          "referenceIds": [
-            "cof"
-          ]
+          "referenceIds": ["cof"]
         },
         {
           "label": "Introdução",
           "value": "O tricogáster-leeri tem pequenas marcas claras que lembram pérolas. É um gourami relativamente tranquilo, favorecido por plantas e áreas de sombra.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -81,66 +75,47 @@
         {
           "label": "Reino",
           "value": "Animalia",
-          "referenceIds": [
-            "gbif"
-          ]
+          "referenceIds": ["gbif"]
         },
         {
           "label": "Filo",
           "value": "Chordata",
-          "referenceIds": [
-            "gbif"
-          ]
+          "referenceIds": ["gbif"]
         },
         {
           "label": "Classe",
           "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
-          "referenceIds": [
-            "class"
-          ]
+          "referenceIds": ["class"]
         },
         {
           "label": "Ordem",
           "value": "Anabantiformes",
-          "referenceIds": [
-            "class"
-          ]
+          "referenceIds": ["class"]
         },
         {
           "label": "Família",
           "value": "Osphronemidae",
-          "referenceIds": [
-            "cof"
-          ]
+          "referenceIds": ["cof"]
         },
         {
           "label": "Gênero",
           "value": "Trichopodus",
-          "referenceIds": [
-            "cof"
-          ]
+          "referenceIds": ["cof"]
         },
         {
           "label": "Espécie",
           "value": "Trichopodus leerii",
-          "referenceIds": [
-            "cof"
-          ]
+          "referenceIds": ["cof"]
         },
         {
           "label": "Autoridade taxonômica",
           "value": "(Bleeker 1852)",
-          "referenceIds": [
-            "cof"
-          ]
+          "referenceIds": ["cof"]
         },
         {
           "label": "Sinônimos científicos",
           "value": "Literatura de manutenção consultada sob Trichopodus leerii; o nome aceito adotado é Trichopodus leerii. Consultar o histórico nomenclatural completo na referência taxonômica.",
-          "referenceIds": [
-            "cof",
-            "care"
-          ]
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -150,17 +125,12 @@
         {
           "label": "Continente e países",
           "value": "Ásia: Tailândia, Malásia, Bornéu e Sumatra, com introduções em outros locais.",
-          "referenceIds": [
-            "care",
-            "cof"
-          ]
+          "referenceIds": ["care", "cof"]
         },
         {
           "label": "Ambiente natural",
           "value": "Brejos de baixada, muitas vezes próximos de áreas costeiras.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -170,16 +140,12 @@
         {
           "label": "Tamanho adulto",
           "value": "120 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "Diferenças entre machos e fêmeas",
           "value": "Machos maduros apresentam garganta mais vermelha ou alaranjada e prolongamentos nas nadadeiras; fêmeas são mais robustas.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -189,37 +155,27 @@
         {
           "label": "Temperatura em aquário",
           "value": "24–30 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "pH em aquário",
           "value": "5.5–8.0; não interpretar os extremos como metas a alternar.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "GH",
           "value": "2–30 °dGH.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "KH",
           "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "Substrato e decoração",
           "value": "Plantas, cobertura flutuante e áreas abertas para natação. Evitar companheiros muito vigorosos e oferecer refúgios às fêmeas.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -229,16 +185,12 @@
         {
           "label": "Volume mínimo e contexto",
           "value": "A referência da fonte é 90 × 30 × 30 cm, cerca de 81 L. Para grupos e outros peixes, avaliar o porte de até 12 cm, os territórios e a necessidade de espaço maior.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "Manutenção específica",
           "value": "Plantas, cobertura flutuante e áreas abertas para natação. Evitar companheiros muito vigorosos e oferecer refúgios às fêmeas.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -248,9 +200,7 @@
         {
           "label": "Alimentos adequados",
           "value": "Aceita diferentes alimentos apropriados; manter variedade de rações e complementos de tamanho adequado.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -260,9 +210,7 @@
         {
           "label": "Comportamento social",
           "value": "Relativamente pacífico, mas machos são territoriais entre si e podem perseguir fêmeas durante a reprodução.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -272,9 +220,7 @@
         {
           "label": "Tipo de reprodução",
           "value": "Constrói ninho de bolhas junto à vegetação flutuante; a montagem reprodutiva requer corrente delicada e manejo separado.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -284,9 +230,7 @@
         {
           "label": "Problemas de manutenção",
           "value": "Plantas, cobertura flutuante e áreas abertas para natação. Evitar companheiros muito vigorosos e oferecer refúgios às fêmeas.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -296,10 +240,7 @@
         {
           "label": "Curiosidades verificadas da espécie",
           "value": "Os pontos claros no corpo originam o nome popular gourami-pérola; a fonte relata indivíduos de aquário com oito anos ou mais.",
-          "referenceIds": [
-            "care",
-            "cof"
-          ]
+          "referenceIds": ["care", "cof"]
         }
       ]
     }
@@ -339,19 +280,13 @@
       "id": "asia",
       "label": "Ásia",
       "scale": "continent",
-      "referenceIds": [
-        "care",
-        "cof"
-      ]
+      "referenceIds": ["care", "cof"]
     },
     {
       "id": "indonesia",
       "label": "Indonésia",
       "scale": "country",
-      "referenceIds": [
-        "care",
-        "cof"
-      ]
+      "referenceIds": ["care", "cof"]
     }
   ],
   "status": "draft"

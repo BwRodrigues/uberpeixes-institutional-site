@@ -55,23 +55,17 @@
         {
           "label": "Outros nomes populares",
           "value": "HECKELI ALBINO",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "Identificação científica",
           "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
-          "referenceIds": [
-            "cof"
-          ]
+          "referenceIds": ["cof"]
         },
         {
           "label": "Introdução",
           "value": "O acará-heckelii combina nadadeiras alongadas e hábito de escavar. Uma montagem ampla permite observar seu comportamento sem limitar os movimentos.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -81,66 +75,47 @@
         {
           "label": "Reino",
           "value": "Animalia",
-          "referenceIds": [
-            "gbif"
-          ]
+          "referenceIds": ["gbif"]
         },
         {
           "label": "Filo",
           "value": "Chordata",
-          "referenceIds": [
-            "gbif"
-          ]
+          "referenceIds": ["gbif"]
         },
         {
           "label": "Classe",
           "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
-          "referenceIds": [
-            "class"
-          ]
+          "referenceIds": ["class"]
         },
         {
           "label": "Ordem",
           "value": "Cichliformes",
-          "referenceIds": [
-            "class"
-          ]
+          "referenceIds": ["class"]
         },
         {
           "label": "Família",
           "value": "Cichlidae",
-          "referenceIds": [
-            "cof"
-          ]
+          "referenceIds": ["cof"]
         },
         {
           "label": "Gênero",
           "value": "Acarichthys",
-          "referenceIds": [
-            "cof"
-          ]
+          "referenceIds": ["cof"]
         },
         {
           "label": "Espécie",
           "value": "Acarichthys heckelii",
-          "referenceIds": [
-            "cof"
-          ]
+          "referenceIds": ["cof"]
         },
         {
           "label": "Autoridade taxonômica",
           "value": "(Müller & Troschel 1849)",
-          "referenceIds": [
-            "cof"
-          ]
+          "referenceIds": ["cof"]
         },
         {
           "label": "Sinônimos científicos",
           "value": "Literatura de manutenção consultada sob Acarichthys heckelii; o nome aceito adotado é Acarichthys heckelii. Consultar o histórico nomenclatural completo na referência taxonômica.",
-          "referenceIds": [
-            "cof",
-            "care"
-          ]
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -150,17 +125,12 @@
         {
           "label": "Continente e países",
           "value": "América do Sul: norte da bacia Amazônica em Brasil, Colômbia e Peru e drenagem do Essequibo na Guiana.",
-          "referenceIds": [
-            "care",
-            "cof"
-          ]
+          "referenceIds": ["care", "cof"]
         },
         {
           "label": "Ambiente natural",
           "value": "Partes baixas das bacias, incluindo florestas e savanas inundadas durante a estação chuvosa.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -170,16 +140,12 @@
         {
           "label": "Tamanho adulto",
           "value": "200 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "Diferenças entre machos e fêmeas",
           "value": "Fêmeas maduras tendem a ser mais robustas; não há método externo simples infalível descrito na ficha.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -189,37 +155,27 @@
         {
           "label": "Temperatura em aquário",
           "value": "24–30 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "pH em aquário",
           "value": "6.0–8.0; não interpretar os extremos como metas a alternar.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "GH",
           "value": "1–12 °dGH.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "KH",
           "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "Substrato e decoração",
           "value": "Substrato preferencialmente arenoso, raízes e iluminação suave. Escava intensamente e é sensível à deterioração da água.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -229,16 +185,12 @@
         {
           "label": "Volume mínimo e contexto",
           "value": "A fonte considera base de 150 × 45 cm apenas aceitável para um casal e exige muito mais para um grupo. Não oferece volume mínimo numérico confiável; não converter essa base em lotação automática.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "Manutenção específica",
           "value": "Substrato preferencialmente arenoso, raízes e iluminação suave. Escava intensamente e é sensível à deterioração da água.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -248,9 +200,7 @@
         {
           "label": "Alimentos adequados",
           "value": "Aceita alimentos vivos, congelados e secos, com componente vegetal. A fonte ressalta que não peneira areia como alguns ciclídeos aparentados.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -260,9 +210,7 @@
         {
           "label": "Comportamento social",
           "value": "Geralmente moderado com outras espécies, mas pode predar animais muito pequenos e ter episódios graves de agressão entre conspecíficos. Evitar beliscadores de nadadeiras.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -272,9 +220,7 @@
         {
           "label": "Tipo de reprodução",
           "value": "Fêmeas escavam sistemas de túneis e câmara para ovos; maturidade pode demorar dois a três anos. A reprodução requer estrutura e espaço apropriados.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -284,9 +230,7 @@
         {
           "label": "Problemas de manutenção",
           "value": "Substrato preferencialmente arenoso, raízes e iluminação suave. Escava intensamente e é sensível à deterioração da água.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -296,10 +240,7 @@
         {
           "label": "Curiosidades verificadas da espécie",
           "value": "Apesar de lembrar outros ciclídeos de substrato, passa boa parte do tempo na meia-água e tem estratégia reprodutiva de escavação muito particular.",
-          "referenceIds": [
-            "care",
-            "cof"
-          ]
+          "referenceIds": ["care", "cof"]
         }
       ]
     }
@@ -339,10 +280,7 @@
       "id": "america-do-sul",
       "label": "América do Sul",
       "scale": "continent",
-      "referenceIds": [
-        "care",
-        "cof"
-      ]
+      "referenceIds": ["care", "cof"]
     }
   ],
   "status": "draft"

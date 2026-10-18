@@ -80,3 +80,15 @@ O contrato de banco e chatbot permanece o do PR #6: `CatalogRepository` e `/dado
 ## Publicação
 
 Abrir PR da branch `feat/expandir-catalogo-especies` para main e aguardar revisão. O preview navegável deve vir do check Cloudflare Pages do próprio commit. Não fazer merge nem publicar produção sem autorização da loja.
+
+## Interface e revisão final desta etapa
+
+- O componente compartilhado não exibe mais as notas de redimensionamento/conversão. Os créditos de autor, origem e licença continuam acessíveis, assim como avisos relevantes sobre identificação/população.
+- Os identificadores internos `cof`, `care`, `revision`, `class` e `gbif` continuam estáveis nos dados, mas são apresentados como Taxonomia, Cuidados, Revisão científica, Classificação e Biodiversidade. Não é necessário editar todas as fichas para mudar rótulos.
+- O bloco técnico com nome/linha da planilha saiu da interface; a rastreabilidade permanece nos dados e neste diretório.
+- A ficha continua sendo o template aprovado: conteúdo completo no HTML, seções nativas, referências abertas, navegação lateral, logo e WhatsApp. Nenhuma informação comercial ou animação foi alterada.
+- Nenhuma nova convivência foi inferida. As três sugestões automáticas usam regiões explicitamente documentadas e identificam a relação geográfica, com ressalva de que não recomenda aquário comunitário.
+- Cinco fichas prévias são protegidas por hashes. A substituição da terceira fotografia de Puntigrus tetrazona afeta somente uma ficha nova desta expansão, para trocar uma tomada distante por um retrato representativo.
+- O endpoint JSON versionado mantém os campos estruturados e referências para futura camada de persistência ou chatbot; esta etapa não cria banco de dados, recomendações veterinárias nem respostas automáticas sem fontes.
+
+As 123 linhas pendentes incluem 22 plantas, nomes comerciais não resolvidos, variedades e oito grupos candidatos não concluídos. Não correspondem necessariamente a 123 espécies distintas. A lista nominal e os motivos estão no relatório gerado, que deve ser atualizado a cada retomada.

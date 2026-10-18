@@ -55,23 +55,17 @@
         {
           "label": "Outros nomes populares",
           "value": "LOMBARDOI",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "Identificação científica",
           "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
-          "referenceIds": [
-            "cof"
-          ]
+          "referenceIds": ["cof"]
         },
         {
           "label": "Introdução",
           "value": "O lombardoi mostra uma inversão curiosa de cores entre os sexos: machos dominantes amarelos e fêmeas azuis. É um mbuna bastante territorial.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -81,66 +75,47 @@
         {
           "label": "Reino",
           "value": "Animalia",
-          "referenceIds": [
-            "gbif"
-          ]
+          "referenceIds": ["gbif"]
         },
         {
           "label": "Filo",
           "value": "Chordata",
-          "referenceIds": [
-            "gbif"
-          ]
+          "referenceIds": ["gbif"]
         },
         {
           "label": "Classe",
           "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
-          "referenceIds": [
-            "class"
-          ]
+          "referenceIds": ["class"]
         },
         {
           "label": "Ordem",
           "value": "Cichliformes",
-          "referenceIds": [
-            "class"
-          ]
+          "referenceIds": ["class"]
         },
         {
           "label": "Família",
           "value": "Cichlidae",
-          "referenceIds": [
-            "cof"
-          ]
+          "referenceIds": ["cof"]
         },
         {
           "label": "Gênero",
           "value": "Maylandia",
-          "referenceIds": [
-            "cof"
-          ]
+          "referenceIds": ["cof"]
         },
         {
           "label": "Espécie",
           "value": "Maylandia lombardoi",
-          "referenceIds": [
-            "cof"
-          ]
+          "referenceIds": ["cof"]
         },
         {
           "label": "Autoridade taxonômica",
           "value": "(Burgess 1977)",
-          "referenceIds": [
-            "cof"
-          ]
+          "referenceIds": ["cof"]
         },
         {
           "label": "Sinônimos científicos",
           "value": "Literatura de manutenção consultada sob Maylandia lombardoi; o nome aceito adotado é Maylandia lombardoi. Consultar o histórico nomenclatural completo na referência taxonômica.",
-          "referenceIds": [
-            "cof",
-            "care"
-          ]
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -150,17 +125,12 @@
         {
           "label": "Continente e países",
           "value": "África: lago Malawi, especialmente ilhas Mbenji e recife Nkhomo; há introdução em Namalenje.",
-          "referenceIds": [
-            "care",
-            "cof"
-          ]
+          "referenceIds": ["care", "cof"]
         },
         {
           "label": "Ambiente natural",
           "value": "Faixa de transição entre rochas e areia, com bastante sedimento.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -170,16 +140,12 @@
         {
           "label": "Tamanho adulto",
           "value": "150 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "Diferenças entre machos e fêmeas",
           "value": "Machos dominantes ficam amarelos e fêmeas normalmente azuis, mas machos subordinados e fêmeas incubando podem mudar o padrão.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -189,37 +155,27 @@
         {
           "label": "Temperatura em aquário",
           "value": "24–28 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "pH em aquário",
           "value": "7.6–8.8; não interpretar os extremos como metas a alternar.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "GH",
           "value": "10–25 °dGH.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "KH",
           "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "Substrato e decoração",
           "value": "Areia, rochas estáveis, cavernas e crescimento de algas para pastagem. Planejar separação de indivíduos quando houver agressão persistente.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -229,16 +185,12 @@
         {
           "label": "Volume mínimo e contexto",
           "value": "A fonte registra 120 × 45 × 38 cm, cerca de 205 L, como mínimo histórico. O risco territorial não é resolvido apenas por litros; grupos e outros habitantes exigem ampliação e avaliação especializada.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "Manutenção específica",
           "value": "Areia, rochas estáveis, cavernas e crescimento de algas para pastagem. Planejar separação de indivíduos quando houver agressão persistente.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -248,9 +200,7 @@
         {
           "label": "Alimentos adequados",
           "value": "Dieta com forte componente vegetal, rações com algas e suplementos apropriados. Não oferecer coração de boi ou outras carnes de mamíferos.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -260,9 +210,7 @@
         {
           "label": "Comportamento social",
           "value": "Muito agressivo. Em geral manter um único macho com várias fêmeas; não juntar com peixes pacíficos nem interpretar a origem comum do lago como compatibilidade.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -272,9 +220,7 @@
         {
           "label": "Tipo de reprodução",
           "value": "Incubador bucal materno. Requer aquário específico bem estruturado e atenção à agressividade durante a formação de pares.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -284,9 +230,7 @@
         {
           "label": "Problemas de manutenção",
           "value": "Areia, rochas estáveis, cavernas e crescimento de algas para pastagem. Planejar separação de indivíduos quando houver agressão persistente.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -296,10 +240,7 @@
         {
           "label": "Curiosidades verificadas da espécie",
           "value": "Maylandia, Metriaclima e Pseudotropheus aparecem em fontes diferentes; esta ficha declara o tratamento taxonômico usado em suas referências.",
-          "referenceIds": [
-            "care",
-            "cof"
-          ]
+          "referenceIds": ["care", "cof"]
         }
       ]
     }
@@ -339,10 +280,7 @@
       "id": "africa",
       "label": "África",
       "scale": "continent",
-      "referenceIds": [
-        "care",
-        "cof"
-      ]
+      "referenceIds": ["care", "cof"]
     }
   ],
   "status": "draft"

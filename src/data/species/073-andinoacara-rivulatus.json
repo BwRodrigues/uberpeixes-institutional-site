@@ -55,23 +55,17 @@
         {
           "label": "Outros nomes populares",
           "value": "GREEN TERROR M; GREEN TERROR P",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "Identificação científica",
           "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
-          "referenceIds": [
-            "cof"
-          ]
+          "referenceIds": ["cof"]
         },
         {
           "label": "Introdução",
           "value": "O green terror é um ciclídeo de cores marcantes e território bem definido. Seu nome comercial não deve esconder o espaço e o manejo que um adulto exige.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -81,66 +75,47 @@
         {
           "label": "Reino",
           "value": "Animalia",
-          "referenceIds": [
-            "gbif"
-          ]
+          "referenceIds": ["gbif"]
         },
         {
           "label": "Filo",
           "value": "Chordata",
-          "referenceIds": [
-            "gbif"
-          ]
+          "referenceIds": ["gbif"]
         },
         {
           "label": "Classe",
           "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
-          "referenceIds": [
-            "class"
-          ]
+          "referenceIds": ["class"]
         },
         {
           "label": "Ordem",
           "value": "Cichliformes",
-          "referenceIds": [
-            "class"
-          ]
+          "referenceIds": ["class"]
         },
         {
           "label": "Família",
           "value": "Cichlidae",
-          "referenceIds": [
-            "cof"
-          ]
+          "referenceIds": ["cof"]
         },
         {
           "label": "Gênero",
           "value": "Andinoacara",
-          "referenceIds": [
-            "cof"
-          ]
+          "referenceIds": ["cof"]
         },
         {
           "label": "Espécie",
           "value": "Andinoacara rivulatus",
-          "referenceIds": [
-            "cof"
-          ]
+          "referenceIds": ["cof"]
         },
         {
           "label": "Autoridade taxonômica",
           "value": "(Günther 1860)",
-          "referenceIds": [
-            "cof"
-          ]
+          "referenceIds": ["cof"]
         },
         {
           "label": "Sinônimos científicos",
           "value": "Literatura de manutenção consultada sob Andinoacara rivulatus; o nome aceito adotado é Andinoacara rivulatus. Consultar o histórico nomenclatural completo na referência taxonômica.",
-          "referenceIds": [
-            "cof",
-            "care"
-          ]
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -150,17 +125,12 @@
         {
           "label": "Continente e países",
           "value": "América do Sul: extremo norte do Peru e drenagens costeiras do oeste do Equador. Algumas populações do norte têm identidade ainda discutida.",
-          "referenceIds": [
-            "care",
-            "cof"
-          ]
+          "referenceIds": ["care", "cof"]
         },
         {
           "label": "Ambiente natural",
           "value": "Rios e córregos de drenagens costeiras.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -170,16 +140,12 @@
         {
           "label": "Tamanho adulto",
           "value": "300 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "Diferenças entre machos e fêmeas",
           "value": "Machos crescem mais, podem desenvolver protuberância nucal e prolongamentos maiores nas nadadeiras.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -189,37 +155,27 @@
         {
           "label": "Temperatura em aquário",
           "value": "20–24 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "pH em aquário",
           "value": "6.5–8.0; não interpretar os extremos como metas a alternar.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "GH",
           "value": "5–25 °dGH.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "KH",
           "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "Substrato e decoração",
           "value": "Areia, troncos, pedras planas e barreiras visuais. Escava e pode desarranjar plantas enraizadas; prever equipamento protegido e território.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -229,16 +185,12 @@
         {
           "label": "Volume mínimo e contexto",
           "value": "Base mínima de 150 × 45 cm; a fonte apresenta cerca de 304 L como referência inicial. Para convivência com outros peixes robustos menciona 650 L ou mais, ainda dependentes de território e comportamento.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "Manutenção específica",
           "value": "Areia, troncos, pedras planas e barreiras visuais. Escava e pode desarranjar plantas enraizadas; prever equipamento protegido e território.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -248,9 +200,7 @@
         {
           "label": "Alimentos adequados",
           "value": "Onívoro: ração completa para ciclídeos, alimentos aquáticos apropriados e componente vegetal. Evitar coração de boi e outras carnes vermelhas.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -260,9 +210,7 @@
         {
           "label": "Comportamento social",
           "value": "Agressivo e territorial, especialmente em casal. A fonte favorece indivíduo isolado ou casal formado; não juntar adultos desconhecidos esperando formação automática de par.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -272,9 +220,7 @@
         {
           "label": "Tipo de reprodução",
           "value": "Desova sobre substrato com cuidado parental. Formar um casal exige acompanhamento; um macho pode ferir ou matar uma fêmea incompatível.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -284,9 +230,7 @@
         {
           "label": "Problemas de manutenção",
           "value": "Areia, troncos, pedras planas e barreiras visuais. Escava e pode desarranjar plantas enraizadas; prever equipamento protegido e território.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -296,10 +240,7 @@
         {
           "label": "Curiosidades verificadas da espécie",
           "value": "“Green terror” já foi aplicado de forma imprecisa a espécies próximas; esta ficha se refere a Andinoacara rivulatus.",
-          "referenceIds": [
-            "care",
-            "cof"
-          ]
+          "referenceIds": ["care", "cof"]
         }
       ]
     }
@@ -339,10 +280,7 @@
       "id": "america-do-sul",
       "label": "América do Sul",
       "scale": "continent",
-      "referenceIds": [
-        "care",
-        "cof"
-      ]
+      "referenceIds": ["care", "cof"]
     }
   ],
   "status": "draft"

@@ -55,23 +55,17 @@
         {
           "label": "Outros nomes populares",
           "value": "CORRIDORA  SHAWRTZ",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "Identificação científica",
           "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas. A fonte de manutenção e as fotos podem usar o nome anterior Corydoras schwartzi; não são espécies adicionais.",
-          "referenceIds": [
-            "cof"
-          ]
+          "referenceIds": ["cof"]
         },
         {
           "label": "Introdução",
           "value": "A coridora-schwartzi explora o fundo em companhia da própria espécie. Areia limpa, alimentação própria e um grupo fazem parte de sua manutenção.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -81,66 +75,47 @@
         {
           "label": "Reino",
           "value": "Animalia",
-          "referenceIds": [
-            "gbif"
-          ]
+          "referenceIds": ["gbif"]
         },
         {
           "label": "Filo",
           "value": "Chordata",
-          "referenceIds": [
-            "gbif"
-          ]
+          "referenceIds": ["gbif"]
         },
         {
           "label": "Classe",
           "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
-          "referenceIds": [
-            "class"
-          ]
+          "referenceIds": ["class"]
         },
         {
           "label": "Ordem",
           "value": "Siluriformes",
-          "referenceIds": [
-            "class"
-          ]
+          "referenceIds": ["class"]
         },
         {
           "label": "Família",
           "value": "Callichthyidae",
-          "referenceIds": [
-            "cof"
-          ]
+          "referenceIds": ["cof"]
         },
         {
           "label": "Gênero",
           "value": "Hoplisoma",
-          "referenceIds": [
-            "cof"
-          ]
+          "referenceIds": ["cof"]
         },
         {
           "label": "Espécie",
           "value": "Hoplisoma schwartzi",
-          "referenceIds": [
-            "cof"
-          ]
+          "referenceIds": ["cof"]
         },
         {
           "label": "Autoridade taxonômica",
           "value": "(Rössel 1963)",
-          "referenceIds": [
-            "cof"
-          ]
+          "referenceIds": ["cof"]
         },
         {
           "label": "Sinônimos científicos",
           "value": "Literatura de manutenção consultada sob Corydoras schwartzi; o nome aceito adotado é Hoplisoma schwartzi. Consultar o histórico nomenclatural completo na referência taxonômica.",
-          "referenceIds": [
-            "cof",
-            "care"
-          ]
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -150,17 +125,12 @@
         {
           "label": "Continente e países",
           "value": "América do Sul: endêmica da drenagem do rio Purus, Brasil.",
-          "referenceIds": [
-            "care",
-            "cof"
-          ]
+          "referenceIds": ["care", "cof"]
         },
         {
           "label": "Ambiente natural",
           "value": "Pequenos tributários, igarapés, trechos de floresta inundada e bancos de areia.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -170,16 +140,12 @@
         {
           "label": "Tamanho adulto",
           "value": "70 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "Diferenças entre machos e fêmeas",
           "value": "Fêmeas maduras costumam ser maiores e mais largas quando observadas por cima.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -189,37 +155,27 @@
         {
           "label": "Temperatura em aquário",
           "value": "22–24 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "pH em aquário",
           "value": "6.0–7.5; não interpretar os extremos como metas a alternar.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "GH",
           "value": "1–15 °dGH.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "KH",
           "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "Substrato e decoração",
           "value": "Areia macia, raízes, abrigos e fundo limpo. Não tratar a função de “limpador” como substituto de alimentação e manutenção.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -229,16 +185,12 @@
         {
           "label": "Volume mínimo e contexto",
           "value": "A referência é 60 × 38 × 30 cm, cerca de 68 L, para pequeno grupo. Avaliar mais espaço para população maior e manter área de fundo disponível.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "Manutenção específica",
           "value": "Areia macia, raízes, abrigos e fundo limpo. Não tratar a função de “limpador” como substituto de alimentação e manutenção.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -248,9 +200,7 @@
         {
           "label": "Alimentos adequados",
           "value": "Onívora: rações de fundo apropriadas, complementadas por pequenos alimentos vivos ou congelados.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -260,9 +210,7 @@
         {
           "label": "Comportamento social",
           "value": "Muito pacífica; manter ao menos seis. Evitar peixes grandes ou agressivos e companheiros de temperaturas inadequadas.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -272,9 +220,7 @@
         {
           "label": "Tipo de reprodução",
           "value": "A reprodução pode ser induzida em montagem específica, mas é considerada menos simples na fonte. Ovos e alevinos requerem manejo e alimentos próprios.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -284,9 +230,7 @@
         {
           "label": "Problemas de manutenção",
           "value": "Areia macia, raízes, abrigos e fundo limpo. Não tratar a função de “limpador” como substituto de alimentação e manutenção.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -296,10 +240,7 @@
         {
           "label": "Curiosidades verificadas da espécie",
           "value": "Hoplisoma schwartzi é o nome adotado pela fonte de manutenção atual; Corydoras schwartzi permanece em bases e literatura anteriores.",
-          "referenceIds": [
-            "care",
-            "cof"
-          ]
+          "referenceIds": ["care", "cof"]
         }
       ]
     }
@@ -339,10 +280,7 @@
       "id": "america-do-sul",
       "label": "América do Sul",
       "scale": "continent",
-      "referenceIds": [
-        "care",
-        "cof"
-      ]
+      "referenceIds": ["care", "cof"]
     }
   ],
   "status": "draft"

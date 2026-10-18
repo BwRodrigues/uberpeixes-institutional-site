@@ -58,23 +58,17 @@
         {
           "label": "Outros nomes populares",
           "value": "AULONOCARA STUARTGRANTI NGARA",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "Identificação científica",
           "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
-          "referenceIds": [
-            "cof"
-          ]
+          "referenceIds": ["cof"]
         },
         {
           "label": "Introdução",
           "value": "A aulonocara-stuartgranti explora a areia procurando alimento. As cores variam entre populações, por isso a procedência importa mais que um nome de cor.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -84,66 +78,47 @@
         {
           "label": "Reino",
           "value": "Animalia",
-          "referenceIds": [
-            "gbif"
-          ]
+          "referenceIds": ["gbif"]
         },
         {
           "label": "Filo",
           "value": "Chordata",
-          "referenceIds": [
-            "gbif"
-          ]
+          "referenceIds": ["gbif"]
         },
         {
           "label": "Classe",
           "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
-          "referenceIds": [
-            "class"
-          ]
+          "referenceIds": ["class"]
         },
         {
           "label": "Ordem",
           "value": "Cichliformes",
-          "referenceIds": [
-            "class"
-          ]
+          "referenceIds": ["class"]
         },
         {
           "label": "Família",
           "value": "Cichlidae",
-          "referenceIds": [
-            "cof"
-          ]
+          "referenceIds": ["cof"]
         },
         {
           "label": "Gênero",
           "value": "Aulonocara",
-          "referenceIds": [
-            "cof"
-          ]
+          "referenceIds": ["cof"]
         },
         {
           "label": "Espécie",
           "value": "Aulonocara stuartgranti",
-          "referenceIds": [
-            "cof"
-          ]
+          "referenceIds": ["cof"]
         },
         {
           "label": "Autoridade taxonômica",
           "value": "Meyer & Riehl 1985",
-          "referenceIds": [
-            "cof"
-          ]
+          "referenceIds": ["cof"]
         },
         {
           "label": "Sinônimos científicos",
           "value": "Literatura de manutenção consultada sob Aulonocara stuartgranti; o nome aceito adotado é Aulonocara stuartgranti. Consultar o histórico nomenclatural completo na referência taxonômica.",
-          "referenceIds": [
-            "cof",
-            "care"
-          ]
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -153,17 +128,12 @@
         {
           "label": "Continente e países",
           "value": "África: lago Malawi, com populações distribuídas por margens leste e oeste, incluindo localidades como Ngara e Maulana.",
-          "referenceIds": [
-            "care",
-            "cof"
-          ]
+          "referenceIds": ["care", "cof"]
         },
         {
           "label": "Ambiente natural",
           "value": "Zona intermediária entre costões rochosos e areia aberta com rochas dispersas.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -173,16 +143,12 @@
         {
           "label": "Tamanho adulto",
           "value": "130 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "Diferenças entre machos e fêmeas",
           "value": "Machos são maiores e mais coloridos; fêmeas apresentam cores mais discretas.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -192,37 +158,27 @@
         {
           "label": "Temperatura em aquário",
           "value": "23–29 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "pH em aquário",
           "value": "7.5–9.0; não interpretar os extremos como metas a alternar.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "GH",
           "value": "10–25 °dGH.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "KH",
           "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "Substrato e decoração",
           "value": "Areia fina, rochas estáveis e áreas abertas; cascalho grosso pode atrapalhar a alimentação e causar lesões. Exige água de ótima qualidade.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -232,16 +188,12 @@
         {
           "label": "Volume mínimo e contexto",
           "value": "Base mínima de 120 × 45 cm, cerca de 243 L na fonte, salvo montagens reprodutivas específicas. Comunitários e vários territórios pedem mais espaço.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         },
         {
           "label": "Manutenção específica",
           "value": "Areia fina, rochas estáveis e áreas abertas; cascalho grosso pode atrapalhar a alimentação e causar lesões. Exige água de ótima qualidade.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -251,9 +203,7 @@
         {
           "label": "Alimentos adequados",
           "value": "Procura pequenos organismos no substrato; oferecer rações finas apropriadas e pequenos alimentos de origem aquática variados.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -263,9 +213,7 @@
         {
           "label": "Comportamento social",
           "value": "Machos são territoriais, sobretudo contra cores semelhantes. A fonte indica um macho com 4–6 fêmeas e desaconselha mistura com outras Aulonocara pelo risco de hibridação.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -275,9 +223,7 @@
         {
           "label": "Tipo de reprodução",
           "value": "Incubação bucal materna. Machos podem perseguir fêmeas, exigindo refúgios e proporção adequada de sexos.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -287,9 +233,7 @@
         {
           "label": "Problemas de manutenção",
           "value": "Areia fina, rochas estáveis e áreas abertas; cascalho grosso pode atrapalhar a alimentação e causar lesões. Exige água de ótima qualidade.",
-          "referenceIds": [
-            "care"
-          ]
+          "referenceIds": ["care"]
         }
       ]
     },
@@ -299,10 +243,7 @@
         {
           "label": "Curiosidades verificadas da espécie",
           "value": "As fotos mostram representantes da espécie, sem garantir que sejam da população Ngara da linha comercial. Maleri e nomes de cor não foram automaticamente agrupados.",
-          "referenceIds": [
-            "care",
-            "cof"
-          ]
+          "referenceIds": ["care", "cof"]
         }
       ]
     }
@@ -342,10 +283,7 @@
       "id": "africa",
       "label": "África",
       "scale": "continent",
-      "referenceIds": [
-        "care",
-        "cof"
-      ]
+      "referenceIds": ["care", "cof"]
     }
   ],
   "status": "draft"
