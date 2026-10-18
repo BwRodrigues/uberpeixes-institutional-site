@@ -4,6 +4,7 @@ import SpeciesPhoto from "./SpeciesPhoto.astro";
 import { profileSections, type Species } from "../../data/species-schema";
 import { species, scientificLabel, isPublishable } from "../../data/species";
 import { canonicalUrl, speciesInquiry } from "../../config/site";
+import { isCatalogPreview } from "../../config/catalog";
 interface Props {
   animal: Species;
 }
@@ -94,10 +95,10 @@ if (
     </div>
     <SpeciesPhoto animal={animal} eager />
   </section>
-  {!reviewed && (
+  <p class="identification-note">{animal.identificationNote}</p>
+  {isCatalogPreview && !reviewed && (
     <aside class="catalog-notice">
       <strong>Ficha do protótipo — revisão da loja pendente</strong>
-      <p>{animal.identificationNote}</p>
       <p>
         As faixas de manutenção são orientativas e estão ligadas às respectivas
         fontes. Dados não documentados e divergências são indicados em cada

@@ -37,16 +37,16 @@
   },
   {
     "slug": "barbus-cereja-veu",
-    "src": "/images/species/barbus-cereja.webp",
+    "src": "/images/species/barbo-conchonio-cereja-veu.webp",
     "width": 960,
-    "height": 574,
-    "alt": "Rohanella titteya de nadadeiras comuns; fotografia da espécie-base, não da variedade véu",
-    "author": "Brian Gratwicke",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cherry_barb,_Puntius_titteya.jpg",
+    "height": 639,
+    "alt": "Dois Pethia conchonius avermelhados com escamas brilhantes e nadadeiras alongadas em aquário plantado",
+    "author": "Kkonstan",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rosy_Barbs.jpg",
     "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo.",
-    "note": "Foto representativa da espécie-base, com nadadeiras comuns. Não ilustra a variedade véu; fotografia específica da variedade permanece pendente."
+    "note": "Fotografia representativa de Pethia conchonius; não comprova a linhagem exata, a procedência ou a disponibilidade do lote."
   },
   {
     "slug": "barbus-denizoni",

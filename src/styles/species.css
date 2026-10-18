@@ -401,3 +401,13 @@
   display: block;
   margin-top: 0.35rem;
 }
+
+/* Raise only the catalog aquarium visibility, leaving homepage styling intact. */
+.species-page .aquarium-layer {
+  opacity: 0.23;
+}
+.identification-note {
+  font-size: 14px;
+  color: var(--muted);
+  max-width: 85ch;
+}

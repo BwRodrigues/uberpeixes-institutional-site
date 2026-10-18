@@ -9,10 +9,10 @@ Exatamente os cinco primeiros registros válidos da aba `Tabela Peixes Atual`, l
 | NEON CHINES (TANICTIS) | Tanichthys albonubes    |
 | PEIXE AGULHINHA        | Dermogenys pusilla      |
 | BARBUS CEREJA          | Rohanella titteya       |
-| BARBUS CEREJA VEU      | Rohanella titteya       |
+| BARBUS CEREJA VEU      | Pethia conchonius       |
 | BARBUS DENIZONI        | Dawkinsia denisonii     |
 
-A loja confirmou Agulhinha Prata como `Dermogenys pusilla`. Cinco registros comerciais representam quatro espécies biológicas; véu é uma variedade ornamental, não outra espécie. Não ampliar o catálogo antes da aprovação deste protótipo.
+A loja confirmou Agulhinha Prata como `Dermogenys pusilla`. Os cinco registros comerciais representam cinco espécies biológicas após a correção da loja: BARBUS CEREJA VEU corresponde a Barbo Conchônio Cereja Véu, Pethia conchonius, e não a Rohanella titteya. O nome comercial original e o slug permanecem como registro histórico; a variedade véu não é um táxon separado. Não ampliar o catálogo antes da aprovação deste protótipo.
 
 ## Arquitetura
 
@@ -55,4 +55,25 @@ Revisão manual: abrir `/especies/`, pesquisar `VÉU` e `Dermogenys`, combinar c
 
 ## Capturas de revisão
 
-[Catálogo no desktop](review/species-catalog-desktop.png) e [ficha da agulhinha no celular](review/species-profile-mobile.png). Capturadas com movimento reduzido, sem modificar as animações do site.
+[Catálogo no desktop](review/species-catalog-desktop.png), [ficha da agulhinha no celular](review/species-profile-mobile.png) e [Conchônio Cereja Véu no celular](review/species-conchonio-mobile.png). Capturadas com movimento reduzido, sem modificar as animações do site.
+
+## Preview navegável do PR #6
+
+- Catálogo: https://feat-catalogo-especies.uberpeixes-institutional-site.pages.dev/especies/
+- Exemplo de ficha: https://feat-catalogo-especies.uberpeixes-institutional-site.pages.dev/especies/peixe-agulhinha/
+
+São páginas HTML navegáveis do Cloudflare Pages, não capturas. Abra o link HTTPS completo em uma nova aba do navegador; os botões “Ver ficha completa” abrem cada animal. O endereço da branch acompanha os novos deploys do PR, sem exigir merge na main. Uma imagem PNG/JPG da revisão é apenas uma captura e não contém navegação.
+
+O check “Cloudflare Pages” do commit informa o endereço imutável de cada deploy e confirma seu resultado. O endereço da branch pode levar alguns instantes para apontar ao novo deploy. Um erro `CONNECT tunnel failed, response 403` no Codex indica bloqueio do proxy de saída antes de alcançar a hospedagem; não demonstra que a página esteja com erro para visitantes. Se o navegador apresentar uma tela de proteção do Cloudflare Access, revisar as configurações de acesso do preview no projeto existente; não publicar na main para contornar essa proteção.
+
+## Avisos de revisão por ambiente
+
+`src/config/catalog.ts` habilita os avisos “Protótipo em validação”/“Ficha do protótipo” no desenvolvimento local e nos builds de preview do Cloudflare (`CF_PAGES_BRANCH` diferente de `main`). Um build padrão ou da branch `main` omite essas caixas automaticamente. Para testar o aviso em um build local, usar `CATALOG_PREVIEW=true npm run build` e o mesmo valor ao executar os testes. Não definir esse override em produção.
+
+Isso não aprova os dados: `status: "draft"`, ressalvas científicas permanentes e política de indexação continuam independentes. O nome científico, identificação, créditos e limitações das fotos continuam visíveis na versão oficial. A visibilidade adicional do aquário é aplicada somente às páginas do catálogo; a home mantém sua opacidade anterior.
+
+## Correção do quarto piloto
+
+A loja confirmou o nome **Barbo Conchônio Cereja Véu — Pethia conchonius**. Todos os campos biológicos desse registro foram pesquisados novamente para essa espécie. O slug `/especies/barbus-cereja-veu/` foi mantido para não quebrar links já compartilhados; SEO, título, nome científico e mensagem de WhatsApp usam a identificação corrigida.
+
+A foto antiga de Rohanella foi substituída por uma foto real licenciada de Pethia conchonius (Kkonstan, CC BY 3.0). A fotografia exata enviada na conversa/Kauar continua pendente: a imagem incorporada não foi disponibilizada como arquivo no workspace e o proxy bloqueia o domínio da loja de referência. Não se atribuiu à imagem da Kauar a licença de outra fotografia. Para substituí-la exatamente, é necessário disponibilizar seu arquivo original ou liberar o domínio para a consulta.

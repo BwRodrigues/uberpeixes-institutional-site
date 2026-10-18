@@ -1,11 +1,11 @@
 {
   "slug": "barbus-cereja-veu",
-  "name": "Barbus cereja véu",
+  "name": "Barbo Conchônio Cereja Véu",
   "commercialName": "BARBUS CEREJA VEU",
   "category": "Barbos e Danios",
-  "description": "A forma comercial véu pertence à mesma espécie do barbo-cereja, mas merece identificação visual própria. A ficha distingue o que é documentado para a espécie-base do que ainda não foi confirmado para a variedade.",
-  "identificationNote": "Rohanella titteya (Deraniyagala, 1929), variedade comercial denominada véu na planilha. A taxonomia é da espécie-base; as fontes consultadas não caracterizam uma linhagem véu específica da loja. Foto específica dessa variedade permanece pendente.",
-  "scientificName": "Rohanella titteya",
+  "description": "Escamas luminosas, tons avermelhados e nadadeiras alongadas dão destaque ao Barbo Conchônio Cereja Véu. É uma variedade ornamental de Pethia conchonius, um peixe ativo de cardume que aprecia espaço para nadar e água mais fresca.",
+  "identificationNote": "Pethia conchonius (Hamilton, 1822), variedade ornamental de nadadeiras longas conhecida como Barbo Conchônio Cereja Véu. É uma espécie diferente do barbo-cereja Rohanella titteya.",
+  "scientificName": "Pethia conchonius",
   "source": {
     "workbook": "VAREJO PEIXES NICHOS.xlsx",
     "sheet": "Tabela Peixes Atual",
@@ -13,16 +13,16 @@
     "niche": "Barbos e Danios"
   },
   "photo": {
-    "src": "/images/species/barbus-cereja.webp",
+    "src": "/images/species/barbo-conchonio-cereja-veu.webp",
     "width": 960,
-    "height": 574,
-    "alt": "Rohanella titteya de nadadeiras comuns; fotografia da espécie-base, não da variedade véu",
-    "author": "Brian Gratwicke",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cherry_barb,_Puntius_titteya.jpg",
+    "height": 639,
+    "alt": "Dois Pethia conchonius avermelhados com escamas brilhantes e nadadeiras alongadas em aquário plantado",
+    "author": "Kkonstan",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rosy_Barbs.jpg",
     "changes": "Redimensionamento e conversão para WebP; sem recorte ou alteração do conteúdo.",
-    "note": "Foto representativa da espécie-base, com nadadeiras comuns. Não ilustra a variedade véu; fotografia específica da variedade permanece pendente."
+    "note": "Fotografia representativa de Pethia conchonius; não comprova a linhagem exata, a procedência ou a disponibilidade do lote."
   },
   "sections": [
     {
@@ -30,17 +30,17 @@
       "fields": [
         {
           "label": "Outros nomes populares",
-          "value": "Barbus cereja véu, exatamente como o registro comercial fornecido; a palavra véu não é parte do binômio zoológico.",
-          "referenceIds": ["cof"]
+          "value": "Barbo conchônio; barbo-róseo; Rosy barb. Cereja Véu é a denominação ornamental confirmada pela loja.",
+          "referenceIds": ["care"]
         },
         {
           "label": "Identificação científica",
-          "value": "Rohanella titteya; o catálogo taxonômico reconhece a espécie, não um táxon separado chamado “véu”.",
-          "referenceIds": ["cof", "revision"]
+          "value": "Pethia conchonius; a forma de nadadeiras longas não constitui espécie separada.",
+          "referenceIds": ["cof", "care"]
         },
         {
           "label": "Introdução",
-          "value": "Este cartão mantém a variedade comercial separada, mas sem prometer características de uma linhagem que não foi documentada nas referências. Confirme a forma das nadadeiras com a loja antes da compra.",
+          "value": "É um barbo sociável e ativo. Um grupo bem planejado, plantas nas margens e uma faixa livre para natação permitem apreciar sua cor e seu comportamento.",
           "referenceIds": ["care"]
         }
       ]
@@ -60,7 +60,7 @@
         },
         {
           "label": "Classe",
-          "value": "Actinopteri no esquema de classificação adotado.",
+          "value": "Actinopteri, conforme a classificação do Catalog of Fishes.",
           "referenceIds": ["class"]
         },
         {
@@ -70,28 +70,28 @@
         },
         {
           "label": "Família",
-          "value": "Cyprinidae; Smiliogastrinae.",
+          "value": "Cyprinidae; subfamília Smiliogastrinae.",
           "referenceIds": ["cof"]
         },
         {
           "label": "Gênero",
-          "value": "Rohanella",
+          "value": "Pethia",
           "referenceIds": ["cof"]
         },
         {
           "label": "Espécie",
-          "value": "Rohanella titteya. “Véu” é indicação comercial da variedade, não nova espécie.",
+          "value": "Pethia conchonius",
           "referenceIds": ["cof"]
         },
         {
           "label": "Autoridade taxonômica",
-          "value": "(Deraniyagala, 1929), referente à espécie-base.",
+          "value": "(Hamilton, 1822).",
           "referenceIds": ["cof"]
         },
         {
           "label": "Sinônimos científicos",
-          "value": "Puntius titteya é a combinação anterior sob a qual a ficha de manutenção foi consultada; Barbus titteya também aparece na literatura.",
-          "referenceIds": ["cof", "care"]
+          "value": "Cyprinus conchonius é a combinação original; Puntius conchonius é uma combinação anterior amplamente usada.",
+          "referenceIds": ["cof"]
         }
       ]
     },
@@ -100,27 +100,27 @@
       "fields": [
         {
           "label": "Continente e países",
-          "value": "A espécie-base é asiática e endêmica do Sri Lanka. A planilha não informa onde foi criada a variedade véu.",
+          "value": "Ásia meridional: Afeganistão, Paquistão, Índia, Nepal e Bangladesh, segundo o catálogo taxonômico.",
           "referenceIds": ["cof"]
         },
         {
           "label": "Distribuição geográfica",
-          "value": "Oeste e sudoeste do Sri Lanka para populações naturais da espécie; isso não determina a origem de uma linhagem ornamental.",
+          "value": "Sopés do Himalaia e região da bacia Ganges–Brahmaputra. Populações introduzidas não devem ser confundidas com a distribuição nativa.",
           "referenceIds": ["cof"]
         },
         {
           "label": "Bacia hidrográfica",
-          "value": "Kelani e Nilwala são citadas para a espécie-base nas fontes de biologia e manutenção.",
-          "referenceIds": ["care", "fb"]
+          "value": "Ganges–Brahmaputra; a localidade-tipo fica perto do Brahmaputra, em Goalpara, Assam, Índia.",
+          "referenceIds": ["cof"]
         },
         {
           "label": "Ambiente natural",
-          "value": "Riachos sombreados e lentos com folhas e vegetação marginal, descritos para a espécie natural. Não foi atribuído habitat silvestre próprio à forma véu.",
-          "referenceIds": ["care"]
+          "value": "Ocupa desde riachos e tributários com correnteza até lagos, lagoas e áreas de água mais lenta.",
+          "referenceIds": ["care", "fb"]
         },
         {
           "label": "Nativa, exótica ou linhagem ornamental",
-          "value": "Registro comercial de variedade ornamental de espécie exótica ao Brasil. Procedência e características do lote precisam de confirmação com a loja.",
+          "value": "Espécie asiática, exótica em relação ao Brasil; véu é uma forma ornamental selecionada. A procedência do lote da loja não foi informada.",
           "referenceIds": ["cof", "care"]
         }
       ]
@@ -130,27 +130,27 @@
       "fields": [
         {
           "label": "Características físicas",
-          "value": "O nome comercial sugere nadadeiras alongadas; não foi encontrada caracterização científica da linhagem véu oferecida pela loja. Confirmação visual permanece necessária.",
-          "referenceIds": ["care"]
+          "value": "Corpo comprimido lateralmente, escamas bem aparentes e mancha escura perto do pedúnculo caudal. Há linhagens selecionadas de nadadeiras alongadas.",
+          "referenceIds": ["care", "fb"]
         },
         {
           "label": "Coloração",
-          "value": "A espécie-base apresenta variação sexual e linhagens selecionadas. Não se garante padrão ou intensidade de vermelho próprios da variedade véu.",
+          "value": "Machos maduros tendem a ser mais avermelhados e brilhantes; a intensidade varia com linhagem, condição e período reprodutivo.",
           "referenceIds": ["care"]
         },
         {
           "label": "Tamanho adulto",
-          "value": "Referência da espécie-base: aproximadamente 5 cm. As fontes não medem separadamente eventuais extensões de nadadeiras da variedade véu.",
+          "value": "Seriously Fish indica até 10 cm de comprimento padrão; FishBase registra máximo de 14 cm de comprimento total. São métodos diferentes, não medidas intercambiáveis; extensões da forma véu não foram quantificadas separadamente.",
           "referenceIds": ["care", "fb"]
         },
         {
           "label": "Expectativa de vida",
-          "value": "Não foi localizada estimativa documentada específica da variedade ou um prazo confiável para fixar nesta ficha.",
+          "value": "Não foi localizada estimativa de longevidade suficientemente documentada nas fontes consultadas.",
           "referenceIds": ["care", "fb"]
         },
         {
           "label": "Diferenças entre machos e fêmeas",
-          "value": "Na espécie-base, machos mais esguios e coloridos e fêmeas mais cheias. Não há validação de dimorfismo adicional exclusivo da variedade.",
+          "value": "Machos adultos costumam ser menores, mais esguios e mais coloridos; fêmeas tendem a ser mais encorpadas.",
           "referenceIds": ["care"]
         }
       ]
@@ -160,47 +160,47 @@
       "fields": [
         {
           "label": "Temperatura em aquário",
-          "value": "20–27 °C é a faixa consultada para a espécie-base; não há faixa distinta comprovada para a variedade véu.",
+          "value": "16–24 °C, conforme a ficha específica de manutenção. Não pressupor aquário permanentemente quente apenas por ser um peixe ornamental.",
           "referenceIds": ["care"]
         },
         {
           "label": "pH em aquário",
-          "value": "6,0–8,0 para exemplares de criação da espécie-base. Confirmar com a loja as condições do lote, sem ajustar água abruptamente.",
+          "value": "6,0–8,0; priorizar estabilidade e adaptação às condições do lote, sem perseguir extremos da faixa.",
           "referenceIds": ["care"]
         },
         {
           "label": "GH",
-          "value": "2–20 °dGH na ficha da espécie-base; a literatura consultada não estabelece faixa própria da variedade.",
-          "referenceIds": ["care"]
+          "value": "5–20 °dGH na referência de manutenção; FishBase registra 5–19 °dH.",
+          "referenceIds": ["care", "fb"]
         },
         {
           "label": "KH",
-          "value": "Não foi localizada faixa específica, nem para a forma véu nem na ficha de manutenção usada.",
+          "value": "Não foi localizada faixa específica de KH; GH e KH são medidas distintas.",
           "referenceIds": ["care"]
         },
         {
           "label": "Registros na natureza",
-          "value": "As condições dos riachos do Sri Lanka referem-se à espécie natural; uma variedade selecionada não ganhou uma distribuição silvestre nova.",
-          "referenceIds": ["care"]
+          "value": "A espécie ocupa ambientes variados. O resumo de FishBase informa 18–22 °C; isso não substitui a faixa de manutenção em aquário indicada separadamente.",
+          "referenceIds": ["fb", "care"]
         },
         {
           "label": "Tipo de ambiente",
-          "value": "Água doce; condições estáveis e compatíveis com a espécie-base.",
-          "referenceIds": ["care"]
+          "value": "Água doce, com espaço para o cardume e circulação adequada.",
+          "referenceIds": ["cof", "care"]
         },
         {
           "label": "Substrato e decoração",
-          "value": "Plantas, substrato escuro e refúgios são indicações para a espécie-base. Não foi atribuída exigência inédita ao nome véu.",
+          "value": "Substrato escuro realça a coloração; raízes e galhos ajudam a criar áreas de sombra.",
           "referenceIds": ["care"]
         },
         {
           "label": "Vegetação e esconderijos",
-          "value": "Manter margens protegidas e área livre para o grupo, observando o deslocamento dos exemplares reais.",
+          "value": "Aquário plantado com vegetação flutuante e nas margens, preservando a área livre de natação.",
           "referenceIds": ["care"]
         },
         {
           "label": "Circulação e oxigenação",
-          "value": "A fonte da espécie-base recomenda alguma movimentação, sem exigir corrente intensa. A tolerância específica da variedade não foi quantificada.",
+          "value": "Aprecia algum movimento de água; a referência não exige filtragem especialmente forte. Manter água limpa e oxigenada.",
           "referenceIds": ["care"]
         }
       ]
@@ -210,42 +210,42 @@
       "fields": [
         {
           "label": "Volume mínimo e contexto",
-          "value": "A espécie-base tem referência de base mínima 60 × 30 cm, cerca de 54 L brutos com 30 cm de altura. A ficha não reduz espaço por se tratar de variedade ornamental.",
+          "value": "A referência oferece base mínima de 100 × 30 cm e cerca de 90 L brutos para o contexto inicial. Para 8–10 ou mais animais, avaliar o porte adulto, a área livre e a comunidade; volume bruto não é capacidade útil nem garantia de lotação.",
           "referenceIds": ["care"]
         },
         {
           "label": "Dimensões do aquário",
-          "value": "Planejar pelo menos a base de 60 × 30 cm e avaliar espaço adicional para o grupo e companheiros.",
+          "value": "Pelo menos 100 × 30 cm de base ou área equivalente, priorizando comprimento para natação; aumentar o espaço conforme o grupo e o porte.",
           "referenceIds": ["care"]
         },
         {
           "label": "Dificuldade",
-          "value": "A espécie-base é indicada para iniciantes; não foi documentada uma classificação de dificuldade própria da forma véu.",
+          "value": "Indicada para iniciantes pela referência, desde que o aquário esteja preparado e as exigências da espécie sejam atendidas.",
           "referenceIds": ["care"]
         },
         {
           "label": "Área de natação",
-          "value": "Manter espaço de deslocamento do grupo. Não se presumiu uma região nova de natação para esta variedade.",
-          "referenceIds": ["care"]
+          "value": "Peixe ativo da coluna d’água; disponibilizar percurso horizontal livre.",
+          "referenceIds": ["care", "fb"]
         },
         {
           "label": "Territorialidade",
-          "value": "O comportamento geralmente pacífico é descrito para a espécie-base; a planilha não comprova temperamento específico da linhagem.",
+          "value": "Geralmente pacífico; machos podem exibir cores e competir pela atenção das fêmeas. Não confinar o grupo em espaço insuficiente.",
           "referenceIds": ["care"]
         },
         {
           "label": "Quantidade de indivíduos",
-          "value": "A referência para a espécie é 6–10 ou mais. Não foi criada uma regra de lotação diferente apenas pelo nome véu.",
+          "value": "Cardume de pelo menos 8–10 exemplares é a recomendação da fonte específica.",
           "referenceIds": ["care"]
         },
         {
           "label": "Manutenção específica",
-          "value": "Observar integridade e mobilidade das nadadeiras dos exemplares, sem atribuir doença ou fragilidade genética não documentada.",
+          "value": "Aquário estabelecido, filtragem em funcionamento e acompanhamento da qualidade da água. Planejar o conjunto de peixes antes da compra.",
           "referenceIds": ["care"]
         },
         {
           "label": "Orientações para iniciantes",
-          "value": "Peça confirmação visual da variedade e das condições de criação. Não escolha companheiros só pela semelhança de tamanho ou pela aparência das nadadeiras.",
+          "value": "Evite escolher companheiros apenas pela aparência: compare temperatura, tamanho adulto, espaço e comportamento de cada espécie.",
           "referenceIds": ["care"]
         }
       ]
@@ -255,27 +255,27 @@
       "fields": [
         {
           "label": "Classificação alimentar",
-          "value": "Onivoria descrita para a espécie-base; não há evidência de dieta própria para a variedade véu.",
+          "value": "Onívoro: a espécie consome pequenos invertebrados, material vegetal e detritos orgânicos.",
           "referenceIds": ["care", "fb"]
         },
         {
           "label": "Alimentos adequados",
-          "value": "Alimentos pequenos, secos de qualidade e complementos vivos/congelados adequados à espécie-base.",
+          "value": "Ração de qualidade em flocos ou grânulos, com componente vegetal/algal, e variedade de alimentos pequenos como Daphnia e Artemia de procedência apropriada.",
           "referenceIds": ["care"]
         },
         {
           "label": "Frequência justificada",
-          "value": "Não foi estabelecida frequência numérica específica para a variedade; ajustar à condição e aceitação reais.",
+          "value": "As fontes consultadas não estabelecem uma frequência numérica universal; ajustar pequenas porções ao consumo e ao grupo.",
           "referenceIds": ["care"]
         },
         {
           "label": "Variedade alimentar",
-          "value": "Alternar fontes adequadas de origem animal e componente vegetal. O nome ornamental não justifica suplementos ou produtos extras por si só.",
+          "value": "Combinar alimento seco adequado com itens vivos ou congelados apropriados; uma dieta variada favorece a condição corporal.",
           "referenceIds": ["care"]
         },
         {
           "label": "Cuidados com excesso de alimento",
-          "value": "Observar o acesso de cada animal ao alimento e evitar sobras; não foi recomendada alimentação adicional para “crescer o véu”.",
+          "value": "Observar o consumo e evitar sobras persistentes; maior quantidade não substitui variedade nem manutenção da água.",
           "referenceIds": ["care"]
         }
       ]
@@ -285,28 +285,28 @@
       "fields": [
         {
           "label": "Temperamento",
-          "value": "A referência da espécie-base descreve comportamento geralmente pacífico; não há ensaio específico da variedade.",
+          "value": "Geralmente pacífico em comunidade planejada, com exigências compatíveis entre os moradores.",
           "referenceIds": ["care"]
         },
         {
           "label": "Comportamento social",
-          "value": "Manter grupo da mesma espécie, em vez de tratar a forma ornamental como peixe solitário.",
+          "value": "Espécie de cardume: um grupo adequado reduz a timidez e permite exibições sociais mais naturais.",
           "referenceIds": ["care"]
         },
         {
           "label": "Compatibilidade",
-          "value": "Companheiros pequenos, calmos e de exigências compatíveis, com observação da interação real.",
+          "value": "Comparar o intervalo de temperatura, o tamanho e a atividade dos companheiros. A referência menciona outros pequenos ciprinídeos e peixes pacíficos com condições compatíveis.",
           "referenceIds": ["care"]
         },
         {
           "label": "Conflitos",
-          "value": "Evitar predadores e peixes que assediem o grupo. Não há garantia publicada de que a variedade tolere beliscadores de nadadeiras.",
+          "value": "Evitar combinações sem espaço ou com animais que intimidem o grupo. “Pacífico” não garante compatibilidade com qualquer espécie.",
           "referenceIds": ["care"]
         },
         {
           "label": "Peixes menores, invertebrados e plantas",
-          "value": "A onivoria da espécie-base não permite prometer segurança para ovos ou crias de invertebrados. Plantas continuam úteis ao arranjo.",
-          "referenceIds": ["care"]
+          "value": "Consome pequenos invertebrados; não presumir segurança para crias ou animais que caibam na boca. Plantas são recomendadas na montagem.",
+          "referenceIds": ["care", "fb"]
         }
       ]
     },
@@ -315,27 +315,27 @@
       "fields": [
         {
           "label": "Tipo de reprodução",
-          "value": "Oviparidade e dispersão de ovos sem cuidado parental, documentadas para Rohanella titteya sob o nome anterior.",
+          "value": "Ovípara, com dispersão de ovos e sem cuidado parental.",
           "referenceIds": ["care"]
         },
         {
           "label": "Dimorfismo sexual",
-          "value": "Considerar o padrão da espécie-base; a extensão de nadadeiras não foi validada como regra independente para sexagem.",
+          "value": "Machos mais esguios e coloridos; fêmeas maduras mais encorpadas.",
           "referenceIds": ["care"]
         },
         {
           "label": "Comportamento reprodutivo",
-          "value": "A fonte descreve desova entre plantas finas para a espécie-base, não um protocolo exclusivo da variedade.",
+          "value": "Indivíduos bem condicionados podem desovar em grupo ou em pares, usando plantas finas ou suporte que proteja os ovos.",
           "referenceIds": ["care"]
         },
         {
           "label": "Ovos e filhotes",
-          "value": "A referência descreve predação de ovos pelos adultos e alimentação inicial muito pequena para os alevinos.",
+          "value": "Adultos podem comer os ovos. A fonte relata eclosão em 24–48 horas, seguida de alimento inicial muito fino e, conforme crescimento, microvermes ou náuplios de Artemia.",
           "referenceIds": ["care"]
         },
         {
           "label": "Dificuldade em cativeiro",
-          "value": "Reprodução da espécie-base é documentada. Herança, fixação e proporção da forma véu nos descendentes permanecem sem confirmação nas fontes usadas.",
+          "value": "Reprodução documentada em aquário; aumentar sobrevivência dos filhotes requer separação e alimentação apropriada. As fontes não estabelecem a herança específica da linhagem comercial Cereja Véu da loja.",
           "referenceIds": ["care"]
         }
       ]
@@ -345,22 +345,22 @@
       "fields": [
         {
           "label": "Sensibilidade a alterações",
-          "value": "Não foi identificada tolerância química ou térmica diferente da espécie-base. Manutenção estável continua sendo a referência.",
+          "value": "Manter estabilidade e respeitar a faixa de manutenção; não foi localizada predisposição clínica comprovada exclusiva da variedade da loja.",
           "referenceIds": ["care"]
         },
         {
           "label": "Problemas de manutenção",
-          "value": "É necessário observar os exemplares reais; não foi presumida predisposição a doenças por causa do termo véu.",
+          "value": "Grupo pequeno, pouco espaço de natação, comunidade incompatível e água deteriorada exigem revisão do manejo, sem diagnóstico automático de doença.",
           "referenceIds": ["care"]
         },
         {
           "label": "Prevenção",
-          "value": "Planejar o grupo e a comunidade e acompanhar o estado das nadadeiras. Não há protocolo veterinário específico documentado para esta linhagem.",
+          "value": "Planejar o cardume e a comunidade, manter filtragem e observar alimentação e integridade das nadadeiras. Não há prescrição de medicamentos nesta ficha.",
           "referenceIds": ["care"]
         },
         {
           "label": "Sinais de estresse",
-          "value": "Mudanças persistentes de comportamento e alimentação pedem revisão do manejo. Alterações de nadadeiras exigem avaliação, não diagnóstico por aparência ou medicação automática.",
+          "value": "Timidez persistente e isolamento merecem observar grupo, ambiente e companheiros. Esses sinais isolados não identificam uma doença específica.",
           "referenceIds": ["care"]
         }
       ]
@@ -369,9 +369,14 @@
       "id": "curiosidades",
       "fields": [
         {
-          "label": "Nome de espécie versus nome de variedade",
-          "value": "Véu mantém a identidade comercial da planilha, mas a espécie segue Rohanella titteya.",
-          "referenceIds": ["cof", "revision"]
+          "label": "Véu é uma seleção ornamental",
+          "value": "A referência de manutenção documenta variedades de nadadeiras longas, véu, super-red, neon e dourada de Pethia conchonius.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Um nome antigo ainda comum",
+          "value": "Puntius conchonius aparece em obras e fotografias antigas; o nome aceito no catálogo consultado é Pethia conchonius.",
+          "referenceIds": ["cof"]
         }
       ]
     }
@@ -379,46 +384,38 @@
   "references": [
     {
       "id": "cof",
-      "title": "Eschmeyer’s Catalog of Fishes — Rohanella titteya",
-      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=31656",
-      "accessedAt": "2026-10-18",
+      "title": "Eschmeyer’s Catalog of Fishes — Pethia conchonius",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=2612",
       "author": "California Academy of Sciences",
-      "year": "2026"
+      "year": "2026",
+      "accessedAt": "2026-10-18"
     },
     {
       "id": "class",
       "title": "Eschmeyer’s Catalog of Fishes — Genera/Species by Family/Subfamily",
       "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
-      "accessedAt": "2026-10-18",
       "author": "California Academy of Sciences",
-      "year": "2026"
+      "year": "2026",
+      "accessedAt": "2026-10-18"
     },
     {
       "id": "care",
-      "title": "Puntius titteya (nome anterior de Rohanella titteya) — ficha de manutenção",
-      "url": "https://www.seriouslyfish.com/species/puntius-titteya/",
-      "accessedAt": "2026-10-18",
-      "author": "Seriously Fish"
+      "title": "Pethia conchonius — ficha de manutenção e variedades ornamentais",
+      "url": "https://www.seriouslyfish.com/species/pethia-conchonius/",
+      "author": "Seriously Fish",
+      "accessedAt": "2026-10-18"
     },
     {
       "id": "fb",
-      "title": "Puntius titteya (nome anterior de Rohanella titteya) — resumo biológico",
-      "url": "https://www.fishbase.se/summary/puntius-titteya.html",
-      "accessedAt": "2026-10-18",
-      "author": "FishBase"
-    },
-    {
-      "id": "revision",
-      "title": "Molecular phylogeny and systematics of the South Asian freshwater-fish genus Puntius (Teleostei: Cyprinidae)",
-      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/getref.asp?id=40281",
-      "accessedAt": "2026-10-18",
-      "author": "H. Sudasinghe, L. Rüber e M. Meegaskumbura",
-      "year": "2023"
+      "title": "Pethia conchonius — resumo biológico",
+      "url": "https://www.fishbase.se/summary/Pethia-conchonius.html",
+      "author": "FishBase",
+      "accessedAt": "2026-10-18"
     },
     {
       "id": "gbif",
-      "title": "Puntius titteya — correspondência no GBIF (usada para reino e filo)",
-      "url": "https://api.gbif.org/v1/species/match?name=Puntius%20titteya",
+      "title": "Pethia conchonius — correspondência no GBIF (usada para reino e filo)",
+      "url": "https://api.gbif.org/v1/species/match?name=Pethia%20conchonius",
       "author": "GBIF",
       "accessedAt": "2026-10-18"
     }

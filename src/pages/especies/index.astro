@@ -8,6 +8,7 @@ import {
   isPublishable,
 } from "../../data/species";
 import { speciesInquiry, canonicalUrl } from "../../config/site";
+import { isCatalogPreview } from "../../config/catalog";
 const allReviewed = species.every(isPublishable);
 ---
 
@@ -52,7 +53,7 @@ const allReviewed = species.every(isPublishable);
       valor e disponibilidade.
     </p>
   </section>
-  {!allReviewed && (
+  {isCatalogPreview && !allReviewed && (
     <aside class="catalog-notice" aria-label="Status do catálogo">
       <strong>Protótipo em validação</strong>
       <p>
@@ -75,7 +76,7 @@ const allReviewed = species.every(isPublishable);
       />
     </div>
     <div>
-      <label for="species-category">Categoria da planilha</label>
+      <label for="species-category">Categoria dos animais</label>
       <select id="species-category" name="categoria">
         <option value="">Todas as categorias</option>
         {categories.map((category) => (
@@ -99,7 +100,7 @@ const allReviewed = species.every(isPublishable);
     aria-live="polite"
     data-catalog-result
   >
-    {species.length} animais no protótipo
+    {species.length} animais no catálogo
   </p>
   <div class="species-grid">
     {species.map((animal) => (

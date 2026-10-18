@@ -21,8 +21,8 @@ const pilot = [
   },
   {
     slug: "barbus-cereja-veu",
-    name: "Barbus cereja véu",
-    scientific: "Rohanella titteya",
+    name: "Barbo Conchônio Cereja Véu",
+    scientific: "Pethia conchonius",
     commercial: "BARBUS CEREJA VEU",
   },
   {
@@ -45,7 +45,7 @@ test("homepage menu opens exactly five pilot records without overflow", async ({
   await expect(page.locator("[data-species-card]")).toHaveCount(5);
   await expect(
     page.getByText("Protótipo em validação", { exact: true }),
-  ).toBeVisible();
+  ).toHaveCount(process.env.CATALOG_PREVIEW === "true" ? 1 : 0);
   for (const entry of pilot)
     await expect(page.locator("[data-species-card]")).toContainText([
       entry.name,
@@ -63,12 +63,12 @@ test("search is accent-insensitive and combines with category filters and reset"
   await page.goto("/especies/");
   const search = page.getByRole("searchbox", { name: "Pesquisar por nome" });
   const category = page.getByRole("combobox", {
-    name: "Categoria da planilha",
+    name: "Categoria dos animais",
   });
   await search.fill("  VÉU  ");
   await expect(page.locator("[data-species-card]:visible")).toHaveCount(1);
   await expect(page.locator("[data-species-card]:visible")).toContainText(
-    "Barbus cereja véu",
+    "Barbo Conchônio Cereja Véu",
   );
   await category.selectOption("Asiáticos");
   await expect(page.locator("[data-species-card]:visible")).toHaveCount(0);
@@ -145,6 +145,20 @@ test("each generated profile has the correct identity, inquiry, metadata, refere
       expect(url.origin + url.pathname).toBe("https://wa.me/5534998910880");
       expect(url.searchParams.get("text")).toBe(
         `Olá! Estava conhecendo a espécie ${entry.name} (${entry.scientific}) no site da Uberpeixes e gostaria de consultar o valor e a disponibilidade.`,
+      );
+    }
+    await expect(page.locator(".species-inquiry a")).toBeInViewport();
+    if (entry.slug === "barbus-cereja-veu") {
+      await expect(page.locator("#agua")).toContainText("16–24 °C");
+      await expect(page.locator("#criacao")).toContainText("8–10");
+      await expect(page.locator("#classificacao")).toContainText(
+        "Pethia conchonius",
+      );
+      await expect(
+        page.locator(".species-hero .species-photo img"),
+      ).toHaveAttribute(
+        "src",
+        "/images/species/barbo-conchonio-cereja-veu.webp",
       );
     }
     titles.add(await page.title());
