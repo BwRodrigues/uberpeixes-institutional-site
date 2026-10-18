@@ -1,0 +1,352 @@
+{
+  "slug": "aulonocara-stuartgranti",
+  "name": "Aulonocara-stuartgranti",
+  "commercialName": "AULONOCARA STUARTGRANTI NGARA",
+  "category": "Ciclídeos Africanos",
+  "source": {
+    "workbook": "VAREJO PEIXES NICHOS.xlsx",
+    "sheet": "Tabela Peixes Atual",
+    "row": 53,
+    "niche": "Ciclídeos Africanos"
+  },
+  "sortOrder": 53,
+  "scientificName": "Aulonocara stuartgranti",
+  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "description": "A aulonocara-stuartgranti explora a areia procurando alimento. As cores variam entre populações, por isso a procedência importa mais que um nome de cor.",
+  "photo": {
+    "src": "/images/species/aulonocara-stuartgranti-1.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Fotografia representativa de Aulonocara stuartgranti; imagem de referência da espécie, sem indicação de estoque.",
+    "author": "Photograph by Mike Peel (www.mikepeel.net).",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frankfurt_Zoo_-_Aulonocara_stuartgranti_Usisya_1.jpg",
+    "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo.",
+    "note": "Representante fotografado como população Usisya; não afirma identidade com a população Ngara do registro comercial."
+  },
+  "additionalPhotos": [
+    {
+      "src": "/images/species/aulonocara-stuartgranti-2.webp",
+      "width": 960,
+      "height": 640,
+      "alt": "Fotografia representativa de Aulonocara stuartgranti; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Photograph by Mike Peel (www.mikepeel.net).",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frankfurt_Zoo_-_Aulonocara_stuartgranti_Usisya_2.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo.",
+      "note": "Representante fotografado como população Usisya; não afirma identidade com a população Ngara do registro comercial."
+    },
+    {
+      "src": "/images/species/aulonocara-stuartgranti-3.webp",
+      "width": 960,
+      "height": 640,
+      "alt": "Fotografia representativa de Aulonocara stuartgranti; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Photograph by Mike Peel (www.mikepeel.net).",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frankfurt_Zoo_-_Aulonocara_stuartgranti_Usisya.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo.",
+      "note": "Representante fotografado como população Usisya; não afirma identidade com a população Ngara do registro comercial."
+    }
+  ],
+  "sections": [
+    {
+      "id": "apresentacao",
+      "fields": [
+        {
+          "label": "Outros nomes populares",
+          "value": "AULONOCARA STUARTGRANTI NGARA",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Identificação científica",
+          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Introdução",
+          "value": "A aulonocara-stuartgranti explora a areia procurando alimento. As cores variam entre populações, por isso a procedência importa mais que um nome de cor.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "classificacao",
+      "fields": [
+        {
+          "label": "Reino",
+          "value": "Animalia",
+          "referenceIds": [
+            "gbif"
+          ]
+        },
+        {
+          "label": "Filo",
+          "value": "Chordata",
+          "referenceIds": [
+            "gbif"
+          ]
+        },
+        {
+          "label": "Classe",
+          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "referenceIds": [
+            "class"
+          ]
+        },
+        {
+          "label": "Ordem",
+          "value": "Cichliformes",
+          "referenceIds": [
+            "class"
+          ]
+        },
+        {
+          "label": "Família",
+          "value": "Cichlidae",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Gênero",
+          "value": "Aulonocara",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Espécie",
+          "value": "Aulonocara stuartgranti",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Autoridade taxonômica",
+          "value": "Meyer & Riehl 1985",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Sinônimos científicos",
+          "value": "Literatura de manutenção consultada sob Aulonocara stuartgranti; o nome aceito adotado é Aulonocara stuartgranti. Consultar o histórico nomenclatural completo na referência taxonômica.",
+          "referenceIds": [
+            "cof",
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Continente e países",
+          "value": "África: lago Malawi, com populações distribuídas por margens leste e oeste, incluindo localidades como Ngara e Maulana.",
+          "referenceIds": [
+            "care",
+            "cof"
+          ]
+        },
+        {
+          "label": "Ambiente natural",
+          "value": "Zona intermediária entre costões rochosos e areia aberta com rochas dispersas.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Tamanho adulto",
+          "value": "130 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Machos são maiores e mais coloridos; fêmeas apresentam cores mais discretas.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "23–29 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "7.5–9.0; não interpretar os extremos como metas a alternar.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "GH",
+          "value": "10–25 °dGH.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "KH",
+          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Substrato e decoração",
+          "value": "Areia fina, rochas estáveis e áreas abertas; cascalho grosso pode atrapalhar a alimentação e causar lesões. Exige água de ótima qualidade.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "Base mínima de 120 × 45 cm, cerca de 243 L na fonte, salvo montagens reprodutivas específicas. Comunitários e vários territórios pedem mais espaço.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Manutenção específica",
+          "value": "Areia fina, rochas estáveis e áreas abertas; cascalho grosso pode atrapalhar a alimentação e causar lesões. Exige água de ótima qualidade.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Alimentos adequados",
+          "value": "Procura pequenos organismos no substrato; oferecer rações finas apropriadas e pequenos alimentos de origem aquática variados.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Comportamento social",
+          "value": "Machos são territoriais, sobretudo contra cores semelhantes. A fonte indica um macho com 4–6 fêmeas e desaconselha mistura com outras Aulonocara pelo risco de hibridação.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Tipo de reprodução",
+          "value": "Incubação bucal materna. Machos podem perseguir fêmeas, exigindo refúgios e proporção adequada de sexos.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Problemas de manutenção",
+          "value": "Areia fina, rochas estáveis e áreas abertas; cascalho grosso pode atrapalhar a alimentação e causar lesões. Exige água de ótima qualidade.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "fields": [
+        {
+          "label": "Curiosidades verificadas da espécie",
+          "value": "As fotos mostram representantes da espécie, sem garantir que sejam da população Ngara da linha comercial. Maleri e nomes de cor não foram automaticamente agrupados.",
+          "referenceIds": [
+            "care",
+            "cof"
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "cof",
+      "title": "Eschmeyer’s Catalog of Fishes — Aulonocara stuartgranti",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=8048",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "class",
+      "title": "Eschmeyer’s Catalog of Fishes — classificação por família",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "care",
+      "title": "Aulonocara stuartgranti — manutenção e história natural",
+      "url": "https://www.seriouslyfish.com/species/aulonocara-stuartgranti/",
+      "author": "Seriously Fish",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "gbif",
+      "title": "Aulonocara stuartgranti — registro comparativo no GBIF",
+      "url": "https://api.gbif.org/v1/species/match?name=Aulonocara%20stuartgranti",
+      "author": "GBIF",
+      "accessedAt": "2026-10-18"
+    }
+  ],
+  "regions": [
+    {
+      "id": "africa",
+      "label": "África",
+      "scale": "continent",
+      "referenceIds": [
+        "care",
+        "cof"
+      ]
+    }
+  ],
+  "status": "draft"
+}

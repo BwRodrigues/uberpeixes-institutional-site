@@ -94,6 +94,37 @@ test("each generated profile has the correct identity, inquiry, metadata, refere
       entry.commercial,
     );
     await expect(page.locator("header .brand-logo")).toBeVisible();
+    await expect(page.locator(".photo-changes")).toHaveCount(0);
+    await expect(
+      page.locator(".species-photo figcaption").first(),
+    ).not.toContainText(/redimension|conversão|ampliação/i);
+    const sourceLabels = await page
+      .locator(".field-references a")
+      .allTextContents();
+    expect(
+      sourceLabels.every((label) =>
+        [
+          "Taxonomia",
+          "Classificação",
+          "Cuidados",
+          "Revisão científica",
+          "Biologia",
+          "Biodiversidade",
+          "Referência científica",
+        ].includes(label.trim()),
+      ),
+    ).toBe(true);
+    expect(
+      await page
+        .locator(".field-references a")
+        .evaluateAll((links) =>
+          links.every((link) =>
+            Boolean(
+              document.getElementById(link.getAttribute("href")!.slice(1)),
+            ),
+          ),
+        ),
+    ).toBe(true);
     await expect(page.locator(".profile-section")).toHaveCount(11);
     expect(
       await page.locator('#referencias a[href^="https://"]').count(),

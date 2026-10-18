@@ -35,6 +35,7 @@ def audit():
                 out.update(state='completed' if row['row']==source['rows'][0] else 'duplicate',slug=animal['slug'],reason='Ficha única gerada; variedades/tamanhos/sexos preservados como nomes alternativos, sem duplicar página.')
             else:
                 reasons=[]
+                if source.get('publicationPending'):reasons.append(source['publicationPending'])
                 if not tax:reasons.append(source.get('taxonomyPending','Taxonomia oficial pendente.'))
                 if group not in research:reasons.append('Conteúdo de manutenção ainda não aprovado para geração; revisar divergências e recomendações específicas.')
                 if len(photos.get(group,[]))!=3:reasons.append('Não foram selecionadas três fotografias reais distintas com licença comercial adequada.')

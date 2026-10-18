@@ -18,27 +18,20 @@ def field(label, value, refs=('care',)):return {'label':label,'value':value,'ref
 def section(id, *fields):return {'id':id,'fields':list(fields)}
 def make(key, source, research, photos, inventory):
     tax=source['taxonomy'];name=tax['scientificName'];rows=[r for r in inventory if r['row'] in source['rows']];first=rows[0];numbers=source['careNumbers'];family=tax['family']
-    order={'Cyprinidae':'Cypriniformes','Danionidae':'Cypriniformes','Botiidae':'Cypriniformes','Cobitidae':'Cypriniformes','Gyrinocheilidae':'Cypriniformes','Cichlidae':'Cichliformes','Osphronemidae':'Anabantiformes','Callichthyidae':'Siluriformes','Pangasiidae':'Siluriformes','Mochokidae':'Siluriformes','Pimelodidae':'Siluriformes','Poeciliidae':'Cyprinodontiformes','Acestrorhamphidae':'Characiformes','Characidae':'Characiformes','Melanotaeniidae':'Atheriniformes'}[family]
+
     refs=[{'id':'cof','title':'Eschmeyer’s Catalog of Fishes — '+name,'url':tax['url'],'author':'California Academy of Sciences','accessedAt':source['accessedAt']},{'id':'class','title':'Eschmeyer’s Catalog of Fishes — classificação por família','url':'https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp','author':'California Academy of Sciences','accessedAt':source['accessedAt']},{'id':'care','title':source['candidateName']+' — manutenção e história natural','url':source['careUrl'],'author':'Seriously Fish','accessedAt':source['accessedAt']},{'id':'gbif','title':source['candidateName']+' — registro comparativo no GBIF','url':source['gbifUrl'],'author':'GBIF','accessedAt':source['accessedAt']}]
     identity='Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.'
     if name != source['candidateName']:identity+=f" A fonte de manutenção e as fotos podem usar o nome anterior {source['candidateName']}; não são espécies adicionais."
     aliases='; '.join(r['commercialName'] for r in rows)
     portrait=[]
     for photo in photos:
-        portrait.append({k:v for k,v in photo.items() if k in ['src','width','height','alt','author','license','licenseUrl','sourceUrl','changes','note']})
-    regions=[]
-    def region(id,label,scale='continent'):regions.append({'id':id,'label':label,'scale':scale,'referenceIds':['care','cof']})
-    if key in ['thorichthys-meeki','xiphophorus-hellerii','poecilia-sphenops']:region('america-do-norte','América do Norte')
-    elif key=='poecilia-reticulata':region('america-do-sul','América do Sul');region('america-do-norte','América do Norte')
-    elif key=='melanotaenia-praecox':region('oceania','Oceania')
-    elif first['category'].startswith('Ciclídeos Africanos'):region('africa','África')
-    elif key.startswith('synodontis-'):region('africa','África')
-    elif first['category'] in ['Ciclídeos Americanos','Tetras e Peixes de Cardume','Limpadores','Peixes de Grande Porte'] and key not in ['gyrinocheilus-aymonieri','pangasianodon-hypophthalmus']:region('america-do-sul','América do Sul')
-    else:region('asia','Ásia')
-    if key in ['melanotaenia-praecox','puntigrus-tetrazona','trichopodus-trichopterus','trichopodus-leerii']:region('indonesia','Indonésia','country')
+        public_photo={k:v for k,v in photo.items() if k in ['src','width','height','alt','author','license','licenseUrl','sourceUrl','changes','note']}
+        if public_photo.get('note','').startswith('Original de '):public_photo.pop('note')
+        portrait.append(public_photo)
+    regions=source['regions']
     return {'slug':slug(name),'name':source['popularName'],'commercialName':first['commercialName'],'category':first['category'],'source':{'workbook':'VAREJO PEIXES NICHOS.xlsx','sheet':first['sheet'],'row':first['row'],'niche':first['category']},'sortOrder':first['row'],'scientificName':name,'identificationNote':identity,'description':research['description'],'photo':portrait[0],'additionalPhotos':portrait[1:],'sections':[
       section('apresentacao',field('Outros nomes populares',aliases),field('Identificação científica',identity,('cof',)),field('Introdução',research['description'])),
-      section('classificacao',field('Reino','Animalia',('gbif',)),field('Filo','Chordata',('gbif',)),field('Classe','Actinopteri, conforme o esquema do Catalog of Fishes.',('class',)),field('Ordem',order,('class',)),field('Família',family,('cof',)),field('Gênero',name.split()[0],('cof',)),field('Espécie',name,('cof',)),field('Autoridade taxonômica',tax['authority'],('cof',)),field('Sinônimos científicos',f"Literatura de manutenção consultada sob {source['candidateName']}; o nome aceito adotado é {name}. Consultar o histórico nomenclatural completo na referência taxonômica.",('cof','care'))),
+      section('classificacao',field('Reino',tax['kingdom'],('gbif',)),field('Filo',tax['phylum'],('gbif',)),field('Classe',tax['className']+', conforme o esquema do Catalog of Fishes.',('class',)),field('Ordem',tax['order'],('class',)),field('Família',family,('cof',)),field('Gênero',name.split()[0],('cof',)),field('Espécie',name,('cof',)),field('Autoridade taxonômica',tax['authority'],('cof',)),field('Sinônimos científicos',f"Literatura de manutenção consultada sob {source['candidateName']}; o nome aceito adotado é {name}. Consultar o histórico nomenclatural completo na referência taxonômica.",('cof','care'))),
       section('origem',field('Continente e países',research['origin'],('care','cof')),field('Ambiente natural',research['habitat'])),
       section('caracteristicas',field('Tamanho adulto',numbers['size']+' (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.'),field('Diferenças entre machos e fêmeas',research['dimorphism'])),
       section('agua',field('Temperatura em aquário',numbers['temperature']+' °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.'),field('pH em aquário',numbers['ph']+'; não interpretar os extremos como metas a alternar.'),field('GH',numbers['gh']+' °dGH.'),field('KH','A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.'),field('Substrato e decoração',research['maintenance'])),
@@ -53,11 +46,11 @@ def make(key, source, research, photos, inventory):
 def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--batch',required=True);p.add_argument('--limit',type=int,default=10);p.add_argument('--apply',action='store_true');a=p.parse_args()
     if a.limit<1 or not re.fullmatch(r'[a-z0-9-]+',a.batch):p.error('Positive limit and safe batch identifier required')
-    inventory=read('importacao.json')['records'];sources=read('fontes.json');research=read('pesquisa.json');photos=read('fotos.json');existing=[json.loads(f.read_text()) for f in DATA.glob('*.json')];names={s['scientificName'] for s in existing};slugs={s['slug'] for s in existing};prepared=[]
+    inventory=read('importacao.json')['records'];sources=read('fontes.json');research=read('pesquisa.json');photos=read('fotos.json');existing=[json.loads(f.read_text()) for f in DATA.glob('*.json')];names={s['scientificName'] for s in existing};taxon_urls={ref['url'] for s in existing for ref in s['references'] if ref['id']=='cof'};slugs={s['slug'] for s in existing};prepared=[]
     for key,source in sorted(sources.items(),key=lambda item:item[1]['rows'][0]):
-        if 'taxonomy' not in source or key not in research or source.get('photoReview')!='verified':continue
+        if 'taxonomy' not in source or key not in research or source.get('photoReview')!='verified' or source.get('publicationPending'):continue
         name=source['taxonomy']['scientificName']
-        if name in names:continue
+        if name in names or source['taxonomy']['url'] in taxon_urls:continue
         selected=photos.get(key,[])
         if len(selected)!=3 or not all(k in source['careNumbers'] for k in ['temperature','ph','gh','size']):continue
         if any(not (ROOT/'public'/s['src'].lstrip('/')).is_file() for s in selected):continue

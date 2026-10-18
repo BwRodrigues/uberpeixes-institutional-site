@@ -38,7 +38,6 @@ const photo = Astro.props.photo ?? animal.photo;
       <a href={photo.licenseUrl} target="_blank" rel="noopener noreferrer">
         {photo.license}
       </a>
-      <span class="photo-changes">{photo.changes}</span>
       {photo.note && <strong class="photo-note">{photo.note}</strong>}
     </figcaption>
   </figure>

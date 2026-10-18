@@ -8,5 +8,21 @@
       "danio-rerio"
     ],
     "validation": "build, integridade e testes do lote aprovados"
+  },
+  {
+    "id": "lote-02",
+    "species": [
+      "betta-splendens",
+      "misgurnus-anguillicaudatus",
+      "aulonocara-stuartgranti",
+      "melanochromis-auratus",
+      "labidochromis-caeruleus",
+      "maylandia-lombardoi",
+      "chindongo-socolofi",
+      "nimbochromis-venustus",
+      "maylandia-estherae",
+      "pterophyllum-scalare"
+    ],
+    "validation": "build, integridade e testes do lote aprovados"
   }
 ]

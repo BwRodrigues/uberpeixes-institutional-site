@@ -9,7 +9,9 @@
     "preview": "astro preview --host 0.0.0.0",
     "test": "playwright test",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "catalog:audit": "python3 scripts/catalog/audit_catalog.py",
+    "test:import": "python3 -m unittest discover -s scripts/catalog -p 'test_*.py'"
   },
   "repository": {
     "type": "git",

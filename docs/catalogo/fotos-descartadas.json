@@ -1,0 +1,56 @@
+[
+  {
+    "species": "labidochromis-caeruleus",
+    "rejected": "https://commons.wikimedia.org/wiki/File:Labidochromis_caeruleus.jpg",
+    "replacement": "https://commons.wikimedia.org/wiki/File:Labidochromis_caeruleus_(male).jpg",
+    "reason": "Revisão visual: duplicação de captura, ilustração, identificação incerta ou representação inadequada; substituída por fotografia distinta."
+  },
+  {
+    "species": "nimbochromis-venustus",
+    "rejected": "https://commons.wikimedia.org/wiki/File:Nimbochromis_venustus3.jpg",
+    "replacement": "https://commons.wikimedia.org/wiki/File:Nimbochromis_venustus.JPG",
+    "reason": "Revisão visual: duplicação de captura, ilustração, identificação incerta ou representação inadequada; substituída por fotografia distinta."
+  },
+  {
+    "species": "pterophyllum-scalare",
+    "rejected": "https://commons.wikimedia.org/wiki/File:Angelfish_-_London_Aquarium_by_Christopher_Wood_-_Christopher_Wood_-_ABDAG003522.jpg",
+    "replacement": "https://commons.wikimedia.org/wiki/File:Angelfish_-_Marble_(Pterophyllum_scalare).jpg",
+    "reason": "Revisão visual: duplicação de captura, ilustração, identificação incerta ou representação inadequada; substituída por fotografia distinta."
+  },
+  {
+    "species": "misgurnus-anguillicaudatus",
+    "rejected": "https://commons.wikimedia.org/wiki/File:Misgurnus_anguillicaudatus.jpg",
+    "replacement": "https://commons.wikimedia.org/wiki/File:Dojo_loach_6.jpg",
+    "reason": "Revisão visual: duplicação de captura, ilustração, identificação incerta ou representação inadequada; substituída por fotografia distinta."
+  },
+  {
+    "species": "hemigrammus-erythrozonus",
+    "rejected": "https://commons.wikimedia.org/wiki/File:Redglow.jpg",
+    "replacement": "https://commons.wikimedia.org/wiki/File:Tetra_Glowlight.jpg",
+    "reason": "Revisão visual: duplicação de captura, ilustração, identificação incerta ou representação inadequada; substituída por fotografia distinta."
+  },
+  {
+    "species": "puntigrus-tetrazona",
+    "rejected": "https://commons.wikimedia.org/wiki/File:Tiger_barb_fish.jpg",
+    "replacement": "https://commons.wikimedia.org/wiki/File:Tiger_Barb_700.jpg",
+    "reason": "Revisão visual: duplicação de captura, ilustração, identificação incerta ou representação inadequada; substituída por fotografia distinta."
+  },
+  {
+    "species": "trichopodus-leerii",
+    "rejected": "https://commons.wikimedia.org/wiki/File:Pearl_gourami.jpg",
+    "replacement": "https://commons.wikimedia.org/wiki/File:Trichopodus_leerii_in_Botanic_garden_in_Teplice_(1).JPG",
+    "reason": "Revisão visual: duplicação de captura, ilustração, identificação incerta ou representação inadequada; substituída por fotografia distinta."
+  },
+  {
+    "species": "acarichthys-heckelii",
+    "rejected": "https://commons.wikimedia.org/wiki/File:Cichlidae_Acarichthys_heckelii_(juv)_(5807041444).jpg",
+    "replacement": "https://commons.wikimedia.org/wiki/File:Acarichthys_heckelii_-_subadulte_02.jpg",
+    "reason": "Revisão visual: duplicação de captura, ilustração, identificação incerta ou representação inadequada; substituída por fotografia distinta."
+  },
+  {
+    "species": "trichogaster-chuna",
+    "rejected": "https://commons.wikimedia.org/wiki/File:Colisa_chuna.jpg",
+    "replacement": "https://commons.wikimedia.org/wiki/File:Colisasota_male.jpg",
+    "reason": "Revisão visual: duplicação de captura, ilustração, identificação incerta ou representação inadequada; substituída por fotografia distinta."
+  }
+]

@@ -1,0 +1,349 @@
+{
+  "slug": "misgurnus-anguillicaudatus",
+  "name": "Dojo",
+  "commercialName": "DOJO M",
+  "category": "Botias e Loaches",
+  "source": {
+    "workbook": "VAREJO PEIXES NICHOS.xlsx",
+    "sheet": "Tabela Peixes Atual",
+    "row": 31,
+    "niche": "Botias e Loaches"
+  },
+  "sortOrder": 31,
+  "scientificName": "Misgurnus anguillicaudatus",
+  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "description": "O dojo explora o fundo e gosta de se enterrar em substrato macio. É um peixe de água mais fresca, cujo porte adulto exige um aquário espaçoso e tampado.",
+  "photo": {
+    "src": "/images/species/misgurnus-anguillicaudatus-1.webp",
+    "width": 850,
+    "height": 459,
+    "alt": "Fotografia representativa de Misgurnus anguillicaudatus; imagem de referência da espécie, sem indicação de estoque.",
+    "author": "Gourami Watcher",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dojo_loach4.JPG",
+    "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  "additionalPhotos": [
+    {
+      "src": "/images/species/misgurnus-anguillicaudatus-2.webp",
+      "width": 960,
+      "height": 720,
+      "alt": "Fotografia representativa de Misgurnus anguillicaudatus; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Gourami Watcher",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dojo_loach_6.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    },
+    {
+      "src": "/images/species/misgurnus-anguillicaudatus-3.webp",
+      "width": 640,
+      "height": 480,
+      "alt": "Fotografia representativa de Misgurnus anguillicaudatus; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "AB12 at Japanese Wikipedia",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Orange_loach.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ],
+  "sections": [
+    {
+      "id": "apresentacao",
+      "fields": [
+        {
+          "label": "Outros nomes populares",
+          "value": "DOJO M",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Identificação científica",
+          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Introdução",
+          "value": "O dojo explora o fundo e gosta de se enterrar em substrato macio. É um peixe de água mais fresca, cujo porte adulto exige um aquário espaçoso e tampado.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "classificacao",
+      "fields": [
+        {
+          "label": "Reino",
+          "value": "Animalia",
+          "referenceIds": [
+            "gbif"
+          ]
+        },
+        {
+          "label": "Filo",
+          "value": "Chordata",
+          "referenceIds": [
+            "gbif"
+          ]
+        },
+        {
+          "label": "Classe",
+          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "referenceIds": [
+            "class"
+          ]
+        },
+        {
+          "label": "Ordem",
+          "value": "Cypriniformes",
+          "referenceIds": [
+            "class"
+          ]
+        },
+        {
+          "label": "Família",
+          "value": "Cobitidae",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Gênero",
+          "value": "Misgurnus",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Espécie",
+          "value": "Misgurnus anguillicaudatus",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Autoridade taxonômica",
+          "value": "(Cantor 1842)",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Sinônimos científicos",
+          "value": "Literatura de manutenção consultada sob Misgurnus anguillicaudatus; o nome aceito adotado é Misgurnus anguillicaudatus. Consultar o histórico nomenclatural completo na referência taxonômica.",
+          "referenceIds": [
+            "cof",
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Continente e países",
+          "value": "Ásia: China, conforme a delimitação atual do Catalog of Fishes. A fonte de manutenção inclui uma área histórica mais ampla no leste asiático; registros de Japão, Coreia e outras regiões podem exigir revisão do complexo e não são apresentados aqui como ocorrência nativa confirmada.",
+          "referenceIds": [
+            "care",
+            "cof"
+          ]
+        },
+        {
+          "label": "Ambiente natural",
+          "value": "Águas rasas e lentas, remansos, brejos e arrozais com fundo de lama ou silte e bastante cobertura.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Tamanho adulto",
+          "value": "280 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Fêmeas adultas costumam ser maiores e robustas. Machos maduros apresentam modificações nas nadadeiras peitorais.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "18–23 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "6.0–8.0; não interpretar os extremos como metas a alternar.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "GH",
+          "value": "1–12 °dGH.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "KH",
+          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Substrato e decoração",
+          "value": "Areia macia ou cascalho muito fino, com raízes e refúgios firmemente apoiados. Tampar o aquário e proteger entradas do filtro; não mantê-lo em água tropical quente por períodos prolongados.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "Base mínima de 120 × 45 cm para manutenção de longo prazo; a fonte apresenta cerca de 243 L. Considerar o porte de até 28 cm e ampliar o espaço para vários indivíduos.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Manutenção específica",
+          "value": "Areia macia ou cascalho muito fino, com raízes e refúgios firmemente apoiados. Tampar o aquário e proteger entradas do filtro; não mantê-lo em água tropical quente por períodos prolongados.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Alimentos adequados",
+          "value": "Procura larvas de insetos e pequenos crustáceos; aceita ração que afunda, complementada com alimentos pequenos vivos ou congelados.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Comportamento social",
+          "value": "Geralmente pacífico, mas pode consumir ovos, alevinos e peixes muito pequenos. Pode viver sozinho, embora a fonte relate maior atividade junto a conspecíficos.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Tipo de reprodução",
+          "value": "Há poucos relatos domésticos detalhados. Não extrapolar automaticamente o protocolo de Misgurnus fossilis para esta espécie.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Problemas de manutenção",
+          "value": "Areia macia ou cascalho muito fino, com raízes e refúgios firmemente apoiados. Tampar o aquário e proteger entradas do filtro; não mantê-lo em água tropical quente por períodos prolongados.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "fields": [
+        {
+          "label": "Curiosidades verificadas da espécie",
+          "value": "A tolerância eventual a temperaturas extremas na natureza não equivale à faixa recomendada para manutenção contínua.",
+          "referenceIds": [
+            "care",
+            "cof"
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "cof",
+      "title": "Eschmeyer’s Catalog of Fishes — Misgurnus anguillicaudatus",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=2327",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "class",
+      "title": "Eschmeyer’s Catalog of Fishes — classificação por família",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "care",
+      "title": "Misgurnus anguillicaudatus — manutenção e história natural",
+      "url": "https://www.seriouslyfish.com/species/misgurnus-anguillicaudatus/",
+      "author": "Seriously Fish",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "gbif",
+      "title": "Misgurnus anguillicaudatus — registro comparativo no GBIF",
+      "url": "https://api.gbif.org/v1/species/match?name=Misgurnus%20anguillicaudatus",
+      "author": "GBIF",
+      "accessedAt": "2026-10-18"
+    }
+  ],
+  "regions": [
+    {
+      "id": "asia",
+      "label": "Ásia",
+      "scale": "continent",
+      "referenceIds": [
+        "care",
+        "cof"
+      ]
+    }
+  ],
+  "status": "draft"
+}

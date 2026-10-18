@@ -12,6 +12,14 @@ const { animal } = Astro.props;
 const path = `/especies/${animal.slug}/`;
 const inquiry = speciesInquiry(animal.name, animal.scientificName);
 const reviewed = isPublishable(animal);
+const referenceLabels: Record<string, string> = {
+  cof: "Taxonomia",
+  class: "Classificação",
+  care: "Cuidados",
+  revision: "Revisão científica",
+  fb: "Biologia",
+  gbif: "Biodiversidade",
+};
 const structuredData: unknown[] = [
   {
     "@context": "https://schema.org",
@@ -79,7 +87,7 @@ if (
         <i>{scientificLabel(animal)}</i>
       </p>
       <p class="commercial-name">
-        Nome comercial original: <strong>{animal.commercialName}</strong>
+        Nome na loja: <strong>{animal.commercialName}</strong>
       </p>
       <p>{animal.description}</p>
       <a
@@ -161,8 +169,18 @@ if (
                     <p class="profile-field-value">
                       {field.value}
                       <span class="field-references">
+                        <span>Fontes:</span>
                         {field.referenceIds.map((id) => (
-                          <a href={`#fonte-${id}`}>[{id}]</a>
+                          <a
+                            href={`#fonte-${id}`}
+                            title={
+                              animal.references.find(
+                                (reference) => reference.id === id,
+                              )?.title
+                            }
+                          >
+                            {referenceLabels[id] ?? "Referência científica"}
+                          </a>
                         ))}
                       </span>
                     </p>
@@ -209,13 +227,6 @@ if (
             As fontes científicas ainda não foram verificadas. A planilha foi
             usada apenas para selecionar e preservar os registros comerciais;
             ela não fundamenta recomendações biológicas.
-          </p>
-        )}
-        {animal.source && (
-          <p class="source-note">
-            Seleção: {animal.source.workbook}, aba “{animal.source.sheet}”,
-            linha {animal.source.row}. Preços e demais valores comerciais não
-            foram importados.
           </p>
         )}
       </section>

@@ -2,7 +2,9 @@
   "pethia-gelius": {
     "candidateName": "Pethia gelius",
     "popularName": "Barbo-gema",
-    "rows": [11],
+    "rows": [
+      11
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/pethia-gelius/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Pethia%20gelius",
     "accessedAt": "2026-10-18",
@@ -20,13 +22,30 @@
       "authority": "(Hamilton 1822)",
       "family": "Cyprinidae",
       "statusEvidence": "Current status: Valid as Pethia gelius (Hamilton 1822). Cyprinidae: Smiliogastrinae. Distribution: South Asia: Ganga-Brahmaputra basin (Pakistan, India, Nepal and Bangladesh).  IUCN (2015): Least Concern. Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Cypriniformes"
+    },
+    "regions": [
+      {
+        "id": "asia",
+        "label": "Ásia",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "barbodes-semifasciolatus": {
     "candidateName": "Barbodes semifasciolatus",
     "popularName": "Barbo-ouro",
-    "rows": [12],
+    "rows": [
+      12
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/barbodes-semifasciolatus/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Barbodes%20semifasciolatus",
     "accessedAt": "2026-10-18",
@@ -44,13 +63,32 @@
       "authority": "(Günther 1868)",
       "family": "Cyprinidae",
       "statusEvidence": "Current status: Valid as Barbodes semifasciolatus (Günther 1868). Cyprinidae: Smiliogastrinae. Distribution: East Asia: northern Vietnam, southwestern China, Taiwan and Hainan Island.  IUCN (2012): Least Concern.   Introduced elsewhere. Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Cypriniformes"
+    },
+    "regions": [
+      {
+        "id": "asia",
+        "label": "Ásia",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "puntigrus-tetrazona": {
     "candidateName": "Puntigrus tetrazona",
     "popularName": "Barbo-sumatra",
-    "rows": [13, 14, 15],
+    "rows": [
+      13,
+      14,
+      15
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/puntigrus-tetrazona/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Puntigrus%20tetrazona",
     "accessedAt": "2026-10-18",
@@ -68,13 +106,39 @@
       "authority": "(Bleeker 1855)",
       "family": "Cyprinidae",
       "statusEvidence": "Current status: Valid as Puntigrus tetrazona (Bleeker 1855). Cyprinidae: Smiliogastrinae. Distribution: Southeast Asia.  Introduced elsewhere. Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Cypriniformes"
+    },
+    "regions": [
+      {
+        "id": "asia",
+        "label": "Ásia",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      },
+      {
+        "id": "indonesia",
+        "label": "Indonésia",
+        "scale": "country",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "danio-rerio": {
     "candidateName": "Danio rerio",
     "popularName": "Paulistinha",
-    "rows": [17],
+    "rows": [
+      17
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/danio-rerio/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Danio%20rerio",
     "accessedAt": "2026-10-18",
@@ -92,17 +156,43 @@
       "authority": "(Hamilton 1822)",
       "family": "Danionidae",
       "statusEvidence": "Current status: Valid as Danio rerio (Hamilton 1822). Danionidae: Danioninae. Distribution: South Asia: Ganges River basin (India, Nepal, Bhutan and Bangladesh).  IZCN (2010): Least Concern.  Introduced elsewhere. Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Cypriniformes"
+    },
+    "regions": [
+      {
+        "id": "asia",
+        "label": "Ásia",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "betta-splendens": {
     "candidateName": "Betta splendens",
     "popularName": "Betta",
-    "rows": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27],
+    "rows": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/betta-splendens/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Betta%20splendens",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "22–30",
       "ph": "6.0–8.0",
@@ -116,13 +206,30 @@
       "authority": "Regan 1910",
       "family": "Osphronemidae",
       "statusEvidence": "Current status: Valid as Betta splendens Regan 1910. Osphronemidae: Macropodusinae. Distribution: Southeast Asia: Mekong River basin (Thailand and Cambodia).  Introduced elsewhere. Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Anabantiformes"
+    },
+    "regions": [
+      {
+        "id": "asia",
+        "label": "Ásia",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "yasuhikotakia-modesta": {
     "candidateName": "Yasuhikotakia modesta",
     "popularName": "Bótia-azul",
-    "rows": [29],
+    "rows": [
+      29
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/yasuhikotakia-modesta/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Yasuhikotakia%20modesta",
     "accessedAt": "2026-10-18",
@@ -140,17 +247,35 @@
       "authority": "(Bleeker 1864)",
       "family": "Botiidae",
       "statusEvidence": "Current status: Valid as Yasuhikotakia modesta (Bleeker 1864). Botiidae: Botiinae. Distribution: Southeast Asia: Chao Phraya and Mekong River basins, Thailand, Laos, Cambodia and Vietnam. Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Cypriniformes"
+    },
+    "regions": [
+      {
+        "id": "asia",
+        "label": "Ásia",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ],
+    "publicationPending": "Terceira foto tem nome de arquivo Botia morleti e descrição Yasuhikotakia modesta; identificação contraditória, não utilizar até confirmação ou substituição."
   },
   "misgurnus-anguillicaudatus": {
     "candidateName": "Misgurnus anguillicaudatus",
     "popularName": "Dojo",
-    "rows": [31],
+    "rows": [
+      31
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/misgurnus-anguillicaudatus/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Misgurnus%20anguillicaudatus",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "18–23",
       "ph": "6.0–8.0",
@@ -164,17 +289,35 @@
       "authority": "(Cantor 1842)",
       "family": "Cobitidae",
       "statusEvidence": "Current status: Valid as Misgurnus anguillicaudatus (Cantor 1842). Cobitidae. Distribution: East Asia: China.  Introduced elsewhere.  IUCN (2012): Least Concern. Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Cypriniformes"
+    },
+    "regions": [
+      {
+        "id": "asia",
+        "label": "Ásia",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "melanochromis-auratus": {
     "candidateName": "Melanochromis auratus",
     "popularName": "Auratus",
-    "rows": [55, 56],
+    "rows": [
+      55,
+      56
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/melanochromis-auratus/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Melanochromis%20auratus",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "24–28",
       "ph": "7.6–8.8",
@@ -188,17 +331,34 @@
       "authority": "(Boulenger 1897)",
       "family": "Cichlidae",
       "statusEvidence": "Current status: Valid as Melanochromis auratus (Boulenger 1897). Cichlidae: Pseudocrenilabrinae. Distribution: East Africa: Lake Malawi.  Introduced in Morelos (Mexico), Sulawesi Tengah (Indonesia) and Hong Kong (China). Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Cichliformes"
+    },
+    "regions": [
+      {
+        "id": "africa",
+        "label": "África",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "labidochromis-caeruleus": {
     "candidateName": "Labidochromis caeruleus",
     "popularName": "Labidochromis yellow",
-    "rows": [58],
+    "rows": [
+      58
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/labidochromis-caeruleus/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Labidochromis%20caeruleus",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "24–28",
       "ph": "7.7–8.6",
@@ -212,17 +372,34 @@
       "authority": "Fryer 1956",
       "family": "Cichlidae",
       "statusEvidence": "Current status: Valid as Labidochromis caeruleus Fryer 1956. Cichlidae: Pseudocrenilabrinae. Distribution: East Africa: Lake Malawi.  Introduced in Israel and Hong Kong (China). Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Cichliformes"
+    },
+    "regions": [
+      {
+        "id": "africa",
+        "label": "África",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "maylandia-lombardoi": {
     "candidateName": "Maylandia lombardoi",
     "popularName": "Lombardoi",
-    "rows": [59],
+    "rows": [
+      59
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/maylandia-lombardoi/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Maylandia%20lombardoi",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "24–28",
       "ph": "7.6–8.8",
@@ -236,17 +413,34 @@
       "authority": "(Burgess 1977)",
       "family": "Cichlidae",
       "statusEvidence": "Current status: Valid as Maylandia lombardoi (Burgess 1977). Cichlidae: Pseudocrenilabrinae. Distribution: East Africa: Lake Malawi.  Introduced in Hong Kong (China). Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Cichliformes"
+    },
+    "regions": [
+      {
+        "id": "africa",
+        "label": "África",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "chindongo-socolofi": {
     "candidateName": "Chindongo socolofi",
     "popularName": "Socolofi",
-    "rows": [60],
+    "rows": [
+      60
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/chindongo-socolofi/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Chindongo%20socolofi",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "24–28",
       "ph": "7.6–8.8",
@@ -260,17 +454,34 @@
       "authority": "(Johnson 1974)",
       "family": "Cichlidae",
       "statusEvidence": "Current status: Valid as Chindongo socolofi (Johnson 1974). Cichlidae: Pseudocrenilabrinae. Distribution: Eastern Africa: Lake Malawi. Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Cichliformes"
+    },
+    "regions": [
+      {
+        "id": "africa",
+        "label": "África",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "nimbochromis-venustus": {
     "candidateName": "Nimbochromis venustus",
     "popularName": "Venustus",
-    "rows": [61],
+    "rows": [
+      61
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/nimbochromis-venustus/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Nimbochromis%20venustus",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "24–28",
       "ph": "7.6–8.8",
@@ -284,17 +495,34 @@
       "authority": "(Boulenger 1908)",
       "family": "Cichlidae",
       "statusEvidence": "Current status: Valid as Nimbochromis venustus (Boulenger 1908). Cichlidae: Pseudocrenilabrinae. Distribution: Eastern Africa: Lake Malawi. Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Cichliformes"
+    },
+    "regions": [
+      {
+        "id": "africa",
+        "label": "África",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "maylandia-estherae": {
     "candidateName": "Maylandia estherae",
     "popularName": "Zebra-laranja",
-    "rows": [63],
+    "rows": [
+      63
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/maylandia-estherae/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Maylandia%20estherae",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "24–28",
       "ph": "7.6–8.8",
@@ -308,17 +536,37 @@
       "authority": "(Konings 1995)",
       "family": "Cichlidae",
       "statusEvidence": "Current status: Valid as Maylandia estherae (Konings 1995). Cichlidae: Pseudocrenilabrinae. Distribution: Eastern Africa: Lake Malawi. Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Cichliformes"
+    },
+    "regions": [
+      {
+        "id": "africa",
+        "label": "África",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "pterophyllum-scalare": {
     "candidateName": "Pterophyllum scalare",
     "popularName": "Acará-bandeira",
-    "rows": [65, 68, 69, 70],
+    "rows": [
+      65,
+      68,
+      69,
+      70
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/pterophyllum-scalare/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Pterophyllum%20scalare",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "24–30",
       "ph": "6.0–7.4",
@@ -332,17 +580,34 @@
       "authority": "(Schultze 1823)",
       "family": "Cichlidae",
       "statusEvidence": "Current status: Valid as Pterophyllum scalare (Schultze 1823). Cichlidae: Cichlinae. Distribution: South America: Amazon River basin (Brazil, Colombia, French Guiana, Guyana and Peru); introduced in Suriname. Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Cichliformes"
+    },
+    "regions": [
+      {
+        "id": "america-do-sul",
+        "label": "América do Sul",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "thorichthys-meeki": {
     "candidateName": "Thorichthys meeki",
     "popularName": "Acará-boca-de-fogo",
-    "rows": [66],
+    "rows": [
+      66
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/thorichthys-meeki/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Thorichthys%20meeki",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "20–32",
       "ph": "6.5–8.5",
@@ -356,17 +621,35 @@
       "authority": "Brind 1918",
       "family": "Cichlidae",
       "statusEvidence": "Current status: Valid as Thorichthys meeki Brind 1918. Cichlidae: Cichlinae. Distribution: Southern North America and Central America: Atlantic Slope (Belize, Guatemala and southern Mexico).  Introduced in Colombia, Hawaiian Islands, Puerto Rico and Florida (U.S.A.).  IUCN (2019): Least Concern. Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Cichliformes"
+    },
+    "regions": [
+      {
+        "id": "america-do-norte",
+        "label": "América do Norte",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "andinoacara-rivulatus": {
     "candidateName": "Andinoacara rivulatus",
     "popularName": "Green terror",
-    "rows": [73, 74],
+    "rows": [
+      73,
+      74
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/andinoacara-rivulatus/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Andinoacara%20rivulatus",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "20–24",
       "ph": "6.5–8.0",
@@ -380,17 +663,34 @@
       "authority": "(Günther 1860)",
       "family": "Cichlidae",
       "statusEvidence": "Current status: Valid as Andinoacara rivulatus (Günther 1860). Cichlidae: Cichlinae. Distribution: South America: Pacific slope (Ecuador and Peru).  Introduced in Guerrero and Morelos (Mexico).  IUCN (2021): Least Concern. Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Cichliformes"
+    },
+    "regions": [
+      {
+        "id": "america-do-sul",
+        "label": "América do Sul",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "acarichthys-heckelii": {
     "candidateName": "Acarichthys heckelii",
     "popularName": "Acará-heckelii",
-    "rows": [75],
+    "rows": [
+      75
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/acarichthys-heckelii/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Acarichthys%20heckelii",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "24–30",
       "ph": "6.0–8.0",
@@ -404,17 +704,42 @@
       "authority": "(Müller & Troschel 1849)",
       "family": "Cichlidae",
       "statusEvidence": "Current status: Valid as Acarichthys heckelii (Müller & Troschel 1849). Cichlidae: Cichlinae. Distribution: South America: Amazon and Essequibo River basins (Brazil, Colombia, Guyana and Peru).  Introduced in Singapore. Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Cichliformes"
+    },
+    "regions": [
+      {
+        "id": "america-do-sul",
+        "label": "América do Sul",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "astronotus-ocellatus": {
     "candidateName": "Astronotus ocellatus",
     "popularName": "Oscar",
-    "rows": [76, 77, 78, 79, 80, 81, 82, 83, 84],
+    "rows": [
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/astronotus-ocellatus/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Astronotus%20ocellatus",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "20–28",
       "ph": "6.0–7.5",
@@ -428,17 +753,39 @@
       "authority": "(Agassiz 1831)",
       "family": "Cichlidae",
       "statusEvidence": "Current status: Valid as Astronotus ocellatus (Agassiz 1831). Cichlidae: Cichlinae. Distribution: South America: Amazon River basin, Brazil, Bolivia, Colombia, French Guiana and Peru.  IUCN (2023): Least Concern.  Introduced elsewhere, including southeastern Brazil, southern Florida and Puerto Rico (U.S.A.). Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Cichliformes"
+    },
+    "regions": [
+      {
+        "id": "america-do-sul",
+        "label": "América do Sul",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "mikrogeophagus-ramirezi": {
     "candidateName": "Mikrogeophagus ramirezi",
     "popularName": "Ramirezi",
-    "rows": [90, 91, 92, 93, 94, 95],
+    "rows": [
+      90,
+      91,
+      92,
+      93,
+      94,
+      95
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/mikrogeophagus-ramirezi/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Mikrogeophagus%20ramirezi",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "27–30",
       "ph": "4.0–7.0",
@@ -452,15 +799,47 @@
       "authority": "(Myers & Harry 1948)",
       "family": "Cichlidae",
       "statusEvidence": "Current status: Valid as Mikrogeophagus ramirezi (Myers & Harry 1948). Cichlidae: Cichlinae. Distribution: South America: Orinoco River basin (Colombia and Venezuela). Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Cichliformes"
+    },
+    "regions": [
+      {
+        "id": "america-do-sul",
+        "label": "América do Sul",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "carassius-auratus": {
     "candidateName": "Carassius auratus",
     "popularName": "Kinguio",
     "rows": [
-      107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121,
-      122, 123, 124, 125
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125
     ],
     "careUrl": "https://www.seriouslyfish.com/species/carassius-auratus/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Carassius%20auratus",
@@ -474,13 +853,32 @@
       "authority": "(Linnaeus 1758)",
       "family": "Cyprinidae",
       "statusEvidence": "Current status: Valid as Carassius auratus (Linnaeus 1758). Cyprinidae: Cyprininae. Distribution: East Asia: China and Japan.  Introduced widely elsewhere; many cultivated goldfish varieties.  IUCN (2013): Least Concern. Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Cypriniformes"
+    },
+    "regions": [
+      {
+        "id": "asia",
+        "label": "Ásia",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "trichogaster-lalius": {
     "candidateName": "Trichogaster lalius",
     "popularName": "Colisa-lália",
-    "rows": [126, 128, 129],
+    "rows": [
+      126,
+      128,
+      129
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/trichogaster-lalius/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Trichogaster%20lalius",
     "accessedAt": "2026-10-18",
@@ -497,11 +895,13 @@
   "trichogaster-chuna": {
     "candidateName": "Trichogaster chuna",
     "popularName": "Colisa-chuna",
-    "rows": [127],
+    "rows": [
+      127
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/trichogaster-chuna/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Trichogaster%20chuna",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "22–27",
       "ph": "6.0–7.5",
@@ -515,17 +915,36 @@
       "authority": "(Hamilton 1822)",
       "family": "Osphronemidae",
       "statusEvidence": "Current status: Valid as Trichogaster chuna (Hamilton 1822). Osphronemidae: Trichogastrinae. Distribution: South Asia: India, Nepal and Bangladesh.  IUCN (2010): Least Concern. Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Anabantiformes"
+    },
+    "regions": [
+      {
+        "id": "asia",
+        "label": "Ásia",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "macropodus-opercularis": {
     "candidateName": "Macropodus opercularis",
     "popularName": "Peixe-paraíso",
-    "rows": [131, 132, 133],
+    "rows": [
+      131,
+      132,
+      133
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/macropodus-opercularis/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Macropodus%20opercularis",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "10–22",
       "ph": "6.0–8.0",
@@ -539,17 +958,35 @@
       "authority": "(Linnaeus 1758)",
       "family": "Osphronemidae",
       "statusEvidence": "Current status: Valid as Macropodus opercularis (Linnaeus 1758). Osphronemidae: Macropodusinae. Distribution: Southeast Asia, East Asia: Vietnam, Laos, China and Taiwan north to Korea and Japan.  IUCN (2012): Least Concern.  Introduced in Romania and Madagascar. Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Anabantiformes"
+    },
+    "regions": [
+      {
+        "id": "asia",
+        "label": "Ásia",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "trichopodus-trichopterus": {
     "candidateName": "Trichopodus trichopterus",
     "popularName": "Tricogáster-azul",
-    "rows": [134, 136],
+    "rows": [
+      134,
+      136
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/trichopodus-trichopterus/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Trichopodus%20trichopterus",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "24–30",
       "ph": "5.5–8.5",
@@ -563,17 +1000,34 @@
       "authority": "(Pallas 1770)",
       "family": "Osphronemidae",
       "statusEvidence": "Current status: Valid as Trichopodus trichopterus (Pallas 1770). Osphronemidae: Trichogastrinae. Distribution: Southeast Asia: Mekong River basin, Yunnan (China), Laos, Cambodia, Thailand and Vietnam.  IUCN (2019): Least Concern.  Introduced elsewhere. Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Anabantiformes"
+    },
+    "regions": [
+      {
+        "id": "asia",
+        "label": "Ásia",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "trichopodus-leerii": {
     "candidateName": "Trichopodus leerii",
     "popularName": "Tricogáster-leeri",
-    "rows": [135],
+    "rows": [
+      135
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/trichopodus-leerii/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Trichopodus%20leerii",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "24–30",
       "ph": "5.5–8.0",
@@ -587,17 +1041,44 @@
       "authority": "(Bleeker 1852)",
       "family": "Osphronemidae",
       "statusEvidence": "Current status: Valid as Trichopodus leerii (Bleeker 1852). Osphronemidae: Trichogastrinae. Distribution: Southeast Asia: Thailand, Malaya (Malaysia), Indonesia.  Introduced in the Philippines. Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Anabantiformes"
+    },
+    "regions": [
+      {
+        "id": "asia",
+        "label": "Ásia",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      },
+      {
+        "id": "indonesia",
+        "label": "Indonésia",
+        "scale": "country",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "gyrinocheilus-aymonieri": {
     "candidateName": "Gyrinocheilus aymonieri",
     "popularName": "Comedor-de-algas-chinês",
-    "rows": [137, 138],
+    "rows": [
+      137,
+      138
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/gyrinocheilus-aymonieri/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Gyrinocheilus%20aymonieri",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "22–26",
       "ph": "6.0–8.0",
@@ -611,17 +1092,34 @@
       "authority": "(Tirant 1884)",
       "family": "Gyrinocheilidae",
       "statusEvidence": "Current status: Valid as Gyrinocheilus aymonieri (Tirant 1884). Gyrinocheilidae. Distribution: Southeast Asia: Malay Peninsula to Cambodia and Yunnan (China).  Introduced in Puerto Rico (U.S.A.) and Hong Kong (China). Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Cypriniformes"
+    },
+    "regions": [
+      {
+        "id": "asia",
+        "label": "Ásia",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "corydoras-schwartzi": {
     "candidateName": "Corydoras schwartzi",
     "popularName": "Coridora-schwartzi",
-    "rows": [140],
+    "rows": [
+      140
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/corydoras-schwartzi/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Corydoras%20schwartzi",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "22–24",
       "ph": "6.0–7.5",
@@ -635,13 +1133,30 @@
       "authority": "(Rössel 1963)",
       "family": "Callichthyidae",
       "statusEvidence": "Current status: Valid as Hoplisoma schwartzi (Rössel 1963). Callichthyidae: Corydoradinae. Distribution: South America: Purus River drainage, middle Amazon basin, Brazil. Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Siluriformes"
+    },
+    "regions": [
+      {
+        "id": "america-do-sul",
+        "label": "América do Sul",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "corydoras-nattereri": {
     "candidateName": "Corydoras nattereri",
     "popularName": "Coridora-nattereri",
-    "rows": [141],
+    "rows": [
+      141
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/corydoras-nattereri/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Corydoras%20nattereri",
     "accessedAt": "2026-10-18",
@@ -659,13 +1174,30 @@
       "authority": "(Steindachner 1876)",
       "family": "Callichthyidae",
       "statusEvidence": "Current status: Valid as Hoplisoma nattereri (Steindachner 1876). Callichthyidae: Corydoradinae. Distribution: South America: coastal rivers, Espirito Santo to Paraná (eastern Brazil).  IUCN (2022): Least Concern, as Corydoras nattereri. Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Siluriformes"
+    },
+    "regions": [
+      {
+        "id": "america-do-sul",
+        "label": "América do Sul",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "synodontis-eupterus": {
     "candidateName": "Synodontis eupterus",
     "popularName": "Synodontis-eupterus",
-    "rows": [143],
+    "rows": [
+      143
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/synodontis-eupterus/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Synodontis%20eupterus",
     "accessedAt": "2026-10-18",
@@ -683,13 +1215,30 @@
       "authority": "Boulenger 1901",
       "family": "Mochokidae",
       "statusEvidence": "Current status: Valid as Synodontis eupterus Boulenger 1901. Mochokidae: Mochokinae. Distribution: Northern Africa.  Introduced elsewhere, e.g. in Croatia and Hong Kong (China). Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Siluriformes"
+    },
+    "regions": [
+      {
+        "id": "africa",
+        "label": "África",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "synodontis-petricola": {
     "candidateName": "Synodontis petricola",
     "popularName": "Synodontis-petricola",
-    "rows": [144],
+    "rows": [
+      144
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/synodontis-petricola/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Synodontis%20petricola",
     "accessedAt": "2026-10-18",
@@ -707,17 +1256,34 @@
       "authority": "Matthes 1959",
       "family": "Mochokidae",
       "statusEvidence": "Current status: Valid as Synodontis petricola Matthes 1959. Mochokidae: Mochokinae. Distribution: Eastern-central Africa: Lake Tanganyika (Burundi, Democratic Republic of Congo, Tanzaniua, Zambia) endemic.  IUCN (2025): Least Concern. Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Siluriformes"
+    },
+    "regions": [
+      {
+        "id": "africa",
+        "label": "África",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "melanotaenia-praecox": {
     "candidateName": "Melanotaenia praecox",
     "popularName": "Arco-íris-neon",
-    "rows": [145],
+    "rows": [
+      145
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/melanotaenia-praecox/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Melanotaenia%20praecox",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "23–28",
       "ph": "6.8–7.5",
@@ -731,17 +1297,45 @@
       "authority": "(Weber & de Beaufort 1922)",
       "family": "Melanotaeniidae",
       "statusEvidence": "Current status: Valid as Melanotaenia praecox (Weber & de Beaufort 1922). Melanotaeniidae. Distribution: Mamberamo River system, Irian Jaya, Indonesia. Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Atheriniformes"
+    },
+    "publicationPending": "Há apenas duas relações geográficas internas confirmadas na Indonésia. Uma terceira sugestão exige nova evidência de origem ou avaliação específica de convivência; não completar a grade por inferência.",
+    "regions": [
+      {
+        "id": "oceania",
+        "label": "Oceania",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      },
+      {
+        "id": "indonesia",
+        "label": "Indonésia",
+        "scale": "country",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "pangasianodon-hypophthalmus": {
     "candidateName": "Pangasianodon hypophthalmus",
     "popularName": "Pangasius",
-    "rows": [146, 147],
+    "rows": [
+      146,
+      147
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/pangasianodon-hypophthalmus/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Pangasianodon%20hypophthalmus",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "22–26",
       "ph": "6.5–7.5",
@@ -755,17 +1349,34 @@
       "authority": "(Sauvage 1878)",
       "family": "Pangasiidae",
       "statusEvidence": "Current status: Valid as Pangasianodon hypophthalmus (Sauvage 1878). Pangasiidae. Distribution: Southeast Asia: Mekong and Chao Phraya River basins (Thailand, Laos, Cambodia and Vietnam).  IUCN (2011): Endangered.  Introduced elsewhere in Israel, Iraq, southern Asia, Indonesia, Colombia, Costa Rica, and Puerto Rico (U.S.A.). Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Siluriformes"
+    },
+    "regions": [
+      {
+        "id": "asia",
+        "label": "Ásia",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "phractocephalus-hemioliopterus": {
     "candidateName": "Phractocephalus hemioliopterus",
     "popularName": "Pirarara",
-    "rows": [149],
+    "rows": [
+      149
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/phractocephalus-hemioliopterus/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Phractocephalus%20hemioliopterus",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "21–26",
       "ph": "6.0–7.5",
@@ -779,17 +1390,39 @@
       "authority": "(Bloch & Schneider 1801)",
       "family": "Pimelodidae",
       "statusEvidence": "Current status: Valid as Phractocephalus hemioliopterus (Bloch & Schneider 1801). Pimelodidae: Phractocephalinae. Distribution: South America: Amazon and Orinoco River basins (Brazil, Bolivia, Colombia, Ecuador, Guyana, Peru and Venezuela). Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Siluriformes"
+    },
+    "regions": [
+      {
+        "id": "america-do-sul",
+        "label": "América do Sul",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "xiphophorus-hellerii": {
     "candidateName": "Xiphophorus hellerii",
     "popularName": "Espada",
-    "rows": [174, 175, 176, 177, 178, 179],
+    "rows": [
+      174,
+      175,
+      176,
+      177,
+      178,
+      179
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/xiphophorus-hellerii/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Xiphophorus%20hellerii",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "16–28",
       "ph": "7.0–8.0",
@@ -803,17 +1436,36 @@
       "authority": "Heckel 1848",
       "family": "Poeciliidae",
       "statusEvidence": "Current status: Valid as Xiphophorus hellerii Heckel 1848. Poeciliidae: Poeciliinae. Distribution: Southern North America, Central America: Atlantic slope (Belize, Guatemala, Honduras, Mexico).  IUCN (2019): Least Concern.  Introduced widely elsewhere. Habitat: freshwater, brackish.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Cyprinodontiformes"
+    },
+    "regions": [
+      {
+        "id": "america-do-norte",
+        "label": "América do Norte",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "poecilia-reticulata": {
     "candidateName": "Poecilia reticulata",
     "popularName": "Lebiste",
-    "rows": [180, 181, 182],
+    "rows": [
+      180,
+      181,
+      182
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/poecilia-reticulata/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Poecilia%20reticulata",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "17–28",
       "ph": "7.0–8.5",
@@ -827,17 +1479,43 @@
       "authority": "Peters 1859",
       "family": "Poeciliidae",
       "statusEvidence": "Current status: Valid as Poecilia reticulata Peters 1859. Poeciliidae: Poeciliinae. Distribution: Northeastern South America: coastal drainages between the Orinoco delta (Venezuela) and the Essequibo River delta (Guyana), islands of Venezuela, Netherlands Antilles, and Trinidad and Tobago.  IUCN (2021): Least Concern.  Widely introduced elsewhere. Habitat: freshwater, brackish.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Cyprinodontiformes"
+    },
+    "regions": [
+      {
+        "id": "america-do-sul",
+        "label": "América do Sul",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      },
+      {
+        "id": "america-do-norte",
+        "label": "América do Norte",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "poecilia-sphenops": {
     "candidateName": "Poecilia sphenops",
     "popularName": "Molinésia-sphenops",
-    "rows": [190],
+    "rows": [
+      190
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/poecilia-sphenops/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Poecilia%20sphenops",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "21–28",
       "ph": "7.0–8.5",
@@ -851,17 +1529,35 @@
       "authority": "Valenciennes 1846",
       "family": "Poeciliidae",
       "statusEvidence": "Current status: Valid as Poecilia sphenops Valenciennes 1846. Poeciliidae: Poeciliinae. Distribution: Southern North America, Central America: Atlantic slope (southern Mexico, El Salvador, Honduras and Nicaragua).  Introduced in Tobago, Brazil, Society Islands (French Polynesia) and elsewhere. Habitat: freshwater, brackish.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Cyprinodontiformes"
+    },
+    "regions": [
+      {
+        "id": "america-do-norte",
+        "label": "América do Norte",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "hyphessobrycon-eques": {
     "candidateName": "Hyphessobrycon eques",
     "popularName": "Tetra-mato-grosso",
-    "rows": [201, 209],
+    "rows": [
+      201,
+      209
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/hyphessobrycon-eques/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Hyphessobrycon%20eques",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "20–28",
       "ph": "5.0–7.5",
@@ -875,17 +1571,35 @@
       "authority": "(Steindachner 1882)",
       "family": "Acestrorhamphidae",
       "statusEvidence": "Current status: Valid as Megalamphodus eques (Steindachner 1882). Acestrorhamphidae: Megalamphodinae. Distribution: South America: Amazon and Guaporé River basins (Argentina, Brazil, Bolivia, Paraguay, Peru and Uruguay).  Introduced in French Guiana and other regions in Brazil.  IUCN (2023): Least Concern, as Hyphessobrycon eques. Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Characiformes"
+    },
+    "regions": [
+      {
+        "id": "america-do-sul",
+        "label": "América do Sul",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "moenkhausia-sanctaefilomenae": {
     "candidateName": "Moenkhausia sanctaefilomenae",
     "popularName": "Tetra-olho-de-fogo",
-    "rows": [203, 213],
+    "rows": [
+      203,
+      213
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/moenkhausia-sanctaefilomenae/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Moenkhausia%20sanctaefilomenae",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "22–26",
       "ph": "6.0–8.0",
@@ -899,17 +1613,34 @@
       "authority": "(Steindachner 1907)",
       "family": "Acestrorhamphidae",
       "statusEvidence": "Current status: Valid as Bario sanctaefilomenae (Steindachner 1907). Acestrorhamphidae: Thayeriinae. Distribution: South America: Parnaíba, São Francisco, upper Paraná, Paraguay and Uruguay River basins (Brazil, Bolivia, Venezuela, Paraguay and Uruguay). Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Characiformes"
+    },
+    "regions": [
+      {
+        "id": "america-do-sul",
+        "label": "América do Sul",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "hyphessobrycon-pulchripinnis": {
     "candidateName": "Hyphessobrycon pulchripinnis",
     "popularName": "Tetra-limão",
-    "rows": [204],
+    "rows": [
+      204
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/hyphessobrycon-pulchripinnis/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Hyphessobrycon%20pulchripinnis",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "20–28",
       "ph": "5.0–7.5",
@@ -923,17 +1654,35 @@
       "authority": "Ahl 1937",
       "family": "Acestrorhamphidae",
       "statusEvidence": "Current status: Valid as Hyphessobrycon pulchripinnis Ahl 1937. Acestrorhamphidae: Hyphessobryconinae. Distribution: Tapajós River basin, Brazil. Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Characiformes"
+    },
+    "regions": [
+      {
+        "id": "america-do-sul",
+        "label": "América do Sul",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "pristella-maxillaris": {
     "candidateName": "Pristella maxillaris",
     "popularName": "Tetra-pristela",
-    "rows": [205, 215],
+    "rows": [
+      205,
+      215
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/pristella-maxillaris/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Pristella%20maxillaris",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "22–28",
       "ph": "6.0–7.5",
@@ -947,17 +1696,34 @@
       "authority": "(Ulrey 1894)",
       "family": "Acestrorhamphidae",
       "statusEvidence": "Current status: Valid as Pristella maxillaris (Ulrey 1894). Acestrorhamphidae: Pristellinae. Distribution: South America: Amazon, Orinoco and coastal river drainages of the Guianas and Brazil (Brazil, French Guiana, Guyana and Venezuela) (Guiana Mangrove Province). Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Characiformes"
+    },
+    "regions": [
+      {
+        "id": "america-do-sul",
+        "label": "América do Sul",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "hyphessobrycon-amandae": {
     "candidateName": "Hyphessobrycon amandae",
     "popularName": "Tetra-foguinho",
-    "rows": [206],
+    "rows": [
+      206
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/hyphessobrycon-amandae/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Hyphessobrycon%20amandae",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "20–28",
       "ph": "5.0–7.0",
@@ -971,17 +1737,34 @@
       "authority": "Géry & Uj 1987",
       "family": "Acestrorhamphidae",
       "statusEvidence": "Current status: Valid as Hyphessobrycon amandae Géry & Uj 1987. Acestrorhamphidae: Hyphessobryconinae. Distribution: Araguaia River basin, Brazil. Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Characiformes"
+    },
+    "regions": [
+      {
+        "id": "america-do-sul",
+        "label": "América do Sul",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "hemigrammus-erythrozonus": {
     "candidateName": "Hemigrammus erythrozonus",
     "popularName": "Tetra-glowlight",
-    "rows": [208],
+    "rows": [
+      208
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/hemigrammus-erythrozonus/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Hemigrammus%20erythrozonus",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "24–28",
       "ph": "5.5–7.5",
@@ -995,17 +1778,34 @@
       "authority": "Durbin 1909",
       "family": "Acestrorhamphidae",
       "statusEvidence": "Current status: Valid as Hemigrammus erythrozonus Durbin 1909. Acestrorhamphidae: Pristellinae. Distribution: South America: Essequibo River basin (Guyana). Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Characiformes"
+    },
+    "regions": [
+      {
+        "id": "america-do-sul",
+        "label": "América do Sul",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "gymnocorymbus-ternetzi": {
     "candidateName": "Gymnocorymbus ternetzi",
     "popularName": "Tetra-negro",
-    "rows": [210],
+    "rows": [
+      210
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/gymnocorymbus-ternetzi/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Gymnocorymbus%20ternetzi",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "20–26",
       "ph": "6.0–7.0",
@@ -1019,17 +1819,34 @@
       "authority": "(Boulenger 1895)",
       "family": "Acestrorhamphidae",
       "statusEvidence": "Current status: Valid as Gymnocorymbus ternetzi (Boulenger 1895). Acestrorhamphidae: Pristellinae. Distribution: South America: Paraguay and Guaporé River basins: Argentina, Bolivia, Brazil, Paraguay and Peru.  IUCN (2023): Least Concern.  Introduced elsewhere. Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Characiformes"
+    },
+    "regions": [
+      {
+        "id": "america-do-sul",
+        "label": "América do Sul",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "paracheirodon-axelrodi": {
     "candidateName": "Paracheirodon axelrodi",
     "popularName": "Neon-cardinal",
-    "rows": [211],
+    "rows": [
+      211
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/paracheirodon-axelrodi/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Paracheirodon%20axelrodi",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "23–29",
       "ph": "3.5–7.5",
@@ -1043,17 +1860,34 @@
       "authority": "(Schultz 1956)",
       "family": "Acestrorhamphidae",
       "statusEvidence": "Current status: Valid as Paracheirodon axelrodi (Schultz 1956). Acestrorhamphidae: Megalamphodinae. Distribution: South America: upper Orinoco and Negro River basins (Brazil, Colombia and Venezuela). Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Characiformes"
+    },
+    "regions": [
+      {
+        "id": "america-do-sul",
+        "label": "América do Sul",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "hyphessobrycon-herbertaxelrodi": {
     "candidateName": "Hyphessobrycon herbertaxelrodi",
     "popularName": "Neon-negro",
-    "rows": [212],
+    "rows": [
+      212
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/hyphessobrycon-herbertaxelrodi/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Hyphessobrycon%20herbertaxelrodi",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "20–28",
       "ph": "5.0–7.5",
@@ -1067,17 +1901,34 @@
       "authority": "Géry 1961",
       "family": "Acestrorhamphidae",
       "statusEvidence": "Current status: Valid as Hyphessobrycon herbertaxelrodi Géry 1961. Acestrorhamphidae: Hyphessobryconinae. Distribution: South America: Paraguay River basin (Brazil and Bolivia).  IUCN (2022): Least Concern. Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Characiformes"
+    },
+    "regions": [
+      {
+        "id": "america-do-sul",
+        "label": "América do Sul",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "thayeria-boehlkei": {
     "candidateName": "Thayeria boehlkei",
     "popularName": "Tetra-pinguim",
-    "rows": [214],
+    "rows": [
+      214
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/thayeria-boehlkei/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Thayeria%20boehlkei",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "22–28",
       "gh": "0–20",
@@ -1091,13 +1942,30 @@
       "authority": "Weitzman 1957",
       "family": "Acestrorhamphidae",
       "statusEvidence": "Current status: Valid as Thayeria boehlkei Weitzman 1957. Acestrorhamphidae: Thayeriinae. Distribution: South America: western Amazon basin, Peru, Ecuador, Bolivia and Brazil. Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Characiformes"
+    },
+    "regions": [
+      {
+        "id": "america-do-sul",
+        "label": "América do Sul",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "prionobrama-filigera": {
     "candidateName": "Prionobrama filigera",
     "popularName": "Tetra-vidro",
-    "rows": [217],
+    "rows": [
+      217
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/prionobrama-filigera/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Prionobrama%20filigera",
     "accessedAt": "2026-10-18",
@@ -1115,17 +1983,34 @@
       "authority": "(Cope 1870)",
       "family": "Characidae",
       "statusEvidence": "Current status: Valid as Prionobrama filigera (Cope 1870). Characidae: Aphyocharacinae. Distribution: South America: Amazon River basin (Bolivia, Brazil, Colombia, Ecuador and Peru).  IUCN (2023): Least Concern. Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Characiformes"
+    },
+    "regions": [
+      {
+        "id": "america-do-sul",
+        "label": "América do Sul",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   },
   "aulonocara-stuartgranti": {
     "candidateName": "Aulonocara stuartgranti",
     "popularName": "Aulonocara-stuartgranti",
-    "rows": [53],
+    "rows": [
+      53
+    ],
     "careUrl": "https://www.seriouslyfish.com/species/aulonocara-stuartgranti/",
     "gbifUrl": "https://api.gbif.org/v1/species/match?name=Aulonocara%20stuartgranti",
     "accessedAt": "2026-10-18",
-    "photoReview": "pending",
+    "photoReview": "verified",
     "careNumbers": {
       "temperature": "23–29",
       "ph": "7.5–9.0",
@@ -1139,7 +2024,22 @@
       "authority": "Meyer & Riehl 1985",
       "family": "Cichlidae",
       "statusEvidence": "Current status: Valid as Aulonocara stuartgranti Meyer & Riehl 1985. Cichlidae: Pseudocrenilabrinae. Distribution: Eastern Africa: Lake Malawi. Habitat: freshwater.",
-      "accessedAt": "2026-10-18"
-    }
+      "accessedAt": "2026-10-18",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "className": "Actinopteri",
+      "order": "Cichliformes"
+    },
+    "regions": [
+      {
+        "id": "africa",
+        "label": "África",
+        "scale": "continent",
+        "referenceIds": [
+          "care",
+          "cof"
+        ]
+      }
+    ]
   }
 }

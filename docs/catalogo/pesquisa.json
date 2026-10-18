@@ -73,7 +73,7 @@
   },
   "misgurnus-anguillicaudatus": {
     "description": "O dojo explora o fundo e gosta de se enterrar em substrato macio. É um peixe de água mais fresca, cujo porte adulto exige um aquário espaçoso e tampado.",
-    "origin": "Ásia: leste da Rússia, Coreia, Japão, China e norte do Vietnã. Há numerosas introduções fora da área nativa.",
+    "origin": "Ásia: China, conforme a delimitação atual do Catalog of Fishes. A fonte de manutenção inclui uma área histórica mais ampla no leste asiático; registros de Japão, Coreia e outras regiões podem exigir revisão do complexo e não são apresentados aqui como ocorrência nativa confirmada.",
     "habitat": "Águas rasas e lentas, remansos, brejos e arrozais com fundo de lama ou silte e bastante cobertura.",
     "maintenance": "Areia macia ou cascalho muito fino, com raízes e refúgios firmemente apoiados. Tampar o aquário e proteger entradas do filtro; não mantê-lo em água tropical quente por períodos prolongados.",
     "diet": "Procura larvas de insetos e pequenos crustáceos; aceita ração que afunda, complementada com alimentos pequenos vivos ou congelados.",
@@ -253,7 +253,7 @@
   },
   "trichopodus-trichopterus": {
     "description": "O tricogáster-azul pode ficar bem maior e mais territorial do que parece quando jovem. Azul e ouro são cores ornamentais da mesma espécie.",
-    "origin": "Ásia: bacia do Mekong e outras regiões do sudeste asiático, incluindo partes da Indonésia; há populações introduzidas em outros continentes.",
+    "origin": "Ásia: bacia do Mekong em China, Laos, Camboja, Tailândia e Vietnã, conforme o Catalog of Fishes. A fonte de manutenção inclui uma distribuição histórica mais ampla; a ocorrência nativa na Indonésia não foi adotada para gerar sugestões geográficas.",
     "habitat": "Águas baixas e lentas com vegetação, como lagoas, valas e brejos; pode ocupar áreas inundadas sazonalmente.",
     "maintenance": "Aquário plantado com cobertura flutuante, áreas livres para nadar e refúgios para animais perseguidos.",
     "diet": "Onívoro, consumindo invertebrados, algas e outros materiais. Em aquário aceita alimentos variados apropriados ao porte.",
@@ -337,7 +337,7 @@
   },
   "poecilia-sphenops": {
     "description": "A molinésia-sphenops precisa de água rica em minerais. Sua ficha reúne as necessidades da espécie sem atribuir automaticamente todas as molinésias coloridas ao mesmo táxon.",
-    "origin": "Américas: a fonte registra distribuição do México até Colômbia e Venezuela, além de populações insulares e introduzidas.",
+    "origin": "América do Norte e América Central: vertente atlântica do sul do México, El Salvador, Honduras e Nicarágua, conforme a delimitação atual do Catalog of Fishes. A fonte de manutenção apresenta uma distribuição histórica mais ampla; não confundir registros introduzidos com origem nativa.",
     "habitat": "A ficha de manutenção consultada não detalha um micro-habitat único que represente toda a distribuição; não presumir exigência de água salobra.",
     "maintenance": "Aquário plantado com água moderadamente dura a dura e pH básico. Sal não substitui cálcio e magnésio nem corrige a água mole.",
     "diet": "Onívora, com importante componente vegetal. Usar ração apropriada, algas ou vegetais adequados e variedade alimentar.",
@@ -457,7 +457,7 @@
   },
   "thayeria-boehlkei": {
     "description": "O tetra-pinguim chama atenção pelo nado inclinado e pela faixa escura que segue até a parte inferior da cauda. Sua melhor apresentação é em cardume.",
-    "origin": "América do Sul: a fonte registra sistemas Amazônico no Peru e Araguaia no Brasil.",
+    "origin": "América do Sul: oeste da bacia Amazônica em Peru, Equador, Bolívia e Brasil, conforme o Catalog of Fishes. A fonte de manutenção também menciona Araguaia; esse registro exige confirmação e não foi adotado como distribuição consolidada.",
     "habitat": "Tributários e trechos com vegetação marginal; não presumir um único micro-habitat para toda a distribuição.",
     "maintenance": "Aquário plantado com raízes, substrato escuro e plantas flutuantes que criem sombra, mantendo corredor de natação.",
     "diet": "Micropredador; aceita rações finas e pequenos alimentos vivos ou congelados, como artêmia e dáfnias.",
