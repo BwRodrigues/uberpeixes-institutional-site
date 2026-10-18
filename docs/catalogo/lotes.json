@@ -1,0 +1,12 @@
+[
+  {
+    "id": "lote-01",
+    "species": [
+      "pethia-gelius",
+      "barbodes-semifasciolatus",
+      "puntigrus-tetrazona",
+      "danio-rerio"
+    ],
+    "validation": "build, integridade e testes do lote aprovados"
+  }
+]

@@ -1,0 +1,287 @@
+{
+  "slug": "barbodes-semifasciolatus",
+  "name": "Barbo-ouro",
+  "commercialName": "BARBUS OURO",
+  "category": "Barbos e Danios",
+  "source": {
+    "workbook": "VAREJO PEIXES NICHOS.xlsx",
+    "sheet": "Tabela Peixes Atual",
+    "row": 12,
+    "niche": "Barbos e Danios"
+  },
+  "sortOrder": 12,
+  "scientificName": "Barbodes semifasciolatus",
+  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "description": "O barbo-ouro é a forma ornamental dourada de um peixe originalmente esverdeado. Ativo e sociável, precisa de espaço para nadar em grupo.",
+  "photo": {
+    "src": "/images/species/barbodes-semifasciolatus-1.webp",
+    "width": 960,
+    "height": 462,
+    "alt": "Fotografia representativa de Barbodes semifasciolatus; imagem de referência da espécie, sem indicação de estoque.",
+    "author": "Photo by and (c)2004 Derek Ramsey (Ram-Man)",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gold_Barb_700.jpg",
+    "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  "additionalPhotos": [
+    {
+      "src": "/images/species/barbodes-semifasciolatus-2.webp",
+      "width": 866,
+      "height": 650,
+      "alt": "Fotografia representativa de Barbodes semifasciolatus; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Fred Hsu (Wikipedia:User:Fredhsu on en.wikipedia)",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gold_Barb_Puntius_semifasciolatus_1.png",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    },
+    {
+      "src": "/images/species/barbodes-semifasciolatus-3.webp",
+      "width": 960,
+      "height": 720,
+      "alt": "Fotografia representativa de Barbodes semifasciolatus; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Oeoi",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Puntius_semifasciolatus.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ],
+  "sections": [
+    {
+      "id": "apresentacao",
+      "fields": [
+        {
+          "label": "Outros nomes populares",
+          "value": "BARBUS OURO",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Identificação científica",
+          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Introdução",
+          "value": "O barbo-ouro é a forma ornamental dourada de um peixe originalmente esverdeado. Ativo e sociável, precisa de espaço para nadar em grupo.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "classificacao",
+      "fields": [
+        {
+          "label": "Reino",
+          "value": "Animalia",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Filo",
+          "value": "Chordata",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Classe",
+          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Ordem",
+          "value": "Cypriniformes",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Família",
+          "value": "Cyprinidae",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Gênero",
+          "value": "Barbodes",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Espécie",
+          "value": "Barbodes semifasciolatus",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Autoridade taxonômica",
+          "value": "(Günther 1868)",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Sinônimos científicos",
+          "value": "Literatura de manutenção consultada sob Barbodes semifasciolatus; o nome aceito adotado é Barbodes semifasciolatus. Consultar o histórico nomenclatural completo na referência taxonômica.",
+          "referenceIds": ["cof", "care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Continente e países",
+          "value": "Ásia: Vietnã, Taiwan, sudoeste da China e norte do Laos; existem populações introduzidas fora da distribuição nativa.",
+          "referenceIds": ["care", "cof"]
+        },
+        {
+          "label": "Ambiente natural",
+          "value": "Tributários lentos, brejos e canais com vegetação abundante; costuma formar grupos próximos ao substrato.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Tamanho adulto",
+          "value": "75 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Fêmeas adultas são mais robustas e um pouco maiores. Na forma natural, machos maduros podem desenvolver vermelho na parte inferior do corpo.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "16–24 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "6.0–8.0; não interpretar os extremos como metas a alternar.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "2–20 °dGH.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "KH",
+          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Substrato e decoração",
+          "value": "Aquário plantado, com áreas de natação e alguma movimentação de água. Sombra e substrato escuro favorecem a observação das cores.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "Base mínima de 90 × 30 cm para um grupo; a ficha consultada apresenta cerca de 81 L. Acrescentar espaço conforme companheiros e lotação.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Manutenção específica",
+          "value": "Aquário plantado, com áreas de natação e alguma movimentação de água. Sombra e substrato escuro favorecem a observação das cores.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Alimentos adequados",
+          "value": "Onívoro: pequenos invertebrados e material vegetal. Oferecer rações completas, componente vegetal e alimentos pequenos vivos ou congelados.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Comportamento social",
+          "value": "Geralmente pacífico; manter grupo misto de ao menos 8–10 exemplares, com companheiros de porte e exigências semelhantes.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Tipo de reprodução",
+          "value": "Dispersa ovos sem cuidar da prole. Um recipiente separado com proteção dos ovos ajuda a evitar a predação pelos adultos.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Problemas de manutenção",
+          "value": "Aquário plantado, com áreas de natação e alguma movimentação de água. Sombra e substrato escuro favorecem a observação das cores.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "fields": [
+        {
+          "label": "Curiosidades verificadas da espécie",
+          "value": "O nome comercial antigo “Puntius schuberti” se refere à variedade dourada, não a outra espécie válida.",
+          "referenceIds": ["care", "cof"]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "cof",
+      "title": "Eschmeyer’s Catalog of Fishes — Barbodes semifasciolatus",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=2006",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "class",
+      "title": "Eschmeyer’s Catalog of Fishes — classificação por família",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "care",
+      "title": "Barbodes semifasciolatus — manutenção e história natural",
+      "url": "https://www.seriouslyfish.com/species/barbodes-semifasciolatus/",
+      "author": "Seriously Fish",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "gbif",
+      "title": "Barbodes semifasciolatus — registro comparativo no GBIF",
+      "url": "https://api.gbif.org/v1/species/match?name=Barbodes%20semifasciolatus",
+      "author": "GBIF",
+      "accessedAt": "2026-10-18"
+    }
+  ],
+  "regions": [
+    {
+      "id": "asia",
+      "label": "Ásia",
+      "scale": "continent",
+      "referenceIds": ["care", "cof"]
+    }
+  ],
+  "status": "draft"
+}

@@ -1,0 +1,288 @@
+{
+  "slug": "danio-rerio",
+  "name": "Paulistinha",
+  "commercialName": "PAULISTINHA COMUM",
+  "category": "Barbos e Danios",
+  "source": {
+    "workbook": "VAREJO PEIXES NICHOS.xlsx",
+    "sheet": "Tabela Peixes Atual",
+    "row": 17,
+    "niche": "Barbos e Danios"
+  },
+  "sortOrder": 17,
+  "scientificName": "Danio rerio",
+  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "description": "Conhecido como paulistinha, este pequeno nadador de listras horizontais fica mais à vontade em grupo. Um aquário comprido vale mais que um recipiente pequeno e alto.",
+  "photo": {
+    "src": "/images/species/danio-rerio-1.webp",
+    "width": 960,
+    "height": 599,
+    "alt": "Fotografia representativa de Danio rerio; imagem de referência da espécie, sem indicação de estoque.",
+    "author": "Marrabbio2",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#Public_domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brachydanio_rerio.jpg",
+    "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  "additionalPhotos": [
+    {
+      "src": "/images/species/danio-rerio-2.webp",
+      "width": 960,
+      "height": 375,
+      "alt": "Fotografia representativa de Danio rerio; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Soulkeeper",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#Public_domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Danio_rerio_port.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    },
+    {
+      "src": "/images/species/danio-rerio-3.webp",
+      "width": 491,
+      "height": 454,
+      "alt": "Fotografia representativa de Danio rerio; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Marrabbio2",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Danio_rerio_var_leopardo.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo.",
+      "note": "Original de 491 × 454 px; não houve ampliação do arquivo."
+    }
+  ],
+  "sections": [
+    {
+      "id": "apresentacao",
+      "fields": [
+        {
+          "label": "Outros nomes populares",
+          "value": "PAULISTINHA COMUM",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Identificação científica",
+          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Introdução",
+          "value": "Conhecido como paulistinha, este pequeno nadador de listras horizontais fica mais à vontade em grupo. Um aquário comprido vale mais que um recipiente pequeno e alto.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "classificacao",
+      "fields": [
+        {
+          "label": "Reino",
+          "value": "Animalia",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Filo",
+          "value": "Chordata",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Classe",
+          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Ordem",
+          "value": "Cypriniformes",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Família",
+          "value": "Danionidae",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Gênero",
+          "value": "Danio",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Espécie",
+          "value": "Danio rerio",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Autoridade taxonômica",
+          "value": "(Hamilton 1822)",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Sinônimos científicos",
+          "value": "Literatura de manutenção consultada sob Danio rerio; o nome aceito adotado é Danio rerio. Consultar o histórico nomenclatural completo na referência taxonômica.",
+          "referenceIds": ["cof", "care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Continente e países",
+          "value": "Ásia: Índia e Bangladesh, com registros também discutidos para Nepal. Parte da distribuição histórica corresponde a identificações equivocadas de outros dânios.",
+          "referenceIds": ["care", "cof"]
+        },
+        {
+          "label": "Ambiente natural",
+          "value": "Margens de cursos de água, poças sazonais e arrozais; muitas observações são de água lenta, com vegetação e fundo de silte.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Tamanho adulto",
+          "value": "50 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Fêmeas maduras costumam ser maiores e mais arredondadas; machos são mais esguios e intensificam as cores na reprodução.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "18–25 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "6.0–8.0; não interpretar os extremos como metas a alternar.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "5–20 °dGH.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "KH",
+          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Substrato e decoração",
+          "value": "Plantas nas margens, sombra parcial e corredor de natação. Aceita alguma movimentação de água, sem exigir corrente intensa.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "Base mínima de 90 × 30 cm para o grupo ativo; cerca de 81 L aparecem na fonte. O comprimento útil e a lotação devem orientar o projeto.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Manutenção específica",
+          "value": "Plantas nas margens, sombra parcial e corredor de natação. Aceita alguma movimentação de água, sem exigir corrente intensa.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Alimentos adequados",
+          "value": "Micropredador de pequenos invertebrados; em aquário aceita ração fina, complementada com dáfnias, artêmia e outros alimentos pequenos.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Comportamento social",
+          "value": "Pacífico e muito ativo; manter pelo menos 8–10 exemplares. Escolher companheiros considerando o pequeno porte adulto e a temperatura de manutenção.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Tipo de reprodução",
+          "value": "Dispersa ovos, sem cuidados parentais. Para aumentar a sobrevivência, separar os adultos dos ovos e oferecer alimento inicial proporcional à boca dos alevinos.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Problemas de manutenção",
+          "value": "Plantas nas margens, sombra parcial e corredor de natação. Aceita alguma movimentação de água, sem exigir corrente intensa.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "fields": [
+        {
+          "label": "Curiosidades verificadas da espécie",
+          "value": "A forma leopardo é uma variedade de Danio rerio; não constitui uma espécie adicional.",
+          "referenceIds": ["care", "cof"]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "cof",
+      "title": "Eschmeyer’s Catalog of Fishes — Danio rerio",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=1979",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "class",
+      "title": "Eschmeyer’s Catalog of Fishes — classificação por família",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "care",
+      "title": "Danio rerio — manutenção e história natural",
+      "url": "https://www.seriouslyfish.com/species/danio-rerio/",
+      "author": "Seriously Fish",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "gbif",
+      "title": "Danio rerio — registro comparativo no GBIF",
+      "url": "https://api.gbif.org/v1/species/match?name=Danio%20rerio",
+      "author": "GBIF",
+      "accessedAt": "2026-10-18"
+    }
+  ],
+  "regions": [
+    {
+      "id": "asia",
+      "label": "Ásia",
+      "scale": "continent",
+      "referenceIds": ["care", "cof"]
+    }
+  ],
+  "status": "draft"
+}

@@ -15,16 +15,26 @@ test("recommendations need sourced geography or reviewed pair evidence", () => {
         (item) =>
           item.animal.slug !== animal.slug &&
           item.kind === "same-region" &&
-          item.region?.scale === "continent" &&
+          Boolean(item.region?.referenceIds.length) &&
           item.evidence.length > 0,
       ),
     ).toBe(true);
   }
+  const duplicateSpecies = structuredClone(catalogRecords);
+  duplicateSpecies[1].scientificName = duplicateSpecies[0].scientificName;
+  expect(() => createCatalogRepository(duplicateSpecies)).toThrow(
+    /Duplicate scientific species/,
+  );
+  const reusedPhoto = structuredClone(catalogRecords);
+  reusedPhoto[1].photo = structuredClone(reusedPhoto[0].photo);
+  expect(() => createCatalogRepository(reusedPhoto)).toThrow(
+    /Photograph reused across species/,
+  );
   const databaseRows = catalogRecords.map(
     ({ source: _source, ...animal }, sortOrder) => ({ ...animal, sortOrder }),
   );
   const alternateProvider = createCatalogRepository(databaseRows);
-  expect(alternateProvider.list()).toHaveLength(5);
+  expect(alternateProvider.list()).toHaveLength(catalogRecords.length);
   expect(alternateProvider.findBySlug(catalogRecords[0].slug)?.name).toBe(
     catalogRecords[0].name,
   );
@@ -102,7 +112,7 @@ test("versioned knowledge feed retains citations without spreadsheet or commerci
   }
   const payload = await response.json();
   expect(payload.schemaVersion).toBe(1);
-  expect(payload.items).toHaveLength(5);
+  expect(payload.items).toHaveLength(catalogRecords.length);
   for (const item of payload.items) {
     expect(item.reviewStatus).toBe("draft");
     expect(item.photos).toHaveLength(3);

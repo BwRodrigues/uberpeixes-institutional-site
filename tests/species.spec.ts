@@ -1,40 +1,15 @@
 import { expect, test } from "@playwright/test";
 import { catalogRecords as profileData } from "./helpers/catalog";
 
-const pilot = [
-  {
-    slug: "neon-chines",
-    name: "Neon-chinês",
-    scientific: "Tanichthys albonubes",
-    commercial: "NEON CHINES (TANICTIS)",
-  },
-  {
-    slug: "peixe-agulhinha",
-    name: "Agulhinha Prata",
-    scientific: "Dermogenys pusilla",
-    commercial: "PEIXE AGULHINHA",
-  },
-  {
-    slug: "barbus-cereja",
-    name: "Barbus cereja",
-    scientific: "Rohanella titteya",
-    commercial: "BARBUS CEREJA",
-  },
-  {
-    slug: "barbus-cereja-veu",
-    name: "Barbo Conchônio Cereja Véu",
-    scientific: "Pethia conchonius",
-    commercial: "BARBUS CEREJA VEU",
-  },
-  {
-    slug: "barbus-denizoni",
-    name: "Barbus Denizoni",
-    scientific: "Dawkinsia denisonii",
-    commercial: "BARBUS DENIZONI",
-  },
-];
+const pilot = profileData.map((animal) => ({
+  slug: animal.slug,
+  name: animal.name,
+  scientific: animal.scientificName!,
+  commercial: animal.commercialName,
+}));
+test.setTimeout(30_000 + profileData.length * 4_000);
 
-test("homepage menu opens exactly five pilot records without overflow", async ({
+test("homepage menu opens every catalog record without overflow", async ({
   page,
 }) => {
   await page.goto("/");
@@ -45,7 +20,9 @@ test("homepage menu opens exactly five pilot records without overflow", async ({
   await expect(page).toHaveURL(/\/especies\/$/);
   // A clicked navigation may commit before its styles have finished loading.
   await page.waitForLoadState("load");
-  await expect(page.locator("[data-species-card]")).toHaveCount(5);
+  await expect(page.locator("[data-species-card]")).toHaveCount(
+    profileData.length,
+  );
   await expect(
     page.getByText("Protótipo em validação", { exact: true }),
   ).toHaveCount(0);
@@ -73,7 +50,7 @@ test("search is accent-insensitive and combines with category filters and reset"
   const category = page.getByRole("combobox", {
     name: "Categoria dos animais",
   });
-  await search.fill("  VÉU  ");
+  await search.fill("  CONCHÔNIO  ");
   await expect(page.locator("[data-species-card]:visible")).toHaveCount(1);
   await expect(page.locator("[data-species-card]:visible")).toContainText(
     "Barbo Conchônio Cereja Véu",
@@ -82,7 +59,9 @@ test("search is accent-insensitive and combines with category filters and reset"
   await expect(page.locator("[data-species-card]:visible")).toHaveCount(0);
   await expect(page.getByText(/Nenhum animal encontrado/)).toBeVisible();
   await page.getByRole("button", { name: "Limpar filtros" }).click();
-  await expect(page.locator("[data-species-card]:visible")).toHaveCount(5);
+  await expect(page.locator("[data-species-card]:visible")).toHaveCount(
+    profileData.length,
+  );
   await search.fill("Dermogenys pusilla");
   await expect(page.locator("[data-species-card]:visible")).toHaveCount(1);
   await expect(page.locator("[data-species-card]:visible")).toContainText(
@@ -90,7 +69,10 @@ test("search is accent-insensitive and combines with category filters and reset"
   );
   await page.getByRole("button", { name: "Limpar filtros" }).click();
   await category.selectOption("Barbos e Danios");
-  await expect(page.locator("[data-species-card]:visible")).toHaveCount(3);
+  await expect(page.locator("[data-species-card]:visible")).toHaveCount(
+    profileData.filter((animal) => animal.category === "Barbos e Danios")
+      .length,
+  );
 });
 
 test("each generated profile has the correct identity, inquiry, metadata, references and licensed photographs", async ({
@@ -121,7 +103,9 @@ test("each generated profile has the correct identity, inquiry, metadata, refere
     ).toBeVisible();
     await expect(
       page.locator(".species-hero .species-photo figcaption"),
-    ).toContainText("CC BY");
+    ).toContainText(
+      profileData.find((animal) => animal.slug === entry.slug)!.photo!.license,
+    );
     expect(
       await page
         .locator(".species-hero img")
@@ -220,9 +204,13 @@ test("each generated profile has the correct identity, inquiry, metadata, refere
       await expect(card.locator(".recommendation-label")).toHaveText(
         "Mesma região",
       );
-      await expect(card.locator(".recommendation-context")).toHaveText(
-        "Ásia · continente",
-      );
+      const source = profileData.find((animal) => animal.slug === entry.slug)!;
+      const context = (await card
+        .locator(".recommendation-context")
+        .textContent())!;
+      expect(
+        source.regions.some((region) => context.includes(region.label)),
+      ).toBe(true);
       const link = card.locator("h3 a");
       const destination = (await link.getAttribute("href"))!;
       expect(destination).not.toBe(`/especies/${entry.slug}/`);
@@ -260,7 +248,7 @@ test("each generated profile has the correct identity, inquiry, metadata, refere
       .click();
     await expect(page).toHaveURL(/\/especies\/$/);
   }
-  expect(titles.size).toBe(5);
+  expect(titles.size).toBe(profileData.length);
   expect(errors).toEqual([]);
   const sitemap = await page.request.get("/sitemap.xml");
   expect(sitemap.status()).toBe(200);
@@ -279,7 +267,9 @@ test("catalog remains navigable without JavaScript", async ({
   try {
     const page = await context.newPage();
     await page.goto(`${baseURL}/especies/`);
-    await expect(page.locator("[data-species-card]")).toHaveCount(5);
+    await expect(page.locator("[data-species-card]")).toHaveCount(
+      profileData.length,
+    );
     await expect(page.locator("[data-catalog-filters]")).toBeHidden();
     await page
       .getByRole("link", { name: "Ver ficha completa", exact: true })

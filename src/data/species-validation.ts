@@ -14,6 +14,8 @@ export const isPublishable = (animal: Species) =>
   );
 export function validateSpeciesCatalog(records: Species[]): void {
   const slugs = new Set<string>();
+  const scientificNames = new Set<string>();
+  const photoSources = new Set<string>();
   for (const animal of records) {
     if (
       !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(animal.slug) ||
@@ -21,6 +23,17 @@ export function validateSpeciesCatalog(records: Species[]): void {
     )
       throw new Error(`Invalid or duplicate species slug: ${animal.slug}`);
     slugs.add(animal.slug);
+    if (animal.scientificName) {
+      const identity = animal.scientificName
+        .trim()
+        .replace(/\s+/g, " ")
+        .toLowerCase();
+      if (scientificNames.has(identity))
+        throw new Error(
+          `Duplicate scientific species: ${animal.scientificName}`,
+        );
+      scientificNames.add(identity);
+    }
     const refs = new Set(animal.references.map((ref) => ref.id));
     for (const section of animal.sections)
       for (const field of section.fields) {
@@ -53,6 +66,9 @@ export function validateSpeciesCatalog(records: Species[]): void {
     )
       throw new Error(`Duplicate species photograph: ${animal.slug}`);
     for (const photo of photos) {
+      if (photoSources.has(photo.sourceUrl))
+        throw new Error(`Photograph reused across species: ${photo.sourceUrl}`);
+      photoSources.add(photo.sourceUrl);
       if (
         !photo.author ||
         !photo.license ||

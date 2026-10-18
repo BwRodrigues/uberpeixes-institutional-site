@@ -1,0 +1,289 @@
+{
+  "slug": "pethia-gelius",
+  "name": "Barbo-gema",
+  "commercialName": "BARBUS GEMA",
+  "category": "Barbos e Danios",
+  "source": {
+    "workbook": "VAREJO PEIXES NICHOS.xlsx",
+    "sheet": "Tabela Peixes Atual",
+    "row": 11,
+    "niche": "Barbos e Danios"
+  },
+  "sortOrder": 11,
+  "scientificName": "Pethia gelius",
+  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "description": "Pequeno e discreto, o barbo-gema ganha confiança em cardume entre plantas. É um peixe para aquários maduros e companhias igualmente tranquilas.",
+  "photo": {
+    "src": "/images/species/pethia-gelius-1.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Fotografia representativa de Pethia gelius; imagem de referência da espécie, sem indicação de estoque.",
+    "author": "Beta Mahatvaraj",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pethia_gelius_hi_res.jpg",
+    "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  "additionalPhotos": [
+    {
+      "src": "/images/species/pethia-gelius-2.webp",
+      "width": 293,
+      "height": 168,
+      "alt": "Fotografia representativa de Pethia gelius; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Frank M. Greco",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pethia_gelius.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo.",
+      "note": "Original de 293 × 168 px; não houve ampliação do arquivo."
+    },
+    {
+      "src": "/images/species/pethia-gelius-3.webp",
+      "width": 350,
+      "height": 204,
+      "alt": "Fotografia representativa de Pethia gelius; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Frank M. Greco",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pethia_gelius_female.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo.",
+      "note": "Original de 350 × 204 px; não houve ampliação do arquivo."
+    }
+  ],
+  "sections": [
+    {
+      "id": "apresentacao",
+      "fields": [
+        {
+          "label": "Outros nomes populares",
+          "value": "BARBUS GEMA",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Identificação científica",
+          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Introdução",
+          "value": "Pequeno e discreto, o barbo-gema ganha confiança em cardume entre plantas. É um peixe para aquários maduros e companhias igualmente tranquilas.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "classificacao",
+      "fields": [
+        {
+          "label": "Reino",
+          "value": "Animalia",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Filo",
+          "value": "Chordata",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Classe",
+          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Ordem",
+          "value": "Cypriniformes",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Família",
+          "value": "Cyprinidae",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Gênero",
+          "value": "Pethia",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Espécie",
+          "value": "Pethia gelius",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Autoridade taxonômica",
+          "value": "(Hamilton 1822)",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Sinônimos científicos",
+          "value": "Literatura de manutenção consultada sob Pethia gelius; o nome aceito adotado é Pethia gelius. Consultar o histórico nomenclatural completo na referência taxonômica.",
+          "referenceIds": ["cof", "care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Continente e países",
+          "value": "Ásia: drenagens do Ganges e Brahmaputra, no norte da Índia, Nepal e Bangladesh. Registros mais distantes exigem cautela de identificação.",
+          "referenceIds": ["care", "cof"]
+        },
+        {
+          "label": "Ambiente natural",
+          "value": "Águas rasas de corrente fraca, frequentemente turvas, com lama ou silte; também ocupa margens de rios.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Tamanho adulto",
+          "value": "40 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Fêmeas maduras tendem a ser maiores e mais arredondadas; machos costumam mostrar cores mais intensas.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "18–24 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "6.0–7.0; não interpretar os extremos como metas a alternar.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "1–10 °dGH.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "KH",
+          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Substrato e decoração",
+          "value": "Plantas densas, sombra de flutuantes e troncos, com corrente suave. É sensível a oscilações em aquários biologicamente imaturos.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "Base mínima de 60 × 30 cm para o pequeno cardume; a fonte apresenta cerca de 54 L como referência geométrica, não como garantia de lotação.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Manutenção específica",
+          "value": "Plantas densas, sombra de flutuantes e troncos, com corrente suave. É sensível a oscilações em aquários biologicamente imaturos.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Alimentos adequados",
+          "value": "Micropredador: pequenos invertebrados. Em aquário, combinar alimentos secos de tamanho adequado com artêmia e dáfnias vivas ou congeladas.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Comportamento social",
+          "value": "Pacífico e tímido; manter ao menos 8–10 indivíduos. Evitar peixes grandes ou muito ativos que disputem alimento.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Tipo de reprodução",
+          "value": "Dispersa ovos sem cuidados parentais. Para criar alevinos, proteger os ovos dos adultos com vegetação fina ou estrutura apropriada.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Problemas de manutenção",
+          "value": "Plantas densas, sombra de flutuantes e troncos, com corrente suave. É sensível a oscilações em aquários biologicamente imaturos.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "fields": [
+        {
+          "label": "Curiosidades verificadas da espécie",
+          "value": "A revisão discutida na fonte separa Pethia gelius de P. canius e P. aurea; nomes antigos de importação não são confirmação taxonômica.",
+          "referenceIds": ["care", "cof"]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "cof",
+      "title": "Eschmeyer’s Catalog of Fishes — Pethia gelius",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=1558",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "class",
+      "title": "Eschmeyer’s Catalog of Fishes — classificação por família",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "care",
+      "title": "Pethia gelius — manutenção e história natural",
+      "url": "https://www.seriouslyfish.com/species/pethia-gelius/",
+      "author": "Seriously Fish",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "gbif",
+      "title": "Pethia gelius — registro comparativo no GBIF",
+      "url": "https://api.gbif.org/v1/species/match?name=Pethia%20gelius",
+      "author": "GBIF",
+      "accessedAt": "2026-10-18"
+    }
+  ],
+  "regions": [
+    {
+      "id": "asia",
+      "label": "Ásia",
+      "scale": "continent",
+      "referenceIds": ["care", "cof"]
+    }
+  ],
+  "status": "draft"
+}
