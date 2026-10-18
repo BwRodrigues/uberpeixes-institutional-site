@@ -24,5 +24,21 @@
       "pterophyllum-scalare"
     ],
     "validation": "build, integridade e testes do lote aprovados"
+  },
+  {
+    "id": "lote-03",
+    "species": [
+      "thorichthys-meeki",
+      "andinoacara-rivulatus",
+      "acarichthys-heckelii",
+      "astronotus-ocellatus",
+      "mikrogeophagus-ramirezi",
+      "trichogaster-chuna",
+      "macropodus-opercularis",
+      "trichopodus-trichopterus",
+      "trichopodus-leerii",
+      "gyrinocheilus-aymonieri"
+    ],
+    "validation": "build, integridade e testes do lote aprovados"
   }
 ]

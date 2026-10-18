@@ -8,9 +8,9 @@ Relatório gerado por `python3 scripts/catalog/audit_catalog.py --write`. Não c
 - Registros comerciais recebidos: **212** (incluem plantas e variedades, não equivalem a espécies biológicas).
 - Abas inspecionadas: **3**; duas abas de instruções não contêm registros de catálogo e não foram executadas.
 - Espécies já existentes preservadas: **5**.
-- Novas fichas geradas: **14**; total de fichas navegáveis: **19**.
-- Registros comerciais incorporados como variedades/aliases de fichas novas, sem URL adicional: **15**.
-- Registros ignorados ou pendentes: **178**.
+- Novas fichas geradas: **24**; total de fichas navegáveis: **29**.
+- Registros comerciais incorporados como variedades/aliases de fichas novas, sem URL adicional: **33**.
+- Registros ignorados ou pendentes: **150**.
 - Grupos científicos candidatos: **53**; **52** têm nome aceito verificado no Catalog of Fishes. Essa contagem não resolve a identidade dos demais nomes comerciais; o total biológico final da planilha continua indeterminado.
 
 ## Abas
@@ -25,6 +25,7 @@ Relatório gerado por `python3 scripts/catalog/audit_catalog.py --write`. Não c
 
 - `lote-01`: pethia-gelius, barbodes-semifasciolatus, puntigrus-tetrazona, danio-rerio. Validação: build, integridade e testes do lote aprovados.
 - `lote-02`: betta-splendens, misgurnus-anguillicaudatus, aulonocara-stuartgranti, melanochromis-auratus, labidochromis-caeruleus, maylandia-lombardoi, chindongo-socolofi, nimbochromis-venustus, maylandia-estherae, pterophyllum-scalare. Validação: build, integridade e testes do lote aprovados.
+- `lote-03`: thorichthys-meeki, andinoacara-rivulatus, acarichthys-heckelii, astronotus-ocellatus, mikrogeophagus-ramirezi, trichogaster-chuna, macropodus-opercularis, trichopodus-trichopterus, trichopodus-leerii, gyrinocheilus-aymonieri. Validação: build, integridade e testes do lote aprovados.
 
 ## Fichas novas concluídas
 
@@ -44,6 +45,16 @@ Relatório gerado por `python3 scripts/catalog/audit_catalog.py --write`. Não c
 | Venustus | *Nimbochromis venustus* | Ciclídeos Africanos | `/especies/nimbochromis-venustus/` |
 | Zebra-laranja | *Maylandia estherae* | Ciclídeos Africanos | `/especies/maylandia-estherae/` |
 | Acará-bandeira | *Pterophyllum scalare* | Ciclídeos Americanos | `/especies/pterophyllum-scalare/` |
+| Acará-boca-de-fogo | *Thorichthys meeki* | Ciclídeos Americanos | `/especies/thorichthys-meeki/` |
+| Green terror | *Andinoacara rivulatus* | Ciclídeos Americanos | `/especies/andinoacara-rivulatus/` |
+| Acará-heckelii | *Acarichthys heckelii* | Ciclídeos Americanos | `/especies/acarichthys-heckelii/` |
+| Oscar | *Astronotus ocellatus* | Ciclídeos Americanos | `/especies/astronotus-ocellatus/` |
+| Ramirezi | *Mikrogeophagus ramirezi* | Ciclídeos Americanos | `/especies/mikrogeophagus-ramirezi/` |
+| Colisa-chuna | *Trichogaster chuna* | Labirintídeos | `/especies/trichogaster-chuna/` |
+| Peixe-paraíso | *Macropodus opercularis* | Labirintídeos | `/especies/macropodus-opercularis/` |
+| Tricogáster-azul | *Trichopodus trichopterus* | Labirintídeos | `/especies/trichopodus-trichopterus/` |
+| Tricogáster-leeri | *Trichopodus leerii* | Labirintídeos | `/especies/trichopodus-leerii/` |
+| Comedor-de-algas-chinês | *Gyrinocheilus aymonieri* | Limpadores | `/especies/gyrinocheilus-aymonieri/` |
 
 ## Duplicidades comerciais consolidadas
 
@@ -66,6 +77,24 @@ O agrupamento é uma decisão explícita por espécie, não uma deduplicação p
 | 68 | ACARÁ KOI M | *Pterophyllum scalare* |
 | 69 | ACARÁ MARMORADO M | *Pterophyllum scalare* |
 | 70 | ACARÁ PALHAÇO M | *Pterophyllum scalare* |
+| 74 | GREEN TERROR P | *Andinoacara rivulatus* |
+| 77 | OSCAR BRONZE M | *Astronotus ocellatus* |
+| 78 | OSCAR RED RUBI ALBINO M | *Astronotus ocellatus* |
+| 79 | OSCAR RED TIGER ALBINO G | *Astronotus ocellatus* |
+| 80 | OSCAR RED TIGER ALBINO | *Astronotus ocellatus* |
+| 81 | OSCAR RED TIGER M | *Astronotus ocellatus* |
+| 82 | OSCAR TIGRE M | *Astronotus ocellatus* |
+| 83 | OSCAR TIGRE MG | *Astronotus ocellatus* |
+| 84 | OSCAR TIGRE MOSAICO | *Astronotus ocellatus* |
+| 91 | RAMIREZI BALÃO ELECTRIC BLUE M | *Mikrogeophagus ramirezi* |
+| 92 | RAMIREZI BALÃO OURO VEL M | *Mikrogeophagus ramirezi* |
+| 93 | RAMIREZI ELECTRIC BLUE M | *Mikrogeophagus ramirezi* |
+| 94 | RAMIREZI OURO | *Mikrogeophagus ramirezi* |
+| 95 | RAMIREZI OURO VEU MATRIZ | *Mikrogeophagus ramirezi* |
+| 132 | PEIXE PARAISO COBRE | *Macropodus opercularis* |
+| 133 | PEIXE PARAISO COMUM | *Macropodus opercularis* |
+| 136 | TRICOGASTER OURO | *Trichopodus trichopterus* |
+| 138 | ALGA EATER COMUM | *Gyrinocheilus aymonieri* |
 
 ## Pendências nominais: todos os registros para a próxima etapa
 
@@ -100,33 +129,14 @@ O agrupamento é uma decisão explícita por espécie, não uma deduplicação p
 | 57 | Ciclídeos Africanos | AURATUS AZUL | Não confirmada | Nome comercial insuficiente ou categoria inconsistente: confirmar espécie antes de atribuir taxonomia e cuidados. |
 | 62 | Ciclídeos Africanos | ZEBRA BORRADO M | Não confirmada | Nome comercial insuficiente ou categoria inconsistente: confirmar espécie antes de atribuir taxonomia e cuidados. |
 | 64 | Ciclídeos Africanos | ZEBRA OBLIQUIDENS M | Não confirmada | Nome comercial insuficiente ou categoria inconsistente: confirmar espécie antes de atribuir taxonomia e cuidados. |
-| 66 | Ciclídeos Americanos | ACARÁ BOCA DE FOGO G | Thorichthys meeki | Revisão editorial pendente. |
 | 67 | Ciclídeos Americanos | ACARÁ JOIA | Não confirmada | Nome comercial insuficiente ou categoria inconsistente: confirmar espécie antes de atribuir taxonomia e cuidados. |
 | 71 | Ciclídeos Americanos | FLOWER HORN RED DRAGON | Não confirmada | Linhagem híbrida: parentais e requisitos não confirmados; não tratar nome comercial como espécie taxonômica. |
 | 72 | Ciclídeos Americanos | FLOWER HORN RED DRAGON BALAO | Não confirmada | Linhagem híbrida: parentais e requisitos não confirmados; não tratar nome comercial como espécie taxonômica. |
-| 73 | Ciclídeos Americanos | GREEN TERROR M | Andinoacara rivulatus | Revisão editorial pendente. |
-| 74 | Ciclídeos Americanos | GREEN TERROR P | Andinoacara rivulatus | Revisão editorial pendente. |
-| 75 | Ciclídeos Americanos | HECKELI ALBINO | Acarichthys heckelii | Revisão editorial pendente. |
-| 76 | Ciclídeos Americanos | OSCAR BRONZE G | Astronotus ocellatus | Revisão editorial pendente. |
-| 77 | Ciclídeos Americanos | OSCAR BRONZE M | Astronotus ocellatus | Revisão editorial pendente. |
-| 78 | Ciclídeos Americanos | OSCAR RED RUBI ALBINO M | Astronotus ocellatus | Revisão editorial pendente. |
-| 79 | Ciclídeos Americanos | OSCAR RED TIGER ALBINO G | Astronotus ocellatus | Revisão editorial pendente. |
-| 80 | Ciclídeos Americanos | OSCAR RED TIGER ALBINO | Astronotus ocellatus | Revisão editorial pendente. |
-| 81 | Ciclídeos Americanos | OSCAR RED TIGER M | Astronotus ocellatus | Revisão editorial pendente. |
-| 82 | Ciclídeos Americanos | OSCAR TIGRE M | Astronotus ocellatus | Revisão editorial pendente. |
-| 83 | Ciclídeos Americanos | OSCAR TIGRE MG | Astronotus ocellatus | Revisão editorial pendente. |
-| 84 | Ciclídeos Americanos | OSCAR TIGRE MOSAICO | Astronotus ocellatus | Revisão editorial pendente. |
 | 85 | Ciclídeos Americanos | PAPAGAIO BLUE SAPHIRE M | Não confirmada | Linhagem híbrida: parentais e requisitos não confirmados; não tratar nome comercial como espécie taxonômica. |
 | 86 | Ciclídeos Americanos | PAPAGAIO TEXAS M | Não confirmada | Linhagem híbrida: parentais e requisitos não confirmados; não tratar nome comercial como espécie taxonômica. |
 | 87 | Ciclídeos Americanos | PAPAGAIO VERDE | Não confirmada | Linhagem híbrida: parentais e requisitos não confirmados; não tratar nome comercial como espécie taxonômica. |
 | 88 | Ciclídeos Americanos | PAPAGAIO WHITE SAPHIRE M | Não confirmada | Linhagem híbrida: parentais e requisitos não confirmados; não tratar nome comercial como espécie taxonômica. |
 | 89 | Ciclídeos Americanos | PAPILOCROMIS | Não confirmada | Papilocromis pode indicar diferentes Mikrogeophagus; confirmar se é M. ramirezi ou M. altispinosus. |
-| 90 | Ciclídeos Americanos | RAMIREZI AZUL | Mikrogeophagus ramirezi | Revisão editorial pendente. |
-| 91 | Ciclídeos Americanos | RAMIREZI BALÃO ELECTRIC BLUE M | Mikrogeophagus ramirezi | Revisão editorial pendente. |
-| 92 | Ciclídeos Americanos | RAMIREZI BALÃO OURO VEL M | Mikrogeophagus ramirezi | Revisão editorial pendente. |
-| 93 | Ciclídeos Americanos | RAMIREZI ELECTRIC BLUE M | Mikrogeophagus ramirezi | Revisão editorial pendente. |
-| 94 | Ciclídeos Americanos | RAMIREZI OURO | Mikrogeophagus ramirezi | Revisão editorial pendente. |
-| 95 | Ciclídeos Americanos | RAMIREZI OURO VEU MATRIZ | Mikrogeophagus ramirezi | Revisão editorial pendente. |
 | 96 | Invertebrados | CARAMUJO AMARELO | Não confirmada | Invertebrado: cor/nome genérico não comprova espécie (inclui Neocaridina sp.); confirmar identidade antes de atribuir cuidados. |
 | 97 | Invertebrados | CARAMUJO RED RAMSHORN M | Não confirmada | Invertebrado: cor/nome genérico não comprova espécie (inclui Neocaridina sp.); confirmar identidade antes de atribuir cuidados. |
 | 98 | Invertebrados | CURBÍCULA AMARELA | Não confirmada | Invertebrado: cor/nome genérico não comprova espécie (inclui Neocaridina sp.); confirmar identidade antes de atribuir cuidados. |
@@ -158,18 +168,9 @@ O agrupamento é uma decisão explícita por espécie, não uma deduplicação p
 | 124 | Kinguios | TELESCÓPIO CÁLICO M | Carassius auratus | Conteúdo de manutenção ainda não aprovado para geração; revisar divergências e recomendações específicas. Não foram selecionadas três fotografias reais distintas com licença comercial adequada. Faixas de manutenção ou tamanho adulto não confirmados em fonte consultada. |
 | 125 | Kinguios | TELESCÓPIO PRETO M | Carassius auratus | Conteúdo de manutenção ainda não aprovado para geração; revisar divergências e recomendações específicas. Não foram selecionadas três fotografias reais distintas com licença comercial adequada. Faixas de manutenção ou tamanho adulto não confirmados em fonte consultada. |
 | 126 | Labirintídeos | COLISA AZUL | Trichogaster lalius | Catalog of Fishes trata Trichogaster lalius como sinônimo de T. fasciata; revisar o estudo e identidade comercial antes de atribuir cuidados a outro nome. Não foram selecionadas três fotografias reais distintas com licença comercial adequada. |
-| 127 | Labirintídeos | COLISA CHUNA | Trichogaster chuna | Revisão editorial pendente. |
 | 128 | Labirintídeos | COLISA LÁLIA | Trichogaster lalius | Catalog of Fishes trata Trichogaster lalius como sinônimo de T. fasciata; revisar o estudo e identidade comercial antes de atribuir cuidados a outro nome. Não foram selecionadas três fotografias reais distintas com licença comercial adequada. |
 | 129 | Labirintídeos | COLISA SANGUE | Trichogaster lalius | Catalog of Fishes trata Trichogaster lalius como sinônimo de T. fasciata; revisar o estudo e identidade comercial antes de atribuir cuidados a outro nome. Não foram selecionadas três fotografias reais distintas com licença comercial adequada. |
 | 130 | Labirintídeos | COLISA SUNSET | Não confirmada | Colisa sunset pode indicar linhagens de Trichogaster chuna ou T. lalius; fornecedor deve confirmar. |
-| 131 | Labirintídeos | PEIXE PARAISO ALBINO | Macropodus opercularis | Revisão editorial pendente. |
-| 132 | Labirintídeos | PEIXE PARAISO COBRE | Macropodus opercularis | Revisão editorial pendente. |
-| 133 | Labirintídeos | PEIXE PARAISO COMUM | Macropodus opercularis | Revisão editorial pendente. |
-| 134 | Labirintídeos | TRICOGASTER AZUL | Trichopodus trichopterus | Revisão editorial pendente. |
-| 135 | Labirintídeos | TRICOGASTER LERY | Trichopodus leerii | Revisão editorial pendente. |
-| 136 | Labirintídeos | TRICOGASTER OURO | Trichopodus trichopterus | Revisão editorial pendente. |
-| 137 | Limpadores | ALGA EATER ALBINO | Gyrinocheilus aymonieri | Revisão editorial pendente. |
-| 138 | Limpadores | ALGA EATER COMUM | Gyrinocheilus aymonieri | Revisão editorial pendente. |
 | 139 | Limpadores | CORIDORA ALBINA | Não confirmada | Cascudo/coridora albina/limpa-vidro: nome não permite determinar espécie; solicitar identificação e foto do fornecedor. |
 | 140 | Limpadores | CORRIDORA  SHAWRTZ | Hoplisoma schwartzi | Revisão editorial pendente. |
 | 141 | Limpadores | CORRIDORA NATARELLI | Hoplisoma nattereri | Conteúdo de manutenção ainda não aprovado para geração; revisar divergências e recomendações específicas. Não foram selecionadas três fotografias reais distintas com licença comercial adequada. |

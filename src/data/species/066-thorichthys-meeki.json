@@ -1,0 +1,349 @@
+{
+  "slug": "thorichthys-meeki",
+  "name": "Acará-boca-de-fogo",
+  "commercialName": "ACARÁ BOCA DE FOGO G",
+  "category": "Ciclídeos Americanos",
+  "source": {
+    "workbook": "VAREJO PEIXES NICHOS.xlsx",
+    "sheet": "Tabela Peixes Atual",
+    "row": 66,
+    "niche": "Ciclídeos Americanos"
+  },
+  "sortOrder": 66,
+  "scientificName": "Thorichthys meeki",
+  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "description": "O boca-de-fogo destaca a parte inferior avermelhada da cabeça em suas exibições. Explora o fundo e precisa de espaço para os territórios reprodutivos.",
+  "photo": {
+    "src": "/images/species/thorichthys-meeki-1.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Fotografia representativa de Thorichthys meeki; imagem de referência da espécie, sem indicação de estoque.",
+    "author": "Elmar Laister",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#Public_domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Feuermaulbuntbarsch.jpg",
+    "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  "additionalPhotos": [
+    {
+      "src": "/images/species/thorichthys-meeki-2.webp",
+      "width": 960,
+      "height": 638,
+      "alt": "Fotografia representativa de Thorichthys meeki; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Doronenko",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cichlasoma_meeki.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    },
+    {
+      "src": "/images/species/thorichthys-meeki-3.webp",
+      "width": 960,
+      "height": 640,
+      "alt": "Fotografia representativa de Thorichthys meeki; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Tylwyth Eldar",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Micro_Zoo_de_Saint_Malo_-_Thorichthys_meeki.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ],
+  "sections": [
+    {
+      "id": "apresentacao",
+      "fields": [
+        {
+          "label": "Outros nomes populares",
+          "value": "ACARÁ BOCA DE FOGO G",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Identificação científica",
+          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Introdução",
+          "value": "O boca-de-fogo destaca a parte inferior avermelhada da cabeça em suas exibições. Explora o fundo e precisa de espaço para os territórios reprodutivos.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "classificacao",
+      "fields": [
+        {
+          "label": "Reino",
+          "value": "Animalia",
+          "referenceIds": [
+            "gbif"
+          ]
+        },
+        {
+          "label": "Filo",
+          "value": "Chordata",
+          "referenceIds": [
+            "gbif"
+          ]
+        },
+        {
+          "label": "Classe",
+          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "referenceIds": [
+            "class"
+          ]
+        },
+        {
+          "label": "Ordem",
+          "value": "Cichliformes",
+          "referenceIds": [
+            "class"
+          ]
+        },
+        {
+          "label": "Família",
+          "value": "Cichlidae",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Gênero",
+          "value": "Thorichthys",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Espécie",
+          "value": "Thorichthys meeki",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Autoridade taxonômica",
+          "value": "Brind 1918",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Sinônimos científicos",
+          "value": "Literatura de manutenção consultada sob Thorichthys meeki; o nome aceito adotado é Thorichthys meeki. Consultar o histórico nomenclatural completo na referência taxonômica.",
+          "referenceIds": [
+            "cof",
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Continente e países",
+          "value": "América do Norte, porção mesoamericana: México, norte de Belize e Guatemala, com populações introduzidas em outros locais.",
+          "referenceIds": [
+            "care",
+            "cof"
+          ]
+        },
+        {
+          "label": "Ambiente natural",
+          "value": "Lagoas, cenotes, córregos e águas rasas paradas ou de fluxo moderado; a fonte registra variação de clareza e substrato.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Tamanho adulto",
+          "value": "120 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Machos adultos geralmente são maiores, mais coloridos e têm prolongamentos maiores nas nadadeiras dorsal e anal.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "20–32 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "6.5–8.5; não interpretar os extremos como metas a alternar.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "GH",
+          "value": "2–15 °dGH.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "KH",
+          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Substrato e decoração",
+          "value": "Areia macia, rochas lisas e raízes criando refúgios e barreiras visuais. Priorizar qualidade da água e estabilidade da montagem.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "Base de 120 × 30 cm é citada apenas para um casal. Os cerca de 108 L apresentados na fonte não servem para o grupo de oito ou um comunitário; nesses casos dimensionar aquário substancialmente maior.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Manutenção específica",
+          "value": "Areia macia, rochas lisas e raízes criando refúgios e barreiras visuais. Priorizar qualidade da água e estabilidade da montagem.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Alimentos adequados",
+          "value": "Onívoro bentófago: peneira substrato procurando pequenos crustáceos e outros itens. Oferecer rações de granulação adequada e complementos vivos ou congelados.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Comportamento social",
+          "value": "Territorial ao reproduzir e capaz de comer peixes muito pequenos. Fora da desova tende a ser gregário; a fonte descreve grupos de oito ou mais em aquários suficientemente grandes.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Tipo de reprodução",
+          "value": "Desova sobre substrato e apresenta cuidado biparental. Casais precisam de território, superfície de desova e acompanhamento da agressividade.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Problemas de manutenção",
+          "value": "Areia macia, rochas lisas e raízes criando refúgios e barreiras visuais. Priorizar qualidade da água e estabilidade da montagem.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "fields": [
+        {
+          "label": "Curiosidades verificadas da espécie",
+          "value": "O nome popular faz referência à coloração vermelha ou alaranjada da parte inferior da cabeça, mais evidente em adultos.",
+          "referenceIds": [
+            "care",
+            "cof"
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "cof",
+      "title": "Eschmeyer’s Catalog of Fishes — Thorichthys meeki",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=16452",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "class",
+      "title": "Eschmeyer’s Catalog of Fishes — classificação por família",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "care",
+      "title": "Thorichthys meeki — manutenção e história natural",
+      "url": "https://www.seriouslyfish.com/species/thorichthys-meeki/",
+      "author": "Seriously Fish",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "gbif",
+      "title": "Thorichthys meeki — registro comparativo no GBIF",
+      "url": "https://api.gbif.org/v1/species/match?name=Thorichthys%20meeki",
+      "author": "GBIF",
+      "accessedAt": "2026-10-18"
+    }
+  ],
+  "regions": [
+    {
+      "id": "america-do-norte",
+      "label": "América do Norte",
+      "scale": "continent",
+      "referenceIds": [
+        "care",
+        "cof"
+      ]
+    }
+  ],
+  "status": "draft"
+}

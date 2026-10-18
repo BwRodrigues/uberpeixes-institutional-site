@@ -1,0 +1,349 @@
+{
+  "slug": "mikrogeophagus-ramirezi",
+  "name": "Ramirezi",
+  "commercialName": "RAMIREZI AZUL",
+  "category": "Ciclídeos Americanos",
+  "source": {
+    "workbook": "VAREJO PEIXES NICHOS.xlsx",
+    "sheet": "Tabela Peixes Atual",
+    "row": 90,
+    "niche": "Ciclídeos Americanos"
+  },
+  "sortOrder": 90,
+  "scientificName": "Mikrogeophagus ramirezi",
+  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "description": "O ramirezi é pequeno, mas exigente: água quente, estável e muito limpa vem antes da escolha das cores. Um aquário maduro ajuda a revelar seu comportamento.",
+  "photo": {
+    "src": "/images/species/mikrogeophagus-ramirezi-1.webp",
+    "width": 500,
+    "height": 375,
+    "alt": "Fotografia representativa de Mikrogeophagus ramirezi; imagem de referência da espécie, sem indicação de estoque.",
+    "author": "Threefingeredlord",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Female_ram.jpg",
+    "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  "additionalPhotos": [
+    {
+      "src": "/images/species/mikrogeophagus-ramirezi-2.webp",
+      "width": 960,
+      "height": 640,
+      "alt": "Fotografia representativa de Mikrogeophagus ramirezi; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Loup1128",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mikrogeophagus_ramirezi.JPG",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    },
+    {
+      "src": "/images/species/mikrogeophagus-ramirezi-3.webp",
+      "width": 477,
+      "height": 333,
+      "alt": "Fotografia representativa de Mikrogeophagus ramirezi; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Grommash",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mikrogeophagus_ramirezi_2.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ],
+  "sections": [
+    {
+      "id": "apresentacao",
+      "fields": [
+        {
+          "label": "Outros nomes populares",
+          "value": "RAMIREZI AZUL; RAMIREZI BALÃO ELECTRIC BLUE M; RAMIREZI BALÃO OURO VEL M; RAMIREZI ELECTRIC BLUE M; RAMIREZI OURO; RAMIREZI OURO VEU MATRIZ",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Identificação científica",
+          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Introdução",
+          "value": "O ramirezi é pequeno, mas exigente: água quente, estável e muito limpa vem antes da escolha das cores. Um aquário maduro ajuda a revelar seu comportamento.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "classificacao",
+      "fields": [
+        {
+          "label": "Reino",
+          "value": "Animalia",
+          "referenceIds": [
+            "gbif"
+          ]
+        },
+        {
+          "label": "Filo",
+          "value": "Chordata",
+          "referenceIds": [
+            "gbif"
+          ]
+        },
+        {
+          "label": "Classe",
+          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "referenceIds": [
+            "class"
+          ]
+        },
+        {
+          "label": "Ordem",
+          "value": "Cichliformes",
+          "referenceIds": [
+            "class"
+          ]
+        },
+        {
+          "label": "Família",
+          "value": "Cichlidae",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Gênero",
+          "value": "Mikrogeophagus",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Espécie",
+          "value": "Mikrogeophagus ramirezi",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Autoridade taxonômica",
+          "value": "(Myers & Harry 1948)",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Sinônimos científicos",
+          "value": "Literatura de manutenção consultada sob Mikrogeophagus ramirezi; o nome aceito adotado é Mikrogeophagus ramirezi. Consultar o histórico nomenclatural completo na referência taxonômica.",
+          "referenceIds": [
+            "cof",
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Continente e países",
+          "value": "América do Sul: llanos da Venezuela e Colômbia, na drenagem do Orinoco. Registros distantes dessa área precisam de confirmação.",
+          "referenceIds": [
+            "care",
+            "cof"
+          ]
+        },
+        {
+          "label": "Ambiente natural",
+          "value": "Planícies sazonalmente inundadas dos llanos, em ambientes tropicais quentes.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Tamanho adulto",
+          "value": "40 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Machos tendem a ser maiores e mais coloridos; muitas fêmeas apresentam barriga rosada, mas linhagens ornamentais podem alterar esses sinais.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "27–30 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "4.0–7.0; não interpretar os extremos como metas a alternar.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "GH",
+          "value": "1–10 °dGH.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "KH",
+          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Substrato e decoração",
+          "value": "Areia, raízes, áreas sombreadas e pedras planas. Não introduzir em montagem biologicamente imatura; evitar oscilações de água e companheiros competitivos.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "Base de 60 × 30 cm para um casal, cerca de 54 L como referência da fonte. Outros habitantes e mais territórios exigem volume adicional; não usar o mínimo para vários casais.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Manutenção específica",
+          "value": "Areia, raízes, áreas sombreadas e pedras planas. Não introduzir em montagem biologicamente imatura; evitar oscilações de água e companheiros competitivos.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Alimentos adequados",
+          "value": "Procura pequenos organismos no substrato e em superfícies. Oferecer variedade de alimentos pequenos vivos ou congelados e rações que afundam.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Comportamento social",
+          "value": "Sensível à competição e à água inadequada. Casais estabelecem território; não é recomendado para comunitário genérico ou com peixes de água dura e fria.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Tipo de reprodução",
+          "value": "Desova sobre substrato e cuidado biparental. Ovos exigem água muito limpa e de baixa dureza; casais inexperientes podem comer posturas.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Problemas de manutenção",
+          "value": "Areia, raízes, áreas sombreadas e pedras planas. Não introduzir em montagem biologicamente imatura; evitar oscilações de água e companheiros competitivos.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "fields": [
+        {
+          "label": "Curiosidades verificadas da espécie",
+          "value": "Electric blue, ouro, véu e balão são formas ornamentais; o nome Papilocromis genérico da planilha permanece pendente, sem ser automaticamente incorporado.",
+          "referenceIds": [
+            "care",
+            "cof"
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "cof",
+      "title": "Eschmeyer’s Catalog of Fishes — Mikrogeophagus ramirezi",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=22062",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "class",
+      "title": "Eschmeyer’s Catalog of Fishes — classificação por família",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "care",
+      "title": "Mikrogeophagus ramirezi — manutenção e história natural",
+      "url": "https://www.seriouslyfish.com/species/mikrogeophagus-ramirezi/",
+      "author": "Seriously Fish",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "gbif",
+      "title": "Mikrogeophagus ramirezi — registro comparativo no GBIF",
+      "url": "https://api.gbif.org/v1/species/match?name=Mikrogeophagus%20ramirezi",
+      "author": "GBIF",
+      "accessedAt": "2026-10-18"
+    }
+  ],
+  "regions": [
+    {
+      "id": "america-do-sul",
+      "label": "América do Sul",
+      "scale": "continent",
+      "referenceIds": [
+        "care",
+        "cof"
+      ]
+    }
+  ],
+  "status": "draft"
+}

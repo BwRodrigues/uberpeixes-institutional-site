@@ -1,0 +1,349 @@
+{
+  "slug": "gyrinocheilus-aymonieri",
+  "name": "Comedor-de-algas-chinês",
+  "commercialName": "ALGA EATER ALBINO",
+  "category": "Limpadores",
+  "source": {
+    "workbook": "VAREJO PEIXES NICHOS.xlsx",
+    "sheet": "Tabela Peixes Atual",
+    "row": 137,
+    "niche": "Limpadores"
+  },
+  "sortOrder": 137,
+  "scientificName": "Gyrinocheilus aymonieri",
+  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "description": "Chamado de comedor-de-algas-chinês, este peixe cresce bastante e pode ficar territorial. Ele precisa de alimentação própria e não substitui a manutenção do aquário.",
+  "photo": {
+    "src": "/images/species/gyrinocheilus-aymonieri-1.webp",
+    "width": 960,
+    "height": 826,
+    "alt": "Fotografia representativa de Gyrinocheilus aymonieri; imagem de referência da espécie, sem indicação de estoque.",
+    "author": "Pseudogastromyzon",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#Public_domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chinese_algae_eater.jpg",
+    "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  "additionalPhotos": [
+    {
+      "src": "/images/species/gyrinocheilus-aymonieri-2.webp",
+      "width": 450,
+      "height": 900,
+      "alt": "Fotografia representativa de Gyrinocheilus aymonieri; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Gourami Watcher",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chinese_Algae_Eater_4.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    },
+    {
+      "src": "/images/species/gyrinocheilus-aymonieri-3.webp",
+      "width": 603,
+      "height": 852,
+      "alt": "Fotografia representativa de Gyrinocheilus aymonieri; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Gourami Watcher",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Golden_Chinese_Algae_Eater.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ],
+  "sections": [
+    {
+      "id": "apresentacao",
+      "fields": [
+        {
+          "label": "Outros nomes populares",
+          "value": "ALGA EATER ALBINO; ALGA EATER COMUM",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Identificação científica",
+          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Introdução",
+          "value": "Chamado de comedor-de-algas-chinês, este peixe cresce bastante e pode ficar territorial. Ele precisa de alimentação própria e não substitui a manutenção do aquário.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "classificacao",
+      "fields": [
+        {
+          "label": "Reino",
+          "value": "Animalia",
+          "referenceIds": [
+            "gbif"
+          ]
+        },
+        {
+          "label": "Filo",
+          "value": "Chordata",
+          "referenceIds": [
+            "gbif"
+          ]
+        },
+        {
+          "label": "Classe",
+          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "referenceIds": [
+            "class"
+          ]
+        },
+        {
+          "label": "Ordem",
+          "value": "Cypriniformes",
+          "referenceIds": [
+            "class"
+          ]
+        },
+        {
+          "label": "Família",
+          "value": "Gyrinocheilidae",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Gênero",
+          "value": "Gyrinocheilus",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Espécie",
+          "value": "Gyrinocheilus aymonieri",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Autoridade taxonômica",
+          "value": "(Tirant 1884)",
+          "referenceIds": [
+            "cof"
+          ]
+        },
+        {
+          "label": "Sinônimos científicos",
+          "value": "Literatura de manutenção consultada sob Gyrinocheilus aymonieri; o nome aceito adotado é Gyrinocheilus aymonieri. Consultar o histórico nomenclatural completo na referência taxonômica.",
+          "referenceIds": [
+            "cof",
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Continente e países",
+          "value": "Ásia: Tailândia, Laos, Camboja e Vietnã, nas bacias Mae Klong, Chao Phraya, Mekong e Dong Nai. O nome comercial “chinês” não descreve a origem nativa.",
+          "referenceIds": [
+            "care",
+            "cof"
+          ]
+        },
+        {
+          "label": "Ambiente natural",
+          "value": "Córregos e tributários com corrente, pedras e superfícies cobertas de biofilme.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Tamanho adulto",
+          "value": "280 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Fêmeas maduras são mais robustas; machos em reprodução podem apresentar tubérculos no focinho.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "22–26 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "6.0–8.0; não interpretar os extremos como metas a alternar.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "GH",
+          "value": "2–20 °dGH.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "KH",
+          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Substrato e decoração",
+          "value": "Montagem madura, com superfícies para pastagem, abrigos e água limpa e oxigenada. Planejar o porte adulto e observar perseguições a outros peixes de fundo.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "Base mínima de 150 × 45 cm, aproximadamente 304 L na fonte. Considerar até 28 cm de comprimento padrão e não usar o mínimo para grupo ou convivência sem planejamento.",
+          "referenceIds": [
+            "care"
+          ]
+        },
+        {
+          "label": "Manutenção específica",
+          "value": "Montagem madura, com superfícies para pastagem, abrigos e água limpa e oxigenada. Planejar o porte adulto e observar perseguições a outros peixes de fundo.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Alimentos adequados",
+          "value": "Pasta biofilme, algas e pequenos organismos; oferecer também vegetais e alimentos apropriados, sem depender apenas das algas do vidro.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Comportamento social",
+          "value": "Adultos podem ser territoriais e até aderir aos flancos de outros peixes para consumir muco. Evitar introdução indiscriminada em comunitários e competição com outros peixes de fundo.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Tipo de reprodução",
+          "value": "A fonte relata reprodução comercial com indução hormonal, sem protocolo doméstico comprovado.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Problemas de manutenção",
+          "value": "Montagem madura, com superfícies para pastagem, abrigos e água limpa e oxigenada. Planejar o porte adulto e observar perseguições a outros peixes de fundo.",
+          "referenceIds": [
+            "care"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "fields": [
+        {
+          "label": "Curiosidades verificadas da espécie",
+          "value": "A forma albina é agrupada com a comum; a função comercial de “limpador” não elimina suas necessidades alimentares e territoriais.",
+          "referenceIds": [
+            "care",
+            "cof"
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "cof",
+      "title": "Eschmeyer’s Catalog of Fishes — Gyrinocheilus aymonieri",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=53563",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "class",
+      "title": "Eschmeyer’s Catalog of Fishes — classificação por família",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "care",
+      "title": "Gyrinocheilus aymonieri — manutenção e história natural",
+      "url": "https://www.seriouslyfish.com/species/gyrinocheilus-aymonieri/",
+      "author": "Seriously Fish",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "gbif",
+      "title": "Gyrinocheilus aymonieri — registro comparativo no GBIF",
+      "url": "https://api.gbif.org/v1/species/match?name=Gyrinocheilus%20aymonieri",
+      "author": "GBIF",
+      "accessedAt": "2026-10-18"
+    }
+  ],
+  "regions": [
+    {
+      "id": "asia",
+      "label": "Ásia",
+      "scale": "continent",
+      "referenceIds": [
+        "care",
+        "cof"
+      ]
+    }
+  ],
+  "status": "draft"
+}
