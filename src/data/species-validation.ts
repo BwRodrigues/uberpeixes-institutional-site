@@ -1,4 +1,4 @@
-import { profileSections, type Species } from "./species-schema";
+import { profileSections, essentialKeys, type Species } from "./species-schema";
 export const scientificLabel = (animal: Species) =>
   animal.scientificName ?? "Identificação científica pendente";
 export const isPublishable = (animal: Species) =>
@@ -35,6 +35,53 @@ export function validateSpeciesCatalog(records: Species[]): void {
       scientificNames.add(identity);
     }
     const refs = new Set(animal.references.map((ref) => ref.id));
+    if (
+      animal.sections.map((section) => section.id).join(",") !==
+      profileSections.map((section) => section.id).join(",")
+    )
+      throw new Error(`Invalid profile section order: ${animal.slug}`);
+    if (
+      !animal.essentials ||
+      animal.essentials.map((fact) => fact.key).join(",") !==
+        essentialKeys.join(",")
+    )
+      throw new Error(`Invalid essential care summary: ${animal.slug}`);
+    const summaryFields = {
+      temperature: ["agua", "Temperatura em aquário"],
+      ph: ["agua", "pH em aquário"],
+      gh: ["agua", "GH"],
+      size: ["caracteristicas", "Tamanho adulto"],
+      volume: ["criacao", "Volume mínimo e contexto"],
+      behavior: ["comportamento", "Temperamento"],
+      sociability: ["comportamento", "Sociabilidade"],
+      diet: ["alimentacao", "Dieta em aquário"],
+      difficulty: ["criacao", "Dificuldade"],
+    } as const;
+    for (const fact of animal.essentials) {
+      const [sectionId, label] = summaryFields[fact.key];
+      const field = animal.sections
+        .find((section) => section.id === sectionId)
+        ?.fields.find((item) => item.label === label);
+      if (
+        !fact.value.trim() ||
+        !fact.referenceIds.length ||
+        fact.referenceIds.some((id) => !refs.has(id)) ||
+        !field ||
+        fact.referenceIds.some((id) => !field.referenceIds.includes(id))
+      )
+        throw new Error(
+          `Missing source or profile field for care summary: ${animal.slug}/${fact.key}`,
+        );
+      if (
+        fact.key === "volume"
+          ? !field.value.startsWith(fact.value)
+          : fact.key !== "diet" && field.value !== fact.value
+      )
+        throw new Error(
+          `Care summary conflicts with profile: ${animal.slug}/${fact.key}`,
+        );
+    }
+
     for (const section of animal.sections)
       for (const field of section.fields) {
         if (

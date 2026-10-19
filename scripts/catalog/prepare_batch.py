@@ -43,6 +43,37 @@ def make(key, source, research, photos, inventory):
       section('curiosidades',field('Curiosidades verificadas da espécie',research['curiosity'],('care','cof')))
     ],'references':refs,'regions':regions,'status':'draft'}
 
+def reviewed_editorial(research):
+    """Do not publish a research draft lacking individually edited care content."""
+    editorial = research.get('editorial')
+    if not isinstance(editorial, dict) or not editorial.get('description', '').strip():return None
+    sections = editorial.get('sections', [])
+    essentials = editorial.get('essentials', [])
+    expected_sections = ['apresentacao','agua','caracteristicas','criacao','comportamento','alimentacao','reproducao','saude','origem','classificacao','curiosidades']
+    expected_keys = ['temperature','ph','gh','size','volume','behavior','sociability','diet','difficulty']
+    if [item.get('id') for item in sections] != expected_sections:return None
+    if [item.get('key') for item in essentials] != expected_keys:return None
+    valid_refs = {'cof','class','care','gbif'}
+    for section in sections:
+        if not section.get('fields') or section.get('pending'):return None
+        for field in section['fields']:
+            if not field.get('label') or not field.get('value', '').strip() or not field.get('referenceIds') or set(field['referenceIds']) - valid_refs:return None
+    fields = {
+        'temperature':('agua','Temperatura em aquário'), 'ph':('agua','pH em aquário'), 'gh':('agua','GH'),
+        'size':('caracteristicas','Tamanho adulto'), 'volume':('criacao','Volume mínimo e contexto'),
+        'behavior':('comportamento','Temperamento'), 'sociability':('comportamento','Sociabilidade'),
+        'diet':('alimentacao','Dieta em aquário'), 'difficulty':('criacao','Dificuldade')
+    }
+    for fact in essentials:
+        if not fact.get('value', '').strip() or not fact.get('referenceIds') or set(fact['referenceIds']) - valid_refs:return None
+        section_id,label=fields[fact['key']]
+        detail=next((field for section in sections if section['id']==section_id for field in section['fields'] if field['label']==label),None)
+        if detail is None or set(fact['referenceIds']) - set(detail['referenceIds']):return None
+        if fact['key']=='volume':
+            if not detail['value'].startswith(fact['value']):return None
+        elif fact['key']!='diet' and detail['value']!=fact['value']:return None
+    return editorial
+
 def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--batch',required=True);p.add_argument('--limit',type=int,default=10);p.add_argument('--apply',action='store_true');a=p.parse_args()
     if a.limit<1 or not re.fullmatch(r'[a-z0-9-]+',a.batch):p.error('Positive limit and safe batch identifier required')
@@ -54,7 +85,10 @@ def main():
         selected=photos.get(key,[])
         if len(selected)!=3 or not all(k in source['careNumbers'] for k in ['temperature','ph','gh','size']):continue
         if any(not (ROOT/'public'/s['src'].lstrip('/')).is_file() for s in selected):continue
+        editorial=reviewed_editorial(research[key])
+        if editorial is None:continue
         animal=make(key,source,research[key],selected,inventory)
+        animal.update(description=editorial['description'],sections=editorial['sections'],essentials=editorial['essentials'],identificationNote='')
         if animal['slug'] in slugs:raise SystemExit('Conflicting URL: '+animal['slug'])
         for photo in selected:
             if hashlib.sha256((ROOT/'public'/photo['src'].lstrip('/')).read_bytes()).hexdigest()!=photo['webpSha256']:raise SystemExit('Image hash mismatch: '+photo['src'])

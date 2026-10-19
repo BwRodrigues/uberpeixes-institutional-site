@@ -2,7 +2,7 @@
 
 ## Escopo
 
-212 registros em três abas inspecionadas; 40 fichas novas, cinco preservadas, 44 nomes comerciais consolidados e 123 registros pendentes. Total: 45 fichas e 135 fotografias. O total biológico definitivo da planilha é indeterminado enquanto nomes ambíguos não forem confirmados pela loja.
+212 registros em três abas inspecionadas; 40 fichas novas, cinco já existentes, 44 nomes comerciais consolidados e 123 registros pendentes. Total: 45 fichas e 135 fotografias. A revisão editorial posterior está em `../revisao-editorial-especies.md`. O total biológico definitivo da planilha é indeterminado enquanto nomes ambíguos não forem confirmados pela loja.
 
 ## Decisões e limites
 

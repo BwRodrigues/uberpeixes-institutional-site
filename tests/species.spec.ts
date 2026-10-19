@@ -126,6 +126,51 @@ test("each generated profile has the correct identity, inquiry, metadata, refere
         ),
     ).toBe(true);
     await expect(page.locator(".profile-section")).toHaveCount(11);
+    const sourceRecord = profileData.find(
+      (animal) => animal.slug === entry.slug,
+    )!;
+    const expectedIds = [
+      "apresentacao",
+      "agua",
+      "caracteristicas",
+      "criacao",
+      "comportamento",
+      "alimentacao",
+      "reproducao",
+      "saude",
+      "origem",
+      "classificacao",
+      "curiosidades",
+      "fotos",
+      "relacionadas",
+      "referencias",
+    ];
+    expect(
+      await page
+        .locator(".profile-index a")
+        .evaluateAll((links) =>
+          links.map((link) => link.getAttribute("href")!.slice(1)),
+        ),
+    ).toEqual(expectedIds);
+    expect(
+      await page
+        .locator(
+          ".profile-sections > .profile-section, .profile-sections > #fotos, .profile-sections > #relacionadas, .profile-sections > #referencias",
+        )
+        .evaluateAll((sections) => sections.map((section) => section.id)),
+    ).toEqual(expectedIds);
+    await expect(page.locator("[data-essential]")).toHaveCount(9);
+    for (const fact of sourceRecord.essentials)
+      await expect(
+        page.locator(`[data-essential="${fact.key}"] dd`),
+      ).toHaveText(fact.value);
+    const publicCopy = await page
+      .locator(".profile-field-value")
+      .allTextContents();
+    expect(publicCopy.join(" ")).not.toMatch(
+      /a fonte consultada|a literatura indica|nome aceito foi adotado|histórico nomenclatural|dados? pendentes?|protótipo|a fonte (?:informa|indica|recomenda|descreve)/i,
+    );
+
     expect(
       await page.locator('#referencias a[href^="https://"]').count(),
     ).toBeGreaterThanOrEqual(4);

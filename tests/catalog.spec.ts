@@ -20,6 +20,28 @@ test("recommendations need sourced geography or reviewed pair evidence", () => {
       ),
     ).toBe(true);
   }
+  const contradictorySummary = structuredClone(catalogRecords);
+  contradictorySummary[0].essentials.find(
+    (fact) => fact.key === "temperature",
+  )!.value = "99 °C";
+  expect(() => createCatalogRepository(contradictorySummary)).toThrow(
+    /Care summary conflicts/,
+  );
+  const mismatchedSource = structuredClone(catalogRecords);
+  mismatchedSource[0].essentials[0].referenceIds = ["cof"];
+  expect(() => createCatalogRepository(mismatchedSource)).toThrow(
+    /Missing source or profile field/,
+  );
+  const missingSummary = structuredClone(catalogRecords);
+  missingSummary[0].essentials.pop();
+  expect(() => createCatalogRepository(missingSummary)).toThrow(
+    /Invalid essential care summary/,
+  );
+  const brokenOrder = structuredClone(catalogRecords);
+  brokenOrder[0].sections.reverse();
+  expect(() => createCatalogRepository(brokenOrder)).toThrow(
+    /Invalid profile section order/,
+  );
   const duplicateSpecies = structuredClone(catalogRecords);
   duplicateSpecies[1].scientificName = duplicateSpecies[0].scientificName;
   expect(() => createCatalogRepository(duplicateSpecies)).toThrow(
@@ -117,6 +139,9 @@ test("versioned knowledge feed retains citations without spreadsheet or commerci
     expect(item.reviewStatus).toBe("draft");
     expect(item.photos).toHaveLength(3);
     expect(item.sections).toHaveLength(11);
+    expect(item.essentials).toEqual(
+      catalogRecords.find((animal) => animal.slug === item.id)!.essentials,
+    );
     expect(item.references.length).toBeGreaterThanOrEqual(4);
     expect(item.recommendations).toHaveLength(3);
     expect(item.url).toBe(

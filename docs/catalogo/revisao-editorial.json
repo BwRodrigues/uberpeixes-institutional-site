@@ -1036,7 +1036,7 @@
     "pangasianodon-hypophthalmus": {
       "file": "src/data/species/146-pangasianodon-hypophthalmus.json",
       "beforeSha256": "2970870f64cc01dbea208e4f787c20edf23c9fcbdc954b7e3d04da739e4b0fb7",
-      "afterSha256": "2df034ed2a5af2d6eca1e5520329e993f42db69b0cbc95c7c8ff78186ffbb6aa",
+      "afterSha256": "6159737707d465c8496fcb62891db49557fb9f0f25674114c2097653742f79ae",
       "batch": 3,
       "decision": "Escala de 14.580 L contextualizada para um adulto; não sugerir aquário doméstico ou multiplicar lotação automaticamente.",
       "unverified": [
@@ -1102,7 +1102,7 @@
     "xiphophorus-hellerii": {
       "file": "src/data/species/174-xiphophorus-hellerii.json",
       "beforeSha256": "b66380a248b5ab975e125d8a0908cf7eb17275bf937f3e1314ab97bf3360a02c",
-      "afterSha256": "02e13452d9e24aa4cf2e0964853d92a225ed94a26068bdd5b7827f43a779deaa",
+      "afterSha256": "f28ed726094fc23654c3450d81ee3e56c1b8f1779a68e1565b27d06c66043a4a",
       "batch": 3,
       "decision": "Parâmetros e taxonomia preservados após conferência individual; conteúdo organizado e reescrito com orientações de espaço, sociabilidade, alimentação e prevenção específicas.",
       "unverified": [

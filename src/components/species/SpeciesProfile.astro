@@ -119,7 +119,7 @@ if (
   </section>
   <div class="profile-layout">
     <nav class="profile-index" aria-label="Seções da ficha">
-      <details class="profile-navigation" open>
+      <details class="profile-navigation">
         <summary>Nesta ficha</summary>
         <ul>
           {profileSections.map((section) => (
@@ -188,7 +188,7 @@ if (
               >
                 <h2 id="essentials-title">Informações essenciais</h2>
                 <dl>
-                  {(animal.essentials ?? []).map((fact) => (
+                  {animal.essentials.map((fact) => (
                     <div data-essential={fact.key}>
                       <dt>{essentialLabels[fact.key]}</dt>
                       <dd>{fact.value}</dd>
@@ -254,7 +254,7 @@ if (
   const menu = document.querySelector<HTMLDetailsElement>(
     ".profile-navigation",
   );
-  if (menu && matchMedia("(max-width: 699px)").matches) menu.open = false;
+  if (menu) menu.open = matchMedia("(min-width: 700px)").matches;
   const inquiryBar = document.querySelector<HTMLElement>(".species-inquiry");
   if (inquiryBar && "ResizeObserver" in window) {
     new ResizeObserver(() =>

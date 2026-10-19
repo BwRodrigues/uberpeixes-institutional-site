@@ -92,3 +92,17 @@ Abrir PR da branch `feat/expandir-catalogo-especies` para main e aguardar revis�
 - O endpoint JSON versionado mantém os campos estruturados e referências para futura camada de persistência ou chatbot; esta etapa não cria banco de dados, recomendações veterinárias nem respostas automáticas sem fontes.
 
 As 123 linhas pendentes incluem 22 plantas, nomes comerciais não resolvidos, variedades e oito grupos candidatos não concluídos. Não correspondem necessariamente a 123 espécies distintas. A lista nominal e os motivos estão no relatório gerado, que deve ser atualizado a cada retomada.
+
+## Revisão editorial das 45 fichas
+
+A revisão atual substitui a redação de pesquisa por texto público direto e orientações específicas. Consulte [`../revisao-editorial-especies.md`](../revisao-editorial-especies.md), `revisao-editorial.json` e `revisao-fontes.json` para decisões e limites por espécie.
+
+O baseline imutável de `preservados.json` continua salvo. As cinco fichas originais foram agora alteradas pela revisão explicitamente solicitada: a auditoria exige justificativa, hash anterior igual ao baseline e hash posterior correspondente ao arquivo atual. As fotografias, URLs e nomes científicos foram preservados.
+
+O cadastro público inclui nove `essentials`, cada um com `key`, `value` e `referenceIds`. O validador exige a mesma água, porte, comportamento, sociabilidade e dificuldade nas seções completas, além de volume contextualizado consistente. A dieta resumida mantém a mesma fonte do texto detalhado. A ordem das 11 seções de conteúdo é obrigatória; galeria, relacionadas e referências completam as 14 seções visuais.
+
+Para novas espécies, prepare primeiro os dados específicos e as fontes. Não copie os parâmetros, grupo, dificuldade ou recomendações de outro animal. A geração inicial de pesquisa precisa receber a redação editorial e os resumos completos antes de entrar na pasta pública; não preencha lacunas só para passar no esquema. Campos desconhecidos ficam no relatório interno, mantendo orientações úteis e ressalvas de bem-estar no texto público.
+
+O estado `draft` controla indexação, não autoriza mostrar textos provisórios. A mudança para `reviewed` e a publicação de produção continuam dependendo de aprovação. Para atualizar o relatório após testes, use `python3 scripts/catalog/report_editorial.py --browser-tests 'resultado efetivamente observado'`.
+
+O gerador de lote exige agora `pesquisa[chave].editorial` com `description`, `sections` na ordem atual e os nove `essentials`, todos com referências válidas. Pesquisa bruta sem essa etapa é pulada; ela não pode criar uma página com redação interna ou resumo incompleto. O importador não inventa a revisão para habilitar um candidato. Os testes incluem fila com registro incompleto, seção fora de ordem, resumo faltante e referência inexistente.
