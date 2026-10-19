@@ -40,7 +40,7 @@ Data de consulta: 2026-10-18. Branch: `feat/expandir-catalogo-especies`; PR #7. 
 - KH específico de manutenção e longevidade sem documentação foram omitidos dos campos públicos, sem derivar KH de GH nem inventar anos de vida. Não foram criados mínimos de grupo ou protocolos de reprodução ausentes das fontes.
 - Micro-habitat pouco documentado em sumatra, bandeira, molinésia-sphenops, tetra-limão e foguinho não foi preenchido com inferências de congêneres.
 - Identificação de linhagens, procedência de lotes, variantes e subdivisões geográficas exige confirmação da loja quando relevante; as fotos são referências da espécie, não comprovação de estoque.
-- O estado técnico de indexação continua `draft` / `noindex, follow` até decisão editorial de publicação. Não existem selos de validação ou mensagens provisórias na interface.
+- O estado de indexação é tratado separadamente na [auditoria de SEO](indexacao-especies.md). A revisão de conteúdo não libera automaticamente todas as fichas. Não existem selos de validação ou mensagens provisórias na interface.
 
 ## Validações
 

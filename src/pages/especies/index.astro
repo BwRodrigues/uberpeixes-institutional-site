@@ -8,14 +8,14 @@ import {
   isPublishable,
 } from "../../data/species";
 import { speciesInquiry, canonicalUrl } from "../../config/site";
-const allReviewed = species.every(isPublishable);
+const hasReviewed = species.some(isPublishable);
 ---
 
 <SpeciesLayout
   title="Espécies | Catálogo Uberpeixes Ornamentais"
   description="Explore o catálogo de espécies da Uberpeixes. Pesquise por nome, filtre por categoria e consulte nossa equipe pelo WhatsApp."
   path="/especies/"
-  draft={!allReviewed}
+  draft={!hasReviewed}
   structuredData={[
     {
       "@context": "https://schema.org",

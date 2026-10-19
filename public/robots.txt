@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://uberpeixes-institutional-site.pages.dev/sitemap.xml

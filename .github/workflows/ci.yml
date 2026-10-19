@@ -14,6 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       ASTRO_TELEMETRY_DISABLED: "1"
+      SITE_DEPLOYMENT: production
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -24,6 +25,7 @@ jobs:
       - run: npm run test:import
       - run: npm run catalog:audit
       - run: npm run check
+      - run: npm run test:seo
       - run: npm run build
       - run: npx playwright install --with-deps chromium
       - run: npm test
