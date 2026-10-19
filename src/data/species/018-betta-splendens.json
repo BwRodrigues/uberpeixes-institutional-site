@@ -1,0 +1,334 @@
+{
+  "slug": "betta-splendens",
+  "name": "Betta",
+  "commercialName": "BETTA FÊMEA COMUM",
+  "category": "Bettas",
+  "source": {
+    "workbook": "VAREJO PEIXES NICHOS.xlsx",
+    "sheet": "Tabela Peixes Atual",
+    "row": 18,
+    "niche": "Bettas"
+  },
+  "sortOrder": 18,
+  "scientificName": "Betta splendens",
+  "identificationNote": "",
+  "description": "O betta combina cores e nadadeiras muito variadas com um comportamento territorial. Um ambiente plantado, tranquilo e bem mantido é parte essencial de seu cuidado.",
+  "photo": {
+    "src": "/images/species/betta-splendens-1.webp",
+    "width": 960,
+    "height": 742,
+    "alt": "Fotografia representativa de Betta splendens; imagem de referência da espécie, sem indicação de estoque.",
+    "author": "Henryk Niestrój",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bojownik_syjamski.jpg",
+    "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  "additionalPhotos": [
+    {
+      "src": "/images/species/betta-splendens-2.webp",
+      "width": 960,
+      "height": 638,
+      "alt": "Fotografia representativa de Betta splendens; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Daniella Vereeken",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:HM_Orange_M_Sarawut.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    },
+    {
+      "src": "/images/species/betta-splendens-3.webp",
+      "width": 425,
+      "height": 576,
+      "alt": "Fotografia representativa de Betta splendens; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Nippyfish",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Betta_splendens_-_Flickr_-_Nippyfish.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ],
+  "sections": [
+    {
+      "id": "apresentacao",
+      "fields": [
+        {
+          "label": "Nome científico",
+          "value": "Betta splendens",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Outros nomes e variedades",
+          "value": "Betta fêmea comum; Betta fêmea dumbo; Betta fêmea koi candy; Betta macho comum; Betta macho crowntail; Betta macho dragon; Betta macho dumbo; Betta macho koi; Betta macho mustard gas; Betta macho palhaço",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "22–30 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "6,0–8,0",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "1–15 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Arrozais, brejos, valas, córregos lentos e lagoas, geralmente com vegetação e pouca corrente.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Corpo compacto e boca voltada para cima; cores e formato das nadadeiras variam muito entre linhagens ornamentais.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 7 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Machos geralmente têm cores e nadadeiras mais desenvolvidas; seleção ornamental pode alterar muito essas características.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "Cerca de 40 L ou mais; um indivíduo. Aquário de aproximadamente 40 L ou mais para um betta mantido sozinho, com base próxima de 45 × 30 cm, filtragem suave, plantas e esconderijos. Não mantenha dois machos juntos nem um casal permanente.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Usar plantas, sombra e abrigos, com filtragem suave e acesso livre à superfície. Não interpretar a tolerância a pouco oxigênio como dispensa de manutenção.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Baixa a moderada: corrente suave e estabilidade",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Territorial; pode atacar outros bettas",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Um indivíduo; sexos separados",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Mantenha o betta ornamental sozinho. Não juntar machos; manter machos e fêmeas separados fora de reprodução planejada.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Predador de pequenos invertebrados; oferecer ração apropriada e pequenos alimentos vivos ou congelados, como artêmia e dáfnias.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Constrói ninho de bolhas. A aproximação do casal exige supervisão e refúgios; alevinos precisam de ar quente e úmido acima da água.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Corrente forte, saltos e excesso de alimento são riscos evitáveis. Deixe acesso livre à superfície e uma camada de ar úmido sob a tampa; observe apetite e integridade das nadadeiras.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "Ásia: região central da Tailândia. As linhagens ornamentais são criadas em vários países.",
+          "referenceIds": ["cof", "care"]
+        }
+      ]
+    },
+    {
+      "id": "classificacao",
+      "fields": [
+        {
+          "label": "Reino",
+          "value": "Animalia",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Filo",
+          "value": "Chordata",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Classe",
+          "value": "Actinopteri",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Ordem",
+          "value": "Anabantiformes",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Família",
+          "value": "Osphronemidae",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Gênero",
+          "value": "Betta",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Espécie",
+          "value": "Betta splendens",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Autoridade taxonômica",
+          "value": "Regan 1910",
+          "referenceIds": ["cof"]
+        }
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "fields": [
+        {
+          "label": "Você sabia?",
+          "value": "O órgão labirinto permite respirar ar atmosférico, mas não substitui filtragem, água limpa ou espaço adequado.",
+          "referenceIds": ["care", "cof"]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "cof",
+      "title": "Eschmeyer’s Catalog of Fishes — Betta splendens",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=19458",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "class",
+      "title": "Eschmeyer’s Catalog of Fishes — classificação por família",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "care",
+      "title": "Betta splendens — manutenção e história natural",
+      "url": "https://www.seriouslyfish.com/species/betta-splendens/",
+      "author": "Seriously Fish",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "gbif",
+      "title": "Betta splendens — registro comparativo no GBIF",
+      "url": "https://api.gbif.org/v1/species/match?name=Betta%20splendens",
+      "author": "GBIF",
+      "accessedAt": "2026-10-18"
+    }
+  ],
+  "regions": [
+    {
+      "id": "asia",
+      "label": "Ásia",
+      "scale": "continent",
+      "referenceIds": ["care", "cof"]
+    }
+  ],
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "22–30 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "6,0–8,0",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "1–15 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 7 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "Cerca de 40 L ou mais; um indivíduo",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Territorial; pode atacar outros bettas",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Um indivíduo; sexos separados",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Ração para betta e pequenos invertebrados",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Baixa a moderada: corrente suave e estabilidade",
+      "referenceIds": ["care"]
+    }
+  ]
+}

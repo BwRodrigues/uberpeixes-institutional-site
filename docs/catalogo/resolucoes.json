@@ -1,0 +1,1199 @@
+{
+  "schemaVersion": 1,
+  "records": {
+    "8": {
+      "state": "existing",
+      "scientificName": "Rohanella titteya",
+      "slug": "barbus-cereja",
+      "reason": "Ficha aprovada no PR #6; dados preservados."
+    },
+    "10": {
+      "state": "existing",
+      "scientificName": "Dawkinsia denisonii",
+      "slug": "barbus-denizoni",
+      "reason": "Ficha aprovada no PR #6; dados preservados."
+    },
+    "6": {
+      "state": "existing",
+      "scientificName": "Tanichthys albonubes",
+      "slug": "neon-chines",
+      "reason": "Ficha aprovada no PR #6; dados preservados."
+    },
+    "9": {
+      "state": "existing",
+      "scientificName": "Pethia conchonius",
+      "slug": "barbus-cereja-veu",
+      "reason": "Ficha aprovada no PR #6; dados preservados."
+    },
+    "7": {
+      "state": "existing",
+      "scientificName": "Dermogenys pusilla",
+      "slug": "peixe-agulhinha",
+      "reason": "Ficha aprovada no PR #6; dados preservados."
+    },
+    "11": {
+      "state": "research",
+      "candidate": "Pethia gelius",
+      "group": "pethia-gelius",
+      "primaryRow": 11,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "12": {
+      "state": "research",
+      "candidate": "Barbodes semifasciolatus",
+      "group": "barbodes-semifasciolatus",
+      "primaryRow": 12,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "13": {
+      "state": "research",
+      "candidate": "Puntigrus tetrazona",
+      "group": "puntigrus-tetrazona",
+      "primaryRow": 13,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "14": {
+      "state": "research",
+      "candidate": "Puntigrus tetrazona",
+      "group": "puntigrus-tetrazona",
+      "primaryRow": 13,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "15": {
+      "state": "research",
+      "candidate": "Puntigrus tetrazona",
+      "group": "puntigrus-tetrazona",
+      "primaryRow": 13,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "17": {
+      "state": "research",
+      "candidate": "Danio rerio",
+      "group": "danio-rerio",
+      "primaryRow": 17,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "18": {
+      "state": "research",
+      "candidate": "Betta splendens",
+      "group": "betta-splendens",
+      "primaryRow": 18,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "19": {
+      "state": "research",
+      "candidate": "Betta splendens",
+      "group": "betta-splendens",
+      "primaryRow": 18,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "20": {
+      "state": "research",
+      "candidate": "Betta splendens",
+      "group": "betta-splendens",
+      "primaryRow": 18,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "21": {
+      "state": "research",
+      "candidate": "Betta splendens",
+      "group": "betta-splendens",
+      "primaryRow": 18,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "22": {
+      "state": "research",
+      "candidate": "Betta splendens",
+      "group": "betta-splendens",
+      "primaryRow": 18,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "23": {
+      "state": "research",
+      "candidate": "Betta splendens",
+      "group": "betta-splendens",
+      "primaryRow": 18,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "24": {
+      "state": "research",
+      "candidate": "Betta splendens",
+      "group": "betta-splendens",
+      "primaryRow": 18,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "25": {
+      "state": "research",
+      "candidate": "Betta splendens",
+      "group": "betta-splendens",
+      "primaryRow": 18,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "26": {
+      "state": "research",
+      "candidate": "Betta splendens",
+      "group": "betta-splendens",
+      "primaryRow": 18,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "27": {
+      "state": "research",
+      "candidate": "Betta splendens",
+      "group": "betta-splendens",
+      "primaryRow": 18,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "29": {
+      "state": "research",
+      "candidate": "Yasuhikotakia modesta",
+      "group": "yasuhikotakia-modesta",
+      "primaryRow": 29,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "31": {
+      "state": "research",
+      "candidate": "Misgurnus anguillicaudatus",
+      "group": "misgurnus-anguillicaudatus",
+      "primaryRow": 31,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "55": {
+      "state": "research",
+      "candidate": "Melanochromis auratus",
+      "group": "melanochromis-auratus",
+      "primaryRow": 55,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "56": {
+      "state": "research",
+      "candidate": "Melanochromis auratus",
+      "group": "melanochromis-auratus",
+      "primaryRow": 55,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "58": {
+      "state": "research",
+      "candidate": "Labidochromis caeruleus",
+      "group": "labidochromis-caeruleus",
+      "primaryRow": 58,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "59": {
+      "state": "research",
+      "candidate": "Maylandia lombardoi",
+      "group": "maylandia-lombardoi",
+      "primaryRow": 59,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "60": {
+      "state": "research",
+      "candidate": "Chindongo socolofi",
+      "group": "chindongo-socolofi",
+      "primaryRow": 60,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "61": {
+      "state": "research",
+      "candidate": "Nimbochromis venustus",
+      "group": "nimbochromis-venustus",
+      "primaryRow": 61,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "63": {
+      "state": "research",
+      "candidate": "Maylandia estherae",
+      "group": "maylandia-estherae",
+      "primaryRow": 63,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "65": {
+      "state": "research",
+      "candidate": "Pterophyllum scalare",
+      "group": "pterophyllum-scalare",
+      "primaryRow": 65,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "68": {
+      "state": "research",
+      "candidate": "Pterophyllum scalare",
+      "group": "pterophyllum-scalare",
+      "primaryRow": 65,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "69": {
+      "state": "research",
+      "candidate": "Pterophyllum scalare",
+      "group": "pterophyllum-scalare",
+      "primaryRow": 65,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "70": {
+      "state": "research",
+      "candidate": "Pterophyllum scalare",
+      "group": "pterophyllum-scalare",
+      "primaryRow": 65,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "66": {
+      "state": "research",
+      "candidate": "Thorichthys meeki",
+      "group": "thorichthys-meeki",
+      "primaryRow": 66,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "73": {
+      "state": "research",
+      "candidate": "Andinoacara rivulatus",
+      "group": "andinoacara-rivulatus",
+      "primaryRow": 73,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "74": {
+      "state": "research",
+      "candidate": "Andinoacara rivulatus",
+      "group": "andinoacara-rivulatus",
+      "primaryRow": 73,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "75": {
+      "state": "research",
+      "candidate": "Acarichthys heckelii",
+      "group": "acarichthys-heckelii",
+      "primaryRow": 75,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "76": {
+      "state": "research",
+      "candidate": "Astronotus ocellatus",
+      "group": "astronotus-ocellatus",
+      "primaryRow": 76,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "77": {
+      "state": "research",
+      "candidate": "Astronotus ocellatus",
+      "group": "astronotus-ocellatus",
+      "primaryRow": 76,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "78": {
+      "state": "research",
+      "candidate": "Astronotus ocellatus",
+      "group": "astronotus-ocellatus",
+      "primaryRow": 76,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "79": {
+      "state": "research",
+      "candidate": "Astronotus ocellatus",
+      "group": "astronotus-ocellatus",
+      "primaryRow": 76,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "80": {
+      "state": "research",
+      "candidate": "Astronotus ocellatus",
+      "group": "astronotus-ocellatus",
+      "primaryRow": 76,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "81": {
+      "state": "research",
+      "candidate": "Astronotus ocellatus",
+      "group": "astronotus-ocellatus",
+      "primaryRow": 76,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "82": {
+      "state": "research",
+      "candidate": "Astronotus ocellatus",
+      "group": "astronotus-ocellatus",
+      "primaryRow": 76,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "83": {
+      "state": "research",
+      "candidate": "Astronotus ocellatus",
+      "group": "astronotus-ocellatus",
+      "primaryRow": 76,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "84": {
+      "state": "research",
+      "candidate": "Astronotus ocellatus",
+      "group": "astronotus-ocellatus",
+      "primaryRow": 76,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "90": {
+      "state": "research",
+      "candidate": "Mikrogeophagus ramirezi",
+      "group": "mikrogeophagus-ramirezi",
+      "primaryRow": 90,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "91": {
+      "state": "research",
+      "candidate": "Mikrogeophagus ramirezi",
+      "group": "mikrogeophagus-ramirezi",
+      "primaryRow": 90,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "92": {
+      "state": "research",
+      "candidate": "Mikrogeophagus ramirezi",
+      "group": "mikrogeophagus-ramirezi",
+      "primaryRow": 90,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "93": {
+      "state": "research",
+      "candidate": "Mikrogeophagus ramirezi",
+      "group": "mikrogeophagus-ramirezi",
+      "primaryRow": 90,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "94": {
+      "state": "research",
+      "candidate": "Mikrogeophagus ramirezi",
+      "group": "mikrogeophagus-ramirezi",
+      "primaryRow": 90,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "95": {
+      "state": "research",
+      "candidate": "Mikrogeophagus ramirezi",
+      "group": "mikrogeophagus-ramirezi",
+      "primaryRow": 90,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "107": {
+      "state": "research",
+      "candidate": "Carassius auratus",
+      "group": "carassius-auratus",
+      "primaryRow": 107,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "108": {
+      "state": "research",
+      "candidate": "Carassius auratus",
+      "group": "carassius-auratus",
+      "primaryRow": 107,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "109": {
+      "state": "research",
+      "candidate": "Carassius auratus",
+      "group": "carassius-auratus",
+      "primaryRow": 107,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "110": {
+      "state": "research",
+      "candidate": "Carassius auratus",
+      "group": "carassius-auratus",
+      "primaryRow": 107,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "111": {
+      "state": "research",
+      "candidate": "Carassius auratus",
+      "group": "carassius-auratus",
+      "primaryRow": 107,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "112": {
+      "state": "research",
+      "candidate": "Carassius auratus",
+      "group": "carassius-auratus",
+      "primaryRow": 107,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "113": {
+      "state": "research",
+      "candidate": "Carassius auratus",
+      "group": "carassius-auratus",
+      "primaryRow": 107,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "114": {
+      "state": "research",
+      "candidate": "Carassius auratus",
+      "group": "carassius-auratus",
+      "primaryRow": 107,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "115": {
+      "state": "research",
+      "candidate": "Carassius auratus",
+      "group": "carassius-auratus",
+      "primaryRow": 107,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "116": {
+      "state": "research",
+      "candidate": "Carassius auratus",
+      "group": "carassius-auratus",
+      "primaryRow": 107,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "117": {
+      "state": "research",
+      "candidate": "Carassius auratus",
+      "group": "carassius-auratus",
+      "primaryRow": 107,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "118": {
+      "state": "research",
+      "candidate": "Carassius auratus",
+      "group": "carassius-auratus",
+      "primaryRow": 107,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "119": {
+      "state": "research",
+      "candidate": "Carassius auratus",
+      "group": "carassius-auratus",
+      "primaryRow": 107,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "120": {
+      "state": "research",
+      "candidate": "Carassius auratus",
+      "group": "carassius-auratus",
+      "primaryRow": 107,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "121": {
+      "state": "research",
+      "candidate": "Carassius auratus",
+      "group": "carassius-auratus",
+      "primaryRow": 107,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "122": {
+      "state": "research",
+      "candidate": "Carassius auratus",
+      "group": "carassius-auratus",
+      "primaryRow": 107,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "123": {
+      "state": "research",
+      "candidate": "Carassius auratus",
+      "group": "carassius-auratus",
+      "primaryRow": 107,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "124": {
+      "state": "research",
+      "candidate": "Carassius auratus",
+      "group": "carassius-auratus",
+      "primaryRow": 107,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "125": {
+      "state": "research",
+      "candidate": "Carassius auratus",
+      "group": "carassius-auratus",
+      "primaryRow": 107,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "126": {
+      "state": "research",
+      "candidate": "Trichogaster lalius",
+      "group": "trichogaster-lalius",
+      "primaryRow": 126,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "128": {
+      "state": "research",
+      "candidate": "Trichogaster lalius",
+      "group": "trichogaster-lalius",
+      "primaryRow": 126,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "129": {
+      "state": "research",
+      "candidate": "Trichogaster lalius",
+      "group": "trichogaster-lalius",
+      "primaryRow": 126,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "127": {
+      "state": "research",
+      "candidate": "Trichogaster chuna",
+      "group": "trichogaster-chuna",
+      "primaryRow": 127,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "131": {
+      "state": "research",
+      "candidate": "Macropodus opercularis",
+      "group": "macropodus-opercularis",
+      "primaryRow": 131,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "132": {
+      "state": "research",
+      "candidate": "Macropodus opercularis",
+      "group": "macropodus-opercularis",
+      "primaryRow": 131,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "133": {
+      "state": "research",
+      "candidate": "Macropodus opercularis",
+      "group": "macropodus-opercularis",
+      "primaryRow": 131,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "134": {
+      "state": "research",
+      "candidate": "Trichopodus trichopterus",
+      "group": "trichopodus-trichopterus",
+      "primaryRow": 134,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "136": {
+      "state": "research",
+      "candidate": "Trichopodus trichopterus",
+      "group": "trichopodus-trichopterus",
+      "primaryRow": 134,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "135": {
+      "state": "research",
+      "candidate": "Trichopodus leerii",
+      "group": "trichopodus-leerii",
+      "primaryRow": 135,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "137": {
+      "state": "research",
+      "candidate": "Gyrinocheilus aymonieri",
+      "group": "gyrinocheilus-aymonieri",
+      "primaryRow": 137,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "138": {
+      "state": "research",
+      "candidate": "Gyrinocheilus aymonieri",
+      "group": "gyrinocheilus-aymonieri",
+      "primaryRow": 137,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "140": {
+      "state": "research",
+      "candidate": "Corydoras schwartzi",
+      "group": "corydoras-schwartzi",
+      "primaryRow": 140,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "141": {
+      "state": "research",
+      "candidate": "Corydoras nattereri",
+      "group": "corydoras-nattereri",
+      "primaryRow": 141,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "143": {
+      "state": "research",
+      "candidate": "Synodontis eupterus",
+      "group": "synodontis-eupterus",
+      "primaryRow": 143,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "144": {
+      "state": "research",
+      "candidate": "Synodontis petricola",
+      "group": "synodontis-petricola",
+      "primaryRow": 144,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "145": {
+      "state": "research",
+      "candidate": "Melanotaenia praecox",
+      "group": "melanotaenia-praecox",
+      "primaryRow": 145,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "146": {
+      "state": "research",
+      "candidate": "Pangasianodon hypophthalmus",
+      "group": "pangasianodon-hypophthalmus",
+      "primaryRow": 146,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "147": {
+      "state": "research",
+      "candidate": "Pangasianodon hypophthalmus",
+      "group": "pangasianodon-hypophthalmus",
+      "primaryRow": 146,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "149": {
+      "state": "research",
+      "candidate": "Phractocephalus hemioliopterus",
+      "group": "phractocephalus-hemioliopterus",
+      "primaryRow": 149,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "174": {
+      "state": "research",
+      "candidate": "Xiphophorus hellerii",
+      "group": "xiphophorus-hellerii",
+      "primaryRow": 174,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "175": {
+      "state": "research",
+      "candidate": "Xiphophorus hellerii",
+      "group": "xiphophorus-hellerii",
+      "primaryRow": 174,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "176": {
+      "state": "research",
+      "candidate": "Xiphophorus hellerii",
+      "group": "xiphophorus-hellerii",
+      "primaryRow": 174,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "177": {
+      "state": "research",
+      "candidate": "Xiphophorus hellerii",
+      "group": "xiphophorus-hellerii",
+      "primaryRow": 174,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "178": {
+      "state": "research",
+      "candidate": "Xiphophorus hellerii",
+      "group": "xiphophorus-hellerii",
+      "primaryRow": 174,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "179": {
+      "state": "research",
+      "candidate": "Xiphophorus hellerii",
+      "group": "xiphophorus-hellerii",
+      "primaryRow": 174,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "180": {
+      "state": "research",
+      "candidate": "Poecilia reticulata",
+      "group": "poecilia-reticulata",
+      "primaryRow": 180,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "181": {
+      "state": "research",
+      "candidate": "Poecilia reticulata",
+      "group": "poecilia-reticulata",
+      "primaryRow": 180,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "182": {
+      "state": "research",
+      "candidate": "Poecilia reticulata",
+      "group": "poecilia-reticulata",
+      "primaryRow": 180,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "190": {
+      "state": "research",
+      "candidate": "Poecilia sphenops",
+      "group": "poecilia-sphenops",
+      "primaryRow": 190,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "201": {
+      "state": "research",
+      "candidate": "Hyphessobrycon eques",
+      "group": "hyphessobrycon-eques",
+      "primaryRow": 201,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "209": {
+      "state": "research",
+      "candidate": "Hyphessobrycon eques",
+      "group": "hyphessobrycon-eques",
+      "primaryRow": 201,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "203": {
+      "state": "research",
+      "candidate": "Moenkhausia sanctaefilomenae",
+      "group": "moenkhausia-sanctaefilomenae",
+      "primaryRow": 203,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "213": {
+      "state": "research",
+      "candidate": "Moenkhausia sanctaefilomenae",
+      "group": "moenkhausia-sanctaefilomenae",
+      "primaryRow": 203,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "204": {
+      "state": "research",
+      "candidate": "Hyphessobrycon pulchripinnis",
+      "group": "hyphessobrycon-pulchripinnis",
+      "primaryRow": 204,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "205": {
+      "state": "research",
+      "candidate": "Pristella maxillaris",
+      "group": "pristella-maxillaris",
+      "primaryRow": 205,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "215": {
+      "state": "research",
+      "candidate": "Pristella maxillaris",
+      "group": "pristella-maxillaris",
+      "primaryRow": 205,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "206": {
+      "state": "research",
+      "candidate": "Hyphessobrycon amandae",
+      "group": "hyphessobrycon-amandae",
+      "primaryRow": 206,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "208": {
+      "state": "research",
+      "candidate": "Hemigrammus erythrozonus",
+      "group": "hemigrammus-erythrozonus",
+      "primaryRow": 208,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "210": {
+      "state": "research",
+      "candidate": "Gymnocorymbus ternetzi",
+      "group": "gymnocorymbus-ternetzi",
+      "primaryRow": 210,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "211": {
+      "state": "research",
+      "candidate": "Paracheirodon axelrodi",
+      "group": "paracheirodon-axelrodi",
+      "primaryRow": 211,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "212": {
+      "state": "research",
+      "candidate": "Hyphessobrycon herbertaxelrodi",
+      "group": "hyphessobrycon-herbertaxelrodi",
+      "primaryRow": 212,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "214": {
+      "state": "research",
+      "candidate": "Thayeria boehlkei",
+      "group": "thayeria-boehlkei",
+      "primaryRow": 214,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "217": {
+      "state": "research",
+      "candidate": "Prionobrama filigera",
+      "group": "prionobrama-filigera",
+      "primaryRow": 217,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "53": {
+      "state": "research",
+      "candidate": "Aulonocara stuartgranti",
+      "group": "aulonocara-stuartgranti",
+      "primaryRow": 53,
+      "reason": "Candidato editorial; confirmar identificação, taxonomia, manutenção e três fotografias licenciadas antes de gerar ficha."
+    },
+    "16": {
+      "state": "pending-identification",
+      "reason": "Dânio é nome de grupo; não presumir Danio rerio nem mesclar com paulistinha sem confirmação."
+    },
+    "28": {
+      "state": "pending-identification",
+      "reason": "Bótia yoyo/lohachata: distinguir Botia almorhae de B. lohachata e possíveis misturas comerciais."
+    },
+    "30": {
+      "state": "pending-identification",
+      "reason": "Kuhli: Pangio kuhlii e espécies semelhantes são comercializadas juntas; identificação não confirmada."
+    },
+    "32": {
+      "state": "pending-identification",
+      "reason": "Carpa/koi: confirmar Cyprinus rubrofuscus, C. carpio ou linhagem híbrida; cores e tamanho não resolvem a identificação."
+    },
+    "33": {
+      "state": "pending-identification",
+      "reason": "Carpa/koi: confirmar Cyprinus rubrofuscus, C. carpio ou linhagem híbrida; cores e tamanho não resolvem a identificação."
+    },
+    "34": {
+      "state": "pending-identification",
+      "reason": "Carpa/koi: confirmar Cyprinus rubrofuscus, C. carpio ou linhagem híbrida; cores e tamanho não resolvem a identificação."
+    },
+    "35": {
+      "state": "pending-identification",
+      "reason": "Carpa/koi: confirmar Cyprinus rubrofuscus, C. carpio ou linhagem híbrida; cores e tamanho não resolvem a identificação."
+    },
+    "36": {
+      "state": "pending-identification",
+      "reason": "Carpa/koi: confirmar Cyprinus rubrofuscus, C. carpio ou linhagem híbrida; cores e tamanho não resolvem a identificação."
+    },
+    "37": {
+      "state": "pending-identification",
+      "reason": "Carpa/koi: confirmar Cyprinus rubrofuscus, C. carpio ou linhagem híbrida; cores e tamanho não resolvem a identificação."
+    },
+    "38": {
+      "state": "pending-identification",
+      "reason": "Carpa/koi: confirmar Cyprinus rubrofuscus, C. carpio ou linhagem híbrida; cores e tamanho não resolvem a identificação."
+    },
+    "39": {
+      "state": "pending-identification",
+      "reason": "Carpa/koi: confirmar Cyprinus rubrofuscus, C. carpio ou linhagem híbrida; cores e tamanho não resolvem a identificação."
+    },
+    "40": {
+      "state": "pending-identification",
+      "reason": "Cascudo/coridora albina/limpa-vidro: nome não permite determinar espécie; solicitar identificação e foto do fornecedor."
+    },
+    "41": {
+      "state": "pending-identification",
+      "reason": "Cascudo/coridora albina/limpa-vidro: nome não permite determinar espécie; solicitar identificação e foto do fornecedor."
+    },
+    "42": {
+      "state": "pending-identification",
+      "reason": "Cascudo/coridora albina/limpa-vidro: nome não permite determinar espécie; solicitar identificação e foto do fornecedor."
+    },
+    "43": {
+      "state": "pending-identification",
+      "reason": "Cascudo/coridora albina/limpa-vidro: nome não permite determinar espécie; solicitar identificação e foto do fornecedor."
+    },
+    "44": {
+      "state": "pending-identification",
+      "reason": "Cascudo/coridora albina/limpa-vidro: nome não permite determinar espécie; solicitar identificação e foto do fornecedor."
+    },
+    "45": {
+      "state": "pending-identification",
+      "reason": "Aulonocara: nome de cor/linhagem/localidade pode indicar híbrido; confirmar espécie e procedência com fornecedor."
+    },
+    "46": {
+      "state": "pending-identification",
+      "reason": "Aulonocara: nome de cor/linhagem/localidade pode indicar híbrido; confirmar espécie e procedência com fornecedor."
+    },
+    "47": {
+      "state": "pending-identification",
+      "reason": "Aulonocara: nome de cor/linhagem/localidade pode indicar híbrido; confirmar espécie e procedência com fornecedor."
+    },
+    "48": {
+      "state": "pending-identification",
+      "reason": "Aulonocara: nome de cor/linhagem/localidade pode indicar híbrido; confirmar espécie e procedência com fornecedor."
+    },
+    "49": {
+      "state": "pending-identification",
+      "reason": "Aulonocara: nome de cor/linhagem/localidade pode indicar híbrido; confirmar espécie e procedência com fornecedor."
+    },
+    "50": {
+      "state": "pending-identification",
+      "reason": "Aulonocara: nome de cor/linhagem/localidade pode indicar híbrido; confirmar espécie e procedência com fornecedor."
+    },
+    "51": {
+      "state": "pending-identification",
+      "reason": "Aulonocara: nome de cor/linhagem/localidade pode indicar híbrido; confirmar espécie e procedência com fornecedor."
+    },
+    "52": {
+      "state": "pending-identification",
+      "reason": "Aulonocara: nome de cor/linhagem/localidade pode indicar híbrido; confirmar espécie e procedência com fornecedor."
+    },
+    "54": {
+      "state": "pending-identification",
+      "reason": "Aulonocara: nome de cor/linhagem/localidade pode indicar híbrido; confirmar espécie e procedência com fornecedor."
+    },
+    "57": {
+      "state": "pending-identification",
+      "reason": "Nome comercial insuficiente ou categoria inconsistente: confirmar espécie antes de atribuir taxonomia e cuidados."
+    },
+    "62": {
+      "state": "pending-identification",
+      "reason": "Nome comercial insuficiente ou categoria inconsistente: confirmar espécie antes de atribuir taxonomia e cuidados."
+    },
+    "64": {
+      "state": "pending-identification",
+      "reason": "Nome comercial insuficiente ou categoria inconsistente: confirmar espécie antes de atribuir taxonomia e cuidados."
+    },
+    "67": {
+      "state": "pending-identification",
+      "reason": "Nome comercial insuficiente ou categoria inconsistente: confirmar espécie antes de atribuir taxonomia e cuidados."
+    },
+    "71": {
+      "state": "pending-identification",
+      "reason": "Linhagem híbrida: parentais e requisitos não confirmados; não tratar nome comercial como espécie taxonômica."
+    },
+    "72": {
+      "state": "pending-identification",
+      "reason": "Linhagem híbrida: parentais e requisitos não confirmados; não tratar nome comercial como espécie taxonômica."
+    },
+    "85": {
+      "state": "pending-identification",
+      "reason": "Linhagem híbrida: parentais e requisitos não confirmados; não tratar nome comercial como espécie taxonômica."
+    },
+    "86": {
+      "state": "pending-identification",
+      "reason": "Linhagem híbrida: parentais e requisitos não confirmados; não tratar nome comercial como espécie taxonômica."
+    },
+    "87": {
+      "state": "pending-identification",
+      "reason": "Linhagem híbrida: parentais e requisitos não confirmados; não tratar nome comercial como espécie taxonômica."
+    },
+    "88": {
+      "state": "pending-identification",
+      "reason": "Linhagem híbrida: parentais e requisitos não confirmados; não tratar nome comercial como espécie taxonômica."
+    },
+    "89": {
+      "state": "pending-identification",
+      "reason": "Papilocromis pode indicar diferentes Mikrogeophagus; confirmar se é M. ramirezi ou M. altispinosus."
+    },
+    "96": {
+      "state": "pending-identification",
+      "reason": "Invertebrado: cor/nome genérico não comprova espécie (inclui Neocaridina sp.); confirmar identidade antes de atribuir cuidados."
+    },
+    "97": {
+      "state": "pending-identification",
+      "reason": "Invertebrado: cor/nome genérico não comprova espécie (inclui Neocaridina sp.); confirmar identidade antes de atribuir cuidados."
+    },
+    "98": {
+      "state": "pending-identification",
+      "reason": "Invertebrado: cor/nome genérico não comprova espécie (inclui Neocaridina sp.); confirmar identidade antes de atribuir cuidados."
+    },
+    "99": {
+      "state": "pending-identification",
+      "reason": "Invertebrado: cor/nome genérico não comprova espécie (inclui Neocaridina sp.); confirmar identidade antes de atribuir cuidados."
+    },
+    "100": {
+      "state": "pending-identification",
+      "reason": "Invertebrado: cor/nome genérico não comprova espécie (inclui Neocaridina sp.); confirmar identidade antes de atribuir cuidados."
+    },
+    "101": {
+      "state": "pending-identification",
+      "reason": "Invertebrado: cor/nome genérico não comprova espécie (inclui Neocaridina sp.); confirmar identidade antes de atribuir cuidados."
+    },
+    "102": {
+      "state": "pending-identification",
+      "reason": "Invertebrado: cor/nome genérico não comprova espécie (inclui Neocaridina sp.); confirmar identidade antes de atribuir cuidados."
+    },
+    "103": {
+      "state": "pending-identification",
+      "reason": "Invertebrado: cor/nome genérico não comprova espécie (inclui Neocaridina sp.); confirmar identidade antes de atribuir cuidados."
+    },
+    "104": {
+      "state": "pending-identification",
+      "reason": "Invertebrado: cor/nome genérico não comprova espécie (inclui Neocaridina sp.); confirmar identidade antes de atribuir cuidados."
+    },
+    "105": {
+      "state": "pending-identification",
+      "reason": "Invertebrado: cor/nome genérico não comprova espécie (inclui Neocaridina sp.); confirmar identidade antes de atribuir cuidados."
+    },
+    "106": {
+      "state": "pending-identification",
+      "reason": "Neritina virginea: verificar nome aceito e necessidade de ambiente salobro/marinho, evitando recomendação indevida de água doce."
+    },
+    "130": {
+      "state": "pending-identification",
+      "reason": "Colisa sunset pode indicar linhagens de Trichogaster chuna ou T. lalius; fornecedor deve confirmar."
+    },
+    "139": {
+      "state": "pending-identification",
+      "reason": "Cascudo/coridora albina/limpa-vidro: nome não permite determinar espécie; solicitar identificação e foto do fornecedor."
+    },
+    "142": {
+      "state": "pending-identification",
+      "reason": "Cascudo/coridora albina/limpa-vidro: nome não permite determinar espécie; solicitar identificação e foto do fornecedor."
+    },
+    "148": {
+      "state": "pending-identification",
+      "reason": "Nome comercial inclui diferentes espécies ou híbridos de grande porte; confirmar identificação e procedência."
+    },
+    "150": {
+      "state": "pending-identification",
+      "reason": "Nome comercial inclui diferentes espécies ou híbridos de grande porte; confirmar identificação e procedência."
+    },
+    "151": {
+      "state": "pending-identification",
+      "reason": "Nome comercial inclui diferentes espécies ou híbridos de grande porte; confirmar identificação e procedência."
+    },
+    "152": {
+      "state": "pending-identification",
+      "reason": "Planta aquática: requer identificação botânica e template de cultivo; não preencher ficha animal com parâmetros incompatíveis."
+    },
+    "153": {
+      "state": "pending-identification",
+      "reason": "Planta aquática: requer identificação botânica e template de cultivo; não preencher ficha animal com parâmetros incompatíveis."
+    },
+    "154": {
+      "state": "pending-identification",
+      "reason": "Planta aquática: requer identificação botânica e template de cultivo; não preencher ficha animal com parâmetros incompatíveis."
+    },
+    "155": {
+      "state": "pending-identification",
+      "reason": "Planta aquática: requer identificação botânica e template de cultivo; não preencher ficha animal com parâmetros incompatíveis."
+    },
+    "156": {
+      "state": "pending-identification",
+      "reason": "Planta aquática: requer identificação botânica e template de cultivo; não preencher ficha animal com parâmetros incompatíveis."
+    },
+    "157": {
+      "state": "pending-identification",
+      "reason": "Planta aquática: requer identificação botânica e template de cultivo; não preencher ficha animal com parâmetros incompatíveis."
+    },
+    "158": {
+      "state": "pending-identification",
+      "reason": "Planta aquática: requer identificação botânica e template de cultivo; não preencher ficha animal com parâmetros incompatíveis."
+    },
+    "159": {
+      "state": "pending-identification",
+      "reason": "Planta aquática: requer identificação botânica e template de cultivo; não preencher ficha animal com parâmetros incompatíveis."
+    },
+    "160": {
+      "state": "pending-identification",
+      "reason": "Planta aquática: requer identificação botânica e template de cultivo; não preencher ficha animal com parâmetros incompatíveis."
+    },
+    "161": {
+      "state": "pending-identification",
+      "reason": "Planta aquática: requer identificação botânica e template de cultivo; não preencher ficha animal com parâmetros incompatíveis."
+    },
+    "162": {
+      "state": "pending-identification",
+      "reason": "Planta aquática: requer identificação botânica e template de cultivo; não preencher ficha animal com parâmetros incompatíveis."
+    },
+    "163": {
+      "state": "pending-identification",
+      "reason": "Planta aquática: requer identificação botânica e template de cultivo; não preencher ficha animal com parâmetros incompatíveis."
+    },
+    "164": {
+      "state": "pending-identification",
+      "reason": "Planta aquática: requer identificação botânica e template de cultivo; não preencher ficha animal com parâmetros incompatíveis."
+    },
+    "165": {
+      "state": "pending-identification",
+      "reason": "Planta aquática: requer identificação botânica e template de cultivo; não preencher ficha animal com parâmetros incompatíveis."
+    },
+    "166": {
+      "state": "pending-identification",
+      "reason": "Planta aquática: requer identificação botânica e template de cultivo; não preencher ficha animal com parâmetros incompatíveis."
+    },
+    "167": {
+      "state": "pending-identification",
+      "reason": "Planta aquática: requer identificação botânica e template de cultivo; não preencher ficha animal com parâmetros incompatíveis."
+    },
+    "168": {
+      "state": "pending-identification",
+      "reason": "Planta aquática: requer identificação botânica e template de cultivo; não preencher ficha animal com parâmetros incompatíveis."
+    },
+    "169": {
+      "state": "pending-identification",
+      "reason": "Planta aquática: requer identificação botânica e template de cultivo; não preencher ficha animal com parâmetros incompatíveis."
+    },
+    "170": {
+      "state": "pending-identification",
+      "reason": "Planta aquática: requer identificação botânica e template de cultivo; não preencher ficha animal com parâmetros incompatíveis."
+    },
+    "171": {
+      "state": "pending-identification",
+      "reason": "Planta aquática: requer identificação botânica e template de cultivo; não preencher ficha animal com parâmetros incompatíveis."
+    },
+    "172": {
+      "state": "pending-identification",
+      "reason": "Planta aquática: requer identificação botânica e template de cultivo; não preencher ficha animal com parâmetros incompatíveis."
+    },
+    "173": {
+      "state": "pending-identification",
+      "reason": "Planta aquática: requer identificação botânica e template de cultivo; não preencher ficha animal com parâmetros incompatíveis."
+    },
+    "183": {
+      "state": "pending-identification",
+      "reason": "Molinésia ornamental pode envolver Poecilia sphenops, P. latipinna, P. velifera e híbridos; nome de cor não resolve espécie."
+    },
+    "184": {
+      "state": "pending-identification",
+      "reason": "Molinésia ornamental pode envolver Poecilia sphenops, P. latipinna, P. velifera e híbridos; nome de cor não resolve espécie."
+    },
+    "185": {
+      "state": "pending-identification",
+      "reason": "Molinésia ornamental pode envolver Poecilia sphenops, P. latipinna, P. velifera e híbridos; nome de cor não resolve espécie."
+    },
+    "186": {
+      "state": "pending-identification",
+      "reason": "Molinésia ornamental pode envolver Poecilia sphenops, P. latipinna, P. velifera e híbridos; nome de cor não resolve espécie."
+    },
+    "187": {
+      "state": "pending-identification",
+      "reason": "Molinésia ornamental pode envolver Poecilia sphenops, P. latipinna, P. velifera e híbridos; nome de cor não resolve espécie."
+    },
+    "188": {
+      "state": "pending-identification",
+      "reason": "Molinésia ornamental pode envolver Poecilia sphenops, P. latipinna, P. velifera e híbridos; nome de cor não resolve espécie."
+    },
+    "189": {
+      "state": "pending-identification",
+      "reason": "Molinésia ornamental pode envolver Poecilia sphenops, P. latipinna, P. velifera e híbridos; nome de cor não resolve espécie."
+    },
+    "191": {
+      "state": "pending-identification",
+      "reason": "Molinésia ornamental pode envolver Poecilia sphenops, P. latipinna, P. velifera e híbridos; nome de cor não resolve espécie."
+    },
+    "192": {
+      "state": "pending-identification",
+      "reason": "Molinésia ornamental pode envolver Poecilia sphenops, P. latipinna, P. velifera e híbridos; nome de cor não resolve espécie."
+    },
+    "193": {
+      "state": "pending-identification",
+      "reason": "Platy: confirmar Xiphophorus maculatus, X. variatus ou linhagem híbrida, sem inferir pela cor."
+    },
+    "194": {
+      "state": "pending-identification",
+      "reason": "Platy: confirmar Xiphophorus maculatus, X. variatus ou linhagem híbrida, sem inferir pela cor."
+    },
+    "195": {
+      "state": "pending-identification",
+      "reason": "Platy: confirmar Xiphophorus maculatus, X. variatus ou linhagem híbrida, sem inferir pela cor."
+    },
+    "196": {
+      "state": "pending-identification",
+      "reason": "Platy: confirmar Xiphophorus maculatus, X. variatus ou linhagem híbrida, sem inferir pela cor."
+    },
+    "197": {
+      "state": "pending-identification",
+      "reason": "Platy: confirmar Xiphophorus maculatus, X. variatus ou linhagem híbrida, sem inferir pela cor."
+    },
+    "198": {
+      "state": "pending-identification",
+      "reason": "Platy: confirmar Xiphophorus maculatus, X. variatus ou linhagem híbrida, sem inferir pela cor."
+    },
+    "199": {
+      "state": "pending-identification",
+      "reason": "Cruzeiro-do-sul: verificar identificação e revisão taxonômica de Hyphessobrycon/Psalidodon anisitsi."
+    },
+    "200": {
+      "state": "pending-identification",
+      "reason": "Peixe-lápis: nome abrange diversas espécies de Nannostomus; confirmar espécie."
+    },
+    "202": {
+      "state": "pending-identification",
+      "reason": "Mocinha: nome regional não resolve espécie; confirmar Characidium ou outro gênero."
+    },
+    "207": {
+      "state": "pending-identification",
+      "reason": "Tetra fortuna: identificação científica não comprovada por nome comercial."
+    },
+    "216": {
+      "state": "pending-identification",
+      "reason": "Rodóstomo: distinguir Petitella rhodostoma, P. bleheri e P. georgiae; não atribuir foto ou cuidados à espécie errada."
+    }
+  }
+}

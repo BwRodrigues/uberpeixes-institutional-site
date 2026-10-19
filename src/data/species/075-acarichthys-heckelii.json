@@ -1,0 +1,334 @@
+{
+  "slug": "acarichthys-heckelii",
+  "name": "Acará-heckelii",
+  "commercialName": "HECKELI ALBINO",
+  "category": "Ciclídeos Americanos",
+  "source": {
+    "workbook": "VAREJO PEIXES NICHOS.xlsx",
+    "sheet": "Tabela Peixes Atual",
+    "row": 75,
+    "niche": "Ciclídeos Americanos"
+  },
+  "sortOrder": 75,
+  "scientificName": "Acarichthys heckelii",
+  "identificationNote": "",
+  "description": "O acará-heckelii combina nadadeiras alongadas e hábito de escavar. Uma montagem ampla permite observar seu comportamento sem limitar os movimentos.",
+  "photo": {
+    "src": "/images/species/acarichthys-heckelii-1.webp",
+    "width": 639,
+    "height": 454,
+    "alt": "Fotografia representativa de Acarichthys heckelii; imagem de referência da espécie, sem indicação de estoque.",
+    "author": "The original uploader was MidgleyDJ at English Wikipedia.",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Acarichthys_heckeli.JPG",
+    "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  "additionalPhotos": [
+    {
+      "src": "/images/species/acarichthys-heckelii-2.webp",
+      "width": 770,
+      "height": 501,
+      "alt": "Fotografia representativa de Acarichthys heckelii; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Cedricguppy - Loury Cédric",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Acarichthys_heckelii_-_subadulte_01.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    },
+    {
+      "src": "/images/species/acarichthys-heckelii-3.webp",
+      "width": 616,
+      "height": 402,
+      "alt": "Fotografia representativa de Acarichthys heckelii; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Cedricguppy - Loury Cédric",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Acarichthys_heckelii_-_subadulte_02.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ],
+  "sections": [
+    {
+      "id": "apresentacao",
+      "fields": [
+        {
+          "label": "Nome científico",
+          "value": "Acarichthys heckelii",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Outros nomes e variedades",
+          "value": "Heckeli albino",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "24–30 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "6,0–8,0",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "1–12 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Partes baixas das bacias, incluindo florestas e savanas inundadas durante a estação chuvosa.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Corpo claro com manchas escuras e nadadeiras prolongadas; adultos desenvolvem filamentos vistosos.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 20 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Fêmeas maduras tendem a ser mais robustas. Essas diferenças não permitem garantir o sexo pela aparência de um juvenil.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "Dimensionar pela base; ver criação. Base de 150 × 45 cm apenas para um casal compatível; um grupo exige muito mais área. Preserve espaço para as escavações e não defina a lotação apenas pelo volume em litros.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Substrato preferencialmente arenoso, raízes e iluminação suave. Escava intensamente e é sensível à deterioração da água.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Alta: escavação e água exigente",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Pode agredir conspecíficos e predar animais pequenos",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Casal compatível; grupo exige muito mais área",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Geralmente moderado com outras espécies, mas pode predar animais muito pequenos e ter episódios graves de agressão entre conspecíficos. Evitar beliscadores de nadadeiras.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Aceita alimentos vivos, congelados e secos, com componente vegetal.  não peneira areia como alguns ciclídeos aparentados.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Fêmeas escavam sistemas de túneis e câmara para ovos; maturidade pode demorar dois a três anos. A reprodução requer estrutura e espaço apropriados.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Sensível à deterioração da água e a ataques às nadadeiras. Mantenha o fundo limpo, fixe estruturas com segurança e observe disputas entre indivíduos da mesma espécie.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "América do Sul: norte da bacia Amazônica em Brasil, Colômbia e Peru e drenagem do Essequibo na Guiana.",
+          "referenceIds": ["cof", "care"]
+        }
+      ]
+    },
+    {
+      "id": "classificacao",
+      "fields": [
+        {
+          "label": "Reino",
+          "value": "Animalia",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Filo",
+          "value": "Chordata",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Classe",
+          "value": "Actinopteri",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Ordem",
+          "value": "Cichliformes",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Família",
+          "value": "Cichlidae",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Gênero",
+          "value": "Acarichthys",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Espécie",
+          "value": "Acarichthys heckelii",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Autoridade taxonômica",
+          "value": "(Müller & Troschel 1849)",
+          "referenceIds": ["cof"]
+        }
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "fields": [
+        {
+          "label": "Você sabia?",
+          "value": "Na reprodução, a fêmea pode escavar túneis e uma câmara para os ovos.",
+          "referenceIds": ["care", "cof"]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "cof",
+      "title": "Eschmeyer’s Catalog of Fishes — Acarichthys heckelii",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=21290",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "class",
+      "title": "Eschmeyer’s Catalog of Fishes — classificação por família",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "care",
+      "title": "Acarichthys heckelii — manutenção e história natural",
+      "url": "https://www.seriouslyfish.com/species/acarichthys-heckelii/",
+      "author": "Seriously Fish",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "gbif",
+      "title": "Acarichthys heckelii — registro comparativo no GBIF",
+      "url": "https://api.gbif.org/v1/species/match?name=Acarichthys%20heckelii",
+      "author": "GBIF",
+      "accessedAt": "2026-10-18"
+    }
+  ],
+  "regions": [
+    {
+      "id": "america-do-sul",
+      "label": "América do Sul",
+      "scale": "continent",
+      "referenceIds": ["care", "cof"]
+    }
+  ],
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "24–30 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "6,0–8,0",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "1–12 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 20 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "Dimensionar pela base; ver criação",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Pode agredir conspecíficos e predar animais pequenos",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Casal compatível; grupo exige muito mais área",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Rações e alimentos aquáticos variados",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Alta: escavação e água exigente",
+      "referenceIds": ["care"]
+    }
+  ]
+}

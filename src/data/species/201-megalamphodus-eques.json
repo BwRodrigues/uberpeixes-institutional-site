@@ -1,0 +1,339 @@
+{
+  "slug": "megalamphodus-eques",
+  "name": "Tetra-mato-grosso",
+  "commercialName": "MATO GROSSO VÉU",
+  "category": "Tetras e Peixes de Cardume",
+  "source": {
+    "workbook": "VAREJO PEIXES NICHOS.xlsx",
+    "sheet": "Tabela Peixes Atual",
+    "row": 201,
+    "niche": "Tetras e Peixes de Cardume"
+  },
+  "sortOrder": 201,
+  "scientificName": "Megalamphodus eques",
+  "identificationNote": "",
+  "description": "O tetra-mato-grosso reúne vermelho marcante e bastante atividade. O cardume precisa ser planejado porque a espécie pode beliscar as nadadeiras de outros peixes.",
+  "photo": {
+    "src": "/images/species/hyphessobrycon-eques-1.webp",
+    "width": 452,
+    "height": 348,
+    "alt": "Fotografia representativa de Megalamphodus eques; imagem de referência da espécie, sem indicação de estoque.",
+    "author": "Dubrovsky Alexander (Aledubr)",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#Public_domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hyphessobrycon_eques.jpg",
+    "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  "additionalPhotos": [
+    {
+      "src": "/images/species/hyphessobrycon-eques-2.webp",
+      "width": 500,
+      "height": 300,
+      "alt": "Fotografia representativa de Megalamphodus eques; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "No machine-readable author provided. MiguelCampos assumed (based on copyright claims).",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#Public_domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tetraserpae.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    },
+    {
+      "src": "/images/species/hyphessobrycon-eques-3.webp",
+      "width": 960,
+      "height": 686,
+      "alt": "Fotografia representativa de Megalamphodus eques; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Ramon and Suzanne Vargas",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hyphessobrycon_eques_63415997.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ],
+  "sections": [
+    {
+      "id": "apresentacao",
+      "fields": [
+        {
+          "label": "Nome científico",
+          "value": "Megalamphodus eques",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Outros nomes e variedades",
+          "value": "Mato grosso véu; Tetra mato grosso",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "20–28 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "5,0–7,5",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "1–15 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Tributários lentos, remansos, lagoas e pequenos lagos com vegetação marginal ou raízes submersas.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Pequeno tetra vermelho com mancha escura atrás do opérculo e marcas contrastantes nas nadadeiras.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 4 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Fêmeas maduras são mais arredondadas e ligeiramente maiores.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "72 L ou mais; 12–15 sem outra meia-água. Base de 80 × 30 cm, cerca de 72 L para 12–15 indivíduos, sem outras espécies de meia-água nesse espaço mínimo. Um comunitário precisa de aquário maior.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Plantas, substrato escuro e áreas sombreadas com raízes, sem limitar a natação. Espaço insuficiente e poucos indivíduos agravam conflitos.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Moderada: cardume e escolha da fauna",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Ativo; pode beliscar nadadeiras",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Cardume de 12–15",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Forma hierarquias e pode beliscar nadadeiras. Mantenha ao menos 12 indivíduos e evita companheiros lentos ou de nadadeiras longas.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Ofereça ração de qualidade e pequenos alimentos vivos ou congelados variados.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Dispersa ovos sem cuidados parentais. Separar ovos e adultos em reprodução dirigida.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Nadadeiras feridas e perseguição contínua indicam problemas de convivência. Mantenha o cardume, evite peixes lentos de nadadeiras longas e amplie o espaço antes de adicionar fauna.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "América do Sul: ampla distribuição indicada nas drenagens Amazônica e do Paraguai, incluindo Brasil, Peru, Bolívia, Paraguai e Argentina.",
+          "referenceIds": ["cof", "care"]
+        }
+      ]
+    },
+    {
+      "id": "classificacao",
+      "fields": [
+        {
+          "label": "Reino",
+          "value": "Animalia",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Filo",
+          "value": "Chordata",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Classe",
+          "value": "Actinopteri",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Ordem",
+          "value": "Characiformes",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Família",
+          "value": "Acestrorhamphidae",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Gênero",
+          "value": "Megalamphodus",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Espécie",
+          "value": "Megalamphodus eques",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Autoridade taxonômica",
+          "value": "(Steindachner 1882)",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Sinônimos científicos",
+          "value": "Hyphessobrycon eques",
+          "referenceIds": ["cof", "care"]
+        }
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "fields": [
+        {
+          "label": "Você sabia?",
+          "value": "Megalamphodus eques também aparece como Hyphessobrycon eques; a forma véu é uma variedade ornamental.",
+          "referenceIds": ["care", "cof"]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "cof",
+      "title": "Eschmeyer’s Catalog of Fishes — Megalamphodus eques",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=29783",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "class",
+      "title": "Eschmeyer’s Catalog of Fishes — classificação por família",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "care",
+      "title": "Hyphessobrycon eques — manutenção e história natural",
+      "url": "https://www.seriouslyfish.com/species/hyphessobrycon-eques/",
+      "author": "Seriously Fish",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "gbif",
+      "title": "Hyphessobrycon eques — registro comparativo no GBIF",
+      "url": "https://api.gbif.org/v1/species/match?name=Hyphessobrycon%20eques",
+      "author": "GBIF",
+      "accessedAt": "2026-10-18"
+    }
+  ],
+  "regions": [
+    {
+      "id": "america-do-sul",
+      "label": "América do Sul",
+      "scale": "continent",
+      "referenceIds": ["care", "cof"]
+    }
+  ],
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "20–28 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "5,0–7,5",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "1–15 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 4 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "72 L ou mais; 12–15 sem outra meia-água",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Ativo; pode beliscar nadadeiras",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Cardume de 12–15",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Rações e pequenos alimentos aquáticos",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Moderada: cardume e escolha da fauna",
+      "referenceIds": ["care"]
+    }
+  ]
+}

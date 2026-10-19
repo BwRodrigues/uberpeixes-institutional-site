@@ -1,0 +1,329 @@
+{
+  "slug": "thorichthys-meeki",
+  "name": "Acará-boca-de-fogo",
+  "commercialName": "ACARÁ BOCA DE FOGO G",
+  "category": "Ciclídeos Americanos",
+  "source": {
+    "workbook": "VAREJO PEIXES NICHOS.xlsx",
+    "sheet": "Tabela Peixes Atual",
+    "row": 66,
+    "niche": "Ciclídeos Americanos"
+  },
+  "sortOrder": 66,
+  "scientificName": "Thorichthys meeki",
+  "identificationNote": "",
+  "description": "O boca-de-fogo destaca a parte inferior avermelhada da cabeça em suas exibições. Explora o fundo e precisa de espaço para os territórios reprodutivos.",
+  "photo": {
+    "src": "/images/species/thorichthys-meeki-1.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Fotografia representativa de Thorichthys meeki; imagem de referência da espécie, sem indicação de estoque.",
+    "author": "Elmar Laister",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#Public_domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Feuermaulbuntbarsch.jpg",
+    "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  "additionalPhotos": [
+    {
+      "src": "/images/species/thorichthys-meeki-2.webp",
+      "width": 960,
+      "height": 638,
+      "alt": "Fotografia representativa de Thorichthys meeki; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Doronenko",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cichlasoma_meeki.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    },
+    {
+      "src": "/images/species/thorichthys-meeki-3.webp",
+      "width": 960,
+      "height": 640,
+      "alt": "Fotografia representativa de Thorichthys meeki; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Tylwyth Eldar",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Micro_Zoo_de_Saint_Malo_-_Thorichthys_meeki.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ],
+  "sections": [
+    {
+      "id": "apresentacao",
+      "fields": [
+        {
+          "label": "Nome científico",
+          "value": "Thorichthys meeki",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Outros nomes e variedades",
+          "value": "Acará boca de fogo g",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "20–32 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "6,5–8,5",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "2–15 °dGH",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Garganta vermelha ou alaranjada, corpo comprimido e marcas escuras; machos adultos costumam ser maiores.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 12 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Machos adultos geralmente são maiores, mais coloridos e têm prolongamentos maiores nas nadadeiras dorsal e anal.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "108 L apenas para casal; ampliar para grupo. Base de 120 × 30 cm, cerca de 108 L, apenas para um casal em montagem específica. Um grupo de oito ou mais e qualquer comunitário precisam de espaço substancialmente maior.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Areia macia, rochas lisas e raízes criando refúgios e barreiras visuais. Priorizar qualidade da água e estabilidade da montagem.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Moderada: espaço para territórios",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Territorial na reprodução",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Casal; grupo somente em grande instalação",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Pode comer peixes muito pequenos e defende território ao reproduzir. Fora da desova é gregário; grupos de oito ou mais exigem aquário muito maior que a montagem mínima para um casal.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Onívoro bentófago: peneira substrato procurando pequenos crustáceos e outros itens. Oferecer rações de granulação adequada e complementos vivos ou congelados.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Desova sobre substrato e apresenta cuidado biparental. Casais precisam de território, superfície de desova e acompanhamento da agressividade.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Substrato áspero prejudica a procura de alimento; use areia macia. Na desova, acompanhe as perseguições e preserve rotas de fuga, sem permitir que um peixe fique acuado.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "América do Norte, porção mesoamericana: México, norte de Belize e Guatemala, com populações introduzidas em outros locais.",
+          "referenceIds": ["cof", "care"]
+        }
+      ]
+    },
+    {
+      "id": "classificacao",
+      "fields": [
+        {
+          "label": "Reino",
+          "value": "Animalia",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Filo",
+          "value": "Chordata",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Classe",
+          "value": "Actinopteri",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Ordem",
+          "value": "Cichliformes",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Família",
+          "value": "Cichlidae",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Gênero",
+          "value": "Thorichthys",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Espécie",
+          "value": "Thorichthys meeki",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Autoridade taxonômica",
+          "value": "Brind 1918",
+          "referenceIds": ["cof"]
+        }
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "fields": [
+        {
+          "label": "Você sabia?",
+          "value": "O boca-de-fogo exibe a região inferior avermelhada da cabeça durante interações territoriais.",
+          "referenceIds": ["care", "cof"]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "cof",
+      "title": "Eschmeyer’s Catalog of Fishes — Thorichthys meeki",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=16452",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "class",
+      "title": "Eschmeyer’s Catalog of Fishes — classificação por família",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "care",
+      "title": "Thorichthys meeki — manutenção e história natural",
+      "url": "https://www.seriouslyfish.com/species/thorichthys-meeki/",
+      "author": "Seriously Fish",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "gbif",
+      "title": "Thorichthys meeki — registro comparativo no GBIF",
+      "url": "https://api.gbif.org/v1/species/match?name=Thorichthys%20meeki",
+      "author": "GBIF",
+      "accessedAt": "2026-10-18"
+    }
+  ],
+  "regions": [
+    {
+      "id": "america-do-norte",
+      "label": "América do Norte",
+      "scale": "continent",
+      "referenceIds": ["care", "cof"]
+    }
+  ],
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "20–32 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "6,5–8,5",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "2–15 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 12 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "108 L apenas para casal; ampliar para grupo",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Territorial na reprodução",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Casal; grupo somente em grande instalação",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Ração de fundo e pequenos invertebrados",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Moderada: espaço para territórios",
+      "referenceIds": ["care"]
+    }
+  ]
+}

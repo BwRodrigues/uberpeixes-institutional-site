@@ -4,7 +4,7 @@
   "commercialName": "BARBUS CEREJA",
   "category": "Barbos e Danios",
   "description": "O barbo-cereja reúne porte pequeno, vida em grupo e machos de vermelho marcante. Plantas, companhia da própria espécie e um aquário estável deixam a convivência mais interessante que um peixe sozinho.",
-  "identificationNote": "O Catalog of Fishes adota Rohanella titteya (Deraniyagala, 1929), após revisão de 2023. Puntius titteya, ainda usado em FishBase e Seriously Fish, é o nome anterior sob o qual as recomendações foram consultadas.",
+  "identificationNote": "",
   "scientificName": "Rohanella titteya",
   "source": {
     "workbook": "VAREJO PEIXES NICHOS.xlsx",
@@ -28,19 +28,139 @@
       "id": "apresentacao",
       "fields": [
         {
-          "label": "Outros nomes populares",
-          "value": "Barbo-cereja; Cherry Barb. “BARBUS CEREJA” é o nome comercial original.",
+          "label": "Nome científico",
+          "value": "Rohanella titteya",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Outros nomes e variedades",
+          "value": "Barbo-cereja; Cherry Barb.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "20–27 °C",
           "referenceIds": ["care"]
         },
         {
-          "label": "Identificação científica",
-          "value": "Rohanella titteya, nome atual adotado no catálogo taxonômico.",
-          "referenceIds": ["cof", "revision"]
+          "label": "pH em aquário",
+          "value": "6,0–8,0",
+          "referenceIds": ["care"]
         },
         {
-          "label": "Introdução",
-          "value": "É uma opção para um comunitário bem estudado, com espaço para um grupo e plantas nas margens. O vermelho chama a atenção, mas a companhia é parte importante da ficha.",
+          "label": "GH",
+          "value": "2–20 °dGH",
           "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Riachos rasos, sombreados e de corrente lenta, com folhas e vegetação marginal.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Peixe pequeno de faixa lateral escura; machos adultos geralmente vermelhos e fêmeas mais discretas.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Cerca de 5 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Machos adultos tendem a ser menores, mais esguios e coloridos; fêmeas maduras têm corpo mais cheio.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "54 L ou mais; grupo de 6–10. Base mínima de 60 × 30 cm; com 30 cm de altura, cerca de 54 L brutos para 6–10 peixes. Prefira mais espaço para grupos maiores e outros moradores.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Plantas densas nas margens, raízes e substrato escuro, com área livre para o grupo. Mantenha água limpa e circulação moderada.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Baixa em aquário estabelecido",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Muito pacífico",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Grupo de 6–10 ou mais",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Peixes pequenos e pacíficos de exigências de água compatíveis, avaliados espécie por espécie.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Onívoro; inclui pequenos invertebrados, algas e matéria orgânica na dieta.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Dispersa ovos entre plantas finas e não cuida da prole. Proteja a postura dos adultos; a eclosão costuma ocorrer em 24–48 horas. Os alevinos precisam inicialmente de alimento muito pequeno, seguido de náuplios de artêmia conforme crescem.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Isolamento persistente pode indicar grupo insuficiente ou intimidação. Observe se todos se alimentam e preserve refúgios entre plantas; a intensidade do vermelho varia com sexo e reprodução.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "Ásia: oeste e sudoeste do Sri Lanka, incluindo as bacias Kelani e Nilwala.",
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -59,7 +179,7 @@
         },
         {
           "label": "Classe",
-          "value": "Actinopteri, no esquema do Catalog of Fishes.",
+          "value": "Actinopteri",
           "referenceIds": ["class"]
         },
         {
@@ -84,283 +204,13 @@
         },
         {
           "label": "Autoridade taxonômica",
-          "value": "(Deraniyagala, 1929).",
+          "value": "(Deraniyagala, 1929)",
           "referenceIds": ["cof"]
         },
         {
           "label": "Sinônimos científicos",
-          "value": "Puntius titteya; Barbus titteya e Capoeta titteya aparecem em literatura anterior.",
+          "value": "Puntius titteya; Barbus titteya; Capoeta titteya.",
           "referenceIds": ["cof", "care"]
-        }
-      ]
-    },
-    {
-      "id": "origem",
-      "fields": [
-        {
-          "label": "Continente e países",
-          "value": "Ásia; Sri Lanka.",
-          "referenceIds": ["cof"]
-        },
-        {
-          "label": "Distribuição geográfica",
-          "value": "Bacias do oeste e sudoeste do Sri Lanka, onde é endêmica; introduções em outros países não constituem sua origem natural.",
-          "referenceIds": ["cof"]
-        },
-        {
-          "label": "Bacia hidrográfica",
-          "value": "A literatura de manutenção e FishBase destacam as bacias Kelani e Nilwala.",
-          "referenceIds": ["care", "fb"]
-        },
-        {
-          "label": "Ambiente natural",
-          "value": "Riachos sombreados, rasos e de corrente lenta, com sedimento, folhas e vegetação marginal.",
-          "referenceIds": ["care", "fb"]
-        },
-        {
-          "label": "Nativa, exótica ou linhagem ornamental",
-          "value": "Exótica em relação ao Brasil. Há variedades selecionadas em cativeiro, mas a origem específica do lote comercial deve ser consultada.",
-          "referenceIds": ["cof", "care"]
-        }
-      ]
-    },
-    {
-      "id": "caracteristicas",
-      "fields": [
-        {
-          "label": "Características físicas",
-          "value": "Pequeno ciprinídeo de corpo relativamente comprimido; a padronagem lateral é característica.",
-          "referenceIds": ["care", "fb"]
-        },
-        {
-          "label": "Coloração",
-          "value": "Machos maduros costumam ser mais vermelhos; fêmeas são menos intensamente coloridas. Algumas linhagens selecionadas retêm vermelho mais forte.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Tamanho adulto",
-          "value": "Em torno de 5 cm; FishBase registra 5 cm de comprimento total e Seriously Fish cita 50 mm de comprimento padrão.",
-          "referenceIds": ["fb", "care"]
-        },
-        {
-          "label": "Expectativa de vida",
-          "value": "Não foi localizada longevidade documentada nas fontes usadas; o protótipo não fixa um número de anos.",
-          "referenceIds": ["fb", "care"]
-        },
-        {
-          "label": "Diferenças entre machos e fêmeas",
-          "value": "Machos adultos tendem a ser menores, mais esguios e coloridos; fêmeas maduras têm corpo mais cheio.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "agua",
-      "fields": [
-        {
-          "label": "Temperatura em aquário",
-          "value": "20–27 °C conforme a referência de manutenção.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "pH em aquário",
-          "value": "6,0–8,0 para peixes de criação; a fonte diferencia exemplares silvestres, que tendem a preferir água levemente ácida a neutra.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "GH",
-          "value": "2–20 °dGH para manutenção descrita pela fonte. Peixes silvestres podem exigir atenção à parte mais baixa da faixa.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "KH",
-          "value": "Não há faixa específica verificada nas referências consultadas; não foi deduzida a partir do GH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Registros na natureza",
-          "value": "O ambiente natural é geralmente sombreado, de água relativamente macia e ligeiramente ácida; tolerância de peixes de criação não equivale a um alvo universal.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Tipo de ambiente",
-          "value": "Água doce, comunitário com parâmetros compatíveis e estabilidade.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Substrato e decoração",
-          "value": "Substrato escuro, raízes e folhas podem compor abrigo e contraste de cor.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Vegetação e esconderijos",
-          "value": "Aquário bem plantado, com margens protegidas e área de natação livre.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Circulação e oxigenação",
-          "value": "Alguma movimentação é apreciada; não precisa de filtragem que imponha corrente forte em toda a área.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "criacao",
-      "fields": [
-        {
-          "label": "Volume mínimo e contexto",
-          "value": "Base de referência 60 × 30 cm, equivalente a cerca de 54 L brutos se a altura for 30 cm. Dimensionar espaço adicional para população e companheiros.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Dimensões do aquário",
-          "value": "Pelo menos 60 × 30 cm de base, conforme Seriously Fish.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Dificuldade",
-          "value": "Baixa em ambiente maduro e bem mantido; a fonte considera adequada para iniciantes.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Área de natação",
-          "value": "Manter área de deslocamento para o grupo; o FishBase o classifica como bentopelágico.",
-          "referenceIds": ["care", "fb"]
-        },
-        {
-          "label": "Territorialidade",
-          "value": "Geralmente muito pacífico; machos exibem cor e competem entre si sem tornar a espécie um peixe solitário.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Quantidade de indivíduos",
-          "value": "Manter pelo menos 6–10 exemplares, conforme a referência especializada.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Manutenção específica",
-          "value": "Preservar o grupo, a vegetação e a água limpa; adaptar a manutenção à densidade real de peixes.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Orientações para iniciantes",
-          "value": "Não comprar apenas um indivíduo por ser pequeno. Planeje o grupo e confira a compatibilidade da comunidade antes de escolher outras espécies.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "alimentacao",
-      "fields": [
-        {
-          "label": "Classificação alimentar",
-          "value": "Onívoro; inclui pequenos invertebrados, algas e matéria orgânica na dieta.",
-          "referenceIds": ["care", "fb"]
-        },
-        {
-          "label": "Alimentos adequados",
-          "value": "Flocos ou microgrânulos de boa qualidade, com complementos como Daphnia, Artemia e outros alimentos pequenos apropriados.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Frequência justificada",
-          "value": "A fonte não estabelece frequência única; dimensione porções pelo grupo, idade e consumo, sem prometer uma regra numérica universal.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Variedade alimentar",
-          "value": "Combinar componente vegetal e alimentos animais de tamanho adequado, em vez de limitar a dieta a um único item.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Cuidados com excesso de alimento",
-          "value": "Observar a alimentação de todo o grupo e retirar sobras; coloração não deve ser buscada com excesso de comida.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "comportamento",
-      "fields": [
-        {
-          "label": "Temperamento",
-          "value": "Geralmente muito pacífico.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Comportamento social",
-          "value": "Social e gregário; o grupo reduz timidez e favorece exibições dos machos.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Compatibilidade",
-          "value": "Peixes pequenos e pacíficos de exigências de água compatíveis, avaliados espécie por espécie.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Conflitos",
-          "value": "Evitar companheiros predadores, agressivos ou que intimidem o grupo; um rótulo “comunitário” não garante qualquer combinação.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Peixes menores, invertebrados e plantas",
-          "value": "Pode consumir pequenos organismos por ser onívoro; segurança de alevinos ou filhotes de invertebrados não é garantida. Plantas fazem parte do arranjo recomendado.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "reproducao",
-      "fields": [
-        {
-          "label": "Tipo de reprodução",
-          "value": "Ovíparo, dispersor de ovos sem cuidado parental.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Dimorfismo sexual",
-          "value": "Machos mais esguios e vermelhos; fêmeas maduras com abdômen mais volumoso.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Comportamento reprodutivo",
-          "value": "Pode desovar entre plantas finas em aquário maduro; para aumentar o aproveitamento usa-se montagem separada.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Ovos e filhotes",
-          "value": "Adultos podem comer ovos. A fonte cita eclosão em 24–48 horas e alimentação inicial muito pequena, seguida por náuplios de Artemia quando comportados pelo tamanho.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Dificuldade em cativeiro",
-          "value": "Desova relativamente acessível; criar e alimentar alevinos com segurança exige preparo e separação adequada.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "saude",
-      "fields": [
-        {
-          "label": "Sensibilidade a alterações",
-          "value": "Peixes de criação têm alguma adaptabilidade química, mas isso não dispensa estabilidade nem permite mudanças bruscas.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Problemas de manutenção",
-          "value": "Grupo insuficiente, competição e comunidade mal escolhida prejudicam a expressão do comportamento descrito na fonte.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Prevenção",
-          "value": "Dimensionar o grupo e a filtragem, observar o lote novo e manter rotina de água adequada ao aquário.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Sinais de estresse",
-          "value": "Isolamento persistente ou mudança de alimentação/comportamento pedem revisão do manejo. A intensidade do vermelho varia com sexo e condição e, sozinha, não diagnostica doença.",
-          "referenceIds": ["care"]
         }
       ]
     },
@@ -368,14 +218,9 @@
       "id": "curiosidades",
       "fields": [
         {
-          "label": "Um gênero mais recente",
-          "value": "A revisão de 2023 sustenta o gênero Rohanella. Encontrar Puntius titteya em uma fonte anterior não significa automaticamente outro peixe.",
-          "referenceIds": ["cof", "revision"]
-        },
-        {
-          "label": "Vermelho com contexto",
-          "value": "Sexo, condição reprodutiva e seleção ornamental influenciam a aparência; nem todo exemplar terá o mesmo vermelho.",
-          "referenceIds": ["care"]
+          "label": "Você sabia?",
+          "value": "O gênero Rohanella foi reconhecido em 2023. Puntius titteya e Barbus titteya são combinações antigas do mesmo peixe.",
+          "referenceIds": ["care", "cof"]
         }
       ]
     }
@@ -458,6 +303,53 @@
       "label": "Ásia",
       "scale": "continent",
       "referenceIds": ["cof"]
+    }
+  ],
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "20–27 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "6,0–8,0",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "2–20 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Cerca de 5 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "54 L ou mais; grupo de 6–10",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Muito pacífico",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Grupo de 6–10 ou mais",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Onívoro; ração fina e invertebrados",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Baixa em aquário estabelecido",
+      "referenceIds": ["care"]
     }
   ]
 }

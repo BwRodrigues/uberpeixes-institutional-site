@@ -1,0 +1,334 @@
+{
+  "slug": "mikrogeophagus-ramirezi",
+  "name": "Ramirezi",
+  "commercialName": "RAMIREZI AZUL",
+  "category": "Ciclídeos Americanos",
+  "source": {
+    "workbook": "VAREJO PEIXES NICHOS.xlsx",
+    "sheet": "Tabela Peixes Atual",
+    "row": 90,
+    "niche": "Ciclídeos Americanos"
+  },
+  "sortOrder": 90,
+  "scientificName": "Mikrogeophagus ramirezi",
+  "identificationNote": "",
+  "description": "O ramirezi é pequeno, mas exigente: água quente, estável e muito limpa vem antes da escolha das cores. Um aquário maduro ajuda a revelar seu comportamento.",
+  "photo": {
+    "src": "/images/species/mikrogeophagus-ramirezi-1.webp",
+    "width": 500,
+    "height": 375,
+    "alt": "Fotografia representativa de Mikrogeophagus ramirezi; imagem de referência da espécie, sem indicação de estoque.",
+    "author": "Threefingeredlord",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Female_ram.jpg",
+    "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  "additionalPhotos": [
+    {
+      "src": "/images/species/mikrogeophagus-ramirezi-2.webp",
+      "width": 960,
+      "height": 640,
+      "alt": "Fotografia representativa de Mikrogeophagus ramirezi; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Loup1128",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mikrogeophagus_ramirezi.JPG",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    },
+    {
+      "src": "/images/species/mikrogeophagus-ramirezi-3.webp",
+      "width": 477,
+      "height": 333,
+      "alt": "Fotografia representativa de Mikrogeophagus ramirezi; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Grommash",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mikrogeophagus_ramirezi_2.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ],
+  "sections": [
+    {
+      "id": "apresentacao",
+      "fields": [
+        {
+          "label": "Nome científico",
+          "value": "Mikrogeophagus ramirezi",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Outros nomes e variedades",
+          "value": "Ramirezi azul; Ramirezi balão electric blue m; Ramirezi balão ouro vel m; Ramirezi electric blue m; Ramirezi ouro; Ramirezi ouro veu matriz",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "27–30 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "4,0–7,0",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "1–10 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Planícies sazonalmente inundadas dos llanos, em ambientes tropicais quentes.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Pequeno ciclídeo de corpo colorido, manchas escuras e reflexos azuis; muitas fêmeas apresentam ventre rosado.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 4 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Machos tendem a ser maiores e mais coloridos; muitas fêmeas apresentam barriga rosada, mas linhagens ornamentais podem alterar esses sinais.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "54 L ou mais; um casal. Base de 60 × 30 cm, aproximadamente 54 L para um casal. Inclua areia, raízes e superfícies de desova; outros moradores e mais casais precisam de espaço adicional.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Areia, raízes, áreas sombreadas e pedras planas. Não introduzir em montagem biologicamente imatura; evitar oscilações de água e companheiros competitivos.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Alta: água quente, macia e muito limpa",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Delicado; casal territorial",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Casal; evitar competição intensa",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Sensível à competição e à água inadequada. Casais estabelecem território; não é recomendado para comunitário genérico ou com peixes de água dura e fria.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Procura pequenos organismos no substrato e em superfícies. Oferecer variedade de alimentos pequenos vivos ou congelados e rações que afundam.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Desova sobre substrato e cuidado biparental. Ovos exigem água muito limpa e de baixa dureza; casais inexperientes podem comer posturas.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Não introduza em aquário recém-montado. Recusa alimentar e isolamento exigem conferir temperatura, qualidade da água e competição; evite mudanças bruscas e água dura como condição permanente.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "América do Sul: llanos da Venezuela e Colômbia, na drenagem do Orinoco. Registros distantes dessa área precisam de confirmação.",
+          "referenceIds": ["cof", "care"]
+        }
+      ]
+    },
+    {
+      "id": "classificacao",
+      "fields": [
+        {
+          "label": "Reino",
+          "value": "Animalia",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Filo",
+          "value": "Chordata",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Classe",
+          "value": "Actinopteri",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Ordem",
+          "value": "Cichliformes",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Família",
+          "value": "Cichlidae",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Gênero",
+          "value": "Mikrogeophagus",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Espécie",
+          "value": "Mikrogeophagus ramirezi",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Autoridade taxonômica",
+          "value": "(Myers & Harry 1948)",
+          "referenceIds": ["cof"]
+        }
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "fields": [
+        {
+          "label": "Você sabia?",
+          "value": "Electric blue, ouro e véu são variedades ornamentais; o pequeno porte não reduz a exigência de qualidade da água.",
+          "referenceIds": ["care", "cof"]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "cof",
+      "title": "Eschmeyer’s Catalog of Fishes — Mikrogeophagus ramirezi",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=22062",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "class",
+      "title": "Eschmeyer’s Catalog of Fishes — classificação por família",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "care",
+      "title": "Mikrogeophagus ramirezi — manutenção e história natural",
+      "url": "https://www.seriouslyfish.com/species/mikrogeophagus-ramirezi/",
+      "author": "Seriously Fish",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "gbif",
+      "title": "Mikrogeophagus ramirezi — registro comparativo no GBIF",
+      "url": "https://api.gbif.org/v1/species/match?name=Mikrogeophagus%20ramirezi",
+      "author": "GBIF",
+      "accessedAt": "2026-10-18"
+    }
+  ],
+  "regions": [
+    {
+      "id": "america-do-sul",
+      "label": "América do Sul",
+      "scale": "continent",
+      "referenceIds": ["care", "cof"]
+    }
+  ],
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "27–30 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "4,0–7,0",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "1–10 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 4 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "54 L ou mais; um casal",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Delicado; casal territorial",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Casal; evitar competição intensa",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Ração que afunda e pequenos invertebrados",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Alta: água quente, macia e muito limpa",
+      "referenceIds": ["care"]
+    }
+  ]
+}

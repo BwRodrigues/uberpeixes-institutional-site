@@ -95,7 +95,7 @@ const allReviewed = species.every(isPublishable);
       <article
         class="species-card"
         data-species-card
-        data-search={`${animal.name} ${animal.commercialName} ${scientificLabel(animal)}`}
+        data-search={`${animal.name} ${animal.commercialName} ${scientificLabel(animal)} ${animal.sections.find((section) => section.id === "classificacao")?.fields.find((field) => field.label === "Sinônimos científicos")?.value ?? ""} ${animal.sections.find((section) => section.id === "apresentacao")?.fields.find((field) => field.label === "Outros nomes populares")?.value ?? ""}`}
         data-category={animal.category}
       >
         <SpeciesPhoto animal={animal} />

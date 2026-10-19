@@ -1,0 +1,334 @@
+{
+  "slug": "chindongo-socolofi",
+  "name": "Socolofi",
+  "commercialName": "SOCOLOFI",
+  "category": "Ciclídeos Africanos",
+  "source": {
+    "workbook": "VAREJO PEIXES NICHOS.xlsx",
+    "sheet": "Tabela Peixes Atual",
+    "row": 60,
+    "niche": "Ciclídeos Africanos"
+  },
+  "sortOrder": 60,
+  "scientificName": "Chindongo socolofi",
+  "identificationNote": "",
+  "description": "O socolofi é um mbuna de azul claro conhecido no aquarismo. Seu temperamento é relativamente moderado para o grupo, mas ainda exige territórios e água apropriada.",
+  "photo": {
+    "src": "/images/species/chindongo-socolofi-1.webp",
+    "width": 960,
+    "height": 640,
+    "alt": "Fotografia representativa de Chindongo socolofi; imagem de referência da espécie, sem indicação de estoque.",
+    "author": "Jutta234",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pseudotropheus_socolofi_-_Zoo_Frankfurt.jpg",
+    "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  "additionalPhotos": [
+    {
+      "src": "/images/species/chindongo-socolofi-2.webp",
+      "width": 800,
+      "height": 534,
+      "alt": "Fotografia representativa de Chindongo socolofi; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "JanRehschuh",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eisblauer_Maulbr%C3%BCter_Mbuna_Pseudotropheus_Socolofi_Malawi_Male_P1000285.JPG",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    },
+    {
+      "src": "/images/species/chindongo-socolofi-3.webp",
+      "width": 800,
+      "height": 534,
+      "alt": "Fotografia representativa de Chindongo socolofi; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "JanRehschuh",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eisblauer_Maulbr%C3%BCter_Mbuna_Pseudotropheus_Socolofi_Malawi_Young_PICT0271.JPG",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ],
+  "sections": [
+    {
+      "id": "apresentacao",
+      "fields": [
+        {
+          "label": "Nome científico",
+          "value": "Chindongo socolofi",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Outros nomes e variedades",
+          "value": "Socolofi",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "24–28 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "7,6–8,8",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "10–25 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Águas rasas da faixa de transição entre rochas e areia.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Mbuna de coloração azul-clara em ambos os sexos, com detalhes escuros nas nadadeiras.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 11,5 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Ambos os sexos são azulados; machos podem ter manchas de ovos mais marcantes e pélvicas mais longas, sem que isso garanta a sexagem de todo indivíduo.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "154 L ou mais; grupo planejado. 90 × 45 × 38 cm, cerca de 154 L, é o ponto de partida. Mais machos ou companheiros exigem aquário maior e muitos refúgios entre rochas estáveis.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Rochas estáveis formando muitas cavernas e areia, com áreas livres. Planejar refúgios para indivíduos perseguidos.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Moderada: territórios e dieta vegetal",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Territorial, sobretudo entre machos",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Várias fêmeas por macho",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Mantenha várias fêmeas por macho e refúgios para os subordinados. Evite mbunas muito agressivos; compartilhar o lago de origem não garante convivência.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Forte componente vegetal, com rações de algas e vegetais adequados, complementados por itens vivos ou congelados. Evitar carnes de mamíferos.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Incubação bucal materna. A reprodução requer muitos abrigos e controle das perseguições às fêmeas.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Perseguição e dietas inadequadas são problemas de manejo importantes. Garanta refúgios, observe se subordinados comem e priorize alimentos com componente vegetal.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "África: lago Malawi, na costa de Moçambique entre Cobue e Tumbi; há introduções em outros pontos do lago.",
+          "referenceIds": ["cof", "care"]
+        }
+      ]
+    },
+    {
+      "id": "classificacao",
+      "fields": [
+        {
+          "label": "Reino",
+          "value": "Animalia",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Filo",
+          "value": "Chordata",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Classe",
+          "value": "Actinopteri",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Ordem",
+          "value": "Cichliformes",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Família",
+          "value": "Cichlidae",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Gênero",
+          "value": "Chindongo",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Espécie",
+          "value": "Chindongo socolofi",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Autoridade taxonômica",
+          "value": "(Johnson 1974)",
+          "referenceIds": ["cof"]
+        }
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "fields": [
+        {
+          "label": "Você sabia?",
+          "value": "Chindongo socolofi também é conhecido pela combinação anterior Pseudotropheus socolofi.",
+          "referenceIds": ["care", "cof"]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "cof",
+      "title": "Eschmeyer’s Catalog of Fishes — Chindongo socolofi",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=61146",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "class",
+      "title": "Eschmeyer’s Catalog of Fishes — classificação por família",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "care",
+      "title": "Chindongo socolofi — manutenção e história natural",
+      "url": "https://www.seriouslyfish.com/species/chindongo-socolofi/",
+      "author": "Seriously Fish",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "gbif",
+      "title": "Chindongo socolofi — registro comparativo no GBIF",
+      "url": "https://api.gbif.org/v1/species/match?name=Chindongo%20socolofi",
+      "author": "GBIF",
+      "accessedAt": "2026-10-18"
+    }
+  ],
+  "regions": [
+    {
+      "id": "africa",
+      "label": "África",
+      "scale": "continent",
+      "referenceIds": ["care", "cof"]
+    }
+  ],
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "24–28 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "7,6–8,8",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "10–25 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 11,5 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "154 L ou mais; grupo planejado",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Territorial, sobretudo entre machos",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Várias fêmeas por macho",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Ração com algas e vegetais",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Moderada: territórios e dieta vegetal",
+      "referenceIds": ["care"]
+    }
+  ]
+}

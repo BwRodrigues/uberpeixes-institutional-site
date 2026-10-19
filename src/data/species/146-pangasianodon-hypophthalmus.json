@@ -1,0 +1,334 @@
+{
+  "slug": "pangasianodon-hypophthalmus",
+  "name": "Pangasius",
+  "commercialName": "PANGASIUS ALBINO",
+  "category": "Peixes de Grande Porte",
+  "source": {
+    "workbook": "VAREJO PEIXES NICHOS.xlsx",
+    "sheet": "Tabela Peixes Atual",
+    "row": 146,
+    "niche": "Peixes de Grande Porte"
+  },
+  "sortOrder": 146,
+  "scientificName": "Pangasianodon hypophthalmus",
+  "identificationNote": "",
+  "description": "O pangasius vendido jovem pode superar um metro. Sua manutenção de longo prazo exige instalações especializadas, muito maiores que um aquário doméstico comum.",
+  "photo": {
+    "src": "/images/species/pangasianodon-hypophthalmus-1.webp",
+    "width": 960,
+    "height": 452,
+    "alt": "Fotografia representativa de Pangasianodon hypophthalmus; imagem de referência da espécie, sem indicação de estoque.",
+    "author": "User:Lerdsuwa",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iridescent_Shark_Catfish.jpg",
+    "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  "additionalPhotos": [
+    {
+      "src": "/images/species/pangasianodon-hypophthalmus-2.webp",
+      "width": 960,
+      "height": 651,
+      "alt": "Fotografia representativa de Pangasianodon hypophthalmus; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "User:Melanochromis",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iridescent_shark.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    },
+    {
+      "src": "/images/species/pangasianodon-hypophthalmus-3.webp",
+      "width": 960,
+      "height": 488,
+      "alt": "Fotografia representativa de Pangasianodon hypophthalmus; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Vassil",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aquarium_tropical_de_Pierrefitte-Nestalas_03082018_Pangasianodon_hypophthalmus_1.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ],
+  "sections": [
+    {
+      "id": "apresentacao",
+      "fields": [
+        {
+          "label": "Nome científico",
+          "value": "Pangasianodon hypophthalmus",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Outros nomes e variedades",
+          "value": "Pangasius albino; Pangasius preto",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "22–26 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "6,5–7,5",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "2–30 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Canais principais de rios e grandes tributários, com hábito pelágico e migrações sazonais.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Grande bagre de corpo fusiforme e nado contínuo, com porte que pode ultrapassar um metro.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 130 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Diferenças externas entre sexos não são reconhecíveis com segurança nos juvenis vendidos para aquário.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "14.580 L ou mais; um adulto, instalação especializada. Um único adulto exige instalação da ordem de 450 × 180 × 180 cm, cerca de 14.580 L, ou maior. Grupos demandam muito mais espaço; aquários domésticos comuns não atendem à manutenção de longo prazo.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Instalação especializada com enorme área livre, oxigenação e filtragem biológica dimensionadas. Espaços apertados favorecem choques contra vidro e objetos.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Especializada: não indicado ao aquário doméstico comum",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Ativo, assustadiço e capaz de predar peixes menores",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Sociável; grupos exigem instalação enorme",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Sociável, ativo e facilmente assustado. Pode engolir peixes menores; grupos exigem instalações de escala muito grande.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Onívoro; juvenis usam maior participação de proteína, enquanto adultos também consomem mais material vegetal. Usar dieta variada adequada ao porte.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Migrador reprodutivo. A produção ocorre comercialmente em grandes instalações; a reprodução doméstica não é um objetivo realista.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Em espaços apertados pode entrar em pânico e colidir com vidros e objetos. Planeje grande área livre, oxigenação e filtragem para a fase adulta antes de adquirir juvenis.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "Ásia: baixo Mekong e rio Chao Phraya, em Tailândia, Laos, Camboja e Vietnã.",
+          "referenceIds": ["cof", "care"]
+        }
+      ]
+    },
+    {
+      "id": "classificacao",
+      "fields": [
+        {
+          "label": "Reino",
+          "value": "Animalia",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Filo",
+          "value": "Chordata",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Classe",
+          "value": "Actinopteri",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Ordem",
+          "value": "Siluriformes",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Família",
+          "value": "Pangasiidae",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Gênero",
+          "value": "Pangasianodon",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Espécie",
+          "value": "Pangasianodon hypophthalmus",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Autoridade taxonômica",
+          "value": "(Sauvage 1878)",
+          "referenceIds": ["cof"]
+        }
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "fields": [
+        {
+          "label": "Você sabia?",
+          "value": "Pangasius sutchi é um nome antigo de comércio; a variedade albina também atinge grande porte.",
+          "referenceIds": ["care", "cof"]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "cof",
+      "title": "Eschmeyer’s Catalog of Fishes — Pangasianodon hypophthalmus",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=56294",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "class",
+      "title": "Eschmeyer’s Catalog of Fishes — classificação por família",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "care",
+      "title": "Pangasianodon hypophthalmus — manutenção e história natural",
+      "url": "https://www.seriouslyfish.com/species/pangasianodon-hypophthalmus/",
+      "author": "Seriously Fish",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "gbif",
+      "title": "Pangasianodon hypophthalmus — registro comparativo no GBIF",
+      "url": "https://api.gbif.org/v1/species/match?name=Pangasianodon%20hypophthalmus",
+      "author": "GBIF",
+      "accessedAt": "2026-10-18"
+    }
+  ],
+  "regions": [
+    {
+      "id": "asia",
+      "label": "Ásia",
+      "scale": "continent",
+      "referenceIds": ["care", "cof"]
+    }
+  ],
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "22–26 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "6,5–7,5",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "2–30 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 130 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "14.580 L ou mais; um adulto, instalação especializada",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Ativo, assustadiço e capaz de predar peixes menores",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Sociável; grupos exigem instalação enorme",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Onívoro; dieta ajustada ao porte",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Especializada: não indicado ao aquário doméstico comum",
+      "referenceIds": ["care"]
+    }
+  ]
+}

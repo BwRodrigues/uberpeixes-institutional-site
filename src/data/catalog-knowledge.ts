@@ -16,6 +16,7 @@ export function buildCatalogKnowledge(repository: CatalogRepository) {
       url: canonicalUrl(`/especies/${animal.slug}/`),
       photos: [animal.photo, ...animal.additionalPhotos].filter(Boolean),
       regions: animal.regions,
+      essentials: animal.essentials,
       sections: animal.sections,
       references: animal.references,
       recommendations: repository.recommendations(animal.slug).map((item) => ({

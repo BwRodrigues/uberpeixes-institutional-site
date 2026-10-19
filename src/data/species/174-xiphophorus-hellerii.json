@@ -1,0 +1,334 @@
+{
+  "slug": "xiphophorus-hellerii",
+  "name": "Espada",
+  "commercialName": "ESPADA ANANAS (AMARELO E BRANCO)",
+  "category": "Poecilídeos",
+  "source": {
+    "workbook": "VAREJO PEIXES NICHOS.xlsx",
+    "sheet": "Tabela Peixes Atual",
+    "row": 174,
+    "niche": "Poecilídeos"
+  },
+  "sortOrder": 174,
+  "scientificName": "Xiphophorus hellerii",
+  "identificationNote": "",
+  "description": "O espada é um nadador ativo, e o prolongamento da cauda dos machos inspira seu nome. Um aquário comprido e vegetação de refúgio ajudam a organizar o grupo.",
+  "photo": {
+    "src": "/images/species/xiphophorus-hellerii-1.webp",
+    "width": 960,
+    "height": 493,
+    "alt": "Fotografia representativa de Xiphophorus hellerii; imagem de referência da espécie, sem indicação de estoque.",
+    "author": "Corydoras-adolfoi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:DSC_0690_-_Edited.jpg",
+    "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  "additionalPhotos": [
+    {
+      "src": "/images/species/xiphophorus-hellerii-2.webp",
+      "width": 960,
+      "height": 537,
+      "alt": "Fotografia representativa de Xiphophorus hellerii; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Adam G. Stern",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pair_of_Red_Wag_Swordtails.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    },
+    {
+      "src": "/images/species/xiphophorus-hellerii-3.webp",
+      "width": 960,
+      "height": 411,
+      "alt": "Fotografia representativa de Xiphophorus hellerii; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "User:Pharaoh Hound",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swordtail_cultivar.JPG",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ],
+  "sections": [
+    {
+      "id": "apresentacao",
+      "fields": [
+        {
+          "label": "Nome científico",
+          "value": "Xiphophorus hellerii",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Outros nomes e variedades",
+          "value": "Espada ananas (amarelo e branco); Espada kohaku (vermelho e branco); Espada koi (vermelho, preto e branco); Espada marlery (amarelo); Espada sangue/dominó (vermelho e preto); Espada verde",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "16–28 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "7,0–8,0",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "10–25 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Riachos, nascentes, canais, lagoas e rios; adultos podem ocupar setores de maior corrente, enquanto juvenis usam margens calmas.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Machos normalmente têm prolongamento na parte inferior da cauda e gonopódio; fêmeas costumam ser maiores.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 14 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Machos têm gonopódio e geralmente prolongamento inferior da cauda; fêmeas tendem a ser maiores. Formas ornamentais podem ter outras nadadeiras alongadas.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "108 L ou mais; grupo planejado. Base de 120 × 30 cm, cerca de 108 L, para planejar o grupo adulto. Preserve espaço de natação e refúgios; a reprodução frequente pode exigir ampliação.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Aquário comprido com plantas e áreas de natação; alguma movimentação de água e refúgios ajudam a distribuir o uso do espaço.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Baixa a moderada: espaço e reprodução",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Ativo; machos disputam posição",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Grupo com espaço e refúgios para fêmeas",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Machos podem estabelecer hierarquias e gastar tempo disputando posição em espaços pequenos. Considerar sexo e território ao definir o grupo.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Onívoro: ração completa variada e pequenos complementos vivos ou congelados, com participação vegetal.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Fecundação interna e nascimento de filhotes vivos. Planejar espaço para a reprodução e vegetação de refúgio; não presumir sobrevivência de toda a prole.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Disputas e perseguição às fêmeas podem causar desgaste. Observe o acesso à comida e aos abrigos e evite deixar a população crescer além da capacidade do aquário.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "América do Norte, Mesoamérica: sudeste do México, Guatemala, Belize e Honduras.",
+          "referenceIds": ["cof", "care"]
+        }
+      ]
+    },
+    {
+      "id": "classificacao",
+      "fields": [
+        {
+          "label": "Reino",
+          "value": "Animalia",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Filo",
+          "value": "Chordata",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Classe",
+          "value": "Actinopteri",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Ordem",
+          "value": "Cyprinodontiformes",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Família",
+          "value": "Poeciliidae",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Gênero",
+          "value": "Xiphophorus",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Espécie",
+          "value": "Xiphophorus hellerii",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Autoridade taxonômica",
+          "value": "Heckel 1848",
+          "referenceIds": ["cof"]
+        }
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "fields": [
+        {
+          "label": "Você sabia?",
+          "value": "O prolongamento caudal inspira o nome espada; hellerii se escreve com dois i no final.",
+          "referenceIds": ["care", "cof"]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "cof",
+      "title": "Eschmeyer’s Catalog of Fishes — Xiphophorus hellerii",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=13936",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "class",
+      "title": "Eschmeyer’s Catalog of Fishes — classificação por família",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "care",
+      "title": "Xiphophorus hellerii — manutenção e história natural",
+      "url": "https://www.seriouslyfish.com/species/xiphophorus-hellerii/",
+      "author": "Seriously Fish",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "gbif",
+      "title": "Xiphophorus hellerii — registro comparativo no GBIF",
+      "url": "https://api.gbif.org/v1/species/match?name=Xiphophorus%20hellerii",
+      "author": "GBIF",
+      "accessedAt": "2026-10-18"
+    }
+  ],
+  "regions": [
+    {
+      "id": "america-do-norte",
+      "label": "América do Norte",
+      "scale": "continent",
+      "referenceIds": ["care", "cof"]
+    }
+  ],
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "16–28 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "7,0–8,0",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "10–25 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 14 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "108 L ou mais; grupo planejado",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Ativo; machos disputam posição",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Grupo com espaço e refúgios para fêmeas",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Onívoro com componente vegetal",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Baixa a moderada: espaço e reprodução",
+      "referenceIds": ["care"]
+    }
+  ]
+}

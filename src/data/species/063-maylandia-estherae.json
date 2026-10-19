@@ -1,0 +1,334 @@
+{
+  "slug": "maylandia-estherae",
+  "name": "Zebra-laranja",
+  "commercialName": "ZEBRA LARANJA M",
+  "category": "Ciclídeos Africanos",
+  "source": {
+    "workbook": "VAREJO PEIXES NICHOS.xlsx",
+    "sheet": "Tabela Peixes Atual",
+    "row": 63,
+    "niche": "Ciclídeos Africanos"
+  },
+  "sortOrder": 63,
+  "scientificName": "Maylandia estherae",
+  "identificationNote": "",
+  "description": "A zebra-laranja é um mbuna de corpo robusto e cores variáveis. Rochas, refúgios e uma dieta com componente vegetal são centrais na manutenção.",
+  "photo": {
+    "src": "/images/species/maylandia-estherae-1.webp",
+    "width": 640,
+    "height": 480,
+    "alt": "Fotografia representativa de Maylandia estherae; imagem de referência da espécie, sem indicação de estoque.",
+    "author": "Vchoi at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pseudotropheus_estherae_in_aquarium.jpg",
+    "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  "additionalPhotos": [
+    {
+      "src": "/images/species/maylandia-estherae-2.webp",
+      "width": 960,
+      "height": 681,
+      "alt": "Fotografia representativa de Maylandia estherae; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Gourami Watcher",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red_zebra_cichlid_5.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    },
+    {
+      "src": "/images/species/maylandia-estherae-3.webp",
+      "width": 640,
+      "height": 480,
+      "alt": "Fotografia representativa de Maylandia estherae; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Jan Rehschuh",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#Public_domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maylandia_estherae_couple_PICT8591.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ],
+  "sections": [
+    {
+      "id": "apresentacao",
+      "fields": [
+        {
+          "label": "Nome científico",
+          "value": "Maylandia estherae",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Outros nomes e variedades",
+          "value": "Zebra laranja m",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "24–28 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "7,6–8,8",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "10–25 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Costões rochosos e recifes do lago.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Mbuna robusto com formas alaranjadas, azuladas ou manchadas; a aparência depende da população e do sexo.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 13,5 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Há machos azuis, alaranjados ou manchados e fêmeas alaranjadas, amareladas ou manchadas; a coloração depende da população.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "Projeto maior que 137 L; ver criação. A base histórica de 120 × 38 cm e cerca de 137 L não deve orientar a montagem de um grupo adulto. Planeje aquário maior, com cavernas, áreas de fuga e capacidade de separar indivíduos; outros moradores aumentam a área necessária.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Areia e rochas estáveis com cavernas. Permitir pastagem de algas e observar disputas territoriais.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Moderada a alta: territórios e dieta",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Territorial e robusto",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Um macho com várias fêmeas",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Robusto e territorial. Mantenha um macho e várias fêmeas, com mais de um macho apenas em montagem muito ampla; inadequado para companheiros pacíficos e delicados.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Forte componente vegetal, com rações de algas e vegetais apropriados; complementos vivos ou congelados. Evitar carnes de mamíferos e excesso de alimento.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Incubação bucal materna. Aquário específico, refúgios e observação das fêmeas perseguidas são necessários.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Perseguições podem impedir fêmeas e subordinados de comer. Observe cada indivíduo, ofereça refúgios entre rochas firmes e evite excesso de alimento e carnes de mamíferos.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "África: lago Malawi, nas costas de Moçambique e Malawi, entre Metangula, Minos Reef e Gome.",
+          "referenceIds": ["cof", "care"]
+        }
+      ]
+    },
+    {
+      "id": "classificacao",
+      "fields": [
+        {
+          "label": "Reino",
+          "value": "Animalia",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Filo",
+          "value": "Chordata",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Classe",
+          "value": "Actinopteri",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Ordem",
+          "value": "Cichliformes",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Família",
+          "value": "Cichlidae",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Gênero",
+          "value": "Maylandia",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Espécie",
+          "value": "Maylandia estherae",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Autoridade taxonômica",
+          "value": "(Konings 1995)",
+          "referenceIds": ["cof"]
+        }
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "fields": [
+        {
+          "label": "Você sabia?",
+          "value": "Antes da descrição formal em 1995, era tratada no aquarismo como uma forma de zebra.",
+          "referenceIds": ["care", "cof"]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "cof",
+      "title": "Eschmeyer’s Catalog of Fishes — Maylandia estherae",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=62465",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "class",
+      "title": "Eschmeyer’s Catalog of Fishes — classificação por família",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "care",
+      "title": "Maylandia estherae — manutenção e história natural",
+      "url": "https://www.seriouslyfish.com/species/maylandia-estherae/",
+      "author": "Seriously Fish",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "gbif",
+      "title": "Maylandia estherae — registro comparativo no GBIF",
+      "url": "https://api.gbif.org/v1/species/match?name=Maylandia%20estherae",
+      "author": "GBIF",
+      "accessedAt": "2026-10-18"
+    }
+  ],
+  "regions": [
+    {
+      "id": "africa",
+      "label": "África",
+      "scale": "continent",
+      "referenceIds": ["care", "cof"]
+    }
+  ],
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "24–28 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "7,6–8,8",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "10–25 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 13,5 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "Projeto maior que 137 L; ver criação",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Territorial e robusto",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Um macho com várias fêmeas",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Ração com algas e componente vegetal",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Moderada a alta: territórios e dieta",
+      "referenceIds": ["care"]
+    }
+  ]
+}

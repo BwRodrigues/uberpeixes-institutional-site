@@ -1,0 +1,334 @@
+{
+  "slug": "trichogaster-chuna",
+  "name": "Colisa-chuna",
+  "commercialName": "COLISA CHUNA",
+  "category": "Labirintídeos",
+  "source": {
+    "workbook": "VAREJO PEIXES NICHOS.xlsx",
+    "sheet": "Tabela Peixes Atual",
+    "row": 127,
+    "niche": "Labirintídeos"
+  },
+  "sortOrder": 127,
+  "scientificName": "Trichogaster chuna",
+  "identificationNote": "",
+  "description": "A colisa-chuna é um pequeno gourami de movimentos suaves. Plantas e companheiros tranquilos ajudam a mostrar sua coloração e seu comportamento.",
+  "photo": {
+    "src": "/images/species/trichogaster-chuna-1.webp",
+    "width": 960,
+    "height": 655,
+    "alt": "Fotografia representativa de Trichogaster chuna; imagem de referência da espécie, sem indicação de estoque.",
+    "author": "Made be Uploader",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Colisa_chuna_male.jpg",
+    "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  "additionalPhotos": [
+    {
+      "src": "/images/species/trichogaster-chuna-2.webp",
+      "width": 800,
+      "height": 600,
+      "alt": "Fotografia representativa de Trichogaster chuna; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Antoondommerholt at Dutch Wikipedia",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Colisasota_male.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    },
+    {
+      "src": "/images/species/trichogaster-chuna-3.webp",
+      "width": 960,
+      "height": 640,
+      "alt": "Fotografia representativa de Trichogaster chuna; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Vincent Lim Show Chen",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Honey_gourami_yellow.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ],
+  "sections": [
+    {
+      "id": "apresentacao",
+      "fields": [
+        {
+          "label": "Nome científico",
+          "value": "Trichogaster chuna",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Outros nomes e variedades",
+          "value": "Colisa chuna",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "22–27 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "6,0–7,5",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "2–15 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Águas baixas e lentas, com vegetação abundante, incluindo lagoas e áreas sazonalmente inundadas.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Pequeno gourami de tons mel e alaranjados; machos reprodutivos podem escurecer a garganta e a parte inferior do corpo.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 5,5 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Fêmeas costumam ser maiores e mais pardas; machos reprodutivos intensificam tons laranja e escuros.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "54 L ou mais; ajustar ao grupo. Base de 60 × 30 cm e cerca de 54 L como ponto de partida. Um grupo de 4–6 precisa de refúgios e espaço adicional conforme os sexos e a formação de territórios.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Plantas densas, sombra de flutuantes, troncos e abrigos. Manter acesso à superfície e filtragem suave.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Moderada: alimentação e convivência tranquila",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Pacífica e pouco competitiva",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Grupo de 4–6 em espaço adequado",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Pacífica e pouco competitiva; evitar peixes grandes ou muito ativos. Apresenta interação em grupos de 4–6, com hierarquias e necessidade de refúgios.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Pequenos invertebrados; aceita ração, mas deve receber também artêmia, dáfnias ou alimentos pequenos equivalentes.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Constrói ninho de bolhas e forma vínculo temporário de casal. Plantas na superfície e circulação delicada ajudam a preservar o ninho.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Companheiros agitados podem impedir a alimentação. Observe se todos saem dos abrigos para comer; preserve plantas de superfície e circulação suave.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "Ásia: sistemas do Ganges e Brahmaputra, na Índia e Bangladesh, com registros no Nepal.",
+          "referenceIds": ["cof", "care"]
+        }
+      ]
+    },
+    {
+      "id": "classificacao",
+      "fields": [
+        {
+          "label": "Reino",
+          "value": "Animalia",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Filo",
+          "value": "Chordata",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Classe",
+          "value": "Actinopteri",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Ordem",
+          "value": "Anabantiformes",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Família",
+          "value": "Osphronemidae",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Gênero",
+          "value": "Trichogaster",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Espécie",
+          "value": "Trichogaster chuna",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Autoridade taxonômica",
+          "value": "(Hamilton 1822)",
+          "referenceIds": ["cof"]
+        }
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "fields": [
+        {
+          "label": "Você sabia?",
+          "value": "Pode lançar pequenos jatos de água em direção a insetos próximos da superfície.",
+          "referenceIds": ["care", "cof"]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "cof",
+      "title": "Eschmeyer’s Catalog of Fishes — Trichogaster chuna",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=41983",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "class",
+      "title": "Eschmeyer’s Catalog of Fishes — classificação por família",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "care",
+      "title": "Trichogaster chuna — manutenção e história natural",
+      "url": "https://www.seriouslyfish.com/species/trichogaster-chuna/",
+      "author": "Seriously Fish",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "gbif",
+      "title": "Trichogaster chuna — registro comparativo no GBIF",
+      "url": "https://api.gbif.org/v1/species/match?name=Trichogaster%20chuna",
+      "author": "GBIF",
+      "accessedAt": "2026-10-18"
+    }
+  ],
+  "regions": [
+    {
+      "id": "asia",
+      "label": "Ásia",
+      "scale": "continent",
+      "referenceIds": ["care", "cof"]
+    }
+  ],
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "22–27 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "6,0–7,5",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "2–15 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 5,5 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "54 L ou mais; ajustar ao grupo",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Pacífica e pouco competitiva",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Grupo de 4–6 em espaço adequado",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Ração fina e pequenos invertebrados",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Moderada: alimentação e convivência tranquila",
+      "referenceIds": ["care"]
+    }
+  ]
+}

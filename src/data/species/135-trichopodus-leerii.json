@@ -1,0 +1,340 @@
+{
+  "slug": "trichopodus-leerii",
+  "name": "Tricogáster-leeri",
+  "commercialName": "TRICOGASTER LERY",
+  "category": "Labirintídeos",
+  "source": {
+    "workbook": "VAREJO PEIXES NICHOS.xlsx",
+    "sheet": "Tabela Peixes Atual",
+    "row": 135,
+    "niche": "Labirintídeos"
+  },
+  "sortOrder": 135,
+  "scientificName": "Trichopodus leerii",
+  "identificationNote": "",
+  "description": "O tricogáster-leeri tem pequenas marcas claras que lembram pérolas. É um gourami relativamente tranquilo, favorecido por plantas e áreas de sombra.",
+  "photo": {
+    "src": "/images/species/trichopodus-leerii-1.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Fotografia representativa de Trichopodus leerii; imagem de referência da espécie, sem indicação de estoque.",
+    "author": "NasserHalaweh",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Osphronemidae_Trichopodus_leerii_4.jpg",
+    "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  "additionalPhotos": [
+    {
+      "src": "/images/species/trichopodus-leerii-2.webp",
+      "width": 960,
+      "height": 640,
+      "alt": "Fotografia representativa de Trichopodus leerii; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "h080",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trichopodus_leerii_h080.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    },
+    {
+      "src": "/images/species/trichopodus-leerii-3.webp",
+      "width": 960,
+      "height": 640,
+      "alt": "Fotografia representativa de Trichopodus leerii; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Chmee2",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trichopodus_leerii_in_Botanic_garden_in_Teplice_(1).JPG",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ],
+  "sections": [
+    {
+      "id": "apresentacao",
+      "fields": [
+        {
+          "label": "Nome científico",
+          "value": "Trichopodus leerii",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Outros nomes e variedades",
+          "value": "Tricogaster lery",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "24–30 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "5,5–8,0",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "2–30 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Brejos de baixada, muitas vezes próximos de áreas costeiras.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Corpo coberto de pequenos pontos claros semelhantes a pérolas, com faixa lateral escura e pélvicas filamentosas.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 12 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Machos maduros apresentam garganta mais vermelha ou alaranjada e prolongamentos nas nadadeiras; fêmeas são mais robustas.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "81 L é limite inferior; ampliar para grupos. 90 × 30 × 30 cm, cerca de 81 L, é o limite inferior de referência. Grupos ou outros peixes pedem espaço maior para adultos de 12 cm, com refúgios para as fêmeas.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Plantas, cobertura flutuante e áreas abertas para natação. Evitar companheiros muito vigorosos e oferecer refúgios às fêmeas.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Moderada: ambiente calmo e territórios",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Relativamente pacífico; machos territoriais",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Planejar refúgios e proporção sexual",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Relativamente pacífico, mas machos são territoriais entre si e podem perseguir fêmeas durante a reprodução.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Aceita diferentes alimentos apropriados; manter variedade de rações e complementos de tamanho adequado.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Constrói ninho de bolhas junto à vegetação flutuante; a montagem reprodutiva requer corrente delicada e manejo separado.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Peixes muito vigorosos podem intimidá-lo. Confira a alimentação e possíveis perseguições às fêmeas; mantenha áreas sombreadas e plantas de superfície.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "Ásia: Tailândia, Malásia, Bornéu e Sumatra, com introduções em outros locais.",
+          "referenceIds": ["cof", "care"]
+        }
+      ]
+    },
+    {
+      "id": "classificacao",
+      "fields": [
+        {
+          "label": "Reino",
+          "value": "Animalia",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Filo",
+          "value": "Chordata",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Classe",
+          "value": "Actinopteri",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Ordem",
+          "value": "Anabantiformes",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Família",
+          "value": "Osphronemidae",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Gênero",
+          "value": "Trichopodus",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Espécie",
+          "value": "Trichopodus leerii",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Autoridade taxonômica",
+          "value": "(Bleeker 1852)",
+          "referenceIds": ["cof"]
+        }
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "fields": [
+        {
+          "label": "Você sabia?",
+          "value": "A garganta do macho pode ficar vermelha ou alaranjada durante a reprodução.",
+          "referenceIds": ["care", "cof"]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "cof",
+      "title": "Eschmeyer’s Catalog of Fishes — Trichopodus leerii",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=19476",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "class",
+      "title": "Eschmeyer’s Catalog of Fishes — classificação por família",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "care",
+      "title": "Trichopodus leerii — manutenção e história natural",
+      "url": "https://www.seriouslyfish.com/species/trichopodus-leerii/",
+      "author": "Seriously Fish",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "gbif",
+      "title": "Trichopodus leerii — registro comparativo no GBIF",
+      "url": "https://api.gbif.org/v1/species/match?name=Trichopodus%20leerii",
+      "author": "GBIF",
+      "accessedAt": "2026-10-18"
+    }
+  ],
+  "regions": [
+    {
+      "id": "asia",
+      "label": "Ásia",
+      "scale": "continent",
+      "referenceIds": ["care", "cof"]
+    },
+    {
+      "id": "indonesia",
+      "label": "Indonésia",
+      "scale": "country",
+      "referenceIds": ["care", "cof"]
+    }
+  ],
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "24–30 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "5,5–8,0",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "2–30 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 12 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "81 L é limite inferior; ampliar para grupos",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Relativamente pacífico; machos territoriais",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Planejar refúgios e proporção sexual",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Ração variada e pequenos itens aquáticos",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Moderada: ambiente calmo e territórios",
+      "referenceIds": ["care"]
+    }
+  ]
+}

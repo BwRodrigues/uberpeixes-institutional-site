@@ -1,0 +1,28 @@
+{
+  "accessedAt": "2026-10-18",
+  "sources": [
+    {
+      "name": "GBIF — ocorrências com mídia",
+      "url": "https://api.gbif.org/v1/occurrence/search?taxon_key=2393998&media_type=StillImage&limit=2",
+      "status": 200,
+      "finding": "Verificadas licenças individuais de mídia, inclusive um registro CC BY 4.0 e outro CC BY-NC que não é elegível para uso comercial.",
+      "eligibleExample": {
+        "occurrenceId": 6163136874,
+        "photoId": 617300493,
+        "author": "Carlos Martínez",
+        "license": "CC BY 4.0",
+        "sourceUrl": "https://www.inaturalist.org/photos/617300493"
+      }
+    },
+    {
+      "name": "iNaturalist — biblioteca de imagens",
+      "url": "https://static.inaturalist.org/",
+      "finding": "Download bloqueado neste ambiente: Tunnel connection failed HTTP 403. Nenhuma imagem desse servidor foi incorporada."
+    },
+    {
+      "name": "iNaturalist Open Data — fotografias abertas",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/",
+      "finding": "Download bloqueado neste ambiente: Tunnel connection failed HTTP 403. Uma licença elegível não foi tratada como prova de arquivo baixado ou identificação visual."
+    }
+  ]
+}

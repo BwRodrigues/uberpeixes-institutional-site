@@ -1,0 +1,334 @@
+{
+  "slug": "astronotus-ocellatus",
+  "name": "Oscar",
+  "commercialName": "OSCAR BRONZE G",
+  "category": "Ciclídeos Americanos",
+  "source": {
+    "workbook": "VAREJO PEIXES NICHOS.xlsx",
+    "sheet": "Tabela Peixes Atual",
+    "row": 76,
+    "niche": "Ciclídeos Americanos"
+  },
+  "sortOrder": 76,
+  "scientificName": "Astronotus ocellatus",
+  "identificationNote": "",
+  "description": "O oscar é um ciclídeo grande, de presença marcante. Escolher um exemplar significa planejar desde o início a estrutura para um adulto, não apenas para o juvenil.",
+  "photo": {
+    "src": "/images/species/astronotus-ocellatus-1.webp",
+    "width": 960,
+    "height": 720,
+    "alt": "Fotografia representativa de Astronotus ocellatus; imagem de referência da espécie, sem indicação de estoque.",
+    "author": "Marcelinho m7",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Apaiari.jpg",
+    "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  "additionalPhotos": [
+    {
+      "src": "/images/species/astronotus-ocellatus-2.webp",
+      "width": 960,
+      "height": 643,
+      "alt": "Fotografia representativa de Astronotus ocellatus; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Timothy Grindall",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Angela_(150629271).jpeg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    },
+    {
+      "src": "/images/species/astronotus-ocellatus-3.webp",
+      "width": 960,
+      "height": 641,
+      "alt": "Fotografia representativa de Astronotus ocellatus; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Elma from Reykjavík",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Astronotus_Ocellatus_(3371934682).jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ],
+  "sections": [
+    {
+      "id": "apresentacao",
+      "fields": [
+        {
+          "label": "Nome científico",
+          "value": "Astronotus ocellatus",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Outros nomes e variedades",
+          "value": "Oscar bronze g; Oscar bronze m; Oscar red rubi albino m; Oscar red tiger albino g; Oscar red tiger albino; Oscar red tiger m; Oscar tigre m; Oscar tigre mg; Oscar tigre mosaico",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "20–28 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "6,0–7,5",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "5–20 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Águas rasas, lentas ou paradas em áreas florestadas, com raízes submersas e vegetação marginal.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Ciclídeo grande de corpo oval, boca larga e marca próxima à cauda; existem formas tigre, vermelhas e albinas.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 35 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Diferenças externas pouco confiáveis; a papila reprodutiva pode ficar evidente em fêmeas próximas à desova.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "540 L ou mais; um adulto. Base de pelo menos 150 × 60 cm e cerca de 540 L para um adulto. Casal, grupo ou outros habitantes exigem aquário maior e filtragem dimensionada para a carga de resíduos.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Areia macia, troncos grandes e equipamento protegido. Filtragem eficiente e rotina rigorosa de manutenção são essenciais; pode escavar e mover objetos.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Alta: porte, resíduos e compromisso longo",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Predador; pode defender território",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Um adulto; casal ou grupo em aquário maior",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Predador de peixes menores. O porte adulto inviabiliza a maior parte dos comunitários domésticos; um casal ou grupo exige muito mais espaço que um indivíduo.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Ofereça ração completa para grandes ciclídeos, com complementos variados de origem aquática. Não use peixes alimentadores ou carnes de mamíferos como dieta habitual.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Desova sobre superfícies e forma vínculos de casal. Adultos guardam a prole, com território e estruturas adequadas para a desova.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Pode mover objetos e danificar equipamentos. Fixe a decoração, proteja o aquecedor e acompanhe a qualidade da água; peixes alimentadores e carnes de mamíferos não são uma dieta segura de rotina.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "América do Sul: drenagens amazônicas e do Orinoco. Existem populações introduzidas fora da área nativa.",
+          "referenceIds": ["cof", "care"]
+        }
+      ]
+    },
+    {
+      "id": "classificacao",
+      "fields": [
+        {
+          "label": "Reino",
+          "value": "Animalia",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Filo",
+          "value": "Chordata",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Classe",
+          "value": "Actinopteri",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Ordem",
+          "value": "Cichliformes",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Família",
+          "value": "Cichlidae",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Gênero",
+          "value": "Astronotus",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Espécie",
+          "value": "Astronotus ocellatus",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Autoridade taxonômica",
+          "value": "(Agassiz 1831)",
+          "referenceIds": ["cof"]
+        }
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "fields": [
+        {
+          "label": "Você sabia?",
+          "value": "Pode viver por muitos anos: a criação de um juvenil deve incluir o planejamento da instalação para toda a fase adulta.",
+          "referenceIds": ["care", "cof"]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "cof",
+      "title": "Eschmeyer’s Catalog of Fishes — Astronotus ocellatus",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=19918",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "class",
+      "title": "Eschmeyer’s Catalog of Fishes — classificação por família",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "care",
+      "title": "Astronotus ocellatus — manutenção e história natural",
+      "url": "https://www.seriouslyfish.com/species/astronotus-ocellatus/",
+      "author": "Seriously Fish",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "gbif",
+      "title": "Astronotus ocellatus — registro comparativo no GBIF",
+      "url": "https://api.gbif.org/v1/species/match?name=Astronotus%20ocellatus",
+      "author": "GBIF",
+      "accessedAt": "2026-10-18"
+    }
+  ],
+  "regions": [
+    {
+      "id": "america-do-sul",
+      "label": "América do Sul",
+      "scale": "continent",
+      "referenceIds": ["care", "cof"]
+    }
+  ],
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "20–28 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "6,0–7,5",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "5–20 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 35 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "540 L ou mais; um adulto",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Predador; pode defender território",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Um adulto; casal ou grupo em aquário maior",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Ração para grandes ciclídeos e itens aquáticos",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Alta: porte, resíduos e compromisso longo",
+      "referenceIds": ["care"]
+    }
+  ]
+}

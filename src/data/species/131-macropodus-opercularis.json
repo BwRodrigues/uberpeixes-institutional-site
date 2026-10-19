@@ -1,0 +1,334 @@
+{
+  "slug": "macropodus-opercularis",
+  "name": "Peixe-paraíso",
+  "commercialName": "PEIXE PARAISO ALBINO",
+  "category": "Labirintídeos",
+  "source": {
+    "workbook": "VAREJO PEIXES NICHOS.xlsx",
+    "sheet": "Tabela Peixes Atual",
+    "row": 131,
+    "niche": "Labirintídeos"
+  },
+  "sortOrder": 131,
+  "scientificName": "Macropodus opercularis",
+  "identificationNote": "",
+  "description": "O peixe-paraíso é um clássico do aquarismo e tolera manutenção mais fresca. Machos territoriais pedem uma montagem pensada para reduzir encontros constantes.",
+  "photo": {
+    "src": "/images/species/macropodus-opercularis-1.webp",
+    "width": 775,
+    "height": 406,
+    "alt": "Fotografia representativa de Macropodus opercularis; imagem de referência da espécie, sem indicação de estoque.",
+    "author": "Gourami Watcher",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#Public_domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Para_1.jpg",
+    "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  "additionalPhotos": [
+    {
+      "src": "/images/species/macropodus-opercularis-2.webp",
+      "width": 694,
+      "height": 414,
+      "alt": "Fotografia representativa de Macropodus opercularis; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "No machine-readable author provided. A-kun--a~commonswiki assumed (based on copyright claims).",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#Public_domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paradise_fish_female_and_male_01.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    },
+    {
+      "src": "/images/species/macropodus-opercularis-3.webp",
+      "width": 937,
+      "height": 589,
+      "alt": "Fotografia representativa de Macropodus opercularis; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "A-kun--a~commonswiki",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:2_male_paradise_fishes_in_display.JPG",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ],
+  "sections": [
+    {
+      "id": "apresentacao",
+      "fields": [
+        {
+          "label": "Nome científico",
+          "value": "Macropodus opercularis",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Outros nomes e variedades",
+          "value": "Peixe paraiso albino; Peixe paraiso cobre; Peixe paraiso comum",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "10–22 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "6,0–8,0",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "5–20 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Ambientes diversos de água doce, de córregos e remansos a arrozais e reservatórios.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Corpo alongado com barras coloridas e nadadeiras prolongadas, especialmente nos machos.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 8 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Machos tendem a ser maiores, com prolongamentos maiores nas nadadeiras dorsal, anal e caudal.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "72 L ou mais; casal com refúgios. Base de 80 × 30 cm, cerca de 72 L para um casal com refúgios. Mais machos ou outros habitantes exigem ampliação e controle rigoroso das interações.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Troncos, áreas sombreadas e vegetação de superfície; manter acesso ao ar e tampa que preserve uma camada de ar adequada acima da água.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Moderada: controlar disputas",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Territorial, sobretudo entre machos",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Casal com refúgios; evitar vários machos em pouco espaço",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Machos são territoriais, sobretudo na reprodução. Evitar peixes de formato semelhante; não manter vários machos em espaço reduzido.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Predador de larvas de insetos e pequenos invertebrados; oferecer alimentos pequenos vivos ou congelados e rações aceitas pelos animais.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Constrói ninho de bolhas. Reprodução deve ser planejada com abrigo, vegetação na superfície e ambiente protegido para os alevinos.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Brigas e saltos são riscos importantes. Mantenha tampa, plantas de superfície e rotas de fuga; se um peixe ficar acuado, separe os envolvidos.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "Ásia: sul da China, Taiwan, Hainan, norte e centro do Vietnã e nordeste do Laos.",
+          "referenceIds": ["cof", "care"]
+        }
+      ]
+    },
+    {
+      "id": "classificacao",
+      "fields": [
+        {
+          "label": "Reino",
+          "value": "Animalia",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Filo",
+          "value": "Chordata",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Classe",
+          "value": "Actinopteri",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Ordem",
+          "value": "Anabantiformes",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Família",
+          "value": "Osphronemidae",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Gênero",
+          "value": "Macropodus",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Espécie",
+          "value": "Macropodus opercularis",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Autoridade taxonômica",
+          "value": "(Linnaeus 1758)",
+          "referenceIds": ["cof"]
+        }
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "fields": [
+        {
+          "label": "Você sabia?",
+          "value": "Está entre os primeiros peixes ornamentais tropicais mantidos e reproduzidos na Europa.",
+          "referenceIds": ["care", "cof"]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "cof",
+      "title": "Eschmeyer’s Catalog of Fishes — Macropodus opercularis",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=19461",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "class",
+      "title": "Eschmeyer’s Catalog of Fishes — classificação por família",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "care",
+      "title": "Macropodus opercularis — manutenção e história natural",
+      "url": "https://www.seriouslyfish.com/species/macropodus-opercularis/",
+      "author": "Seriously Fish",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "gbif",
+      "title": "Macropodus opercularis — registro comparativo no GBIF",
+      "url": "https://api.gbif.org/v1/species/match?name=Macropodus%20opercularis",
+      "author": "GBIF",
+      "accessedAt": "2026-10-18"
+    }
+  ],
+  "regions": [
+    {
+      "id": "asia",
+      "label": "Ásia",
+      "scale": "continent",
+      "referenceIds": ["care", "cof"]
+    }
+  ],
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "10–22 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "6,0–8,0",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "5–20 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 8 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "72 L ou mais; casal com refúgios",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Territorial, sobretudo entre machos",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Casal com refúgios; evitar vários machos em pouco espaço",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Ração aceita e pequenos invertebrados",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Moderada: controlar disputas",
+      "referenceIds": ["care"]
+    }
+  ]
+}

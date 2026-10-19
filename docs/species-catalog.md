@@ -1,4 +1,6 @@
-# Catálogo de espécies — protótipo V1
+# Catálogo de espécies — histórico do protótipo V1
+
+O PR #6 foi aprovado e incorporado à main. A seleção de cinco registros abaixo documenta a etapa original, não limita o catálogo atual. A expansão autorizada está em [processamento em lotes](catalogo/README.md) e no [relatório de pendências](catalogo-pendencias.md).
 
 ## Escopo e seleção
 

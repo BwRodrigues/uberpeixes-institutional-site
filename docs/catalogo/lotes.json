@@ -1,0 +1,72 @@
+[
+  {
+    "id": "lote-01",
+    "species": [
+      "pethia-gelius",
+      "barbodes-semifasciolatus",
+      "puntigrus-tetrazona",
+      "danio-rerio"
+    ],
+    "validation": "build, integridade e testes do lote aprovados"
+  },
+  {
+    "id": "lote-02",
+    "species": [
+      "betta-splendens",
+      "misgurnus-anguillicaudatus",
+      "aulonocara-stuartgranti",
+      "melanochromis-auratus",
+      "labidochromis-caeruleus",
+      "maylandia-lombardoi",
+      "chindongo-socolofi",
+      "nimbochromis-venustus",
+      "maylandia-estherae",
+      "pterophyllum-scalare"
+    ],
+    "validation": "build, integridade e testes do lote aprovados"
+  },
+  {
+    "id": "lote-03",
+    "species": [
+      "thorichthys-meeki",
+      "andinoacara-rivulatus",
+      "acarichthys-heckelii",
+      "astronotus-ocellatus",
+      "mikrogeophagus-ramirezi",
+      "trichogaster-chuna",
+      "macropodus-opercularis",
+      "trichopodus-trichopterus",
+      "trichopodus-leerii",
+      "gyrinocheilus-aymonieri"
+    ],
+    "validation": "build, integridade e testes do lote aprovados"
+  },
+  {
+    "id": "lote-04",
+    "species": [
+      "hoplisoma-schwartzi",
+      "pangasianodon-hypophthalmus",
+      "phractocephalus-hemioliopterus",
+      "xiphophorus-hellerii",
+      "poecilia-reticulata",
+      "poecilia-sphenops",
+      "megalamphodus-eques",
+      "bario-sanctaefilomenae",
+      "hyphessobrycon-pulchripinnis",
+      "pristella-maxillaris"
+    ],
+    "validation": "build, integridade e testes do lote aprovados"
+  },
+  {
+    "id": "lote-05",
+    "species": [
+      "hyphessobrycon-amandae",
+      "hemigrammus-erythrozonus",
+      "gymnocorymbus-ternetzi",
+      "paracheirodon-axelrodi",
+      "hyphessobrycon-herbertaxelrodi",
+      "thayeria-boehlkei"
+    ],
+    "validation": "build, integridade e testes do lote aprovados"
+  }
+]

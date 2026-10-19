@@ -1,0 +1,339 @@
+{
+  "slug": "bario-sanctaefilomenae",
+  "name": "Tetra-olho-de-fogo",
+  "commercialName": "OLHO DE FOGO BALÃO",
+  "category": "Tetras e Peixes de Cardume",
+  "source": {
+    "workbook": "VAREJO PEIXES NICHOS.xlsx",
+    "sheet": "Tabela Peixes Atual",
+    "row": 203,
+    "niche": "Tetras e Peixes de Cardume"
+  },
+  "sortOrder": 203,
+  "scientificName": "Bario sanctaefilomenae",
+  "identificationNote": "",
+  "description": "O tetra-olho-de-fogo traz um ponto vermelho vivo no olho e muita movimentação. A convivência melhora em cardume e com espaço para nadar.",
+  "photo": {
+    "src": "/images/species/moenkhausia-sanctaefilomenae-1.webp",
+    "width": 460,
+    "height": 340,
+    "alt": "Fotografia representativa de Bario sanctaefilomenae; imagem de referência da espécie, sem indicação de estoque.",
+    "author": "No machine-readable author provided. Chle assumed (based on copyright claims).",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moenkhausia_sanctaefilomenae.jpg",
+    "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  "additionalPhotos": [
+    {
+      "src": "/images/species/moenkhausia-sanctaefilomenae-2.webp",
+      "width": 721,
+      "height": 541,
+      "alt": "Fotografia representativa de Bario sanctaefilomenae; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Jhartshorn",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red_eye_tetra.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    },
+    {
+      "src": "/images/species/moenkhausia-sanctaefilomenae-3.webp",
+      "width": 960,
+      "height": 541,
+      "alt": "Fotografia representativa de Bario sanctaefilomenae; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Cedricguppy - Loury Cédric",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moenkhausia_sanctaefilomenae_-_T%C3%A9tra_yeux_rouge_-_Aqua_Porte_Dor%C3%A9e_03.JPG",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ],
+  "sections": [
+    {
+      "id": "apresentacao",
+      "fields": [
+        {
+          "label": "Nome científico",
+          "value": "Bario sanctaefilomenae",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Outros nomes e variedades",
+          "value": "Olho de fogo balão; Tetra olho de fogo balão",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "22–26 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "6,0–8,0",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "3–20 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Rios de água relativamente clara e áreas com vegetação aquática e flutuante.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Corpo prateado, parte superior do olho vermelha e faixa escura na região da cauda.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 7 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Fêmeas ficam mais arredondadas quando maduras ou com ovos.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "103 L ou mais; cardume pequeno. 90 × 38 × 30 cm, aproximadamente 103 L para um pequeno cardume de 6–8 ou mais. Comunitários precisam de área adicional para reduzir competição e encontros constantes.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Plantas densas, iluminação moderada, raízes e área livre de natação. Evitar montagem excessivamente exposta.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Baixa a moderada: atividade e convivência",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Ativo; pode intimidar e beliscar nadadeiras",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Cardume de 6–8 ou mais",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Ativo e robusto; ao menos 6–8 indivíduos. Pode intimidar peixes lentos e beliscar nadadeiras; origem comum não comprova convivência.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Aceita rações variadas, pequenos alimentos vivos ou congelados e componente vegetal.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Dispersa ovos; para criar alevinos, usar montagem separada que proteja ovos da predação pelos adultos.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Peixes lentos podem ser intimidados. Observe perseguições e danos nas nadadeiras dos companheiros; preserve plantas e área livre para o cardume.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "América do Sul: Brasil, Paraguai e Argentina, em sistemas ligados ao Pantanal.",
+          "referenceIds": ["cof", "care"]
+        }
+      ]
+    },
+    {
+      "id": "classificacao",
+      "fields": [
+        {
+          "label": "Reino",
+          "value": "Animalia",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Filo",
+          "value": "Chordata",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Classe",
+          "value": "Actinopteri",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Ordem",
+          "value": "Characiformes",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Família",
+          "value": "Acestrorhamphidae",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Gênero",
+          "value": "Bario",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Espécie",
+          "value": "Bario sanctaefilomenae",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Autoridade taxonômica",
+          "value": "(Steindachner 1907)",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Sinônimos científicos",
+          "value": "Moenkhausia sanctaefilomenae",
+          "referenceIds": ["cof", "care"]
+        }
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "fields": [
+        {
+          "label": "Você sabia?",
+          "value": "A combinação anterior Moenkhausia sanctaefilomenae ainda é comum no aquarismo.",
+          "referenceIds": ["care", "cof"]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "cof",
+      "title": "Eschmeyer’s Catalog of Fishes — Bario sanctaefilomenae",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=29217",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "class",
+      "title": "Eschmeyer’s Catalog of Fishes — classificação por família",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "care",
+      "title": "Moenkhausia sanctaefilomenae — manutenção e história natural",
+      "url": "https://www.seriouslyfish.com/species/moenkhausia-sanctaefilomenae/",
+      "author": "Seriously Fish",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "gbif",
+      "title": "Moenkhausia sanctaefilomenae — registro comparativo no GBIF",
+      "url": "https://api.gbif.org/v1/species/match?name=Moenkhausia%20sanctaefilomenae",
+      "author": "GBIF",
+      "accessedAt": "2026-10-18"
+    }
+  ],
+  "regions": [
+    {
+      "id": "america-do-sul",
+      "label": "América do Sul",
+      "scale": "continent",
+      "referenceIds": ["care", "cof"]
+    }
+  ],
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "22–26 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "6,0–8,0",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "3–20 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 7 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "103 L ou mais; cardume pequeno",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Ativo; pode intimidar e beliscar nadadeiras",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Cardume de 6–8 ou mais",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Ração variada, invertebrados e vegetais",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Baixa a moderada: atividade e convivência",
+      "referenceIds": ["care"]
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "slug": "phractocephalus-hemioliopterus",
+  "name": "Pirarara",
+  "commercialName": "PIRARARA",
+  "category": "Peixes de Grande Porte",
+  "source": {
+    "workbook": "VAREJO PEIXES NICHOS.xlsx",
+    "sheet": "Tabela Peixes Atual",
+    "row": 149,
+    "niche": "Peixes de Grande Porte"
+  },
+  "sortOrder": 149,
+  "scientificName": "Phractocephalus hemioliopterus",
+  "identificationNote": "",
+  "description": "A pirarara é um grande bagre amazônico de cauda avermelhada. Um juvenil pequeno se transforma em um animal para instalações especializadas, planejadas para toda a vida.",
+  "photo": {
+    "src": "/images/species/phractocephalus-hemioliopterus-1.webp",
+    "width": 960,
+    "height": 366,
+    "alt": "Fotografia representativa de Phractocephalus hemioliopterus; imagem de referência da espécie, sem indicação de estoque.",
+    "author": "Stan Shebs",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phractocephalus_hemioliopterus_1.jpg",
+    "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  "additionalPhotos": [
+    {
+      "src": "/images/species/phractocephalus-hemioliopterus-2.webp",
+      "width": 960,
+      "height": 640,
+      "alt": "Fotografia representativa de Phractocephalus hemioliopterus; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Clinton & Charles Robertson from RAF Lakenheath, UK & San Marcos, TX, USA & UK",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pimelodidae_Phractocephalus_hemiliopterus_(5806483399).jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    },
+    {
+      "src": "/images/species/phractocephalus-hemioliopterus-3.webp",
+      "width": 960,
+      "height": 640,
+      "alt": "Fotografia representativa de Phractocephalus hemioliopterus; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Cliff",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Phractocephalus_hemioliopterus_-_1.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ],
+  "sections": [
+    {
+      "id": "apresentacao",
+      "fields": [
+        {
+          "label": "Nome científico",
+          "value": "Phractocephalus hemioliopterus",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Outros nomes e variedades",
+          "value": "Pirarara",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "21–26 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "6,0–7,5",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "2–12 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Ambientes variados, de trechos de correnteza a florestas inundadas.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Grande bagre de cabeça larga, barbilhões longos e cauda avermelhada.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 134 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "A aparência externa não permite sexagem segura para o aquarista.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "10.368 L é limite inferior; instalação especializada. 360 × 240 × 120 cm, cerca de 10.368 L, é um limite inferior ainda restritivo. A instalação deve ser dimensionada para um bagre que ultrapassa um metro; um aquário doméstico comum não é solução permanente.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Estrutura muito ampla, filtragem potente e objetos grandes fixados com segurança; juvenis usam esconderijos proporcionais ao corpo.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Especializada: infraestrutura para peixe gigante",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Grande predadora; pode disputar território",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Instalação específica; alto risco para peixes menores",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Engole peixes menores e pode defender território contra outros grandes bagres. Não é apropriada para comunitários domésticos.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Predador oportunista de peixes e invertebrados, também com registros de frutos. Variar alimentos apropriados de origem aquática e evitar excesso.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "A reprodução não é um objetivo realista para o aquário doméstico. Planeje a manutenção de longo prazo dos adultos em uma instalação especializada.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Pode engolir companheiros e deslocar objetos pesados. Fixe equipamentos e decoração, evite excesso de alimento e dimensione filtragem para o grande volume de resíduos.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "América do Sul: bacias Amazônica e do Orinoco, em Brasil, Bolívia, Peru, Equador, Colômbia, Venezuela e Guiana.",
+          "referenceIds": ["cof", "care"]
+        }
+      ]
+    },
+    {
+      "id": "classificacao",
+      "fields": [
+        {
+          "label": "Reino",
+          "value": "Animalia",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Filo",
+          "value": "Chordata",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Classe",
+          "value": "Actinopteri",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Ordem",
+          "value": "Siluriformes",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Família",
+          "value": "Pimelodidae",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Gênero",
+          "value": "Phractocephalus",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Espécie",
+          "value": "Phractocephalus hemioliopterus",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Autoridade taxonômica",
+          "value": "(Bloch & Schneider 1801)",
+          "referenceIds": ["cof"]
+        }
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "fields": [
+        {
+          "label": "Você sabia?",
+          "value": "Seu porte adulto, não o tamanho do juvenil, deve orientar todo o planejamento da instalação.",
+          "referenceIds": ["care", "cof"]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "cof",
+      "title": "Eschmeyer’s Catalog of Fishes — Phractocephalus hemioliopterus",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=47923",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "class",
+      "title": "Eschmeyer’s Catalog of Fishes — classificação por família",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "care",
+      "title": "Phractocephalus hemioliopterus — manutenção e história natural",
+      "url": "https://www.seriouslyfish.com/species/phractocephalus-hemioliopterus/",
+      "author": "Seriously Fish",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "gbif",
+      "title": "Phractocephalus hemioliopterus — registro comparativo no GBIF",
+      "url": "https://api.gbif.org/v1/species/match?name=Phractocephalus%20hemioliopterus",
+      "author": "GBIF",
+      "accessedAt": "2026-10-18"
+    }
+  ],
+  "regions": [
+    {
+      "id": "america-do-sul",
+      "label": "América do Sul",
+      "scale": "continent",
+      "referenceIds": ["care", "cof"]
+    }
+  ],
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "21–26 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "6,0–7,5",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "2–12 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 134 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "10.368 L é limite inferior; instalação especializada",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Grande predadora; pode disputar território",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Instalação específica; alto risco para peixes menores",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Itens de origem aquática adequados ao porte",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Especializada: infraestrutura para peixe gigante",
+      "referenceIds": ["care"]
+    }
+  ]
+}

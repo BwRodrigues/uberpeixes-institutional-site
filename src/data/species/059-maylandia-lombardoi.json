@@ -1,0 +1,334 @@
+{
+  "slug": "maylandia-lombardoi",
+  "name": "Lombardoi",
+  "commercialName": "LOMBARDOI",
+  "category": "Ciclídeos Africanos",
+  "source": {
+    "workbook": "VAREJO PEIXES NICHOS.xlsx",
+    "sheet": "Tabela Peixes Atual",
+    "row": 59,
+    "niche": "Ciclídeos Africanos"
+  },
+  "sortOrder": 59,
+  "scientificName": "Maylandia lombardoi",
+  "identificationNote": "",
+  "description": "O lombardoi mostra uma inversão curiosa de cores entre os sexos: machos dominantes amarelos e fêmeas azuis. É um mbuna bastante territorial.",
+  "photo": {
+    "src": "/images/species/maylandia-lombardoi-1.webp",
+    "width": 960,
+    "height": 686,
+    "alt": "Fotografia representativa de Maylandia lombardoi; imagem de referência da espécie, sem indicação de estoque.",
+    "author": "Mssijish",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Male_M.Lombardoi_in_an_aquarium.jpg",
+    "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+  },
+  "additionalPhotos": [
+    {
+      "src": "/images/species/maylandia-lombardoi-2.webp",
+      "width": 600,
+      "height": 515,
+      "alt": "Fotografia representativa de Maylandia lombardoi; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "No machine-readable author provided. Ged~commonswiki assumed (based on copyright claims).",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Copyright_tags#Public_domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maylandia_lombardoi.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    },
+    {
+      "src": "/images/species/maylandia-lombardoi-3.webp",
+      "width": 600,
+      "height": 358,
+      "alt": "Fotografia representativa de Maylandia lombardoi; imagem de referência da espécie, sem indicação de estoque.",
+      "author": "Stacnbake",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Metriaclima_lombardoi_Male.jpg",
+      "changes": "Redimensionamento proporcional e conversão para WebP; sem recorte ou alteração do conteúdo."
+    }
+  ],
+  "sections": [
+    {
+      "id": "apresentacao",
+      "fields": [
+        {
+          "label": "Nome científico",
+          "value": "Maylandia lombardoi",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Outros nomes e variedades",
+          "value": "Lombardoi",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "24–28 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "7,6–8,8",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "10–25 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Faixa de transição entre rochas e areia, com bastante sedimento.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Machos dominantes geralmente amarelos; fêmeas azuis com barras escuras, com mudanças conforme dominância e reprodução.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 15 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Machos dominantes ficam amarelos e fêmeas normalmente azuis, mas machos subordinados e fêmeas incubando podem mudar o padrão.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "205 L como limite inferior; ampliar o projeto. Base de 120 × 45 cm e cerca de 205 L é apenas o limite inferior de um projeto especializado. Organize cavernas e barreiras visuais para um macho com várias fêmeas; reserve estrutura para separações.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Areia, rochas estáveis, cavernas e crescimento de algas para pastagem. Planejar separação de indivíduos quando houver agressão persistente.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Alta: risco de agressões graves",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Muito agressivo e territorial",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Um macho com várias fêmeas",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Muito agressivo. Em geral manter um único macho com várias fêmeas; não juntar com peixes pacíficos nem interpretar a origem comum do lago como compatibilidade.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Dieta com forte componente vegetal, rações com algas e suplementos apropriados. Não oferecer coração de boi ou outras carnes de mamíferos.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Incubador bucal materno. Requer aquário específico bem estruturado e atenção à agressividade durante a formação de pares.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Ferimentos por disputa territorial exigem reduzir o contato entre os envolvidos. Não confie apenas no volume: refúgios, proporção sexual e possibilidade de separação são indispensáveis.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "África: lago Malawi, especialmente ilhas Mbenji e recife Nkhomo; há introdução em Namalenje.",
+          "referenceIds": ["cof", "care"]
+        }
+      ]
+    },
+    {
+      "id": "classificacao",
+      "fields": [
+        {
+          "label": "Reino",
+          "value": "Animalia",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Filo",
+          "value": "Chordata",
+          "referenceIds": ["gbif"]
+        },
+        {
+          "label": "Classe",
+          "value": "Actinopteri",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Ordem",
+          "value": "Cichliformes",
+          "referenceIds": ["class"]
+        },
+        {
+          "label": "Família",
+          "value": "Cichlidae",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Gênero",
+          "value": "Maylandia",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Espécie",
+          "value": "Maylandia lombardoi",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Autoridade taxonômica",
+          "value": "(Burgess 1977)",
+          "referenceIds": ["cof"]
+        }
+      ]
+    },
+    {
+      "id": "curiosidades",
+      "fields": [
+        {
+          "label": "Você sabia?",
+          "value": "A mudança de azul para amarelo nos machos é uma característica marcante; cor isolada nem sempre permite sexar juvenis ou subordinados.",
+          "referenceIds": ["care", "cof"]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "cof",
+      "title": "Eschmeyer’s Catalog of Fishes — Maylandia lombardoi",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=9436",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "class",
+      "title": "Eschmeyer’s Catalog of Fishes — classificação por família",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+      "author": "California Academy of Sciences",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "care",
+      "title": "Maylandia lombardoi — manutenção e história natural",
+      "url": "https://www.seriouslyfish.com/species/maylandia-lombardoi/",
+      "author": "Seriously Fish",
+      "accessedAt": "2026-10-18"
+    },
+    {
+      "id": "gbif",
+      "title": "Maylandia lombardoi — registro comparativo no GBIF",
+      "url": "https://api.gbif.org/v1/species/match?name=Maylandia%20lombardoi",
+      "author": "GBIF",
+      "accessedAt": "2026-10-18"
+    }
+  ],
+  "regions": [
+    {
+      "id": "africa",
+      "label": "África",
+      "scale": "continent",
+      "referenceIds": ["care", "cof"]
+    }
+  ],
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "24–28 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "7,6–8,8",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "10–25 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 15 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "205 L como limite inferior; ampliar o projeto",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Muito agressivo e territorial",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Um macho com várias fêmeas",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Ração vegetal, algas e complementos",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Alta: risco de agressões graves",
+      "referenceIds": ["care"]
+    }
+  ]
+}
