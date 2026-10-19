@@ -11,7 +11,7 @@
   },
   "sortOrder": 73,
   "scientificName": "Andinoacara rivulatus",
-  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "identificationNote": "",
   "description": "O green terror é um ciclídeo de cores marcantes e território bem definido. Seu nome comercial não deve esconder o espaço e o manejo que um adulto exige.",
   "photo": {
     "src": "/images/species/andinoacara-rivulatus-1.webp",
@@ -53,19 +53,139 @@
       "id": "apresentacao",
       "fields": [
         {
-          "label": "Outros nomes populares",
-          "value": "GREEN TERROR M; GREEN TERROR P",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Identificação científica",
-          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "label": "Nome científico",
+          "value": "Andinoacara rivulatus",
           "referenceIds": ["cof"]
         },
         {
-          "label": "Introdução",
-          "value": "O green terror é um ciclídeo de cores marcantes e território bem definido. Seu nome comercial não deve esconder o espaço e o manejo que um adulto exige.",
+          "label": "Outros nomes e variedades",
+          "value": "Green terror m; Green terror p",
           "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "20–24 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "6,5–8,0",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "5–25 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Rios e córregos de drenagens costeiras.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Ciclídeo robusto de reflexos verde-azulados; machos grandes podem desenvolver uma protuberância na cabeça.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 30 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Machos crescem mais, podem desenvolver protuberância nucal e prolongamentos maiores nas nadadeiras.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "304 L ou mais; indivíduo ou casal formado. Base de pelo menos 150 × 45 cm, aproximadamente 304 L, para indivíduo ou casal compatível. A convivência com outros peixes robustos exige projeto maior, em torno de 650 L ou mais, e acompanhamento dos territórios.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Areia, troncos, pedras planas e barreiras visuais. Escava e pode desarranjar plantas enraizadas; prever equipamento protegido e território.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Alta: porte e agressividade",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Agressivo e territorial",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Indivíduo ou casal já formado",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Agressivo e territorial, especialmente em casal. A fonte favorece indivíduo isolado ou casal formado; não juntar adultos desconhecidos esperando formação automática de par.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Onívoro: ração completa para ciclídeos, alimentos aquáticos apropriados e componente vegetal. Evitar coração de boi e outras carnes vermelhas.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Desova sobre substrato com cuidado parental. Formar um casal exige acompanhamento; um macho pode ferir ou matar uma fêmea incompatível.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Um adulto pode ferir um parceiro incompatível. Tenha possibilidade de separação, proteja equipamentos contra escavação e não ofereça carne de mamíferos como dieta habitual.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "América do Sul: drenagens costeiras do oeste do Equador e extremo norte do Peru.",
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -84,7 +204,7 @@
         },
         {
           "label": "Classe",
-          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "value": "Actinopteri",
           "referenceIds": ["class"]
         },
         {
@@ -111,126 +231,6 @@
           "label": "Autoridade taxonômica",
           "value": "(Günther 1860)",
           "referenceIds": ["cof"]
-        },
-        {
-          "label": "Sinônimos científicos",
-          "value": "Literatura de manutenção consultada sob Andinoacara rivulatus; o nome aceito adotado é Andinoacara rivulatus. Consultar o histórico nomenclatural completo na referência taxonômica.",
-          "referenceIds": ["cof", "care"]
-        }
-      ]
-    },
-    {
-      "id": "origem",
-      "fields": [
-        {
-          "label": "Continente e países",
-          "value": "América do Sul: extremo norte do Peru e drenagens costeiras do oeste do Equador. Algumas populações do norte têm identidade ainda discutida.",
-          "referenceIds": ["care", "cof"]
-        },
-        {
-          "label": "Ambiente natural",
-          "value": "Rios e córregos de drenagens costeiras.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "caracteristicas",
-      "fields": [
-        {
-          "label": "Tamanho adulto",
-          "value": "300 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Diferenças entre machos e fêmeas",
-          "value": "Machos crescem mais, podem desenvolver protuberância nucal e prolongamentos maiores nas nadadeiras.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "agua",
-      "fields": [
-        {
-          "label": "Temperatura em aquário",
-          "value": "20–24 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "pH em aquário",
-          "value": "6.5–8.0; não interpretar os extremos como metas a alternar.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "GH",
-          "value": "5–25 °dGH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "KH",
-          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Substrato e decoração",
-          "value": "Areia, troncos, pedras planas e barreiras visuais. Escava e pode desarranjar plantas enraizadas; prever equipamento protegido e território.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "criacao",
-      "fields": [
-        {
-          "label": "Volume mínimo e contexto",
-          "value": "Base mínima de 150 × 45 cm; a fonte apresenta cerca de 304 L como referência inicial. Para convivência com outros peixes robustos menciona 650 L ou mais, ainda dependentes de território e comportamento.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Manutenção específica",
-          "value": "Areia, troncos, pedras planas e barreiras visuais. Escava e pode desarranjar plantas enraizadas; prever equipamento protegido e território.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "alimentacao",
-      "fields": [
-        {
-          "label": "Alimentos adequados",
-          "value": "Onívoro: ração completa para ciclídeos, alimentos aquáticos apropriados e componente vegetal. Evitar coração de boi e outras carnes vermelhas.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "comportamento",
-      "fields": [
-        {
-          "label": "Comportamento social",
-          "value": "Agressivo e territorial, especialmente em casal. A fonte favorece indivíduo isolado ou casal formado; não juntar adultos desconhecidos esperando formação automática de par.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "reproducao",
-      "fields": [
-        {
-          "label": "Tipo de reprodução",
-          "value": "Desova sobre substrato com cuidado parental. Formar um casal exige acompanhamento; um macho pode ferir ou matar uma fêmea incompatível.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "saude",
-      "fields": [
-        {
-          "label": "Problemas de manutenção",
-          "value": "Areia, troncos, pedras planas e barreiras visuais. Escava e pode desarranjar plantas enraizadas; prever equipamento protegido e território.",
-          "referenceIds": ["care"]
         }
       ]
     },
@@ -238,8 +238,8 @@
       "id": "curiosidades",
       "fields": [
         {
-          "label": "Curiosidades verificadas da espécie",
-          "value": "“Green terror” já foi aplicado de forma imprecisa a espécies próximas; esta ficha se refere a Andinoacara rivulatus.",
+          "label": "Você sabia?",
+          "value": "O nome green terror também já foi usado para peixes semelhantes; a identificação deve considerar mais que o nome comercial.",
           "referenceIds": ["care", "cof"]
         }
       ]
@@ -283,5 +283,52 @@
       "referenceIds": ["care", "cof"]
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "20–24 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "6,5–8,0",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "5–25 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 30 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "304 L ou mais; indivíduo ou casal formado",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Agressivo e territorial",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Indivíduo ou casal já formado",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Ração para ciclídeos e itens aquáticos",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Alta: porte e agressividade",
+      "referenceIds": ["care"]
+    }
+  ]
 }

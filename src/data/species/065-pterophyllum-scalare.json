@@ -11,7 +11,7 @@
   },
   "sortOrder": 65,
   "scientificName": "Pterophyllum scalare",
-  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "identificationNote": "",
   "description": "O acará-bandeira chama atenção pela silhueta alta e pelo nado elegante. Aquário com boa altura e planejamento para a fase adulta faz diferença.",
   "photo": {
     "src": "/images/species/pterophyllum-scalare-1.webp",
@@ -53,19 +53,134 @@
       "id": "apresentacao",
       "fields": [
         {
-          "label": "Outros nomes populares",
-          "value": "ACARÁ BANDEIRA M; ACARÁ KOI M; ACARÁ MARMORADO M; ACARÁ PALHAÇO M",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Identificação científica",
-          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "label": "Nome científico",
+          "value": "Pterophyllum scalare",
           "referenceIds": ["cof"]
         },
         {
-          "label": "Introdução",
-          "value": "O acará-bandeira chama atenção pela silhueta alta e pelo nado elegante. Aquário com boa altura e planejamento para a fase adulta faz diferença.",
+          "label": "Outros nomes e variedades",
+          "value": "Acará bandeira m; Acará koi m; Acará marmorado m; Acará palhaço m",
           "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "24–30 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "6,0–7,4",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "0–15 °dGH",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Corpo alto e comprimido, nadadeiras dorsal e anal alongadas e pélvicas filamentosas; as cores variam entre linhagens.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 15 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Sexagem externa difícil; a papila genital pode ajudar durante a reprodução. Cor e nadadeiras não bastam para garantir o sexo.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "200 L ou mais; ampliar para grupos. Pelo menos 100 × 40 × 50 cm, aproximadamente 200 L, com atenção à altura útil e aos territórios. Um grupo e a formação de mais de um casal exigem aquário maior.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Plantas altas, corrente suave e pelo menos 50 cm de altura de aquário para os adultos. Prever espaço para territórios de casais.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Moderada: altura e formação de casais",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Territorial ao formar casal; predador de peixes pequenos",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Grupo exige espaço; casais defendem território",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Pode disputar território com outros bandeiras, sobretudo ao reproduzir. Pode comer peixes pequenos; a aparência tranquila não elimina esse risco.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Onívoro com participação importante de pequenos invertebrados. Aceita rações completas e alimentos vivos ou congelados adequados ao porte.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Desova sobre superfícies verticais, como folhas largas ou placas. O casal pode guardar ovos e filhotes, mas também pode comer a prole.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Aquário baixo limita o nado das nadadeiras longas. Observe perseguições quando casais se formarem, remova o acesso a peixes que caibam na boca e mantenha corrente suave.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "América do Sul: sistemas da Amazônia e Guianas, com registros em Brasil, Peru, Colômbia, Guiana, Suriname e Guiana Francesa.",
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -84,7 +199,7 @@
         },
         {
           "label": "Classe",
-          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "value": "Actinopteri",
           "referenceIds": ["class"]
         },
         {
@@ -111,126 +226,6 @@
           "label": "Autoridade taxonômica",
           "value": "(Schultze 1823)",
           "referenceIds": ["cof"]
-        },
-        {
-          "label": "Sinônimos científicos",
-          "value": "Literatura de manutenção consultada sob Pterophyllum scalare; o nome aceito adotado é Pterophyllum scalare. Consultar o histórico nomenclatural completo na referência taxonômica.",
-          "referenceIds": ["cof", "care"]
-        }
-      ]
-    },
-    {
-      "id": "origem",
-      "fields": [
-        {
-          "label": "Continente e países",
-          "value": "América do Sul: sistemas da Amazônia e Guianas, com registros em Brasil, Peru, Colômbia, Guiana, Suriname e Guiana Francesa.",
-          "referenceIds": ["care", "cof"]
-        },
-        {
-          "label": "Ambiente natural",
-          "value": "Ambientes de água doce das bacias citadas. A ficha de manutenção não descreve o micro-habitat com precisão suficiente para detalhá-lo aqui.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "caracteristicas",
-      "fields": [
-        {
-          "label": "Tamanho adulto",
-          "value": "150 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Diferenças entre machos e fêmeas",
-          "value": "Sexagem externa difícil; a papila genital pode ajudar durante a reprodução. Cor e nadadeiras não bastam para garantir o sexo.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "agua",
-      "fields": [
-        {
-          "label": "Temperatura em aquário",
-          "value": "24–30 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "pH em aquário",
-          "value": "6.0–7.4; não interpretar os extremos como metas a alternar.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "GH",
-          "value": "0–15 °dGH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "KH",
-          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Substrato e decoração",
-          "value": "Plantas altas, corrente suave e pelo menos 50 cm de altura de aquário para os adultos. Prever espaço para territórios de casais.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "criacao",
-      "fields": [
-        {
-          "label": "Volume mínimo e contexto",
-          "value": "A referência mínima é 100 × 40 × 50 cm, cerca de 200 L. Altura, formação de casais e território limitam a quantidade; grupos precisam de dimensionamento maior.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Manutenção específica",
-          "value": "Plantas altas, corrente suave e pelo menos 50 cm de altura de aquário para os adultos. Prever espaço para territórios de casais.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "alimentacao",
-      "fields": [
-        {
-          "label": "Alimentos adequados",
-          "value": "Onívoro com participação importante de pequenos invertebrados. Aceita rações completas e alimentos vivos ou congelados adequados ao porte.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "comportamento",
-      "fields": [
-        {
-          "label": "Comportamento social",
-          "value": "Pode disputar território com outros bandeiras, sobretudo ao reproduzir. Pode comer peixes pequenos; a aparência tranquila não elimina esse risco.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "reproducao",
-      "fields": [
-        {
-          "label": "Tipo de reprodução",
-          "value": "Desova sobre superfícies verticais, como folhas largas ou placas. O casal pode guardar ovos e filhotes, mas também pode comer a prole.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "saude",
-      "fields": [
-        {
-          "label": "Problemas de manutenção",
-          "value": "Plantas altas, corrente suave e pelo menos 50 cm de altura de aquário para os adultos. Prever espaço para territórios de casais.",
-          "referenceIds": ["care"]
         }
       ]
     },
@@ -238,8 +233,8 @@
       "id": "curiosidades",
       "fields": [
         {
-          "label": "Curiosidades verificadas da espécie",
-          "value": "Koi, marmorado e outras cores são formas ornamentais, agrupadas nesta ficha sem duplicar espécies.",
+          "label": "Você sabia?",
+          "value": "Koi, marmorado e outras cores de aquário são variedades ornamentais de Pterophyllum scalare.",
           "referenceIds": ["care", "cof"]
         }
       ]
@@ -283,5 +278,52 @@
       "referenceIds": ["care", "cof"]
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "24–30 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "6,0–7,4",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "0–15 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 15 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "200 L ou mais; ampliar para grupos",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Territorial ao formar casal; predador de peixes pequenos",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Grupo exige espaço; casais defendem território",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Ração completa e invertebrados",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Moderada: altura e formação de casais",
+      "referenceIds": ["care"]
+    }
+  ]
 }

@@ -11,7 +11,7 @@
   },
   "sortOrder": 127,
   "scientificName": "Trichogaster chuna",
-  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "identificationNote": "",
   "description": "A colisa-chuna é um pequeno gourami de movimentos suaves. Plantas e companheiros tranquilos ajudam a mostrar sua coloração e seu comportamento.",
   "photo": {
     "src": "/images/species/trichogaster-chuna-1.webp",
@@ -53,19 +53,139 @@
       "id": "apresentacao",
       "fields": [
         {
-          "label": "Outros nomes populares",
-          "value": "COLISA CHUNA",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Identificação científica",
-          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "label": "Nome científico",
+          "value": "Trichogaster chuna",
           "referenceIds": ["cof"]
         },
         {
-          "label": "Introdução",
-          "value": "A colisa-chuna é um pequeno gourami de movimentos suaves. Plantas e companheiros tranquilos ajudam a mostrar sua coloração e seu comportamento.",
+          "label": "Outros nomes e variedades",
+          "value": "Colisa chuna",
           "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "22–27 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "6,0–7,5",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "2–15 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Águas baixas e lentas, com vegetação abundante, incluindo lagoas e áreas sazonalmente inundadas.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Pequeno gourami de tons mel e alaranjados; machos reprodutivos podem escurecer a garganta e a parte inferior do corpo.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 5,5 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Fêmeas costumam ser maiores e mais pardas; machos reprodutivos intensificam tons laranja e escuros.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "54 L ou mais; ajustar ao grupo. Base de 60 × 30 cm e cerca de 54 L como ponto de partida. Um grupo de 4–6 precisa de refúgios e espaço adicional conforme os sexos e a formação de territórios.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Plantas densas, sombra de flutuantes, troncos e abrigos. Manter acesso à superfície e filtragem suave.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Moderada: alimentação e convivência tranquila",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Pacífica e pouco competitiva",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Grupo de 4–6 em espaço adequado",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Pacífica e pouco competitiva; evitar peixes grandes ou muito ativos. Apresenta interação em grupos de 4–6, com hierarquias e necessidade de refúgios.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Pequenos invertebrados; aceita ração, mas deve receber também artêmia, dáfnias ou alimentos pequenos equivalentes.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Constrói ninho de bolhas e forma vínculo temporário de casal. Plantas na superfície e circulação delicada ajudam a preservar o ninho.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Companheiros agitados podem impedir a alimentação. Observe se todos saem dos abrigos para comer; preserve plantas de superfície e circulação suave.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "Ásia: sistemas do Ganges e Brahmaputra, na Índia e Bangladesh, com registros no Nepal.",
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -84,7 +204,7 @@
         },
         {
           "label": "Classe",
-          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "value": "Actinopteri",
           "referenceIds": ["class"]
         },
         {
@@ -111,126 +231,6 @@
           "label": "Autoridade taxonômica",
           "value": "(Hamilton 1822)",
           "referenceIds": ["cof"]
-        },
-        {
-          "label": "Sinônimos científicos",
-          "value": "Literatura de manutenção consultada sob Trichogaster chuna; o nome aceito adotado é Trichogaster chuna. Consultar o histórico nomenclatural completo na referência taxonômica.",
-          "referenceIds": ["cof", "care"]
-        }
-      ]
-    },
-    {
-      "id": "origem",
-      "fields": [
-        {
-          "label": "Continente e países",
-          "value": "Ásia: sistemas do Ganges e Brahmaputra, na Índia e Bangladesh, com registros no Nepal.",
-          "referenceIds": ["care", "cof"]
-        },
-        {
-          "label": "Ambiente natural",
-          "value": "Águas baixas e lentas, com vegetação abundante, incluindo lagoas e áreas sazonalmente inundadas.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "caracteristicas",
-      "fields": [
-        {
-          "label": "Tamanho adulto",
-          "value": "55 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Diferenças entre machos e fêmeas",
-          "value": "Fêmeas costumam ser maiores e mais pardas; machos reprodutivos intensificam tons laranja e escuros.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "agua",
-      "fields": [
-        {
-          "label": "Temperatura em aquário",
-          "value": "22–27 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "pH em aquário",
-          "value": "6.0–7.5; não interpretar os extremos como metas a alternar.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "GH",
-          "value": "2–15 °dGH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "KH",
-          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Substrato e decoração",
-          "value": "Plantas densas, sombra de flutuantes, troncos e abrigos. Manter acesso à superfície e filtragem suave.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "criacao",
-      "fields": [
-        {
-          "label": "Volume mínimo e contexto",
-          "value": "Base mínima de 60 × 30 cm, aproximadamente 54 L na fonte. O grupo deve ser dimensionado por sexo, hierarquia e refúgios, com aumento de espaço quando necessário.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Manutenção específica",
-          "value": "Plantas densas, sombra de flutuantes, troncos e abrigos. Manter acesso à superfície e filtragem suave.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "alimentacao",
-      "fields": [
-        {
-          "label": "Alimentos adequados",
-          "value": "Pequenos invertebrados; aceita ração, mas deve receber também artêmia, dáfnias ou alimentos pequenos equivalentes.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "comportamento",
-      "fields": [
-        {
-          "label": "Comportamento social",
-          "value": "Pacífica e pouco competitiva; evitar peixes grandes ou muito ativos. A fonte descreve interação em grupos de 4–6, com hierarquias e necessidade de refúgios.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "reproducao",
-      "fields": [
-        {
-          "label": "Tipo de reprodução",
-          "value": "Constrói ninho de bolhas e forma vínculo temporário de casal. Plantas na superfície e circulação delicada ajudam a preservar o ninho.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "saude",
-      "fields": [
-        {
-          "label": "Problemas de manutenção",
-          "value": "Plantas densas, sombra de flutuantes, troncos e abrigos. Manter acesso à superfície e filtragem suave.",
-          "referenceIds": ["care"]
         }
       ]
     },
@@ -238,8 +238,8 @@
       "id": "curiosidades",
       "fields": [
         {
-          "label": "Curiosidades verificadas da espécie",
-          "value": "A fonte relata capacidade de atingir insetos com pequenos jatos de água; nomes ornamentais como sunset não identificam sozinhos uma espécie.",
+          "label": "Você sabia?",
+          "value": "Pode lançar pequenos jatos de água em direção a insetos próximos da superfície.",
           "referenceIds": ["care", "cof"]
         }
       ]
@@ -283,5 +283,52 @@
       "referenceIds": ["care", "cof"]
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "22–27 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "6,0–7,5",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "2–15 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 5,5 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "54 L ou mais; ajustar ao grupo",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Pacífica e pouco competitiva",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Grupo de 4–6 em espaço adequado",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Ração fina e pequenos invertebrados",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Moderada: alimentação e convivência tranquila",
+      "referenceIds": ["care"]
+    }
+  ]
 }

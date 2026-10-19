@@ -11,7 +11,7 @@
   },
   "sortOrder": 90,
   "scientificName": "Mikrogeophagus ramirezi",
-  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "identificationNote": "",
   "description": "O ramirezi é pequeno, mas exigente: água quente, estável e muito limpa vem antes da escolha das cores. Um aquário maduro ajuda a revelar seu comportamento.",
   "photo": {
     "src": "/images/species/mikrogeophagus-ramirezi-1.webp",
@@ -53,19 +53,139 @@
       "id": "apresentacao",
       "fields": [
         {
-          "label": "Outros nomes populares",
-          "value": "RAMIREZI AZUL; RAMIREZI BALÃO ELECTRIC BLUE M; RAMIREZI BALÃO OURO VEL M; RAMIREZI ELECTRIC BLUE M; RAMIREZI OURO; RAMIREZI OURO VEU MATRIZ",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Identificação científica",
-          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "label": "Nome científico",
+          "value": "Mikrogeophagus ramirezi",
           "referenceIds": ["cof"]
         },
         {
-          "label": "Introdução",
-          "value": "O ramirezi é pequeno, mas exigente: água quente, estável e muito limpa vem antes da escolha das cores. Um aquário maduro ajuda a revelar seu comportamento.",
+          "label": "Outros nomes e variedades",
+          "value": "Ramirezi azul; Ramirezi balão electric blue m; Ramirezi balão ouro vel m; Ramirezi electric blue m; Ramirezi ouro; Ramirezi ouro veu matriz",
           "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "27–30 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "4,0–7,0",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "1–10 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Planícies sazonalmente inundadas dos llanos, em ambientes tropicais quentes.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Pequeno ciclídeo de corpo colorido, manchas escuras e reflexos azuis; muitas fêmeas apresentam ventre rosado.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 4 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Machos tendem a ser maiores e mais coloridos; muitas fêmeas apresentam barriga rosada, mas linhagens ornamentais podem alterar esses sinais.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "54 L ou mais; um casal. Base de 60 × 30 cm, aproximadamente 54 L para um casal. Inclua areia, raízes e superfícies de desova; outros moradores e mais casais precisam de espaço adicional.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Areia, raízes, áreas sombreadas e pedras planas. Não introduzir em montagem biologicamente imatura; evitar oscilações de água e companheiros competitivos.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Alta: água quente, macia e muito limpa",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Delicado; casal territorial",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Casal; evitar competição intensa",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Sensível à competição e à água inadequada. Casais estabelecem território; não é recomendado para comunitário genérico ou com peixes de água dura e fria.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Procura pequenos organismos no substrato e em superfícies. Oferecer variedade de alimentos pequenos vivos ou congelados e rações que afundam.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Desova sobre substrato e cuidado biparental. Ovos exigem água muito limpa e de baixa dureza; casais inexperientes podem comer posturas.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Não introduza em aquário recém-montado. Recusa alimentar e isolamento exigem conferir temperatura, qualidade da água e competição; evite mudanças bruscas e água dura como condição permanente.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "América do Sul: llanos da Venezuela e Colômbia, na drenagem do Orinoco. Registros distantes dessa área precisam de confirmação.",
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -84,7 +204,7 @@
         },
         {
           "label": "Classe",
-          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "value": "Actinopteri",
           "referenceIds": ["class"]
         },
         {
@@ -111,126 +231,6 @@
           "label": "Autoridade taxonômica",
           "value": "(Myers & Harry 1948)",
           "referenceIds": ["cof"]
-        },
-        {
-          "label": "Sinônimos científicos",
-          "value": "Literatura de manutenção consultada sob Mikrogeophagus ramirezi; o nome aceito adotado é Mikrogeophagus ramirezi. Consultar o histórico nomenclatural completo na referência taxonômica.",
-          "referenceIds": ["cof", "care"]
-        }
-      ]
-    },
-    {
-      "id": "origem",
-      "fields": [
-        {
-          "label": "Continente e países",
-          "value": "América do Sul: llanos da Venezuela e Colômbia, na drenagem do Orinoco. Registros distantes dessa área precisam de confirmação.",
-          "referenceIds": ["care", "cof"]
-        },
-        {
-          "label": "Ambiente natural",
-          "value": "Planícies sazonalmente inundadas dos llanos, em ambientes tropicais quentes.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "caracteristicas",
-      "fields": [
-        {
-          "label": "Tamanho adulto",
-          "value": "40 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Diferenças entre machos e fêmeas",
-          "value": "Machos tendem a ser maiores e mais coloridos; muitas fêmeas apresentam barriga rosada, mas linhagens ornamentais podem alterar esses sinais.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "agua",
-      "fields": [
-        {
-          "label": "Temperatura em aquário",
-          "value": "27–30 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "pH em aquário",
-          "value": "4.0–7.0; não interpretar os extremos como metas a alternar.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "GH",
-          "value": "1–10 °dGH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "KH",
-          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Substrato e decoração",
-          "value": "Areia, raízes, áreas sombreadas e pedras planas. Não introduzir em montagem biologicamente imatura; evitar oscilações de água e companheiros competitivos.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "criacao",
-      "fields": [
-        {
-          "label": "Volume mínimo e contexto",
-          "value": "Base de 60 × 30 cm para um casal, cerca de 54 L como referência da fonte. Outros habitantes e mais territórios exigem volume adicional; não usar o mínimo para vários casais.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Manutenção específica",
-          "value": "Areia, raízes, áreas sombreadas e pedras planas. Não introduzir em montagem biologicamente imatura; evitar oscilações de água e companheiros competitivos.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "alimentacao",
-      "fields": [
-        {
-          "label": "Alimentos adequados",
-          "value": "Procura pequenos organismos no substrato e em superfícies. Oferecer variedade de alimentos pequenos vivos ou congelados e rações que afundam.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "comportamento",
-      "fields": [
-        {
-          "label": "Comportamento social",
-          "value": "Sensível à competição e à água inadequada. Casais estabelecem território; não é recomendado para comunitário genérico ou com peixes de água dura e fria.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "reproducao",
-      "fields": [
-        {
-          "label": "Tipo de reprodução",
-          "value": "Desova sobre substrato e cuidado biparental. Ovos exigem água muito limpa e de baixa dureza; casais inexperientes podem comer posturas.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "saude",
-      "fields": [
-        {
-          "label": "Problemas de manutenção",
-          "value": "Areia, raízes, áreas sombreadas e pedras planas. Não introduzir em montagem biologicamente imatura; evitar oscilações de água e companheiros competitivos.",
-          "referenceIds": ["care"]
         }
       ]
     },
@@ -238,8 +238,8 @@
       "id": "curiosidades",
       "fields": [
         {
-          "label": "Curiosidades verificadas da espécie",
-          "value": "Electric blue, ouro, véu e balão são formas ornamentais; o nome Papilocromis genérico da planilha permanece pendente, sem ser automaticamente incorporado.",
+          "label": "Você sabia?",
+          "value": "Electric blue, ouro e véu são variedades ornamentais; o pequeno porte não reduz a exigência de qualidade da água.",
           "referenceIds": ["care", "cof"]
         }
       ]
@@ -283,5 +283,52 @@
       "referenceIds": ["care", "cof"]
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "27–30 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "4,0–7,0",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "1–10 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 4 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "54 L ou mais; um casal",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Delicado; casal territorial",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Casal; evitar competição intensa",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Ração que afunda e pequenos invertebrados",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Alta: água quente, macia e muito limpa",
+      "referenceIds": ["care"]
+    }
+  ]
 }

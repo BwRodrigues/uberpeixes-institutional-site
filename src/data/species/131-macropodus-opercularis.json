@@ -11,7 +11,7 @@
   },
   "sortOrder": 131,
   "scientificName": "Macropodus opercularis",
-  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "identificationNote": "",
   "description": "O peixe-paraíso é um clássico do aquarismo e tolera manutenção mais fresca. Machos territoriais pedem uma montagem pensada para reduzir encontros constantes.",
   "photo": {
     "src": "/images/species/macropodus-opercularis-1.webp",
@@ -53,19 +53,139 @@
       "id": "apresentacao",
       "fields": [
         {
-          "label": "Outros nomes populares",
-          "value": "PEIXE PARAISO ALBINO; PEIXE PARAISO COBRE; PEIXE PARAISO COMUM",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Identificação científica",
-          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "label": "Nome científico",
+          "value": "Macropodus opercularis",
           "referenceIds": ["cof"]
         },
         {
-          "label": "Introdução",
-          "value": "O peixe-paraíso é um clássico do aquarismo e tolera manutenção mais fresca. Machos territoriais pedem uma montagem pensada para reduzir encontros constantes.",
+          "label": "Outros nomes e variedades",
+          "value": "Peixe paraiso albino; Peixe paraiso cobre; Peixe paraiso comum",
           "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "10–22 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "6,0–8,0",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "5–20 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Ambientes diversos de água doce, de córregos e remansos a arrozais e reservatórios.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Corpo alongado com barras coloridas e nadadeiras prolongadas, especialmente nos machos.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 8 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Machos tendem a ser maiores, com prolongamentos maiores nas nadadeiras dorsal, anal e caudal.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "72 L ou mais; casal com refúgios. Base de 80 × 30 cm, cerca de 72 L para um casal com refúgios. Mais machos ou outros habitantes exigem ampliação e controle rigoroso das interações.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Troncos, áreas sombreadas e vegetação de superfície; manter acesso ao ar e tampa que preserve uma camada de ar adequada acima da água.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Moderada: controlar disputas",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Territorial, sobretudo entre machos",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Casal com refúgios; evitar vários machos em pouco espaço",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Machos são territoriais, sobretudo na reprodução. Evitar peixes de formato semelhante; não manter vários machos em espaço reduzido.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Predador de larvas de insetos e pequenos invertebrados; oferecer alimentos pequenos vivos ou congelados e rações aceitas pelos animais.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Constrói ninho de bolhas. Reprodução deve ser planejada com abrigo, vegetação na superfície e ambiente protegido para os alevinos.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Brigas e saltos são riscos importantes. Mantenha tampa, plantas de superfície e rotas de fuga; se um peixe ficar acuado, separe os envolvidos.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "Ásia: sul da China, Taiwan, Hainan, norte e centro do Vietnã e nordeste do Laos.",
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -84,7 +204,7 @@
         },
         {
           "label": "Classe",
-          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "value": "Actinopteri",
           "referenceIds": ["class"]
         },
         {
@@ -111,126 +231,6 @@
           "label": "Autoridade taxonômica",
           "value": "(Linnaeus 1758)",
           "referenceIds": ["cof"]
-        },
-        {
-          "label": "Sinônimos científicos",
-          "value": "Literatura de manutenção consultada sob Macropodus opercularis; o nome aceito adotado é Macropodus opercularis. Consultar o histórico nomenclatural completo na referência taxonômica.",
-          "referenceIds": ["cof", "care"]
-        }
-      ]
-    },
-    {
-      "id": "origem",
-      "fields": [
-        {
-          "label": "Continente e países",
-          "value": "Ásia: sul da China, Taiwan, Hainan, norte e centro do Vietnã e nordeste do Laos.",
-          "referenceIds": ["care", "cof"]
-        },
-        {
-          "label": "Ambiente natural",
-          "value": "Ambientes diversos de água doce, de córregos e remansos a arrozais e reservatórios.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "caracteristicas",
-      "fields": [
-        {
-          "label": "Tamanho adulto",
-          "value": "80 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Diferenças entre machos e fêmeas",
-          "value": "Machos tendem a ser maiores, com prolongamentos maiores nas nadadeiras dorsal, anal e caudal.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "agua",
-      "fields": [
-        {
-          "label": "Temperatura em aquário",
-          "value": "10–22 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "pH em aquário",
-          "value": "6.0–8.0; não interpretar os extremos como metas a alternar.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "GH",
-          "value": "5–20 °dGH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "KH",
-          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Substrato e decoração",
-          "value": "Troncos, áreas sombreadas e vegetação de superfície; manter acesso ao ar e tampa que preserve uma camada de ar adequada acima da água.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "criacao",
-      "fields": [
-        {
-          "label": "Volume mínimo e contexto",
-          "value": "Base de 80 × 30 cm para um casal, cerca de 72 L como referência da fonte. Mais machos ou companheiros exigem ampliação e controle de territórios.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Manutenção específica",
-          "value": "Troncos, áreas sombreadas e vegetação de superfície; manter acesso ao ar e tampa que preserve uma camada de ar adequada acima da água.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "alimentacao",
-      "fields": [
-        {
-          "label": "Alimentos adequados",
-          "value": "Predador de larvas de insetos e pequenos invertebrados; oferecer alimentos pequenos vivos ou congelados e rações aceitas pelos animais.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "comportamento",
-      "fields": [
-        {
-          "label": "Comportamento social",
-          "value": "Machos são territoriais, sobretudo na reprodução. Evitar peixes de formato semelhante; não manter vários machos em espaço reduzido.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "reproducao",
-      "fields": [
-        {
-          "label": "Tipo de reprodução",
-          "value": "Constrói ninho de bolhas. Reprodução deve ser planejada com abrigo, vegetação na superfície e ambiente protegido para os alevinos.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "saude",
-      "fields": [
-        {
-          "label": "Problemas de manutenção",
-          "value": "Troncos, áreas sombreadas e vegetação de superfície; manter acesso ao ar e tampa que preserve uma camada de ar adequada acima da água.",
-          "referenceIds": ["care"]
         }
       ]
     },
@@ -238,8 +238,8 @@
       "id": "curiosidades",
       "fields": [
         {
-          "label": "Curiosidades verificadas da espécie",
-          "value": "Foi um dos primeiros peixes ornamentais tropicais criados na Europa; não deve ser confundido com espécies próximas de Macropodus.",
+          "label": "Você sabia?",
+          "value": "Está entre os primeiros peixes ornamentais tropicais mantidos e reproduzidos na Europa.",
           "referenceIds": ["care", "cof"]
         }
       ]
@@ -283,5 +283,52 @@
       "referenceIds": ["care", "cof"]
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "10–22 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "6,0–8,0",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "5–20 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 8 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "72 L ou mais; casal com refúgios",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Territorial, sobretudo entre machos",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Casal com refúgios; evitar vários machos em pouco espaço",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Ração aceita e pequenos invertebrados",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Moderada: controlar disputas",
+      "referenceIds": ["care"]
+    }
+  ]
 }

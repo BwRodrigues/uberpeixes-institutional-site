@@ -11,7 +11,7 @@
   },
   "sortOrder": 140,
   "scientificName": "Hoplisoma schwartzi",
-  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas. A fonte de manutenção e as fotos podem usar o nome anterior Corydoras schwartzi; não são espécies adicionais.",
+  "identificationNote": "",
   "description": "A coridora-schwartzi explora o fundo em companhia da própria espécie. Areia limpa, alimentação própria e um grupo fazem parte de sua manutenção.",
   "photo": {
     "src": "/images/species/corydoras-schwartzi-1.webp",
@@ -53,19 +53,139 @@
       "id": "apresentacao",
       "fields": [
         {
-          "label": "Outros nomes populares",
-          "value": "CORRIDORA  SHAWRTZ",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Identificação científica",
-          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas. A fonte de manutenção e as fotos podem usar o nome anterior Corydoras schwartzi; não são espécies adicionais.",
+          "label": "Nome científico",
+          "value": "Hoplisoma schwartzi",
           "referenceIds": ["cof"]
         },
         {
-          "label": "Introdução",
-          "value": "A coridora-schwartzi explora o fundo em companhia da própria espécie. Areia limpa, alimentação própria e um grupo fazem parte de sua manutenção.",
+          "label": "Outros nomes e variedades",
+          "value": "Corridora  shawrtz",
           "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "22–24 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "6,0–7,5",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "1–15 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Pequenos tributários, igarapés, trechos de floresta inundada e bancos de areia.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Coridora de corpo claro com marcas escuras, barbilhões e placas ósseas no corpo.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 7 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Fêmeas maduras costumam ser maiores e mais largas quando observadas por cima.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "68 L ou mais; grupo de seis. Aquário de 60 × 38 × 30 cm, cerca de 68 L para um pequeno grupo de pelo menos seis. Preserve área de fundo e amplie o espaço para mais animais.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Areia macia, raízes, abrigos e fundo limpo. Não tratar a função de “limpador” como substituto de alimentação e manutenção.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Moderada: fundo limpo e água mais fresca",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Muito pacífica",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Grupo de pelo menos seis",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Muito pacífica; manter ao menos seis. Evitar peixes grandes ou agressivos e companheiros de temperaturas inadequadas.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Onívora: rações de fundo apropriadas, complementadas por pequenos alimentos vivos ou congelados.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "A reprodução pode ser induzida em montagem específica, mas requer preparação cuidadosa. Ovos e alevinos requerem manejo e alimentos próprios.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Fundo sujo ou abrasivo pode comprometer os barbilhões. Use areia macia, retire resíduos e confirme que a ração chega ao grupo; não conte apenas com sobras de outros peixes.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "América do Sul: endêmica da drenagem do rio Purus, Brasil.",
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -84,7 +204,7 @@
         },
         {
           "label": "Classe",
-          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "value": "Actinopteri",
           "referenceIds": ["class"]
         },
         {
@@ -114,123 +234,8 @@
         },
         {
           "label": "Sinônimos científicos",
-          "value": "Literatura de manutenção consultada sob Corydoras schwartzi; o nome aceito adotado é Hoplisoma schwartzi. Consultar o histórico nomenclatural completo na referência taxonômica.",
+          "value": "Corydoras schwartzi",
           "referenceIds": ["cof", "care"]
-        }
-      ]
-    },
-    {
-      "id": "origem",
-      "fields": [
-        {
-          "label": "Continente e países",
-          "value": "América do Sul: endêmica da drenagem do rio Purus, Brasil.",
-          "referenceIds": ["care", "cof"]
-        },
-        {
-          "label": "Ambiente natural",
-          "value": "Pequenos tributários, igarapés, trechos de floresta inundada e bancos de areia.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "caracteristicas",
-      "fields": [
-        {
-          "label": "Tamanho adulto",
-          "value": "70 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Diferenças entre machos e fêmeas",
-          "value": "Fêmeas maduras costumam ser maiores e mais largas quando observadas por cima.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "agua",
-      "fields": [
-        {
-          "label": "Temperatura em aquário",
-          "value": "22–24 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "pH em aquário",
-          "value": "6.0–7.5; não interpretar os extremos como metas a alternar.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "GH",
-          "value": "1–15 °dGH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "KH",
-          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Substrato e decoração",
-          "value": "Areia macia, raízes, abrigos e fundo limpo. Não tratar a função de “limpador” como substituto de alimentação e manutenção.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "criacao",
-      "fields": [
-        {
-          "label": "Volume mínimo e contexto",
-          "value": "A referência é 60 × 38 × 30 cm, cerca de 68 L, para pequeno grupo. Avaliar mais espaço para população maior e manter área de fundo disponível.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Manutenção específica",
-          "value": "Areia macia, raízes, abrigos e fundo limpo. Não tratar a função de “limpador” como substituto de alimentação e manutenção.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "alimentacao",
-      "fields": [
-        {
-          "label": "Alimentos adequados",
-          "value": "Onívora: rações de fundo apropriadas, complementadas por pequenos alimentos vivos ou congelados.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "comportamento",
-      "fields": [
-        {
-          "label": "Comportamento social",
-          "value": "Muito pacífica; manter ao menos seis. Evitar peixes grandes ou agressivos e companheiros de temperaturas inadequadas.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "reproducao",
-      "fields": [
-        {
-          "label": "Tipo de reprodução",
-          "value": "A reprodução pode ser induzida em montagem específica, mas é considerada menos simples na fonte. Ovos e alevinos requerem manejo e alimentos próprios.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "saude",
-      "fields": [
-        {
-          "label": "Problemas de manutenção",
-          "value": "Areia macia, raízes, abrigos e fundo limpo. Não tratar a função de “limpador” como substituto de alimentação e manutenção.",
-          "referenceIds": ["care"]
         }
       ]
     },
@@ -238,8 +243,8 @@
       "id": "curiosidades",
       "fields": [
         {
-          "label": "Curiosidades verificadas da espécie",
-          "value": "Hoplisoma schwartzi é o nome adotado pela fonte de manutenção atual; Corydoras schwartzi permanece em bases e literatura anteriores.",
+          "label": "Você sabia?",
+          "value": "Hoplisoma schwartzi é a combinação atual; Corydoras schwartzi permanece comum em livros e fotografias antigas.",
           "referenceIds": ["care", "cof"]
         }
       ]
@@ -283,5 +288,52 @@
       "referenceIds": ["care", "cof"]
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "22–24 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "6,0–7,5",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "1–15 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 7 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "68 L ou mais; grupo de seis",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Muito pacífica",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Grupo de pelo menos seis",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Ração de fundo e pequenos invertebrados",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Moderada: fundo limpo e água mais fresca",
+      "referenceIds": ["care"]
+    }
+  ]
 }

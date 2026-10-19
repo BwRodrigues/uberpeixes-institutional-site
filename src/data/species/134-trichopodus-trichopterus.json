@@ -11,7 +11,7 @@
   },
   "sortOrder": 134,
   "scientificName": "Trichopodus trichopterus",
-  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "identificationNote": "",
   "description": "O tricogáster-azul pode ficar bem maior e mais territorial do que parece quando jovem. Azul e ouro são cores ornamentais da mesma espécie.",
   "photo": {
     "src": "/images/species/trichopodus-trichopterus-1.webp",
@@ -53,19 +53,139 @@
       "id": "apresentacao",
       "fields": [
         {
-          "label": "Outros nomes populares",
-          "value": "TRICOGASTER AZUL; TRICOGASTER OURO",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Identificação científica",
-          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "label": "Nome científico",
+          "value": "Trichopodus trichopterus",
           "referenceIds": ["cof"]
         },
         {
-          "label": "Introdução",
-          "value": "O tricogáster-azul pode ficar bem maior e mais territorial do que parece quando jovem. Azul e ouro são cores ornamentais da mesma espécie.",
+          "label": "Outros nomes e variedades",
+          "value": "Tricogaster azul; Tricogaster ouro",
           "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "24–30 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "5,5–8,5",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "3–35 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Águas baixas e lentas com vegetação, como lagoas, valas e brejos; pode ocupar áreas inundadas sazonalmente.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Corpo comprimido com nadadeiras pélvicas sensoriais em forma de fios; formas azul, ouro e opalina são comuns.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 15 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Machos adultos são maiores e desenvolvem dorsal mais pontuda; fêmeas tendem a ter ventre mais arredondado.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "81 L é limite inferior; ampliar para adultos. 90 × 30 × 30 cm, cerca de 81 L, é apenas um limite inferior histórico. Adultos de até 15 cm e convivência exigem mais espaço, refúgios e avaliação do comportamento; não use esse volume para vários adultos.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Aquário plantado com cobertura flutuante, áreas livres para nadar e refúgios para animais perseguidos.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Moderada: porte e territorialidade",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Variável; machos podem ser agressivos",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Avaliar território e proporção sexual",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "O temperamento varia entre indivíduos; machos ficam territoriais e agressivos na reprodução. Não presumir adequação a todo comunitário.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Onívoro, consumindo invertebrados, algas e outros materiais. Em aquário aceita alimentos variados apropriados ao porte.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Constrói ninho de bolhas. A reprodução exige filtragem suave, cobertura de superfície e proteção das fêmeas perseguidas.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Fêmeas e subordinados podem ser perseguidos. Observe as interações, preserve barreiras de plantas e separe indivíduos sob agressão persistente.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "Ásia: bacia do Mekong, em China, Laos, Camboja, Tailândia e Vietnã.",
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -84,7 +204,7 @@
         },
         {
           "label": "Classe",
-          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "value": "Actinopteri",
           "referenceIds": ["class"]
         },
         {
@@ -111,126 +231,6 @@
           "label": "Autoridade taxonômica",
           "value": "(Pallas 1770)",
           "referenceIds": ["cof"]
-        },
-        {
-          "label": "Sinônimos científicos",
-          "value": "Literatura de manutenção consultada sob Trichopodus trichopterus; o nome aceito adotado é Trichopodus trichopterus. Consultar o histórico nomenclatural completo na referência taxonômica.",
-          "referenceIds": ["cof", "care"]
-        }
-      ]
-    },
-    {
-      "id": "origem",
-      "fields": [
-        {
-          "label": "Continente e países",
-          "value": "Ásia: bacia do Mekong em China, Laos, Camboja, Tailândia e Vietnã, conforme o Catalog of Fishes. A fonte de manutenção inclui uma distribuição histórica mais ampla; a ocorrência nativa na Indonésia não foi adotada para gerar sugestões geográficas.",
-          "referenceIds": ["care", "cof"]
-        },
-        {
-          "label": "Ambiente natural",
-          "value": "Águas baixas e lentas com vegetação, como lagoas, valas e brejos; pode ocupar áreas inundadas sazonalmente.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "caracteristicas",
-      "fields": [
-        {
-          "label": "Tamanho adulto",
-          "value": "150 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Diferenças entre machos e fêmeas",
-          "value": "Machos adultos são maiores e desenvolvem dorsal mais pontuda; fêmeas tendem a ter ventre mais arredondado.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "agua",
-      "fields": [
-        {
-          "label": "Temperatura em aquário",
-          "value": "24–30 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "pH em aquário",
-          "value": "5.5–8.5; não interpretar os extremos como metas a alternar.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "GH",
-          "value": "3–35 °dGH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "KH",
-          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Substrato e decoração",
-          "value": "Aquário plantado com cobertura flutuante, áreas livres para nadar e refúgios para animais perseguidos.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "criacao",
-      "fields": [
-        {
-          "label": "Volume mínimo e contexto",
-          "value": "A fonte cita 90 × 30 × 30 cm, cerca de 81 L, como referência histórica. Para adultos de até 15 cm e convivência, aumentar espaço conforme território e população, sem usar litros como garantia.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Manutenção específica",
-          "value": "Aquário plantado com cobertura flutuante, áreas livres para nadar e refúgios para animais perseguidos.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "alimentacao",
-      "fields": [
-        {
-          "label": "Alimentos adequados",
-          "value": "Onívoro, consumindo invertebrados, algas e outros materiais. Em aquário aceita alimentos variados apropriados ao porte.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "comportamento",
-      "fields": [
-        {
-          "label": "Comportamento social",
-          "value": "O temperamento varia entre indivíduos; machos ficam territoriais e agressivos na reprodução. Não presumir adequação a todo comunitário.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "reproducao",
-      "fields": [
-        {
-          "label": "Tipo de reprodução",
-          "value": "Constrói ninho de bolhas. A reprodução exige filtragem suave, cobertura de superfície e proteção das fêmeas perseguidas.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "saude",
-      "fields": [
-        {
-          "label": "Problemas de manutenção",
-          "value": "Aquário plantado com cobertura flutuante, áreas livres para nadar e refúgios para animais perseguidos.",
-          "referenceIds": ["care"]
         }
       ]
     },
@@ -238,8 +238,8 @@
       "id": "curiosidades",
       "fields": [
         {
-          "label": "Curiosidades verificadas da espécie",
-          "value": "As formas ouro, opalina e marmorizada são variedades, não novas espécies.",
+          "label": "Você sabia?",
+          "value": "As variedades ouro, opalina e marmorizada pertencem à mesma espécie.",
           "referenceIds": ["care", "cof"]
         }
       ]
@@ -283,5 +283,52 @@
       "referenceIds": ["care", "cof"]
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "24–30 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "5,5–8,5",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "3–35 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 15 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "81 L é limite inferior; ampliar para adultos",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Variável; machos podem ser agressivos",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Avaliar território e proporção sexual",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Onívoro; ração e itens aquáticos variados",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Moderada: porte e territorialidade",
+      "referenceIds": ["care"]
+    }
+  ]
 }

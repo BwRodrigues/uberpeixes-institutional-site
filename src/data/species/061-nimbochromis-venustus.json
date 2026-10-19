@@ -11,7 +11,7 @@
   },
   "sortOrder": 61,
   "scientificName": "Nimbochromis venustus",
-  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "identificationNote": "",
   "description": "O venustus tem manchas que lembram uma girafa e comportamento de predador. Seu porte adulto exige planejamento muito além do tamanho de venda.",
   "photo": {
     "src": "/images/species/nimbochromis-venustus-1.webp",
@@ -53,19 +53,139 @@
       "id": "apresentacao",
       "fields": [
         {
-          "label": "Outros nomes populares",
-          "value": "VENUSTUS M +  VENUSTUS G",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Identificação científica",
-          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "label": "Nome científico",
+          "value": "Nimbochromis venustus",
           "referenceIds": ["cof"]
         },
         {
-          "label": "Introdução",
-          "value": "O venustus tem manchas que lembram uma girafa e comportamento de predador. Seu porte adulto exige planejamento muito além do tamanho de venda.",
+          "label": "Outros nomes e variedades",
+          "value": "Venustus m +  venustus g",
           "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "24–28 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "7,6–8,8",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "10–25 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Águas costeiras relativamente rasas, em setores rochosos e fundos de areia ou lama.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Manchas lembram a pelagem de uma girafa; machos adultos podem desenvolver cabeça azul e amarelo mais intenso.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 25 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Machos tendem a ser maiores e a desenvolver mais azul e amarelo, sobretudo em reprodução.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "Projeto especializado para adultos. Planeje uma instalação ampla para um predador de 25 cm, com áreas livres de natação e refúgios. Não use 205 L como recomendação geral para um adulto ou grupo; a área e a composição da fauna precisam de dimensionamento especializado.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Areia, pedras formando refúgios e amplas áreas livres para nadar. A montagem deve considerar o tamanho adulto, não apenas o juvenil.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Alta: predador grande e territorial",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Predador; machos podem se agredir",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Indivíduo ou grupo reprodutivo planejado",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Predador de peixes pequenos. Machos podem ser agressivos entre si; a fonte descreve indivíduo isolado ou grupo reprodutivo com um macho e várias fêmeas.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Piscívoro na natureza; em cativeiro aceita alimentos apropriados de origem aquática, sem necessidade de peixes vivos como alimento.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Incubação bucal materna, em contexto poligâmico. A formação de um grupo reprodutivo exige aquário próprio e controle de agressividade.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Peixes pequenos podem ser engolidos, e machos podem atacar rivais. Observe apetite, ferimentos e perseguições; evite superlotação e alimentação com peixes vivos de procedência incerta.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "África: endêmico do lago Malawi, com ocorrência em diferentes áreas do lago.",
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -84,7 +204,7 @@
         },
         {
           "label": "Classe",
-          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "value": "Actinopteri",
           "referenceIds": ["class"]
         },
         {
@@ -111,126 +231,6 @@
           "label": "Autoridade taxonômica",
           "value": "(Boulenger 1908)",
           "referenceIds": ["cof"]
-        },
-        {
-          "label": "Sinônimos científicos",
-          "value": "Literatura de manutenção consultada sob Nimbochromis venustus; o nome aceito adotado é Nimbochromis venustus. Consultar o histórico nomenclatural completo na referência taxonômica.",
-          "referenceIds": ["cof", "care"]
-        }
-      ]
-    },
-    {
-      "id": "origem",
-      "fields": [
-        {
-          "label": "Continente e países",
-          "value": "África: endêmico do lago Malawi, com ocorrência em diferentes áreas do lago.",
-          "referenceIds": ["care", "cof"]
-        },
-        {
-          "label": "Ambiente natural",
-          "value": "Águas costeiras relativamente rasas, em setores rochosos e fundos de areia ou lama.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "caracteristicas",
-      "fields": [
-        {
-          "label": "Tamanho adulto",
-          "value": "250 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Diferenças entre machos e fêmeas",
-          "value": "Machos tendem a ser maiores e a desenvolver mais azul e amarelo, sobretudo em reprodução.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "agua",
-      "fields": [
-        {
-          "label": "Temperatura em aquário",
-          "value": "24–28 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "pH em aquário",
-          "value": "7.6–8.8; não interpretar os extremos como metas a alternar.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "GH",
-          "value": "10–25 °dGH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "KH",
-          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Substrato e decoração",
-          "value": "Areia, pedras formando refúgios e amplas áreas livres para nadar. A montagem deve considerar o tamanho adulto, não apenas o juvenil.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "criacao",
-      "fields": [
-        {
-          "label": "Volume mínimo e contexto",
-          "value": "A referência consultada cita 120 × 45 × 38 cm e cerca de 205 L, mas esse limite histórico não é garantia de espaço para um adulto de 25 cm. O projeto definitivo e a lotação requerem revisão especializada; não indicar esse volume para um grupo.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Manutenção específica",
-          "value": "Areia, pedras formando refúgios e amplas áreas livres para nadar. A montagem deve considerar o tamanho adulto, não apenas o juvenil.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "alimentacao",
-      "fields": [
-        {
-          "label": "Alimentos adequados",
-          "value": "Piscívoro na natureza; em cativeiro aceita alimentos apropriados de origem aquática, sem necessidade de peixes vivos como alimento.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "comportamento",
-      "fields": [
-        {
-          "label": "Comportamento social",
-          "value": "Predador de peixes pequenos. Machos podem ser agressivos entre si; a fonte descreve indivíduo isolado ou grupo reprodutivo com um macho e várias fêmeas.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "reproducao",
-      "fields": [
-        {
-          "label": "Tipo de reprodução",
-          "value": "Incubação bucal materna, em contexto poligâmico. A formação de um grupo reprodutivo exige aquário próprio e controle de agressividade.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "saude",
-      "fields": [
-        {
-          "label": "Problemas de manutenção",
-          "value": "Areia, pedras formando refúgios e amplas áreas livres para nadar. A montagem deve considerar o tamanho adulto, não apenas o juvenil.",
-          "referenceIds": ["care"]
         }
       ]
     },
@@ -238,8 +238,8 @@
       "id": "curiosidades",
       "fields": [
         {
-          "label": "Curiosidades verificadas da espécie",
-          "value": "As manchas juvenis não significam que seja um pequeno peixe comunitário: pode alcançar 25 cm de comprimento padrão.",
+          "label": "Você sabia?",
+          "value": "É um predador de emboscada: as manchas de girafa dos juvenis não indicam um pequeno peixe comunitário.",
           "referenceIds": ["care", "cof"]
         }
       ]
@@ -283,5 +283,52 @@
       "referenceIds": ["care", "cof"]
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "24–28 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "7,6–8,8",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "10–25 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 25 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "Projeto especializado para adultos",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Predador; machos podem se agredir",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Indivíduo ou grupo reprodutivo planejado",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Alimentos de origem aquática; piscívoro",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Alta: predador grande e territorial",
+      "referenceIds": ["care"]
+    }
+  ]
 }

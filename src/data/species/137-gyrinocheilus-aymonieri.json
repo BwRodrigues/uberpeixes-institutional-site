@@ -11,7 +11,7 @@
   },
   "sortOrder": 137,
   "scientificName": "Gyrinocheilus aymonieri",
-  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "identificationNote": "",
   "description": "Chamado de comedor-de-algas-chinês, este peixe cresce bastante e pode ficar territorial. Ele precisa de alimentação própria e não substitui a manutenção do aquário.",
   "photo": {
     "src": "/images/species/gyrinocheilus-aymonieri-1.webp",
@@ -53,19 +53,139 @@
       "id": "apresentacao",
       "fields": [
         {
-          "label": "Outros nomes populares",
-          "value": "ALGA EATER ALBINO; ALGA EATER COMUM",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Identificação científica",
-          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "label": "Nome científico",
+          "value": "Gyrinocheilus aymonieri",
           "referenceIds": ["cof"]
         },
         {
-          "label": "Introdução",
-          "value": "Chamado de comedor-de-algas-chinês, este peixe cresce bastante e pode ficar territorial. Ele precisa de alimentação própria e não substitui a manutenção do aquário.",
+          "label": "Outros nomes e variedades",
+          "value": "Alga eater albino; Alga eater comum",
           "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "22–26 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "6,0–8,0",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "2–20 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Córregos e tributários com corrente, pedras e superfícies cobertas de biofilme.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Corpo alongado e boca adaptada a aderir às superfícies; existe variedade albina.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 28 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Fêmeas maduras são mais robustas; machos em reprodução podem apresentar tubérculos no focinho.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "304 L ou mais; planejar um adulto. Base de pelo menos 150 × 45 cm, aproximadamente 304 L. Planeje o adulto de até 28 cm e avalie a convivência no fundo; não acrescente exemplares apenas para remover algas.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Montagem madura, com superfícies para pastagem, abrigos e água limpa e oxigenada. Planejar o porte adulto e observar perseguições a outros peixes de fundo.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Alta: porte e conflitos com outros peixes",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Pode ficar territorial com a idade",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Planejar um adulto e avaliar os peixes de fundo",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Adultos podem ser territoriais e até aderir aos flancos de outros peixes para consumir muco. Evitar introdução indiscriminada em comunitários e competição com outros peixes de fundo.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Pasta biofilme, algas e pequenos organismos; oferecer também vegetais e alimentos apropriados, sem depender apenas das algas do vidro.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Há registros de reprodução comercial com indução hormonal, sem protocolo doméstico comprovado.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Adultos podem aderir aos flancos de outros peixes e causar danos. Observe contatos persistentes, garanta alimentação própria e separe animais em conflito.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "Ásia: Tailândia, Laos, Camboja e Vietnã, nas bacias Mae Klong, Chao Phraya, Mekong e Dong Nai. O nome comercial “chinês” não descreve a origem nativa.",
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -84,7 +204,7 @@
         },
         {
           "label": "Classe",
-          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "value": "Actinopteri",
           "referenceIds": ["class"]
         },
         {
@@ -111,126 +231,6 @@
           "label": "Autoridade taxonômica",
           "value": "(Tirant 1884)",
           "referenceIds": ["cof"]
-        },
-        {
-          "label": "Sinônimos científicos",
-          "value": "Literatura de manutenção consultada sob Gyrinocheilus aymonieri; o nome aceito adotado é Gyrinocheilus aymonieri. Consultar o histórico nomenclatural completo na referência taxonômica.",
-          "referenceIds": ["cof", "care"]
-        }
-      ]
-    },
-    {
-      "id": "origem",
-      "fields": [
-        {
-          "label": "Continente e países",
-          "value": "Ásia: Tailândia, Laos, Camboja e Vietnã, nas bacias Mae Klong, Chao Phraya, Mekong e Dong Nai. O nome comercial “chinês” não descreve a origem nativa.",
-          "referenceIds": ["care", "cof"]
-        },
-        {
-          "label": "Ambiente natural",
-          "value": "Córregos e tributários com corrente, pedras e superfícies cobertas de biofilme.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "caracteristicas",
-      "fields": [
-        {
-          "label": "Tamanho adulto",
-          "value": "280 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Diferenças entre machos e fêmeas",
-          "value": "Fêmeas maduras são mais robustas; machos em reprodução podem apresentar tubérculos no focinho.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "agua",
-      "fields": [
-        {
-          "label": "Temperatura em aquário",
-          "value": "22–26 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "pH em aquário",
-          "value": "6.0–8.0; não interpretar os extremos como metas a alternar.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "GH",
-          "value": "2–20 °dGH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "KH",
-          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Substrato e decoração",
-          "value": "Montagem madura, com superfícies para pastagem, abrigos e água limpa e oxigenada. Planejar o porte adulto e observar perseguições a outros peixes de fundo.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "criacao",
-      "fields": [
-        {
-          "label": "Volume mínimo e contexto",
-          "value": "Base mínima de 150 × 45 cm, aproximadamente 304 L na fonte. Considerar até 28 cm de comprimento padrão e não usar o mínimo para grupo ou convivência sem planejamento.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Manutenção específica",
-          "value": "Montagem madura, com superfícies para pastagem, abrigos e água limpa e oxigenada. Planejar o porte adulto e observar perseguições a outros peixes de fundo.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "alimentacao",
-      "fields": [
-        {
-          "label": "Alimentos adequados",
-          "value": "Pasta biofilme, algas e pequenos organismos; oferecer também vegetais e alimentos apropriados, sem depender apenas das algas do vidro.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "comportamento",
-      "fields": [
-        {
-          "label": "Comportamento social",
-          "value": "Adultos podem ser territoriais e até aderir aos flancos de outros peixes para consumir muco. Evitar introdução indiscriminada em comunitários e competição com outros peixes de fundo.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "reproducao",
-      "fields": [
-        {
-          "label": "Tipo de reprodução",
-          "value": "A fonte relata reprodução comercial com indução hormonal, sem protocolo doméstico comprovado.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "saude",
-      "fields": [
-        {
-          "label": "Problemas de manutenção",
-          "value": "Montagem madura, com superfícies para pastagem, abrigos e água limpa e oxigenada. Planejar o porte adulto e observar perseguições a outros peixes de fundo.",
-          "referenceIds": ["care"]
         }
       ]
     },
@@ -238,8 +238,8 @@
       "id": "curiosidades",
       "fields": [
         {
-          "label": "Curiosidades verificadas da espécie",
-          "value": "A forma albina é agrupada com a comum; a função comercial de “limpador” não elimina suas necessidades alimentares e territoriais.",
+          "label": "Você sabia?",
+          "value": "Apesar do nome comedor-de-algas-chinês, a origem nativa é em drenagens do sudeste asiático.",
           "referenceIds": ["care", "cof"]
         }
       ]
@@ -283,5 +283,52 @@
       "referenceIds": ["care", "cof"]
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "22–26 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "6,0–8,0",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "2–20 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 28 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "304 L ou mais; planejar um adulto",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Pode ficar territorial com a idade",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Planejar um adulto e avaliar os peixes de fundo",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Ração, vegetais e biofilme; não só algas",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Alta: porte e conflitos com outros peixes",
+      "referenceIds": ["care"]
+    }
+  ]
 }

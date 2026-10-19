@@ -11,7 +11,7 @@
   },
   "sortOrder": 66,
   "scientificName": "Thorichthys meeki",
-  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "identificationNote": "",
   "description": "O boca-de-fogo destaca a parte inferior avermelhada da cabeça em suas exibições. Explora o fundo e precisa de espaço para os territórios reprodutivos.",
   "photo": {
     "src": "/images/species/thorichthys-meeki-1.webp",
@@ -53,19 +53,134 @@
       "id": "apresentacao",
       "fields": [
         {
-          "label": "Outros nomes populares",
-          "value": "ACARÁ BOCA DE FOGO G",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Identificação científica",
-          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "label": "Nome científico",
+          "value": "Thorichthys meeki",
           "referenceIds": ["cof"]
         },
         {
-          "label": "Introdução",
-          "value": "O boca-de-fogo destaca a parte inferior avermelhada da cabeça em suas exibições. Explora o fundo e precisa de espaço para os territórios reprodutivos.",
+          "label": "Outros nomes e variedades",
+          "value": "Acará boca de fogo g",
           "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "20–32 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "6,5–8,5",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "2–15 °dGH",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Garganta vermelha ou alaranjada, corpo comprimido e marcas escuras; machos adultos costumam ser maiores.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 12 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Machos adultos geralmente são maiores, mais coloridos e têm prolongamentos maiores nas nadadeiras dorsal e anal.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "108 L apenas para casal; ampliar para grupo. Base de 120 × 30 cm, cerca de 108 L, apenas para um casal em montagem específica. Um grupo de oito ou mais e qualquer comunitário precisam de espaço substancialmente maior.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Areia macia, rochas lisas e raízes criando refúgios e barreiras visuais. Priorizar qualidade da água e estabilidade da montagem.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Moderada: espaço para territórios",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Territorial na reprodução",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Casal; grupo somente em grande instalação",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Territorial ao reproduzir e capaz de comer peixes muito pequenos. Fora da desova tende a ser gregário; a fonte descreve grupos de oito ou mais em aquários suficientemente grandes.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Onívoro bentófago: peneira substrato procurando pequenos crustáceos e outros itens. Oferecer rações de granulação adequada e complementos vivos ou congelados.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Desova sobre substrato e apresenta cuidado biparental. Casais precisam de território, superfície de desova e acompanhamento da agressividade.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Substrato áspero prejudica a procura de alimento; use areia macia. Na desova, acompanhe as perseguições e preserve rotas de fuga, sem permitir que um peixe fique acuado.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "América do Norte, porção mesoamericana: México, norte de Belize e Guatemala, com populações introduzidas em outros locais.",
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -84,7 +199,7 @@
         },
         {
           "label": "Classe",
-          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "value": "Actinopteri",
           "referenceIds": ["class"]
         },
         {
@@ -111,126 +226,6 @@
           "label": "Autoridade taxonômica",
           "value": "Brind 1918",
           "referenceIds": ["cof"]
-        },
-        {
-          "label": "Sinônimos científicos",
-          "value": "Literatura de manutenção consultada sob Thorichthys meeki; o nome aceito adotado é Thorichthys meeki. Consultar o histórico nomenclatural completo na referência taxonômica.",
-          "referenceIds": ["cof", "care"]
-        }
-      ]
-    },
-    {
-      "id": "origem",
-      "fields": [
-        {
-          "label": "Continente e países",
-          "value": "América do Norte, porção mesoamericana: México, norte de Belize e Guatemala, com populações introduzidas em outros locais.",
-          "referenceIds": ["care", "cof"]
-        },
-        {
-          "label": "Ambiente natural",
-          "value": "Lagoas, cenotes, córregos e águas rasas paradas ou de fluxo moderado; a fonte registra variação de clareza e substrato.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "caracteristicas",
-      "fields": [
-        {
-          "label": "Tamanho adulto",
-          "value": "120 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Diferenças entre machos e fêmeas",
-          "value": "Machos adultos geralmente são maiores, mais coloridos e têm prolongamentos maiores nas nadadeiras dorsal e anal.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "agua",
-      "fields": [
-        {
-          "label": "Temperatura em aquário",
-          "value": "20–32 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "pH em aquário",
-          "value": "6.5–8.5; não interpretar os extremos como metas a alternar.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "GH",
-          "value": "2–15 °dGH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "KH",
-          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Substrato e decoração",
-          "value": "Areia macia, rochas lisas e raízes criando refúgios e barreiras visuais. Priorizar qualidade da água e estabilidade da montagem.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "criacao",
-      "fields": [
-        {
-          "label": "Volume mínimo e contexto",
-          "value": "Base de 120 × 30 cm é citada apenas para um casal. Os cerca de 108 L apresentados na fonte não servem para o grupo de oito ou um comunitário; nesses casos dimensionar aquário substancialmente maior.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Manutenção específica",
-          "value": "Areia macia, rochas lisas e raízes criando refúgios e barreiras visuais. Priorizar qualidade da água e estabilidade da montagem.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "alimentacao",
-      "fields": [
-        {
-          "label": "Alimentos adequados",
-          "value": "Onívoro bentófago: peneira substrato procurando pequenos crustáceos e outros itens. Oferecer rações de granulação adequada e complementos vivos ou congelados.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "comportamento",
-      "fields": [
-        {
-          "label": "Comportamento social",
-          "value": "Territorial ao reproduzir e capaz de comer peixes muito pequenos. Fora da desova tende a ser gregário; a fonte descreve grupos de oito ou mais em aquários suficientemente grandes.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "reproducao",
-      "fields": [
-        {
-          "label": "Tipo de reprodução",
-          "value": "Desova sobre substrato e apresenta cuidado biparental. Casais precisam de território, superfície de desova e acompanhamento da agressividade.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "saude",
-      "fields": [
-        {
-          "label": "Problemas de manutenção",
-          "value": "Areia macia, rochas lisas e raízes criando refúgios e barreiras visuais. Priorizar qualidade da água e estabilidade da montagem.",
-          "referenceIds": ["care"]
         }
       ]
     },
@@ -238,8 +233,8 @@
       "id": "curiosidades",
       "fields": [
         {
-          "label": "Curiosidades verificadas da espécie",
-          "value": "O nome popular faz referência à coloração vermelha ou alaranjada da parte inferior da cabeça, mais evidente em adultos.",
+          "label": "Você sabia?",
+          "value": "O boca-de-fogo exibe a região inferior avermelhada da cabeça durante interações territoriais.",
           "referenceIds": ["care", "cof"]
         }
       ]
@@ -283,5 +278,52 @@
       "referenceIds": ["care", "cof"]
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "20–32 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "6,5–8,5",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "2–15 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 12 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "108 L apenas para casal; ampliar para grupo",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Territorial na reprodução",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Casal; grupo somente em grande instalação",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Ração de fundo e pequenos invertebrados",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Moderada: espaço para territórios",
+      "referenceIds": ["care"]
+    }
+  ]
 }

@@ -532,6 +532,506 @@
           "author": "GBIF"
         }
       ]
+    },
+    "chindongo-socolofi": {
+      "file": "src/data/species/060-chindongo-socolofi.json",
+      "beforeSha256": "d3892fd38f21a3ee9b6c603d9625a023dc752f7d0ecb81a8a8fdf799d1a73882",
+      "afterSha256": "249f51bc87025e2846e168a060bc3068c2328dc79364985675e1ca866997b970",
+      "batch": 2,
+      "decision": "Parâmetros e taxonomia preservados após conferência individual; conteúdo organizado e reescrito com orientações de espaço, sociabilidade, alimentação e prevenção específicas.",
+      "unverified": [
+        "KH específico de manutenção não documentado; omitido, sem derivar de GH.",
+        "Dificuldade é síntese editorial das exigências descritas, não escala científica padronizada."
+      ],
+      "references": [
+        {
+          "id": "cof",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=61146",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "class",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "care",
+          "url": "https://www.seriouslyfish.com/species/chindongo-socolofi/",
+          "author": "Seriously Fish"
+        },
+        {
+          "id": "gbif",
+          "url": "https://api.gbif.org/v1/species/match?name=Chindongo%20socolofi",
+          "author": "GBIF"
+        }
+      ]
+    },
+    "nimbochromis-venustus": {
+      "file": "src/data/species/061-nimbochromis-venustus.json",
+      "beforeSha256": "c86744aa1464aa89ebce5334246388ffb4417e782d5978db08ad42870cc6d126",
+      "afterSha256": "bd5f295c3b394302380e66e69502be34985548866987b31f30a9ea0336136531",
+      "batch": 2,
+      "decision": "Retirados 205 L como recomendação geral. O limite histórico não é apresentado como mínimo seguro para adultos/grupos; dimensionamento específico permanece necessário.",
+      "unverified": [
+        "KH específico de manutenção não documentado; omitido, sem derivar de GH.",
+        "Dificuldade é síntese editorial das exigências descritas, não escala científica padronizada.",
+        "Dimensionamento final de adultos/grupos requer projeto específico; não foi inventado novo mínimo numérico."
+      ],
+      "references": [
+        {
+          "id": "cof",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=37995",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "class",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "care",
+          "url": "https://www.seriouslyfish.com/species/nimbochromis-venustus/",
+          "author": "Seriously Fish"
+        },
+        {
+          "id": "gbif",
+          "url": "https://api.gbif.org/v1/species/match?name=Nimbochromis%20venustus",
+          "author": "GBIF"
+        }
+      ]
+    },
+    "maylandia-estherae": {
+      "file": "src/data/species/063-maylandia-estherae.json",
+      "beforeSha256": "35865e1b316d8b0be81ef45a55bf6cb6779e7dc74b72dce11973e0de11fab2e5",
+      "afterSha256": "b2ab2b521186c0e327d689acacc18d742230254b563f267525e3de4b31e19a80",
+      "batch": 2,
+      "decision": "137 L deixa de aparecer como recomendação suficiente para grupo adulto; mantido somente como limite histórico rejeitado para essa finalidade.",
+      "unverified": [
+        "KH específico de manutenção não documentado; omitido, sem derivar de GH.",
+        "Dificuldade é síntese editorial das exigências descritas, não escala científica padronizada.",
+        "Dimensionamento final de adultos/grupos requer projeto específico; não foi inventado novo mínimo numérico."
+      ],
+      "references": [
+        {
+          "id": "cof",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=62465",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "class",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "care",
+          "url": "https://www.seriouslyfish.com/species/maylandia-estherae/",
+          "author": "Seriously Fish"
+        },
+        {
+          "id": "gbif",
+          "url": "https://api.gbif.org/v1/species/match?name=Maylandia%20estherae",
+          "author": "GBIF"
+        }
+      ]
+    },
+    "pterophyllum-scalare": {
+      "file": "src/data/species/065-pterophyllum-scalare.json",
+      "beforeSha256": "2d52c327bd53fc444658b081e5cfe3e0b0236780cd9916808bd108e028f0ba5f",
+      "afterSha256": "a3d13df8b656b45305324fbb06e77745d705dd8c99c904cdf8b540494a9c4849",
+      "batch": 2,
+      "decision": "Micro-habitat natural insuficientemente descrito não foi preenchido por inferência. Altura de 50 cm e necessidade de espaço para casais explicitadas.",
+      "unverified": [
+        "KH específico de manutenção não documentado; omitido, sem derivar de GH.",
+        "Dificuldade é síntese editorial das exigências descritas, não escala científica padronizada."
+      ],
+      "references": [
+        {
+          "id": "cof",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=38425",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "class",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "care",
+          "url": "https://www.seriouslyfish.com/species/pterophyllum-scalare/",
+          "author": "Seriously Fish"
+        },
+        {
+          "id": "gbif",
+          "url": "https://api.gbif.org/v1/species/match?name=Pterophyllum%20scalare",
+          "author": "GBIF"
+        }
+      ]
+    },
+    "thorichthys-meeki": {
+      "file": "src/data/species/066-thorichthys-meeki.json",
+      "beforeSha256": "d9fcfa405a89823ac40ccd8574165be651a398f7a6fb9bfc67f35534ae6b3409",
+      "afterSha256": "fe662539ae8e405c197ee6369fd064847e284148a2a37b0a60d1ac0890f445b0",
+      "batch": 2,
+      "decision": "Parâmetros e taxonomia preservados após conferência individual; conteúdo organizado e reescrito com orientações de espaço, sociabilidade, alimentação e prevenção específicas.",
+      "unverified": [
+        "KH específico de manutenção não documentado; omitido, sem derivar de GH.",
+        "Dificuldade é síntese editorial das exigências descritas, não escala científica padronizada."
+      ],
+      "references": [
+        {
+          "id": "cof",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=16452",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "class",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "care",
+          "url": "https://www.seriouslyfish.com/species/thorichthys-meeki/",
+          "author": "Seriously Fish"
+        },
+        {
+          "id": "gbif",
+          "url": "https://api.gbif.org/v1/species/match?name=Thorichthys%20meeki",
+          "author": "GBIF"
+        }
+      ]
+    },
+    "andinoacara-rivulatus": {
+      "file": "src/data/species/073-andinoacara-rivulatus.json",
+      "beforeSha256": "1d973ed753ecf6498f252c823a3002ee84a4e235497bbb58010d9cc0c7212973",
+      "afterSha256": "b313e42e233859285871a45c226868047519291f91148641801642544f0603d6",
+      "batch": 2,
+      "decision": "Parâmetros e taxonomia preservados após conferência individual; conteúdo organizado e reescrito com orientações de espaço, sociabilidade, alimentação e prevenção específicas.",
+      "unverified": [
+        "KH específico de manutenção não documentado; omitido, sem derivar de GH.",
+        "Dificuldade é síntese editorial das exigências descritas, não escala científica padronizada."
+      ],
+      "references": [
+        {
+          "id": "cof",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=39041",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "class",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "care",
+          "url": "https://www.seriouslyfish.com/species/andinoacara-rivulatus/",
+          "author": "Seriously Fish"
+        },
+        {
+          "id": "gbif",
+          "url": "https://api.gbif.org/v1/species/match?name=Andinoacara%20rivulatus",
+          "author": "GBIF"
+        }
+      ]
+    },
+    "acarichthys-heckelii": {
+      "file": "src/data/species/075-acarichthys-heckelii.json",
+      "beforeSha256": "c112b3e6169b258b8495fb4ce0ab358b3d5be8481d75ce0a40eb8d676cdda7b1",
+      "afterSha256": "da0b3d35dcb213ddd63c069816c946b1ae08749dea8ad122fa24ab1aad954c7c",
+      "batch": 2,
+      "decision": "Sem mínimo numérico em litros: a base de 150 × 45 cm para casal foi mantida, sem inventar altura ou volume. Grupo exige muito mais espaço.",
+      "unverified": [
+        "KH específico de manutenção não documentado; omitido, sem derivar de GH.",
+        "Dificuldade é síntese editorial das exigências descritas, não escala científica padronizada.",
+        "Dimensionamento final de adultos/grupos requer projeto específico; não foi inventado novo mínimo numérico."
+      ],
+      "references": [
+        {
+          "id": "cof",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=21290",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "class",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "care",
+          "url": "https://www.seriouslyfish.com/species/acarichthys-heckelii/",
+          "author": "Seriously Fish"
+        },
+        {
+          "id": "gbif",
+          "url": "https://api.gbif.org/v1/species/match?name=Acarichthys%20heckelii",
+          "author": "GBIF"
+        }
+      ]
+    },
+    "astronotus-ocellatus": {
+      "file": "src/data/species/076-astronotus-ocellatus.json",
+      "beforeSha256": "46d29943c66136c746d0173db1b9c790a23f155d60bd74f8b9195f23265457fe",
+      "afterSha256": "afc34d172630fef320dd6cf8bb2a5222045d32473f8615ac87743a24418dbe3e",
+      "batch": 2,
+      "decision": "Parâmetros e taxonomia preservados após conferência individual; conteúdo organizado e reescrito com orientações de espaço, sociabilidade, alimentação e prevenção específicas.",
+      "unverified": [
+        "KH específico de manutenção não documentado; omitido, sem derivar de GH.",
+        "Dificuldade é síntese editorial das exigências descritas, não escala científica padronizada."
+      ],
+      "references": [
+        {
+          "id": "cof",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=19918",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "class",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "care",
+          "url": "https://www.seriouslyfish.com/species/astronotus-ocellatus/",
+          "author": "Seriously Fish"
+        },
+        {
+          "id": "gbif",
+          "url": "https://api.gbif.org/v1/species/match?name=Astronotus%20ocellatus",
+          "author": "GBIF"
+        }
+      ]
+    },
+    "mikrogeophagus-ramirezi": {
+      "file": "src/data/species/090-mikrogeophagus-ramirezi.json",
+      "beforeSha256": "5c6231cc84cdba6ab7606efb976d8e4c1555f0f34b85d7648c950825ab77c204",
+      "afterSha256": "2e7a53d3970d679a5ae89e5bfe7a542f90b76c91b8b542664538233a0b987e35",
+      "batch": 2,
+      "decision": "Parâmetros e taxonomia preservados após conferência individual; conteúdo organizado e reescrito com orientações de espaço, sociabilidade, alimentação e prevenção específicas.",
+      "unverified": [
+        "KH específico de manutenção não documentado; omitido, sem derivar de GH.",
+        "Dificuldade é síntese editorial das exigências descritas, não escala científica padronizada."
+      ],
+      "references": [
+        {
+          "id": "cof",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=22062",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "class",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "care",
+          "url": "https://www.seriouslyfish.com/species/mikrogeophagus-ramirezi/",
+          "author": "Seriously Fish"
+        },
+        {
+          "id": "gbif",
+          "url": "https://api.gbif.org/v1/species/match?name=Mikrogeophagus%20ramirezi",
+          "author": "GBIF"
+        }
+      ]
+    },
+    "trichogaster-chuna": {
+      "file": "src/data/species/127-trichogaster-chuna.json",
+      "beforeSha256": "16775e0386e1269c896914973ac6df65b13f7ff76a9bb1504082485a4272772c",
+      "afterSha256": "1b486f0511f927b3ee750919a6e7eeac22015e236050802a85efff43e615b3db",
+      "batch": 2,
+      "decision": "Parâmetros e taxonomia preservados após conferência individual; conteúdo organizado e reescrito com orientações de espaço, sociabilidade, alimentação e prevenção específicas.",
+      "unverified": [
+        "KH específico de manutenção não documentado; omitido, sem derivar de GH.",
+        "Dificuldade é síntese editorial das exigências descritas, não escala científica padronizada."
+      ],
+      "references": [
+        {
+          "id": "cof",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=41983",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "class",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "care",
+          "url": "https://www.seriouslyfish.com/species/trichogaster-chuna/",
+          "author": "Seriously Fish"
+        },
+        {
+          "id": "gbif",
+          "url": "https://api.gbif.org/v1/species/match?name=Trichogaster%20chuna",
+          "author": "GBIF"
+        }
+      ]
+    },
+    "macropodus-opercularis": {
+      "file": "src/data/species/131-macropodus-opercularis.json",
+      "beforeSha256": "1a5aa8ac786413eb6343353eb54e86f22df046cdaf28026f3313d0033dfef686",
+      "afterSha256": "c2e8d3b80962dbc7ffc647cfd6dd873d3629e7a678eb997eac4ee3b91b8e504e",
+      "batch": 2,
+      "decision": "Parâmetros e taxonomia preservados após conferência individual; conteúdo organizado e reescrito com orientações de espaço, sociabilidade, alimentação e prevenção específicas.",
+      "unverified": [
+        "KH específico de manutenção não documentado; omitido, sem derivar de GH.",
+        "Dificuldade é síntese editorial das exigências descritas, não escala científica padronizada."
+      ],
+      "references": [
+        {
+          "id": "cof",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=19461",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "class",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "care",
+          "url": "https://www.seriouslyfish.com/species/macropodus-opercularis/",
+          "author": "Seriously Fish"
+        },
+        {
+          "id": "gbif",
+          "url": "https://api.gbif.org/v1/species/match?name=Macropodus%20opercularis",
+          "author": "GBIF"
+        }
+      ]
+    },
+    "trichopodus-trichopterus": {
+      "file": "src/data/species/134-trichopodus-trichopterus.json",
+      "beforeSha256": "aebd931964b55335b5b24b7f64b1eb059a800182dca19f553eb1a90ad7a6037f",
+      "afterSha256": "60d205bfb040bbbed9df7b7c590fbd9591a84684c0f0aaf9f10e46ed880fc341",
+      "batch": 2,
+      "decision": "81 L explicitados como limite inferior histórico; adultos/grupos requerem projeto maior. Distribuição atual no Mekong mantida, sem atribuir Indonésia para gerar sugestões.",
+      "unverified": [
+        "KH específico de manutenção não documentado; omitido, sem derivar de GH.",
+        "Dificuldade é síntese editorial das exigências descritas, não escala científica padronizada.",
+        "Dimensionamento final de adultos/grupos requer projeto específico; não foi inventado novo mínimo numérico."
+      ],
+      "references": [
+        {
+          "id": "cof",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=42008",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "class",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "care",
+          "url": "https://www.seriouslyfish.com/species/trichopodus-trichopterus/",
+          "author": "Seriously Fish"
+        },
+        {
+          "id": "gbif",
+          "url": "https://api.gbif.org/v1/species/match?name=Trichopodus%20trichopterus",
+          "author": "GBIF"
+        }
+      ]
+    },
+    "trichopodus-leerii": {
+      "file": "src/data/species/135-trichopodus-leerii.json",
+      "beforeSha256": "1719d4333cf3614655549a5cbfd1d2b1b7f552e3cfedae191b0db725c16c79a7",
+      "afterSha256": "886ef182c9c54271682d3d7be17f9c863b285e4eaee6655efa78e72eaf1633a3",
+      "batch": 2,
+      "decision": "81 L mantidos apenas como limite inferior; grupos e convivência precisam de mais espaço.",
+      "unverified": [
+        "KH específico de manutenção não documentado; omitido, sem derivar de GH.",
+        "Dificuldade é síntese editorial das exigências descritas, não escala científica padronizada.",
+        "Dimensionamento final de adultos/grupos requer projeto específico; não foi inventado novo mínimo numérico."
+      ],
+      "references": [
+        {
+          "id": "cof",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=19476",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "class",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "care",
+          "url": "https://www.seriouslyfish.com/species/trichopodus-leerii/",
+          "author": "Seriously Fish"
+        },
+        {
+          "id": "gbif",
+          "url": "https://api.gbif.org/v1/species/match?name=Trichopodus%20leerii",
+          "author": "GBIF"
+        }
+      ]
+    },
+    "gyrinocheilus-aymonieri": {
+      "file": "src/data/species/137-gyrinocheilus-aymonieri.json",
+      "beforeSha256": "8a8e6aeb6fc3f08882bb5e5113ecc5c3b1a600121ea1ecb6125d6b48816d40db",
+      "afterSha256": "1d54a8c30bb30ac91371f87fd336f42d47e50aac0ca320cbefe10bb692884ce3",
+      "batch": 2,
+      "decision": "Parâmetros e taxonomia preservados após conferência individual; conteúdo organizado e reescrito com orientações de espaço, sociabilidade, alimentação e prevenção específicas.",
+      "unverified": [
+        "KH específico de manutenção não documentado; omitido, sem derivar de GH.",
+        "Dificuldade é síntese editorial das exigências descritas, não escala científica padronizada."
+      ],
+      "references": [
+        {
+          "id": "cof",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=53563",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "class",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "care",
+          "url": "https://www.seriouslyfish.com/species/gyrinocheilus-aymonieri/",
+          "author": "Seriously Fish"
+        },
+        {
+          "id": "gbif",
+          "url": "https://api.gbif.org/v1/species/match?name=Gyrinocheilus%20aymonieri",
+          "author": "GBIF"
+        }
+      ]
+    },
+    "hoplisoma-schwartzi": {
+      "file": "src/data/species/140-hoplisoma-schwartzi.json",
+      "beforeSha256": "c67f18beb71f6576aecc05eff05e7252e20d0f25288c53af45d25e30b9c18281",
+      "afterSha256": "511f9ada9425a8500ee0cf53abac9478e7eeaeace1fd27052abcac8b0aa3fe1c",
+      "batch": 2,
+      "decision": "Hoplisoma schwartzi e origem no Purus preservados. Não copiar instruções genéricas para qualquer Corydoras; 22–24 °C e fundo limpo destacados.",
+      "unverified": [
+        "KH específico de manutenção não documentado; omitido, sem derivar de GH.",
+        "Dificuldade é síntese editorial das exigências descritas, não escala científica padronizada."
+      ],
+      "references": [
+        {
+          "id": "cof",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=4905",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "class",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "care",
+          "url": "https://www.seriouslyfish.com/species/corydoras-schwartzi/",
+          "author": "Seriously Fish"
+        },
+        {
+          "id": "gbif",
+          "url": "https://api.gbif.org/v1/species/match?name=Corydoras%20schwartzi",
+          "author": "GBIF"
+        }
+      ]
     }
   }
 }
