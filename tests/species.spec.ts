@@ -90,9 +90,9 @@ test("each generated profile has the correct identity, inquiry, metadata, refere
     await expect(page.locator(".species-hero .scientific-name i")).toHaveText(
       entry.scientific,
     );
-    await expect(page.locator(".commercial-name")).toContainText(
-      entry.commercial,
-    );
+    await expect(
+      page.locator(".identification-note, .profile-guidance, .commercial-name"),
+    ).toHaveCount(0);
     await expect(page.locator("header .brand-logo")).toBeVisible();
     await expect(page.locator(".photo-changes")).toHaveCount(0);
     await expect(
@@ -226,7 +226,7 @@ test("each generated profile has the correct identity, inquiry, metadata, refere
     await expect(suggestions).toHaveCount(3);
     await expect(
       page.getByRole("heading", {
-        name: "Conheça outras espécies",
+        name: "Espécies relacionadas",
         exact: true,
       }),
     ).toHaveCount(1);
@@ -332,7 +332,7 @@ test("all scientific fields are server rendered and native accordions work witho
       const initial = await page.evaluate((html) => {
         const doc = new DOMParser().parseFromString(html, "text/html");
         return {
-          open: [...doc.querySelectorAll("details[open]")].map(
+          open: [...doc.querySelectorAll(".profile-section[open]")].map(
             (element) => element.id,
           ),
           fields: [...doc.querySelectorAll(".profile-field-value")].map(
@@ -345,7 +345,7 @@ test("all scientific fields are server rendered and native accordions work witho
           subheadings: doc.querySelectorAll(".profile-field > h3").length,
         };
       }, initialHTML);
-      expect(initial.open).toEqual(["apresentacao", "classificacao", "agua"]);
+      expect(initial.open).toEqual(["apresentacao", "agua", "criacao"]);
       expect(initial.h1).toBe(1);
       expect(initial.sectionHeadings).toBe(11);
       const fields = source.sections.flatMap((section) => section.fields);
@@ -363,7 +363,7 @@ test("all scientific fields are server rendered and native accordions work witho
             (element) => element.closest("details:not([open])") === null,
           ),
       ).toBe(true);
-      const closed = page.locator("#criacao");
+      const closed = page.locator("#alimentacao");
       await expect(closed).not.toHaveAttribute("open");
       const summary = closed.locator("summary");
       await summary.focus();
@@ -392,6 +392,11 @@ test("section navigation reveals and focuses closed scientific sections", async 
   await page.goto("/especies/peixe-agulhinha/");
   const section = page.locator("#reproducao");
   await expect(section).not.toHaveAttribute("open");
+  await page
+    .locator(".profile-navigation")
+    .evaluate((element: HTMLDetailsElement) => {
+      element.open = true;
+    });
   await page
     .getByRole("navigation", { name: "Seções da ficha" })
     .getByRole("link", { name: "Reprodução", exact: true })

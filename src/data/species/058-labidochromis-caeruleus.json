@@ -11,7 +11,7 @@
   },
   "sortOrder": 58,
   "scientificName": "Labidochromis caeruleus",
-  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "identificationNote": "",
   "description": "O labidochromis yellow é conhecido pelo amarelo intenso de uma de suas formas. Embora relativamente tranquilo para um mbuna, ainda precisa de água dura e territórios bem organizados.",
   "photo": {
     "src": "/images/species/labidochromis-caeruleus-1.webp",
@@ -53,19 +53,139 @@
       "id": "apresentacao",
       "fields": [
         {
-          "label": "Outros nomes populares",
-          "value": "LABIDOCHROMIS SUPER YELLOW M",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Identificação científica",
-          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "label": "Nome científico",
+          "value": "Labidochromis caeruleus",
           "referenceIds": ["cof"]
         },
         {
-          "label": "Introdução",
-          "value": "O labidochromis yellow é conhecido pelo amarelo intenso de uma de suas formas. Embora relativamente tranquilo para um mbuna, ainda precisa de água dura e territórios bem organizados.",
+          "label": "Outros nomes e variedades",
+          "value": "Labidochromis super yellow m",
           "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "24–28 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "7,7–8,6",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "10–25 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Áreas rochosas e também bancos de Vallisneria.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "A forma electric yellow é amarela com marcas pretas nas nadadeiras; há populações naturais brancas e azuladas.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 10 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Machos tendem a ser maiores e mais coloridos na reprodução; quantidade de preto nas nadadeiras não é método conclusivo.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "154 L ou mais; grupo planejado. Aquário de pelo menos 90 × 45 × 38 cm, aproximadamente 154 L. Aumente o espaço para mais territórios, grupos reprodutivos e outras espécies.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Montar cavernas entre rochas estáveis, com areia e áreas abertas. Observar perseguições e disponibilizar refúgios para as fêmeas.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Moderada: água dura e refúgios",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Relativamente calmo para um mbuna",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Várias fêmeas por macho",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Pode formar grupos, mas fica territorial ao reproduzir. Manter várias fêmeas para cada macho e evitar mistura indiscriminada de variedades ou congêneres, devido ao risco de hibridação.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Ofereça rações com participação vegetal, complementadas por alimentos vivos ou congelados; variar a dieta.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Incubador bucal materno. Para reprodução dirigida, a fonte descreve um macho e pelo menos três fêmeas em aquário específico.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Mesmo um mbuna mais tranquilo pode perseguir fêmeas na reprodução. Confira acesso a abrigo e alimento, mantenha as rochas firmes e evite variações bruscas de química.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "África: norte do lago Malawi. A forma electric yellow tem distribuição natural mais restrita entre Charo e Lion’s Cove.",
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -84,7 +204,7 @@
         },
         {
           "label": "Classe",
-          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "value": "Actinopteri",
           "referenceIds": ["class"]
         },
         {
@@ -111,126 +231,6 @@
           "label": "Autoridade taxonômica",
           "value": "Fryer 1956",
           "referenceIds": ["cof"]
-        },
-        {
-          "label": "Sinônimos científicos",
-          "value": "Literatura de manutenção consultada sob Labidochromis caeruleus; o nome aceito adotado é Labidochromis caeruleus. Consultar o histórico nomenclatural completo na referência taxonômica.",
-          "referenceIds": ["cof", "care"]
-        }
-      ]
-    },
-    {
-      "id": "origem",
-      "fields": [
-        {
-          "label": "Continente e países",
-          "value": "África: norte do lago Malawi. A forma electric yellow tem distribuição natural mais restrita entre Charo e Lion’s Cove.",
-          "referenceIds": ["care", "cof"]
-        },
-        {
-          "label": "Ambiente natural",
-          "value": "Áreas rochosas e também bancos de Vallisneria.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "caracteristicas",
-      "fields": [
-        {
-          "label": "Tamanho adulto",
-          "value": "100 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Diferenças entre machos e fêmeas",
-          "value": "Machos tendem a ser maiores e mais coloridos na reprodução; quantidade de preto nas nadadeiras não é método conclusivo.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "agua",
-      "fields": [
-        {
-          "label": "Temperatura em aquário",
-          "value": "24–28 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "pH em aquário",
-          "value": "7.7–8.6; não interpretar os extremos como metas a alternar.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "GH",
-          "value": "10–25 °dGH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "KH",
-          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Substrato e decoração",
-          "value": "Montar cavernas entre rochas estáveis, com areia e áreas abertas. Observar perseguições e disponibilizar refúgios para as fêmeas.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "criacao",
-      "fields": [
-        {
-          "label": "Volume mínimo e contexto",
-          "value": "A referência de manutenção é 90 × 45 × 38 cm, aproximadamente 154 L. Grupos maiores e comunitários exigem mais espaço e planejamento de territórios; a fonte usa aquário maior para reprodução.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Manutenção específica",
-          "value": "Montar cavernas entre rochas estáveis, com areia e áreas abertas. Observar perseguições e disponibilizar refúgios para as fêmeas.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "alimentacao",
-      "fields": [
-        {
-          "label": "Alimentos adequados",
-          "value": "A ficha consultada recomenda rações com participação vegetal, complementadas por alimentos vivos ou congelados; variar a dieta.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "comportamento",
-      "fields": [
-        {
-          "label": "Comportamento social",
-          "value": "Pode formar grupos, mas fica territorial ao reproduzir. Manter várias fêmeas para cada macho e evitar mistura indiscriminada de variedades ou congêneres, devido ao risco de hibridação.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "reproducao",
-      "fields": [
-        {
-          "label": "Tipo de reprodução",
-          "value": "Incubador bucal materno. Para reprodução dirigida, a fonte descreve um macho e pelo menos três fêmeas em aquário específico.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "saude",
-      "fields": [
-        {
-          "label": "Problemas de manutenção",
-          "value": "Montar cavernas entre rochas estáveis, com areia e áreas abertas. Observar perseguições e disponibilizar refúgios para as fêmeas.",
-          "referenceIds": ["care"]
         }
       ]
     },
@@ -238,8 +238,8 @@
       "id": "curiosidades",
       "fields": [
         {
-          "label": "Curiosidades verificadas da espécie",
-          "value": "Existem formas naturais azuladas e brancas; amarelo não é a única coloração da espécie.",
+          "label": "Você sabia?",
+          "value": "O amarelo não é a única cor natural de Labidochromis caeruleus: a espécie inclui populações com aparência bem diferente.",
           "referenceIds": ["care", "cof"]
         }
       ]
@@ -283,5 +283,52 @@
       "referenceIds": ["care", "cof"]
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "24–28 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "7,7–8,6",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "10–25 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 10 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "154 L ou mais; grupo planejado",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Relativamente calmo para um mbuna",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Várias fêmeas por macho",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Ração variada com componente vegetal",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Moderada: água dura e refúgios",
+      "referenceIds": ["care"]
+    }
+  ]
 }

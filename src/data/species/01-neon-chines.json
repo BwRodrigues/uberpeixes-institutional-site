@@ -4,7 +4,7 @@
   "commercialName": "NEON CHINES (TANICTIS)",
   "category": "Asiáticos",
   "description": "Pequeno, sociável e cheio de movimento, o neon-chinês combina com aquários mais frescos. Um grupo bem planejado valoriza suas cores sem exigir água tropical quente o ano inteiro.",
-  "identificationNote": "Tanichthys albonubes Lin, 1932, nome válido no Catalog of Fishes. A família adotada é Tanichthyidae; fontes antigas e parte das bases ainda usam Cyprinidae.",
+  "identificationNote": "",
   "scientificName": "Tanichthys albonubes",
   "source": {
     "workbook": "VAREJO PEIXES NICHOS.xlsx",
@@ -28,19 +28,139 @@
       "id": "apresentacao",
       "fields": [
         {
-          "label": "Outros nomes populares",
-          "value": "Neon-chinês; White Cloud Mountain Minnow. O nome “Tanictis” da planilha é comercial.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Identificação científica",
-          "value": "Tanichthys albonubes; não confundir o nome “neon” com Paracheirodon innesi.",
+          "label": "Nome científico",
+          "value": "Tanichthys albonubes",
           "referenceIds": ["cof"]
         },
         {
-          "label": "Introdução",
-          "value": "É um peixe pequeno para quem aprecia um cardume ativo e água mais fresca. A temperatura do ambiente merece atenção em dias quentes.",
+          "label": "Outros nomes e variedades",
+          "value": "Neon-chinês; White Cloud Mountain Minnow.",
           "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "14–22 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "6,0–8,5",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "5–20 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Pequenos cursos de água doce, claros e com vegetação, de corrente suave.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Corpo pequeno e alongado, faixa lateral clara e cauda avermelhada.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Cerca de 4 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Fêmeas maduras costumam ser mais roliças; machos tendem a ser mais esguios e coloridos.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "54 L ou mais; grupo de 10. Aquário de 60 × 30 × 30 cm ou maior para um grupo de 10; preserve uma faixa livre para nadar. Aumente o espaço ao incluir outras espécies.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Plantas nas margens, algumas flutuantes e substrato escuro, com corredor livre para o cardume. Mantenha a água fresca e alguma circulação; não é necessário aquecer automaticamente todo aquário desta espécie.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Baixa, com água fresca",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Pacífico e ativo",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Cardume de 10 ou mais",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Escolher peixes pacíficos que compartilhem a faixa de temperatura e não sejam grandes o suficiente para predá-lo.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Micropredador na natureza; aceita alimentação variada em aquário.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Ovíparo, dispersa ovos entre plantas finas e não cuida da prole. Adultos podem comer os ovos; para criar alevinos, proteja a postura e ofereça alimento inicial muito pequeno. A eclosão pode ocorrer em 48–60 horas, variando com as condições.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Calor persistente e isolamento prejudicam o grupo. Acompanhe a temperatura no verão; diante de perda de apetite ou nado alterado, confira água e oxigenação antes de intervir.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "Ásia: China, em riachos ao norte de Guangzhou, na província de Guangdong.",
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -59,7 +179,7 @@
         },
         {
           "label": "Classe",
-          "value": "Actinopteri, no esquema de classificação do Catalog of Fishes.",
+          "value": "Actinopteri",
           "referenceIds": ["class"]
         },
         {
@@ -84,282 +204,12 @@
         },
         {
           "label": "Autoridade taxonômica",
-          "value": "Lin, 1932. Não foi adotada a atribuição a Linnaeus encontrada em um resultado do GBIF.",
+          "value": "Lin, 1932",
           "referenceIds": ["cof"]
         },
         {
           "label": "Sinônimos científicos",
-          "value": "Aphyocypris pooni é citado como sinônimo histórico na ficha do Seriously Fish.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "origem",
-      "fields": [
-        {
-          "label": "Continente e países",
-          "value": "Ásia; China. A distribuição atual adotada segue o Catalog of Fishes.",
-          "referenceIds": ["cof"]
-        },
-        {
-          "label": "Distribuição geográfica",
-          "value": "Riachos ao norte de Guangzhou, Guangdong. Registros antigos mais amplos não são tratados aqui como distribuição confirmada da espécie atual.",
-          "referenceIds": ["cof"]
-        },
-        {
-          "label": "Bacia hidrográfica",
-          "value": "Bacia específica não confirmada na entrada taxonômica consultada; mantém-se a referência regional de Guangzhou.",
-          "referenceIds": ["cof"]
-        },
-        {
-          "label": "Ambiente natural",
-          "value": "Pequenos cursos de água doce, claros e de corrente suave, com vegetação. A ficha antiga de manutenção discute populações sob um conceito mais amplo da espécie.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Nativa, exótica ou linhagem ornamental",
-          "value": "Espécie asiática, portanto exótica em relação ao Brasil. Existem formas ornamentais; a procedência do lote da loja deve ser consultada.",
-          "referenceIds": ["cof", "care"]
-        }
-      ]
-    },
-    {
-      "id": "caracteristicas",
-      "fields": [
-        {
-          "label": "Características físicas",
-          "value": "Peixe pequeno e fusiforme, com linha lateral luminosa e sem barbilhões evidentes.",
-          "referenceIds": ["fb"]
-        },
-        {
-          "label": "Coloração",
-          "value": "Corpo castanho-esverdeado, faixa clara e região caudal avermelhada; há variedades ornamentais diferentes.",
-          "referenceIds": ["fb", "care"]
-        },
-        {
-          "label": "Tamanho adulto",
-          "value": "Cerca de 4 cm; FishBase informa comprimento total e Seriously Fish cita 40 mm de comprimento padrão. As duas medidas não são idênticas.",
-          "referenceIds": ["fb", "care"]
-        },
-        {
-          "label": "Expectativa de vida",
-          "value": "Não foi localizada estimativa documentada nas fontes consultadas; não há promessa de longevidade nesta ficha.",
-          "referenceIds": ["fb", "care"]
-        },
-        {
-          "label": "Diferenças entre machos e fêmeas",
-          "value": "Fêmeas maduras costumam ser mais roliças; machos tendem a ser mais esguios e coloridos.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "agua",
-      "fields": [
-        {
-          "label": "Temperatura em aquário",
-          "value": "14–22 °C, faixa de manutenção indicada pelo Seriously Fish. Calor permanente acima dessa faixa não deve ser presumido como ideal.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "pH em aquário",
-          "value": "6,0–8,5 segundo a ficha de manutenção; priorize estabilidade, não perseguir os extremos da faixa.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "GH",
-          "value": "5–20 °dGH, conforme a referência de manutenção.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "KH",
-          "value": "Não foi encontrada faixa específica confiável. Não foi calculada a partir de pH ou GH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Registros na natureza",
-          "value": "Sobrevivência pontual a água muito fria e medidas de populações silvestres não são recomendações para manter o aquário nos extremos.",
-          "referenceIds": ["care", "fb"]
-        },
-        {
-          "label": "Tipo de ambiente",
-          "value": "Água doce, com espaço para o grupo e condições térmicas compatíveis.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Substrato e decoração",
-          "value": "Substrato escuro, raízes e folhiço podem favorecer um visual natural, sem substituir a área livre.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Vegetação e esconderijos",
-          "value": "Plantas densas nas margens e algumas flutuantes, mantendo espaço de natação.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Circulação e oxigenação",
-          "value": "Movimentação moderada e filtragem adequada; não exige corrente forte em todo o aquário.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "criacao",
-      "fields": [
-        {
-          "label": "Volume mínimo e contexto",
-          "value": "Referência inicial de aproximadamente 54 L brutos em 60 × 30 × 30 cm, com avaliação do grupo, filtro e companheiros; volume sozinho não garante lotação adequada.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Dimensões do aquário",
-          "value": "Base de pelo menos 60 × 30 cm ou equivalente, conforme a fonte.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Dificuldade",
-          "value": "Baixa em aquário estável, desde que seja possível manter a água fresca.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Área de natação",
-          "value": "Use a área livre para o deslocamento do grupo; as fontes não fixam um estrato exclusivo.",
-          "referenceIds": ["care", "fb"]
-        },
-        {
-          "label": "Territorialidade",
-          "value": "Pacífico; machos podem se exibir entre si sem que isso signifique reservar um território permanente.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Quantidade de indivíduos",
-          "value": "Preferir grupo de 10 ou mais, conforme Seriously Fish; a necessidade de espaço aumenta com a população.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Manutenção específica",
-          "value": "Acompanhar a temperatura nos meses quentes; aquecedor não é uma obrigação automática para esta espécie.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Orientações para iniciantes",
-          "value": "Planeje a fauna pela temperatura compatível. Não o trate como companhia automática para qualquer peixe tropical ou para kinguios.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "alimentacao",
-      "fields": [
-        {
-          "label": "Classificação alimentar",
-          "value": "Micropredador na natureza; aceita alimentação variada em aquário.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Alimentos adequados",
-          "value": "Alimentos pequenos: Daphnia, Artemia e outros invertebrados apropriados, complementados por flocos ou microgrânulos de qualidade.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Frequência justificada",
-          "value": "A fonte não estabelece um número universal de refeições; porções devem acompanhar tamanho do grupo e consumo observado.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Variedade alimentar",
-          "value": "Alternar alimento seco com opções vivas ou congeladas de origem segura, incluindo componente vegetal na dieta seca.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Cuidados com excesso de alimento",
-          "value": "Ofereça porções pequenas e observe o consumo do grupo; sobras não substituem variedade nem água de boa qualidade.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "comportamento",
-      "fields": [
-        {
-          "label": "Temperamento",
-          "value": "Muito pacífico nas condições adequadas.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Comportamento social",
-          "value": "Cardume; grupos maiores reduzem a timidez e tornam as exibições mais naturais.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Compatibilidade",
-          "value": "Escolher peixes pacíficos que compartilhem a faixa de temperatura e não sejam grandes o suficiente para predá-lo.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Conflitos",
-          "value": "Evitar predadores, peixes agressivos e combinações cuja temperatura ideal seja muito mais alta.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Peixes menores, invertebrados e plantas",
-          "value": "O hábito micropredador exige cautela com organismos muito pequenos; não é descrito como destruidor de plantas. Não há garantia de segurança para filhotes de invertebrados.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "reproducao",
-      "fields": [
-        {
-          "label": "Tipo de reprodução",
-          "value": "Ovíparo, dispersa ovos e não apresenta cuidado parental.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Dimorfismo sexual",
-          "value": "Machos mais esguios e vistosos; fêmeas maduras com abdômen mais cheio.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Comportamento reprodutivo",
-          "value": "Pode desovar repetidamente em boas condições, entre plantas ou estruturas finas.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Ovos e filhotes",
-          "value": "Adultos podem comer os ovos. A referência descreve eclosão em 48–60 horas e necessidade inicial de alimento muito pequeno.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Dificuldade em cativeiro",
-          "value": "Pode ocorrer em aquário plantado maduro; criação controlada exige separar ovos e oferecer alimentação compatível aos alevinos.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "saude",
-      "fields": [
-        {
-          "label": "Sensibilidade a alterações",
-          "value": "Atenção particular ao calor prolongado; a ficha relaciona exposição permanente a temperaturas altas a menor longevidade.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Problemas de manutenção",
-          "value": "Aquário quente demais e grupo reduzido contrariam necessidades destacadas pela referência.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Prevenção",
-          "value": "Acompanhar temperatura, qualidade da água e condição dos animais novos; não escolher o peixe apenas pela aparência resistente.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Sinais de estresse",
-          "value": "Observar mudança de apetite, comportamento e permanência isolada. São sinais para avaliar o manejo, não diagnósticos veterinários.",
+          "value": "Aphyocypris pooni.",
           "referenceIds": ["care"]
         }
       ]
@@ -368,14 +218,9 @@
       "id": "curiosidades",
       "fields": [
         {
-          "label": "O nome das nuvens",
-          "value": "albonubes remete às “nuvens brancas”, associadas à localidade-tipo White Cloud Mountain.",
+          "label": "Você sabia?",
+          "value": "O nome albonubes significa nuvens brancas e remete à localidade de descoberta, White Cloud Mountain.",
           "referenceIds": ["care", "cof"]
-        },
-        {
-          "label": "Quem está no nome",
-          "value": "Tanichthys homenageia o coletor Tan; o sufixo ichthys significa peixe.",
-          "referenceIds": ["care"]
         }
       ]
     }
@@ -450,6 +295,53 @@
       "label": "Ásia",
       "scale": "continent",
       "referenceIds": ["cof"]
+    }
+  ],
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "14–22 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "6,0–8,5",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "5–20 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Cerca de 4 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "54 L ou mais; grupo de 10",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Pacífico e ativo",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Cardume de 10 ou mais",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Microgrânulos e pequenos invertebrados",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Baixa, com água fresca",
+      "referenceIds": ["care"]
     }
   ]
 }

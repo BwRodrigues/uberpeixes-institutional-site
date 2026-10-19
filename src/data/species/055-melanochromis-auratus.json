@@ -11,7 +11,7 @@
   },
   "sortOrder": 55,
   "scientificName": "Melanochromis auratus",
-  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "identificationNote": "",
   "description": "O auratus é um mbuna de personalidade forte. Suas cores mudam com sexo e dominância, e a montagem precisa priorizar territórios e refúgios.",
   "photo": {
     "src": "/images/species/melanochromis-auratus-1.webp",
@@ -53,19 +53,139 @@
       "id": "apresentacao",
       "fields": [
         {
-          "label": "Outros nomes populares",
-          "value": "AURATUS ALBINO; AURATUS AMARELO",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Identificação científica",
-          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "label": "Nome científico",
+          "value": "Melanochromis auratus",
           "referenceIds": ["cof"]
         },
         {
-          "label": "Introdução",
-          "value": "O auratus é um mbuna de personalidade forte. Suas cores mudam com sexo e dominância, e a montagem precisa priorizar territórios e refúgios.",
+          "label": "Outros nomes e variedades",
+          "value": "Auratus albino; Auratus amarelo",
           "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "24–28 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "7,6–8,8",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "10–25 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Costões rochosos, recifes e ilhas do lago.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Fêmeas e juvenis geralmente dourados com faixas escuras; machos dominantes ficam predominantemente escuros.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 11 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Machos dominantes adultos tornam-se escuros; fêmeas e juvenis são predominantemente dourados. Cor sozinha nem sempre permite sexagem.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "205 L como limite inferior; ampliar o projeto. 120 × 45 × 38 cm, cerca de 205 L, é um limite inferior para planejamento especializado. Um macho e várias fêmeas exigem muitas cavernas e possibilidade de separação; mais litros não garantem convivência.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Areia, pilhas de pedras estáveis formando cavernas e pequenos espaços livres; água bem oxigenada. Planejar barreiras visuais e possibilidade de separar animais.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Alta: agressividade acentuada",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Muito agressivo e territorial",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Um macho com várias fêmeas",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Muito agressivo e territorial, inclusive com a própria espécie. Mantenha um macho e várias fêmeas, com risco de perseguição mesmo nesse arranjo; inadequado para comunitário pacífico e para iniciantes.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Grande participação vegetal: ração com algas ou espirulina e vegetais apropriados, com complementos vivos ou congelados.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Incubação bucal materna. Apresenta reprodução em aquário específico com um macho e ao menos três fêmeas e muitos refúgios.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Perseguição contínua e restrição de acesso ao alimento podem ferir ou debilitar animais subordinados. Observe cada peixe, organize refúgios e esteja preparado para separar agressores.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "África: endêmico do lago Malawi, com ampla ocorrência nas margens oeste e sul e parte da margem leste.",
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -84,7 +204,7 @@
         },
         {
           "label": "Classe",
-          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "value": "Actinopteri",
           "referenceIds": ["class"]
         },
         {
@@ -111,126 +231,6 @@
           "label": "Autoridade taxonômica",
           "value": "(Boulenger 1897)",
           "referenceIds": ["cof"]
-        },
-        {
-          "label": "Sinônimos científicos",
-          "value": "Literatura de manutenção consultada sob Melanochromis auratus; o nome aceito adotado é Melanochromis auratus. Consultar o histórico nomenclatural completo na referência taxonômica.",
-          "referenceIds": ["cof", "care"]
-        }
-      ]
-    },
-    {
-      "id": "origem",
-      "fields": [
-        {
-          "label": "Continente e países",
-          "value": "África: endêmico do lago Malawi, com ampla ocorrência nas margens oeste e sul e parte da margem leste.",
-          "referenceIds": ["care", "cof"]
-        },
-        {
-          "label": "Ambiente natural",
-          "value": "Costões rochosos, recifes e ilhas do lago.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "caracteristicas",
-      "fields": [
-        {
-          "label": "Tamanho adulto",
-          "value": "110 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Diferenças entre machos e fêmeas",
-          "value": "Machos dominantes adultos tornam-se escuros; fêmeas e juvenis são predominantemente dourados. Cor sozinha nem sempre permite sexagem.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "agua",
-      "fields": [
-        {
-          "label": "Temperatura em aquário",
-          "value": "24–28 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "pH em aquário",
-          "value": "7.6–8.8; não interpretar os extremos como metas a alternar.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "GH",
-          "value": "10–25 °dGH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "KH",
-          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Substrato e decoração",
-          "value": "Areia, pilhas de pedras estáveis formando cavernas e pequenos espaços livres; água bem oxigenada. Planejar barreiras visuais e possibilidade de separar animais.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "criacao",
-      "fields": [
-        {
-          "label": "Volume mínimo e contexto",
-          "value": "A fonte registra 120 × 45 × 38 cm, cerca de 205 L, como limite inferior histórico. Não é garantia de convivência; a agressividade exige planejamento especializado e mais espaço conforme grupo.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Manutenção específica",
-          "value": "Areia, pilhas de pedras estáveis formando cavernas e pequenos espaços livres; água bem oxigenada. Planejar barreiras visuais e possibilidade de separar animais.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "alimentacao",
-      "fields": [
-        {
-          "label": "Alimentos adequados",
-          "value": "Grande participação vegetal: ração com algas ou espirulina e vegetais apropriados, com complementos vivos ou congelados.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "comportamento",
-      "fields": [
-        {
-          "label": "Comportamento social",
-          "value": "Muito agressivo e territorial, inclusive com a própria espécie. A fonte indica um macho e várias fêmeas, com risco de perseguição mesmo nesse arranjo; inadequado para comunitário pacífico e para iniciantes.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "reproducao",
-      "fields": [
-        {
-          "label": "Tipo de reprodução",
-          "value": "Incubação bucal materna. A fonte descreve reprodução em aquário específico com um macho e ao menos três fêmeas e muitos refúgios.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "saude",
-      "fields": [
-        {
-          "label": "Problemas de manutenção",
-          "value": "Areia, pilhas de pedras estáveis formando cavernas e pequenos espaços livres; água bem oxigenada. Planejar barreiras visuais e possibilidade de separar animais.",
-          "referenceIds": ["care"]
         }
       ]
     },
@@ -238,8 +238,8 @@
       "id": "curiosidades",
       "fields": [
         {
-          "label": "Curiosidades verificadas da espécie",
-          "value": "Fêmeas mais velhas podem escurecer e machos estressados podem voltar à coloração dourada.",
+          "label": "Você sabia?",
+          "value": "Cor e dominância se relacionam: fêmeas mais velhas podem escurecer, enquanto machos estressados podem voltar ao dourado.",
           "referenceIds": ["care", "cof"]
         }
       ]
@@ -283,5 +283,52 @@
       "referenceIds": ["care", "cof"]
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "24–28 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "7,6–8,8",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "10–25 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 11 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "205 L como limite inferior; ampliar o projeto",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Muito agressivo e territorial",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Um macho com várias fêmeas",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Ração com algas e componente vegetal",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Alta: agressividade acentuada",
+      "referenceIds": ["care"]
+    }
+  ]
 }

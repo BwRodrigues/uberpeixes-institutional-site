@@ -11,7 +11,7 @@
   },
   "sortOrder": 13,
   "scientificName": "Puntigrus tetrazona",
-  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "identificationNote": "",
   "description": "As barras escuras do barbo-sumatra chamam atenção, mas seu comportamento também merece planejamento: vive em grupo e pode beliscar nadadeiras.",
   "photo": {
     "src": "/images/species/puntigrus-tetrazona-1.webp",
@@ -53,19 +53,134 @@
       "id": "apresentacao",
       "fields": [
         {
-          "label": "Outros nomes populares",
-          "value": "BARBUS SUMATRA; BARBUS SUMATRA ALBINO; BARBUS SUMATRA VERMELHO",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Identificação científica",
-          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "label": "Nome científico",
+          "value": "Puntigrus tetrazona",
           "referenceIds": ["cof"]
         },
         {
-          "label": "Introdução",
-          "value": "As barras escuras do barbo-sumatra chamam atenção, mas seu comportamento também merece planejamento: vive em grupo e pode beliscar nadadeiras.",
+          "label": "Outros nomes e variedades",
+          "value": "Barbus sumatra; Barbus sumatra albino; Barbus sumatra vermelho",
           "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "20–26 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "5,0–8,0",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "1–20 °dGH",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Corpo alto, barras verticais escuras e tons alaranjados nas nadadeiras; há variedades verdes e albinas.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 6 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Machos adultos tendem a ser menores, mais esguios e mais intensamente coloridos.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "72 L ou mais; grupo de 8–10. Base mínima de 80 × 30 cm, cerca de 72 L para um grupo de 8–10 sem superlotação. Comunitários precisam de mais espaço; não reduza o grupo para acomodar um aquário pequeno.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Disponibilizar abrigo visual com plantas e madeira, sem eliminar a área livre de natação.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Moderada: exige escolha cuidadosa da fauna",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Ativo; pode beliscar nadadeiras",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Grupo de 8–10 ou mais",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Ativo e hierárquico; manter grupo de ao menos 8–10. Evitar companheiros lentos, tímidos e de nadadeiras longas, mesmo quando as faixas de água coincidirem.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Varie os alimentos de origem aquática. Variar ração de qualidade, alimento vivo ou congelado e componente vegetal.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Dispersa ovos e não apresenta cuidado parental. Adultos podem comer os ovos; a reprodução requer proteção do local de desova.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Perseguições e nadadeiras danificadas pedem revisão do grupo e dos companheiros. Evite peixes lentos, tímidos ou de nadadeiras longas e mantenha barreiras visuais.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "Ásia: centro e sul de Sumatra, Indonésia.",
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -84,7 +199,7 @@
         },
         {
           "label": "Classe",
-          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "value": "Actinopteri",
           "referenceIds": ["class"]
         },
         {
@@ -111,126 +226,6 @@
           "label": "Autoridade taxonômica",
           "value": "(Bleeker 1855)",
           "referenceIds": ["cof"]
-        },
-        {
-          "label": "Sinônimos científicos",
-          "value": "Literatura de manutenção consultada sob Puntigrus tetrazona; o nome aceito adotado é Puntigrus tetrazona. Consultar o histórico nomenclatural completo na referência taxonômica.",
-          "referenceIds": ["cof", "care"]
-        }
-      ]
-    },
-    {
-      "id": "origem",
-      "fields": [
-        {
-          "label": "Continente e países",
-          "value": "Ásia: provavelmente endêmico do centro e sul de Sumatra, Indonésia. Registros atribuídos a Bornéu podem corresponder a outras espécies.",
-          "referenceIds": ["care", "cof"]
-        },
-        {
-          "label": "Ambiente natural",
-          "value": "A descrição precisa do habitat da espécie não está confirmada na fonte; não extrapolar habitats de congêneres como se fossem observações desta espécie.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "caracteristicas",
-      "fields": [
-        {
-          "label": "Tamanho adulto",
-          "value": "60 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Diferenças entre machos e fêmeas",
-          "value": "Machos adultos tendem a ser menores, mais esguios e mais intensamente coloridos.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "agua",
-      "fields": [
-        {
-          "label": "Temperatura em aquário",
-          "value": "20–26 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "pH em aquário",
-          "value": "5.0–8.0; não interpretar os extremos como metas a alternar.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "GH",
-          "value": "1–20 °dGH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "KH",
-          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Substrato e decoração",
-          "value": "Disponibilizar abrigo visual com plantas e madeira, sem eliminar a área livre de natação.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "criacao",
-      "fields": [
-        {
-          "label": "Volume mínimo e contexto",
-          "value": "Base de 80 × 30 cm é o menor ponto de partida da fonte, que indica cerca de 72 L. Grupos maiores e comunitários precisam de mais espaço; não reduzir o cardume para caber nesse volume.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Manutenção específica",
-          "value": "Disponibilizar abrigo visual com plantas e madeira, sem eliminar a área livre de natação.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "alimentacao",
-      "fields": [
-        {
-          "label": "Alimentos adequados",
-          "value": "Provavelmente onívoro, com participação importante de invertebrados. Variar ração de qualidade, alimento vivo ou congelado e componente vegetal.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "comportamento",
-      "fields": [
-        {
-          "label": "Comportamento social",
-          "value": "Ativo e hierárquico; manter grupo de ao menos 8–10. Evitar companheiros lentos, tímidos e de nadadeiras longas, mesmo quando as faixas de água coincidirem.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "reproducao",
-      "fields": [
-        {
-          "label": "Tipo de reprodução",
-          "value": "Dispersa ovos e não apresenta cuidado parental. Adultos podem comer os ovos; a reprodução requer proteção do local de desova.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "saude",
-      "fields": [
-        {
-          "label": "Problemas de manutenção",
-          "value": "Disponibilizar abrigo visual com plantas e madeira, sem eliminar a área livre de natação.",
-          "referenceIds": ["care"]
         }
       ]
     },
@@ -238,8 +233,8 @@
       "id": "curiosidades",
       "fields": [
         {
-          "label": "Curiosidades verificadas da espécie",
-          "value": "A fonte reconhece incertezas históricas na identificação do sumatra comercial. Formas albina e coral red não justificam páginas taxonômicas separadas.",
+          "label": "Você sabia?",
+          "value": "As variedades verde, albina e coral red alteram as cores, mas continuam exigindo o manejo social do barbo-sumatra.",
           "referenceIds": ["care", "cof"]
         }
       ]
@@ -289,5 +284,52 @@
       "referenceIds": ["care", "cof"]
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "20–26 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "5,0–8,0",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "1–20 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 6 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "72 L ou mais; grupo de 8–10",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Ativo; pode beliscar nadadeiras",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Grupo de 8–10 ou mais",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Ração variada, invertebrados e vegetais",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Moderada: exige escolha cuidadosa da fauna",
+      "referenceIds": ["care"]
+    }
+  ]
 }

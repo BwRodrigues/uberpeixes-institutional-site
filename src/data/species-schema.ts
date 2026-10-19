@@ -29,43 +29,6 @@ export const profileSections = [
     ],
   },
   {
-    id: "classificacao",
-    title: "Classificação científica",
-    fields: [
-      "Reino",
-      "Filo",
-      "Classe",
-      "Ordem",
-      "Família",
-      "Gênero",
-      "Espécie",
-      "Autoridade taxonômica",
-      "Sinônimos científicos",
-    ],
-  },
-  {
-    id: "origem",
-    title: "Origem e distribuição",
-    fields: [
-      "Continente e países",
-      "Distribuição geográfica",
-      "Bacia hidrográfica",
-      "Ambiente natural",
-      "Nativa, exótica ou linhagem ornamental",
-    ],
-  },
-  {
-    id: "caracteristicas",
-    title: "Descrição e características",
-    fields: [
-      "Características físicas",
-      "Coloração",
-      "Tamanho adulto",
-      "Expectativa de vida",
-      "Diferenças entre machos e fêmeas",
-    ],
-  },
-  {
     id: "agua",
     title: "Habitat e parâmetros da água",
     fields: [
@@ -78,6 +41,17 @@ export const profileSections = [
       "Substrato e decoração",
       "Vegetação e esconderijos",
       "Circulação e oxigenação",
+    ],
+  },
+  {
+    id: "caracteristicas",
+    title: "Descrição e características",
+    fields: [
+      "Características físicas",
+      "Coloração",
+      "Tamanho adulto",
+      "Expectativa de vida",
+      "Diferenças entre machos e fêmeas",
     ],
   },
   {
@@ -95,17 +69,6 @@ export const profileSections = [
     ],
   },
   {
-    id: "alimentacao",
-    title: "Alimentação",
-    fields: [
-      "Classificação alimentar",
-      "Alimentos adequados",
-      "Frequência justificada",
-      "Variedade alimentar",
-      "Cuidados com excesso de alimento",
-    ],
-  },
-  {
     id: "comportamento",
     title: "Comportamento e compatibilidade",
     fields: [
@@ -114,6 +77,17 @@ export const profileSections = [
       "Compatibilidade",
       "Conflitos",
       "Peixes menores, invertebrados e plantas",
+    ],
+  },
+  {
+    id: "alimentacao",
+    title: "Alimentação",
+    fields: [
+      "Classificação alimentar",
+      "Alimentos adequados",
+      "Frequência justificada",
+      "Variedade alimentar",
+      "Cuidados com excesso de alimento",
     ],
   },
   {
@@ -138,6 +112,32 @@ export const profileSections = [
     ],
   },
   {
+    id: "origem",
+    title: "Origem e distribuição",
+    fields: [
+      "Continente e países",
+      "Distribuição geográfica",
+      "Bacia hidrográfica",
+      "Ambiente natural",
+      "Nativa, exótica ou linhagem ornamental",
+    ],
+  },
+  {
+    id: "classificacao",
+    title: "Classificação científica",
+    fields: [
+      "Reino",
+      "Filo",
+      "Classe",
+      "Ordem",
+      "Família",
+      "Gênero",
+      "Espécie",
+      "Autoridade taxonômica",
+      "Sinônimos científicos",
+    ],
+  },
+  {
     id: "curiosidades",
     title: "Curiosidades",
     fields: ["Curiosidades verificadas da espécie"],
@@ -154,7 +154,24 @@ export interface ProfileSection {
   fields: ProfileField[];
   pending?: string;
 }
+export const essentialKeys = [
+  "temperature",
+  "ph",
+  "gh",
+  "size",
+  "volume",
+  "behavior",
+  "sociability",
+  "diet",
+  "difficulty",
+] as const;
+export interface EssentialFact {
+  key: (typeof essentialKeys)[number];
+  value: string;
+  referenceIds: string[];
+}
 export interface Species {
+  essentials?: EssentialFact[];
   slug: string;
   name: string;
   commercialName: string;

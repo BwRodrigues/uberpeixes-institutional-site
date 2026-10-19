@@ -11,7 +11,7 @@
   },
   "sortOrder": 31,
   "scientificName": "Misgurnus anguillicaudatus",
-  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "identificationNote": "",
   "description": "O dojo explora o fundo e gosta de se enterrar em substrato macio. É um peixe de água mais fresca, cujo porte adulto exige um aquário espaçoso e tampado.",
   "photo": {
     "src": "/images/species/misgurnus-anguillicaudatus-1.webp",
@@ -53,19 +53,139 @@
       "id": "apresentacao",
       "fields": [
         {
-          "label": "Outros nomes populares",
-          "value": "DOJO M",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Identificação científica",
-          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "label": "Nome científico",
+          "value": "Misgurnus anguillicaudatus",
           "referenceIds": ["cof"]
         },
         {
-          "label": "Introdução",
-          "value": "O dojo explora o fundo e gosta de se enterrar em substrato macio. É um peixe de água mais fresca, cujo porte adulto exige um aquário espaçoso e tampado.",
+          "label": "Outros nomes e variedades",
+          "value": "Dojo m",
           "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "18–23 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "6,0–8,0",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "1–12 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Águas rasas e lentas, remansos, brejos e arrozais com fundo de lama ou silte e bastante cobertura.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Corpo alongado, barbilhões ao redor da boca e hábito de se enterrar; existe forma dourada ornamental.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 28 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Fêmeas adultas costumam ser maiores e robustas. Machos maduros apresentam modificações nas nadadeiras peitorais.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "243 L ou mais; ampliar para vários. Base de pelo menos 120 × 45 cm e cerca de 243 L para a manutenção de longo prazo. O porte de até 28 cm exige mais área de fundo para vários adultos.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Areia macia ou cascalho muito fino, com raízes e refúgios firmemente apoiados. Tampar o aquário e proteger entradas do filtro; não mantê-lo em água tropical quente por períodos prolongados.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Moderada: porte e água fresca",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Geralmente pacífico; come animais muito pequenos",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Pode viver só; ativo com conspecíficos",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Geralmente pacífico, mas pode consumir ovos, alevinos e peixes muito pequenos. Pode viver sozinho, embora a fonte relate maior atividade junto a conspecíficos.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Procura larvas de insetos e pequenos crustáceos; aceita ração que afunda, complementada com alimentos pequenos vivos ou congelados.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Há poucos relatos domésticos detalhados. Não extrapolar automaticamente o protocolo de Misgurnus fossilis para esta espécie.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Substrato áspero, entradas de filtro desprotegidas e tampa aberta podem causar ferimentos ou fugas. Use areia macia e acompanhe a temperatura; evite calor tropical persistente.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "Ásia: China. Existem populações introduzidas e registros históricos sob identificações mais amplas em outros países.",
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -84,7 +204,7 @@
         },
         {
           "label": "Classe",
-          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "value": "Actinopteri",
           "referenceIds": ["class"]
         },
         {
@@ -111,126 +231,6 @@
           "label": "Autoridade taxonômica",
           "value": "(Cantor 1842)",
           "referenceIds": ["cof"]
-        },
-        {
-          "label": "Sinônimos científicos",
-          "value": "Literatura de manutenção consultada sob Misgurnus anguillicaudatus; o nome aceito adotado é Misgurnus anguillicaudatus. Consultar o histórico nomenclatural completo na referência taxonômica.",
-          "referenceIds": ["cof", "care"]
-        }
-      ]
-    },
-    {
-      "id": "origem",
-      "fields": [
-        {
-          "label": "Continente e países",
-          "value": "Ásia: China, conforme a delimitação atual do Catalog of Fishes. A fonte de manutenção inclui uma área histórica mais ampla no leste asiático; registros de Japão, Coreia e outras regiões podem exigir revisão do complexo e não são apresentados aqui como ocorrência nativa confirmada.",
-          "referenceIds": ["care", "cof"]
-        },
-        {
-          "label": "Ambiente natural",
-          "value": "Águas rasas e lentas, remansos, brejos e arrozais com fundo de lama ou silte e bastante cobertura.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "caracteristicas",
-      "fields": [
-        {
-          "label": "Tamanho adulto",
-          "value": "280 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Diferenças entre machos e fêmeas",
-          "value": "Fêmeas adultas costumam ser maiores e robustas. Machos maduros apresentam modificações nas nadadeiras peitorais.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "agua",
-      "fields": [
-        {
-          "label": "Temperatura em aquário",
-          "value": "18–23 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "pH em aquário",
-          "value": "6.0–8.0; não interpretar os extremos como metas a alternar.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "GH",
-          "value": "1–12 °dGH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "KH",
-          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Substrato e decoração",
-          "value": "Areia macia ou cascalho muito fino, com raízes e refúgios firmemente apoiados. Tampar o aquário e proteger entradas do filtro; não mantê-lo em água tropical quente por períodos prolongados.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "criacao",
-      "fields": [
-        {
-          "label": "Volume mínimo e contexto",
-          "value": "Base mínima de 120 × 45 cm para manutenção de longo prazo; a fonte apresenta cerca de 243 L. Considerar o porte de até 28 cm e ampliar o espaço para vários indivíduos.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Manutenção específica",
-          "value": "Areia macia ou cascalho muito fino, com raízes e refúgios firmemente apoiados. Tampar o aquário e proteger entradas do filtro; não mantê-lo em água tropical quente por períodos prolongados.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "alimentacao",
-      "fields": [
-        {
-          "label": "Alimentos adequados",
-          "value": "Procura larvas de insetos e pequenos crustáceos; aceita ração que afunda, complementada com alimentos pequenos vivos ou congelados.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "comportamento",
-      "fields": [
-        {
-          "label": "Comportamento social",
-          "value": "Geralmente pacífico, mas pode consumir ovos, alevinos e peixes muito pequenos. Pode viver sozinho, embora a fonte relate maior atividade junto a conspecíficos.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "reproducao",
-      "fields": [
-        {
-          "label": "Tipo de reprodução",
-          "value": "Há poucos relatos domésticos detalhados. Não extrapolar automaticamente o protocolo de Misgurnus fossilis para esta espécie.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "saude",
-      "fields": [
-        {
-          "label": "Problemas de manutenção",
-          "value": "Areia macia ou cascalho muito fino, com raízes e refúgios firmemente apoiados. Tampar o aquário e proteger entradas do filtro; não mantê-lo em água tropical quente por períodos prolongados.",
-          "referenceIds": ["care"]
         }
       ]
     },
@@ -238,8 +238,8 @@
       "id": "curiosidades",
       "fields": [
         {
-          "label": "Curiosidades verificadas da espécie",
-          "value": "A tolerância eventual a temperaturas extremas na natureza não equivale à faixa recomendada para manutenção contínua.",
+          "label": "Você sabia?",
+          "value": "Consegue usar oxigênio do ar em determinadas condições; isso não dispensa água limpa e oxigenada.",
           "referenceIds": ["care", "cof"]
         }
       ]
@@ -283,5 +283,52 @@
       "referenceIds": ["care", "cof"]
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "18–23 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "6,0–8,0",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "1–12 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 28 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "243 L ou mais; ampliar para vários",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Geralmente pacífico; come animais muito pequenos",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Pode viver só; ativo com conspecíficos",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Ração de fundo e invertebrados",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Moderada: porte e água fresca",
+      "referenceIds": ["care"]
+    }
+  ]
 }

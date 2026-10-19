@@ -1,0 +1,759 @@
+{
+  "date": "2026-10-18",
+  "editorialReference": {
+    "url": "https://www.aquarismopaulista.com/",
+    "error": "Proxy de rede: Tunnel connection failed HTTP 403; não usado como fonte factual nem reproduzido."
+  },
+  "checks": [
+    {
+      "slug": "neon-chines",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/tanichthys-albonubes/",
+      "status": 200,
+      "bytes": 98507,
+      "sha256": "cd1944cce95a8353e1f023ffd62b49722749bbe34c7ba62abc5b7cdc4cb9d07f"
+    },
+    {
+      "slug": "neon-chines",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=3580",
+      "status": 200,
+      "bytes": 10362,
+      "sha256": "247b9ad5dbe586cba798a6bbb53972665828dc61c81ca4d7347145846ad5e3f4"
+    },
+    {
+      "slug": "neon-chines",
+      "referenceId": "fb",
+      "url": "https://www.fishbase.se/summary/tanichthys-albonubes.html",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "slug": "pethia-gelius",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/pethia-gelius/",
+      "status": 200,
+      "bytes": 95256,
+      "sha256": "6f4dc9490344e1130d009ad98eaa7d880276e5010d166fd4a7d47857873f8c55"
+    },
+    {
+      "slug": "pethia-gelius",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=1558",
+      "status": 200,
+      "bytes": 11622,
+      "sha256": "7b20c3b6ef207d75a417b6b2328226db39b8f4c08fa1108f7f58b3f9dd8237ec"
+    },
+    {
+      "slug": "barbodes-semifasciolatus",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/barbodes-semifasciolatus/",
+      "status": 200,
+      "bytes": 94008,
+      "sha256": "9d9d6ad131475e7f902112a699c14568ea05d855bb27a3fb82bf076599460bb8"
+    },
+    {
+      "slug": "barbodes-semifasciolatus",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=2006",
+      "status": 200,
+      "bytes": 11430,
+      "sha256": "4767d3ab6eb6223a2688a27186ecf886882fa8b48559f6ff437d471ed3a82d85"
+    },
+    {
+      "slug": "puntigrus-tetrazona",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/puntigrus-tetrazona/",
+      "status": 200,
+      "bytes": 94545,
+      "sha256": "d2e067009bbfae4e8d4d2010987d9b906bf2be7516009cbac0e735ddd917d894"
+    },
+    {
+      "slug": "puntigrus-tetrazona",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=51825",
+      "status": 200,
+      "bytes": 10073,
+      "sha256": "cc75bce17e3a753a5a6cf0b6ccef1cf41515b7c466765d1d23862f6edcd8e064"
+    },
+    {
+      "slug": "danio-rerio",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/danio-rerio/",
+      "status": 200,
+      "bytes": 117788,
+      "sha256": "69f1b0b2e2470974e5e16448a06799d970432284d291b98c6ed5e28f0b4621a7"
+    },
+    {
+      "slug": "danio-rerio",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=1979",
+      "status": 200,
+      "bytes": 12254,
+      "sha256": "7b9c61741d3b0fe85000dff05aaafcedcf6ba8ca3eb4c42bfcffacb6996101fe"
+    },
+    {
+      "slug": "betta-splendens",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/betta-splendens/",
+      "status": 200,
+      "bytes": 107976,
+      "sha256": "f07fbb2ab910d9733999bb8a0c5079ef54d5ef6959d0793c10ed854da539a9ba"
+    },
+    {
+      "slug": "betta-splendens",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=19458",
+      "status": 200,
+      "bytes": 10707,
+      "sha256": "866dd874e562e4ec90987427899b0726162307b15d483bddf49da0209f401a1f"
+    },
+    {
+      "slug": "peixe-agulhinha",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/dermogenys-pusilla/",
+      "status": 200,
+      "bytes": 68848,
+      "sha256": "20985a755077e6a55b610d3340c388d176d7f8d03c6e7804d7bbcd4cc3093807"
+    },
+    {
+      "slug": "peixe-agulhinha",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=13933",
+      "status": 200,
+      "bytes": 10928,
+      "sha256": "a7e12da2bcf97e65860f7ad81db0cc80778c6626f1537fa4ca3c691fc3c0c50e"
+    },
+    {
+      "slug": "peixe-agulhinha",
+      "referenceId": "fb",
+      "url": "https://www.fishbase.se/summary/dermogenys-pusilla.html",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "slug": "barbus-cereja",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/puntius-titteya/",
+      "status": 200,
+      "bytes": 95588,
+      "sha256": "3364f414493b67ee838e8b9635e01c59b957cabc50c8cd6fa45c028e7ec54dc8"
+    },
+    {
+      "slug": "barbus-cereja",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=31656",
+      "status": 200,
+      "bytes": 10327,
+      "sha256": "eb8b8fb4062d83a7009613fe41f83c3dbc227db57ba4189b3b87f9bc03554c6a"
+    },
+    {
+      "slug": "barbus-cereja",
+      "referenceId": "fb",
+      "url": "https://www.fishbase.se/summary/puntius-titteya.html",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "slug": "misgurnus-anguillicaudatus",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/misgurnus-anguillicaudatus/",
+      "status": 200,
+      "bytes": 94455,
+      "sha256": "6fb6cd8f4045cde62052c437981fdb8f5752502002a84f503db119628c6c3213"
+    },
+    {
+      "slug": "misgurnus-anguillicaudatus",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=2327",
+      "status": 200,
+      "bytes": 16479,
+      "sha256": "cd4f3b8ca9cf5a217e8e89e0a67f5e0da5aa0d10b62dc45487564bb98d867a62"
+    },
+    {
+      "slug": "barbus-cereja-veu",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/pethia-conchonius/",
+      "status": 200,
+      "bytes": 96666,
+      "sha256": "1c2819fa014df034853116fd3f05c973990e79293af680facf04732c411ebf14"
+    },
+    {
+      "slug": "barbus-cereja-veu",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=2612",
+      "status": 200,
+      "bytes": 13718,
+      "sha256": "65834540c1a73af51a91b379ef85c143f46e4a2622a0a711de14940b35cdc177"
+    },
+    {
+      "slug": "barbus-cereja-veu",
+      "referenceId": "fb",
+      "url": "https://www.fishbase.se/summary/Pethia-conchonius.html",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "slug": "barbus-denizoni",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/dawkinsia-denisonii/",
+      "status": 200,
+      "bytes": 89492,
+      "sha256": "3957fce7826bc66c0d4b8ee43f997a40a3c80d437acba447fd757600ecbbfafd"
+    },
+    {
+      "slug": "barbus-denizoni",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=46829",
+      "status": 200,
+      "bytes": 10424,
+      "sha256": "70fc653ebea624afa3d7808ed75126c3584efeaf2e86c2a99b0c9cd74dab184d"
+    },
+    {
+      "slug": "barbus-denizoni",
+      "referenceId": "fb",
+      "url": "https://www.fishbase.se/summary/sahyadria-denisonii.html",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "slug": "aulonocara-stuartgranti",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/aulonocara-stuartgranti/",
+      "status": 200,
+      "bytes": 86778,
+      "sha256": "844c53216df8d766eff272cd25568be9ddc60be340b362e37cee4ba4c9429738"
+    },
+    {
+      "slug": "aulonocara-stuartgranti",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=8048",
+      "status": 200,
+      "bytes": 9501,
+      "sha256": "8716bef95adfbf2368bb7eaacd74d02704bc03735cce86989e23a602fb09a4fe"
+    },
+    {
+      "slug": "melanochromis-auratus",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/melanochromis-auratus/",
+      "status": 200,
+      "bytes": 68145,
+      "sha256": "dc42f78a6fff609448a2d1532d626920808f54dee6bc831f009470dea17204ac"
+    },
+    {
+      "slug": "melanochromis-auratus",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=38508",
+      "status": 200,
+      "bytes": 10051,
+      "sha256": "e497c768fd88ac0050a1070c833ddfe74436be536331d85d7683c1ef5edd6c7b"
+    },
+    {
+      "slug": "labidochromis-caeruleus",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/labidochromis-caeruleus/",
+      "status": 200,
+      "bytes": 67886,
+      "sha256": "21bc5cbac4218fba8d576a46e75a022e6191c8b9b05b38f25af7c356f0dad1a6"
+    },
+    {
+      "slug": "labidochromis-caeruleus",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=25522",
+      "status": 200,
+      "bytes": 9683,
+      "sha256": "865bbe21a69f8f9786f294959929b71ed0c5b2c65b88f8252cd8d56f539d3aae"
+    },
+    {
+      "slug": "maylandia-lombardoi",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/maylandia-lombardoi/",
+      "status": 200,
+      "bytes": 66011,
+      "sha256": "ae3e9aae3c2ca2d37f622ce5437bcef47f34c3eeda8c148e7780b439e3541746"
+    },
+    {
+      "slug": "maylandia-lombardoi",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=9436",
+      "status": 200,
+      "bytes": 9975,
+      "sha256": "83aa460229becf82e7ca07edf8b8fccdcfb4ebd3b83c756df8bdce06ff75a5ef"
+    },
+    {
+      "slug": "chindongo-socolofi",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/chindongo-socolofi/",
+      "status": 200,
+      "bytes": 68747,
+      "sha256": "fe5b7c9ee020117050dd9ffc51330433b4f6cb5f9bba7f5e8706bf46c5f571f3"
+    },
+    {
+      "slug": "chindongo-socolofi",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=61146",
+      "status": 200,
+      "bytes": 9463,
+      "sha256": "655390cbae31e76e5aeb5830d6bc351581212a8fe2831bd607296118991506cb"
+    },
+    {
+      "slug": "nimbochromis-venustus",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/nimbochromis-venustus/",
+      "status": 200,
+      "bytes": 66137,
+      "sha256": "c9e47653ca44a12926d52d7f88bf96ebf2d3a905099dd6d5ea28a243292c1efa"
+    },
+    {
+      "slug": "nimbochromis-venustus",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=37995",
+      "status": 200,
+      "bytes": 9606,
+      "sha256": "cdad37ef4e515bc97d4f86c88d6951c07ea8415c43ecf24b3cde2f8975e2ff99"
+    },
+    {
+      "slug": "maylandia-estherae",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/maylandia-estherae/",
+      "status": 200,
+      "bytes": 68944,
+      "sha256": "fbff42639cd8e6f9b3dc3eab5a6770316a63f40bf23586d0349aba9fa04ede9a"
+    },
+    {
+      "slug": "maylandia-estherae",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=62465",
+      "status": 200,
+      "bytes": 9656,
+      "sha256": "1cbac4c0e2d6215ff6ad9910037ad33c8fb42bc023d575117737386c8b9aadc3"
+    },
+    {
+      "slug": "pterophyllum-scalare",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/pterophyllum-scalare/",
+      "status": 200,
+      "bytes": 68643,
+      "sha256": "751c907c4910a04b85e5211bbbfb1f5a1a397d95116369a24f1b76e4b40b2508"
+    },
+    {
+      "slug": "pterophyllum-scalare",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=38425",
+      "status": 200,
+      "bytes": 10441,
+      "sha256": "5f0089ea04ca45f7f2b59ea3ad4ba10eca12964d6498cbf0e8d7c1920342838b"
+    },
+    {
+      "slug": "thorichthys-meeki",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/thorichthys-meeki/",
+      "status": 200,
+      "bytes": 89298,
+      "sha256": "88b94f99bb80e2d69ae210770c51fc8624d67b823f74ba692194bc45651f464a"
+    },
+    {
+      "slug": "thorichthys-meeki",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=16452",
+      "status": 200,
+      "bytes": 11374,
+      "sha256": "34c421ddd9d29a073f8b6d42662f86cf48be88c52d28dfdbb836df90808787d7"
+    },
+    {
+      "slug": "andinoacara-rivulatus",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/andinoacara-rivulatus/",
+      "status": 200,
+      "bytes": 70623,
+      "sha256": "bfafde96ce0fe81ae2409ba9b6c6525cc7d79278b3a8757d0f88b0d2f5bb095e"
+    },
+    {
+      "slug": "andinoacara-rivulatus",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=39041",
+      "status": 200,
+      "bytes": 11081,
+      "sha256": "090df61022a7d537b190db0f6b087fe5f9b692b99455f58c37de4f945a125fd5"
+    },
+    {
+      "slug": "acarichthys-heckelii",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/acarichthys-heckelii/",
+      "status": 200,
+      "bytes": 87395,
+      "sha256": "45c8743ffeccad71e775dcf284a012d97ccda8fb07de954e818ce80ba06f2893"
+    },
+    {
+      "slug": "acarichthys-heckelii",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=21290",
+      "status": 200,
+      "bytes": 9829,
+      "sha256": "c9a70ecfc277ea097b96f72a56c34a4f4d1fa228a076760f25984cf9c13191dd"
+    },
+    {
+      "slug": "astronotus-ocellatus",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/astronotus-ocellatus/",
+      "status": 200,
+      "bytes": 94349,
+      "sha256": "53fcced6416d7ee1b8b441528d49c916aa8e52b6b8cce120000392e51746ef86"
+    },
+    {
+      "slug": "astronotus-ocellatus",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=19918",
+      "status": 200,
+      "bytes": 11970,
+      "sha256": "9574788e17ca56395819daa34e3eb65c124eee509eb540c79d499db5cd66a6db"
+    },
+    {
+      "slug": "mikrogeophagus-ramirezi",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/mikrogeophagus-ramirezi/",
+      "status": 200,
+      "bytes": 117430,
+      "sha256": "9ffa2791ab1cb03adc1d99591a93a9ed315f501bf2eb768064385647b45cec6d"
+    },
+    {
+      "slug": "mikrogeophagus-ramirezi",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=22062",
+      "status": 200,
+      "bytes": 10809,
+      "sha256": "a3d6e61fe50309dc366af442856e45ef42e3419479140dd7eaab5bee3c4bae0d"
+    },
+    {
+      "slug": "trichogaster-chuna",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/trichogaster-chuna/",
+      "status": 200,
+      "bytes": 82796,
+      "sha256": "eb2e818e827b26e2c168e996c76a0f02ef2e680c0435552b034b5c8a1b329eab"
+    },
+    {
+      "slug": "trichogaster-chuna",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=41983",
+      "status": 200,
+      "bytes": 10473,
+      "sha256": "d2a34ba34db1da1289ee6ceea8529eb0e2c7a64e027f5afbefc2a8d2ddff53d6"
+    },
+    {
+      "slug": "macropodus-opercularis",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/macropodus-opercularis/",
+      "status": 200,
+      "bytes": 94952,
+      "sha256": "c4746193059bfcaf929a491d8b4464105cf623795f6f278057d4edf6b5fa8ec8"
+    },
+    {
+      "slug": "macropodus-opercularis",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=19461",
+      "status": 200,
+      "bytes": 11738,
+      "sha256": "a5163a9fcd80f58d5bf45702deef528ced4a06a5eeb81f087ab2e72a622a876a"
+    },
+    {
+      "slug": "trichopodus-trichopterus",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/trichopodus-trichopterus/",
+      "status": 200,
+      "bytes": 71891,
+      "sha256": "223326b463ae4f924d91ed84a11f0450faa82c1cba45e43e649dc8bfd6951a29"
+    },
+    {
+      "slug": "trichopodus-trichopterus",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=42008",
+      "status": 200,
+      "bytes": 13255,
+      "sha256": "c50db128ffc3ee752ad4345d43825960170d57b6498c6443659ecc1102921e38"
+    },
+    {
+      "slug": "trichopodus-leerii",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/trichopodus-leerii/",
+      "status": 200,
+      "bytes": 63899,
+      "sha256": "cf0f0b934f2fd192ac72f5db67411539b50d0246d16237073a14bafb6205408a"
+    },
+    {
+      "slug": "trichopodus-leerii",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=19476",
+      "status": 200,
+      "bytes": 10575,
+      "sha256": "87e8a9ce671831bb626df12c2a80b4b0854853c838da79580c5a095b214552e6"
+    },
+    {
+      "slug": "gyrinocheilus-aymonieri",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/gyrinocheilus-aymonieri/",
+      "status": 200,
+      "bytes": 82576,
+      "sha256": "1b3bebbe2e12bc71ed34504cf7b587cbaf4727eeacad10a79f7d54054e59ec84"
+    },
+    {
+      "slug": "gyrinocheilus-aymonieri",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=53563",
+      "status": 200,
+      "bytes": 10837,
+      "sha256": "0c5566a2db1fe7ace0610063f2f038389b64b2e9822bef3ee4dc736cbda19f18"
+    },
+    {
+      "slug": "hoplisoma-schwartzi",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/corydoras-schwartzi/",
+      "status": 200,
+      "bytes": 81316,
+      "sha256": "d17c82a151341db2f4e72f84a72c734a32c756b08014ce387b142f75649136d4"
+    },
+    {
+      "slug": "hoplisoma-schwartzi",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=4905",
+      "status": 200,
+      "bytes": 9964,
+      "sha256": "6848117a87c10ea715561cb38f1fc9abdddd2e4cf2a029d5ff6e56a3c03243fe"
+    },
+    {
+      "slug": "pangasianodon-hypophthalmus",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/pangasianodon-hypophthalmus/",
+      "status": 200,
+      "bytes": 71862,
+      "sha256": "d7a88eeb8166af1a143fefb168d54f280b23ef6fe5dec1766faf70f4d7b84b1a"
+    },
+    {
+      "slug": "pangasianodon-hypophthalmus",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=56294",
+      "status": 200,
+      "bytes": 11571,
+      "sha256": "7d11d6f4074e635ea2be7e939f95b7cfd42ba22f89fd9012e437be19d66b0b5a"
+    },
+    {
+      "slug": "phractocephalus-hemioliopterus",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/phractocephalus-hemioliopterus/",
+      "status": 200,
+      "bytes": 68416,
+      "sha256": "c9b7b6ab07a4d94a6b9075c4446d5bca1a59090187a51101de34c69860333bc3"
+    },
+    {
+      "slug": "phractocephalus-hemioliopterus",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=47923",
+      "status": 200,
+      "bytes": 10759,
+      "sha256": "8db387e51cdae12e9c28508b09ba5f0107e2b21f95cd8bb8df5e690dd4689ba6"
+    },
+    {
+      "slug": "xiphophorus-hellerii",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/xiphophorus-hellerii/",
+      "status": 200,
+      "bytes": 93948,
+      "sha256": "27553564cb9172d5d6e3a9e3e535e115bc1feae841527af04a1ff34764895a7d"
+    },
+    {
+      "slug": "xiphophorus-hellerii",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=13936",
+      "status": 200,
+      "bytes": 15720,
+      "sha256": "2c42b9556b119f65b3f52c21f50705f0a7177018eab78c8c2c24a85fb9127298"
+    },
+    {
+      "slug": "poecilia-reticulata",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/poecilia-reticulata/",
+      "status": 200,
+      "bytes": 69260,
+      "sha256": "6ca289378b4d282bf533d77a4d7dd162788494efd9f2eccd0a40b7f4be46996f"
+    },
+    {
+      "slug": "poecilia-reticulata",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=58598",
+      "status": 200,
+      "bytes": 19606,
+      "sha256": "e303048fed6c9459813f5f8c94085077fcfe325d271d2a6f4c46a5d82f4b92c3"
+    },
+    {
+      "slug": "poecilia-sphenops",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/poecilia-sphenops/",
+      "status": 200,
+      "bytes": 66077,
+      "sha256": "0009bf49d1891fec7899c6f6f6d3384b7103f4406647b4257efd9b748d1f7063"
+    },
+    {
+      "slug": "poecilia-sphenops",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=32496",
+      "status": 200,
+      "bytes": 13291,
+      "sha256": "0c1db8398fb4bc3fdb65333bb14a9f3a11e0cc8dec924db8f527d2ba9daf72a7"
+    },
+    {
+      "slug": "megalamphodus-eques",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/hyphessobrycon-eques/",
+      "status": 200,
+      "bytes": 103912,
+      "sha256": "96a66da056ef4b4f9f2947833cfd3b9763bf713a8729b3eda916e37cdbb8f1d9"
+    },
+    {
+      "slug": "megalamphodus-eques",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=29783",
+      "status": 200,
+      "bytes": 12459,
+      "sha256": "2f4aa1cbb151d90e2a12b0394176878862f1fc6871985fd733bea7449ba66831"
+    },
+    {
+      "slug": "bario-sanctaefilomenae",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/moenkhausia-sanctaefilomenae/",
+      "status": 200,
+      "bytes": 72623,
+      "sha256": "e828b3f0f21c94dc90e6a83f5c38b07dc03b1b79e06342cfc96053d2b94a9101"
+    },
+    {
+      "slug": "bario-sanctaefilomenae",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=29217",
+      "status": 200,
+      "bytes": 12431,
+      "sha256": "5807ffc6ba6e55bc8f6b133c4785c072fc32f47463679c252d6c7aaa68b472bb"
+    },
+    {
+      "slug": "hyphessobrycon-pulchripinnis",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/hyphessobrycon-pulchripinnis/",
+      "status": 200,
+      "bytes": 98407,
+      "sha256": "9713abbb351c2f5d949d396db068e2d9cd65fd6b3e6e8a1f12ba4abe827f1acb"
+    },
+    {
+      "slug": "hyphessobrycon-pulchripinnis",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=29160",
+      "status": 200,
+      "bytes": 9891,
+      "sha256": "987e27294ad011672f37c01d89f74169495f20382a8ef98ca60f658dcff0400d"
+    },
+    {
+      "slug": "pristella-maxillaris",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/pristella-maxillaris/",
+      "status": 200,
+      "bytes": 72821,
+      "sha256": "0911ad4ae21a969e29ecc9e6ef9d124275f319b58b76fe9f419a249dee7d266e"
+    },
+    {
+      "slug": "pristella-maxillaris",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=32998",
+      "status": 200,
+      "bytes": 10436,
+      "sha256": "7a11143632bdf77d989b958f1d0180e06715354e332fe4536ecf847e56b61997"
+    },
+    {
+      "slug": "hyphessobrycon-amandae",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/hyphessobrycon-amandae/",
+      "status": 200,
+      "bytes": 86870,
+      "sha256": "ba6475e22651dcbe84f88d79fe87c78ee3d717ef880b89bd301cbf6d916ab594"
+    },
+    {
+      "slug": "hyphessobrycon-amandae",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=7876",
+      "status": 200,
+      "bytes": 9884,
+      "sha256": "ff69edc09d7a0fee5e7eabdb315addbfe6579c58397707ce3098a5d229693c1c"
+    },
+    {
+      "slug": "hemigrammus-erythrozonus",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/hemigrammus-erythrozonus/",
+      "status": 200,
+      "bytes": 72031,
+      "sha256": "9e874d64fc00e7f0f7a3cc0d3da644c4b17362774820e8ed70dc5d7e762dbfbf"
+    },
+    {
+      "slug": "hemigrammus-erythrozonus",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=4011",
+      "status": 200,
+      "bytes": 10229,
+      "sha256": "f7db111d8bc2d54c3ffc5a2e2591806713de8cfa7e44a34119d22a7549bf00d0"
+    },
+    {
+      "slug": "gymnocorymbus-ternetzi",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/gymnocorymbus-ternetzi/",
+      "status": 200,
+      "bytes": 69205,
+      "sha256": "aea0f30ccb0baadd742b5e0a50a8d4c4b94b5f695e53a2b76c2fd9c8d43a40a0"
+    },
+    {
+      "slug": "gymnocorymbus-ternetzi",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=51817",
+      "status": 200,
+      "bytes": 10746,
+      "sha256": "606d79e14ab14a6edd2ba370fee178596037d60b2f420b669c5fcd9ecf3cd9c7"
+    },
+    {
+      "slug": "paracheirodon-axelrodi",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/paracheirodon-axelrodi/",
+      "status": 200,
+      "bytes": 114525,
+      "sha256": "8b17abe0de8d7f38aea50a0d3666c2b4148c31f4fababfd29866953da864261d"
+    },
+    {
+      "slug": "paracheirodon-axelrodi",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=4506",
+      "status": 200,
+      "bytes": 9984,
+      "sha256": "81c0e5a67920d99a86f10bc4b6769018e6ad66393370476335710196f4cc9e7c"
+    },
+    {
+      "slug": "hyphessobrycon-herbertaxelrodi",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/hyphessobrycon-herbertaxelrodi/",
+      "status": 200,
+      "bytes": 101436,
+      "sha256": "8e72e0eb09e8a7ebd52293f979761480b6af73a5221f47160b7da0ea8c505183"
+    },
+    {
+      "slug": "hyphessobrycon-herbertaxelrodi",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=24804",
+      "status": 200,
+      "bytes": 10508,
+      "sha256": "2c6ea67b4556f53358ccf94bfe41ed0239b43090124daa1a4883634b6090834e"
+    },
+    {
+      "slug": "thayeria-boehlkei",
+      "referenceId": "care",
+      "url": "https://www.seriouslyfish.com/species/thayeria-boehlkei/",
+      "status": 200,
+      "bytes": 77564,
+      "sha256": "562e627eb314dabb48c340682c44594283b2b53c750303a42f32f39590eda2f2"
+    },
+    {
+      "slug": "thayeria-boehlkei",
+      "referenceId": "cof",
+      "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=24929",
+      "status": 200,
+      "bytes": 9936,
+      "sha256": "5f52ef0e12267eb30e99134961bb11fc428fec4d1a1b62ba81c3e2a202a66e23"
+    }
+  ]
+}

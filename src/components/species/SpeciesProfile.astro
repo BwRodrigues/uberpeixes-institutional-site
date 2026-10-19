@@ -20,6 +20,22 @@ const referenceLabels: Record<string, string> = {
   fb: "Biologia",
   gbif: "Biodiversidade",
 };
+const essentialLabels = {
+  temperature: "Temperatura recomendada",
+  ph: "pH",
+  gh: "Dureza (GH)",
+  size: "Tamanho adulto",
+  volume: "Volume recomendado",
+  behavior: "Comportamento",
+  sociability: "Sociabilidade",
+  diet: "Alimentação",
+  difficulty: "Nível de dificuldade",
+};
+const extraSections = [
+  { id: "fotos", title: "Galeria de fotos" },
+  { id: "relacionadas", title: "Espécies relacionadas" },
+  { id: "referencias", title: "Referências bibliográficas" },
+];
 const structuredData: unknown[] = [
   {
     "@context": "https://schema.org",
@@ -86,9 +102,6 @@ if (
       <p class="scientific-name">
         <i>{scientificLabel(animal)}</i>
       </p>
-      <p class="commercial-name">
-        Nome na loja: <strong>{animal.commercialName}</strong>
-      </p>
       <p>{animal.description}</p>
       <a
         class="button"
@@ -104,42 +117,23 @@ if (
     </div>
     <SpeciesPhoto animal={animal} eager zoom />
   </section>
-  <p class="identification-note">{animal.identificationNote}</p>
-  <p class="profile-guidance">
-    As faixas de manutenção são orientativas. Confira as fontes, as ressalvas de
-    cada ficha e as condições dos animais com a equipe.
-  </p>
-  {animal.additionalPhotos.length > 0 && (
-    <section
-      class="species-gallery"
-      id="fotos"
-      aria-labelledby="species-gallery-title"
-    >
-      <h2 id="species-gallery-title">Mais fotos da espécie</h2>
-      <p>
-        Veja outros registros de <i>{animal.scientificName}</i>. Toque em uma
-        foto para abrir a imagem completa.
-      </p>
-      <div class="species-gallery-grid">
-        {animal.additionalPhotos.map((photo) => (
-          <SpeciesPhoto animal={animal} photo={photo} zoom />
-        ))}
-      </div>
-    </section>
-  )}
   <div class="profile-layout">
     <nav class="profile-index" aria-label="Seções da ficha">
-      <strong>Nesta ficha</strong>
-      <ul>
-        {profileSections.map((section) => (
-          <li>
-            <a href={`#${section.id}`}>{section.title}</a>
-          </li>
-        ))}
-        <li>
-          <a href="#referencias">Referências bibliográficas</a>
-        </li>
-      </ul>
+      <details class="profile-navigation" open>
+        <summary>Nesta ficha</summary>
+        <ul>
+          {profileSections.map((section) => (
+            <li>
+              <a href={`#${section.id}`}>{section.title}</a>
+            </li>
+          ))}
+          {extraSections.map((section) => (
+            <li>
+              <a href={`#${section.id}`}>{section.title}</a>
+            </li>
+          ))}
+        </ul>
+      </details>
     </nav>
     <div class="profile-sections">
       {profileSections.map((definition) => {
@@ -147,62 +141,84 @@ if (
           (section) => section.id === definition.id,
         );
         return (
-          <details
-            class="profile-section"
-            id={definition.id}
-            open={
-              Boolean(data?.fields.length) &&
-              ["apresentacao", "classificacao", "agua"].includes(definition.id)
-            }
-          >
-            <summary>
-              <h2>
-                {definition.title}
-                {!data?.fields.length && <span>A confirmar</span>}
-              </h2>
-            </summary>
-            {data?.fields.length ? (
-              <div class="profile-fields">
-                {data.fields.map((field) => (
-                  <section class="profile-field">
-                    <h3>{field.label}</h3>
-                    <p class="profile-field-value">
-                      {field.value}
-                      <span class="field-references">
-                        <span>Fontes:</span>
-                        {field.referenceIds.map((id) => (
-                          <a
-                            href={`#fonte-${id}`}
-                            title={
-                              animal.references.find(
-                                (reference) => reference.id === id,
-                              )?.title
-                            }
-                          >
-                            {referenceLabels[id] ?? "Referência científica"}
-                          </a>
-                        ))}
-                      </span>
-                    </p>
-                  </section>
-                ))}
-              </div>
-            ) : (
-              <>
-                <p>
-                  {data?.pending ?? "Dados não disponíveis para este animal."}
-                </p>
-                <p class="coverage-label">Campos previstos nesta seção:</p>
-                <ul class="pending-fields">
-                  {definition.fields.map((label) => (
-                    <li>{label}</li>
+          <>
+            <details
+              class="profile-section"
+              id={definition.id}
+              open={
+                Boolean(data?.fields.length) &&
+                ["apresentacao", "agua", "criacao"].includes(definition.id)
+              }
+            >
+              <summary>
+                <h2>{definition.title}</h2>
+              </summary>
+              {data?.fields.length ? (
+                <div class="profile-fields">
+                  {data.fields.map((field) => (
+                    <section class="profile-field">
+                      <h3>{field.label}</h3>
+                      <p class="profile-field-value">
+                        {field.value}
+                        <span class="field-references">
+                          <span>Fontes:</span>
+                          {field.referenceIds.map((id) => (
+                            <a
+                              href={`#fonte-${id}`}
+                              title={
+                                animal.references.find(
+                                  (reference) => reference.id === id,
+                                )?.title
+                              }
+                            >
+                              {referenceLabels[id] ?? "Referência científica"}
+                            </a>
+                          ))}
+                        </span>
+                      </p>
+                    </section>
                   ))}
-                </ul>
-              </>
+                </div>
+              ) : null}
+            </details>
+            {definition.id === "apresentacao" && (
+              <section
+                class="species-essentials"
+                aria-labelledby="essentials-title"
+              >
+                <h2 id="essentials-title">Informações essenciais</h2>
+                <dl>
+                  {(animal.essentials ?? []).map((fact) => (
+                    <div data-essential={fact.key}>
+                      <dt>{essentialLabels[fact.key]}</dt>
+                      <dd>{fact.value}</dd>
+                    </div>
+                  ))}
+                </dl>
+              </section>
             )}
-          </details>
+          </>
         );
       })}
+      {animal.additionalPhotos.length > 0 && (
+        <section
+          class="species-gallery"
+          id="fotos"
+          aria-labelledby="species-gallery-title"
+        >
+          <h2 id="species-gallery-title">Galeria de fotos</h2>
+          <p>
+            Veja outros registros de <i>{animal.scientificName}</i>. Toque em
+            uma foto para abrir a imagem completa.
+          </p>
+          <div class="species-gallery-grid">
+            {animal.additionalPhotos.map((photo) => (
+              <SpeciesPhoto animal={animal} photo={photo} zoom />
+            ))}
+          </div>
+        </section>
+      )}
+      <SpeciesRecommendations animal={animal} />
       <section id="referencias" class="profile-references">
         <h2>Referências bibliográficas</h2>
         {animal.references.length ? (
@@ -222,17 +238,10 @@ if (
               </li>
             ))}
           </ol>
-        ) : (
-          <p>
-            As fontes científicas ainda não foram verificadas. A planilha foi
-            usada apenas para selecionar e preservar os registros comerciais;
-            ela não fundamenta recomendações biológicas.
-          </p>
-        )}
+        ) : null}
       </section>
     </div>
   </div>
-  <SpeciesRecommendations animal={animal} />
   <aside class="species-inquiry">
     <span>Dúvidas sobre {animal.name}?</span>
     <a class="button" href={inquiry} target="_blank" rel="noopener noreferrer">
@@ -242,6 +251,19 @@ if (
 </SpeciesLayout>
 
 <script>
+  const menu = document.querySelector<HTMLDetailsElement>(
+    ".profile-navigation",
+  );
+  if (menu && matchMedia("(max-width: 699px)").matches) menu.open = false;
+  const inquiryBar = document.querySelector<HTMLElement>(".species-inquiry");
+  if (inquiryBar && "ResizeObserver" in window) {
+    new ResizeObserver(() =>
+      document.documentElement.style.setProperty(
+        "--inquiry-height",
+        `${inquiryBar.getBoundingClientRect().height}px`,
+      ),
+    ).observe(inquiryBar);
+  }
   // Enhance section links only; all scientific content is already in the HTML.
   const revealSection = (hash: string, focus = false) => {
     let id: string;

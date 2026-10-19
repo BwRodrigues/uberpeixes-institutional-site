@@ -24,7 +24,12 @@ def audit():
             assert photo['author'] and photo['license'] and photo['licenseUrl'].startswith('https://'),photo['src']
             credits.append({'slug':animal['slug'],'position':index,**photo})
     snapshots=read(DOC/'preservados.json')
-    for file,digest in snapshots.items():assert hashlib.sha256((ROOT/file).read_bytes()).hexdigest()==digest,'Existing approved record changed: '+file
+    editorial=read(DOC/'revisao-editorial.json')['records'] if (DOC/'revisao-editorial.json').exists() else {}
+    reviewed={item['file']:item for item in editorial.values()}
+    for file,digest in snapshots.items():
+        change=reviewed.get(file);expected=change['afterSha256'] if change else digest
+        if change:assert change['beforeSha256']==digest and change['decision'],'Review must preserve the original baseline and justification: '+file
+        assert hashlib.sha256((ROOT/file).read_bytes()).hexdigest()==expected,'Unrecorded change to an approved record: '+file
     rows=[]
     for row in inventory['records']:
         decision=decisions[str(row['row'])];out={**row,**decision};group=decision.get('group');source=sources.get(group,{})

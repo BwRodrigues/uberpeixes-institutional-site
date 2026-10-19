@@ -11,7 +11,7 @@
   },
   "sortOrder": 18,
   "scientificName": "Betta splendens",
-  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "identificationNote": "",
   "description": "O betta combina cores e nadadeiras muito variadas com um comportamento territorial. Um ambiente plantado, tranquilo e bem mantido é parte essencial de seu cuidado.",
   "photo": {
     "src": "/images/species/betta-splendens-1.webp",
@@ -53,19 +53,139 @@
       "id": "apresentacao",
       "fields": [
         {
-          "label": "Outros nomes populares",
-          "value": "BETTA FÊMEA COMUM; BETTA FÊMEA DUMBO; BETTA FÊMEA KOI CANDY; BETTA MACHO COMUM; BETTA MACHO CROWNTAIL; BETTA MACHO DRAGON; BETTA MACHO DUMBO; BETTA MACHO KOI; BETTA MACHO MUSTARD GAS; BETTA MACHO PALHAÇO",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Identificação científica",
-          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "label": "Nome científico",
+          "value": "Betta splendens",
           "referenceIds": ["cof"]
         },
         {
-          "label": "Introdução",
-          "value": "O betta combina cores e nadadeiras muito variadas com um comportamento territorial. Um ambiente plantado, tranquilo e bem mantido é parte essencial de seu cuidado.",
+          "label": "Outros nomes e variedades",
+          "value": "Betta fêmea comum; Betta fêmea dumbo; Betta fêmea koi candy; Betta macho comum; Betta macho crowntail; Betta macho dragon; Betta macho dumbo; Betta macho koi; Betta macho mustard gas; Betta macho palhaço",
           "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "22–30 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "6,0–8,0",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "1–15 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Arrozais, brejos, valas, córregos lentos e lagoas, geralmente com vegetação e pouca corrente.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Corpo compacto e boca voltada para cima; cores e formato das nadadeiras variam muito entre linhagens ornamentais.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 7 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Machos geralmente têm cores e nadadeiras mais desenvolvidas; seleção ornamental pode alterar muito essas características.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "Cerca de 40 L ou mais; um indivíduo. Aquário de aproximadamente 40 L ou mais para um betta mantido sozinho, com base próxima de 45 × 30 cm, filtragem suave, plantas e esconderijos. Não mantenha dois machos juntos nem um casal permanente.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Usar plantas, sombra e abrigos, com filtragem suave e acesso livre à superfície. Não interpretar a tolerância a pouco oxigênio como dispensa de manutenção.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Baixa a moderada: corrente suave e estabilidade",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Territorial; pode atacar outros bettas",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Um indivíduo; sexos separados",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Mantenha o betta ornamental sozinho. Não juntar machos; manter machos e fêmeas separados fora de reprodução planejada.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Predador de pequenos invertebrados; oferecer ração apropriada e pequenos alimentos vivos ou congelados, como artêmia e dáfnias.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Constrói ninho de bolhas. A aproximação do casal exige supervisão e refúgios; alevinos precisam de ar quente e úmido acima da água.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Corrente forte, saltos e excesso de alimento são riscos evitáveis. Deixe acesso livre à superfície e uma camada de ar úmido sob a tampa; observe apetite e integridade das nadadeiras.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "Ásia: região central da Tailândia. As linhagens ornamentais são criadas em vários países.",
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -84,7 +204,7 @@
         },
         {
           "label": "Classe",
-          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "value": "Actinopteri",
           "referenceIds": ["class"]
         },
         {
@@ -111,126 +231,6 @@
           "label": "Autoridade taxonômica",
           "value": "Regan 1910",
           "referenceIds": ["cof"]
-        },
-        {
-          "label": "Sinônimos científicos",
-          "value": "Literatura de manutenção consultada sob Betta splendens; o nome aceito adotado é Betta splendens. Consultar o histórico nomenclatural completo na referência taxonômica.",
-          "referenceIds": ["cof", "care"]
-        }
-      ]
-    },
-    {
-      "id": "origem",
-      "fields": [
-        {
-          "label": "Continente e países",
-          "value": "Ásia: região central da Tailândia. Linhagens ornamentais têm histórico de seleção e, em alguns casos, hibridação; a cor comercial não comprova linhagem pura.",
-          "referenceIds": ["care", "cof"]
-        },
-        {
-          "label": "Ambiente natural",
-          "value": "Arrozais, brejos, valas, córregos lentos e lagoas, geralmente com vegetação e pouca corrente.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "caracteristicas",
-      "fields": [
-        {
-          "label": "Tamanho adulto",
-          "value": "70 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Diferenças entre machos e fêmeas",
-          "value": "Machos geralmente têm cores e nadadeiras mais desenvolvidas; seleção ornamental pode alterar muito essas características.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "agua",
-      "fields": [
-        {
-          "label": "Temperatura em aquário",
-          "value": "22–30 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "pH em aquário",
-          "value": "6.0–8.0; não interpretar os extremos como metas a alternar.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "GH",
-          "value": "1–15 °dGH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "KH",
-          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Substrato e decoração",
-          "value": "Usar plantas, sombra e abrigos, com filtragem suave e acesso livre à superfície. Não interpretar a tolerância a pouco oxigênio como dispensa de manutenção.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "criacao",
-      "fields": [
-        {
-          "label": "Volume mínimo e contexto",
-          "value": "A fonte usa base de 45 × 30 cm e cerca de 41 L como referência para um indivíduo. Não usar essa informação para recomendar casal permanente, pequenos potes ou recipientes sem estrutura.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Manutenção específica",
-          "value": "Usar plantas, sombra e abrigos, com filtragem suave e acesso livre à superfície. Não interpretar a tolerância a pouco oxigênio como dispensa de manutenção.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "alimentacao",
-      "fields": [
-        {
-          "label": "Alimentos adequados",
-          "value": "Predador de pequenos invertebrados; oferecer ração apropriada e pequenos alimentos vivos ou congelados, como artêmia e dáfnias.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "comportamento",
-      "fields": [
-        {
-          "label": "Comportamento social",
-          "value": "A manutenção individual é a opção indicada na fonte para a maioria dos ornamentais. Não juntar machos; manter machos e fêmeas separados fora de reprodução planejada.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "reproducao",
-      "fields": [
-        {
-          "label": "Tipo de reprodução",
-          "value": "Constrói ninho de bolhas. A aproximação do casal exige supervisão e refúgios; alevinos precisam de ar quente e úmido acima da água.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "saude",
-      "fields": [
-        {
-          "label": "Problemas de manutenção",
-          "value": "Usar plantas, sombra e abrigos, com filtragem suave e acesso livre à superfície. Não interpretar a tolerância a pouco oxigênio como dispensa de manutenção.",
-          "referenceIds": ["care"]
         }
       ]
     },
@@ -238,8 +238,8 @@
       "id": "curiosidades",
       "fields": [
         {
-          "label": "Curiosidades verificadas da espécie",
-          "value": "As variedades dumbo, koi, crowntail e dragon são nomes ornamentais, não novas espécies. As fotos representam a espécie, sem afirmar estoque ou variedade disponível.",
+          "label": "Você sabia?",
+          "value": "O órgão labirinto permite respirar ar atmosférico, mas não substitui filtragem, água limpa ou espaço adequado.",
           "referenceIds": ["care", "cof"]
         }
       ]
@@ -283,5 +283,52 @@
       "referenceIds": ["care", "cof"]
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "22–30 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "6,0–8,0",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "1–15 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 7 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "Cerca de 40 L ou mais; um indivíduo",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Territorial; pode atacar outros bettas",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Um indivíduo; sexos separados",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Ração para betta e pequenos invertebrados",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Baixa a moderada: corrente suave e estabilidade",
+      "referenceIds": ["care"]
+    }
+  ]
 }

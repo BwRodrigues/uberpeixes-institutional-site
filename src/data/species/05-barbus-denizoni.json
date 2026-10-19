@@ -4,7 +4,7 @@
   "commercialName": "BARBUS DENIZONI",
   "category": "Barbos e Danios",
   "description": "Alongado e de faixa vermelha marcante, o Denizoni precisa de espaço para nadar e companhia da própria espécie. Aqui, comprimento de aquário e boa oxigenação importam tanto quanto a beleza.",
-  "identificationNote": "O nome válido adotado pelo Catalog of Fishes é Dawkinsia denisonii (Day, 1865). Sahyadria denisonii e Puntius denisonii são combinações anteriores; a grafia comercial BARBUS DENIZONI foi preservada.",
+  "identificationNote": "",
   "scientificName": "Dawkinsia denisonii",
   "source": {
     "workbook": "VAREJO PEIXES NICHOS.xlsx",
@@ -28,19 +28,139 @@
       "id": "apresentacao",
       "fields": [
         {
-          "label": "Outros nomes populares",
+          "label": "Nome científico",
+          "value": "Dawkinsia denisonii",
+          "referenceIds": ["cof"]
+        },
+        {
+          "label": "Outros nomes e variedades",
           "value": "Barbo-denison; Denison barb; Red-line Torpedo Barb. “Denizoni” foi mantido como nome comercial.",
           "referenceIds": ["care"]
-        },
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
         {
-          "label": "Identificação científica",
-          "value": "Dawkinsia denisonii, conforme o status atual do Catalog of Fishes.",
-          "referenceIds": ["cof", "revision"]
-        },
-        {
-          "label": "Introdução",
-          "value": "É um peixe gregário de natação ativa. Não deve ser escolhido para um aquário pequeno só porque o exemplar à venda ainda é jovem.",
+          "label": "Temperatura em aquário",
+          "value": "15–25 °C",
           "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "6,5–7,8",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "5–25 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Riachos e trechos superiores de rios, com rochas, vegetação marginal e boa oxigenação.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Corpo fusiforme, faixa escura lateral e traço vermelho na parte anterior, com marcas amarelas e pretas na cauda.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 11 cm sem cauda; 15 cm total",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Fêmeas adultas tendem a ser maiores e mais robustas, com coloração um pouco menos intensa, .",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "243 L ou mais; grupo de 6–10. Base de pelo menos 120 × 45 cm; com 45 cm de altura, cerca de 243 L brutos para planejar o grupo adulto. Preserve um corredor amplo e aumente o espaço para uma comunidade.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Aquário estabelecido, corredor livre e boa oxigenação. Organize rochas e madeira sem estreitar a passagem e retire resíduos antes que se acumulem.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Moderada: espaço e oxigenação",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Pacífico e muito ativo",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Grupo de 6–10 ou mais",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Companheiros que tolerem água bem oxigenada, movimentação e tamanho do grupo, sem competição ou predação incompatíveis.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Dieta variada com componentes vegetais e pequenos animais, conforme a referência de manutenção.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "A reprodução doméstica é incomum e exige grupo e instalação específica. Há relatos de desova em musgos; os procedimentos de produção comercial não devem ser tratados como uma receita para o aquário de casa.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "É sensível ao acúmulo de matéria orgânica e à falta de oxigênio. Nado alterado ou isolamento exigem conferir água, circulação e competição; mantenha a rotina de remoção de resíduos.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "Ásia: sul da Índia, em drenagens de Kerala e Karnataka.",
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -59,7 +179,7 @@
         },
         {
           "label": "Classe",
-          "value": "Actinopteri, no esquema de classificação adotado.",
+          "value": "Actinopteri",
           "referenceIds": ["class"]
         },
         {
@@ -84,7 +204,7 @@
         },
         {
           "label": "Autoridade taxonômica",
-          "value": "(Day, 1865).",
+          "value": "(Day, 1865)",
           "referenceIds": ["cof"]
         },
         {
@@ -95,287 +215,12 @@
       ]
     },
     {
-      "id": "origem",
-      "fields": [
-        {
-          "label": "Continente e países",
-          "value": "Ásia; Índia, onde é nativa e endêmica.",
-          "referenceIds": ["cof"]
-        },
-        {
-          "label": "Distribuição geográfica",
-          "value": "Sul da Índia; a fonte de manutenção destaca Kerala e Karnataka. Introdução em Hong Kong não foi confundida com origem natural.",
-          "referenceIds": ["cof", "care"]
-        },
-        {
-          "label": "Bacia hidrográfica",
-          "value": "A literatura cita sistemas como Valapattanam, Chaliyar, Chandragiri e outros rios do sudoeste indiano; registros antigos em algumas bacias podem ser de D. chalakkudiensis.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Ambiente natural",
-          "value": "Riachos e trechos superiores de rios, poços entre rochas, vegetação nas margens e elevada oxigenação.",
-          "referenceIds": ["care", "fb"]
-        },
-        {
-          "label": "Nativa, exótica ou linhagem ornamental",
-          "value": "Espécie exótica em relação ao Brasil. A procedência do lote comercial, inclusive se de criação, deve ser consultada sem presumir coleta silvestre.",
-          "referenceIds": ["cof", "care"]
-        }
-      ]
-    },
-    {
-      "id": "caracteristicas",
-      "fields": [
-        {
-          "label": "Características físicas",
-          "value": "Corpo fusiforme e alongado, adaptado a deslocamentos ativos.",
-          "referenceIds": ["fb", "care"]
-        },
-        {
-          "label": "Coloração",
-          "value": "Faixa lateral escura, faixa vermelha na porção anterior e marcações amarelas e pretas na cauda.",
-          "referenceIds": ["fb", "care"]
-        },
-        {
-          "label": "Tamanho adulto",
-          "value": "Até 15 cm de comprimento total no FishBase; Seriously Fish cita 110 mm de comprimento padrão. A diferença de medida foi mantida explícita.",
-          "referenceIds": ["fb", "care"]
-        },
-        {
-          "label": "Expectativa de vida",
-          "value": "Não foi localizada uma estimativa de longevidade suficientemente documentada nas fontes consultadas.",
-          "referenceIds": ["fb", "care"]
-        },
-        {
-          "label": "Diferenças entre machos e fêmeas",
-          "value": "Fêmeas adultas tendem a ser maiores e mais robustas, com coloração um pouco menos intensa, segundo a ficha especializada.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "agua",
-      "fields": [
-        {
-          "label": "Temperatura em aquário",
-          "value": "15–25 °C segundo Seriously Fish; não presumir que toda espécie ornamental exige água permanentemente mais quente.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "pH em aquário",
-          "value": "6,5–7,8 na referência de manutenção. O resumo do FishBase indica 6,8–7,8; estabilidade e condição do lote devem orientar a adaptação.",
-          "referenceIds": ["care", "fb"]
-        },
-        {
-          "label": "GH",
-          "value": "5–25 °dGH na fonte especializada.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "KH",
-          "value": "Não foi encontrada faixa específica verificada; não foi criada uma meta a partir do pH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Registros na natureza",
-          "value": "Habita cursos de água oxigenada. A descrição do habitat não é uma recomendação para manter o aquário em corrente extrema ou nos limites térmicos.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Tipo de ambiente",
-          "value": "Água doce, madura e com carga orgânica controlada.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Substrato e decoração",
-          "value": "Rochas e madeira podem compor o cenário, sem bloquear um corredor amplo de natação.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Vegetação e esconderijos",
-          "value": "A fonte não o descreve como destruidor habitual de plantas; vegetação marginal deve deixar área livre.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Circulação e oxigenação",
-          "value": "Boa oxigenação e movimentação moderada são importantes; a fonte destaca intolerância à acumulação de poluentes orgânicos.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "criacao",
-      "fields": [
-        {
-          "label": "Volume mínimo e contexto",
-          "value": "Referência inicial: base de 120 × 45 cm. Com 45 cm de altura, cerca de 243 L brutos; planejar pelo grupo adulto, não pelo tamanho dos juvenis à venda.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Dimensões do aquário",
-          "value": "Pelo menos 120 × 45 cm de base ou equivalente, podendo precisar de mais espaço conforme o grupo e a comunidade.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Dificuldade",
-          "value": "Moderada: exige aquário já estabelecido, espaço e atenção à qualidade da água.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Área de natação",
-          "value": "Coluna de água com corredor horizontal livre; comportamento bentopelágico no resumo biológico.",
-          "referenceIds": ["care", "fb"]
-        },
-        {
-          "label": "Territorialidade",
-          "value": "Geralmente pacífico; os indivíduos interagem no grupo, e identificar corretamente a espécie ajuda a evitar confusão com congêneres mais beligerantes.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Quantidade de indivíduos",
-          "value": "Pelo menos 6–10 exemplares, conforme Seriously Fish; a manutenção de grupo exige capacidade real de espaço e filtragem.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Manutenção específica",
-          "value": "Trocas semanais de 30–50% são apresentadas pela fonte como rotina de referência, ajustadas à qualidade e compatibilidade da água de reposição.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Orientações para iniciantes",
-          "value": "Planeje o aquário adulto antes da compra e meça a qualidade da água; um sistema recém-montado não substitui ambiente maduro.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "alimentacao",
-      "fields": [
-        {
-          "label": "Classificação alimentar",
-          "value": "Dieta variada com componentes vegetais e pequenos animais, conforme a referência de manutenção.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Alimentos adequados",
-          "value": "Alimento seco de qualidade e complementos pequenos como Artemia, Daphnia e outros invertebrados apropriados; a fonte destaca boa aceitação de alimentos que afundam.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Frequência justificada",
-          "value": "Não foi encontrada frequência numérica única; ajuste porções ao grupo e ao consumo, sem deixar acúmulo orgânico.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Variedade alimentar",
-          "value": "Incluir componentes vegetais e animais. Intensificar vermelho não deve ser o único objetivo da alimentação.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Cuidados com excesso de alimento",
-          "value": "Sobras aumentam a carga orgânica, uma preocupação relevante para a espécie; observe o grupo durante a oferta e preserve a qualidade da água.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "comportamento",
-      "fields": [
-        {
-          "label": "Temperamento",
-          "value": "Geralmente pacífico, porém ativo.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Comportamento social",
-          "value": "Gregário; planejar grupo, não um exemplar isolado.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Compatibilidade",
-          "value": "Companheiros que tolerem água bem oxigenada, movimentação e tamanho do grupo, sem competição ou predação incompatíveis.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Conflitos",
-          "value": "Dawkinsia chalakkudiensis pode ser confundida no comércio e é descrita como mais beligerante; confirme a identificação do lote.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Peixes menores, invertebrados e plantas",
-          "value": "Não foi localizada garantia de segurança para crias ou invertebrados minúsculos. A fonte informa que normalmente não danifica plantas; ainda assim, preserve corredor de natação.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "reproducao",
-      "fields": [
-        {
-          "label": "Tipo de reprodução",
-          "value": "Ovíparo; há relatos de desova em grupos.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Dimorfismo sexual",
-          "value": "Fêmeas adultas costumam ser maiores e mais cheias; não foi adotado um método infalível de sexagem de juvenis.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Comportamento reprodutivo",
-          "value": "Há criação comercial e poucos relatos em aquários domésticos; a fonte considera importante o contexto de grupo.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Ovos e filhotes",
-          "value": "A referência relata deposição em musgo em experiências de reprodução. Não há protocolo padronizado de manejo de ovos/alevinos validado para recomendar nesta ficha.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Dificuldade em cativeiro",
-          "value": "Elevada para reprodução doméstica previsível. Parâmetros de experiências de desova não foram apresentados como faixas normais de manutenção.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "saude",
-      "fields": [
-        {
-          "label": "Sensibilidade a alterações",
-          "value": "Particular atenção ao acúmulo de matéria orgânica e à falta de oxigenação.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Problemas de manutenção",
-          "value": "Pouco espaço de natação e água deteriorada contrariam as necessidades descritas nas fontes.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Prevenção",
-          "value": "Aquário maduro, boa circulação, controle de resíduos e trocas compatíveis com a água do sistema.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Sinais de estresse",
-          "value": "Alterações de natação, apetite ou isolamento pedem revisão de água, oxigenação e convivência. Não foi proposto tratamento veterinário ou medicação por sintomas inespecíficos.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
       "id": "curiosidades",
       "fields": [
         {
-          "label": "Mudança de gênero",
-          "value": "A espécie foi colocada em Sahyadria em 2013 e o catálogo atual adota Dawkinsia, com base em literatura posterior.",
-          "referenceIds": ["cof", "revision"]
-        },
-        {
-          "label": "Comprimento que conta",
-          "value": "Os 11 cm de comprimento padrão e os 15 cm totais encontrados nas fontes são medidas diferentes: a ficha evita tratá-las como se fossem o mesmo tamanho.",
-          "referenceIds": ["care", "fb"]
+          "label": "Você sabia?",
+          "value": "Dawkinsia denisonii também aparece no aquarismo pelos nomes anteriores Sahyadria denisonii e Puntius denisonii.",
+          "referenceIds": ["care", "cof"]
         }
       ]
     }
@@ -458,6 +303,53 @@
       "label": "Ásia",
       "scale": "continent",
       "referenceIds": ["cof"]
+    }
+  ],
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "15–25 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "6,5–7,8",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "5–25 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 11 cm sem cauda; 15 cm total",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "243 L ou mais; grupo de 6–10",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Pacífico e muito ativo",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Grupo de 6–10 ou mais",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Ração, invertebrados e componente vegetal",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Moderada: espaço e oxigenação",
+      "referenceIds": ["care"]
     }
   ]
 }

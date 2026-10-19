@@ -1,0 +1,537 @@
+{
+  "date": "2026-10-18",
+  "baselineCommit": "9b38512e1f6461718ab879210136e09a04affe70",
+  "records": {
+    "neon-chines": {
+      "file": "src/data/species/01-neon-chines.json",
+      "beforeSha256": "d523f5a2c8d57e2e335b92e91c65727947038c78527ac3cbd39f1f8ebe1e233e",
+      "afterSha256": "b350e2279839abcee53c47c0e4cdd306c7efc345bd36082342db45acdff85f0c",
+      "batch": 1,
+      "decision": "Separados 4 cm de comprimento padrão e registros de comprimento total. Distribuição restrita mantida; não ampliar com antigas identificações. Lin, 1932 preservado, sem atribuir Linnaeus.",
+      "unverified": [
+        "KH específico de manutenção não documentado; omitido, sem derivar de GH.",
+        "Dificuldade é síntese editorial das exigências descritas, não escala científica padronizada."
+      ],
+      "references": [
+        {
+          "id": "cof",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=3580",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "class",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "care",
+          "url": "https://www.seriouslyfish.com/species/tanichthys-albonubes/",
+          "author": "Seriously Fish"
+        },
+        {
+          "id": "fb",
+          "url": "https://www.fishbase.se/summary/tanichthys-albonubes.html",
+          "author": "FishBase"
+        },
+        {
+          "id": "gbif",
+          "url": "https://api.gbif.org/v1/species/match?name=Tanichthys%20albonubes",
+          "author": "GBIF"
+        }
+      ]
+    },
+    "peixe-agulhinha": {
+      "file": "src/data/species/02-peixe-agulhinha.json",
+      "beforeSha256": "0135a0b893ef0ff3edcad419b5f4c0b5d3350b04f4a9bf2ace0aec9ffba532a2",
+      "afterSha256": "09e51d84dcd567a6bfab563de9e92d81f59ceac4c72632509e7716917420117e",
+      "batch": 1,
+      "decision": "pH de manutenção passou de 6,5–8,0 para 7,0–8,0, subconjunto conservador comum às referências existentes; GH 10–20 preservado. Porte de 5,5 cm SL no Seriously Fish e 16,1 cm TL no FishBase permanece divergente, sem média. A identificação do lote deve ser confirmada antes de dimensionar o grupo.",
+      "unverified": [
+        "KH específico de manutenção não documentado; omitido, sem derivar de GH.",
+        "Dificuldade é síntese editorial das exigências descritas, não escala científica padronizada.",
+        "Divergência de tamanho adulto não reconciliada; confirmação do lote necessária antes de definir lotação."
+      ],
+      "references": [
+        {
+          "id": "cof",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=13933",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "class",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "care",
+          "url": "https://www.seriouslyfish.com/species/dermogenys-pusilla/",
+          "author": "Seriously Fish"
+        },
+        {
+          "id": "fb",
+          "url": "https://www.fishbase.se/summary/dermogenys-pusilla.html",
+          "author": "FishBase"
+        },
+        {
+          "id": "gbif",
+          "url": "https://api.gbif.org/v1/species/match?name=Dermogenys%20pusilla",
+          "author": "GBIF"
+        }
+      ]
+    },
+    "barbus-cereja": {
+      "file": "src/data/species/03-barbus-cereja.json",
+      "beforeSha256": "f8e4920a695af0cab172a081180378a1889ac4545b0a6f3c93bb101c316502d3",
+      "afterSha256": "b8c4fb586c1115901d794810323214fd9460f712e18c52b9ede3f8cda0e154ca",
+      "batch": 1,
+      "decision": "Rohanella titteya e Cyprinidae preservados; nomes anteriores apresentados sem discurso sobre a escolha editorial. Valores SL e TL não foram convertidos entre si.",
+      "unverified": [
+        "KH específico de manutenção não documentado; omitido, sem derivar de GH.",
+        "Dificuldade é síntese editorial das exigências descritas, não escala científica padronizada."
+      ],
+      "references": [
+        {
+          "id": "cof",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=31656",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "class",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "care",
+          "url": "https://www.seriouslyfish.com/species/puntius-titteya/",
+          "author": "Seriously Fish"
+        },
+        {
+          "id": "fb",
+          "url": "https://www.fishbase.se/summary/puntius-titteya.html",
+          "author": "FishBase"
+        },
+        {
+          "id": "revision",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/getref.asp?id=40281",
+          "author": "H. Sudasinghe, L. Rüber e M. Meegaskumbura"
+        },
+        {
+          "id": "gbif",
+          "url": "https://api.gbif.org/v1/species/match?name=Puntius%20titteya",
+          "author": "GBIF"
+        }
+      ]
+    },
+    "barbus-cereja-veu": {
+      "file": "src/data/species/04-barbus-cereja-veu.json",
+      "beforeSha256": "b94a7f16b47d03b0099a6817c2b1eb46fefbc2abace838994d0e2871e8915b72",
+      "afterSha256": "342cb514b3740377a99c620d006375d98d28e15ec1f7645baab5ea1941f0243c",
+      "batch": 1,
+      "decision": "Pethia conchonius preservado, sem confundir com Rohanella titteya. Faixa fresca 16–24 °C e cardume 8–10 preservados; 10 cm SL e 14 cm TL distinguidos.",
+      "unverified": [
+        "KH específico de manutenção não documentado; omitido, sem derivar de GH.",
+        "Dificuldade é síntese editorial das exigências descritas, não escala científica padronizada."
+      ],
+      "references": [
+        {
+          "id": "cof",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=2612",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "class",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "care",
+          "url": "https://www.seriouslyfish.com/species/pethia-conchonius/",
+          "author": "Seriously Fish"
+        },
+        {
+          "id": "fb",
+          "url": "https://www.fishbase.se/summary/Pethia-conchonius.html",
+          "author": "FishBase"
+        },
+        {
+          "id": "gbif",
+          "url": "https://api.gbif.org/v1/species/match?name=Pethia%20conchonius",
+          "author": "GBIF"
+        }
+      ]
+    },
+    "barbus-denizoni": {
+      "file": "src/data/species/05-barbus-denizoni.json",
+      "beforeSha256": "e83d121671038c59b58170468ed6af33f06ff50a9f1f020c542174b5833c02cf",
+      "afterSha256": "89bb596d30371e366c61968f07d33576b8f68bfcb92f47c9e42aa827cd618267",
+      "batch": 1,
+      "decision": "Dawkinsia denisonii preservado, com nomes históricos. Comprimentos de 11 cm SL e 15 cm TL mantidos como medidas distintas. Oxigenação e necessidade de grupo priorizadas.",
+      "unverified": [
+        "KH específico de manutenção não documentado; omitido, sem derivar de GH.",
+        "Dificuldade é síntese editorial das exigências descritas, não escala científica padronizada."
+      ],
+      "references": [
+        {
+          "id": "cof",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=46829",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "class",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "care",
+          "url": "https://www.seriouslyfish.com/species/dawkinsia-denisonii/",
+          "author": "Seriously Fish"
+        },
+        {
+          "id": "fb",
+          "url": "https://www.fishbase.se/summary/sahyadria-denisonii.html",
+          "author": "FishBase"
+        },
+        {
+          "id": "revision",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/getref.asp?id=37805",
+          "author": "Q. Ren, L. Yang, C.-H. Chang e R. L. Mayden"
+        },
+        {
+          "id": "gbif",
+          "url": "https://api.gbif.org/v1/species/match?name=Sahyadria%20denisonii",
+          "author": "GBIF"
+        }
+      ]
+    },
+    "pethia-gelius": {
+      "file": "src/data/species/011-pethia-gelius.json",
+      "beforeSha256": "21e295c7b072b720ea01aff349ad96fd99cc3f2b2652b84da3e2ef12d777355c",
+      "afterSha256": "9c157536a663c5fae435965b48c58154af49aed9f53c2aceceac5cc3858a2293",
+      "batch": 1,
+      "decision": "Parâmetros e taxonomia preservados após conferência individual; conteúdo organizado e reescrito com orientações de espaço, sociabilidade, alimentação e prevenção específicas.",
+      "unverified": [
+        "KH específico de manutenção não documentado; omitido, sem derivar de GH.",
+        "Dificuldade é síntese editorial das exigências descritas, não escala científica padronizada."
+      ],
+      "references": [
+        {
+          "id": "cof",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=1558",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "class",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "care",
+          "url": "https://www.seriouslyfish.com/species/pethia-gelius/",
+          "author": "Seriously Fish"
+        },
+        {
+          "id": "gbif",
+          "url": "https://api.gbif.org/v1/species/match?name=Pethia%20gelius",
+          "author": "GBIF"
+        }
+      ]
+    },
+    "barbodes-semifasciolatus": {
+      "file": "src/data/species/012-barbodes-semifasciolatus.json",
+      "beforeSha256": "d1095d89158c1745158a5ac51aca1730fdb764f0f224f5d63ab5c685f2f69576",
+      "afterSha256": "1fcc41606adf2e5ca6f53eb0aa13eb72b20d914130e59eec5ce671a6e5704315",
+      "batch": 1,
+      "decision": "Parâmetros e taxonomia preservados após conferência individual; conteúdo organizado e reescrito com orientações de espaço, sociabilidade, alimentação e prevenção específicas.",
+      "unverified": [
+        "KH específico de manutenção não documentado; omitido, sem derivar de GH.",
+        "Dificuldade é síntese editorial das exigências descritas, não escala científica padronizada."
+      ],
+      "references": [
+        {
+          "id": "cof",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=2006",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "class",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "care",
+          "url": "https://www.seriouslyfish.com/species/barbodes-semifasciolatus/",
+          "author": "Seriously Fish"
+        },
+        {
+          "id": "gbif",
+          "url": "https://api.gbif.org/v1/species/match?name=Barbodes%20semifasciolatus",
+          "author": "GBIF"
+        }
+      ]
+    },
+    "puntigrus-tetrazona": {
+      "file": "src/data/species/013-puntigrus-tetrazona.json",
+      "beforeSha256": "2903cf9848f1f3933d6c303bf225f552b305638a95933ee37c731165f5da6eb8",
+      "afterSha256": "a384e3142a05910c9b4b2195f0259df35eb3dbe2ef4a441e6adb609537495107",
+      "batch": 1,
+      "decision": "Habitat natural detalhado não confirmado: removida a explicação de pesquisa da página, sem substituí-la por habitat de congêneres. Comportamento de beliscar e grupo preservados.",
+      "unverified": [
+        "KH específico de manutenção não documentado; omitido, sem derivar de GH.",
+        "Dificuldade é síntese editorial das exigências descritas, não escala científica padronizada."
+      ],
+      "references": [
+        {
+          "id": "cof",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=51825",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "class",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "care",
+          "url": "https://www.seriouslyfish.com/species/puntigrus-tetrazona/",
+          "author": "Seriously Fish"
+        },
+        {
+          "id": "gbif",
+          "url": "https://api.gbif.org/v1/species/match?name=Puntigrus%20tetrazona",
+          "author": "GBIF"
+        }
+      ]
+    },
+    "danio-rerio": {
+      "file": "src/data/species/017-danio-rerio.json",
+      "beforeSha256": "2fcc7fd3499e1618943fe466e9babd9a157ac337115017f41f5c3fd0adfd8c4d",
+      "afterSha256": "1db17ebbc690fa7a23c69bc4956df204a36d2195e59fe4fc2a741c805bf4b4b5",
+      "batch": 1,
+      "decision": "Parâmetros e taxonomia preservados após conferência individual; conteúdo organizado e reescrito com orientações de espaço, sociabilidade, alimentação e prevenção específicas.",
+      "unverified": [
+        "KH específico de manutenção não documentado; omitido, sem derivar de GH.",
+        "Dificuldade é síntese editorial das exigências descritas, não escala científica padronizada."
+      ],
+      "references": [
+        {
+          "id": "cof",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=1979",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "class",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "care",
+          "url": "https://www.seriouslyfish.com/species/danio-rerio/",
+          "author": "Seriously Fish"
+        },
+        {
+          "id": "gbif",
+          "url": "https://api.gbif.org/v1/species/match?name=Danio%20rerio",
+          "author": "GBIF"
+        }
+      ]
+    },
+    "betta-splendens": {
+      "file": "src/data/species/018-betta-splendens.json",
+      "beforeSha256": "da625116c97bd535d58c478bdd6b3f8c9e3818f797d5c460a38b3df16da56648",
+      "afterSha256": "90c3795ef1d62982ee9c3b7fd0b2014720d07ac82a5c91866be86ba41b809d1b",
+      "batch": 1,
+      "decision": "Parâmetros e taxonomia preservados após conferência individual; conteúdo organizado e reescrito com orientações de espaço, sociabilidade, alimentação e prevenção específicas.",
+      "unverified": [
+        "KH específico de manutenção não documentado; omitido, sem derivar de GH.",
+        "Dificuldade é síntese editorial das exigências descritas, não escala científica padronizada."
+      ],
+      "references": [
+        {
+          "id": "cof",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=19458",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "class",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "care",
+          "url": "https://www.seriouslyfish.com/species/betta-splendens/",
+          "author": "Seriously Fish"
+        },
+        {
+          "id": "gbif",
+          "url": "https://api.gbif.org/v1/species/match?name=Betta%20splendens",
+          "author": "GBIF"
+        }
+      ]
+    },
+    "misgurnus-anguillicaudatus": {
+      "file": "src/data/species/031-misgurnus-anguillicaudatus.json",
+      "beforeSha256": "ebf02c00790ab57958a950c1a28dce122900f5d7fe1b392e4dfc2985f03ddcca",
+      "afterSha256": "3533c7efff66f2231ffcebd236baf32bb6e16919821e43c7d59c1741d0d47335",
+      "batch": 1,
+      "decision": "Distribuição atual restrita à China mantida; não tratar toda distribuição histórica como nativa. Água fresca e proteção contra fuga priorizadas.",
+      "unverified": [
+        "KH específico de manutenção não documentado; omitido, sem derivar de GH.",
+        "Dificuldade é síntese editorial das exigências descritas, não escala científica padronizada."
+      ],
+      "references": [
+        {
+          "id": "cof",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=2327",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "class",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "care",
+          "url": "https://www.seriouslyfish.com/species/misgurnus-anguillicaudatus/",
+          "author": "Seriously Fish"
+        },
+        {
+          "id": "gbif",
+          "url": "https://api.gbif.org/v1/species/match?name=Misgurnus%20anguillicaudatus",
+          "author": "GBIF"
+        }
+      ]
+    },
+    "aulonocara-stuartgranti": {
+      "file": "src/data/species/053-aulonocara-stuartgranti.json",
+      "beforeSha256": "7ec32af1640bd7aabc2c24d17fc641d49b81de8be1690da14dc97e1369ad5ae7",
+      "afterSha256": "f11b6544e1873c649f7e47f75eb29e87e37944728b0f226319fe062d61de5f42",
+      "batch": 1,
+      "decision": "Parâmetros e taxonomia preservados após conferência individual; conteúdo organizado e reescrito com orientações de espaço, sociabilidade, alimentação e prevenção específicas.",
+      "unverified": [
+        "KH específico de manutenção não documentado; omitido, sem derivar de GH.",
+        "Dificuldade é síntese editorial das exigências descritas, não escala científica padronizada."
+      ],
+      "references": [
+        {
+          "id": "cof",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=8048",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "class",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "care",
+          "url": "https://www.seriouslyfish.com/species/aulonocara-stuartgranti/",
+          "author": "Seriously Fish"
+        },
+        {
+          "id": "gbif",
+          "url": "https://api.gbif.org/v1/species/match?name=Aulonocara%20stuartgranti",
+          "author": "GBIF"
+        }
+      ]
+    },
+    "melanochromis-auratus": {
+      "file": "src/data/species/055-melanochromis-auratus.json",
+      "beforeSha256": "c12b7eb9571e307d6d54363803a85df969cb0cee1eccc6dee1a1373b6345996e",
+      "afterSha256": "61ba37764638697237a9042cab3cbe416b2078ae74ba1baf0cf066e43e36514b",
+      "batch": 1,
+      "decision": "Parâmetros e taxonomia preservados após conferência individual; conteúdo organizado e reescrito com orientações de espaço, sociabilidade, alimentação e prevenção específicas.",
+      "unverified": [
+        "KH específico de manutenção não documentado; omitido, sem derivar de GH.",
+        "Dificuldade é síntese editorial das exigências descritas, não escala científica padronizada."
+      ],
+      "references": [
+        {
+          "id": "cof",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=38508",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "class",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "care",
+          "url": "https://www.seriouslyfish.com/species/melanochromis-auratus/",
+          "author": "Seriously Fish"
+        },
+        {
+          "id": "gbif",
+          "url": "https://api.gbif.org/v1/species/match?name=Melanochromis%20auratus",
+          "author": "GBIF"
+        }
+      ]
+    },
+    "labidochromis-caeruleus": {
+      "file": "src/data/species/058-labidochromis-caeruleus.json",
+      "beforeSha256": "62b8acbc0fa38bfca377028ad5d12361c4af3d06774deeeca7eed22d4ee1346b",
+      "afterSha256": "a0683fa330f596132c2b668f80279cb87658120238f2b65f30a27ff3d98a5390",
+      "batch": 1,
+      "decision": "Parâmetros e taxonomia preservados após conferência individual; conteúdo organizado e reescrito com orientações de espaço, sociabilidade, alimentação e prevenção específicas.",
+      "unverified": [
+        "KH específico de manutenção não documentado; omitido, sem derivar de GH.",
+        "Dificuldade é síntese editorial das exigências descritas, não escala científica padronizada."
+      ],
+      "references": [
+        {
+          "id": "cof",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=25522",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "class",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "care",
+          "url": "https://www.seriouslyfish.com/species/labidochromis-caeruleus/",
+          "author": "Seriously Fish"
+        },
+        {
+          "id": "gbif",
+          "url": "https://api.gbif.org/v1/species/match?name=Labidochromis%20caeruleus",
+          "author": "GBIF"
+        }
+      ]
+    },
+    "maylandia-lombardoi": {
+      "file": "src/data/species/059-maylandia-lombardoi.json",
+      "beforeSha256": "bf175a65d2cb6c32b8afb78846a1830d0af8a9c0ddb3171f72115e43e0b81f7d",
+      "afterSha256": "82569d353d5bc15350baccf4e2fc4cb15ccbec999a15113476db53dc6b0107f8",
+      "batch": 1,
+      "decision": "Parâmetros e taxonomia preservados após conferência individual; conteúdo organizado e reescrito com orientações de espaço, sociabilidade, alimentação e prevenção específicas.",
+      "unverified": [
+        "KH específico de manutenção não documentado; omitido, sem derivar de GH.",
+        "Dificuldade é síntese editorial das exigências descritas, não escala científica padronizada."
+      ],
+      "references": [
+        {
+          "id": "cof",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/fishcatget.asp?spid=9436",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "class",
+          "url": "https://researcharchive.calacademy.org/research/ichthyology/catalog/SpeciesByFamily.asp",
+          "author": "California Academy of Sciences"
+        },
+        {
+          "id": "care",
+          "url": "https://www.seriouslyfish.com/species/maylandia-lombardoi/",
+          "author": "Seriously Fish"
+        },
+        {
+          "id": "gbif",
+          "url": "https://api.gbif.org/v1/species/match?name=Maylandia%20lombardoi",
+          "author": "GBIF"
+        }
+      ]
+    }
+  }
+}

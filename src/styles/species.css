@@ -498,3 +498,72 @@
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
+
+/* Essentials remain server-rendered and readable before the long care sections. */
+.species-essentials {
+  margin-block: 0 24px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-top: 4px solid var(--brand-cyan, #00b2e5);
+  border-radius: 12px;
+  background: #fff;
+}
+.species-essentials h2 {
+  margin-top: 0;
+}
+.species-essentials dl {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0;
+  margin: 0;
+}
+.species-essentials dl > div {
+  min-width: 0;
+  padding: 14px 0;
+  border-top: 1px solid var(--line);
+}
+.species-essentials dt {
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 700;
+}
+.species-essentials dd {
+  margin: 5px 0 0;
+  line-height: 1.6;
+  font-size: 15px;
+  overflow-wrap: anywhere;
+}
+.profile-navigation > summary {
+  cursor: pointer;
+  min-height: 44px;
+  font-weight: 700;
+  padding-block: 10px;
+}
+.profile-navigation > summary:focus-visible {
+  outline: 3px solid var(--brand-indigo);
+  outline-offset: 4px;
+}
+html:has(.species-inquiry) {
+  scroll-padding-bottom: calc(var(--inquiry-height, 100px) + 24px);
+}
+.profile-layout :is([id], a, summary) {
+  scroll-margin-bottom: calc(var(--inquiry-height, 100px) + 24px);
+}
+.species-inquiry {
+  padding: 10px 14px calc(10px + env(safe-area-inset-bottom));
+}
+@media (max-width: 699px) {
+  .species-inquiry > span {
+    display: none;
+  }
+}
+@media (min-width: 700px) {
+  .species-essentials dl {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0 20px;
+  }
+  .profile-index {
+    max-height: calc(100dvh - var(--inquiry-height, 100px) - 50px);
+    overflow-y: auto;
+  }
+}
