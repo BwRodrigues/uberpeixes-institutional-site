@@ -106,3 +106,9 @@ Para novas espécies, prepare primeiro os dados específicos e as fontes. Não c
 O estado `draft` controla indexação, não autoriza mostrar textos provisórios. A mudança para `reviewed` e a publicação de produção continuam dependendo de aprovação. Para atualizar o relatório após testes, use `python3 scripts/catalog/report_editorial.py --browser-tests 'resultado efetivamente observado'`.
 
 O gerador de lote exige agora `pesquisa[chave].editorial` com `description`, `sections` na ordem atual e os nove `essentials`, todos com referências válidas. Pesquisa bruta sem essa etapa é pulada; ela não pode criar uma página com redação interna ou resumo incompleto. O importador não inventa a revisão para habilitar um candidato. Os testes incluem fila com registro incompleto, seção fora de ordem, resumo faltante e referência inexistente.
+
+## Política de indexação
+
+A liberação técnica de cada ficha está na [auditoria de SEO](../indexacao-especies.md). O estado `reviewed` e a completude dos dados permitem indexação apenas no build de produção. Pendências específicas continuam em `draft`; outras fichas prontas não dependem delas para entrar no sitemap.
+
+Execute `npm run test:seo` para validar o HTML de três ambientes isolados. O build padrão local fica noindex; para revisar o resultado de produção, use `SITE_DEPLOYMENT=production npm run build` e mantenha a mesma variável ao executar `npm test`. O Cloudflare usa a própria branch como sinal autoritativo, sem depender dessa variável local.

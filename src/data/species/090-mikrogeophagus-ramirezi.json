@@ -283,7 +283,7 @@
       "referenceIds": ["care", "cof"]
     }
   ],
-  "status": "draft",
+  "status": "reviewed",
   "essentials": [
     {
       "key": "temperature",

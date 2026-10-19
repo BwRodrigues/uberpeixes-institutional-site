@@ -136,7 +136,9 @@ test("versioned knowledge feed retains citations without spreadsheet or commerci
   expect(payload.schemaVersion).toBe(1);
   expect(payload.items).toHaveLength(catalogRecords.length);
   for (const item of payload.items) {
-    expect(item.reviewStatus).toBe("draft");
+    expect(item.reviewStatus).toBe(
+      catalogRecords.find((animal) => animal.slug === item.id)!.status,
+    );
     expect(item.photos).toHaveLength(3);
     expect(item.sections).toHaveLength(11);
     expect(item.essentials).toEqual(

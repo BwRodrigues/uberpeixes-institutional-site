@@ -5,11 +5,22 @@ export const isPublishable = (animal: Species) =>
   animal.status === "reviewed" &&
   Boolean(
     animal.scientificName &&
+    animal.name.trim() &&
+    animal.description.trim() &&
     animal.photo &&
-    animal.references.length &&
+    animal.additionalPhotos.length === 2 &&
+    animal.essentials.length === essentialKeys.length &&
+    animal.references.length >= 2 &&
     profileSections.every((definition) => {
       const section = animal.sections.find((item) => item.id === definition.id);
-      return Boolean(section && section.fields.length && !section.pending);
+      return Boolean(
+        section &&
+        section.fields.length &&
+        !section.pending &&
+        section.fields.every(
+          (field) => field.value.trim() && field.referenceIds.length,
+        ),
+      );
     }),
   );
 export function validateSpeciesCatalog(records: Species[]): void {

@@ -6,6 +6,8 @@ import SiteFooter from "../components/SiteFooter.astro";
 import Aquarium from "../components/aquarium/Aquarium.astro";
 import { Image } from "astro:assets";
 import entrance from "../assets/entrada-uberpeixes.jpg";
+import { canonicalUrl } from "../config/site";
+import { robotsDirective } from "../config/indexing";
 import { WHATSAPP_URL as whatsapp } from "../config/site";
 const instagram = "https://www.instagram.com/uberpeixesornamentais/";
 const maps = "https://maps.app.goo.gl/zRgtCTnjvL8xZGiH7";
@@ -50,6 +52,8 @@ const gallery = [
       name="description"
       content="Conheça a Uberpeixes Ornamentais. Converse pelo WhatsApp, acompanhe o Instagram e encontre a loja no Google Maps."
     />
+    <link rel="canonical" href={canonicalUrl("/")} />
+    <meta name="robots" content={robotsDirective(false)} />
     <meta name="theme-color" content="#45409b" />
     <title>Uberpeixes Ornamentais | Um universo para descobrir</title>
     <link

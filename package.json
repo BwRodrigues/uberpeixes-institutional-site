@@ -11,7 +11,8 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "catalog:audit": "python3 scripts/catalog/audit_catalog.py",
-    "test:import": "python3 -m unittest discover -s scripts/catalog -p 'test_*.py'"
+    "test:import": "python3 -m unittest discover -s scripts/catalog -p 'test_*.py'",
+    "test:seo": "python3 scripts/seo/validate_generated.py"
   },
   "repository": {
     "type": "git",

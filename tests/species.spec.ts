@@ -1,6 +1,10 @@
 import { expect, test } from "@playwright/test";
 import { catalogRecords as profileData } from "./helpers/catalog";
 
+import { isPublishable } from "../src/data/species-validation";
+import { isProductionDeployment } from "../src/config/indexing";
+const production = isProductionDeployment();
+
 const pilot = profileData.map((animal) => ({
   slug: animal.slug,
   name: animal.name,
@@ -195,7 +199,11 @@ test("each generated profile has the correct identity, inquiry, metadata, refere
     );
     await expect(page.locator('meta[name="robots"]')).toHaveAttribute(
       "content",
-      "noindex, follow",
+      production
+        ? isPublishable(sourceRecord)
+          ? "index, follow"
+          : "noindex, follow"
+        : "noindex, nofollow",
     );
     await expect(page.locator('meta[property="og:image"]')).toHaveCount(1);
     const data = JSON.parse(
@@ -328,7 +336,11 @@ test("each generated profile has the correct identity, inquiry, metadata, refere
   expect(errors).toEqual([]);
   const sitemap = await page.request.get("/sitemap.xml");
   expect(sitemap.status()).toBe(200);
-  expect(await sitemap.text()).not.toContain("/especies/");
+  const sitemapText = await sitemap.text();
+  for (const animal of profileData)
+    expect(sitemapText.includes(`/especies/${animal.slug}/`)).toBe(
+      production && isPublishable(animal),
+    );
 });
 
 test("catalog remains navigable without JavaScript", async ({

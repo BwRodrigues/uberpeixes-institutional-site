@@ -5,6 +5,7 @@ import Brand from "../components/Brand.astro";
 import SiteFooter from "../components/SiteFooter.astro";
 import Aquarium from "../components/aquarium/Aquarium.astro";
 import { WHATSAPP_URL, canonicalUrl } from "../config/site";
+import { robotsDirective } from "../config/indexing";
 interface Props {
   title: string;
   description: string;
@@ -32,7 +33,7 @@ const canonical = canonicalUrl(path);
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
-    {draft && <meta name="robots" content="noindex, follow" />}
+    <meta name="robots" content={robotsDirective(draft)} />
     <meta name="theme-color" content="#45409b" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="pt_BR" />
