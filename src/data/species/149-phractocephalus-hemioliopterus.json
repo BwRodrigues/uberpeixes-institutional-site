@@ -11,7 +11,7 @@
   },
   "sortOrder": 149,
   "scientificName": "Phractocephalus hemioliopterus",
-  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "identificationNote": "",
   "description": "A pirarara é um grande bagre amazônico de cauda avermelhada. Um juvenil pequeno se transforma em um animal para instalações especializadas, planejadas para toda a vida.",
   "photo": {
     "src": "/images/species/phractocephalus-hemioliopterus-1.webp",
@@ -53,19 +53,139 @@
       "id": "apresentacao",
       "fields": [
         {
-          "label": "Outros nomes populares",
-          "value": "PIRARARA",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Identificação científica",
-          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "label": "Nome científico",
+          "value": "Phractocephalus hemioliopterus",
           "referenceIds": ["cof"]
         },
         {
-          "label": "Introdução",
-          "value": "A pirarara é um grande bagre amazônico de cauda avermelhada. Um juvenil pequeno se transforma em um animal para instalações especializadas, planejadas para toda a vida.",
+          "label": "Outros nomes e variedades",
+          "value": "Pirarara",
           "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "21–26 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "6,0–7,5",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "2–12 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Ambientes variados, de trechos de correnteza a florestas inundadas.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Grande bagre de cabeça larga, barbilhões longos e cauda avermelhada.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 134 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "A aparência externa não permite sexagem segura para o aquarista.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "10.368 L é limite inferior; instalação especializada. 360 × 240 × 120 cm, cerca de 10.368 L, é um limite inferior ainda restritivo. A instalação deve ser dimensionada para um bagre que ultrapassa um metro; um aquário doméstico comum não é solução permanente.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Estrutura muito ampla, filtragem potente e objetos grandes fixados com segurança; juvenis usam esconderijos proporcionais ao corpo.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Especializada: infraestrutura para peixe gigante",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Grande predadora; pode disputar território",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Instalação específica; alto risco para peixes menores",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Engole peixes menores e pode defender território contra outros grandes bagres. Não é apropriada para comunitários domésticos.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Predador oportunista de peixes e invertebrados, também com registros de frutos. Variar alimentos apropriados de origem aquática e evitar excesso.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "A reprodução não é um objetivo realista para o aquário doméstico. Planeje a manutenção de longo prazo dos adultos em uma instalação especializada.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Pode engolir companheiros e deslocar objetos pesados. Fixe equipamentos e decoração, evite excesso de alimento e dimensione filtragem para o grande volume de resíduos.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "América do Sul: bacias Amazônica e do Orinoco, em Brasil, Bolívia, Peru, Equador, Colômbia, Venezuela e Guiana.",
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -84,7 +204,7 @@
         },
         {
           "label": "Classe",
-          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "value": "Actinopteri",
           "referenceIds": ["class"]
         },
         {
@@ -111,126 +231,6 @@
           "label": "Autoridade taxonômica",
           "value": "(Bloch & Schneider 1801)",
           "referenceIds": ["cof"]
-        },
-        {
-          "label": "Sinônimos científicos",
-          "value": "Literatura de manutenção consultada sob Phractocephalus hemioliopterus; o nome aceito adotado é Phractocephalus hemioliopterus. Consultar o histórico nomenclatural completo na referência taxonômica.",
-          "referenceIds": ["cof", "care"]
-        }
-      ]
-    },
-    {
-      "id": "origem",
-      "fields": [
-        {
-          "label": "Continente e países",
-          "value": "América do Sul: bacias Amazônica e do Orinoco, em Brasil, Bolívia, Peru, Equador, Colômbia, Venezuela e Guiana.",
-          "referenceIds": ["care", "cof"]
-        },
-        {
-          "label": "Ambiente natural",
-          "value": "Ambientes variados, de trechos de correnteza a florestas inundadas.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "caracteristicas",
-      "fields": [
-        {
-          "label": "Tamanho adulto",
-          "value": "1340 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Diferenças entre machos e fêmeas",
-          "value": "A fonte não documenta um método externo confiável de diferenciação dos sexos.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "agua",
-      "fields": [
-        {
-          "label": "Temperatura em aquário",
-          "value": "21–26 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "pH em aquário",
-          "value": "6.0–7.5; não interpretar os extremos como metas a alternar.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "GH",
-          "value": "2–12 °dGH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "KH",
-          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Substrato e decoração",
-          "value": "Estrutura muito ampla, filtragem potente e objetos grandes fixados com segurança; juvenis usam esconderijos proporcionais ao corpo.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "criacao",
-      "fields": [
-        {
-          "label": "Volume mínimo e contexto",
-          "value": "A fonte cita cerca de 360 × 240 × 120 cm, 10.368 L, como limite inferior ainda restritivo. Exige instalação especializada; não apresentar aquário doméstico comum como solução permanente.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Manutenção específica",
-          "value": "Estrutura muito ampla, filtragem potente e objetos grandes fixados com segurança; juvenis usam esconderijos proporcionais ao corpo.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "alimentacao",
-      "fields": [
-        {
-          "label": "Alimentos adequados",
-          "value": "Predador oportunista de peixes e invertebrados, também com registros de frutos. Variar alimentos apropriados de origem aquática e evitar excesso.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "comportamento",
-      "fields": [
-        {
-          "label": "Comportamento social",
-          "value": "Engole peixes menores e pode defender território contra outros grandes bagres. Não é apropriada para comunitários domésticos.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "reproducao",
-      "fields": [
-        {
-          "label": "Tipo de reprodução",
-          "value": "Não há reprodução doméstica documentada na ficha consultada; não oferecer receita de reprodução como se fosse comprovada.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "saude",
-      "fields": [
-        {
-          "label": "Problemas de manutenção",
-          "value": "Estrutura muito ampla, filtragem potente e objetos grandes fixados com segurança; juvenis usam esconderijos proporcionais ao corpo.",
-          "referenceIds": ["care"]
         }
       ]
     },
@@ -238,8 +238,8 @@
       "id": "curiosidades",
       "fields": [
         {
-          "label": "Curiosidades verificadas da espécie",
-          "value": "O porte de até 134 cm de comprimento padrão torna inadequada a compra baseada apenas no tamanho juvenil.",
+          "label": "Você sabia?",
+          "value": "Seu porte adulto, não o tamanho do juvenil, deve orientar todo o planejamento da instalação.",
           "referenceIds": ["care", "cof"]
         }
       ]
@@ -283,5 +283,52 @@
       "referenceIds": ["care", "cof"]
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "21–26 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "6,0–7,5",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "2–12 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 134 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "10.368 L é limite inferior; instalação especializada",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Grande predadora; pode disputar território",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Instalação específica; alto risco para peixes menores",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Itens de origem aquática adequados ao porte",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Especializada: infraestrutura para peixe gigante",
+      "referenceIds": ["care"]
+    }
+  ]
 }

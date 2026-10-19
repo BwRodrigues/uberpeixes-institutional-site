@@ -11,7 +11,7 @@
   },
   "sortOrder": 214,
   "scientificName": "Thayeria boehlkei",
-  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "identificationNote": "",
   "description": "O tetra-pinguim chama atenção pelo nado inclinado e pela faixa escura que segue até a parte inferior da cauda. Sua melhor apresentação é em cardume.",
   "photo": {
     "src": "/images/species/thayeria-boehlkei-1.webp",
@@ -53,19 +53,139 @@
       "id": "apresentacao",
       "fields": [
         {
-          "label": "Outros nomes populares",
-          "value": "TETRA PINGUIM",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Identificação científica",
-          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "label": "Nome científico",
+          "value": "Thayeria boehlkei",
           "referenceIds": ["cof"]
         },
         {
-          "label": "Introdução",
-          "value": "O tetra-pinguim chama atenção pelo nado inclinado e pela faixa escura que segue até a parte inferior da cauda. Sua melhor apresentação é em cardume.",
+          "label": "Outros nomes e variedades",
+          "value": "Tetra pinguim",
           "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "22–28 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "5,5–8,0",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "0–20 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Tributários e trechos com vegetação marginal; não presumir um único micro-habitat para toda a distribuição.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Faixa escura longitudinal continua pela parte inferior da cauda; costuma nadar com o corpo inclinado.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 3,6 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Fêmeas maduras são mais arredondadas e tendem a mostrar cor um pouco menos intensa.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "68 L ou mais; pequeno cardume. 60 × 38 × 30 cm, aproximadamente 68 L para um pequeno cardume. Prefira 10 ou mais e amplie o espaço para outros habitantes.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Aquário plantado com raízes, substrato escuro e plantas flutuantes que criem sombra, mantendo corredor de natação.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Baixa, com companhia e espaço de natação",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Pacífico; pouco competitivo com peixes muito agitados",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Pelo menos seis; de preferência 10 ou mais",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Pacífico, mas pouco competitivo com peixes grandes ou agitados. Manter ao menos seis, de preferência dez ou mais.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Micropredador; aceita rações finas e pequenos alimentos vivos ou congelados, como artêmia e dáfnias.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Dispersa ovos; a reprodução dirigida exige aquário separado, proteção da postura e alimento inicial apropriado.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Companheiros grandes ou agitados podem impedir a alimentação. Observe o grupo durante as refeições e mantenha raízes e sombra sem bloquear o percurso de natação.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "América do Sul: oeste da bacia Amazônica, em Peru, Equador, Bolívia e Brasil.",
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -84,7 +204,7 @@
         },
         {
           "label": "Classe",
-          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "value": "Actinopteri",
           "referenceIds": ["class"]
         },
         {
@@ -111,126 +231,6 @@
           "label": "Autoridade taxonômica",
           "value": "Weitzman 1957",
           "referenceIds": ["cof"]
-        },
-        {
-          "label": "Sinônimos científicos",
-          "value": "Literatura de manutenção consultada sob Thayeria boehlkei; o nome aceito adotado é Thayeria boehlkei. Consultar o histórico nomenclatural completo na referência taxonômica.",
-          "referenceIds": ["cof", "care"]
-        }
-      ]
-    },
-    {
-      "id": "origem",
-      "fields": [
-        {
-          "label": "Continente e países",
-          "value": "América do Sul: oeste da bacia Amazônica em Peru, Equador, Bolívia e Brasil, conforme o Catalog of Fishes. A fonte de manutenção também menciona Araguaia; esse registro exige confirmação e não foi adotado como distribuição consolidada.",
-          "referenceIds": ["care", "cof"]
-        },
-        {
-          "label": "Ambiente natural",
-          "value": "Tributários e trechos com vegetação marginal; não presumir um único micro-habitat para toda a distribuição.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "caracteristicas",
-      "fields": [
-        {
-          "label": "Tamanho adulto",
-          "value": "36 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Diferenças entre machos e fêmeas",
-          "value": "Fêmeas maduras são mais arredondadas e tendem a mostrar cor um pouco menos intensa.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "agua",
-      "fields": [
-        {
-          "label": "Temperatura em aquário",
-          "value": "22–28 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "pH em aquário",
-          "value": "5.5–8.0; não interpretar os extremos como metas a alternar.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "GH",
-          "value": "0–20 °dGH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "KH",
-          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Substrato e decoração",
-          "value": "Aquário plantado com raízes, substrato escuro e plantas flutuantes que criem sombra, mantendo corredor de natação.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "criacao",
-      "fields": [
-        {
-          "label": "Volume mínimo e contexto",
-          "value": "A referência é 60 × 38 × 30 cm, aproximadamente 68 L, para grupo pequeno; mais indivíduos e aquário maior são preferíveis.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Manutenção específica",
-          "value": "Aquário plantado com raízes, substrato escuro e plantas flutuantes que criem sombra, mantendo corredor de natação.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "alimentacao",
-      "fields": [
-        {
-          "label": "Alimentos adequados",
-          "value": "Micropredador; aceita rações finas e pequenos alimentos vivos ou congelados, como artêmia e dáfnias.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "comportamento",
-      "fields": [
-        {
-          "label": "Comportamento social",
-          "value": "Pacífico, mas pouco competitivo com peixes grandes ou agitados. Manter ao menos seis, de preferência dez ou mais.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "reproducao",
-      "fields": [
-        {
-          "label": "Tipo de reprodução",
-          "value": "Dispersa ovos; a reprodução dirigida exige aquário separado, proteção da postura e alimento inicial apropriado.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "saude",
-      "fields": [
-        {
-          "label": "Problemas de manutenção",
-          "value": "Aquário plantado com raízes, substrato escuro e plantas flutuantes que criem sombra, mantendo corredor de natação.",
-          "referenceIds": ["care"]
         }
       ]
     },
@@ -238,8 +238,8 @@
       "id": "curiosidades",
       "fields": [
         {
-          "label": "Curiosidades verificadas da espécie",
-          "value": "Thayeria obliqua também recebe nome popular pinguim. A faixa lateral prolongada diferencia a espécie representada nesta ficha.",
+          "label": "Você sabia?",
+          "value": "O nado inclinado é característico; não deve ser confundido, isoladamente, com perda de equilíbrio.",
           "referenceIds": ["care", "cof"]
         }
       ]
@@ -283,5 +283,52 @@
       "referenceIds": ["care", "cof"]
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "22–28 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "5,5–8,0",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "0–20 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 3,6 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "68 L ou mais; pequeno cardume",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Pacífico; pouco competitivo com peixes muito agitados",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Pelo menos seis; de preferência 10 ou mais",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Ração fina, artêmia e dáfnias",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Baixa, com companhia e espaço de natação",
+      "referenceIds": ["care"]
+    }
+  ]
 }

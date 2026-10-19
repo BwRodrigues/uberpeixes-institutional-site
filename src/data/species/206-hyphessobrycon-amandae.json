@@ -11,7 +11,7 @@
   },
   "sortOrder": 206,
   "scientificName": "Hyphessobrycon amandae",
-  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "identificationNote": "",
   "description": "O tetra-foguinho é minúsculo e ganha presença em cardume. Plantas e companheiros delicados valorizam seu comportamento sem competição excessiva.",
   "photo": {
     "src": "/images/species/hyphessobrycon-amandae-1.webp",
@@ -53,19 +53,134 @@
       "id": "apresentacao",
       "fields": [
         {
-          "label": "Outros nomes populares",
-          "value": "TETRA FOGUINHO",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Identificação científica",
-          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "label": "Nome científico",
+          "value": "Hyphessobrycon amandae",
           "referenceIds": ["cof"]
         },
         {
-          "label": "Introdução",
-          "value": "O tetra-foguinho é minúsculo e ganha presença em cardume. Plantas e companheiros delicados valorizam seu comportamento sem competição excessiva.",
+          "label": "Outros nomes e variedades",
+          "value": "Tetra foguinho",
           "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "20–28 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "5,0–7,0",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "1–10 °dGH",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Tetra minúsculo de coloração alaranjada, mais intensa nos machos e em boas condições.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 2 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Machos têm cor mais intensa; fêmeas maduras são mais arredondadas.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "41 L ou mais; cardume de 8–10. Base de 45 × 30 cm, cerca de 41 L para o pequeno grupo de 8–10. Companheiros devem ser igualmente delicados; não reduza o cardume para caber em menos espaço.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Plantas densas, substrato escuro, raízes e filtragem suave. Evitar peixes muito maiores ou muito ativos.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Moderada: boca pequena e competição alimentar",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Muito pacífico e delicado",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Cardume de 8–10 ou mais",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Muito pacífico e gregário. Mantenha pelo menos 8–10 indivíduos, com companheiros igualmente pequenos e tranquilos.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Ofereça alimentos muito pequenos, como náuplios de artêmia, e rações proporcionais à boca.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Dispersa ovos e não cuida da prole; vegetação fina e proteção dos ovos favorecem reprodução dirigida.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Pode deixar de comer quando o alimento é grande ou a competição intensa. Observe de perto a alimentação e evite peixes capazes de engoli-lo.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "América do Sul: rio das Mortes, afluente do Araguaia no Brasil; a extensão completa da distribuição não é bem delimitada.",
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -84,7 +199,7 @@
         },
         {
           "label": "Classe",
-          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "value": "Actinopteri",
           "referenceIds": ["class"]
         },
         {
@@ -111,126 +226,6 @@
           "label": "Autoridade taxonômica",
           "value": "Géry & Uj 1987",
           "referenceIds": ["cof"]
-        },
-        {
-          "label": "Sinônimos científicos",
-          "value": "Literatura de manutenção consultada sob Hyphessobrycon amandae; o nome aceito adotado é Hyphessobrycon amandae. Consultar o histórico nomenclatural completo na referência taxonômica.",
-          "referenceIds": ["cof", "care"]
-        }
-      ]
-    },
-    {
-      "id": "origem",
-      "fields": [
-        {
-          "label": "Continente e países",
-          "value": "América do Sul: rio das Mortes, afluente do Araguaia no Brasil; a extensão completa da distribuição não é bem delimitada.",
-          "referenceIds": ["care", "cof"]
-        },
-        {
-          "label": "Ambiente natural",
-          "value": "A fonte presume tributários menores, remansos e lagos marginais; os dados específicos de habitat são limitados.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "caracteristicas",
-      "fields": [
-        {
-          "label": "Tamanho adulto",
-          "value": "20 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Diferenças entre machos e fêmeas",
-          "value": "Machos têm cor mais intensa; fêmeas maduras são mais arredondadas.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "agua",
-      "fields": [
-        {
-          "label": "Temperatura em aquário",
-          "value": "20–28 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "pH em aquário",
-          "value": "5.0–7.0; não interpretar os extremos como metas a alternar.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "GH",
-          "value": "1–10 °dGH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "KH",
-          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Substrato e decoração",
-          "value": "Plantas densas, substrato escuro, raízes e filtragem suave. Evitar peixes muito maiores ou muito ativos.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "criacao",
-      "fields": [
-        {
-          "label": "Volume mínimo e contexto",
-          "value": "Base de 45 × 30 cm, cerca de 41 L na fonte, para o pequeno grupo. A lotação e os companheiros exigem avaliação própria; não manter isolado para reduzir espaço.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Manutenção específica",
-          "value": "Plantas densas, substrato escuro, raízes e filtragem suave. Evitar peixes muito maiores ou muito ativos.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "alimentacao",
-      "fields": [
-        {
-          "label": "Alimentos adequados",
-          "value": "Provável micropredador; oferecer alimentos muito pequenos, como náuplios de artêmia, e rações proporcionais à boca.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "comportamento",
-      "fields": [
-        {
-          "label": "Comportamento social",
-          "value": "Muito pacífico e gregário. A fonte recomenda pelo menos 8–10 indivíduos, com companheiros igualmente pequenos e tranquilos.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "reproducao",
-      "fields": [
-        {
-          "label": "Tipo de reprodução",
-          "value": "Dispersa ovos e não cuida da prole; vegetação fina e proteção dos ovos favorecem reprodução dirigida.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "saude",
-      "fields": [
-        {
-          "label": "Problemas de manutenção",
-          "value": "Plantas densas, substrato escuro, raízes e filtragem suave. Evitar peixes muito maiores ou muito ativos.",
-          "referenceIds": ["care"]
         }
       ]
     },
@@ -238,8 +233,8 @@
       "id": "curiosidades",
       "fields": [
         {
-          "label": "Curiosidades verificadas da espécie",
-          "value": "O pequeno tamanho exige cuidado especial com o tamanho dos alimentos e com o risco de predação por companheiros maiores.",
+          "label": "Você sabia?",
+          "value": "Com cerca de 2 cm de comprimento padrão, precisa de alimento proporcional à boca, mesmo quando a ração serve para peixes maiores.",
           "referenceIds": ["care", "cof"]
         }
       ]
@@ -283,5 +278,52 @@
       "referenceIds": ["care", "cof"]
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "20–28 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "5,0–7,0",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "1–10 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 2 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "41 L ou mais; cardume de 8–10",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Muito pacífico e delicado",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Cardume de 8–10 ou mais",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Microalimentos e ração muito fina",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Moderada: boca pequena e competição alimentar",
+      "referenceIds": ["care"]
+    }
+  ]
 }

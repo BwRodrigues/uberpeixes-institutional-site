@@ -11,7 +11,7 @@
   },
   "sortOrder": 146,
   "scientificName": "Pangasianodon hypophthalmus",
-  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "identificationNote": "",
   "description": "O pangasius vendido jovem pode superar um metro. Esta ficha é informativa: sua manutenção de longo prazo exige instalações muito maiores que um aquário doméstico comum.",
   "photo": {
     "src": "/images/species/pangasianodon-hypophthalmus-1.webp",
@@ -53,19 +53,139 @@
       "id": "apresentacao",
       "fields": [
         {
-          "label": "Outros nomes populares",
-          "value": "PANGASIUS ALBINO; PANGASIUS PRETO",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Identificação científica",
-          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "label": "Nome científico",
+          "value": "Pangasianodon hypophthalmus",
           "referenceIds": ["cof"]
         },
         {
-          "label": "Introdução",
-          "value": "O pangasius vendido jovem pode superar um metro. Esta ficha é informativa: sua manutenção de longo prazo exige instalações muito maiores que um aquário doméstico comum.",
+          "label": "Outros nomes e variedades",
+          "value": "Pangasius albino; Pangasius preto",
           "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "22–26 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "6,5–7,5",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "2–30 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Canais principais de rios e grandes tributários, com hábito pelágico e migrações sazonais.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Grande bagre de corpo fusiforme e nado contínuo, com porte que pode ultrapassar um metro.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 130 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Diferenças externas entre sexos não são reconhecíveis com segurança nos juvenis vendidos para aquário.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "14.580 L ou mais; um adulto, instalação especializada. Um único adulto exige instalação da ordem de 450 × 180 × 180 cm, cerca de 14.580 L, ou maior. Grupos demandam muito mais espaço; aquários domésticos comuns não atendem à manutenção de longo prazo.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Instalação especializada com enorme área livre, oxigenação e filtragem biológica dimensionadas. Espaços apertados favorecem choques contra vidro e objetos.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Especializada: não indicado ao aquário doméstico comum",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Ativo, assustadiço e capaz de predar peixes menores",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Sociável; grupos exigem instalação enorme",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Sociável, ativo e facilmente assustado. Pode engolir peixes menores; grupos exigem instalações de escala muito grande.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Onívoro; juvenis usam maior participação de proteína, enquanto adultos também consomem mais material vegetal. Usar dieta variada adequada ao porte.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Migrador reprodutivo. A produção ocorre comercialmente em grandes instalações; a reprodução doméstica não é um objetivo realista.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Em espaços apertados pode entrar em pânico e colidir com vidros e objetos. Planeje grande área livre, oxigenação e filtragem para a fase adulta antes de adquirir juvenis.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "Ásia: baixo Mekong e rio Chao Phraya, em Tailândia, Laos, Camboja e Vietnã.",
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -84,7 +204,7 @@
         },
         {
           "label": "Classe",
-          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "value": "Actinopteri",
           "referenceIds": ["class"]
         },
         {
@@ -111,126 +231,6 @@
           "label": "Autoridade taxonômica",
           "value": "(Sauvage 1878)",
           "referenceIds": ["cof"]
-        },
-        {
-          "label": "Sinônimos científicos",
-          "value": "Literatura de manutenção consultada sob Pangasianodon hypophthalmus; o nome aceito adotado é Pangasianodon hypophthalmus. Consultar o histórico nomenclatural completo na referência taxonômica.",
-          "referenceIds": ["cof", "care"]
-        }
-      ]
-    },
-    {
-      "id": "origem",
-      "fields": [
-        {
-          "label": "Continente e países",
-          "value": "Ásia: baixo Mekong e rio Chao Phraya, em Tailândia, Laos, Camboja e Vietnã.",
-          "referenceIds": ["care", "cof"]
-        },
-        {
-          "label": "Ambiente natural",
-          "value": "Canais principais de rios e grandes tributários, com hábito pelágico e migrações sazonais.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "caracteristicas",
-      "fields": [
-        {
-          "label": "Tamanho adulto",
-          "value": "1300 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Diferenças entre machos e fêmeas",
-          "value": "Diferenças externas entre sexos não são reconhecíveis com segurança nos juvenis vendidos para aquário.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "agua",
-      "fields": [
-        {
-          "label": "Temperatura em aquário",
-          "value": "22–26 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "pH em aquário",
-          "value": "6.5–7.5; não interpretar os extremos como metas a alternar.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "GH",
-          "value": "2–30 °dGH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "KH",
-          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Substrato e decoração",
-          "value": "Instalação especializada com enorme área livre, oxigenação e filtragem biológica dimensionadas. Espaços apertados favorecem choques contra vidro e objetos.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "criacao",
-      "fields": [
-        {
-          "label": "Volume mínimo e contexto",
-          "value": "A fonte estima pelo menos 450 × 180 × 180 cm, cerca de 14.580 L, até para um único exemplar adulto. Não recomendar para aquário doméstico comum; grupos demandam muito mais.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Manutenção específica",
-          "value": "Instalação especializada com enorme área livre, oxigenação e filtragem biológica dimensionadas. Espaços apertados favorecem choques contra vidro e objetos.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "alimentacao",
-      "fields": [
-        {
-          "label": "Alimentos adequados",
-          "value": "Onívoro; juvenis usam maior participação de proteína, enquanto adultos também consomem mais material vegetal. Usar dieta variada adequada ao porte.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "comportamento",
-      "fields": [
-        {
-          "label": "Comportamento social",
-          "value": "Sociável, ativo e facilmente assustado. Pode engolir peixes menores; grupos exigem instalações de escala muito grande.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "reproducao",
-      "fields": [
-        {
-          "label": "Tipo de reprodução",
-          "value": "Migrador reprodutivo. A produção ocorre comercialmente em grandes instalações; a reprodução doméstica não é um objetivo realista.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "saude",
-      "fields": [
-        {
-          "label": "Problemas de manutenção",
-          "value": "Instalação especializada com enorme área livre, oxigenação e filtragem biológica dimensionadas. Espaços apertados favorecem choques contra vidro e objetos.",
-          "referenceIds": ["care"]
         }
       ]
     },
@@ -238,8 +238,8 @@
       "id": "curiosidades",
       "fields": [
         {
-          "label": "Curiosidades verificadas da espécie",
-          "value": "Pangasius sutchi é nome antigo presente no comércio. A cor albina não torna o animal menor nem dispensa espaço.",
+          "label": "Você sabia?",
+          "value": "Pangasius sutchi é um nome antigo de comércio; a variedade albina também atinge grande porte.",
           "referenceIds": ["care", "cof"]
         }
       ]
@@ -283,5 +283,52 @@
       "referenceIds": ["care", "cof"]
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "22–26 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "6,5–7,5",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "2–30 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 130 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "14.580 L ou mais; um adulto, instalação especializada",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Ativo, assustadiço e capaz de predar peixes menores",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Sociável; grupos exigem instalação enorme",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Onívoro; dieta ajustada ao porte",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Especializada: não indicado ao aquário doméstico comum",
+      "referenceIds": ["care"]
+    }
+  ]
 }

@@ -11,8 +11,8 @@
   },
   "sortOrder": 212,
   "scientificName": "Hyphessobrycon herbertaxelrodi",
-  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
-  "description": "O neon-negro exibe faixas claras e escuras que ganham destaque em grupo. É uma espécie distinta do neon-cardinal, com ficha própria.",
+  "identificationNote": "",
+  "description": "O neon-negro exibe faixas claras e escuras que ganham destaque em cardume. Plantas, sombra parcial e companheiros tranquilos valorizam seu comportamento.",
   "photo": {
     "src": "/images/species/hyphessobrycon-herbertaxelrodi-1.webp",
     "width": 960,
@@ -53,19 +53,139 @@
       "id": "apresentacao",
       "fields": [
         {
-          "label": "Outros nomes populares",
-          "value": "TETRA NEON NEGRO",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Identificação científica",
-          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "label": "Nome científico",
+          "value": "Hyphessobrycon herbertaxelrodi",
           "referenceIds": ["cof"]
         },
         {
-          "label": "Introdução",
-          "value": "O neon-negro exibe faixas claras e escuras que ganham destaque em grupo. É uma espécie distinta do neon-cardinal, com ficha própria.",
+          "label": "Outros nomes e variedades",
+          "value": "Tetra neon negro",
           "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "20–28 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "5,0–7,5",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "1–12 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Tributários menores, cabeceiras, braços mortos e planícies sazonalmente inundadas, geralmente com vegetação marginal.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Faixa clara brilhante acima de uma faixa escura longitudinal; corpo discreto com marca avermelhada na região do olho.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 3,5 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Fêmeas maduras são mais arredondadas; machos tendem a ser mais esguios.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "72 L ou mais; cardume de 8–10. Base mínima de 80 × 30 cm, cerca de 72 L para 8–10 peixes. Preserve espaço de deslocamento e aumente a área ao incluir outros moradores.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Plantas, raízes e áreas sombreadas; manter espaço para o cardume e boa qualidade da água.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Baixa em aquário estabelecido",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Muito pacífico",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Cardume de 8–10 ou mais",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Muito pacífico; manter grupo misto de pelo menos 8–10, com companheiros não predadores de porte semelhante.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Pequenos alimentos variados: rações finas e complementos vivos ou congelados adequados à boca.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Dispersa ovos sem cuidados parentais; a criação dirigida exige proteção dos ovos e alimento inicial adequado.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Isolamento e perda de apetite merecem conferir a água e a competição. Evite peixes predadores e preserve refúgios vegetais sem eliminar a área de natação.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "América do Sul: alto rio Paraguai em Mato Grosso e Mato Grosso do Sul, Brasil. Registros de regiões próximas exigem cautela taxonômica.",
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -84,7 +204,7 @@
         },
         {
           "label": "Classe",
-          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "value": "Actinopteri",
           "referenceIds": ["class"]
         },
         {
@@ -111,126 +231,6 @@
           "label": "Autoridade taxonômica",
           "value": "Géry 1961",
           "referenceIds": ["cof"]
-        },
-        {
-          "label": "Sinônimos científicos",
-          "value": "Literatura de manutenção consultada sob Hyphessobrycon herbertaxelrodi; o nome aceito adotado é Hyphessobrycon herbertaxelrodi. Consultar o histórico nomenclatural completo na referência taxonômica.",
-          "referenceIds": ["cof", "care"]
-        }
-      ]
-    },
-    {
-      "id": "origem",
-      "fields": [
-        {
-          "label": "Continente e países",
-          "value": "América do Sul: alto rio Paraguai em Mato Grosso e Mato Grosso do Sul, Brasil. Registros de regiões próximas exigem cautela taxonômica.",
-          "referenceIds": ["care", "cof"]
-        },
-        {
-          "label": "Ambiente natural",
-          "value": "Tributários menores, cabeceiras, braços mortos e planícies sazonalmente inundadas, geralmente com vegetação marginal.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "caracteristicas",
-      "fields": [
-        {
-          "label": "Tamanho adulto",
-          "value": "35 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Diferenças entre machos e fêmeas",
-          "value": "Fêmeas maduras são mais arredondadas; machos tendem a ser mais esguios.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "agua",
-      "fields": [
-        {
-          "label": "Temperatura em aquário",
-          "value": "20–28 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "pH em aquário",
-          "value": "5.0–7.5; não interpretar os extremos como metas a alternar.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "GH",
-          "value": "1–12 °dGH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "KH",
-          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Substrato e decoração",
-          "value": "Plantas, raízes e áreas sombreadas; manter espaço para o cardume e boa qualidade da água.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "criacao",
-      "fields": [
-        {
-          "label": "Volume mínimo e contexto",
-          "value": "Base mínima de 80 × 30 cm, cerca de 72 L na fonte, para um pequeno cardume. Ampliar o aquário conforme quantidade de peixes, territórios e companheiros.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Manutenção específica",
-          "value": "Plantas, raízes e áreas sombreadas; manter espaço para o cardume e boa qualidade da água.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "alimentacao",
-      "fields": [
-        {
-          "label": "Alimentos adequados",
-          "value": "Pequenos alimentos variados: rações finas e complementos vivos ou congelados adequados à boca.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "comportamento",
-      "fields": [
-        {
-          "label": "Comportamento social",
-          "value": "Muito pacífico; manter grupo misto de pelo menos 8–10, com companheiros não predadores de porte semelhante.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "reproducao",
-      "fields": [
-        {
-          "label": "Tipo de reprodução",
-          "value": "Dispersa ovos sem cuidados parentais; a criação dirigida exige proteção dos ovos e alimento inicial adequado.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "saude",
-      "fields": [
-        {
-          "label": "Problemas de manutenção",
-          "value": "Plantas, raízes e áreas sombreadas; manter espaço para o cardume e boa qualidade da água.",
-          "referenceIds": ["care"]
         }
       ]
     },
@@ -238,8 +238,8 @@
       "id": "curiosidades",
       "fields": [
         {
-          "label": "Curiosidades verificadas da espécie",
-          "value": "A semelhança do nome “neon” não significa identidade taxonômica nem permite copiar automaticamente a ficha do cardinal.",
+          "label": "Você sabia?",
+          "value": "Apesar do nome neon, pertence a outro gênero e tem aparência distinta do neon-cardinal.",
           "referenceIds": ["care", "cof"]
         }
       ]
@@ -283,5 +283,52 @@
       "referenceIds": ["care", "cof"]
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "20–28 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "5,0–7,5",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "1–12 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 3,5 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "72 L ou mais; cardume de 8–10",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Muito pacífico",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Cardume de 8–10 ou mais",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Ração fina e pequenos alimentos variados",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Baixa em aquário estabelecido",
+      "referenceIds": ["care"]
+    }
+  ]
 }

@@ -11,8 +11,8 @@
   },
   "sortOrder": 190,
   "scientificName": "Poecilia sphenops",
-  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
-  "description": "A molinésia-sphenops precisa de água rica em minerais. Sua ficha reúne as necessidades da espécie sem atribuir automaticamente todas as molinésias coloridas ao mesmo táxon.",
+  "identificationNote": "",
+  "description": "A molinésia-sphenops é um peixe ativo que precisa de água dura e alimentação com componente vegetal. Plantas e refúgios ajudam a organizar a convivência do grupo.",
   "photo": {
     "src": "/images/species/poecilia-sphenops-1.webp",
     "width": 960,
@@ -53,19 +53,134 @@
       "id": "apresentacao",
       "fields": [
         {
-          "label": "Outros nomes populares",
-          "value": "MOLINÉSIA SPHENOPS",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Identificação científica",
-          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "label": "Nome científico",
+          "value": "Poecilia sphenops",
           "referenceIds": ["cof"]
         },
         {
-          "label": "Introdução",
-          "value": "A molinésia-sphenops precisa de água rica em minerais. Sua ficha reúne as necessidades da espécie sem atribuir automaticamente todas as molinésias coloridas ao mesmo táxon.",
+          "label": "Outros nomes e variedades",
+          "value": "Molinésia sphenops",
           "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "21–28 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "7,0–8,5",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "15–30 °dGH",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Molinésia de corpo robusto; machos têm gonopódio e fêmeas normalmente são maiores.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 8 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Machos são menores e possuem gonopódio; fêmeas são mais robustas.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "81 L ou mais; grupo planejado. 90 × 30 × 30 cm, aproximadamente 81 L, para um grupo bem planejado. Reserve área para natação e refúgios; acompanhe a população e amplie o espaço conforme os nascimentos.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Aquário plantado com água moderadamente dura a dura e pH básico. Sal não substitui cálcio e magnésio nem corrige a água mole.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Moderada: água dura indispensável",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Geralmente pacífica; machos perseguem fêmeas",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Grupo com refúgios e várias fêmeas por macho",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Pacífica, mas os companheiros devem tolerar a mesma água dura e alcalina. Machos perseguem fêmeas; fornecer refúgios e observar o grupo.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Onívora, com importante componente vegetal. Usar ração apropriada, algas ou vegetais adequados e variedade alimentar.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Vivípara. Mantenha várias fêmeas por macho e vegetação densa; adultos podem consumir filhotes.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Água mole não é corrigida apenas com sal. Mantenha mineralização compatível, observe a condição das nadadeiras e a perseguição às fêmeas e evite mudanças químicas bruscas.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "América do Norte e Central: sul do México, El Salvador, Honduras e Nicarágua.",
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -84,7 +199,7 @@
         },
         {
           "label": "Classe",
-          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "value": "Actinopteri",
           "referenceIds": ["class"]
         },
         {
@@ -111,126 +226,6 @@
           "label": "Autoridade taxonômica",
           "value": "Valenciennes 1846",
           "referenceIds": ["cof"]
-        },
-        {
-          "label": "Sinônimos científicos",
-          "value": "Literatura de manutenção consultada sob Poecilia sphenops; o nome aceito adotado é Poecilia sphenops. Consultar o histórico nomenclatural completo na referência taxonômica.",
-          "referenceIds": ["cof", "care"]
-        }
-      ]
-    },
-    {
-      "id": "origem",
-      "fields": [
-        {
-          "label": "Continente e países",
-          "value": "América do Norte e América Central: vertente atlântica do sul do México, El Salvador, Honduras e Nicarágua, conforme a delimitação atual do Catalog of Fishes. A fonte de manutenção apresenta uma distribuição histórica mais ampla; não confundir registros introduzidos com origem nativa.",
-          "referenceIds": ["care", "cof"]
-        },
-        {
-          "label": "Ambiente natural",
-          "value": "A ficha de manutenção consultada não detalha um micro-habitat único que represente toda a distribuição; não presumir exigência de água salobra.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "caracteristicas",
-      "fields": [
-        {
-          "label": "Tamanho adulto",
-          "value": "80 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Diferenças entre machos e fêmeas",
-          "value": "Machos são menores e possuem gonopódio; fêmeas são mais robustas.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "agua",
-      "fields": [
-        {
-          "label": "Temperatura em aquário",
-          "value": "21–28 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "pH em aquário",
-          "value": "7.0–8.5; não interpretar os extremos como metas a alternar.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "GH",
-          "value": "15–30 °dGH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "KH",
-          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Substrato e decoração",
-          "value": "Aquário plantado com água moderadamente dura a dura e pH básico. Sal não substitui cálcio e magnésio nem corrige a água mole.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "criacao",
-      "fields": [
-        {
-          "label": "Volume mínimo e contexto",
-          "value": "Base de 90 × 30 × 30 cm, aproximadamente 81 L na fonte. Considerar grupo adulto, reprodução e manutenção; ampliar espaço para população crescente.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Manutenção específica",
-          "value": "Aquário plantado com água moderadamente dura a dura e pH básico. Sal não substitui cálcio e magnésio nem corrige a água mole.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "alimentacao",
-      "fields": [
-        {
-          "label": "Alimentos adequados",
-          "value": "Onívora, com importante componente vegetal. Usar ração apropriada, algas ou vegetais adequados e variedade alimentar.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "comportamento",
-      "fields": [
-        {
-          "label": "Comportamento social",
-          "value": "Pacífica, mas os companheiros devem tolerar a mesma água dura e alcalina. Machos perseguem fêmeas; fornecer refúgios e observar o grupo.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "reproducao",
-      "fields": [
-        {
-          "label": "Tipo de reprodução",
-          "value": "Vivípara. A fonte recomenda várias fêmeas por macho e vegetação densa; adultos podem consumir filhotes.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "saude",
-      "fields": [
-        {
-          "label": "Problemas de manutenção",
-          "value": "Aquário plantado com água moderadamente dura a dura e pH básico. Sal não substitui cálcio e magnésio nem corrige a água mole.",
-          "referenceIds": ["care"]
         }
       ]
     },
@@ -238,8 +233,8 @@
       "id": "curiosidades",
       "fields": [
         {
-          "label": "Curiosidades verificadas da espécie",
-          "value": "Algumas molinésias ornamentais são híbridas com Poecilia latipinna. Apenas o registro explicitamente chamado SPHENOPS foi associado a esta ficha.",
+          "label": "Você sabia?",
+          "value": "Muitas molinésias ornamentais têm história de hibridação; cor comercial não identifica sozinha a espécie.",
           "referenceIds": ["care", "cof"]
         }
       ]
@@ -283,5 +278,52 @@
       "referenceIds": ["care", "cof"]
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "21–28 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "7,0–8,5",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "15–30 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 8 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "81 L ou mais; grupo planejado",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Geralmente pacífica; machos perseguem fêmeas",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Grupo com refúgios e várias fêmeas por macho",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Onívora com forte componente vegetal",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Moderada: água dura indispensável",
+      "referenceIds": ["care"]
+    }
+  ]
 }

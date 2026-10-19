@@ -11,7 +11,7 @@
   },
   "sortOrder": 210,
   "scientificName": "Gymnocorymbus ternetzi",
-  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "identificationNote": "",
   "description": "O tetra-negro é ativo e tem uma silhueta alta, com nadadeira anal ampla. A manutenção em cardume ajuda a distribuir suas interações.",
   "photo": {
     "src": "/images/species/gymnocorymbus-ternetzi-1.webp",
@@ -53,19 +53,139 @@
       "id": "apresentacao",
       "fields": [
         {
-          "label": "Outros nomes populares",
-          "value": "TETRA NEGRO",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Identificação científica",
-          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "label": "Nome científico",
+          "value": "Gymnocorymbus ternetzi",
           "referenceIds": ["cof"]
         },
         {
-          "label": "Introdução",
-          "value": "O tetra-negro é ativo e tem uma silhueta alta, com nadadeira anal ampla. A manutenção em cardume ajuda a distribuir suas interações.",
+          "label": "Outros nomes e variedades",
+          "value": "Tetra negro",
           "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "20–26 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "6,0–7,0",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "5–20 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Pequenos cursos de água lentos com vegetação marginal abundante.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Corpo alto, marcas escuras e nadadeira anal ampla, semelhante a uma saia.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 6 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Machos são menores e mais esguios e podem ter dorsal e anal mais pontudas.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "Cerca de 70 L ou mais; grupo de 12. Base de 75 × 30 cm e cerca de 70 L como ponto de partida para o cardume de 12. Planeje mais espaço para uma comunidade e evite companheiros de nadadeiras longas.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Reservar espaço aberto de natação e áreas mais tranquilas com plantas e sombra parcial.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Baixa a moderada: cardume e convivência",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Ativo; pode beliscar nadadeiras",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Cardume de pelo menos 12",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Geralmente pacífico, mas pode beliscar nadadeiras. Mantenha pelo menos 12 indivíduos para concentrar as interações dentro do cardume.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Onívoro: rações completas variadas, complementadas com pequenos alimentos vivos ou congelados.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Ovos adesivos são dispersos entre plantas; adultos podem comer a postura. Separar a reprodução quando o objetivo é criar os filhotes.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Beliscões e perseguições exigem conferir cardume e companheiros. A perda gradual do preto com a idade não é, sozinha, sinal de doença.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "América do Sul: bacias dos rios Paraguai e Guaporé, com registros em Brasil, Bolívia e Argentina.",
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -84,7 +204,7 @@
         },
         {
           "label": "Classe",
-          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "value": "Actinopteri",
           "referenceIds": ["class"]
         },
         {
@@ -111,126 +231,6 @@
           "label": "Autoridade taxonômica",
           "value": "(Boulenger 1895)",
           "referenceIds": ["cof"]
-        },
-        {
-          "label": "Sinônimos científicos",
-          "value": "Literatura de manutenção consultada sob Gymnocorymbus ternetzi; o nome aceito adotado é Gymnocorymbus ternetzi. Consultar o histórico nomenclatural completo na referência taxonômica.",
-          "referenceIds": ["cof", "care"]
-        }
-      ]
-    },
-    {
-      "id": "origem",
-      "fields": [
-        {
-          "label": "Continente e países",
-          "value": "América do Sul: bacias dos rios Paraguai e Guaporé, com registros em Brasil, Bolívia e Argentina.",
-          "referenceIds": ["care", "cof"]
-        },
-        {
-          "label": "Ambiente natural",
-          "value": "Pequenos cursos de água lentos com vegetação marginal abundante.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "caracteristicas",
-      "fields": [
-        {
-          "label": "Tamanho adulto",
-          "value": "60 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Diferenças entre machos e fêmeas",
-          "value": "Machos são menores e mais esguios e podem ter dorsal e anal mais pontudas.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "agua",
-      "fields": [
-        {
-          "label": "Temperatura em aquário",
-          "value": "20–26 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "pH em aquário",
-          "value": "6.0–7.0; não interpretar os extremos como metas a alternar.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "GH",
-          "value": "5–20 °dGH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "KH",
-          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Substrato e decoração",
-          "value": "Reservar espaço aberto de natação e áreas mais tranquilas com plantas e sombra parcial.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "criacao",
-      "fields": [
-        {
-          "label": "Volume mínimo e contexto",
-          "value": "Base de 75 × 30 cm e cerca de 70 L aparecem como referência para o grupo. Planejar espaço adicional para outros habitantes e não reduzir o grupo por conveniência.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Manutenção específica",
-          "value": "Reservar espaço aberto de natação e áreas mais tranquilas com plantas e sombra parcial.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "alimentacao",
-      "fields": [
-        {
-          "label": "Alimentos adequados",
-          "value": "Onívoro: rações completas variadas, complementadas com pequenos alimentos vivos ou congelados.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "comportamento",
-      "fields": [
-        {
-          "label": "Comportamento social",
-          "value": "Geralmente pacífico, mas pode beliscar nadadeiras. A fonte recomenda pelo menos 12 indivíduos para concentrar as interações dentro do cardume.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "reproducao",
-      "fields": [
-        {
-          "label": "Tipo de reprodução",
-          "value": "Ovos adesivos são dispersos entre plantas; adultos podem comer a postura. Separar a reprodução quando o objetivo é criar os filhotes.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "saude",
-      "fields": [
-        {
-          "label": "Problemas de manutenção",
-          "value": "Reservar espaço aberto de natação e áreas mais tranquilas com plantas e sombra parcial.",
-          "referenceIds": ["care"]
         }
       ]
     },
@@ -238,8 +238,8 @@
       "id": "curiosidades",
       "fields": [
         {
-          "label": "Curiosidades verificadas da espécie",
-          "value": "A coloração preta intensa dos juvenis tende a diminuir com a idade; isso não é, por si só, sinal de doença.",
+          "label": "Você sabia?",
+          "value": "O preto intenso dos juvenis costuma clarear à medida que envelhecem.",
           "referenceIds": ["care", "cof"]
         }
       ]
@@ -283,5 +283,52 @@
       "referenceIds": ["care", "cof"]
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "20–26 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "6,0–7,0",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "5–20 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 6 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "Cerca de 70 L ou mais; grupo de 12",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Ativo; pode beliscar nadadeiras",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Cardume de pelo menos 12",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Ração completa e pequenos invertebrados",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Baixa a moderada: cardume e convivência",
+      "referenceIds": ["care"]
+    }
+  ]
 }

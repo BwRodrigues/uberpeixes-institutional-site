@@ -11,7 +11,7 @@
   },
   "sortOrder": 205,
   "scientificName": "Pristella maxillaris",
-  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "identificationNote": "",
   "description": "A pristela tem corpo parcialmente translúcido e pequenas marcas contrastantes nas nadadeiras. Em grupo mostra um nado tranquilo e interessante.",
   "photo": {
     "src": "/images/species/pristella-maxillaris-1.webp",
@@ -53,19 +53,139 @@
       "id": "apresentacao",
       "fields": [
         {
-          "label": "Outros nomes populares",
-          "value": "TETRA ENFERMEIRINHA; TETRA PRISTEL GOLD",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Identificação científica",
-          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "label": "Nome científico",
+          "value": "Pristella maxillaris",
           "referenceIds": ["cof"]
         },
         {
-          "label": "Introdução",
-          "value": "A pristela tem corpo parcialmente translúcido e pequenas marcas contrastantes nas nadadeiras. Em grupo mostra um nado tranquilo e interessante.",
+          "label": "Outros nomes e variedades",
+          "value": "Tetra enfermeirinha; Tetra pristel gold",
           "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "22–28 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "6,0–7,5",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "2–20 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Córregos e tributários na seca; na chuva ocupa áreas de savana inundadas, onde pode reproduzir.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Corpo parcialmente translúcido e marcas amarelas, pretas e claras nas nadadeiras.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 4,5 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Fêmeas maduras são maiores e mais robustas que os machos.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "54 L ou mais; pequeno cardume. Base de 60 × 30 cm, cerca de 54 L para um pequeno cardume; prefira 10 ou mais indivíduos com espaço proporcional. Acrescente área ao planejar outros moradores.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Aquário plantado, com raízes e áreas de abrigo visual; evitar montagem muito exposta e companheiros vigorosos.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Baixa, com companheiros tranquilos",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Muito pacífica e pouco competitiva",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Pelo menos seis; de preferência 10 ou mais",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Muito pacífica, pouco competitiva com peixes grandes ou agitados. Manter no mínimo seis, de preferência dez ou mais.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Micropredador na natureza. Oferecer rações finas e pequenos alimentos vivos ou congelados, como dáfnias e artêmia.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Dispersa ovos, mas os pequenos alevinos exigem alimentos iniciais de tamanho adequado; reprodução dirigida requer aquário próprio.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Companheiros muito vigorosos podem limitar a alimentação. Confira se todo o cardume come e se os peixes não permanecem escondidos por intimidação.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "América do Sul: águas costeiras de Venezuela, Guiana, Suriname, Guiana Francesa e norte do Brasil.",
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -84,7 +204,7 @@
         },
         {
           "label": "Classe",
-          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "value": "Actinopteri",
           "referenceIds": ["class"]
         },
         {
@@ -111,126 +231,6 @@
           "label": "Autoridade taxonômica",
           "value": "(Ulrey 1894)",
           "referenceIds": ["cof"]
-        },
-        {
-          "label": "Sinônimos científicos",
-          "value": "Literatura de manutenção consultada sob Pristella maxillaris; o nome aceito adotado é Pristella maxillaris. Consultar o histórico nomenclatural completo na referência taxonômica.",
-          "referenceIds": ["cof", "care"]
-        }
-      ]
-    },
-    {
-      "id": "origem",
-      "fields": [
-        {
-          "label": "Continente e países",
-          "value": "América do Sul: águas costeiras de Venezuela, Guiana, Suriname, Guiana Francesa e norte do Brasil.",
-          "referenceIds": ["care", "cof"]
-        },
-        {
-          "label": "Ambiente natural",
-          "value": "Córregos e tributários na seca; na chuva ocupa áreas de savana inundadas, onde pode reproduzir.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "caracteristicas",
-      "fields": [
-        {
-          "label": "Tamanho adulto",
-          "value": "45 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Diferenças entre machos e fêmeas",
-          "value": "Fêmeas maduras são maiores e mais robustas que os machos.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "agua",
-      "fields": [
-        {
-          "label": "Temperatura em aquário",
-          "value": "22–28 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "pH em aquário",
-          "value": "6.0–7.5; não interpretar os extremos como metas a alternar.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "GH",
-          "value": "2–20 °dGH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "KH",
-          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Substrato e decoração",
-          "value": "Aquário plantado, com raízes e áreas de abrigo visual; evitar montagem muito exposta e companheiros vigorosos.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "criacao",
-      "fields": [
-        {
-          "label": "Volume mínimo e contexto",
-          "value": "Base mínima de 60 × 30 cm, cerca de 54 L na referência. O grupo e a população total determinam se é necessário aquário maior.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Manutenção específica",
-          "value": "Aquário plantado, com raízes e áreas de abrigo visual; evitar montagem muito exposta e companheiros vigorosos.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "alimentacao",
-      "fields": [
-        {
-          "label": "Alimentos adequados",
-          "value": "Micropredador na natureza. Oferecer rações finas e pequenos alimentos vivos ou congelados, como dáfnias e artêmia.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "comportamento",
-      "fields": [
-        {
-          "label": "Comportamento social",
-          "value": "Muito pacífica, pouco competitiva com peixes grandes ou agitados. Manter no mínimo seis, de preferência dez ou mais.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "reproducao",
-      "fields": [
-        {
-          "label": "Tipo de reprodução",
-          "value": "Dispersa ovos, mas os pequenos alevinos exigem alimentos iniciais de tamanho adequado; reprodução dirigida requer aquário próprio.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "saude",
-      "fields": [
-        {
-          "label": "Problemas de manutenção",
-          "value": "Aquário plantado, com raízes e áreas de abrigo visual; evitar montagem muito exposta e companheiros vigorosos.",
-          "referenceIds": ["care"]
         }
       ]
     },
@@ -238,8 +238,8 @@
       "id": "curiosidades",
       "fields": [
         {
-          "label": "Curiosidades verificadas da espécie",
-          "value": "A forma golden é ornamental. O nome enfermeirinha tem uso regional; a associação comercial deve ser conferida pela loja antes da aprovação editorial.",
+          "label": "Você sabia?",
+          "value": "As marcas contrastantes das nadadeiras ajudam a reconhecer a pristela mesmo quando o corpo parece quase transparente.",
           "referenceIds": ["care", "cof"]
         }
       ]
@@ -283,5 +283,52 @@
       "referenceIds": ["care", "cof"]
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "22–28 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "6,0–7,5",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "2–20 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 4,5 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "54 L ou mais; pequeno cardume",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Muito pacífica e pouco competitiva",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Pelo menos seis; de preferência 10 ou mais",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Rações finas, dáfnias e artêmia",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Baixa, com companheiros tranquilos",
+      "referenceIds": ["care"]
+    }
+  ]
 }

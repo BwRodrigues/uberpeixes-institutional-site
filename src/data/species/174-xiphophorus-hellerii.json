@@ -11,7 +11,7 @@
   },
   "sortOrder": 174,
   "scientificName": "Xiphophorus hellerii",
-  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "identificationNote": "",
   "description": "O espada é um nadador ativo, e o prolongamento da cauda dos machos inspira seu nome. Cores ornamentais diferentes são reunidas em uma única ficha.",
   "photo": {
     "src": "/images/species/xiphophorus-hellerii-1.webp",
@@ -53,19 +53,139 @@
       "id": "apresentacao",
       "fields": [
         {
-          "label": "Outros nomes populares",
-          "value": "ESPADA ANANAS (AMARELO E BRANCO); ESPADA KOHAKU (VERMELHO E BRANCO); ESPADA KOI (VERMELHO, PRETO E BRANCO); ESPADA MARLERY (AMARELO); ESPADA SANGUE/DOMINÓ (VERMELHO E PRETO); ESPADA VERDE",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Identificação científica",
-          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "label": "Nome científico",
+          "value": "Xiphophorus hellerii",
           "referenceIds": ["cof"]
         },
         {
-          "label": "Introdução",
-          "value": "O espada é um nadador ativo, e o prolongamento da cauda dos machos inspira seu nome. Cores ornamentais diferentes são reunidas em uma única ficha.",
+          "label": "Outros nomes e variedades",
+          "value": "Espada ananas (amarelo e branco); Espada kohaku (vermelho e branco); Espada koi (vermelho, preto e branco); Espada marlery (amarelo); Espada sangue/dominó (vermelho e preto); Espada verde",
           "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "16–28 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "7,0–8,0",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "10–25 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Riachos, nascentes, canais, lagoas e rios; adultos podem ocupar setores de maior corrente, enquanto juvenis usam margens calmas.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Machos normalmente têm prolongamento na parte inferior da cauda e gonopódio; fêmeas costumam ser maiores.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 14 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Machos têm gonopódio e geralmente prolongamento inferior da cauda; fêmeas tendem a ser maiores. Formas ornamentais podem ter outras nadadeiras alongadas.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "108 L ou mais; grupo planejado. Base de 120 × 30 cm, cerca de 108 L, para planejar o grupo adulto. Preserve espaço de natação e refúgios; a reprodução frequente pode exigir ampliação.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Aquário comprido com plantas e áreas de natação; alguma movimentação de água e refúgios ajudam a distribuir o uso do espaço.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Baixa a moderada: espaço e reprodução",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Ativo; machos disputam posição",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Grupo com espaço e refúgios para fêmeas",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Machos podem estabelecer hierarquias e gastar tempo disputando posição em espaços pequenos. Considerar sexo e território ao definir o grupo.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Onívoro: ração completa variada e pequenos complementos vivos ou congelados, com participação vegetal.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Fecundação interna e nascimento de filhotes vivos. Planejar espaço para a reprodução e vegetação de refúgio; não presumir sobrevivência de toda a prole.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Disputas e perseguição às fêmeas podem causar desgaste. Observe o acesso à comida e aos abrigos e evite deixar a população crescer além da capacidade do aquário.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "América do Norte, Mesoamérica: sudeste do México, Guatemala, Belize e Honduras.",
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -84,7 +204,7 @@
         },
         {
           "label": "Classe",
-          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "value": "Actinopteri",
           "referenceIds": ["class"]
         },
         {
@@ -111,126 +231,6 @@
           "label": "Autoridade taxonômica",
           "value": "Heckel 1848",
           "referenceIds": ["cof"]
-        },
-        {
-          "label": "Sinônimos científicos",
-          "value": "Literatura de manutenção consultada sob Xiphophorus hellerii; o nome aceito adotado é Xiphophorus hellerii. Consultar o histórico nomenclatural completo na referência taxonômica.",
-          "referenceIds": ["cof", "care"]
-        }
-      ]
-    },
-    {
-      "id": "origem",
-      "fields": [
-        {
-          "label": "Continente e países",
-          "value": "América do Norte, Mesoamérica: sudeste do México, Guatemala, Belize e Honduras.",
-          "referenceIds": ["care", "cof"]
-        },
-        {
-          "label": "Ambiente natural",
-          "value": "Riachos, nascentes, canais, lagoas e rios; adultos podem ocupar setores de maior corrente, enquanto juvenis usam margens calmas.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "caracteristicas",
-      "fields": [
-        {
-          "label": "Tamanho adulto",
-          "value": "140 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Diferenças entre machos e fêmeas",
-          "value": "Machos têm gonopódio e geralmente prolongamento inferior da cauda; fêmeas tendem a ser maiores. Formas ornamentais podem ter outras nadadeiras alongadas.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "agua",
-      "fields": [
-        {
-          "label": "Temperatura em aquário",
-          "value": "16–28 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "pH em aquário",
-          "value": "7.0–8.0; não interpretar os extremos como metas a alternar.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "GH",
-          "value": "10–25 °dGH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "KH",
-          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Substrato e decoração",
-          "value": "Aquário comprido com plantas e áreas de natação; alguma movimentação de água e refúgios ajudam a distribuir o uso do espaço.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "criacao",
-      "fields": [
-        {
-          "label": "Volume mínimo e contexto",
-          "value": "Base mínima indicada de 120 × 30 cm, cerca de 108 L. Planejar um grupo adulto, sexo e territórios e ampliar o aquário conforme população e companheiros.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Manutenção específica",
-          "value": "Aquário comprido com plantas e áreas de natação; alguma movimentação de água e refúgios ajudam a distribuir o uso do espaço.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "alimentacao",
-      "fields": [
-        {
-          "label": "Alimentos adequados",
-          "value": "Onívoro: ração completa variada e pequenos complementos vivos ou congelados, com participação vegetal.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "comportamento",
-      "fields": [
-        {
-          "label": "Comportamento social",
-          "value": "Machos podem estabelecer hierarquias e gastar tempo disputando posição em espaços pequenos. Considerar sexo e território ao definir o grupo.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "reproducao",
-      "fields": [
-        {
-          "label": "Tipo de reprodução",
-          "value": "Fecundação interna e nascimento de filhotes vivos. Planejar espaço para a reprodução e vegetação de refúgio; não presumir sobrevivência de toda a prole.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "saude",
-      "fields": [
-        {
-          "label": "Problemas de manutenção",
-          "value": "Aquário comprido com plantas e áreas de natação; alguma movimentação de água e refúgios ajudam a distribuir o uso do espaço.",
-          "referenceIds": ["care"]
         }
       ]
     },
@@ -238,8 +238,8 @@
       "id": "curiosidades",
       "fields": [
         {
-          "label": "Curiosidades verificadas da espécie",
-          "value": "A grafia correta é hellerii, com dois “i”. A fonte descreve seleção ornamental e hibridação em algumas formas; não alegar pureza de linhagem da loja.",
+          "label": "Você sabia?",
+          "value": "O prolongamento caudal inspira o nome espada; hellerii se escreve com dois i no final.",
           "referenceIds": ["care", "cof"]
         }
       ]
@@ -283,5 +283,52 @@
       "referenceIds": ["care", "cof"]
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "16–28 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "7,0–8,0",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "10–25 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 14 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "108 L ou mais; grupo planejado",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Ativo; machos disputam posição",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Grupo com espaço e refúgios para fêmeas",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Onívoro com componente vegetal",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Baixa a moderada: espaço e reprodução",
+      "referenceIds": ["care"]
+    }
+  ]
 }

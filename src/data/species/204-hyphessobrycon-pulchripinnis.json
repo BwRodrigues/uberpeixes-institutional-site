@@ -11,7 +11,7 @@
   },
   "sortOrder": 204,
   "scientificName": "Hyphessobrycon pulchripinnis",
-  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "identificationNote": "",
   "description": "O tetra-limão é um pequeno peixe de cardume cuja cor aparece melhor em grupo e em ambiente bem cuidado.",
   "photo": {
     "src": "/images/species/hyphessobrycon-pulchripinnis-1.webp",
@@ -53,19 +53,134 @@
       "id": "apresentacao",
       "fields": [
         {
-          "label": "Outros nomes populares",
-          "value": "TETRA  LIMÃO",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Identificação científica",
-          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "label": "Nome científico",
+          "value": "Hyphessobrycon pulchripinnis",
           "referenceIds": ["cof"]
         },
         {
-          "label": "Introdução",
-          "value": "O tetra-limão é um pequeno peixe de cardume cuja cor aparece melhor em grupo e em ambiente bem cuidado.",
+          "label": "Outros nomes e variedades",
+          "value": "Tetra  limão",
           "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "20–28 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "5,0–7,5",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "1–12 °dGH",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Pequeno tetra de corpo amarelado, olhos avermelhados e marcas escuras e amarelas nas nadadeiras.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 4 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Machos tendem a ser mais esguios, um pouco menores e mais intensamente coloridos nas nadadeiras.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "72 L ou mais; cardume de 8–10. Base mínima de 80 × 30 cm, cerca de 72 L para o pequeno cardume de 8–10. Aumente o espaço para mais animais e outros habitantes.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Plantas, raízes, sombra parcial e espaço para o grupo. Manter boa qualidade da água e observar a condição dos indivíduos.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Baixa em aquário estável",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Pacífico",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Cardume de 8–10 ou mais",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Mantenha um grupo misto de 8–10 ou mais, com companheiros pacíficos de porte semelhante. Evite predadores e peixes que disputem intensamente o alimento.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Pequenos alimentos variados, com rações de tamanho adequado e complementos vivos ou congelados.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Dispersa ovos sem cuidado parental; a criação dirigida usa proteção dos ovos e retirada dos adultos.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Cor discreta pode variar com ambiente e condição do grupo. Observe alimentação e comportamento, preserve plantas e sombra e investigue água e competição se houver isolamento persistente.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "América do Sul: Brasil, com registros nas drenagens do Tapajós e baixo Xingu.",
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -84,7 +199,7 @@
         },
         {
           "label": "Classe",
-          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "value": "Actinopteri",
           "referenceIds": ["class"]
         },
         {
@@ -111,126 +226,6 @@
           "label": "Autoridade taxonômica",
           "value": "Ahl 1937",
           "referenceIds": ["cof"]
-        },
-        {
-          "label": "Sinônimos científicos",
-          "value": "Literatura de manutenção consultada sob Hyphessobrycon pulchripinnis; o nome aceito adotado é Hyphessobrycon pulchripinnis. Consultar o histórico nomenclatural completo na referência taxonômica.",
-          "referenceIds": ["cof", "care"]
-        }
-      ]
-    },
-    {
-      "id": "origem",
-      "fields": [
-        {
-          "label": "Continente e países",
-          "value": "América do Sul: Brasil, com registros discutidos para Tapajós e baixo Xingu; a distribuição exata e a origem de linhagens comerciais têm incertezas.",
-          "referenceIds": ["care", "cof"]
-        },
-        {
-          "label": "Ambiente natural",
-          "value": "A fonte considera provável o uso de tributários menores, braços mortos e florestas inundadas; apresenta isso como hipótese, não como observação definitiva.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "caracteristicas",
-      "fields": [
-        {
-          "label": "Tamanho adulto",
-          "value": "40 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Diferenças entre machos e fêmeas",
-          "value": "Machos tendem a ser mais esguios, um pouco menores e mais intensamente coloridos nas nadadeiras.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "agua",
-      "fields": [
-        {
-          "label": "Temperatura em aquário",
-          "value": "20–28 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "pH em aquário",
-          "value": "5.0–7.5; não interpretar os extremos como metas a alternar.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "GH",
-          "value": "1–12 °dGH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "KH",
-          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Substrato e decoração",
-          "value": "Plantas, raízes, sombra parcial e espaço para o grupo. Manter boa qualidade da água e observar a condição dos indivíduos.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "criacao",
-      "fields": [
-        {
-          "label": "Volume mínimo e contexto",
-          "value": "Base mínima de 80 × 30 cm, cerca de 72 L na fonte, para um pequeno cardume. Ampliar o aquário conforme quantidade de peixes, territórios e companheiros.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Manutenção específica",
-          "value": "Plantas, raízes, sombra parcial e espaço para o grupo. Manter boa qualidade da água e observar a condição dos indivíduos.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "alimentacao",
-      "fields": [
-        {
-          "label": "Alimentos adequados",
-          "value": "Pequenos alimentos variados, com rações de tamanho adequado e complementos vivos ou congelados.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "comportamento",
-      "fields": [
-        {
-          "label": "Comportamento social",
-          "value": "Pacífico; a fonte recomenda grupo misto de 8–10 ou mais, com companheiros não predadores e de porte semelhante.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "reproducao",
-      "fields": [
-        {
-          "label": "Tipo de reprodução",
-          "value": "Dispersa ovos sem cuidado parental; a criação dirigida usa proteção dos ovos e retirada dos adultos.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "saude",
-      "fields": [
-        {
-          "label": "Problemas de manutenção",
-          "value": "Plantas, raízes, sombra parcial e espaço para o grupo. Manter boa qualidade da água e observar a condição dos indivíduos.",
-          "referenceIds": ["care"]
         }
       ]
     },
@@ -238,8 +233,8 @@
       "id": "curiosidades",
       "fields": [
         {
-          "label": "Curiosidades verificadas da espécie",
-          "value": "A localidade-tipo foi informada de modo impreciso a partir de peixes de aquário; não atribuir uma origem regional exata à linhagem da loja.",
+          "label": "Você sabia?",
+          "value": "A intensidade do amarelo se destaca melhor com o grupo bem mantido e uma montagem com sombra parcial.",
           "referenceIds": ["care", "cof"]
         }
       ]
@@ -283,5 +278,52 @@
       "referenceIds": ["care", "cof"]
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "20–28 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "5,0–7,5",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "1–12 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 4 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "72 L ou mais; cardume de 8–10",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Pacífico",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Cardume de 8–10 ou mais",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Ração fina e pequenos alimentos variados",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Baixa em aquário estável",
+      "referenceIds": ["care"]
+    }
+  ]
 }

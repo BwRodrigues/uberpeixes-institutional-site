@@ -144,7 +144,7 @@
         },
         {
           "label": "Convivência e conflitos",
-          "value": "Geralmente pacífico, mas pode consumir ovos, alevinos e peixes muito pequenos. Pode viver sozinho, embora a fonte relate maior atividade junto a conspecíficos.",
+          "value": "Geralmente pacífico, mas pode comer ovos, alevinos e peixes muito pequenos. Pode viver sozinho; junto de conspecíficos tende a mostrar mais atividade, desde que haja área de fundo suficiente.",
           "referenceIds": ["care"]
         }
       ]
@@ -164,7 +164,7 @@
       "fields": [
         {
           "label": "Desova e criação dos filhotes",
-          "value": "Há poucos relatos domésticos detalhados. Não extrapolar automaticamente o protocolo de Misgurnus fossilis para esta espécie.",
+          "value": "A reprodução doméstica é incomum. Manter adultos saudáveis em ambiente espaçoso e de água fresca vem antes de tentar reproduzi-los; receitas de outras espécies de dojo não devem ser aplicadas automaticamente.",
           "referenceIds": ["care"]
         }
       ]

@@ -11,7 +11,7 @@
   },
   "sortOrder": 208,
   "scientificName": "Hemigrammus erythrozonus",
-  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "identificationNote": "",
   "description": "Uma faixa luminosa acompanha o corpo do tetra-glowlight. O efeito se destaca em cardume, entre plantas e áreas de sombra.",
   "photo": {
     "src": "/images/species/hemigrammus-erythrozonus-1.webp",
@@ -53,19 +53,139 @@
       "id": "apresentacao",
       "fields": [
         {
-          "label": "Outros nomes populares",
-          "value": "TETRA GROWLIGHT",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Identificação científica",
-          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "label": "Nome científico",
+          "value": "Hemigrammus erythrozonus",
           "referenceIds": ["cof"]
         },
         {
-          "label": "Introdução",
-          "value": "Uma faixa luminosa acompanha o corpo do tetra-glowlight. O efeito se destaca em cardume, entre plantas e áreas de sombra.",
+          "label": "Outros nomes e variedades",
+          "value": "Tetra growlight",
           "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "24–28 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "5,5–7,5",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "2–15 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Tributários florestados de água frequentemente escurecida por matéria orgânica, com tendência ácida.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Corpo parcialmente translúcido com faixa longitudinal luminosa, avermelhada ou alaranjada.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 4 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "Fêmeas maduras tendem a ser maiores e mais arredondadas no ventre.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "68 L ou mais; pequeno cardume. 60 × 38 × 30 cm, aproximadamente 68 L para um pequeno cardume. Prefira 10 ou mais peixes e aumente o espaço para cardumes maiores e comunitários.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Plantas, raízes, sombra parcial e espaço para o cardume. A água de manutenção não precisa reproduzir extremos medidos na natureza.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Baixa, com água estável",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Pacífico",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Pelo menos seis; de preferência 10 ou mais",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Pacífico; manter pelo menos seis, preferencialmente dez ou mais. Não associar com peixes que possam engoli-lo.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Rações finas, pequenos alimentos vivos ou congelados e variedade alimentar.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Dispersa ovos; para criar alevinos, preparar aquário separado, proteger ovos dos adultos e oferecer alimento inicial apropriado.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Montagem muito exposta e predadores prejudicam a segurança do grupo. Preserve áreas de sombra e observe se os peixes deixam de acompanhar o cardume ou de se alimentar.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "América do Sul: bacia do rio Essequibo, na Guiana.",
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -84,7 +204,7 @@
         },
         {
           "label": "Classe",
-          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "value": "Actinopteri",
           "referenceIds": ["class"]
         },
         {
@@ -111,126 +231,6 @@
           "label": "Autoridade taxonômica",
           "value": "Durbin 1909",
           "referenceIds": ["cof"]
-        },
-        {
-          "label": "Sinônimos científicos",
-          "value": "Literatura de manutenção consultada sob Hemigrammus erythrozonus; o nome aceito adotado é Hemigrammus erythrozonus. Consultar o histórico nomenclatural completo na referência taxonômica.",
-          "referenceIds": ["cof", "care"]
-        }
-      ]
-    },
-    {
-      "id": "origem",
-      "fields": [
-        {
-          "label": "Continente e países",
-          "value": "América do Sul: bacia do rio Essequibo, na Guiana.",
-          "referenceIds": ["care", "cof"]
-        },
-        {
-          "label": "Ambiente natural",
-          "value": "Tributários florestados de água frequentemente escurecida por matéria orgânica, com tendência ácida.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "caracteristicas",
-      "fields": [
-        {
-          "label": "Tamanho adulto",
-          "value": "40 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Diferenças entre machos e fêmeas",
-          "value": "Fêmeas maduras tendem a ser maiores e mais arredondadas no ventre.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "agua",
-      "fields": [
-        {
-          "label": "Temperatura em aquário",
-          "value": "24–28 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "pH em aquário",
-          "value": "5.5–7.5; não interpretar os extremos como metas a alternar.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "GH",
-          "value": "2–15 °dGH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "KH",
-          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Substrato e decoração",
-          "value": "Plantas, raízes, sombra parcial e espaço para o cardume. A água de manutenção não precisa reproduzir extremos medidos na natureza.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "criacao",
-      "fields": [
-        {
-          "label": "Volume mínimo e contexto",
-          "value": "A fonte usa 60 × 38 × 30 cm, aproximadamente 68 L, para um pequeno grupo. Grupos maiores e comunitários pedem mais espaço.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Manutenção específica",
-          "value": "Plantas, raízes, sombra parcial e espaço para o cardume. A água de manutenção não precisa reproduzir extremos medidos na natureza.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "alimentacao",
-      "fields": [
-        {
-          "label": "Alimentos adequados",
-          "value": "Rações finas, pequenos alimentos vivos ou congelados e variedade alimentar.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "comportamento",
-      "fields": [
-        {
-          "label": "Comportamento social",
-          "value": "Pacífico; manter pelo menos seis, preferencialmente dez ou mais. Não associar com peixes que possam engoli-lo.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "reproducao",
-      "fields": [
-        {
-          "label": "Tipo de reprodução",
-          "value": "Dispersa ovos; para criar alevinos, preparar aquário separado, proteger ovos dos adultos e oferecer alimento inicial apropriado.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "saude",
-      "fields": [
-        {
-          "label": "Problemas de manutenção",
-          "value": "Plantas, raízes, sombra parcial e espaço para o cardume. A água de manutenção não precisa reproduzir extremos medidos na natureza.",
-          "referenceIds": ["care"]
         }
       ]
     },
@@ -238,8 +238,8 @@
       "id": "curiosidades",
       "fields": [
         {
-          "label": "Curiosidades verificadas da espécie",
-          "value": "O registro “GROWLIGHT” da planilha foi tratado como grafia comercial de glowlight, com identificação e referências próprias, sem copiar cuidados de outro tetra.",
+          "label": "Você sabia?",
+          "value": "A faixa lateral ganha destaque entre plantas e áreas sombreadas, dando origem ao nome glowlight.",
           "referenceIds": ["care", "cof"]
         }
       ]
@@ -283,5 +283,52 @@
       "referenceIds": ["care", "cof"]
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "24–28 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "5,5–7,5",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "2–15 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 4 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "68 L ou mais; pequeno cardume",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Pacífico",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Pelo menos seis; de preferência 10 ou mais",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Ração fina e pequenos invertebrados",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Baixa, com água estável",
+      "referenceIds": ["care"]
+    }
+  ]
 }

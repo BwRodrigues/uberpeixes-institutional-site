@@ -154,7 +154,7 @@
       "fields": [
         {
           "label": "Dieta em aquário",
-          "value": "Onívoro com preferência por itens animais. Ração completa apropriada, complementos aquáticos e variedade; a fonte não recomenda peixes alimentadores nem carnes de mamíferos.",
+          "value": "Ofereça ração completa para grandes ciclídeos, com complementos variados de origem aquática. Não use peixes alimentadores ou carnes de mamíferos como dieta habitual.",
           "referenceIds": ["care"]
         }
       ]
@@ -184,7 +184,7 @@
       "fields": [
         {
           "label": "Distribuição natural",
-          "value": "América do Sul: região amazônica e outras drenagens indicadas pela fonte, incluindo sistemas Amazonas e Orinoco. Existem populações introduzidas fora da área nativa.",
+          "value": "América do Sul: drenagens amazônicas e do Orinoco. Existem populações introduzidas fora da área nativa.",
           "referenceIds": ["cof", "care"]
         }
       ]

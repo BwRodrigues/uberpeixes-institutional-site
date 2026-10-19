@@ -11,7 +11,7 @@
   },
   "sortOrder": 211,
   "scientificName": "Paracheirodon axelrodi",
-  "identificationNote": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+  "identificationNote": "",
   "description": "O neon-cardinal combina azul intenso e vermelho ao longo do corpo. Um cardume em aquário maduro permite observar esse pequeno peixe com mais segurança.",
   "photo": {
     "src": "/images/species/paracheirodon-axelrodi-1.webp",
@@ -53,19 +53,139 @@
       "id": "apresentacao",
       "fields": [
         {
-          "label": "Outros nomes populares",
-          "value": "TETRA NEON CARDINAL",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Identificação científica",
-          "value": "Nome aceito, família e autoridade conferidos no Catalog of Fishes. As formas comerciais foram agrupadas sem atribuir procedência ou pureza de linhagem não comprovadas.",
+          "label": "Nome científico",
+          "value": "Paracheirodon axelrodi",
           "referenceIds": ["cof"]
         },
         {
-          "label": "Introdução",
-          "value": "O neon-cardinal combina azul intenso e vermelho ao longo do corpo. Um cardume em aquário maduro permite observar esse pequeno peixe com mais segurança.",
+          "label": "Outros nomes e variedades",
+          "value": "Tetra neon cardinal",
           "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "agua",
+      "fields": [
+        {
+          "label": "Temperatura em aquário",
+          "value": "23–29 °C",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "pH em aquário",
+          "value": "3,5–7,5",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "GH",
+          "value": "1–12 °dGH",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Habitat natural",
+          "value": "Igarapés e outros tributários florestados de água lenta; no Orinoco também ocorre em morichales de água clara e ácida.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "caracteristicas",
+      "fields": [
+        {
+          "label": "Aparência",
+          "value": "Faixas azul brilhante e vermelha, com o vermelho acompanhando grande parte do comprimento do corpo.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Tamanho adulto",
+          "value": "Até 3,5 cm sem a cauda",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Diferenças entre machos e fêmeas",
+          "value": "A sexagem externa é discreta; fêmeas maduras tendem a ser mais arredondadas. Não garantir sexo pela cor.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "criacao",
+      "fields": [
+        {
+          "label": "Volume mínimo e contexto",
+          "value": "54 L ou mais; cardume de 8–10. Base de 60 × 30 cm, cerca de 54 L para um pequeno cardume de 8–10. Prefira mais espaço para maiores números e outros peixes; utilize um aquário já estabelecido.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Montagem e manutenção",
+          "value": "Aquário maduro com plantas, raízes, sombra e estabilidade. Animais de origem silvestre podem precisar de condições mais específicas que linhagens criadas.",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Dificuldade",
+          "value": "Moderada: aquário maduro e adaptação cuidadosa",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "comportamento",
+      "fields": [
+        {
+          "label": "Temperamento",
+          "value": "Pacífico",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Sociabilidade",
+          "value": "Cardume de 8–10 ou mais",
+          "referenceIds": ["care"]
+        },
+        {
+          "label": "Convivência e conflitos",
+          "value": "Mantenha ao menos 8–10 exemplares com companheiros pequenos, tranquilos e de água compatível. Evite predadores, disputa intensa por alimento e mudanças bruscas de química.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "alimentacao",
+      "fields": [
+        {
+          "label": "Dieta em aquário",
+          "value": "Pequenos invertebrados e alimentos proporcionais ao porte; em aquário, rações finas e complementos pequenos vivos ou congelados.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "reproducao",
+      "fields": [
+        {
+          "label": "Desova e criação dos filhotes",
+          "value": "Dispersa ovos sem cuidado parental. A reprodução é sensível à dureza, qualidade da água e iluminação, exigindo preparação específica.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "saude",
+      "fields": [
+        {
+          "label": "Cuidados e prevenção",
+          "value": "Oscilações de água e introdução em montagem imatura são riscos importantes. Confirme as condições de origem, faça adaptação cuidadosa e evite mudanças bruscas para extremos de pH.",
+          "referenceIds": ["care"]
+        }
+      ]
+    },
+    {
+      "id": "origem",
+      "fields": [
+        {
+          "label": "Distribuição natural",
+          "value": "América do Sul: médio e alto rio Negro e partes do Orinoco, em Brasil, Colômbia e Venezuela, com ligação pelo canal do Casiquiare.",
+          "referenceIds": ["cof", "care"]
         }
       ]
     },
@@ -84,7 +204,7 @@
         },
         {
           "label": "Classe",
-          "value": "Actinopteri, conforme o esquema do Catalog of Fishes.",
+          "value": "Actinopteri",
           "referenceIds": ["class"]
         },
         {
@@ -111,126 +231,6 @@
           "label": "Autoridade taxonômica",
           "value": "(Schultz 1956)",
           "referenceIds": ["cof"]
-        },
-        {
-          "label": "Sinônimos científicos",
-          "value": "Literatura de manutenção consultada sob Paracheirodon axelrodi; o nome aceito adotado é Paracheirodon axelrodi. Consultar o histórico nomenclatural completo na referência taxonômica.",
-          "referenceIds": ["cof", "care"]
-        }
-      ]
-    },
-    {
-      "id": "origem",
-      "fields": [
-        {
-          "label": "Continente e países",
-          "value": "América do Sul: médio e alto rio Negro e partes do Orinoco, em Brasil, Colômbia e Venezuela, com ligação pelo canal do Casiquiare.",
-          "referenceIds": ["care", "cof"]
-        },
-        {
-          "label": "Ambiente natural",
-          "value": "Igarapés e outros tributários florestados de água lenta; no Orinoco também ocorre em morichales de água clara e ácida.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "caracteristicas",
-      "fields": [
-        {
-          "label": "Tamanho adulto",
-          "value": "35 mm SL (comprimento padrão, sem a nadadeira caudal). O tamanho de venda não corresponde necessariamente ao adulto.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Diferenças entre machos e fêmeas",
-          "value": "A sexagem externa é discreta; fêmeas maduras tendem a ser mais arredondadas. Não garantir sexo pela cor.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "agua",
-      "fields": [
-        {
-          "label": "Temperatura em aquário",
-          "value": "23–29 °C, faixa da fonte para manutenção, sem reproduzir extremos naturais.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "pH em aquário",
-          "value": "3.5–7.5; não interpretar os extremos como metas a alternar.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "GH",
-          "value": "1–12 °dGH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "KH",
-          "value": "A fonte consultada não estabelece faixa específica de KH para manutenção desta espécie; dado pendente, sem converter GH em KH.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Substrato e decoração",
-          "value": "Aquário maduro com plantas, raízes, sombra e estabilidade. Animais de origem silvestre podem precisar de condições mais específicas que linhagens criadas.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "criacao",
-      "fields": [
-        {
-          "label": "Volume mínimo e contexto",
-          "value": "Usar a base mínima de 60 × 30 cm, cerca de 54 L na referência, para um pequeno cardume; preferir mais espaço para maiores números e comunitários.",
-          "referenceIds": ["care"]
-        },
-        {
-          "label": "Manutenção específica",
-          "value": "Aquário maduro com plantas, raízes, sombra e estabilidade. Animais de origem silvestre podem precisar de condições mais específicas que linhagens criadas.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "alimentacao",
-      "fields": [
-        {
-          "label": "Alimentos adequados",
-          "value": "Pequenos invertebrados e alimentos proporcionais ao porte; em aquário, rações finas e complementos pequenos vivos ou congelados.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "comportamento",
-      "fields": [
-        {
-          "label": "Comportamento social",
-          "value": "Pacífico; manter ao menos 8–10 exemplares e evitar predadores. A fonte de ramirezi cita esta espécie como possível companhia sob condições adequadas, não como regra para qualquer aquário.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "reproducao",
-      "fields": [
-        {
-          "label": "Tipo de reprodução",
-          "value": "Dispersa ovos sem cuidado parental. A reprodução é sensível à dureza, qualidade da água e iluminação, exigindo preparação específica.",
-          "referenceIds": ["care"]
-        }
-      ]
-    },
-    {
-      "id": "saude",
-      "fields": [
-        {
-          "label": "Problemas de manutenção",
-          "value": "Aquário maduro com plantas, raízes, sombra e estabilidade. Animais de origem silvestre podem precisar de condições mais específicas que linhagens criadas.",
-          "referenceIds": ["care"]
         }
       ]
     },
@@ -238,8 +238,8 @@
       "id": "curiosidades",
       "fields": [
         {
-          "label": "Curiosidades verificadas da espécie",
-          "value": "Não confundir com o neon-comum: esta ficha é exclusiva de Paracheirodon axelrodi.",
+          "label": "Você sabia?",
+          "value": "A faixa vermelha extensa ajuda a diferenciá-lo do neon-comum, Paracheirodon innesi.",
           "referenceIds": ["care", "cof"]
         }
       ]
@@ -283,5 +283,52 @@
       "referenceIds": ["care", "cof"]
     }
   ],
-  "status": "draft"
+  "status": "draft",
+  "essentials": [
+    {
+      "key": "temperature",
+      "value": "23–29 °C",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "ph",
+      "value": "3,5–7,5",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "gh",
+      "value": "1–12 °dGH",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "size",
+      "value": "Até 3,5 cm sem a cauda",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "volume",
+      "value": "54 L ou mais; cardume de 8–10",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "behavior",
+      "value": "Pacífico",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "sociability",
+      "value": "Cardume de 8–10 ou mais",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "diet",
+      "value": "Ração fina e pequenos invertebrados",
+      "referenceIds": ["care"]
+    },
+    {
+      "key": "difficulty",
+      "value": "Moderada: aquário maduro e adaptação cuidadosa",
+      "referenceIds": ["care"]
+    }
+  ]
 }
